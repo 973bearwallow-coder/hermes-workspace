@@ -1,0 +1,73 @@
+#!/usr/bin/env python3
+"""Quick Google Workspace CLI - reads emails and calendar"""
+import sys
+import os
+
+# Add the scripts dir to path for token manager
+sys.path.insert(0, '/home/tom/hermes-workspace/scripts')
+from google_token_manager import refresh_if_needed
+
+def show_gmail(account='atlas'):
+    from googleapiclient.discovery import build
+    creds = refresh_if_needed(account)
+    if not creds:
+        print(f"No valid token for {account}. Run: google_token_manager.py {account} reauth")
+        return
+    
+    service = build('gmail', 'v1', credentials=creds)
+    profile = service.users().getProfile(userId='me').execute()
+    email = profile['emailAddress']
+    total = profile['messagesTotal']
+    print(f'📧 {email} ({total} messages)')
+    print()
+    
+    results = service.users().messages().list(userId='me', maxResults=15).execute()
+    messages = results.get('messages', [])
+    for msg in messages:
+        m = service.users().messages().get(userId='me', id=msg['id'], format='metadata').execute()
+        subject = next((h['value'] for h in m.get('payload',{}).get('headers',[]) if h['name']=='Subject'), 'No subject')
+        sender = next((h['value'] for h in m.get('payload',{}).get('headers',[]) if h['name']=='From'), 'Unknown')
+        date = next((h['value'] for h in m.get('payload',{}).get('headers',[]) if h['name']=='Date'), '?')
+        snippet = m.get('snippet', '')[:60]
+        print(f'  {sender[:35]:35s} | {subject[:40]}')
+        print(f'  {date[:20]} | {snippet}')
+        print()
+
+def show_calendar(account='personal'):
+    from googleapiclient.discovery import build
+    from datetime import datetime, timedelta
+    
+    creds = refresh_if_needed(account)
+    if not creds:
+        print(f"No valid token for {account}. Run: google_token_manager.py {account} reauth")
+        return
+    
+    service = build('calendar', 'v3', credentials=creds)
+    now = datetime.utcnow().isoformat() + 'Z'
+    events = service.events().list(
+        calendarId='primary', timeMin=now, maxResults=10,
+        singleEvents=True, orderBy='startTime'
+    ).execute()
+    
+    print(f'📅 Upcoming events ({account}):')
+    for event in events.get('items', []):
+        start = event.get('start', {}).get('dateTime', event.get('start', {}).get('date', '?'))
+        summary = event.get('summary', 'No title')
+        print(f'  {start}  {summary}')
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print("Usage: gws <command> [account]")
+        print("Commands: gmail, calendar")
+        print("Accounts: personal (default), atlas")
+        sys.exit(1)
+    
+    cmd = sys.argv[1]
+    account = sys.argv[2] if len(sys.argv) > 2 else ('personal' if cmd == 'calendar' else 'atlas')
+    
+    if cmd == 'gmail':
+        show_gmail(account)
+    elif cmd == 'calendar':
+        show_calendar(account)
+    else:
+        print(f"Unknown command: {cmd}")

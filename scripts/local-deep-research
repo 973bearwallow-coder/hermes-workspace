@@ -1,0 +1,5 @@
+#!/bin/bash
+# Local Deep Research - wrapper script
+# Usage: local-deep-research "your research question"
+source /home/tom/hermes-workspace/venvs/local-deep-research/bin/activate
+python -m local_deep_research.web.app "$@"

@@ -1,0 +1,483 @@
+{
+  "generated": "2026-06-19T22:30:00.000000",
+  "total_recipes": 169,
+  "cuisines": {
+    "american": 24,
+    "italian": 11,
+    "thai": 9,
+    "french": 7,
+    "chinese": 4,
+    "greek": 4,
+    "mexican": 5,
+    "vietnamese": 2,
+    "jamaican": 1,
+    "spanish": 1,
+    "middle-eastern": 1,
+    "british": 2,
+    "malaysian": 1,
+    "australian": 1,
+    "moroccan": 1
+  },
+  "types": {
+    "main": 48,
+    "dessert": 8,
+    "salad": 6,
+    "breakfast": 4,
+    "cheesecake": 3,
+    "side dish": 2,
+    "bread": 2,
+    "cake": 2,
+    "brunch": 2,
+    "yeast bread": 2,
+    "appetizer": 3,
+    "cupcake": 1,
+    "condiment": 1,
+    "dressing": 1,
+    "bar": 1,
+    "main dish": 1
+  },
+  "methods": {
+    "stovetop": 24,
+    "baked": 17,
+    "bake": 12,
+    "stir-fry": 7,
+    "grilled": 4,
+    "no-cook": 2,
+    "one-pot": 4,
+    "slow-cooker": 1,
+    "blend": 1,
+    "roast & stovetop": 1
+  },
+  "recipes": [
+    {
+      "name": "French Chicken au Poivre Sauce",
+      "file": "recipes/french_chicken_au_poivre_sauce.md",
+      "cuisines": ["french"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/french-chicken-au-poivre-sauce/",
+      "size": 2031
+    },
+    {
+      "name": "Thai Grilled Chicken (Gai Yang)",
+      "file": "recipes/thai_grilled_chicken_gai_yang.md",
+      "cuisines": ["thai"],
+      "types": ["main"],
+      "methods": ["grilled"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/thai-grilled-chicken-gai-yang/",
+      "size": 2595
+    },
+    {
+      "name": "Chicken Chasseur",
+      "file": "recipes/chicken_chasseur.md",
+      "cuisines": ["french"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-chasseur/",
+      "size": 2950
+    },
+    {
+      "name": "New Orleans Chicken Wings",
+      "file": "recipes/new_orleans_chicken_wings.md",
+      "cuisines": ["american"],
+      "types": ["appetizer"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/new-orleans-chicken-wings/",
+      "size": 2480
+    },
+    {
+      "name": "Chicken Cacciatore (Italian Chicken Stew)",
+      "file": "recipes/chicken_cacciatore.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-cacciatore/",
+      "size": 2427
+    },
+    {
+      "name": "Chicken Francese",
+      "file": "recipes/chicken_francese.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-francese/",
+      "size": 2691
+    },
+    {
+      "name": "Vietnamese Caramel Ginger Chicken",
+      "file": "recipes/vietnamese_caramel_ginger_chicken.md",
+      "cuisines": ["vietnamese"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/vietnamese-caramel-ginger-chicken/",
+      "size": 2529
+    },
+    {
+      "name": "Chicken Marsala",
+      "file": "recipes/chicken_marsala.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-marsala/",
+      "size": 2055
+    },
+    {
+      "name": "One Pot Baked Greek Chicken Orzo Risoni",
+      "file": "recipes/one_pot_baked_greek_chicken_orzo_risoni.md",
+      "cuisines": ["greek"],
+      "types": ["main"],
+      "methods": ["one-pot"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/one-pot-baked-greek-chicken-orzo-risoni/",
+      "size": 3338
+    },
+    {
+      "name": "Thai Red Curry Pot Roast Chicken",
+      "file": "recipes/thai_red_curry_pot_roast_chicken.md",
+      "cuisines": ["thai"],
+      "types": ["main"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/thai-red-curry-pot-roast-chicken/",
+      "size": 2912
+    },
+    {
+      "name": "Chicken in Creamy Mustard Sauce",
+      "file": "recipes/chicken_in_creamy_mustard_sauce.md",
+      "cuisines": ["french"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-in-creamy-mustard-sauce/",
+      "size": 2071
+    },
+    {
+      "name": "Chicken Shawarma (Middle Eastern)",
+      "file": "recipes/chicken_shawarma_middle_eastern.md",
+      "cuisines": ["middle-eastern"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/",
+      "size": 2104
+    },
+    {
+      "name": "Coq au Vin",
+      "file": "recipes/coq_au_vin.md",
+      "cuisines": ["french"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/coq-au-vin/",
+      "size": 2771
+    },
+    {
+      "name": "Chicken Piccata",
+      "file": "recipes/chicken_piccata.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-piccata/",
+      "size": 2464
+    },
+    {
+      "name": "Creamy Chicken Mushroom Fettucine",
+      "file": "recipes/creamy_chicken_mushroom_fettucine.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/creamy-chicken-mushroom-fettucine/",
+      "size": 2094
+    },
+    {
+      "name": "Creamy Tuscan Chicken Pasta Bake",
+      "file": "recipes/creamy_tuscan_chicken_pasta_bake.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/creamy-tuscan-chicken-pasta-bake/",
+      "size": 2043
+    },
+    {
+      "name": "Chicken Broccoli Stir Fry",
+      "file": "recipes/chicken_broccoli_stir_fry.md",
+      "cuisines": ["chinese"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-broccoli-stir-fry/",
+      "size": 2623
+    },
+    {
+      "name": "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
+      "file": "recipes/thai_chicken_lettuce_cups_larb_gai.md",
+      "cuisines": ["thai"],
+      "types": ["appetizer"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/thai-chicken-lettuce-cups/",
+      "size": 2430
+    },
+    {
+      "name": "Chicken Pad Thai",
+      "file": "recipes/chicken_pad_thai.md",
+      "cuisines": ["thai"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-pad-thai/",
+      "size": 2267
+    },
+    {
+      "name": "Chicken Chow Mein",
+      "file": "recipes/chicken_chow_mein.md",
+      "cuisines": ["chinese"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-chow-mein/",
+      "size": 2252
+    },
+    {
+      "name": "Thai Basil Chicken Stir Fry",
+      "file": "recipes/thai_basil_chicken_stir_fry.md",
+      "cuisines": ["thai"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/thai-basil-chicken-stir-fry/",
+      "size": 3116
+    },
+    {
+      "name": "Chicken with Creamy Sun Dried Tomato Sauce",
+      "file": "recipes/chicken_with_creamy_sun_dried_tomato_sauce.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-with-creamy-sun-dried-tomato-sauce/",
+      "size": 2188
+    },
+    {
+      "name": "Pad Kee Mao (Thai Drunken Noodles)",
+      "file": "recipes/pad_kee_mao_thai_drunken_noodles.md",
+      "cuisines": ["thai"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/pad-kee-mao-thai-drunken-noodles/",
+      "size": 2307
+    },
+    {
+      "name": "Jambalaya Recipe",
+      "file": "recipes/jambalaya_recipe.md",
+      "cuisines": ["american"],
+      "types": ["main"],
+      "methods": ["one-pot"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/jambalaya-recipe/",
+      "size": 2507
+    },
+    {
+      "name": "Chicken Pasta Recipe",
+      "file": "recipes/chicken_pasta_recipe.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-pasta-recipe/",
+      "size": 2307
+    },
+    {
+      "name": "Chinese Cashew Chicken",
+      "file": "recipes/chinese_cashew_chicken.md",
+      "cuisines": ["chinese"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chinese-cashew-chicken/",
+      "size": 2655
+    },
+    {
+      "name": "Chicken Pot Pie",
+      "file": "recipes/chicken_pot_pie.md",
+      "cuisines": ["american"],
+      "types": ["main"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-pot-pie/",
+      "size": 2357
+    },
+    {
+      "name": "Lemon Chicken Salad",
+      "file": "recipes/lemon_chicken_salad.md",
+      "cuisines": ["american"],
+      "types": ["salad"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/lemon-chicken-salad/",
+      "size": 2173
+    },
+    {
+      "name": "Mexican Chicken Avocado Salad",
+      "file": "recipes/mexican_chicken_avocado_salad.md",
+      "cuisines": ["mexican"],
+      "types": ["salad"],
+      "methods": ["grilled"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/mexican-chicken-avocado-salad/",
+      "size": 2310
+    },
+    {
+      "name": "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+      "file": "recipes/oven_baked_chicken_and_rice_pilaf.md",
+      "cuisines": ["american"],
+      "types": ["main"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/oven-baked-chicken-and-rice-pilaf-cranberry-walnut-apple/",
+      "size": 2582
+    },
+    {
+      "name": "Vietnamese Coconut Caramel Chicken",
+      "file": "recipes/vietnamese_coconut_caramel_chicken.md",
+      "cuisines": ["vietnamese"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/vietnamese-coconut-caramel-chicken/",
+      "size": 2240
+    },
+    {
+      "name": "Thai Coconut Chicken",
+      "file": "recipes/thai_coconut_chicken.md",
+      "cuisines": ["thai"],
+      "types": ["main"],
+      "methods": ["grilled"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/thai-coconut-chicken/",
+      "size": 2116
+    },
+    {
+      "name": "Oven Baked Chicken Quesadillas",
+      "file": "recipes/oven_baked_chicken_quesadillas.md",
+      "cuisines": ["mexican"],
+      "types": ["main"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/oven-baked-chicken-quesadillas/",
+      "size": 2117
+    },
+    {
+      "name": "Creamy Chicken and Bacon Pasta",
+      "file": "recipes/creamy_chicken_and_bacon_pasta.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/creamy-chicken-and-bacon-pasta/",
+      "size": 2381
+    },
+    {
+      "name": "Chicken and Mushroom Risotto",
+      "file": "recipes/chicken_and_mushroom_risotto.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["stovetop"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/chicken-and-mushroom-risotto/",
+      "size": 2365
+    },
+    {
+      "name": "Mexican Shredded Chicken",
+      "file": "recipes/mexican_shredded_chicken.md",
+      "cuisines": ["mexican"],
+      "types": ["main"],
+      "methods": ["slow-cooker"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/mexican-shredded-chicken/",
+      "size": 2326
+    },
+    {
+      "name": "One Pot Chicken Enchilada Rice Casserole",
+      "file": "recipes/one_pot_chicken_enchilada_rice_casserole.md",
+      "cuisines": ["mexican"],
+      "types": ["main"],
+      "methods": ["one-pot"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/one-pot-chicken-enchilada-rice-casserole/",
+      "size": 2617
+    },
+    {
+      "name": "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+      "file": "recipes/one_pot_creamy_parmesan_garlic_risotto.md",
+      "cuisines": ["italian"],
+      "types": ["main"],
+      "methods": ["one-pot"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/one-pot-creamy-parmesan-garlic-risotto-with-lemon-pepper-chicken/",
+      "size": 3004
+    },
+    {
+      "name": "One Pot Greek Chicken Lemon Rice",
+      "file": "recipes/one_pot_greek_chicken_lemon_rice.md",
+      "cuisines": ["greek"],
+      "types": ["main"],
+      "methods": ["one-pot"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/one-pot-greek-chicken-lemon-rice/",
+      "size": 2474
+    },
+    {
+      "name": "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+      "file": "recipes/jamaican_jerk_chicken_drumsticks.md",
+      "cuisines": ["jamaican"],
+      "types": ["main"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/jamaican-jerk-chicken-drumsticks/",
+      "size": 2969
+    },
+    {
+      "name": "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+      "file": "recipes/one_pan_spanish_chicken_chorizo.md",
+      "cuisines": ["spanish"],
+      "types": ["main"],
+      "methods": ["baked"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/one-pan-spanish-chicken-chorizo-tomato-potatoes/",
+      "size": 2873
+    },
+    {
+      "name": "Crispy Shredded Chicken Noodle Stir Fry",
+      "file": "recipes/crispy_shredded_chicken_noodle_stir_fry.md",
+      "cuisines": ["chinese"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/crispy-shredded-chicken-noodle-stir-fry/",
+      "size": 2555
+    },
+    {
+      "name": "10 Classic Chinese Dishes + Homemade Teriyaki Sauce",
+      "file": "recipes/10_classic_chinese_dishes_homemade_teriyaki.md",
+      "cuisines": ["chinese"],
+      "types": ["main"],
+      "methods": ["stir-fry"],
+      "has_full_content": true,
+      "url": "https://www.recipetineats.com/10-classic-chinese-dishes-1-amazing-sauce/",
+      "size": 4161
+    }
+  ]
+}

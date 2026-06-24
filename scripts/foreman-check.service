@@ -1,0 +1,13 @@
+[Unit]
+Description=Foreman Health Check - Monitor openclaw, gateway, and ollama services
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/tom/hermes-workspace/scripts/foreman_check.sh
+WorkingDirectory=/home/tom/hermes-workspace
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

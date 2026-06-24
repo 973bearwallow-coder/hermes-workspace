@@ -1,0 +1,37 @@
+{
+  "columns": [
+    {
+      "id": "backlog",
+      "name": "Backlog",
+      "cards": [
+        {"id": "c1", "title": "Google OAuth re-auth", "detail": "Create new OAuth client in Google Cloud Console, save client_secret.json, run auth flow", "priority": "high"},
+        {"id": "c2", "title": "Context pruning MCP tool", "detail": "Install context-mode (16k★) from GitHub — useful for long-context sessions", "priority": "medium"},
+        {"id": "c3", "title": "Paw Prints website project", "detail": "Awaiting Tom and Jane input, then break into tasks and spin up sub-agents", "priority": "high"},
+        {"id": "c4", "title": "YouTube/Blog monitor for AI Boardroom public content", "detail": "juliangoldie.com content scraper", "priority": "low"},
+        {"id": "c5", "title": "Morning briefing integration with daily memory notes", "detail": "Connect daily memory capture output to morning briefing", "priority": "low"}
+      ]
+    },
+    {
+      "id": "inprogress",
+      "name": "In Progress",
+      "cards": [
+        {"id": "c6", "title": "Coaching call audio fix end-to-end test", "detail": "Dynamic sink detection deployed, needs test before Friday's call", "priority": "high"},
+        {"id": "c7", "title": "Unified memory search system", "detail": "Atlas Unified Search v3 built and tested — 269 semantic chunks + 23K FTS5 messages", "priority": "high"}
+      ]
+    },
+    {
+      "id": "done",
+      "name": "Done",
+      "cards": [
+        {"id": "c8", "title": "Mission Control Dashboard", "detail": "Flask app on port 18787 — system status, cron jobs, memory, transcripts, pet intel", "priority": "medium"},
+        {"id": "c9", "title": "Zapier MCP integration", "detail": "Configured with embed ID + Gmail + Notion + Google Drive", "priority": "medium"},
+        {"id": "c10", "title": "Auto-memory-capture daemon", "detail": "Adaptive screenshot+OCR every 2-10 min based on content richness", "priority": "medium"},
+        {"id": "c11", "title": "GitHub trending monitor", "detail": "Daily cron at 8am scanning 8 categories", "priority": "medium"},
+        {"id": "c12", "title": "AI Boardroom Skool scraper", "detail": "Kimi WebBridge-based scraper for community posts", "priority": "medium"},
+        {"id": "c13", "title": "Pet community monitor", "detail": "ddgs-based weekly Reddit search for dog care business topics", "priority": "medium"},
+        {"id": "c14", "title": "3 new skills created", "detail": "zapier-mcp, builder, phone-agent", "priority": "low"},
+        {"id": "c15", "title": "Charles model switch", "detail": "Switched from Gemini to local ollama/qwen2.5:7b", "priority": "medium"}
+      ]
+    }
+  ]
+}
