@@ -20,3 +20,4 @@ projects/recipe-vault/by-type/
 scripts/storage/
 results/
 github_monitor_readmes/
+memory/.search_index.db
