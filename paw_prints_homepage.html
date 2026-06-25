@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw Prints Pet Services LLC — Falls Church, VA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujl5/kXvB7aQ8u5g6J9x2z1n6f/K1hOqT/F2zU+Pz9tW00Z8n2r6/Z7h2LzG9x1+pX1N5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Base styles and color palette — Divi 5 palette */
+        :root {
+            --color-primary: #FFF386; /* Light yellow (Divi primary) */
+            --color-gold: #FFD000; /* Gold */
+            --color-secondary: #FFB300; /* Amber */
+            --color-background-light: #FFF8E1; /* Cream */
+            --color-text-dark: #3D2E25; /* Warm brown */
+            --color-text-light: #FFFFFF;
+            --color-border: #B4B4B8;
+            --color-button-hover: #FFD000;
+            --color-trust-bg: #FFF386;
+            --color-green: #5CBF2A;
+            --color-green-dark: #4A9E20;
+            --color-tan: #8B6914;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Open Sans', sans-serif;
+            --padding-section: 60px 20px;
+            --max-width: 1200px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--color-text-dark);
+            background-color: var(--color-background-light);
+            -webkit-font-smoothing: antialiased;
+            scroll-behavior: smooth;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            color: var(--color-primary);
+            margin-bottom: 0.8em;
+            line-height: 1.2;
+        }
+
+        h1 { font-size: 2.8em; }
+        h2 { font-size: 2.2em; }
+        h3 { font-size: 1.8em; }
+        h4 { font-size: 1.4em; }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        a {
+            color: var(--color-primary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--color-secondary);
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--color-green);
+            color: var(--color-text-light);
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1em;
+            text-align: center;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: var(--color-green-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(92,191,42,0.35);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--color-green);
+            border: 2.5px solid var(--color-green);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(70,127,255,0.08);
+            border-color: #467FFF;
+            color: #467FFF;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--color-text-light);
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: relative;
+            top: 0;
+            z-index: 1000;
+            overflow: hidden;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 1.8em;
+            color: var(--color-green);
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .logo img {
+            max-height: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        img.hero-bg {
+            display: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul a {
+            color: var(--color-text-dark);
+            font-weight: 600;
+            font-size: 0.95em;
+            position: relative;
+        }
+
+        nav ul a:hover {
+            color: var(--color-primary);
+        }
+
+        nav ul a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            display: block;
+            margin-top: 5px;
+            right: 0;
+            background: var(--color-primary);
+            transition: width 0.3s ease;
+        }
+        nav ul a:hover::after {
+            width: 100%;
+            left: 0;
+            background: var(--color-primary);
+        }
+
+        .nav-cta {
+            background: var(--color-primary);
+            color: var(--color-text-dark);
+            border: none;
+            border-radius: 50px;
+            padding: 0.55rem 1.5rem;
+            font-family: var(--font-body);
+            font-weight: 800;
+            font-size: 0.85rem;
+            letter-spacing: 0.3px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .nav-cta:hover {
+            background: var(--color-gold);
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(255,231,74,0.5);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(160deg, #FFF386 0%, #FFD000 60%, #FFB300 100%);
+            background-image:
+                url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='rgba(61,46,37,0.06)'%3E%3Cpath d='M30 38c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm-8-10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm16 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm-8-6c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3zm-6-8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm12 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z'/%3E%3C/g%3E%3C/svg%3E"),
+                linear-gradient(160deg, #FFF386 0%, #FFD000 60%, #FFB300 100%);
+            color: var(--color-text-dark);
+            text-align: center;
+            padding: 80px 20px 100px;
+            position: relative;
+        }
+
+        /* Wavy bottom divider — Divi 5 style */
+        .hero-wave {
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+        .hero-wave svg {
+            display: block;
+            width: 100%;
+            height: 60px;
+        }
+        .hero-wave svg path {
+            fill: var(--color-text-light);
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            color: var(--color-text-dark);
+            font-size: 3em;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        .hero p {
+            color: #5A4A3A;
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Services Overview Section */
+        .services-overview {
+            padding: var(--padding-section);
+            text-align: center;
+            background-color: var(--color-text-light);
+        }
+        .services-overview h2 {
+            margin-bottom: 40px;
+            color: var(--color-green);
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding-bottom: 30px;
+        }
+
+        .service-card {
+            background-color: var(--color-background-light);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(61, 46, 37, 0.06);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-top: 4px solid var(--color-gold);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .service-card i {
+            font-size: 2.8rem;
+            color: var(--color-green);
+            margin-bottom: 15px;
+            line-height: 1;
+            display: block;
+        }
+
+        .service-card h3 {
+            color: var(--color-green);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 0.95em;
+            color: var(--color-text-dark);
+            flex-grow: 1;
+            margin-bottom: 20px;
+        }
+
+        .service-card .btn {
+            padding: 10px 20px;
+            font-size: 0.9em;
+        }
+
+        /* Who We Are / Trust Section */
+        .who-we-are {
+            background-color: var(--color-background-light);
+            padding: var(--padding-section);
+        }
+        .who-we-are-content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+        }
+        .who-we-are-text {
+            max-width: 600px;
+            text-align: center;
+        }
+        .who-we-are-text h2 {
+            color: var(--color-green);
+        }
+
+        .who-we-are-text p {
+            margin-bottom: 25px;
+        }
+
+        .trust-signals {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .trust-signal {
+            font-weight: 600;
+            color: var(--color-green);
+            background-color: var(--color-trust-bg);
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            font-size: 0.95em;
+        }
+        .trust-signal i {
+            margin-right: 10px;
+            color: var(--color-green);
+            font-size: 1.2em;
+        }
+
+        .who-we-are-image {
+            text-align: center;
+        }
+
+        .who-we-are-image .img-placeholder {
+            width: 100%;
+            max-width: 400px;
+            height: 350px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #E9FFD4, #FFF9CC);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 7rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+        }
+
+        /* Where We Serve Section */
+        .where-we-serve {
+            padding: var(--padding-section);
+            text-align: center;
+            background-color: var(--color-text-light);
+        }
+
+        .where-we-serve h2 {
+            margin-bottom: 40px;
+            color: var(--color-text-dark);
+        }
+
+        .service-area-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .map-placeholder {
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            background-color: var(--color-border);
+            color: var(--color-text-dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            font-size: 1.2em;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            margin-bottom: 20px;
+        }
+
+        .zip-checker {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .zip-checker input {
+            padding: 12px 15px;
+            border: 1px solid var(--color-border);
+            border-radius: 5px;
+            font-size: 1em;
+            width: 150px;
+        }
+        .zip-checker input::placeholder {
+            color: var(--color-border);
+        }
+        .zip-checker button {
+            padding: 12px 25px;
+            font-size: 1em;
+        }
+
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: var(--padding-section);
+            text-align: center;
+            background-color: var(--color-background-light);
+        }
+
+        .testimonials h2 {
+            margin-bottom: 40px;
+            color: var(--color-text-dark);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background-color: var(--color-text-light);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            text-align: left;
+            position: relative;
+        }
+
+        .testimonial-card i.fa-quote-left {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 2em;
+            color: var(--color-secondary);
+            opacity: 0.2;
+        }
+        .testimonial-card p {
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #555;
+            position: relative;
+            z-index: 1; /* Ensure text is above quote icon */
+        }
+        .testimonial-card .author {
+            font-weight: 600;
+            color: var(--color-primary);
+        }
+
+        /* Secondary Call-to-Action */
+        .secondary-cta {
+            background: linear-gradient(180deg, #4A9E20 0%, #3A8018 100%);
+            color: var(--color-text-light);
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            z-index: 50;
+        }
+
+        .secondary-cta h2 {
+            color: var(--color-primary);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .secondary-cta p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--color-text-dark);
+            color: var(--color-background-light);
+            padding: 50px 0 20px 0;
+            font-size: 0.9em;
+        }
+
+        footer .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        footer h4 {
+            color: var(--color-text-light);
+            margin-bottom: 15px;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer ul li {
+            margin-bottom: 10px;
+        }
+
+        footer ul li a {
+            color: var(--color-background-light);
+        }
+
+        footer ul li a:hover {
+            color: var(--color-primary);
+        }
+
+        .social-media-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-media-links a {
+            color: var(--color-background-light);
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+
+        .social-media-links a:hover {
+            color: var(--color-primary);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.85em;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .menu-toggle {
+                display: block;
+                cursor: pointer;
+            }
+
+            .contact-phone {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    /* Paw Print Animation */
+        .paw-print-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 50;
+        }
+
+        .paw-print {
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            opacity: 0;
+            animation: paw-step 1.6s ease-in-out 1 forwards;
+            background-image: url('images/paw-print.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            filter: drop-shadow(0 2px 3px rgba(0,0,0,0.3));
+        }
+
+        @keyframes paw-step {
+            0% {
+                opacity: 0;
+                transform: scale(0.2);
+            }
+            15% {
+                opacity: 0.85;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.85;
+                transform: scale(1);
+            }
+            75% {
+                opacity: 0;
+                transform: scale(0.4);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><img src="images/paw_prints_llc_logo_placeholder.svg" alt="Paw Prints Pet Services LLC Logo" style="max-height: 50px; vertical-align: middle;"></a>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="paw_prints_homepage.html">Home</a></li>
+                    <li><a href="paw_prints_gallery.html">Gallery</a></li>
+                    <li><a href="paw_prints_area_serve.html">Area that I Serve</a></li>
+                    <li><a href="paw_prints_services_rates.html">Services and Rates</a></li>
+                    <li><a href="paw_prints_who_i_am.html">Who I Am</a></li>
+                    <li><a href="paw_prints_faq.html">FAQ</a></li>
+                    <li><a href="paw_prints_resources.html">Resources</a></li>
+                    <li><a href="paw_prints_contact_me_v2.html">Contact Me</a></li>
+                    <li><a href="paw_prints_download_forms.html">Download Forms</a></li>
+                </ul>
+            </nav>
+            <div class="contact-phone">
+                <i class="fas fa-phone-alt"></i> (703) 555-1234
+            </div>
+        </div>
+        <div class="paw-print-container">
+            <div class="paw-print" style="left: -3%; top: 15%; animation-delay: 0s;"></div>
+            <div class="paw-print" style="left: 5%; top: 8%; animation-delay: 0.25s;"></div>
+            <div class="paw-print" style="left: 13%; top: 15%; animation-delay: 0.5s;"></div>
+            <div class="paw-print" style="left: 21%; top: 8%; animation-delay: 0.75s;"></div>
+            <div class="paw-print" style="left: 29%; top: 15%; animation-delay: 1.0s;"></div>
+            <div class="paw-print" style="left: 37%; top: 8%; animation-delay: 1.25s;"></div>
+            <div class="paw-print" style="left: 45%; top: 15%; animation-delay: 1.5s;"></div>
+            <div class="paw-print" style="left: 53%; top: 8%; animation-delay: 1.75s;"></div>
+            <div class="paw-print" style="left: 61%; top: 15%; animation-delay: 2.0s;"></div>
+            <div class="paw-print" style="left: 69%; top: 8%; animation-delay: 2.25s;"></div>
+            <div class="paw-print" style="left: 77%; top: 15%; animation-delay: 2.5s;"></div>
+            <div class="paw-print" style="left: 85%; top: 8%; animation-delay: 2.75s;"></div>
+            <div class="paw-print" style="left: 93%; top: 15%; animation-delay: 3.0s;"></div>
+            <div class="paw-print" style="left: 101%; top: 8%; animation-delay: 3.25s;"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>From Walks to In-Home Boarding — We've Got Your Pet Covered</h1>
+                    <p>Providing reliable and loving care for your furry family members when you can't be there.</p>
+                    <a href="#contact" class="btn">Schedule a Free Consultation</a>
+                </div>
+            </div>
+            <!-- Wavy bottom divider -->
+            <div class="hero-wave">
+                <svg viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0,20 C150,60 350,0 600,20 C850,40 1050,0 1200,20 L1200,60 L0,60 Z"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Services Overview Section -->
+        <section id="services" class="services-overview">
+            <div class="container">
+                <h2>Paw Prints Pet Services</h2>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <i class="fas fa-dog"></i>
+                        <h3>Dog Walking</h3>
+                        <p>Tailored walks to suit your dog's energy levels and needs, ensuring plenty of exercise and fresh air around Falls Church.</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-cat"></i>
+                        <h3>Pet Sitting</h3>
+                        <p>Personalized in-home care for cats and other small animals, keeping them happy and comfortable in their familiar surroundings.</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-house-user"></i>
+                        <h3>Overnight Boarding</h3>
+                        <p>Safe and cozy overnight stays in a loving home environment, offering peace of mind while you're away.</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who We Are / Trust Section -->
+        <section id="who-we-are" class="who-we-are">
+            <div class="container who-we-are-content">
+                <div class="who-we-are-text">
+                    <h2>Meet Jane: Your Local Pet Care Professional</h2>
+                    <p>Hi, I'm Jane, the heart and hands behind Paw Prints Pet Services LLC. As a fellow pet parent in Falls Church, I understand the trust you place in someone caring for your beloved animals. My passion for pets drives me to provide the highest standard of care, treating every animal as if they were my own.</p>
+                    <div class="trust-signals">
+                        <span class="trust-signal"><i class="fas fa-shield-alt"></i>Bonded & Insured</span>
+                        <span class="trust-signal"><i class="fas fa-dog"></i>Pet First Aid Certified</span>
+                        <span class="trust-signal"><i class="fas fa-award"></i>Experienced & Reliable</span>
+                    </div>
+                    <a href="#full-story-page" class="btn">My Full Story</a>
+                </div>
+                <div class="who-we-are-image">
+                    <div class="img-placeholder">
+                        <i class="fas fa-paw" style="font-size:5rem;color:rgba(92,191,42,0.35);"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Where We Serve Section -->
+        <section id="area-serve" class="where-we-serve">
+            <div class="container">
+                <h2>Proudly Serving Falls Church, VA (22042)</h2>
+                <p>We are dedicated to serving our local community with personalized and attentive pet care. Enter your zip code below to confirm service availability in your area!</p>
+                <div class="service-area-content">
+                    <div class="map-placeholder">
+                        [Map of Falls Church, VA service area will go here]
+                    </div>
+                    <div class="zip-checker">
+                        <input type="text" placeholder="Enter Your Zip Code">
+                        <button class="btn">Check Service</button>
+                    </div>
+                    <a href="#full-service-area" class="btn btn-secondary">View Service Area Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>What Our Happy Clients Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Jane has been an absolute lifesaver for our energetic beagle! He comes back happy and tired every time. We trust her completely with our furry friend."</p>
+                        <span>- Sarah P., Falls Church</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Our two cats adore Jane. She goes above and beyond, not just with feeding and basic care, but also spending quality time with them. Highly recommend!"</p>
+                        <span>- Mark T., Falls Church</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"We wouldn't trust anyone else with our dog, Max. Jane treats him like her own and her communication is fantastic. It's such a relief to know he's in good hands."</p>
+                        <span>- Emily R., Falls Church</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secondary Call-to-Action -->
+        <section class="secondary-cta">
+            <div class="container">
+                <h2>Ready for Your Pet to Join the Paw Prints Pack?</h2>
+                <p>Contact us today to learn more about our personalized pet care services and schedule a consultation.</p>
+                <a href="#contact" class="btn">Get Started Today</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <h4>Paw Prints Pet Services LLC</h4>
+                <p>Dedicated to providing trustworthy and compassionate pet care in Falls Church, VA.</p>
+                
+                <div class="social-media-links">
+                    <a href="https://www.facebook.com/PawPrintsPetServicesVA" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/PawPrintsPetServicesVA" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/paw-prints-pet-services-va" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.google.com/maps?cid=" target="_blank" aria-label="Google My Business"><i class="fab fa-google"></i></a>
+                 </div>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Falls Church, VA</li>
+                    <li><i class="fas fa-phone-alt"></i> (703) 555-1234</li>
+                    <li><i class="fas fa-envelope"></i> info@pawprintsva.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="paw_prints_homepage.html">Home</a></li>
+                    <li><a href="paw_prints_services_rates.html">Services & Rates</a></li>
+                    <li><a href="paw_prints_faq.html">FAQ</a></li>
+                    <li><a href="paw_prints_resources.html">Resources</a></li>
+                    <li><a href="paw_prints_contact_me_v2.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Paw Prints Pet Services LLC. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-list').classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked (for smoother navigation on mobile)
+        document.querySelectorAll('.nav-list a').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelector('.nav-list').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
