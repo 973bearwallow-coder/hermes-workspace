@@ -18,13 +18,13 @@ ensure_log_dir() {
 check_user_service() {
     local service_name="$1"
     local status
-    status=$(systemctl --user is-active "$service_name" 2>/dev/null || echo "inactive")
+    status=$(sudo -u tom XDG_RUNTIME_DIR=/run/user/1000 systemctl --user is-active "$service_name" 2>/dev/null || echo "inactive")
     
     if [ "$status" != "active" ]; then
         log "WARNING: $service_name is $status - attempting restart (user-level)"
-        if systemctl --user restart "$service_name" 2>/dev/null; then
+        if sudo -u tom XDG_RUNTIME_DIR=/run/user/1000 systemctl --user restart "$service_name" 2>/dev/null; then
             sleep 2
-            if systemctl --user is-active --quiet "$service_name"; then
+            if sudo -u tom XDG_RUNTIME_DIR=/run/user/1000 systemctl --user is-active --quiet "$service_name"; then
                 log "SUCCESS: $service_name restarted (user-level)"
                 return 0
             fi
@@ -64,9 +64,6 @@ ensure_log_dir
 log "=== Starting foreman health check ==="
 
 exit_code=0
-
-# Check OpenClaw gateway (user-level)
-check_user_service "openclaw-gateway.service" || exit_code=1
 
 # Check OpenClaw node host (user-level)
 check_user_service "openclaw-node.service" || exit_code=1

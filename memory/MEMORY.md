@@ -49,6 +49,9 @@
 - Duke's Shot Clock v5: live on GitHub Pages, Voicebox integrated for audio
 - Brand Brain: last updated 2026-06-23 (master reference for all Paw Prints work)
 - Travel camera for Jane: Panasonic Lumix ZS80/TZ95 recommended (30x zoom, 20.3MP, $500-800 range)
+- TNDC Pam Bondi invite: IP-Adapter FaceID pipeline for likeness (CLIP ViT encoder needed)
+- Dishwasher pickup (LG, ~$420)
+- ZenBook if ThinkPad ghosted
 
 ---
-_Capacity target: <8K chars. Last consolidated: 2026-06-28_
+_Capacity target: <8K chars. Last consolidated: 2026-06-29_
