@@ -5,9 +5,18 @@
 # Path to Hermes config file
 HERMES_CONFIG="${HOME}/.hermes/config.yaml"
 
+# Function to extract a value from the YAML config (simple grep + sed approach)
+# Usage: get_config_value <key_path> where key_path is e.g. 'auxiliary.vision.model'
+get_config_value() {
+    local key_path=$1
+    # Extract the line that starts with the key, then capture the value after ':'
+    grep -E "^\s*${key_path}:\s*\"?([^\"]+)\"?\s*$" "${HERMES_CONFIG}" | \
+        sed -E 's/^[[:space:]]*${key_path}:\s*\"?([^\"]+)\"?\s*$/\1/'
+}
+
 # ---- Health Check -----------------------------------------------------------
-# Use the known default vision model
-CURRENT_MODEL="llama3.2-vision:11b"
+# Get the currently configured vision model
+CURRENT_MODEL=$(get_config_value 'auxiliary.vision.model')
 
 # If we couldn't parse the model, abort with an error
 if [[ -z "${CURRENT_MODEL}" ]]; then
@@ -25,7 +34,7 @@ if ! curl -s -X POST http://127.0.0.1:11434/api/generate \
     # NOTE: Adjust this list if new free models become available.
     FREE_MODELS=("llama3.2-vision:11b" "google/gemma-4-31b-it:free" "google/gemma-4-26b-a4b-it:free")
 
-    # ---- Try each free model until one works --------------------------------
+    # ---- Try each free model until one works ---------------------------------
     for MODEL in "${FREE_MODELS[@]}"; do
         # Quick health‑check for the candidate model
         if curl -s -X POST http://127.0.0.1:11434/api/generate \
