@@ -37,6 +37,24 @@ _Consolidated from MEMORY.md during weekly memory consolidation, June 21 2026._
 - Filter changed from 1-day → 12-hour
 - When LLM cron reports counts, ALWAYS verify with filesystem
 
-## skill_manage write_file Blocked
-- 'email-organization' exists in both productivity/ and email/himalaya/references/
-- Use action='edit' with name='email-organization' instead
+|## skill_manage write_file Blocked
+|- 'email-organization' exists in both productivity/ and email/himalaya/references/
+|- Use action='edit' with name='email-organization' instead
+|
+|## Voicebox Whisper STT Fix (2026-06-27)
+|- Bug: WhisperForConditionalGeneration.from_pretrained() had weight-loading issue for output projection layer
+|- Fix: Use whisper.load_model() instead, store as self._whisper_model (separate from self.model for TTS)
+|- Verified: End-to-end TTS ✅ STT ✅ Health ✅
+|- Always check `curl http://127.0.0.1:17493/health` if STT errors
+|
+|## Coaching Call Summarizer (2026-07-01 update)
+|- 29 txt files >10KB in ~/Desktop/coaching_call/, 33 mp3 files
+|- Key insight from June 4 call: Skills = Recipes (repeat), Workflows = Meal Plans (progression)
+|- Claude.ai → Claude Code pipeline: roadmap in web → execute in terminal (mirrors Atlas/Charles split)
+|
+|## Model Notes (verified 2026-07-05)
+|- Atlas primary: openrouter/owl-alpha (1M ctx). Do NOT switch without asking Tom.
+|- Heavy reasoning: deepseek/deepseek-v4-pro. Backup: nemotron-3-nano (free)
+|- Vision: Use local Ollama API directly (vision_analyze tool has 401 auth error)
+|- Charles local: ollama qwen3:30b-a3b on RTX 3090
+|- Always verify free model availability before recommending — OpenRouter free tier changes frequently
