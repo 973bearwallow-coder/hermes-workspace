@@ -54,4 +54,4 @@
 - ZenBook if ThinkPad ghosted
 
 ---
-_Capacity target: <8K chars. Last consolidated: 2026-07-05_
+_Capacity target: <8K chars. Last consolidated: 2026-07-08_
