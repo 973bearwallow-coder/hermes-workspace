@@ -324,7 +324,7 @@ Home boarding is the premium service. Growth should be **discreet, high-touch, q
 - E-commerce or booking integration (WooCommerce, Amelia)
 - Tom wants to make changes himself without Atlas
 
-**Review date:** 2026-07-14
+**Review date:** 2026-08-14 (reviewed 2026-07-14 — no triggers met, still iterating directly)
 
 ---
 

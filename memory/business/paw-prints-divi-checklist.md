@@ -15,7 +15,8 @@ Use this checklist to determine when a full Divi rebuild becomes the right call.
 
 ## Current Status (2026-06-14)
 - **Decision:** No Divi rebuild. Iterating directly.
-- **Next review:** 2026-07-14
+- **Last review:** 2026-07-14 (no triggers met)
+- **Next review:** 2026-08-14
 - **Jane's status:** Divi 5 rebuild on hold. 10 HTML mockups complete.
 
 ## How to Reassess

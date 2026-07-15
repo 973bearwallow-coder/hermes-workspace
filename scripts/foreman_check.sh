@@ -74,8 +74,10 @@ check_user_service "hermes-gateway.service" || exit_code=1
 # Check Charles orchestrator (system-level, idle marker)
 check_system_service "charles.service" || exit_code=1
 
-# Check Ollama (system-level)
-check_system_service "ollama" || exit_code=1
+# Check Ollama (system-level) — DISABLED: voice co-worker now uses a local
+# brain (qwen3:4b) on the 3090; ollama squatting VRAM starved chatterbox TTS.
+# Leave ollama off so the co-worker has headroom. (2026-07-14)
+# check_system_service "ollama" || exit_code=1
 
 log "=== Foreman health check complete (exit: $exit_code) ==="
 exit $exit_code
