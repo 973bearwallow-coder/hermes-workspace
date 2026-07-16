@@ -20,7 +20,7 @@ ALIASES = {
     "openai": "openai", "gpt": "openai",
     "cloudflare": "cloudflare", "cf": "cloudflare",
     "cloudflare_account_id": "cloudflare_account_id",
-    "groq": "groq", "mistral": "mistral",
+    "agnes": "agnes", "cerebras": "cerebras", "deepseek": "deepseek", "gemini": "gemini", "chutes": "chutes",
     "agnes": "agnes",
     "openrouter": "openrouter",
 }

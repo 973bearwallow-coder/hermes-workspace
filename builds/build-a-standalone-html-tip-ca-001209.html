@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tip Calculator</title>
+<style>
+  body {
+    background: #121212;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 320px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin: 12px 0 4px;
+  }
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #2a2a2a;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  .tip-controls {
+    margin: 12px 0;
+    text-align: center;
+  }
+  .tip-btn {
+    padding: 6px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  .tip-btn:hover {
+    background: #555;
+  }
+  .results {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .results p {
+    margin: 4px 0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Tip Calculator</h1>
+  <label>Bill Amount $<input type="number" class="bill" min="0" step="0.01" value="0"></label>
+  <div class="tip-controls">
+    <button class="tip-btn" data-percent="15">15%</button>
+    <button class="tip-btn" data-percent="18">18%</button>
+    <button class="tip-btn" data-percent="20">20%</button>
+    <label>Custom % <input type="number" class="tip" min="0" step="1" value="15"></label>
+  </div>
+  <label>People <input type="number" class="people" min="1" value="1"></label>
+  <div class="results">
+    <p>Total Tip: $<span class="tip-amount">0.00</span></p>
+    <p>Total Bill: $<span class="total">0.00</span></p>
+    <p>Per Person: $<span class="per-person">0.00</span></p>
+  </div>
+</div>
+<script>
+  const billInput = document.querySelector('.bill');
+  const tipInput = document.querySelector('.tip');
+  const peopleInput = document.querySelector('.people');
+  const tipAmountSpan = document.querySelector('.tip-amount');
+  const totalSpan = document.querySelector('.total');
+  const perPersonSpan = document.querySelector('.per-person');
+
+  function calculate() {
+    const bill = parseFloat(billInput.value) || 0;
+    const tipPercent = parseFloat(tipInput.value) || 0;
+    const people = Math.max(1, parseInt(peopleInput.value) || 1);
+    const tip = bill * (tipPercent / 100);
+    const total = bill + tip;
+    const perPerson = total / people;
+    tipAmountSpan.textContent = tip.toFixed(2);
+    totalSpan.textContent = total.toFixed(2);
+    perPersonSpan.textContent = perPerson.toFixed(2);
+  }
+
+  billInput.addEventListener('input', calculate);
+  tipInput.addEventListener('input', calculate);
+  peopleInput.addEventListener('input', calculate);
+
+  document.querySelectorAll('.tip-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      tipInput.value = btn.dataset.percent;
+      calculate();
+    });
+  });
+
+  calculate();
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #f7fafc;
+        }
+        .card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,.05);
+            max-width: 420px;
+            width: 100%;
+        }
+        h1 { text-align: center; color: #333; margin-top: 0; }
+        .field { margin-bottom: 1rem; }
+        label { display: block; margin-bottom: .4rem; color: #555; font-weight: 600; }
+        input[type="number"] {
+            width: 100%;
+            padding: .6rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: .7rem;
+            background: #0069d9;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover { background: #0053b3; }
+        .results {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: #e6f7ff;
+            border-radius: 4px;
+            display: none;
+        }
+        .error {
+            color: #c00;
+            font-size: .85rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Tip Calculator</h1>
+        <form id="tipForm" novalidate>
+            <div class="field">
+                <label for="bill">Bill Amount ($)</label>
+                <input type="number" id="bill" step="0.01" min="0" required>
+            </div>
+            <div class="field">
+                <label for="tipPercent">Tip Percentage (%)</label>
+                <input type="number" id="tipPercent" step="0.1" min="0" value="15" required>
+            </div>
+            <div class="field">
+                <label for="people">Number of People</label>
+                <input type="number" id="people" min="1" required>
+            </div>
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div class="error" id="errorMsg">Please enter valid values.</div>
+
+        <div class="results" id="results">
+            <h2>Results</h2>
+            <p>Tip Total: $<span id="totalTip">0.00</span></p>
+            <p>Total Bill (with tip): $<span id="totalBill">0.00</span></p>
+            <p>Per Person: $<span id="perPerson">0.00</span></p>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('tipForm');
+        const resultsDiv = document.getElementById('results');
+        const errorMsg = document.getElementById('errorMsg');
+        const totalTipEl = document.getElementById('totalTip');
+        const totalBillEl = document.getElementById('totalBill');
+        const perPersonEl = document.getElementById('perPerson');
+
+        function roundTo(a, d = 2) { return Math.round(a * 100) / 100; }
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            errorMsg.style.display = 'none';
+            resultsDiv.style.display = 'none';
+
+            const bill = parseFloat(document.getElementById('bill').value);
+            const tipPercent = parseFloat(document.getElementById('tipPercent').value);
+            const people = parseInt(document.getElementById('people').value, 10);
+
+            if (
+                isNaN(bill) || isNaN(tipPercent) || isNaN(people) ||
+                bill < 0 || tipPercent < 0 || people < 1
+            ) {
+                errorMsg.style.display = 'block';
+                return;
+            }
+
+            const tipAmount = roundTo(bill * (tipPercent / 100));
+            const totalBill = roundTo(bill + tipAmount);
+            const perPerson = roundTo(totalBill / people);
+
+            totalTipEl.textContent = tipAmount.toFixed(2);
+            totalBillEl.textContent = totalBill.toFixed(2);
+            perPersonEl.textContent = perPerson.toFixed(2);
+
+            resultsDiv.style.display = 'block';
+        });
+    </script>
+</body>
+</html>

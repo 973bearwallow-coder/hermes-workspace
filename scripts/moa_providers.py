@@ -33,13 +33,17 @@ OPENAI_COMPAT = {
     "openai":       "https://api.openai.com/v1/chat/completions",
     "cloudflare":   "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1/chat/completions",
     "agnes":       "https://apihub.agnes-ai.com/v1/chat/completions",
+    "cerebras":     "https://api.cerebras.ai/v1/chat/completions",
+    "deepseek":     "https://api.deepseek.com/v1/chat/completions",
+    "nebius":       "https://api.studio.nebius.com/v1/chat/completions",
+    "chutes":       "https://api.chutes.ai/v1/chats",  # base; _chutes_call builds full path
 }
 PREMIUM = {"anthropic", "openai"}
 
 # Groq blocks the default Python UA at the Cloudflare layer (HTTP 403/1010).
 # A browser UA passes. OpenAI-compat providers that are picky get this UA.
 _BROWSER_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"}
-_UA_FOR = {"groq"}  # providers that need the browser UA
+_UA_FOR = {"groq", "cerebras", "deepseek", "nebius"}  # providers that need the browser UA
 
 def _get_key(provider):
     """Key from secrets; falls back to Hermes config.yaml for groq."""
@@ -147,6 +151,47 @@ def _replicate_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=200):
         return "\n".join(str(o) for o in out), {}
     return str(out or ""), {}
 
+def _gemini_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=120):
+    # Gemini uses the native Generative Language API (not OpenAI-compat)
+    mid = model_id.split("/", 1)[-1] if "/" in model_id else model_id
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{mid}:generateContent?key={key}"
+    # Gemini reasoning models eat the token budget on thoughts; disable thinking
+    # for normal chat/voice use so we get a real answer in content.parts.
+    body = {
+        "contents": [{"role": "user", "parts": [{"text": f"{sys_prompt}\n\n{prompt}"}]}],
+        "generationConfig": {"maxOutputTokens": max_tokens, "thinkingConfig": {"thinkingBudget": 0}},
+    }
+    headers = {"Content-Type": "application/json", "User-Agent": "atlas-moa/1.0"}
+    data = _post(url, body, headers, timeout)
+    try:
+        parts = data["candidates"][0]["content"].get("parts", [])
+        text = "".join(p.get("text", "") for p in parts)
+    except (KeyError, IndexError):
+        text = ""
+    if not text:  # fallback: try reasoning/thought summary
+        text = data.get("candidates", [{}])[0].get("finishReason", "")
+    usage = data.get("usageMetadata", {})
+    return text, usage
+
+def _chutes_call(model_slug, prompt, sys_prompt, max_tokens, key, timeout=120):
+    # Chutes deploys models as user "chutes" (apps). Generate endpoint:
+    # POST https://api.chutes.ai/v1/chats/{username}/{slug}/api/generate
+    user, slug = (model_slug.split("/", 1) + [""])[:2] if "/" in model_slug else ("chutes", model_slug)
+    url = f"https://api.chutes.ai/v1/chats/{user}/{slug}/api/generate"
+    body = {"messages": [{"role": "system", "content": sys_prompt},
+                          {"role": "user", "content": prompt}], "max_tokens": max_tokens}
+    headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json",
+               "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
+    data = _post(url, body, headers, timeout)
+    # response: {"text": "...", ...} or {"outputs": [...]}
+    if isinstance(data, dict):
+        text = data.get("text") or data.get("output") or ""
+        if isinstance(text, list):
+            text = "\n".join(str(x) for x in text)
+    else:
+        text = str(data)
+    return text, {}
+
 def call_model(model_entry, prompt, sys_prompt="You are a helpful assistant.", max_tokens=500, timeout=180):
     """Route a call by the catalog model's home_provider. Returns (text, usage)."""
     provider = model_entry.get("home_provider", "openrouter")
@@ -171,6 +216,16 @@ def call_model(model_entry, prompt, sys_prompt="You are a helpful assistant.", m
             return _hf_call(mid, prompt, sys_prompt, max_tokens, pk.get_key("huggingface"), timeout)
         if provider == "replicate":
             return _replicate_call(mid, prompt, sys_prompt, max_tokens, pk.get_key("replicate"), timeout)
+        if provider == "gemini":
+            gk = pk.get_key("gemini")
+            if not gk:
+                return "(Gemini key not set)", {}
+            return _gemini_call(mid, prompt, sys_prompt, max_tokens, gk, timeout)
+        if provider == "chutes":
+            ck = pk.get_key("chutes")
+            if not ck:
+                return "(Chutes key not set)", {}
+            return _chutes_call(mid, prompt, sys_prompt, max_tokens, ck, timeout)
         # fallback: treat as openrouter
         return _openai_call(OPENAI_COMPAT["openrouter"], pk.get_key("openrouter"), "openrouter", mid, prompt, sys_prompt, max_tokens, timeout)
     except urllib.error.HTTPError as e:

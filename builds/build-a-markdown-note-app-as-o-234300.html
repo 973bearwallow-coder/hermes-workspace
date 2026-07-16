@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dark Markdown Note App</title>
+<style>
+  body {
+    background:#111;
+    color:#eee;
+    font-family:Arial,Helvetica,sans-serif;
+    margin:0;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  #editor {
+    width:100%;
+    max-width:800px;
+    height:400px;
+    resize:none;
+    background:#222;
+    color:#fff;
+    border:1px solid #444;
+    padding:10px;
+    box-sizing:border-box;
+    overflow-y:auto;
+  }
+  #preview {
+    width:100%;
+    max-width:800px;
+    margin-top:20px;
+    background:#222;
+    color:#fff;
+    border:1px solid #444;
+    padding:10px;
+    box-sizing:border-box;
+    line-height:1.5;
+  }
+  button {
+    margin:5px;
+    padding:8px 12px;
+    background:#333;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+  }
+  button:hover {
+    background:#555;
+  }
+</style>
+</head>
+<body>
+
+<textarea id="editor"></textarea>
+<div id="preview"></div>
+<button id="new">New Note</button>
+<button id="delete">Delete</button>
+
+<script>
+const editor = document.getElementById('editor');
+const preview = document.getElementById('preview');
+
+function markdownToHtml(text) {
+  const lines = text.split(/\r?\n/);
+  let html = '';
+  let listOpen = false;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    const inline = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+    if (line.startsWith('# ')) {
+      if (listOpen) { html += '</ul>'; listOpen = false; }
+      html += '<h1>' + inline.substring(2) + '</h1>';
+    } else if (line.startsWith('- ') || line.startsWith('* ')) {
+      if (!listOpen) { html += '<ul>'; listOpen = true; }
+      html += '<li>' + inline.substring(2) + '</li>';
+    } else {
+      if (listOpen) { html += '</ul>'; listOpen = false; }
+      if (line !== '') html += inline + '<br>';
+    }
+  }
+  if (listOpen) html += '</ul>';
+  return html;
+}
+
+function render() {
+  const content = editor.value;
+  preview.innerHTML = markdownToHtml(content);
+  localStorage.setItem('notes', content);
+}
+
+editor.addEventListener('input', render);
+
+document.addEventListener('DOMContentLoaded', () => {
+  const saved = localStorage.getItem('notes');
+  if (saved) editor.value = saved;
+  render();
+});
+
+document.getElementById('new').addEventListener('click', () => {
+  editor.value = '';
+  localStorage.setItem('notes', '');
+  render();
+});
+
+document.getElementById('delete').addEventListener('click', () => {
+  localStorage.removeItem('notes');
+  editor.value = '';
+  preview.innerHTML = '';
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tip Calculator</title>
+<style>
+  :root {
+    --bg: #0a0f1a;
+    --card: #111827;
+    --fg: #e8ecf4;
+    --muted: #6b7c96;
+    --accent: #22d3ee;
+    --accent-strong: #06b6d4;
+    --border: #1f2a44;
+    --input-bg: #0d1423;
+    --radius: 16px;
+    --radius-sm: 10px;
+    --transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .calculator {
+    background: var(--card);
+    padding: 24px;
+    border-radius: var(--radius);
+    max-width: 380px;
+    width: 100%;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  }
+
+  h2 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--accent);
+  }
+
+  label {
+    display: block;
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--input-bg);
+    color: var(--fg);
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+
+  .quick-buttons {
+    margin-top: 8px;
+    display: flex;
+    gap: 6px;
+  }
+
+  .quick-buttons button {
+    flex: 1;
+    padding: 6px 8px;
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--fg);
+    cursor: pointer;
+    transition: background var(--transition), border-color var(--transition);
+  }
+
+  .quick-buttons button:hover {
+    background: var(--accent-strong);
+    border-color: var(--accent);
+  }
+
+  .result {
+    margin-top: 24px;
+    text-align: center;
+    background: var(--input-bg);
+    padding: 16px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+  }
+
+  .result p {
+    margin: 6px 0;
+    color: var(--muted);
+  }
+
+  .result span {
+    font-weight: bold;
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+<div class="calculator">
+  <h2>Tip Calculator</h2>
+
+  <label>
+    Bill Amount
+    <input id="bill" type="number" step="0.01" min="0" value="0">
+  </label>
+
+  <label>
+    Tip %
+    <input id="tipPercent" type="number" step="1" min="0" value="15">
+    <div class="quick-buttons">
+      <button class="quick" data-percent="15">15%</button>
+      <button class="quick" data-percent="18">18%</button>
+      <button class="quick" data-percent="20">20%</button>
+    </div>
+  </label>
+
+  <label>
+    People
+    <input id="people" type="number" step="1" min="1" value="1">
+  </label>
+
+  <div class="result">
+    <p>Total tip: <span id="totalTip">$0.00</span></p>
+    <p>Total amount: <span id="totalAmount">$0.00</span></p>
+    <p>Per person: <span id="perPerson">$0.00</span></p>
+  </div>
+</div>
+
+<script>
+  const billInput = document.getElementById('bill');
+  const tipInput = document.getElementById('tipPercent');
+  const peopleInput = document.getElementById('people');
+  const totalTipSpan = document.getElementById('totalTip');
+  const totalAmountSpan = document.getElementById('totalAmount');
+  const perPersonSpan = document.getElementById('perPerson');
+
+  function calculate() {
+    const bill = parseFloat(billInput.value) || 0;
+    const tipPercent = parseFloat(tipInput.value) || 0;
+    const people = parseInt(peopleInput.value) || 1;
+
+    const tip = bill * (tipPercent / 100);
+    const total = bill + tip;
+    const perPerson = people > 0 ? total / people : 0;
+
+    totalTipSpan.textContent = '$' + tip.toFixed(2);
+    totalAmountSpan.textContent = '$' + total.toFixed(2);
+    perPersonSpan.textContent = '$' + perPerson.toFixed(2);
+  }
+
+  billInput.addEventListener('input', calculate);
+  tipInput.addEventListener('input', calculate);
+  peopleInput.addEventListener('input', calculate);
+
+  document.querySelectorAll('button.quick').forEach(btn => {
+    btn.addEventListener('click', () => {
+      tipInput.value = btn.dataset.percent;
+      calculate();
+    });
+  });
+
+  calculate();
+</script>
+</body>
+</html>

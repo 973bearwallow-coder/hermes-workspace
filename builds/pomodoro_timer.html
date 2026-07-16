@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Work Pomodoro Timer</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --fg: #e8e8e8;
+    --muted: #888;
+    --accent-work: #ff4d4d;
+    --accent-break: #4dff88;
+    --card: #1a1a1a;
+    --border: #333;
+    --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafafa;
+      --fg: #1a1a1a;
+      --muted: #666;
+      --accent-work: #cc0000;
+      --accent-break: #00aa44;
+      --card: #ffffff;
+      --border: #e0e0e0;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+  .timer-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2.5rem 3rem;
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+  }
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .controls label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+    color: var(--muted);
+    gap: 4px;
+  }
+  input[type="number"] {
+    width: 70px;
+    padding: 6px;
+    background: var(--bg);
+    color: var(--fg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-family: var(--font-mono);
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  button {
+    padding: 10px 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    background: var(--border);
+    color: var(--fg);
+    transition: opacity 0.2s;
+  }
+  button:hover { opacity: 0.85; }
+  #countdown {
+    font-family: var(--font-mono);
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  .phase-label {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .phase-work { color: var(--accent-work); }
+  .phase-break { color: var(--accent-break); }
+</style>
+</head>
+<body>
+<div class="timer-card">
+  <div class="controls">
+    <label>Work (min)
+      <input type="number" id="work-minutes" value="25" min="1">
+    </label>
+    <label>Break (min)
+      <input type="number" id="break-minutes" value="5" min="1">
+    </label>
+  </div>
+  <div id="phase" class="phase-label phase-work">Work</div>
+  <div id="countdown">25:00</div>
+  <div class="buttons">
+    <button id="start-pause">Start</button>
+    <button id="reset">Reset</button>
+  </div>
+</div>
+
+<script>
+let workSec = 25 * 60;
+let breakSec = 5 * 60;
+let remainingSec = workSec;
+let phase = 'work';
+let intervalId = null;
+let isRunning = false;
+
+function updateDisplay() {
+  const mins = Math.floor(remainingSec / 60);
+  const secs = remainingSec % 60;
+  document.getElementById('countdown').textContent =
+    `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+  const phaseEl = document.getElementById('phase');
+  if (phase === 'work') {
+    phaseEl.textContent = 'Work';
+    phaseEl.className = 'phase-label phase-work';
+  } else {
+    phaseEl.textContent = 'Break';
+    phaseEl.className = 'phase-label phase-break';
+  }
+}
+
+function startTimer() {
+  if (isRunning) return;
+  isRunning = true;
+  intervalId = setInterval(tick, 1000);
+  document.getElementById('start-pause').textContent = 'Pause';
+}
+
+function pauseTimer() {
+  if (!isRunning) return;
+  isRunning = false;
+  clearInterval(intervalId);
+  intervalId = null;
+  document.getElementById('start-pause').textContent = 'Start';
+}
+
+function resetTimer() {
+  pauseTimer();
+  workSec = parseInt(document.getElementById('work-minutes').value) * 60 || 25 * 60;
+  breakSec = parseInt(document.getElementById('break-minutes').value) * 60 || 5 * 60;
+  remainingSec = workSec;
+  phase = 'work';
+  updateDisplay();
+}
+
+function tick() {
+  remainingSec--;
+  if (remainingSec < 0) {
+    if (phase === 'work') {
+      phase = 'break';
+      remainingSec = breakSec;
+    } else {
+      phase = 'work';
+      remainingSec = workSec;
+    }
+  }
+  updateDisplay();
+}
+
+document.getElementById('start-pause').addEventListener('click', () => {
+  if (isRunning) pauseTimer();
+  else startTimer();
+});
+document.getElementById('reset').addEventListener('click', resetTimer);
+document.getElementById('work-minutes').addEventListener('change', resetTimer);
+document.getElementById('break-minutes').addEventListener('change', resetTimer);
+
+resetTimer();
+</script>
+</body>
+</html>

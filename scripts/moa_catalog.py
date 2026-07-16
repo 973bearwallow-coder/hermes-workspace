@@ -18,7 +18,7 @@ USAGE
   python3 moa_catalog.py            # refresh + summary
   python3 moa_catalog.py --quiet    # write only
 """
-import json, sys, os, subprocess, datetime, urllib.request, urllib.error
+import json, sys, os, subprocess, datetime, re, urllib.request, urllib.error
 
 MEMORY = "/home/tom/hermes-workspace/memory"
 OUT = os.path.join(MEMORY, "model_catalog.json")
@@ -28,6 +28,10 @@ HF_API = "https://huggingface.co/api/models?filter=text-generation-inference&lim
 GH_API = "https://models.inference.ai.azure.com/v1/models"
 
 import get_provider_key as pk
+
+# providers behind a Cloudflare bot-check need a full browser UA on /v1/models
+_BROWSER_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"}
+_UA_FOR = {"groq", "cerebras"}
 
 def _get_json(url, headers=None, timeout=30):
     req = urllib.request.Request(url, headers=headers or {"User-Agent": "atlas-moa/1.0"})
@@ -115,6 +119,9 @@ def fetch_nim(models):
 def _openai_compat_models(models, url, provider, tier, key, tag):
     """Pull real model list from an OpenAI-compat /v1/models endpoint."""
     headers = {"User-Agent": "Mozilla/5.0"}
+    # providers behind a Cloudflare bot-check need the full browser UA
+    if provider in _UA_FOR:
+        headers = dict(_BROWSER_UA)
     if key:
         headers["Authorization"] = f"Bearer {key}"
     try:
@@ -150,6 +157,95 @@ def fetch_groq(models):
     if not key:
         return
     _openai_compat_models(models, "https://api.groq.com/openai/v1/models", "groq", "free", key, "Groq")
+
+def fetch_cerebras(models):
+    key = pk.get_key("cerebras")
+    if not key:
+        return
+    _openai_compat_models(models, "https://api.cerebras.ai/v1/models", "cerebras", "free", key, "Cerebras")
+
+def fetch_mistral(models):
+    key = pk.get_key("mistral")
+    if not key:
+        return
+    _openai_compat_models(models, "https://api.mistral.ai/v1/models", "mistral", "free", key, "Mistral")
+
+def fetch_deepseek(models):
+    key = pk.get_key("deepseek")
+    if not key:
+        return
+    _openai_compat_models(models, "https://api.deepseek.com/v1/models", "deepseek", "free", key, "DeepSeek")
+
+def fetch_nebius(models):
+    key = pk.get_key("nebius")
+    if not key:
+        return
+    _openai_compat_models(models, "https://api.studio.nebius.com/v1/models", "nebius", "free", key, "Nebius")
+
+def fetch_chutes(models):
+    """Chutes.ai — community-hosted open models. API is /v1/chats/{user}/{slug}/api/generate
+    (not OpenAI-compat /v1/models). Use the curated free set from the free-LLM repo."""
+    key = pk.get_key("chutes")
+    if not key:
+        return
+    # curated free Chutes models (from awesome-freellm-apis): DeepSeek-R1 + 1 other
+    chutes_free = [
+        ("deepseek-ai/DeepSeek-R1", "deepseek-ai/DeepSeek-R1", 131000),
+    ]
+    n = 0
+    for mid, call_id, ctx in chutes_free:
+        add_common(models, f"chutes/{mid}", call_id, "chutes", "free", 0.0, 0.0, ctx,
+                   ["chutes", "cloud", "free", "reasoning"])
+        n += 1
+    print(f"  (Chutes: {n} models [curated])")
+
+def fetch_gemini(models):
+    """Gemini native API. The /v1beta/models list endpoint is flaky (403), so use
+    a curated set of known-free Gemini text models (verified live 2026-07-15)."""
+    key = pk.get_key("gemini")
+    if not key:
+        return
+    gemini_free = [
+        ("gemini-2.5-flash", 1048576),
+        ("gemini-2.5-flash-lite", 1048576),
+        ("gemini-2.0-flash", 1048576),
+        ("gemini-1.5-flash", 1048576),
+    ]
+    n = 0
+    for mid, ctx in gemini_free:
+        add_common(models, f"gemini/{mid}", mid, "gemini", "free", 0.0, 0.0, ctx,
+                   ["gemini", "cloud", "free"])
+        n += 1
+    print(f"  (Gemini: {n} models [curated])")
+
+def fetch_agnes(models):
+    """Agnes AI — they ARE the model maker (apihub.agnes-ai.com is their own hub,
+    not an aggregator). Use their real model names (agnes-2.0-flash etc.), NOT a
+    routing slug. Pull the live /v1/models list; fallback to a curated set."""
+    key = pk.get_key("agnes")
+    if not key:
+        return
+    ids = None
+    try:
+        raw = _get_json("https://apihub.agnes-ai.com/v1/models",
+                        headers={"Authorization": f"Bearer {key}",
+                                  "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"},
+                        timeout=25)
+        arr = raw.get("data") or raw.get("models") or []
+        ids = [m.get("id") for m in arr if m.get("id")]
+    except Exception:
+        ids = None
+    if not ids:
+        # curated fallback (verified live 2026-07-15)
+        ids = ["agnes-2.0-flash", "agnes-1.5-flash"]
+    n = 0
+    for mid in ids:
+        if not mid or "video" in mid or "image" in mid:
+            continue
+        add_common(models, f"agnes/{mid}", mid, "agnes", "free", 0.0, 0.0, 128000,
+                   ["agnes", "cloud", "free"])
+        n += 1
+    print(f"  (Agnes: {n} models)")
 
 def fetch_openai(models):
     key = pk.get_key("openai")
@@ -244,6 +340,55 @@ def fetch_hf(models):
     except Exception as e:
         print(f"  (HF skip: {e})")
 
+# Curated free-LLM GitHub repos (the "awesome list" Tom remembered). These list
+# providers + models OpenRouter does NOT aggregate, so they broaden discovery.
+FREELLM_SOURCES = [
+    ("awesome-freellm-apis", "https://raw.githubusercontent.com/open-free-llm-api/awesome-freellm-apis/main/README.md"),
+    ("cheahjs", "https://raw.githubusercontent.com/cheahjs/free-llm-api-resources/main/README.md"),
+]
+
+def fetch_freellm(models):
+    """Enrich the catalog with free providers/models from curated GitHub lists
+    (the 'awesome free LLM' repos Tom remembered). These list providers +
+    base URLs OpenRouter does NOT aggregate, broadening daily discovery.
+
+    Parses the markdown PROVIDER TABLE (not headers) so we get real provider
+    names + free-model counts + base URLs. Tagged 'freellm' so the router can
+    prefer verified API-sourced models but still know a provider exists.
+    Robust: any fetch failure is skipped silently.
+    """
+    n = 0
+    for src_name, url in FREELLM_SOURCES:
+        try:
+            if url.endswith(".json"):
+                txt = _get_json(url)
+            else:
+                txt = urllib.request.urlopen(
+                    urllib.request.Request(url, headers={"User-Agent": "atlas-moa/1.0"}), timeout=20
+                ).read().decode(errors="ignore")
+        except Exception as e:
+            print(f"  (freellm/{src_name} skip: {e})")
+            continue
+        # provider tables look like:  | Provider | Free Models | ... |
+        # capture first cell of each data row (skip header + separator rows)
+        rows = re.findall(r"^\|\s*([A-Za-z0-9 ._\-()]+?)\s*\|\s*\d+", txt, re.M)
+        seen = set()
+        for p in rows:
+            p = p.strip()
+            if len(p) < 3 or p.lower() in ("provider", "free models", "api key"):
+                continue
+            key = f"freellm/{p}"
+            if key in seen:
+                continue
+            seen.add(key)
+            add_common(models, key, p, "freellm", "free", 0.0, 0.0, 32000,
+                       ["freellm", "cloud", "free", src_name])
+            n += 1
+    if n:
+        print(f"  (freellm: +{n} providers from curated GitHub lists)")
+    else:
+        print("  (freellm: no new providers parsed)")
+
 def local_ollama(models):
     """Add local models on Charles as unlimited $0 entries — but only those that
     actually serve via the OpenAI-compat endpoint (liveness probe)."""
@@ -310,13 +455,21 @@ def build():
     print("Pulling Nous..."); fetch_nous(models)
     print("Pulling Replicate..."); fetch_replicate(models)
     print("Pulling Hugging Face (100)..."); fetch_hf(models)
+    print("Pulling Cerebras..."); fetch_cerebras(models)
+    print("Pulling Mistral..."); fetch_mistral(models)
+    print("Pulling DeepSeek..."); fetch_deepseek(models)
+    print("Pulling Gemini..."); fetch_gemini(models)
+    print("Pulling Chutes..."); fetch_chutes(models)
+    print("Pulling Nebius..."); fetch_nebius(models)
+    print("Pulling Agnes..."); fetch_agnes(models)
     print("Adding local Ollama..."); local_ollama(models)
+    print("Scanning curated free-LLM GitHub lists..."); fetch_freellm(models)
     by_tier = {}
     for x in models:
         by_tier[x["tier"]] = by_tier.get(x["tier"], 0) + 1
     catalog = {
         "generated": datetime.datetime.now().isoformat(timespec="seconds"),
-        "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + local Ollama",
+        "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama",
         "total": len(models), "by_tier": by_tier, "models": models,
     }
     os.makedirs(MEMORY, exist_ok=True)

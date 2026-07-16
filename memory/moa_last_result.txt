@@ -1,0 +1,15 @@
+Task: CODING
+References (parallel):
+  • nvidia/deepseek-ai/deepseek-coder-6.7b-instruct  [nim,cloud,fast]
+  • nvidia/nemotron-3.5-content-safety:free  [vision,reasoning,longctx]
+  • nvidia/nemotron-3-ultra-550b-a55b:free  [reasoning,longctx]
+Aggregator: nvidia/deepseek-ai/deepseek-coder-6.7b-instruct
+Est cost: $0.000000
+
+=== FINAL ANSWER (agg nvidia/deepseek-ai/deepseek-coder-6.7b-instruct) ===
+(HTTP 404: 404 page not found
+)
+
+Time: 3.4s | Aggregator real cost: $0.000000 | usage={}
+
+[logged to /home/tom/hermes-workspace/memory/moa_cost_log.jsonl]
