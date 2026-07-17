@@ -1,2275 +1,2668 @@
 {
-  "generated": "2026-07-08T20:13:06.871497",
-  "total_recipes": 170,
-  "cuisines": {
-    "american": 24,
-    "italian": 12,
-    "thai": 9,
-    "french": 7,
-    "chinese": 5,
-    "main | method: stovetop": 5,
-    "mexican": 5,
-    "greek": 4,
-    "chinese | type: beef": 3,
-    "stir-fry": 3,
-    "main | method: stir-fry": 3,
-    "british": 2,
-    "mexican | type: beef": 2,
-    "ribs": 2,
-    "greek | type: meatballs": 2,
-    "appetizer": 2,
-    "vietnamese": 2,
-    "australian": 1,
-    "malaysian": 1,
-    "thai | type: beef": 1,
-    "grilled": 1,
-    "skewers | method: grilled": 1,
-    "middle-eastern": 1,
-    "jamaican": 1,
-    "chinese | type: tofu": 1,
-    "pork": 1,
-    "mexican-inspired": 1,
-    "italian-inspired": 1,
-    "moroccan": 1,
-    "spanish": 1
+ "generated": "2026-07-08T20:13:06.871497",
+ "total_recipes": 170,
+ "cuisines": {
+  "american": 24,
+  "italian": 12,
+  "thai": 9,
+  "french": 7,
+  "chinese": 5,
+  "main | method: stovetop": 5,
+  "mexican": 5,
+  "greek": 4,
+  "chinese | type: beef": 3,
+  "stir-fry": 3,
+  "main | method: stir-fry": 3,
+  "british": 2,
+  "mexican | type: beef": 2,
+  "ribs": 2,
+  "greek | type: meatballs": 2,
+  "appetizer": 2,
+  "vietnamese": 2,
+  "australian": 1,
+  "malaysian": 1,
+  "thai | type: beef": 1,
+  "grilled": 1,
+  "skewers | method: grilled": 1,
+  "middle-eastern": 1,
+  "jamaican": 1,
+  "chinese | type: tofu": 1,
+  "pork": 1,
+  "mexican-inspired": 1,
+  "italian-inspired": 1,
+  "moroccan": 1,
+  "spanish": 1
+ },
+ "types": {
+  "main": 52,
+  "dessert": 8,
+  "salad": 5,
+  "breakfast": 4,
+  "cheesecake": 3,
+  "side dish": 2,
+  "bread": 2,
+  "cake": 2,
+  "brunch": 2,
+  "yeast bread": 2,
+  "appetizer": 2,
+  "cupcake": 1,
+  "condiment": 1,
+  "dressing": 1,
+  "bar": 1,
+  "main dish": 1
+ },
+ "methods": {
+  "stovetop": 23,
+  "baked": 18,
+  "bake": 12,
+  "stir-fry": 9,
+  "one-pot": 5,
+  "grilled": 4,
+  "no-cook": 2,
+  "blend": 1,
+  "roast & stovetop": 1,
+  "slow-cooker": 1
+ },
+ "recipes": [
+  {
+   "name": "Thai Cashew Chicken",
+   "file": "recipes/rasa_thai_cashew_chicken.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "roast"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/thai-cashew-chicken/)",
+   "size": 918
   },
-  "types": {
-    "main": 52,
-    "dessert": 8,
-    "salad": 5,
-    "breakfast": 4,
-    "cheesecake": 3,
-    "side dish": 2,
-    "bread": 2,
-    "cake": 2,
-    "brunch": 2,
-    "yeast bread": 2,
-    "appetizer": 2,
-    "cupcake": 1,
-    "condiment": 1,
-    "dressing": 1,
-    "bar": 1,
-    "main dish": 1
+  {
+   "name": "Thai Basil Chicken (Pad Krapow Gai)",
+   "file": "recipes/rasa_thai_basil_chicken.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "fried"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/thai-basil-chicken/)",
+   "size": 966
   },
-  "methods": {
-    "stovetop": 23,
-    "baked": 18,
-    "bake": 12,
-    "stir-fry": 9,
-    "one-pot": 5,
-    "grilled": 4,
-    "no-cook": 2,
-    "blend": 1,
-    "roast & stovetop": 1,
-    "slow-cooker": 1
+  {
+   "name": "Caramelised Vietnamese Shredded Beef",
+   "file": "recipes/caramelised_vietnamese_shredded_beef.md",
+   "cuisines": [
+    "vietnamese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "fried",
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/caramelised-vietnamese-shredded-beef/)",
+   "size": 1317
   },
-  "recipes": [
-    {
-      "name": "10 Classic Chinese Dishes + Homemade Teriyaki Sauce",
-      "file": "recipes/10_classic_chinese_dishes_homemade_teriyaki.md",
-      "cuisines": [
-        "chinese"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/10-classic-chinese-dishes-1-amazing-sauce/)",
-      "size": 4161
-    },
-    {
-      "name": "Quick Asian Caramelised Beef Ramen Noodles",
-      "file": "recipes/asian_beef_and_noodles.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/asian-beef-and-noodles/)",
-      "size": 1354
-    },
-    {
-      "name": "Australian Meat Pie",
-      "file": "recipes/australian_meat_pie.md",
-      "cuisines": [
-        "australian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/meat-pie-recipe/)",
-      "size": 2131
-    },
-    {
-      "name": "Avocado Chicken Salad",
-      "file": "recipes/avocado_chicken_salad.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "salad"
-      ],
-      "methods": [
-        "no-cook"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/avocado-chicken-salad/)",
-      "size": 2240
-    },
-    {
-      "name": "Baked Ziti",
-      "file": "recipes/baked_ziti.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/baked-ziti/) | **Author:** Nagi Maehashi",
-      "size": 2996
-    },
-    {
-      "name": "Epic Chunky Beef and Mushroom Pie",
-      "file": "recipes/beef_and_mushroom_pie.md",
-      "cuisines": [
-        "british"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/epic-chunky-beef-and-mushroom-pie/)",
-      "size": 3913
-    },
-    {
-      "name": "Beef Bourguignon (Beef Burgundy)",
-      "file": "recipes/beef_bourguignon_beef_burgundy.md",
-      "cuisines": [
-        "french"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/beef-bourguignon-beef-burgundy/)",
-      "size": 3925
-    },
-    {
-      "name": "Beef Chow Mein",
-      "file": "recipes/beef_chow_mein.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/beef-chow-mein-noodles/) | **Author:** Nagi Maehashi | **Rating:** 4.90 from 76 votes | **Serves:** 2 generously",
-      "size": 3734
-    },
-    {
-      "name": "Beef Rendang",
-      "file": "recipes/beef_rendang.md",
-      "cuisines": [
-        "malaysian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/beef-rendang/)",
-      "size": 2204
-    },
-    {
-      "name": "Beef Satay with Thai Peanut Sauce",
-      "file": "recipes/beef_satay_with_thai_peanut_sauce.md",
-      "cuisines": [
-        "thai | type: beef",
-        "grilled",
-        "skewers | method: grilled"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/beef-satay-with-thai-peanut-sauce/)",
-      "size": 3827
-    },
-    {
-      "name": "Beef Stroganoff",
-      "file": "recipes/beef_stroganoff.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/beef-stroganoff/)",
-      "size": 1588
-    },
-    {
-      "name": "Bibimbap! (Korean Rice Bowl)",
-      "file": "recipes/bibimbap_korean_rice_bowl.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/bibimbap/)",
-      "size": 1489
-    },
-    {
-      "name": "Braised Beef Short Ribs in Red Wine Sauce",
-      "file": "recipes/braised_beef_short_ribs_in_red_wine_sauce.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/braised-beef-short-ribs-in-red-wine-sauce/)",
-      "size": 1494
-    },
-    {
-      "name": "Butterscotch Cake",
-      "file": "recipes/butterscotch_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/butterscotch-cake/)",
-      "size": 2607
-    },
-    {
-      "name": "Caramel Apple Cake",
-      "file": "recipes/caramel_apple_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/apple-cake/)",
-      "size": 2731
-    },
-    {
-      "name": "Caramelised Vietnamese Shredded Beef",
-      "file": "recipes/caramelised_vietnamese_shredded_beef.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/caramelised-vietnamese-shredded-beef/)",
-      "size": 1317
-    },
-    {
-      "name": "Carne Asada",
-      "file": "recipes/carne_asada.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/carne-asada/)",
-      "size": 1322
-    },
-    {
-      "name": "Carrot Cake with Walnuts",
-      "file": "recipes/carrot_cake_with_walnuts.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/carrot-and-walnut-cake/)",
-      "size": 2255
-    },
-    {
-      "name": "Chicken and Mushroom Risotto",
-      "file": "recipes/chicken_and_mushroom_risotto.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-and-mushroom-risotto/)",
-      "size": 2365
-    },
-    {
-      "name": "Chicken au Poivre (Creamy Peppercorn Sauce)",
-      "file": "recipes/chicken_au_poivre_creamy_peppercorn_sauce.md",
-      "cuisines": [
-        "french"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/french-chicken-au-poivre-sauce/)",
-      "size": 2836
-    },
-    {
-      "name": "Chicken Broccoli Stir Fry",
-      "file": "recipes/chicken_broccoli_stir_fry.md",
-      "cuisines": [
-        "chinese"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-broccoli-stir-fry/)",
-      "size": 2623
-    },
-    {
-      "name": "Chicken Cacciatore (Italian Chicken Stew)",
-      "file": "recipes/chicken_cacciatore.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-cacciatore/)",
-      "size": 2427
-    },
-    {
-      "name": "Chicken Chasseur",
-      "file": "recipes/chicken_chasseur.md",
-      "cuisines": [
-        "french"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-chasseur/)",
-      "size": 2950
-    },
-    {
-      "name": "Chicken Chow Mein",
-      "file": "recipes/chicken_chow_mein.md",
-      "cuisines": [
-        "chinese"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-chow-mein/)",
-      "size": 2252
-    },
-    {
-      "name": "Chicken Francese",
-      "file": "recipes/chicken_francese.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-francese/)",
-      "size": 2691
-    },
-    {
-      "name": "Chicken in Creamy Mustard Sauce",
-      "file": "recipes/chicken_in_creamy_mustard_sauce.md",
-      "cuisines": [
-        "french"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-in-creamy-mustard-sauce/)",
-      "size": 2071
-    },
-    {
-      "name": "Chicken Marsala",
-      "file": "recipes/chicken_marsala.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-marsala/)",
-      "size": 2055
-    },
-    {
-      "name": "Chicken Pad Thai",
-      "file": "recipes/chicken_pad_thai.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-pad-thai/)",
-      "size": 2267
-    },
-    {
-      "name": "Chicken Pasta Recipe",
-      "file": "recipes/chicken_pasta_recipe.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-pasta-recipe/)",
-      "size": 2307
-    },
-    {
-      "name": "Chicken Piccata",
-      "file": "recipes/chicken_piccata.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-piccata/)",
-      "size": 2464
-    },
-    {
-      "name": "Chicken Pot Pie",
-      "file": "recipes/chicken_pot_pie.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-pot-pie/)",
-      "size": 2357
-    },
-    {
-      "name": "Chicken Shawarma (Middle Eastern)",
-      "file": "recipes/chicken_shawarma_middle_eastern.md",
-      "cuisines": [
-        "middle-eastern"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/)",
-      "size": 2104
-    },
-    {
-      "name": "Chicken with Creamy Sun Dried Tomato Sauce",
-      "file": "recipes/chicken_with_creamy_sun_dried_tomato_sauce.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chicken-with-creamy-sun-dried-tomato-sauce/)",
-      "size": 2188
-    },
-    {
-      "name": "Chili Con Carne Corn Bread Pie",
-      "file": "recipes/chili_con_carne_corn_bread_pie.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chili-con-carne-corn-bread-pie/)",
-      "size": 3800
-    },
-    {
-      "name": "Chinese Beef with Honey and Black Pepper Sauce",
-      "file": "recipes/chinese_beef_with_honey_and_black_pepper.md",
-      "cuisines": [
-        "chinese | type: beef",
-        "stir-fry",
-        "main | method: stir-fry"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chinese-beef-with-honey-and-black-pepper-sauce/)",
-      "size": 3357
-    },
-    {
-      "name": "Chinese Cashew Chicken",
-      "file": "recipes/chinese_cashew_chicken.md",
-      "cuisines": [
-        "chinese"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/chinese-cashew-chicken/)",
-      "size": 2655
-    },
-    {
-      "name": "Chocolate Cheesecake",
-      "file": "recipes/chocolate_cheesecake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/chocolate-cheesecake/)",
-      "size": 3107
-    },
-    {
-      "name": "Chocolate Peanut Butter Cake",
-      "file": "recipes/chocolate_peanut_butter_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/chocolate-peanut-butter-cake/)",
-      "size": 2804
-    },
-    {
-      "name": "Chocolate Raspberry Cake (Triple Layer)",
-      "file": "recipes/chocolate_raspberry_cake_triple_layer.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/triple-layer-chocolate-raspberry-cake/)",
-      "size": 2932
-    },
-    {
-      "name": "Christmas Cake",
-      "file": "recipes/christmas_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://preppykitchen.com/christmas-cake/)",
-      "size": 1818
-    },
-    {
-      "name": "Christmas Tree Cake",
-      "file": "recipes/christmas_tree_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/christmas-tree-cake/)",
-      "size": 2473
-    },
-    {
-      "name": "Coq au Vin",
-      "file": "recipes/coq_au_vin.md",
-      "cuisines": [
-        "french"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/coq-au-vin/)",
-      "size": 2771
-    },
-    {
-      "name": "Creamy Chicken and Bacon Pasta",
-      "file": "recipes/creamy_chicken_and_bacon_pasta.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/creamy-chicken-and-bacon-pasta/)",
-      "size": 2381
-    },
-    {
-      "name": "Creamy Chicken Mushroom Fettucine",
-      "file": "recipes/creamy_chicken_mushroom_fettucine.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/creamy-chicken-mushroom-fettucine/)",
-      "size": 2094
-    },
-    {
-      "name": "Creamy Tuscan Chicken Pasta Bake",
-      "file": "recipes/creamy_tuscan_chicken_pasta_bake.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/creamy-tuscan-chicken-pasta-bake/)",
-      "size": 2043
-    },
-    {
-      "name": "Crispy Shredded Chicken Noodle Stir Fry",
-      "file": "recipes/crispy_shredded_chicken_noodle_stir_fry.md",
-      "cuisines": [
-        "chinese"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/crispy-shredded-chicken-noodle-stir-fry/)",
-      "size": 2555
-    },
-    {
-      "name": "Crispy Sticky Mongolian Beef",
-      "file": "recipes/crispy_sticky_mongolian_beef.md",
-      "cuisines": [
-        "chinese | type: beef",
-        "stir-fry",
-        "main | method: stir-fry"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/crispy-sticky-mongolian-beef/)",
-      "size": 3487
-    },
-    {
-      "name": "Doner Kebab Meat (Beef or Lamb)",
-      "file": "recipes/doner_kebab_meat_beef_or_lamb.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/doner-kebab-meat-recipe-beef-or-lamb/) | **Author:** Nagi Maehashi",
-      "size": 2044
-    },
-    {
-      "name": "Easy Chinese Beef Stir Fry",
-      "file": "recipes/easy_chinese_beef_stir_fry.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/easy-classic-chinese-beef-stir-fry/) | **Author:** Nagi Maehashi | **Rating:** 4.93 from 148 votes | **Servings:** 3\u20134",
-      "size": 4363
-    },
-    {
-      "name": "Pineapple Upside Down Cake",
-      "file": "recipes/easy_pineapple_upside-down_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://preppykitchen.com/easy-pineapple-upside-down-cake/)",
-      "size": 1514
-    },
-    {
-      "name": "Fall Apart Mexican Beef Ribs",
-      "file": "recipes/fall_apart_mexican_beef_ribs.md",
-      "cuisines": [
-        "mexican | type: beef",
-        "ribs",
-        "main | method: stovetop"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/fall-apart-mexican-beef-ribs/)",
-      "size": 3692
-    },
-    {
-      "name": "Family Meat Pie",
-      "file": "recipes/family_meat_pie.md",
-      "cuisines": [
-        "british"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/family-meat-pie/)",
-      "size": 3668
-    },
-    {
-      "name": "French Chicken au Poivre Sauce",
-      "file": "recipes/french_chicken_au_poivre_sauce.md",
-      "cuisines": [
-        "french"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/french-chicken-au-poivre-sauce/)",
-      "size": 1955
-    },
-    {
-      "name": "Gingerbread Cake",
-      "file": "recipes/gingerbread_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://preppykitchen.com/gingerbread-cake/)",
-      "size": 1478
-    },
-    {
-      "name": "Greek Meatballs",
-      "file": "recipes/greek_meatballs.md",
-      "cuisines": [
-        "greek | type: meatballs",
-        "appetizer",
-        "main | method: stovetop"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/greek-meatballs/)",
-      "size": 2646
-    },
-    {
-      "name": "Greek Meatballs (Keftedes)",
-      "file": "recipes/greek_meatballs_keftedes.md",
-      "cuisines": [
-        "greek | type: meatballs",
-        "appetizer",
-        "main | method: stovetop"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/greek-meatballs/)",
-      "size": 3393
-    },
-    {
-      "name": "Instant Pot Refried Black Beans",
-      "file": "recipes/instant_pot_refried_black_beans.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.dadcooksdinner.com/pressure-cooker-refried-black-beans/)",
-      "size": 3684
-    },
-    {
-      "name": "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
-      "file": "recipes/jamaican_jerk_chicken_drumsticks.md",
-      "cuisines": [
-        "jamaican"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/jamaican-jerk-chicken-drumsticks/)",
-      "size": 2969
-    },
-    {
-      "name": "Jambalaya Recipe",
-      "file": "recipes/jambalaya_recipe.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "one-pot"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/jambalaya-recipe/)",
-      "size": 2507
-    },
-    {
-      "name": "Easy Key Lime Pie",
-      "file": "recipes/key_lime_pie.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://preppykitchen.com/key-lime-pie/)",
-      "size": 1487
-    },
-    {
-      "name": "Lemon Blueberry Cake",
-      "file": "recipes/lemon_blueberry_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/blueberry-lemon-cake/)",
-      "size": 2614
-    },
-    {
-      "name": "Lemon Cheesecake",
-      "file": "recipes/lemon_cheesecake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/lemon-cheesecake/)",
-      "size": 2139
-    },
-    {
-      "name": "Lemon Chicken Salad",
-      "file": "recipes/lemon_chicken_salad.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "salad"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/lemon-chicken-salad/)",
-      "size": 2173
-    },
-    {
-      "name": "Mapo Tofu",
-      "file": "recipes/mapo_tofu_mince_tofu_spicy_sauce.md",
-      "cuisines": [
-        "chinese | type: tofu",
-        "pork",
-        "main | method: stovetop"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/mapo-tofu-mince-tofu-spicy-sauce/)",
-      "size": 3547
-    },
-    {
-      "name": "Marinated Beef Kabobs",
-      "file": "recipes/marinated_beef_kabobs.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/marinated-beef-kabobs/)",
-      "size": 1157
-    },
-    {
-      "name": "Massaman Curry",
-      "file": "recipes/massaman_curry.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/massaman-curry/)",
-      "size": 2003
-    },
-    {
-      "name": "Amazing Crustless Pumpkin Pie Cupcakes",
-      "file": "recipes/mels-kitchen-cafe_amazing-crustless-pumpkin-pie-cupcakes.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert",
-        "cupcake"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/amazing-crustless-pumpkin-pie-cupcakes/)",
-      "size": 3679
-    },
-    {
-      "name": "Key Lime Cheesecake {No-Cracking!}",
-      "file": "recipes/mels-kitchen-cafe_amazing-key-lime-cheesecake.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert",
-        "cheesecake"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/amazing-key-lime-cheesecake/)",
-      "size": 3712
-    },
-    {
-      "name": "Amish-Style Apple and Cinnamon Baked Oatmeal",
-      "file": "recipes/mels-kitchen-cafe_amish-style-apple-and-cinnamon-baked-oatmeal.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "breakfast"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/amish-style-apple-and-cinnamon-baked-oatmeal/)",
-      "size": 2932
-    },
-    {
-      "name": "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
-      "file": "recipes/mels-kitchen-cafe_cheesy-au-gratin-potatoes.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "side dish"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/cheesy-au-gratin-potatoes-2/)",
-      "size": 3083
-    },
-    {
-      "name": "Creamy Cilantro Lime Dressing",
-      "file": "recipes/mels-kitchen-cafe_creamy-cilantro-lime-dressing.md",
-      "cuisines": [
-        "american",
-        "mexican-inspired"
-      ],
-      "types": [
-        "condiment",
-        "dressing"
-      ],
-      "methods": [
-        "blend"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/creamy-cilantro-lime-dressing/)",
-      "size": 2433
-    },
-    {
-      "name": "Easy Homemade French Bread",
-      "file": "recipes/mels-kitchen-cafe_french-bread.md",
-      "cuisines": [
-        "french",
-        "american"
-      ],
-      "types": [
-        "bread"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/french-bread/)",
-      "size": 3900
-    },
-    {
-      "name": "Honey Lime Fruit Salad",
-      "file": "recipes/mels-kitchen-cafe_honey-lime-fruit-salad.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "side dish",
-        "salad"
-      ],
-      "methods": [
-        "no-cook"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/honey-lime-fruit-salad/)",
-      "size": 2249
-    },
-    {
-      "name": "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
-      "file": "recipes/mels-kitchen-cafe_lemon-blueberry-cake-with-whipped-lemon-cream-frosting.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert",
-        "cake"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/lemon-blueberry-cake-with-whipped-lemon-cream-frosting/)",
-      "size": 3077
-    },
-    {
-      "name": "Lemonies \u2014 Lemony Lemon Brownie Bites",
-      "file": "recipes/mels-kitchen-cafe_lemonies.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert",
-        "bar"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/lemonies/)",
-      "size": 2653
-    },
-    {
-      "name": "Overnight Cinnamon and Sugar Sweet Rolls",
-      "file": "recipes/mels-kitchen-cafe_overnight-cinnamon-and-sugar-twists.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "breakfast",
-        "brunch",
-        "yeast bread"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/overnight-cinnamon-and-sugar-twists/)",
-      "size": 3462
-    },
-    {
-      "name": "Overnight Strawberry Cream Cheese Sweet Rolls",
-      "file": "recipes/mels-kitchen-cafe_overnight-strawberry-cream-cheese-sweet-rolls.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "breakfast",
-        "brunch",
-        "yeast bread"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/overnight-strawberry-cream-cheese-sweet-rolls/)",
-      "size": 3447
-    },
-    {
-      "name": "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
-      "file": "recipes/mels-kitchen-cafe_peanut-butter-cup-cheesecake.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert",
-        "cheesecake"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/peanut-butter-cup-cheesecake-with-chocolate-cookie-crust/)",
-      "size": 3626
-    },
-    {
-      "name": "Penne with Roasted Asparagus and Balsamic Butter",
-      "file": "recipes/mels-kitchen-cafe_penne-with-roasted-asparagus-and-balsamic-butter.md",
-      "cuisines": [
-        "italian-inspired"
-      ],
-      "types": [
-        "main dish"
-      ],
-      "methods": [
-        "roast & stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/penne-with-roasted-asparagus-and-balsamic-butter/)",
-      "size": 2716
-    },
-    {
-      "name": "The Best Carrot Cake Recipe Ever",
-      "file": "recipes/mels-kitchen-cafe_unbelievable-carrot-cake.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert",
-        "cake"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/unbelievable-carrot-cake/)",
-      "size": 3473
-    },
-    {
-      "name": "White Chocolate Raspberry Truffle Cheesecake",
-      "file": "recipes/mels-kitchen-cafe_white-chocolate-raspberry-truffle-cheesecake.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert",
-        "cheesecake"
-      ],
-      "methods": [
-        "bake"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/white-chocolate-raspberry-truffle-cheesecake/)",
-      "size": 3188
-    },
-    {
-      "name": "Easy Cowboy Caviar Dip (Shrapnel Dip)",
-      "file": "recipes/mels_amazing_shrapnel_dip.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/amazing-shrapnel-dip/)",
-      "size": 1376
-    },
-    {
-      "name": "Beach Street Lemon Chicken Pasta",
-      "file": "recipes/mels_beach_street_lemon_chicken_linguine.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/beach-street-lemon-chicken-linguine/)",
-      "size": 1384
-    },
-    {
-      "name": "Perfect Caramel Pecan Sticky Buns",
-      "file": "recipes/mels_caramel_pecan_sticky_buns.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/caramel-pecan-sticky-buns/)",
-      "size": 1553
-    },
-    {
-      "name": "Soft and Chewy Caramel Popcorn",
-      "file": "recipes/mels_caramel_popcorn.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/soft-and-chewy-caramel-popcorn/)",
-      "size": 1147
-    },
-    {
-      "name": "Cheesy Garlic Drop Biscuits",
-      "file": "recipes/mels_cheesy_garlic_drop_biscuits.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/cheesy-garlic-drop-biscuits/)",
-      "size": 1006
-    },
-    {
-      "name": "My Favorite Cherry Pie",
-      "file": "recipes/mels_cherry_pie.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/my-favorite-cherry-pie-in-the-history-of-ever/)",
-      "size": 1389
-    },
-    {
-      "name": "Dark Chocolate Sea Salt Caramel Pretzel Bark",
-      "file": "recipes/mels_chocolate_caramel_pretzel_bark.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/dark-chocolate-sea-salt-caramel-pretzel-bark-snappers-knock-off/)",
-      "size": 1107
-    },
-    {
-      "name": "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
-      "file": "recipes/mels_chopped_greek_chicken_salad.md",
-      "cuisines": [
-        "greek"
-      ],
-      "types": [
-        "salad"
-      ],
-      "methods": [
-        "grilled"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/chopped-greek-chicken-salad/)",
-      "size": 2126
-    },
-    {
-      "name": "My Mom's Famous Christmas Caramels",
-      "file": "recipes/mels_christmas_caramels.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/sugar-rush-11-my-moms-famous-caramels/)",
-      "size": 1045
-    },
-    {
-      "name": "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
-      "file": "recipes/mels_cinnamon_pull_apart_bread.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "bread"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/cinnamon-pull-apart-bread/)",
-      "size": 2028
-    },
-    {
-      "name": "Classic Baked Ziti (Mel's Kitchen Cafe)",
-      "file": "recipes/mels_classic_baked_ziti.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/classic-baked-ziti/) | **Author:** Mel Gunnell",
-      "size": 2716
-    },
-    {
-      "name": "Cranberry Apple Pie",
-      "file": "recipes/mels_cranberry_apple_pie.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "dessert"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/cranberry-apple-pie/)",
-      "size": 2020
-    },
-    {
-      "name": "Orange Zested Cranberry White Chocolate Bliss Bars",
-      "file": "recipes/mels_cranberry_white_chocolate_bars.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/orange-zested-cranberry-white-chocolate-bliss-bars-a-slightly-lighter-version/)",
-      "size": 1197
-    },
-    {
-      "name": "Creamy Homemade Alfredo Sauce",
-      "file": "recipes/mels_creamy_garlic_alfredo_sauce.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/creamy-garlic-alfredo-sauce-my-go-to-dinner-saver/)",
-      "size": 1194
-    },
-    {
-      "name": "Decadent Chocolate Cheesecake",
-      "file": "recipes/mels_decadent_chocolate_cheesecake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/decadent-chocolate-cheesecake/)",
-      "size": 1541
-    },
-    {
-      "name": "Harvest Apple Salad",
-      "file": "recipes/mels_harvest_apple_salad.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/harvest-apple-salad/)",
-      "size": 1200
-    },
-    {
-      "name": "Hash Brown Veggie Egg Cups",
-      "file": "recipes/mels_hash_brown_egg_cups.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/hash-brown-veggie-egg-cups/)",
-      "size": 1306
-    },
-    {
-      "name": "Decadent Hot Fudge Pudding Cake",
-      "file": "recipes/mels_hot_fudge_pudding_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/hot-fudge-pudding-cake/)",
-      "size": 1383
-    },
-    {
-      "name": "Lemon Chicken Orzo Soup",
-      "file": "recipes/mels_lemon_chicken_orzo_soup.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/lemon-chicken-orzo-soup/)",
-      "size": 1283
-    },
-    {
-      "name": "Mexican Street Corn Salad (Esquites)",
-      "file": "recipes/mels_mexican_street_corn_salad.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/mexican-street-corn-salad/)",
-      "size": 1167
-    },
-    {
-      "name": "The Best Monkey Bread",
-      "file": "recipes/mels_monkey_bread.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/the-best-monkey-bread/)",
-      "size": 1083
-    },
-    {
-      "name": "Orange Sweet Rolls",
-      "file": "recipes/mels_orange_sweet_rolls.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/orange-sweet-rolls/)",
-      "size": 1247
-    },
-    {
-      "name": "Oreo Cheesecake Bites",
-      "file": "recipes/mels_oreo_cheesecake_bites.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/oreo-cheesecake-bites/)",
-      "size": 1132
-    },
-    {
-      "name": "Overnight Creme Br\u00fbl\u00e9e French Toast Bake",
-      "file": "recipes/mels_overnight_creme_brulee_french_toast.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "breakfast"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.melskitchencafe.com/overnight-creme-brulee-french-toast-bake/)",
-      "size": 2086
-    },
-    {
-      "name": "The Best Lemon Bars",
-      "file": "recipes/mels_perfect_lemon_bars.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/perfect-lemon-bars/)",
-      "size": 1320
-    },
-    {
-      "name": "The Only Pie Crust Recipe You'll Ever Need",
-      "file": "recipes/mels_pie_crust.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/the-only-pie-crust-recipe-tutorial-youll-ever-need/)",
-      "size": 1420
-    },
-    {
-      "name": "Heavenly Raspberry Cream Angel Food Cake Dessert",
-      "file": "recipes/mels_raspberry_angel_food_cake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/raspberry-cream-angel-food-cake-dessert/)",
-      "size": 1481
-    },
-    {
-      "name": "Easy Rustic Crusty Bread",
-      "file": "recipes/mels_rustic_crusty_bread.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/rustic-crusty-bread-a-simple-how-to/)",
-      "size": 1462
-    },
-    {
-      "name": "Slow Cooker Posole",
-      "file": "recipes/mels_slow_cooker_posole.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/slow-cooker-posole/)",
-      "size": 1371
-    },
-    {
-      "name": "Spaghetti Pie",
-      "file": "recipes/mels_spaghetti_pie.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/spaghetti-pie-my-familys-favorite-dinner/)",
-      "size": 1397
-    },
-    {
-      "name": "The Best Spinach Artichoke Dip",
-      "file": "recipes/mels_spinach_artichoke_dip.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/the-best-spinach-artichoke-dip/)",
-      "size": 1416
-    },
-    {
-      "name": "Amazing Spinach Salad with Apples, Bacon and Feta",
-      "file": "recipes/mels_spinach_salad_sweet_spicy_nuts.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/spinach-salad-with-sweet-spicy-nuts-apples-feta-and-bacon/)",
-      "size": 1400
-    },
-    {
-      "name": "Strawberry Spinach Salad with Homemade Poppy Seed Dressing",
-      "file": "recipes/mels_strawberry_spinach_salad.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/strawberry-spinach-salad-with-homemade-poppy-seed-dressing/)",
-      "size": 1249
-    },
-    {
-      "name": "Sweet Baked Ham",
-      "file": "recipes/mels_sweet_baked_ham.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.melskitchencafe.com/sweet-baked-ham-the-most-unique-and-delicious-hive-ever-had/)",
-      "size": 1171
-    },
-    {
-      "name": "Mexican Chicken Avocado Salad",
-      "file": "recipes/mexican_chicken_avocado_salad.md",
-      "cuisines": [
-        "mexican"
-      ],
-      "types": [
-        "salad"
-      ],
-      "methods": [
-        "grilled"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/mexican-chicken-avocado-salad/)",
-      "size": 2310
-    },
-    {
-      "name": "Mexican Shredded Beef Ribs",
-      "file": "recipes/mexican_shredded_beef_ribs.md",
-      "cuisines": [
-        "mexican | type: beef",
-        "ribs",
-        "main | method: stovetop"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/fall-apart-mexican-beef-ribs/)",
-      "size": 3177
-    },
-    {
-      "name": "Mexican Shredded Chicken",
-      "file": "recipes/mexican_shredded_chicken.md",
-      "cuisines": [
-        "mexican"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "slow-cooker"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/mexican-shredded-chicken/)",
-      "size": 2326
-    },
-    {
-      "name": "Moroccan Baked Eggplant with Beef",
-      "file": "recipes/moroccan_baked_eggplant_with_beef.md",
-      "cuisines": [
-        "moroccan"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/moroccan-baked-eggplant-with-beef/)",
-      "size": 3615
-    },
-    {
-      "name": "Moussaka (Greek Beef and Eggplant Bake)",
-      "file": "recipes/moussaka_greek_beef_and_eggplant_bake.md",
-      "cuisines": [
-        "greek"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/moussaka-greek-eggplant-beef-bake/)",
-      "size": 2109
-    },
-    {
-      "name": "Nachos Pie",
-      "file": "recipes/nachos_pie.md",
-      "cuisines": [
-        "mexican"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/nachos-pie/)",
-      "size": 3317
-    },
-    {
-      "name": "New Orleans Chicken Wings",
-      "file": "recipes/new_orleans_chicken_wings.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "appetizer"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/new-orleans-chicken-wings/)",
-      "size": 2480
-    },
-    {
-      "name": "One Pan Spanish Chicken Chorizo Tomato Potatoes",
-      "file": "recipes/one_pan_spanish_chicken_chorizo.md",
-      "cuisines": [
-        "spanish"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/one-pan-spanish-chicken-chorizo-tomato-potatoes/)",
-      "size": 2873
-    },
-    {
-      "name": "One Pot Baked Greek Chicken Orzo Risoni",
-      "file": "recipes/one_pot_baked_greek_chicken_orzo_risoni.md",
-      "cuisines": [
-        "greek"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "one-pot"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/one-pot-baked-greek-chicken-orzo-risoni/)",
-      "size": 3338
-    },
-    {
-      "name": "One Pot Chicken Enchilada Rice Casserole",
-      "file": "recipes/one_pot_chicken_enchilada_rice_casserole.md",
-      "cuisines": [
-        "mexican"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "one-pot"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/one-pot-chicken-enchilada-rice-casserole/)",
-      "size": 2617
-    },
-    {
-      "name": "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
-      "file": "recipes/one_pot_creamy_parmesan_garlic_risotto.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "one-pot"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/one-pot-creamy-parmesan-garlic-risotto-with-lemon-pepper-chicken/)",
-      "size": 3004
-    },
-    {
-      "name": "One Pot Greek Chicken Lemon Rice",
-      "file": "recipes/one_pot_greek_chicken_lemon_rice.md",
-      "cuisines": [
-        "greek"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "one-pot"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/one-pot-greek-chicken-lemon-rice/)",
-      "size": 2474
-    },
-    {
-      "name": "Oreo Cheesecake",
-      "file": "recipes/oreo_cheesecake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://preppykitchen.com/oreo-cheesecake/)",
-      "size": 1399
-    },
-    {
-      "name": "Osso Buco",
-      "file": "recipes/osso_buco.md",
-      "cuisines": [
-        "italian"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/osso-buco/)",
-      "size": 2229
-    },
-    {
-      "name": "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
-      "file": "recipes/oven_baked_chicken_and_rice_pilaf.md",
-      "cuisines": [
-        "american"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/oven-baked-chicken-and-rice-pilaf-cranberry-walnut-apple/)",
-      "size": 2582
-    },
-    {
-      "name": "Oven Baked Chicken Quesadillas",
-      "file": "recipes/oven_baked_chicken_quesadillas.md",
-      "cuisines": [
-        "mexican"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/oven-baked-chicken-quesadillas/)",
-      "size": 2117
-    },
-    {
-      "name": "Pad Kee Mao (Thai Drunken Noodles)",
-      "file": "recipes/pad_kee_mao_thai_drunken_noodles.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/pad-kee-mao-thai-drunken-noodles/)",
-      "size": 2307
-    },
-    {
-      "name": "Pad Kee Mao (Thai Drunken Noodles)",
-      "file": "recipes/pad_keemao_thai_drunken_noodles.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/pad-kee-mao-thai-drunken-noodles/)",
-      "size": 2078
-    },
-    {
-      "name": "Peppercorn Sauce",
-      "file": "recipes/peppercorn_sauce.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/peppercorn-sauce/)",
-      "size": 1041
-    },
-    {
-      "name": "Moist Pumpkin Cake with Cream Cheese Frosting",
-      "file": "recipes/pumpkin_cake_with_cream_cheese_frosting.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://preppykitchen.com/pumpkin-cake/)",
-      "size": 1352
-    },
-    {
-      "name": "Qeema \u2013 Easy Indian Curried Beef Mince",
-      "file": "recipes/qeema_indian_curried_beef_mince.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/qeema-indian-curried-beef/) | **Author:** Nagi Maehashi | **Rating:** 4.87/5 (101 votes) | **226 Comments**",
-      "size": 3625
-    },
-    {
-      "name": "Chicken Pad Thai",
-      "file": "recipes/rasa_chicken_pad_thai.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/chicken-pad-thai/)",
-      "size": 1045
-    },
-    {
-      "name": "Coconut Lime Noodle Soup",
-      "file": "recipes/rasa_coconut_lime_noodle_soup.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/coconut-lime-noodle-soup/)",
-      "size": 944
-    },
-    {
-      "name": "Drunken Noodles (Pad Kee Mao)",
-      "file": "recipes/rasa_drunken_noodles.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/drunken-noodles/)",
-      "size": 987
-    },
-    {
-      "name": "Green Curry",
-      "file": "recipes/rasa_green_curry.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/green-curry/)",
-      "size": 918
-    },
-    {
-      "name": "Green Curry Shrimp",
-      "file": "recipes/rasa_green_curry_shrimp.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/green-curry-shrimp/)",
-      "size": 808
-    },
-    {
-      "name": "Pad See Ew",
-      "file": "recipes/rasa_pad_see_ew.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/pad-see-ew/)",
-      "size": 939
-    },
-    {
-      "name": "Pad Woon Sen Noodles (with Crab)",
-      "file": "recipes/rasa_pad_woon_sen.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/pad-woon-sen-recipe/)",
-      "size": 997
-    },
-    {
-      "name": "Thai Panang Curry with Beef",
-      "file": "recipes/rasa_panang_curry.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/thai-panang-curry-with-beef/)",
-      "size": 1094
-    },
-    {
-      "name": "Pineapple Curry",
-      "file": "recipes/rasa_pineapple_curry.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/pineapple-curry/)",
-      "size": 790
-    },
-    {
-      "name": "Pineapple Fried Rice",
-      "file": "recipes/rasa_pineapple_fried_rice.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/pineapple-fried-rice/)",
-      "size": 1021
-    },
-    {
-      "name": "Red Curry Shrimp",
-      "file": "recipes/rasa_red_curry_shrimp.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/red-curry-shrimp/)",
-      "size": 808
-    },
-    {
-      "name": "Sichuan Green Beans",
-      "file": "recipes/rasa_sichuan_green_beans.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/sichuan-green-beans/)",
-      "size": 820
-    },
-    {
-      "name": "Thai Basil Chicken (Pad Krapow Gai)",
-      "file": "recipes/rasa_thai_basil_chicken.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/thai-basil-chicken/)",
-      "size": 966
-    },
-    {
-      "name": "Thai Cashew Chicken",
-      "file": "recipes/rasa_thai_cashew_chicken.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/thai-cashew-chicken/)",
-      "size": 918
-    },
-    {
-      "name": "Thai Clams",
-      "file": "recipes/rasa_thai_clams.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/thai-clams/)",
-      "size": 838
-    },
-    {
-      "name": "Thai Coconut Soup with Chicken and Shrimp",
-      "file": "recipes/rasa_thai_coconut_soup.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/thai-coconut-soup-with-chicken-and-shrimp/)",
-      "size": 910
-    },
-    {
-      "name": "Thai Sweet Chili Peanut Noodles",
-      "file": "recipes/rasa_thai_peanut_noodles.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/thai-sweet-chili-peanut-noodles/)",
-      "size": 798
-    },
-    {
-      "name": "Thai Red Curry",
-      "file": "recipes/rasa_thai_red_curry.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/red-curry-recipe/)",
-      "size": 907
-    },
-    {
-      "name": "Thai Basil Squid",
-      "file": "recipes/rasa_thai_squid.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/thai-squid-recipe/)",
-      "size": 697
-    },
-    {
-      "name": "Tom Kha Soup (Thai Coconut Chicken Soup)",
-      "file": "recipes/rasa_tom_kha_gai.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/tom-kha-gai-recipe-thai-coconut-chicken-soup/)",
-      "size": 1034
-    },
-    {
-      "name": "Tom Yum Soup",
-      "file": "recipes/rasa_tom_yum.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://rasamalaysia.com/tom-yum-recipe/)",
-      "size": 1248
-    },
-    {
-      "name": "Raspberry Cheesecake",
-      "file": "recipes/raspberry_cheesecake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/raspberry-cheesecake/)",
-      "size": 2061
-    },
-    {
-      "name": "Salisbury Steak with Mushroom Gravy",
-      "file": "recipes/salisbury_steak_with_mushroom_gravy.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/salisbury-steak-with-mushroom-gravy/)",
-      "size": 1106
-    },
-    {
-      "name": "Quick Satay Peanut Stir Fry",
-      "file": "recipes/satay_peanut_stir_fry.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": false,
-      "url": "https://www.recipetineats.com/satay-peanut-stir-fry/)",
-      "size": 1207
-    },
-    {
-      "name": "Slow Cooker Red Wine Beef Cheeks",
-      "file": "recipes/slow_cooker_red_wine_beef_cheeks.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/slow-cooker-red-wine-beef-cheeks/) | **Author:** Nagi Maehashi",
-      "size": 3492
-    },
-    {
-      "name": "Spicy Firecracker Beef",
-      "file": "recipes/spicy_firecracker_beef.md",
-      "cuisines": [
-        "chinese | type: beef",
-        "stir-fry",
-        "main | method: stir-fry"
-      ],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/spicy-firecracker-beef/)",
-      "size": 3187
-    },
-    {
-      "name": "Thai Basil Chicken Stir Fry",
-      "file": "recipes/thai_basil_chicken_stir_fry.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stir-fry"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/thai-basil-chicken-stir-fry/)",
-      "size": 3116
-    },
-    {
-      "name": "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
-      "file": "recipes/thai_chicken_lettuce_cups_larb_gai.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "appetizer"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/thai-chicken-lettuce-cups/)",
-      "size": 2430
-    },
-    {
-      "name": "Thai Coconut Chicken",
-      "file": "recipes/thai_coconut_chicken.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "grilled"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/thai-coconut-chicken/)",
-      "size": 2116
-    },
-    {
-      "name": "Thai Grilled Chicken (Gai Yang)",
-      "file": "recipes/thai_grilled_chicken_gai_yang.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "grilled"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/thai-grilled-chicken-gai-yang/)",
-      "size": 2595
-    },
-    {
-      "name": "Thai Red Curry Pot Roast Chicken",
-      "file": "recipes/thai_red_curry_pot_roast_chicken.md",
-      "cuisines": [
-        "thai"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "baked"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/thai-red-curry-pot-roast-chicken/)",
-      "size": 2912
-    },
-    {
-      "name": "Turtle Cheesecake",
-      "file": "recipes/turtle_cheesecake.md",
-      "cuisines": [],
-      "types": [],
-      "methods": [],
-      "has_full_content": true,
-      "url": "https://preppykitchen.com/turtle-cheesecake/)",
-      "size": 2610
-    },
-    {
-      "name": "Vietnamese Caramel Ginger Chicken",
-      "file": "recipes/vietnamese_caramel_ginger_chicken.md",
-      "cuisines": [
-        "vietnamese"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/vietnamese-caramel-ginger-chicken/)",
-      "size": 2529
-    },
-    {
-      "name": "Vietnamese Coconut Caramel Chicken",
-      "file": "recipes/vietnamese_coconut_caramel_chicken.md",
-      "cuisines": [
-        "vietnamese"
-      ],
-      "types": [
-        "main"
-      ],
-      "methods": [
-        "stovetop"
-      ],
-      "has_full_content": true,
-      "url": "https://www.recipetineats.com/vietnamese-coconut-caramel-chicken/)",
-      "size": 2240
-    }
-  ]
+  {
+   "name": "Orange Zested Cranberry White Chocolate Bliss Bars",
+   "file": "recipes/mels_cranberry_white_chocolate_bars.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/orange-zested-cranberry-white-chocolate-bliss-bars-a-slightly-lighter-version/)",
+   "size": 1197
+  },
+  {
+   "name": "Coq au Vin",
+   "file": "recipes/coq_au_vin.md",
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/coq-au-vin/)",
+   "size": 2771
+  },
+  {
+   "name": "Crispy Sticky Mongolian Beef",
+   "file": "recipes/crispy_sticky_mongolian_beef.md",
+   "cuisines": [
+    "chinese | type: beef",
+    "stir-fry",
+    "main | method: stir-fry"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stir-fry",
+    "steam"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/crispy-sticky-mongolian-beef/)",
+   "size": 3487
+  },
+  {
+   "name": "Sichuan Green Beans",
+   "file": "recipes/rasa_sichuan_green_beans.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "fried"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/sichuan-green-beans/)",
+   "size": 820
+  },
+  {
+   "name": "One Pot Chicken Enchilada Rice Casserole",
+   "file": "recipes/one_pot_chicken_enchilada_rice_casserole.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "one-pot"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/one-pot-chicken-enchilada-rice-casserole/)",
+   "size": 2617
+  },
+  {
+   "name": "Decadent Chocolate Cheesecake",
+   "file": "recipes/mels_decadent_chocolate_cheesecake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/decadent-chocolate-cheesecake/)",
+   "size": 1541
+  },
+  {
+   "name": "The Best Monkey Bread",
+   "file": "recipes/mels_monkey_bread.md",
+   "cuisines": [],
+   "types": [
+    "breakfast"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/the-best-monkey-bread/)",
+   "size": 1083
+  },
+  {
+   "name": "Lemonies \u2014 Lemony Lemon Brownie Bites",
+   "file": "recipes/mels-kitchen-cafe_lemonies.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert",
+    "bar"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/lemonies/)",
+   "size": 2653
+  },
+  {
+   "name": "Mapo Tofu",
+   "file": "recipes/mapo_tofu_mince_tofu_spicy_sauce.md",
+   "cuisines": [
+    "chinese | type: tofu",
+    "pork",
+    "main | method: stovetop"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "steam"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/mapo-tofu-mince-tofu-spicy-sauce/)",
+   "size": 3547
+  },
+  {
+   "name": "Pad See Ew",
+   "file": "recipes/rasa_pad_see_ew.md",
+   "cuisines": [
+    "chinese",
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stir-fry",
+    "fried"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/pad-see-ew/)",
+   "size": 939
+  },
+  {
+   "name": "The Only Pie Crust Recipe You'll Ever Need",
+   "file": "recipes/mels_pie_crust.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/the-only-pie-crust-recipe-tutorial-youll-ever-need/)",
+   "size": 1420
+  },
+  {
+   "name": "Beach Street Lemon Chicken Pasta",
+   "file": "recipes/mels_beach_street_lemon_chicken_linguine.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/beach-street-lemon-chicken-linguine/)",
+   "size": 1384
+  },
+  {
+   "name": "The Best Carrot Cake Recipe Ever",
+   "file": "recipes/mels-kitchen-cafe_unbelievable-carrot-cake.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert",
+    "cake"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/unbelievable-carrot-cake/)",
+   "size": 3473
+  },
+  {
+   "name": "Braised Beef Short Ribs in Red Wine Sauce",
+   "file": "recipes/braised_beef_short_ribs_in_red_wine_sauce.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "slow-cook",
+    "pressure-cook"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/braised-beef-short-ribs-in-red-wine-sauce/)",
+   "size": 1494
+  },
+  {
+   "name": "Mexican Street Corn Salad (Esquites)",
+   "file": "recipes/mels_mexican_street_corn_salad.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/mexican-street-corn-salad/)",
+   "size": 1167
+  },
+  {
+   "name": "Slow Cooker Red Wine Beef Cheeks",
+   "file": "recipes/slow_cooker_red_wine_beef_cheeks.md",
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "slow-cook",
+    "roast"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/slow-cooker-red-wine-beef-cheeks/) | **Author:** Nagi Maehashi",
+   "size": 3492
+  },
+  {
+   "name": "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+   "file": "recipes/one_pan_spanish_chicken_chorizo.md",
+   "cuisines": [
+    "spanish"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/one-pan-spanish-chicken-chorizo-tomato-potatoes/)",
+   "size": 2873
+  },
+  {
+   "name": "Salisbury Steak with Mushroom Gravy",
+   "file": "recipes/salisbury_steak_with_mushroom_gravy.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/salisbury-steak-with-mushroom-gravy/)",
+   "size": 1106
+  },
+  {
+   "name": "Thai Grilled Chicken (Gai Yang)",
+   "file": "recipes/thai_grilled_chicken_gai_yang.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grilled"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/thai-grilled-chicken-gai-yang/)",
+   "size": 2595
+  },
+  {
+   "name": "Chicken in Creamy Mustard Sauce",
+   "file": "recipes/chicken_in_creamy_mustard_sauce.md",
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-in-creamy-mustard-sauce/)",
+   "size": 2071
+  },
+  {
+   "name": "Easy Homemade French Bread",
+   "file": "recipes/mels-kitchen-cafe_french-bread.md",
+   "cuisines": [
+    "french",
+    "american"
+   ],
+   "types": [
+    "bread"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/french-bread/)",
+   "size": 3900
+  },
+  {
+   "name": "Tom Yum Soup",
+   "file": "recipes/rasa_tom_yum.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/tom-yum-recipe/)",
+   "size": 1248
+  },
+  {
+   "name": "Thai Panang Curry with Beef",
+   "file": "recipes/rasa_panang_curry.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stir-fry",
+    "roast"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/thai-panang-curry-with-beef/)",
+   "size": 1094
+  },
+  {
+   "name": "Australian Meat Pie",
+   "file": "recipes/australian_meat_pie.md",
+   "cuisines": [
+    "australian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/meat-pie-recipe/)",
+   "size": 2131
+  },
+  {
+   "name": "Beef Bourguignon (Beef Burgundy)",
+   "file": "recipes/beef_bourguignon_beef_burgundy.md",
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/beef-bourguignon-beef-burgundy/)",
+   "size": 3925
+  },
+  {
+   "name": "New Orleans Chicken Wings",
+   "file": "recipes/new_orleans_chicken_wings.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "appetizer"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/new-orleans-chicken-wings/)",
+   "size": 2480
+  },
+  {
+   "name": "Thai Coconut Chicken",
+   "file": "recipes/thai_coconut_chicken.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grilled"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/thai-coconut-chicken/)",
+   "size": 2116
+  },
+  {
+   "name": "Lemon Blueberry Cake",
+   "file": "recipes/lemon_blueberry_cake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/blueberry-lemon-cake/)",
+   "size": 2614
+  },
+  {
+   "name": "Vietnamese Coconut Caramel Chicken",
+   "file": "recipes/vietnamese_coconut_caramel_chicken.md",
+   "cuisines": [
+    "vietnamese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/vietnamese-coconut-caramel-chicken/)",
+   "size": 2240
+  },
+  {
+   "name": "Chicken Francese",
+   "file": "recipes/chicken_francese.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-francese/)",
+   "size": 2691
+  },
+  {
+   "name": "Thai Red Curry",
+   "file": "recipes/rasa_thai_red_curry.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/red-curry-recipe/)",
+   "size": 907
+  },
+  {
+   "name": "Cranberry Apple Pie",
+   "file": "recipes/mels_cranberry_apple_pie.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/cranberry-apple-pie/)",
+   "size": 2020
+  },
+  {
+   "name": "The Best Lemon Bars",
+   "file": "recipes/mels_perfect_lemon_bars.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/perfect-lemon-bars/)",
+   "size": 1320
+  },
+  {
+   "name": "Spicy Firecracker Beef",
+   "file": "recipes/spicy_firecracker_beef.md",
+   "cuisines": [
+    "chinese | type: beef",
+    "stir-fry",
+    "main | method: stir-fry"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stir-fry",
+    "steam"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/spicy-firecracker-beef/)",
+   "size": 3187
+  },
+  {
+   "name": "The Best Spinach Artichoke Dip",
+   "file": "recipes/mels_spinach_artichoke_dip.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "slow-cook"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/the-best-spinach-artichoke-dip/)",
+   "size": 1416
+  },
+  {
+   "name": "Chicken Pasta Recipe",
+   "file": "recipes/chicken_pasta_recipe.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-pasta-recipe/)",
+   "size": 2307
+  },
+  {
+   "name": "Christmas Tree Cake",
+   "file": "recipes/christmas_tree_cake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/christmas-tree-cake/)",
+   "size": 2473
+  },
+  {
+   "name": "Orange Sweet Rolls",
+   "file": "recipes/mels_orange_sweet_rolls.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/orange-sweet-rolls/)",
+   "size": 1247
+  },
+  {
+   "name": "Mexican Shredded Beef Ribs",
+   "file": "recipes/mexican_shredded_beef_ribs.md",
+   "cuisines": [
+    "mexican | type: beef",
+    "ribs",
+    "main | method: stovetop"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "fried",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/fall-apart-mexican-beef-ribs/)",
+   "size": 3177
+  },
+  {
+   "name": "Drunken Noodles (Pad Kee Mao)",
+   "file": "recipes/rasa_drunken_noodles.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "fried"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/drunken-noodles/)",
+   "size": 987
+  },
+  {
+   "name": "Caramel Apple Cake",
+   "file": "recipes/caramel_apple_cake.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/apple-cake/)",
+   "size": 2731
+  },
+  {
+   "name": "Creamy Homemade Alfredo Sauce",
+   "file": "recipes/mels_creamy_garlic_alfredo_sauce.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/creamy-garlic-alfredo-sauce-my-go-to-dinner-saver/)",
+   "size": 1194
+  },
+  {
+   "name": "Raspberry Cheesecake",
+   "file": "recipes/raspberry_cheesecake.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/raspberry-cheesecake/)",
+   "size": 2061
+  },
+  {
+   "name": "Easy Rustic Crusty Bread",
+   "file": "recipes/mels_rustic_crusty_bread.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "steam"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/rustic-crusty-bread-a-simple-how-to/)",
+   "size": 1462
+  },
+  {
+   "name": "Hash Brown Veggie Egg Cups",
+   "file": "recipes/mels_hash_brown_egg_cups.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/hash-brown-veggie-egg-cups/)",
+   "size": 1306
+  },
+  {
+   "name": "Red Curry Shrimp",
+   "file": "recipes/rasa_red_curry_shrimp.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/red-curry-shrimp/)",
+   "size": 808
+  },
+  {
+   "name": "Mexican Chicken Avocado Salad",
+   "file": "recipes/mexican_chicken_avocado_salad.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "grilled"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/mexican-chicken-avocado-salad/)",
+   "size": 2310
+  },
+  {
+   "name": "Instant Pot Refried Black Beans",
+   "file": "recipes/instant_pot_refried_black_beans.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "breakfast"
+   ],
+   "methods": [
+    "fried",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://www.dadcooksdinner.com/pressure-cooker-refried-black-beans/)",
+   "size": 3684
+  },
+  {
+   "name": "Butterscotch Cake",
+   "file": "recipes/butterscotch_cake.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/butterscotch-cake/)",
+   "size": 2607
+  },
+  {
+   "name": "Thai Sweet Chili Peanut Noodles",
+   "file": "recipes/rasa_thai_peanut_noodles.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/thai-sweet-chili-peanut-noodles/)",
+   "size": 798
+  },
+  {
+   "name": "Penne with Roasted Asparagus and Balsamic Butter",
+   "file": "recipes/mels-kitchen-cafe_penne-with-roasted-asparagus-and-balsamic-butter.md",
+   "cuisines": [
+    "italian-inspired"
+   ],
+   "types": [
+    "main dish"
+   ],
+   "methods": [
+    "roast & stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/penne-with-roasted-asparagus-and-balsamic-butter/)",
+   "size": 2716
+  },
+  {
+   "name": "Peppercorn Sauce",
+   "file": "recipes/peppercorn_sauce.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/peppercorn-sauce/)",
+   "size": 1041
+  },
+  {
+   "name": "Chinese Cashew Chicken",
+   "file": "recipes/chinese_cashew_chicken.md",
+   "cuisines": [
+    "chinese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chinese-cashew-chicken/)",
+   "size": 2655
+  },
+  {
+   "name": "Pineapple Fried Rice",
+   "file": "recipes/rasa_pineapple_fried_rice.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "steam"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/pineapple-fried-rice/)",
+   "size": 1021
+  },
+  {
+   "name": "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+   "file": "recipes/jamaican_jerk_chicken_drumsticks.md",
+   "cuisines": [
+    "jamaican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/jamaican-jerk-chicken-drumsticks/)",
+   "size": 2969
+  },
+  {
+   "name": "Epic Chunky Beef and Mushroom Pie",
+   "file": "recipes/beef_and_mushroom_pie.md",
+   "cuisines": [
+    "british"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/epic-chunky-beef-and-mushroom-pie/)",
+   "size": 3913
+  },
+  {
+   "name": "Moussaka (Greek Beef and Eggplant Bake)",
+   "file": "recipes/moussaka_greek_beef_and_eggplant_bake.md",
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/moussaka-greek-eggplant-beef-bake/)",
+   "size": 2109
+  },
+  {
+   "name": "Greek Meatballs (Keftedes)",
+   "file": "recipes/greek_meatballs_keftedes.md",
+   "cuisines": [
+    "greek | type: meatballs",
+    "appetizer",
+    "main | method: stovetop"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/greek-meatballs/)",
+   "size": 3393
+  },
+  {
+   "name": "Decadent Hot Fudge Pudding Cake",
+   "file": "recipes/mels_hot_fudge_pudding_cake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/hot-fudge-pudding-cake/)",
+   "size": 1383
+  },
+  {
+   "name": "Chicken Pad Thai",
+   "file": "recipes/rasa_chicken_pad_thai.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/chicken-pad-thai/)",
+   "size": 1045
+  },
+  {
+   "name": "Thai Basil Squid",
+   "file": "recipes/rasa_thai_squid.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "roast"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/thai-squid-recipe/)",
+   "size": 697
+  },
+  {
+   "name": "Oreo Cheesecake",
+   "file": "recipes/oreo_cheesecake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "steam"
+   ],
+   "has_full_content": false,
+   "url": "https://preppykitchen.com/oreo-cheesecake/)",
+   "size": 1399
+  },
+  {
+   "name": "Chicken Pad Thai",
+   "file": "recipes/rasa_chicken_pad_thai.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/chicken-pad-thai/)",
+   "size": 1045
+  },
+  {
+   "name": "Pad Kee Mao (Thai Drunken Noodles)",
+   "file": "recipes/pad_keemao_thai_drunken_noodles.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/pad-kee-mao-thai-drunken-noodles/)",
+   "size": 2078
+  },
+  {
+   "name": "Quick Asian Caramelised Beef Ramen Noodles",
+   "file": "recipes/asian_beef_and_noodles.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/asian-beef-and-noodles/)",
+   "size": 1354
+  },
+  {
+   "name": "Thai Red Curry Pot Roast Chicken",
+   "file": "recipes/thai_red_curry_pot_roast_chicken.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/thai-red-curry-pot-roast-chicken/)",
+   "size": 2912
+  },
+  {
+   "name": "Beef Rendang",
+   "file": "recipes/beef_rendang.md",
+   "cuisines": [
+    "malaysian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/beef-rendang/)",
+   "size": 2204
+  },
+  {
+   "name": "Nachos Pie",
+   "file": "recipes/nachos_pie.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/nachos-pie/)",
+   "size": 3317
+  },
+  {
+   "name": "French Chicken au Poivre Sauce",
+   "file": "recipes/french_chicken_au_poivre_sauce.md",
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/french-chicken-au-poivre-sauce/)",
+   "size": 1955
+  },
+  {
+   "name": "Creamy Chicken Mushroom Fettucine",
+   "file": "recipes/creamy_chicken_mushroom_fettucine.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/creamy-chicken-mushroom-fettucine/)",
+   "size": 2094
+  },
+  {
+   "name": "Spaghetti Pie",
+   "file": "recipes/mels_spaghetti_pie.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/spaghetti-pie-my-familys-favorite-dinner/)",
+   "size": 1397
+  },
+  {
+   "name": "Harvest Apple Salad",
+   "file": "recipes/mels_harvest_apple_salad.md",
+   "cuisines": [],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "roast"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/harvest-apple-salad/)",
+   "size": 1200
+  },
+  {
+   "name": "Pineapple Upside Down Cake",
+   "file": "recipes/easy_pineapple_upside-down_cake.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://preppykitchen.com/easy-pineapple-upside-down-cake/)",
+   "size": 1514
+  },
+  {
+   "name": "Sweet Baked Ham",
+   "file": "recipes/mels_sweet_baked_ham.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "roast"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/sweet-baked-ham-the-most-unique-and-delicious-hive-ever-had/)",
+   "size": 1171
+  },
+  {
+   "name": "Fall Apart Mexican Beef Ribs",
+   "file": "recipes/fall_apart_mexican_beef_ribs.md",
+   "cuisines": [
+    "mexican | type: beef",
+    "ribs",
+    "main | method: stovetop"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "fried",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/fall-apart-mexican-beef-ribs/)",
+   "size": 3692
+  },
+  {
+   "name": "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
+   "file": "recipes/mels_cinnamon_pull_apart_bread.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "bread"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/cinnamon-pull-apart-bread/)",
+   "size": 2028
+  },
+  {
+   "name": "Lemon Cheesecake",
+   "file": "recipes/lemon_cheesecake.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "roast"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/lemon-cheesecake/)",
+   "size": 2139
+  },
+  {
+   "name": "Overnight Creme Br\u00fbl\u00e9e French Toast Bake",
+   "file": "recipes/mels_overnight_creme_brulee_french_toast.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "breakfast"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/overnight-creme-brulee-french-toast-bake/)",
+   "size": 2086
+  },
+  {
+   "name": "Marinated Beef Kabobs",
+   "file": "recipes/marinated_beef_kabobs.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/marinated-beef-kabobs/)",
+   "size": 1157
+  },
+  {
+   "name": "Chicken au Poivre (Creamy Peppercorn Sauce)",
+   "file": "recipes/chicken_au_poivre_creamy_peppercorn_sauce.md",
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/french-chicken-au-poivre-sauce/)",
+   "size": 2836
+  },
+  {
+   "name": "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+   "file": "recipes/mels_chopped_greek_chicken_salad.md",
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "grilled"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/chopped-greek-chicken-salad/)",
+   "size": 2126
+  },
+  {
+   "name": "Qeema \u2013 Easy Indian Curried Beef Mince",
+   "file": "recipes/qeema_indian_curried_beef_mince.md",
+   "cuisines": [
+    "indian",
+    "american"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/qeema-indian-curried-beef/) | **Author:** Nagi Maehashi | **Rating:** 4.87/5 (101 votes) | **226 Comments**",
+   "size": 3625
+  },
+  {
+   "name": "Amazing Spinach Salad with Apples, Bacon and Feta",
+   "file": "recipes/mels_spinach_salad_sweet_spicy_nuts.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/spinach-salad-with-sweet-spicy-nuts-apples-feta-and-bacon/)",
+   "size": 1400
+  },
+  {
+   "name": "Greek Meatballs",
+   "file": "recipes/greek_meatballs.md",
+   "cuisines": [
+    "greek | type: meatballs",
+    "appetizer",
+    "main | method: stovetop"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/greek-meatballs/)",
+   "size": 2646
+  },
+  {
+   "name": "Chili Con Carne Corn Bread Pie",
+   "file": "recipes/chili_con_carne_corn_bread_pie.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chili-con-carne-corn-bread-pie/)",
+   "size": 3800
+  },
+  {
+   "name": "Amish-Style Apple and Cinnamon Baked Oatmeal",
+   "file": "recipes/mels-kitchen-cafe_amish-style-apple-and-cinnamon-baked-oatmeal.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "breakfast"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/amish-style-apple-and-cinnamon-baked-oatmeal/)",
+   "size": 2932
+  },
+  {
+   "name": "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
+   "file": "recipes/thai_chicken_lettuce_cups_larb_gai.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "appetizer"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/thai-chicken-lettuce-cups/)",
+   "size": 2430
+  },
+  {
+   "name": "Doner Kebab Meat (Beef or Lamb)",
+   "file": "recipes/doner_kebab_meat_beef_or_lamb.md",
+   "cuisines": [],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/doner-kebab-meat-recipe-beef-or-lamb/) | **Author:** Nagi Maehashi",
+   "size": 2044
+  },
+  {
+   "name": "White Chocolate Raspberry Truffle Cheesecake",
+   "file": "recipes/mels-kitchen-cafe_white-chocolate-raspberry-truffle-cheesecake.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert",
+    "cheesecake"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/white-chocolate-raspberry-truffle-cheesecake/)",
+   "size": 3188
+  },
+  {
+   "name": "Easy Cowboy Caviar Dip (Shrapnel Dip)",
+   "file": "recipes/mels_amazing_shrapnel_dip.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/amazing-shrapnel-dip/)",
+   "size": 1376
+  },
+  {
+   "name": "Thai Coconut Soup with Chicken and Shrimp",
+   "file": "recipes/rasa_thai_coconut_soup.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/thai-coconut-soup-with-chicken-and-shrimp/)",
+   "size": 910
+  },
+  {
+   "name": "Overnight Strawberry Cream Cheese Sweet Rolls",
+   "file": "recipes/mels-kitchen-cafe_overnight-strawberry-cream-cheese-sweet-rolls.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "breakfast",
+    "brunch",
+    "yeast bread"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/overnight-strawberry-cream-cheese-sweet-rolls/)",
+   "size": 3447
+  },
+  {
+   "name": "Creamy Tuscan Chicken Pasta Bake",
+   "file": "recipes/creamy_tuscan_chicken_pasta_bake.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/creamy-tuscan-chicken-pasta-bake/)",
+   "size": 2043
+  },
+  {
+   "name": "Easy Key Lime Pie",
+   "file": "recipes/key_lime_pie.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://preppykitchen.com/key-lime-pie/)",
+   "size": 1487
+  },
+  {
+   "name": "Lemon Chicken Salad",
+   "file": "recipes/lemon_chicken_salad.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/lemon-chicken-salad/)",
+   "size": 2173
+  },
+  {
+   "name": "My Favorite Cherry Pie",
+   "file": "recipes/mels_cherry_pie.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/my-favorite-cherry-pie-in-the-history-of-ever/)",
+   "size": 1389
+  },
+  {
+   "name": "Pineapple Curry",
+   "file": "recipes/rasa_pineapple_curry.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/pineapple-curry/)",
+   "size": 790
+  },
+  {
+   "name": "Dark Chocolate Sea Salt Caramel Pretzel Bark",
+   "file": "recipes/mels_chocolate_caramel_pretzel_bark.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/dark-chocolate-sea-salt-caramel-pretzel-bark-snappers-knock-off/)",
+   "size": 1107
+  },
+  {
+   "name": "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+   "file": "recipes/mels-kitchen-cafe_lemon-blueberry-cake-with-whipped-lemon-cream-frosting.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert",
+    "cake"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/lemon-blueberry-cake-with-whipped-lemon-cream-frosting/)",
+   "size": 3077
+  },
+  {
+   "name": "Chocolate Peanut Butter Cake",
+   "file": "recipes/chocolate_peanut_butter_cake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "steam"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/chocolate-peanut-butter-cake/)",
+   "size": 2804
+  },
+  {
+   "name": "Cheesy Garlic Drop Biscuits",
+   "file": "recipes/mels_cheesy_garlic_drop_biscuits.md",
+   "cuisines": [],
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/cheesy-garlic-drop-biscuits/)",
+   "size": 1006
+  },
+  {
+   "name": "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+   "file": "recipes/mels-kitchen-cafe_peanut-butter-cup-cheesecake.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert",
+    "cheesecake"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/peanut-butter-cup-cheesecake-with-chocolate-cookie-crust/)",
+   "size": 3626
+  },
+  {
+   "name": "Classic Baked Ziti (Mel's Kitchen Cafe)",
+   "file": "recipes/mels_classic_baked_ziti.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/classic-baked-ziti/) | **Author:** Mel Gunnell",
+   "size": 2716
+  },
+  {
+   "name": "Osso Buco",
+   "file": "recipes/osso_buco.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/osso-buco/)",
+   "size": 2229
+  },
+  {
+   "name": "Soft and Chewy Caramel Popcorn",
+   "file": "recipes/mels_caramel_popcorn.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/soft-and-chewy-caramel-popcorn/)",
+   "size": 1147
+  },
+  {
+   "name": "Coconut Lime Noodle Soup",
+   "file": "recipes/rasa_coconut_lime_noodle_soup.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/coconut-lime-noodle-soup/)",
+   "size": 944
+  },
+  {
+   "name": "Chinese Beef with Honey and Black Pepper Sauce",
+   "file": "recipes/chinese_beef_with_honey_and_black_pepper.md",
+   "cuisines": [
+    "chinese | type: beef",
+    "stir-fry",
+    "main | method: stir-fry"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stir-fry",
+    "steam"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chinese-beef-with-honey-and-black-pepper-sauce/)",
+   "size": 3357
+  },
+  {
+   "name": "Crispy Shredded Chicken Noodle Stir Fry",
+   "file": "recipes/crispy_shredded_chicken_noodle_stir_fry.md",
+   "cuisines": [
+    "chinese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/crispy-shredded-chicken-noodle-stir-fry/)",
+   "size": 2555
+  },
+  {
+   "name": "Overnight Cinnamon and Sugar Sweet Rolls",
+   "file": "recipes/mels-kitchen-cafe_overnight-cinnamon-and-sugar-twists.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "breakfast",
+    "brunch",
+    "yeast bread"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/overnight-cinnamon-and-sugar-twists/)",
+   "size": 3462
+  },
+  {
+   "name": "Creamy Chicken and Bacon Pasta",
+   "file": "recipes/creamy_chicken_and_bacon_pasta.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/creamy-chicken-and-bacon-pasta/)",
+   "size": 2381
+  },
+  {
+   "name": "Family Meat Pie",
+   "file": "recipes/family_meat_pie.md",
+   "cuisines": [
+    "british"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/family-meat-pie/)",
+   "size": 3668
+  },
+  {
+   "name": "Chicken and Mushroom Risotto",
+   "file": "recipes/chicken_and_mushroom_risotto.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-and-mushroom-risotto/)",
+   "size": 2365
+  },
+  {
+   "name": "Tom Kha Soup (Thai Coconut Chicken Soup)",
+   "file": "recipes/rasa_tom_kha_gai.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/tom-kha-gai-recipe-thai-coconut-chicken-soup/)",
+   "size": 1034
+  },
+  {
+   "name": "Chicken Chow Mein",
+   "file": "recipes/chicken_chow_mein.md",
+   "cuisines": [
+    "chinese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-chow-mein/)",
+   "size": 2252
+  },
+  {
+   "name": "Moroccan Baked Eggplant with Beef",
+   "file": "recipes/moroccan_baked_eggplant_with_beef.md",
+   "cuisines": [
+    "moroccan"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/moroccan-baked-eggplant-with-beef/)",
+   "size": 3615
+  },
+  {
+   "name": "Jambalaya Recipe",
+   "file": "recipes/jambalaya_recipe.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "one-pot"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/jambalaya-recipe/)",
+   "size": 2507
+  },
+  {
+   "name": "Massaman Curry",
+   "file": "recipes/massaman_curry.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/massaman-curry/)",
+   "size": 2003
+  },
+  {
+   "name": "Chicken Marsala",
+   "file": "recipes/chicken_marsala.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-marsala/)",
+   "size": 2055
+  },
+  {
+   "name": "Beef Stroganoff",
+   "file": "recipes/beef_stroganoff.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/beef-stroganoff/)",
+   "size": 1588
+  },
+  {
+   "name": "Moist Pumpkin Cake with Cream Cheese Frosting",
+   "file": "recipes/pumpkin_cake_with_cream_cheese_frosting.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://preppykitchen.com/pumpkin-cake/)",
+   "size": 1352
+  },
+  {
+   "name": "Carne Asada",
+   "file": "recipes/carne_asada.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/carne-asada/)",
+   "size": 1322
+  },
+  {
+   "name": "One Pot Greek Chicken Lemon Rice",
+   "file": "recipes/one_pot_greek_chicken_lemon_rice.md",
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "one-pot"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/one-pot-greek-chicken-lemon-rice/)",
+   "size": 2474
+  },
+  {
+   "name": "Lemon Chicken Orzo Soup",
+   "file": "recipes/mels_lemon_chicken_orzo_soup.md",
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/lemon-chicken-orzo-soup/)",
+   "size": 1283
+  },
+  {
+   "name": "Honey Lime Fruit Salad",
+   "file": "recipes/mels-kitchen-cafe_honey-lime-fruit-salad.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "side dish",
+    "salad"
+   ],
+   "methods": [
+    "no-cook"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/honey-lime-fruit-salad/)",
+   "size": 2249
+  },
+  {
+   "name": "Chicken Pot Pie",
+   "file": "recipes/chicken_pot_pie.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-pot-pie/)",
+   "size": 2357
+  },
+  {
+   "name": "Chicken Chasseur",
+   "file": "recipes/chicken_chasseur.md",
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-chasseur/)",
+   "size": 2950
+  },
+  {
+   "name": "Chocolate Cheesecake",
+   "file": "recipes/chocolate_cheesecake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "steam"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/chocolate-cheesecake/)",
+   "size": 3107
+  },
+  {
+   "name": "Pad Kee Mao (Thai Drunken Noodles)",
+   "file": "recipes/pad_keemao_thai_drunken_noodles.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/pad-kee-mao-thai-drunken-noodles/)",
+   "size": 2078
+  },
+  {
+   "name": "Key Lime Cheesecake {No-Cracking!}",
+   "file": "recipes/mels-kitchen-cafe_amazing-key-lime-cheesecake.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert",
+    "cheesecake"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/amazing-key-lime-cheesecake/)",
+   "size": 3712
+  },
+  {
+   "name": "Chicken Shawarma (Middle Eastern)",
+   "file": "recipes/chicken_shawarma_middle_eastern.md",
+   "cuisines": [
+    "middle-eastern"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/)",
+   "size": 2104
+  },
+  {
+   "name": "Chicken with Creamy Sun Dried Tomato Sauce",
+   "file": "recipes/chicken_with_creamy_sun_dried_tomato_sauce.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-with-creamy-sun-dried-tomato-sauce/)",
+   "size": 2188
+  },
+  {
+   "name": "Carrot Cake with Walnuts",
+   "file": "recipes/carrot_cake_with_walnuts.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/carrot-and-walnut-cake/)",
+   "size": 2255
+  },
+  {
+   "name": "Beef Satay with Thai Peanut Sauce",
+   "file": "recipes/beef_satay_with_thai_peanut_sauce.md",
+   "cuisines": [
+    "thai | type: beef",
+    "grilled",
+    "skewers | method: grilled"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill",
+    "steam"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/beef-satay-with-thai-peanut-sauce/)",
+   "size": 3827
+  },
+  {
+   "name": "Baked Ziti",
+   "file": "recipes/baked_ziti.md",
+   "cuisines": [
+    "italian",
+    "french"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/baked-ziti/) | **Author:** Nagi Maehashi",
+   "size": 2996
+  },
+  {
+   "name": "Chicken Cacciatore (Italian Chicken Stew)",
+   "file": "recipes/chicken_cacciatore.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-cacciatore/)",
+   "size": 2427
+  },
+  {
+   "name": "Avocado Chicken Salad",
+   "file": "recipes/avocado_chicken_salad.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "salad"
+   ],
+   "methods": [
+    "no-cook"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/avocado-chicken-salad/)",
+   "size": 2240
+  },
+  {
+   "name": "Turtle Cheesecake",
+   "file": "recipes/turtle_cheesecake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "roast"
+   ],
+   "has_full_content": true,
+   "url": "https://preppykitchen.com/turtle-cheesecake/)",
+   "size": 2610
+  },
+  {
+   "name": "Slow Cooker Posole",
+   "file": "recipes/mels_slow_cooker_posole.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "slow-cook",
+    "roast"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/slow-cooker-posole/)",
+   "size": 1371
+  },
+  {
+   "name": "Vietnamese Caramel Ginger Chicken",
+   "file": "recipes/vietnamese_caramel_ginger_chicken.md",
+   "cuisines": [
+    "vietnamese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/vietnamese-caramel-ginger-chicken/)",
+   "size": 2529
+  },
+  {
+   "name": "Quick Satay Peanut Stir Fry",
+   "file": "recipes/satay_peanut_stir_fry.md",
+   "cuisines": [
+    "chinese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": false,
+   "url": "https://www.recipetineats.com/satay-peanut-stir-fry/)",
+   "size": 1207
+  },
+  {
+   "name": "Beef Chow Mein",
+   "file": "recipes/beef_chow_mein.md",
+   "cuisines": [
+    "chinese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "fried"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/beef-chow-mein-noodles/) | **Author:** Nagi Maehashi | **Rating:** 4.90 from 76 votes | **Serves:** 2 generously",
+   "size": 3734
+  },
+  {
+   "name": "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+   "file": "recipes/oven_baked_chicken_and_rice_pilaf.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/oven-baked-chicken-and-rice-pilaf-cranberry-walnut-apple/)",
+   "size": 2582
+  },
+  {
+   "name": "Oven Baked Chicken Quesadillas",
+   "file": "recipes/oven_baked_chicken_quesadillas.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/oven-baked-chicken-quesadillas/)",
+   "size": 2117
+  },
+  {
+   "name": "Green Curry",
+   "file": "recipes/rasa_green_curry.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "steam"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/green-curry/)",
+   "size": 918
+  },
+  {
+   "name": "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+   "file": "recipes/one_pot_creamy_parmesan_garlic_risotto.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "one-pot"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/one-pot-creamy-parmesan-garlic-risotto-with-lemon-pepper-chicken/)",
+   "size": 3004
+  },
+  {
+   "name": "One Pot Baked Greek Chicken Orzo Risoni",
+   "file": "recipes/one_pot_baked_greek_chicken_orzo_risoni.md",
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "one-pot"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/one-pot-baked-greek-chicken-orzo-risoni/)",
+   "size": 3338
+  },
+  {
+   "name": "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+   "file": "recipes/mels-kitchen-cafe_cheesy-au-gratin-potatoes.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "side dish"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/cheesy-au-gratin-potatoes-2/)",
+   "size": 3083
+  },
+  {
+   "name": "Gingerbread Cake",
+   "file": "recipes/gingerbread_cake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://preppykitchen.com/gingerbread-cake/)",
+   "size": 1478
+  },
+  {
+   "name": "Thai Basil Chicken Stir Fry",
+   "file": "recipes/thai_basil_chicken_stir_fry.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/thai-basil-chicken-stir-fry/)",
+   "size": 3116
+  },
+  {
+   "name": "Chicken Piccata",
+   "file": "recipes/chicken_piccata.md",
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-piccata/)",
+   "size": 2464
+  },
+  {
+   "name": "Pad Woon Sen Noodles (with Crab)",
+   "file": "recipes/rasa_pad_woon_sen.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/pad-woon-sen-recipe/)",
+   "size": 997
+  },
+  {
+   "name": "My Mom's Famous Christmas Caramels",
+   "file": "recipes/mels_christmas_caramels.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/sugar-rush-11-my-moms-famous-caramels/)",
+   "size": 1045
+  },
+  {
+   "name": "Amazing Crustless Pumpkin Pie Cupcakes",
+   "file": "recipes/mels-kitchen-cafe_amazing-crustless-pumpkin-pie-cupcakes.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert",
+    "cupcake"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/amazing-crustless-pumpkin-pie-cupcakes/)",
+   "size": 3679
+  },
+  {
+   "name": "Perfect Caramel Pecan Sticky Buns",
+   "file": "recipes/mels_caramel_pecan_sticky_buns.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/caramel-pecan-sticky-buns/)",
+   "size": 1553
+  },
+  {
+   "name": "Thai Clams",
+   "file": "recipes/rasa_thai_clams.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/thai-clams/)",
+   "size": 838
+  },
+  {
+   "name": "Creamy Cilantro Lime Dressing",
+   "file": "recipes/mels-kitchen-cafe_creamy-cilantro-lime-dressing.md",
+   "cuisines": [
+    "american",
+    "mexican-inspired"
+   ],
+   "types": [
+    "condiment",
+    "dressing"
+   ],
+   "methods": [
+    "blend"
+   ],
+   "has_full_content": true,
+   "url": "https://www.melskitchencafe.com/creamy-cilantro-lime-dressing/)",
+   "size": 2433
+  },
+  {
+   "name": "Chicken Broccoli Stir Fry",
+   "file": "recipes/chicken_broccoli_stir_fry.md",
+   "cuisines": [
+    "chinese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-broccoli-stir-fry/)",
+   "size": 2623
+  },
+  {
+   "name": "Mexican Shredded Chicken",
+   "file": "recipes/mexican_shredded_chicken.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "slow-cooker"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/mexican-shredded-chicken/)",
+   "size": 2326
+  },
+  {
+   "name": "Oreo Cheesecake Bites",
+   "file": "recipes/mels_oreo_cheesecake_bites.md",
+   "cuisines": [],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/oreo-cheesecake-bites/)",
+   "size": 1132
+  },
+  {
+   "name": "Heavenly Raspberry Cream Angel Food Cake Dessert",
+   "file": "recipes/mels_raspberry_angel_food_cake.md",
+   "cuisines": [],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "has_full_content": false,
+   "url": "https://www.melskitchencafe.com/raspberry-cream-angel-food-cake-dessert/)",
+   "size": 1481
+  },
+  {
+   "name": "Green Curry Shrimp",
+   "file": "recipes/rasa_green_curry_shrimp.md",
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "has_full_content": false,
+   "url": "https://rasamalaysia.com/green-curry-shrimp/)",
+   "size": 808
+  }
+ ]
 }

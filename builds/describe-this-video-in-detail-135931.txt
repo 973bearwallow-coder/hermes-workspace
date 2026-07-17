@@ -1,0 +1,16 @@
+Task: VIDEO_DOC
+References (parallel):
+  • gemini/gemini-2.5-flash  [gemini,cloud,free]
+  • gemini/gemini-2.5-flash-lite  [gemini,cloud,free]
+Aggregator: gemini/gemini-2.5-flash
+Media attached: /home/tom/hermes-workspace/memory/uploads/1784224761_test_video.mp4  (sent to video-capable models)
+Est cost: $0.000000
+
+=== FINAL ANSWER (agg gemini/gemini-2.5-flash) ===
+This animated video showcases a beautifully rendered forest clearing, dappled with golden sunlight. The main subject is a large, ancient tree with gnarled, exposed roots, growing atop a moss-covered hillock. A dark, inviting burrow or cave entrance is nestled at the base of the tree, with a faint path leading to it. The surrounding environment is lush with vibrant green grass and dense foliage, creating a tranquil, idyllic woodland setting. There is no visible text or logos.
+
+**Social caption:** Escape into the tranquility of nature with this enchanting animated forest scene, complete with a mysterious hidden cave.
+
+Time: 9.1s | Aggregator real cost: $0.000000 | usage={'promptTokenCount': 3539, 'candidatesTokenCount': 121, 'totalTokenCount': 3660, 'promptTokensDetails': [{'modality': 'TEXT', 'tokenCount': 325}, {'modality': 'VIDEO', 'tokenCount': 2893}, {'modality': 'AUDIO', 'tokenCount': 321}], 'serviceTier': 'standard'}
+
+[logged to /home/tom/hermes-workspace/memory/moa_cost_log.jsonl]

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jane's Paw Prints Pet Services | Falls Church, VA</title>
+<style>
+  *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    line-height: 1.6; color: #2d2b2a; background: #fdf8f3;
+  }
+  a { text-decoration: none; color: inherit; }
+  ul { list-style: none; padding: 0; }
+  .container { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+  .section-title { font-size: 2.2rem; font-weight: 700; letter-spacing: -0.02em; text-align: center; margin-bottom: 0.5rem; }
+  .section-subtitle { font-size: 1.1rem; text-align: center; color: #6b6661; margin-bottom: 2rem; }
+
+  /* Sticky Nav */
+  .sticky-nav {
+    position: sticky; top: 0; z-index: 100;
+    background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 12px 0;
+  }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+  .brand { font-weight: 800; font-size: 1.25rem; color: #c2703d; }
+  .nav-links { display: flex; gap: 20px; align-items: center; }
+  .nav-links a { font-weight: 600; color: #2d2b2a; }
+  .btn-book {
+    background: #c2703d; color: #fff; padding: 10px 18px;
+    border-radius: 25px; font-weight: 700; transition: background 0.2s;
+  }
+  .btn-book:hover { background: #a85c2f; }
+
+  /* Hero */
+  .hero { padding: 80px 0 60px; text-align: center; background: linear-gradient(180deg,#fdf8f3, #f6e9dd); }
+  .hero h1 { font-size: 3rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 1rem; color: #2d2b2a; }
+  .hero p { font-size: 1.25rem; max-width: 600px; margin: 0 auto 2rem; color: #6b6661; }
+  .hero-cta {
+    display: inline-block; background: #c2703d; color: #fff;
+    padding: 14px 32px; border-radius: 30px; font-size: 1.1rem; font-weight: 700;
+  }
+  .hero-cta:hover { background: #a85c2f; }
+
+  /* Services */
+  .services { padding: 60px 0; }
+  .services-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;
+  }
+  .service-card {
+    background: #fff; border-radius: 16px; padding: 28px; text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06); border: 1px solid #f0e6db;
+  }
+  .service-card h3 { font-size: 1.4rem; margin-bottom: 0.5rem; color: #c2703d; }
+  .service-price { font-size: 2rem; font-weight: 800; margin: 0.5rem 0; }
+  .service-card p { color: #6b6661; }
+
+  /* About */
+  .about { padding: 60px 0; background: #f6e9dd; }
+  .about-inner { display: flex; flex-wrap: wrap; gap: 40px; align-items: center; }
+  .about-text { flex: 1 1 400px; }
+  .about-text h2 { font-size: 2rem; margin-bottom: 1rem; }
+  .about-text p { margin-bottom: 1rem; color: #4a4540; }
+
+  /* Contact */
+  .contact { padding: 60px 0; }
+  .contact-info { text-align: center; font-size: 1.1rem; }
+  .contact-info p { margin: 0.3rem 0; }
+  .contact-info a { color: #c2703d; font-weight: 600; }
+
+  /* Footer */
+  footer { background: #2d2b2a; color: #fdf8f3; text-align: center; padding: 24px 0; font-size: 0.9rem; }
+
+  @media (max-width: 600px) {
+    .nav-links { gap: 12px; }
+    .brand { font-size: 1.1rem; }
+    .hero h1 { font-size: 2.2rem; }
+    .section-title { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="sticky-nav">
+  <div class="container nav-inner">
+    <div class="brand">🐾 Paw Prints</div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn-book">Book a Walk</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>Friendly Dog Walks in Falls Church, VA</h1>
+    <p>Jane’s Paw Prints Pet Services gives your pup the warm, neighborly care they deserve — one happy walk at a time.</p>
+    <a href="#contact" class="hero-cta">Book a Walk Today</a>
+  </div>
+</header>
+
+<section id="services" class="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">Simple, loving care for your furry family member</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>30-Min Walk</h3>
+        <div class="service-price">$22</div>
+        <p>Relaxed neighborhood stroll with water &amp; cuddle break.</p>
+      </div>
+      <div class="service-card">
+        <h3>60-Min Walk</h3>
+        <div class="service-price">$35</div>
+        <p>Extended adventure plus playtime at the local park.</p>
+      </div>
+      <div class="service-card">
+        <h3>Puppy Visit</h3>
+        <div class="service-price">$28</div>
+        <p>Midday potty break, feeding &amp; gentle socialization.</p>
+      </div>
+      <div class="service-card">
+        <h3>Weekend Hike</h3>
+        <div class="service-price">$45</div>
+        <p>Trail exploration for high-energy dogs (Sat &amp; Sun).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container about-inner">
+    <div class="about-text">
+      <h2>Meet Jane</h2>
+      <p>Hi! I’m Jane, a lifelong Falls Church resident and certified dog lover. After years of volunteering at the local shelter, I started Paw Prints to give neighborhood dogs the same warmth my own pups get at home.</p>
+      <p>Every walk is leash-positive, stress-free, and full of sniffing rights. Your dog’s safety and happiness are my whole business.</p>
+    </div>
+    <div class="about-text">
+      <p style="font-style:italic; color:#c2703d;">“The best part of my day is seeing a tail wag at the door.”</p>
+      <p>— Jane, Owner &amp; Head Walker</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Contact &amp; Booking</h2>
+    <p class="section-subtitle">Let’s get your pup on the calendar!</p>
+    <div class="contact-info">
+      <p>📍 Falls Church, VA 22046</p>
+      <p>📞 <a href="tel:+17035551234">(703) 555-1234</a></p>
+      <p>✉️ <a href="mailto:jane@pawprintsfcva.com">jane@pawprintsfcva.com</a></p>
+      <p>Text or call anytime — same-day walks often available.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2024 Jane’s Paw Prints Pet Services · Falls Church, VA
+  </div>
+</footer>
+
+</body>
+</html>

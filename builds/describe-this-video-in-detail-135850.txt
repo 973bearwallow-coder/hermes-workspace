@@ -1,0 +1,15 @@
+Task: VIDEO_DOC
+References (parallel):
+  • xiaomi/mimo-v2.5  [vision,longctx]
+  • qwen/qwen3.5-9b  [vision,longctx]
+  • qwen/qwen3.5-flash-02-23  [vision,longctx]
+Aggregator: xiaomi/mimo-v2.5
+Media attached: /home/tom/hermes-workspace/memory/uploads/1784224696_test_video.mp4  (sent to video-capable models)
+Est cost: $0.004100
+
+=== FINAL ANSWER (agg xiaomi/mimo-v2.5) ===
+I cannot currently access or view any video file in our conversation. To provide the detailed breakdown you requested—covering the main subject, actions, setting, text/logos, and a social caption—I will need you to upload the video or share a detailed description, transcript, or screenshots of the footage. Once you provide the visual content or its details, I can deliver the precise analysis and a tailored social caption.
+
+Time: 33.8s | Aggregator real cost: $0.000212 | usage={'prompt_tokens': 702, 'completion_tokens': 406, 'total_tokens': 1108, 'cost': 0.00018739, 'is_byok': False, 'prompt_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0, 'audio_tokens': 0, 'video_tokens': 0}, 'cost_details': {'upstream_inference_cost': 0.00018739, 'upstream_inference_prompt_cost': 7.371e-05, 'upstream_inference_completions_cost': 0.00011368}, 'completion_tokens_details': {'reasoning_tokens': 319, 'image_tokens': 0, 'audio_tokens': 0}}
+
+[logged to /home/tom/hermes-workspace/memory/moa_cost_log.jsonl]

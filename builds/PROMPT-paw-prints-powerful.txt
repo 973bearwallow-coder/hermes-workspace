@@ -1,0 +1,35 @@
+PASTE THIS INTO THE MOA DASHBOARD (http://100.115.214.128:8770)
+
+Task box:
+  Build a modern Paw Prints Pet Services landing page as ONE self-contained HTML file.
+
+Settings:
+  Task type = coding
+  Grade     = powerful
+  Budget    = 0.30
+
+--- PROMPT (paste into the big description box) ---
+
+Build a modern Paw Prints Pet Services landing page as ONE single self-contained HTML file.
+
+HARD CONSTRAINTS (violating any = fail):
+- Inline CSS ONLY. ZERO external URLs. No <link>, no <script src>, no cdn, no fonts from the internet, no tailwind, no font-awesome, no google fonts. Every style must be in a <style> block.
+- Use ONLY these exact hex colors: #FFF386 (light accent), #FFD000 (accent yellow), #5CBF2A (green), #3D2E25 (dark brown text), #FFF8E1 (cream background). Do NOT invent other colors.
+- Output ONLY the complete ```html fenced code block. No explanation before or after.
+
+CONTENT (preserve Jane's warm, personal neighborhood voice):
+"Does your puppy or senior dog need an afternoon break? Would your dog enjoy an afternoon walk with a little extra TLC? We are Paw Prints Pet Services and we would love to walk your dog in the Falls Church, Virginia area. Monday through Friday we offer a 30 minute afternoon walk and/or playtime. 15 minute express or multiple daily visits also available."
+
+REQUIRED SECTIONS:
+1. Sticky nav bar with logo + "Book a Walk" button (links to contact).
+2. Hero: H1 + one-line value prop + prominent "Book a Walk" CTA above the fold.
+3. Services & Rates: responsive grid (auto-fit minmax) with placeholder prices Jane can edit — 30-min afternoon walk, 15-min express, multiple daily visits.
+4. About Jane: short warm "Who I Am" section using the voice above.
+5. Contact: email + phone placeholders, simple form or mailto.
+6. Mobile responsive (test at 375px width mentally).
+7. Accessible: semantic <header>/<nav>/<main>/<section>/<footer>, alt text where images would go, AA color contrast, keyboard-navigable.
+
+--- END PROMPT ---
+
+After Run: open the saved file from the /builds link at the bottom of the dashboard.
+It should be ~5KB, self-contained, brand-colored, no internet calls.

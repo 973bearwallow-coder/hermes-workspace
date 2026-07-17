@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw Prints Pet Services · Falls Church, VA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #FDF6E3;
+            color: #5a4a42;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #3D405B;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header / Nav */
+        .header {
+            background-color: #FDF6E3;
+            padding: 1.2rem 0;
+            border-bottom: 3px solid #D4A373;
+        }
+
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            font-size: 1.6rem;
+            font-family: 'Georgia', serif;
+            color: #D4A373;
+            font-weight: 700;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #5a4a42;
+            margin-left: 1.5rem;
+            font-weight: 600;
+        }
+
+        .nav a:hover {
+            color: #D4A373;
+        }
+
+        /* Hero */
+        .hero {
+            background-color: #fefaf5;
+            padding: 4rem 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            color: #5a4a42;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #D4A373;
+            color: #fff;
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #b5834f;
+        }
+
+        /* Services */
+        .services {
+            padding: 3rem 0;
+        }
+
+        .services h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #f0e6d8;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(212,163,115,0.15);
+        }
+
+        .card h3 {
+            margin-bottom: 0.5rem;
+            color: #D4A373;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #3D405B;
+            color: #FDF6E3;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+
+        .footer p {
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="brand">🐾 Paw Prints Pet Services</div>
+            <nav class="nav">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Friendly Dog Walking in Falls Church, VA</h1>
+            <p>Your neighborhood pet care team. We treat every dog like family with warm, reliable walks and loving attention.</p>
+            <a href="#contact" class="btn">Book a Walk</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Daily Dog Walks</h3>
+                    <p>Consistent, calming strolls around your local Falls Church streets.</p>
+                </div>
+                <div class="card">
+                    <h3>Pet Sitting</h3>
+                    <p>In-home visits so your pup stays happy while you're away.</p>
+                </div>
+                <div class="card">
+                    <h3>Puppy Check-Ins</h3>
+                    <p>Extra care and potty breaks for your newest family member.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <p>🐾 Paw Prints Pet Services · Falls Church, VA · (571) 555-PAWS</p>
+            <p>Local, licensed, and leash-ready.</p>
+        </div>
+    </footer>
+</body>
+</html>

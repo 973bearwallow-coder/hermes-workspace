@@ -1,2750 +1,3506 @@
 {
-  "granulated sugar": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amazing Key Lime Cheesecake",
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock ",
-    "Easy Homemade French Bread",
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "Little Lemonies Yummy Lemon Brownies",
-    "My Favorite Cherry Pie In The History Of Ever",
-    "Oreo Cheesecake Bites",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Overnight Strawberry Cream Cheese Sweet Rolls",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "The Best Lemon Bars",
-    "The Best Monkey Bread",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "salt": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amish-Style Apple And Cinnamon Baked Oatmeal",
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Chicken Shawarma Middle Eastern",
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Easy Homemade French Bread",
-    "Hot Fudge Pudding Cake",
-    "Jamaican Jerk Chicken Drumsticks",
-    "Little Lemonies Yummy Lemon Brownies",
-    "Mexican Street Corn Salad",
-    "Orange Sweet Rolls",
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Spaghetti Pie",
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "all-purpose flour": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Coq Au Vin",
-    "Hot Fudge Pudding Cake",
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "Little Lemonies Yummy Lemon Brownies",
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Overnight Strawberry Cream Cheese Sweet Rolls",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff",
-    "The Best Lemon Bars",
-    "The Best Monkey Bread"
-  ],
-  "powdered sugar": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amazing Key Lime Cheesecake",
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff",
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "Little Lemonies Yummy Lemon Brownies",
-    "Orange Sweet Rolls",
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Overnight Strawberry Cream Cheese Sweet Rolls",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "The Best Lemon Bars"
-  ],
-  "vanilla extract": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amazing Key Lime Cheesecake",
-    "Amish-Style Apple And Cinnamon Baked Oatmeal",
-    "Hot Fudge Pudding Cake",
-    "Little Lemonies Yummy Lemon Brownies",
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "Oreo Cheesecake Bites",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "Perfect Caramel Pecan Sticky Buns",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "milk": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amish-Style Apple And Cinnamon Baked Oatmeal",
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff",
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Chicken Francese",
-    "Chicken Pot Pie",
-    "Creamy Garlic Alfredo Sauce My Go-To Dinner Saver",
-    "Hot Fudge Pudding Cake",
-    "One Pot Creamy Parmesan Garlic Risotto",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "The Best Lemon Bars"
-  ],
-  "\u00bd tsp salt": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And ",
-    "Avocado Chicken Salad",
-    "Chicken Francese",
-    "Chicken Piccata",
-    "Jambalaya Recipe",
-    "Lemon Chicken Orzo Soup",
-    "One Pot Creamy Parmesan Garlic Risotto",
-    "One Pot Greek Chicken Lemon Rice",
-    "Perfect Caramel Pecan Sticky Buns",
-    "Slow Cooker Posole"
-  ],
-  "olive oil": [
-    "Avocado Chicken Salad",
-    "Beach Street Lemon Chicken Pasta",
-    "Chicken In Creamy Mustard Sauce",
-    "Chicken Shawarma Middle Eastern",
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Jamaican Jerk Chicken Drumsticks",
-    "Mexican Shredded Chicken",
-    "One Pot Baked Greek Chicken Orzo Risoni",
-    "Oven Baked Chicken Quesadillas",
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "2 garlic cloves, minced": [
-    "Chicken And Mushroom Risotto",
-    "Chicken Pad Thai",
-    "Chicken Pasta Recipe",
-    "Chicken Pot Pie",
-    "Chicken With Creamy Sun Dried Tomato Sauce",
-    "Chinese Cashew Chicken",
-    "Creamy Chicken And Bacon Pasta",
-    "Jamaican Jerk Chicken Drumsticks",
-    "One Pot Baked Greek Chicken Orzo Risoni",
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "sugar": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And ",
-    "Chicken Chow Mein",
-    "Decadent Chocolate Cheesecake",
-    "Hot Fudge Pudding Cake",
-    "Mexican Shredded Chicken",
-    "My Mom8217S Famous Caramels",
-    "Orange Sweet Rolls",
-    "Thai Basil Chicken Stir Fry",
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "water": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And ",
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie",
-    "Chinese Cashew Chicken",
-    "Jamaican Jerk Chicken Drumsticks",
-    "Sweet Baked Ham",
-    "Thai Basil Chicken Stir Fry",
-    "Thai Chicken Lettuce Cups Larb Gai",
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "dried oregano": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "One Pan Spanish Chicken Chorizo",
-    "One Pot Baked Greek Chicken Orzo Risoni",
-    "One Pot Chicken Enchilada Rice Casserole",
-    "One Pot Greek Chicken Lemon Rice",
-    "Slow Cooker Posole",
-    "Spaghetti Pie"
-  ],
-  "\u00bd tsp black pepper": [
-    "Chicken Chasseur",
-    "Chicken Marsala",
-    "Chicken Pot Pie",
-    "Chicken Shawarma Middle Eastern",
-    "Coq Au Vin",
-    "Jambalaya Recipe",
-    "New Orleans Chicken Wings",
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "baking powder": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amish-Style Apple And Cinnamon Baked Oatmeal",
-    "Hot Fudge Pudding Cake",
-    "Little Lemonies Yummy Lemon Brownies",
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "sour cream": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Creamy Cilantro Lime Dressing",
-    "Oreo Cheesecake Bites",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "brown sugar": [
-    "Jamaican Jerk Chicken Drumsticks",
-    "One Pot Chicken Enchilada Rice Casserole",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "Sweet Baked Ham",
-    "Thai Chicken Lettuce Cups Larb Gai",
-    "Thai Coconut Chicken",
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "ground cinnamon": [
-    "Amish-Style Apple And Cinnamon Baked Oatmeal",
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff",
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Perfect Caramel Pecan Sticky Buns",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "melted butter": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff",
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Decadent Chocolate Cheesecake",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "butter": [
-    "Creamy Chicken And Bacon Pasta",
-    "Jambalaya Recipe",
-    "My Mom8217S Famous Caramels",
-    "One Pot Creamy Parmesan Garlic Risotto",
-    "Oreo Cheesecake Bites",
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "4 large egg": [
-    "Decadent Chocolate Cheesecake",
-    "Oreo Cheesecake Bites",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Overnight Strawberry Cream Cheese Sweet Rolls",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "The Best Lemon Bars"
-  ],
-  "cream cheese, softened": [
-    "Amazing Key Lime Cheesecake",
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "Oreo Cheesecake Bites",
-    "Overnight Strawberry Cream Cheese Sweet Rolls",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "cornstarch": [
-    "Amazing Key Lime Cheesecake",
-    "Heavenly Raspberry Cream Angel Food Cake Dessert",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "The Best Lemon Bars",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "lemon juice": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie",
-    "Chicken Shawarma Middle Eastern",
-    "Lemon Chicken Salad",
-    "One Pan Spanish Chicken Chorizo",
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "chicken broth": [
-    "Chicken And Mushroom Risotto",
-    "Chicken Pot Pie",
-    "Lemon Chicken Orzo Soup",
-    "One Pot Creamy Parmesan Garlic Risotto",
-    "Slow Cooker Posole"
-  ],
-  "oil": [
-    "Chicken Broccoli Stir Fry",
-    "Chicken Chow Mein",
-    "Chicken Pad Thai",
-    "Crispy Shredded Chicken Noodle Stir Fry",
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "vegetable oil": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Chicken Chasseur",
-    "Jambalaya Recipe",
-    "Thai Red Curry Pot Roast Chicken",
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "tomato paste": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Chicken Chasseur",
-    "Coq Au Vin",
-    "Jambalaya Recipe",
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "1 garlic clove, minced": [
-    "Chicken Shawarma Middle Eastern",
-    "Mexican Chicken Avocado Salad",
-    "Oven Baked Chicken And Rice Pilaf",
-    "Oven Baked Chicken Quesadillas",
-    "Thai Coconut Chicken"
-  ],
-  "garlic, minced": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "One Pan Spanish Chicken Chorizo",
-    "Slow Cooker Posole",
-    "Thai Coconut Chicken",
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "\u00be tsp salt": [
-    "Coq Au Vin",
-    "Mexican Shredded Chicken",
-    "One Pot Greek Chicken Lemon Rice",
-    "Oven Baked Chicken And Rice Pilaf",
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "dijon mustard": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And ",
-    "Chicken In Creamy Mustard Sauce",
-    "Chicken With Creamy Sun Dried Tomato Sauce",
-    "Lemon Chicken Salad"
-  ],
-  "salted butter": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "Perfect Caramel Pecan Sticky Buns",
-    "Soft And Chewy Caramel Popcorn"
-  ],
-  "dried thyme": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Chicken Pot Pie",
-    "Jamaican Jerk Chicken Drumsticks",
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "salt and pepper": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Chicken In Creamy Mustard Sauce",
-    "Creamy Chicken And Bacon Pasta",
-    "Lemon Chicken Salad"
-  ],
-  "black pepper": [
-    "Chicken Francese",
-    "Jamaican Jerk Chicken Drumsticks",
-    "One Pan Spanish Chicken Chorizo",
-    "Spaghetti Pie"
-  ],
-  "fish sauce": [
-    "Chicken Pad Thai",
-    "Thai Chicken Lettuce Cups Larb Gai",
-    "Thai Red Curry Pot Roast Chicken",
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "buttermilk": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Creamy Cilantro Lime Dressing",
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "garlic powder": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Jambalaya Recipe",
-    "New Orleans Chicken Wings",
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "onion powder": [
-    "Creamy Cilantro Lime Dressing",
-    "Jambalaya Recipe",
-    "New Orleans Chicken Wings",
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "salted butter, melted": [
-    "Amazing Key Lime Cheesecake",
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "3 large egg": [
-    "Amazing Key Lime Cheesecake",
-    "Orange Sweet Rolls",
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust"
-  ],
-  "black pepper to taste": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And ",
-    "One Pot Creamy Parmesan Garlic Risotto",
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "2 large egg": [
-    "Amish-Style Apple And Cinnamon Baked Oatmeal",
-    "Chicken Francese",
-    "Orange Zested Cranberry White Chocolate Bliss Bars"
-  ],
-  "pinch black pepper": [
-    "Avocado Chicken Salad",
-    "Harvest Apple Salad",
-    "Mexican Street Corn Salad"
-  ],
-  "fresh lemon zest": [
-    "Beach Street Lemon Chicken Pasta",
-    "Heavenly Raspberry Cream Angel Food Cake Dessert",
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "light soy sauce": [
-    "Chicken Broccoli Stir Fry",
-    "Thai Basil Chicken Stir Fry",
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "oyster sauce": [
-    "Chicken Broccoli Stir Fry",
-    "Chinese Cashew Chicken",
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "4 bone-in, skin-on chicken thigh": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Chicken Chasseur",
-    "Coq Au Vin"
-  ],
-  "4 chicken drumstick": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Chicken Chasseur",
-    "Coq Au Vin"
-  ],
-  "3 garlic cloves, minced": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Coq Au Vin",
-    "Jambalaya Recipe"
-  ],
-  "chopped parsley": [
-    "Chicken Cacciatore Italian Chicken Stew",
-    "Chicken Marsala",
-    "Coq Au Vin"
-  ],
-  "extra virgin olive oil": [
-    "Chicken Francese",
-    "Chicken Marsala",
-    "Lemon Chicken Salad"
-  ],
-  "lime wedge": [
-    "Chicken Pad Thai",
-    "Slow Cooker Posole",
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "mayonnaise": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Creamy Cilantro Lime Dressing",
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "garlic": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Lemon Chicken Orzo Soup",
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "fresh lemon juice": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "Little Lemonies Yummy Lemon Brownies"
-  ],
-  "salt and pepper to taste": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip",
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "cherry tomatoes, halved": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki ",
-    "Lemon Chicken Salad",
-    "Mexican Chicken Avocado Salad"
-  ],
-  "freshly grated parmesan cheese": [
-    "Creamy Garlic Alfredo Sauce My Go-To Dinner Saver",
-    "Penne With Roasted Asparagus And Balsamic Butter",
-    "The Best Spinach Artichoke Dip"
-  ],
-  "1/4 teaspoon salt": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock ",
-    "My Mom8217S Famous Caramels",
-    "The Best And Only Pie Crust Recipe 038 Tutorial You8217Ll Ev"
-  ],
-  "warm water": [
-    "Easy Homemade French Bread",
-    "Easy Rustic Crusty Bread With Tutorial No Mixer No Kneading",
-    "The Best Monkey Bread"
-  ],
-  "lemon zest": [
-    "Lemon Chicken Salad",
-    "Little Lemonies Yummy Lemon Brownies",
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "honey": [
-    "Lemon Chicken Salad",
-    "Mexican Chicken Avocado Salad",
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "\u00bd tbsp olive oil": [
-    "Lemon Chicken Salad",
-    "Mexican Chicken Avocado Salad",
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "\u00bd tsp cayenne pepper": [
-    "One Pot Chicken Enchilada Rice Casserole",
-    "Oven Baked Chicken Quesadillas",
-    "Slow Cooker Posole"
-  ],
-  "packed light brown sugar": [
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting",
-    "The Best Monkey Bread"
-  ],
-  "lightly packed brown sugar": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amish-Style Apple And Cinnamon Baked Oatmeal"
-  ],
-  "2 large eggs + 1 egg yolk": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Little Lemonies Yummy Lemon Brownies"
-  ],
-  "heavy whipping cream": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "Amazing Key Lime Cheesecake"
-  ],
-  "baking soda": [
-    "Amazing Crustless Pumpkin Pie Cupcakes",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "pinch salt": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And ",
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "ground nutmeg": [
-    "Amish-Style Apple And Cinnamon Baked Oatmeal",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "double crust 9-inch pie dough": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie",
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "feta cheese": [
-    "Avocado Chicken Salad",
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "\u00bd cup olive oil": [
-    "Beach Street Lemon Chicken Pasta",
-    "Harvest Apple Salad"
-  ],
-  "\u00bc cup granulated sugar": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff",
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "1\u00bd tsp salt": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff",
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "pepper": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes",
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "unsalted butter": [
-    "Chicken And Mushroom Risotto",
-    "Chicken Marsala"
-  ],
-  "1 onion, finely diced": [
-    "Chicken And Mushroom Risotto",
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "1\u00bd tbsp chinese cooking wine  or mirin": [
-    "Chicken Broccoli Stir Fry",
-    "Chicken Chow Mein"
-  ],
-  "dash of white pepper": [
-    "Chicken Broccoli Stir Fry",
-    "Chinese Cashew Chicken"
-  ],
-  "\u00bd onion, sliced": [
-    "Chicken Broccoli Stir Fry",
-    "Chicken Pad Thai"
-  ],
-  "2 garlic cloves, finely minced": [
-    "Chicken Broccoli Stir Fry",
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "fresh tarragon, finely chopped": [
-    "Chicken Chasseur",
-    "Chicken In Creamy Mustard Sauce"
-  ],
-  "1\u00bd tbsp oyster sauce": [
-    "Chicken Chow Mein",
-    "Chicken Pad Thai"
-  ],
-  "bean sprout": [
-    "Chicken Chow Mein",
-    "Chicken Pad Thai"
-  ],
-  "2 large chicken breasts , halved horizontally \u2192 4 thin steak": [
-    "Chicken Francese",
-    "Chicken Marsala"
-  ],
-  "\u00bc cup plain/all-purpose flour": [
-    "Chicken Francese",
-    "Chicken Marsala"
-  ],
-  "\u00bd cup thickened/heavy cream": [
-    "Chicken In Creamy Mustard Sauce",
-    "Chicken Marsala"
-  ],
-  "crushed peanut": [
-    "Chicken Pad Thai",
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "\u00bd tsp each salt and pepper": [
-    "Chicken Pasta Recipe",
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "fresh parsley": [
-    "Chicken Pasta Recipe",
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "flour": [
-    "Chicken Piccata",
-    "Orange Sweet Rolls"
-  ],
-  "\u00bd cup white wine": [
-    "Chicken With Creamy Sun Dried Tomato Sauce",
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "\u00be cup thickened/heavy cream": [
-    "Chicken With Creamy Sun Dried Tomato Sauce",
-    "French Chicken Au Poivre Sauce"
-  ],
-  "soy sauce": [
-    "Chinese Cashew Chicken",
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "peanut oil": [
-    "Chinese Cashew Chicken",
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "1 bay leaf": [
-    "Coq Au Vin",
-    "Lemon Chicken Orzo Soup"
-  ],
-  "light corn syrup": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock ",
-    "My Mom8217S Famous Caramels"
-  ],
-  "garlic, finely minced": [
-    "Harvest Apple Salad",
-    "Spaghetti Pie"
-  ],
-  "butter, melted": [
-    "Hot Fudge Pudding Cake",
-    "The Best Monkey Bread"
-  ],
-  "crushed tomatoe": [
-    "Jambalaya Recipe",
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "butter, softened": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "1/2 teaspoon salt": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting",
-    "The Best Lemon Bars"
-  ],
-  "\u00be cup corn kernel": [
-    "Lemon Chicken Salad",
-    "Mexican Chicken Avocado Salad"
-  ],
-  "lime juice": [
-    "Mexican Chicken Avocado Salad",
-    "Mexican Shredded Chicken"
-  ],
-  "\u00bd tsp salt + black pepper": [
-    "Mexican Chicken Avocado Salad",
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "2 garlic cloves, crushed": [
-    "Mexican Shredded Chicken",
-    "New Orleans Chicken Wings"
-  ],
-  "1 egg yolk": [
-    "My Favorite Cherry Pie In The History Of Ever",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "fresh oregano leave": [
-    "One Pan Spanish Chicken Chorizo",
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "1 small onion, finely chopped": [
-    "One Pot Baked Greek Chicken Orzo Risoni",
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "4 garlic cloves, minced": [
-    "One Pot Creamy Parmesan Garlic Risotto",
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "1\u00bd cups  chicken broth": [
-    "One Pot Greek Chicken Lemon Rice",
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "instant yeast": [
-    "Orange Sweet Rolls",
-    "Overnight Cinnamon And Sugar Sweet Rolls"
-  ],
-  "softened butter": [
-    "Orange Sweet Rolls",
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "light cream cheese, softened": [
-    "Orange Zested Cranberry White Chocolate Bliss Bars",
-    "Spaghetti Pie"
-  ],
-  "\u00bd tsp garlic powder": [
-    "Oven Baked Chicken And Rice Pilaf",
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "hot water": [
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "splash of vanilla extract": [
-    "Overnight Cinnamon And Sugar Sweet Rolls",
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "2 tablespoons milk": [
-    "Overnight Strawberry Cream Cheese Sweet Rolls",
-    "The Best Monkey Bread"
-  ],
-  "3 x 8-oz packages cream cheese, softened": [
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "heavy cream": [
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust",
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "\u00bc tsp salt": [
-    "Perfect Caramel Pecan Sticky Buns",
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "dark soy sauce": [
-    "Thai Basil Chicken Stir Fry",
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "ginger, minced": [
-    "Thai Coconut Chicken",
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "2\u00bd tbsp fish sauce": [
-    "Thai Coconut Chicken",
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "neutral oil": [
-    "Thai Grilled Chicken Gai Yang",
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "the base sauce used across all 10 recipe": [
-    "10 Classic Chinese Dishes"
-  ],
-  "stores in the fridge for week": [
-    "10 Classic Chinese Dishes"
-  ],
-  "can be used on its own or enhanced with garlic, ginger, chili, herbs, etc.": [
-    "10 Classic Chinese Dishes"
-  ],
-  "1  can pumpkin puree": [
-    "Amazing Crustless Pumpkin Pie Cupcakes"
-  ],
-  "pumpkin pie spice": [
-    "Amazing Crustless Pumpkin Pie Cupcakes"
-  ],
-  "freshly grated nutmeg": [
-    "Amazing Crustless Pumpkin Pie Cupcakes"
-  ],
-  "graham cracker crumb": [
-    "Amazing Key Lime Cheesecake"
-  ],
-  "zest from 1 lime": [
-    "Amazing Key Lime Cheesecake"
-  ],
-  "key lime juice or 2 tbsp fresh lemon juice + 6 tbsp fresh lime juice": [
-    "Amazing Key Lime Cheesecake"
-  ],
-  "lime slices or zest for garnish": [
-    "Amazing Key Lime Cheesecake"
-  ],
-  "baby spinach or spring green": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "\u00bd small red onion, slivered": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "6\u20138 slices bacon, cooked and chopped": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "feta cheese crumble": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "dried cranberries or cherrie": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "1\u20132 honeycrisp apples, cored and thinly sliced": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "\u00bc cup red wine vinegar": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "\u00bd cup extra virgin olive oil": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "garlic, pressed or finely minced": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "\u00bd cup granulated or brown sugar": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "pinch cayenne pepper": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "chopped pecans or walnut": [
-    "Amazing Spinach Salad With Sweet-Spicy Nuts Apples Feta And "
-  ],
-  "old-fashioned rolled oat": [
-    "Amish-Style Apple And Cinnamon Baked Oatmeal"
-  ],
-  "butter or coconut oil, melted": [
-    "Amish-Style Apple And Cinnamon Baked Oatmeal"
-  ],
-  "2-3 large tart-sweet apples , peeled, cored, diced": [
-    "Amish-Style Apple And Cinnamon Baked Oatmeal"
-  ],
-  "4\u20135 medium apples , peeled, cored, sliced 1/8\" thick": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "almond extract": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "1.5\u20132 cups fresh cranberrie": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "\u00bd cup  salted butter": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "\u00bd cup  all-purpose flour": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "\u00be cup  granulated sugar": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "\u00bd cup  light brown sugar": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "1 large egg + 1 tbsp water": [
-    "Apple Cranberry Pie My Favorite Thanksgiving Pie"
-  ],
-  "fresh lime or lemon juice": [
-    "Avocado Chicken Salad"
-  ],
-  "chopped cooked chicken": [
-    "Avocado Chicken Salad"
-  ],
-  "corn kernel": [
-    "Avocado Chicken Salad"
-  ],
-  "2 medium/large ripe avocados, peeled and diced": [
-    "Avocado Chicken Salad"
-  ],
-  "\u00bc cup finely chopped red onion": [
-    "Avocado Chicken Salad"
-  ],
-  "\u00bc cup chopped fresh cilantro or parsley": [
-    "Avocado Chicken Salad"
-  ],
-  "halved cherry tomatoe": [
-    "Avocado Chicken Salad"
-  ],
-  "cooked, crumbled bacon": [
-    "Avocado Chicken Salad"
-  ],
-  "garlic, crushed/minced": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "2 tablespoons brown sugar": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "1 tablespoon cajun seasoning": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "\u2153 cup fresh lemon juice": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "\u00bc cup minced fresh parsley": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "\u00bc cup soy sauce": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "1\u20131\u00bd lbs chicken breasts, sliced into \u00bd-inch strip": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "linguine, spaghetti, or fettuccine": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "2\u20133 tbsp fresh lemon juice": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "2\u20133 green onions, finely chopped": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "\u00bc cup chopped fresh parsley": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "salt & pepper to taste": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "\u00bd\u20131 cup grated parmesan cheese": [
-    "Beach Street Lemon Chicken Pasta"
-  ],
-  "1\u00bd cups warm water": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff"
-  ],
-  "1\u00bd tbsp instant or active dry yeast": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff"
-  ],
-  "4\u20134\u00bc cups all-purpose flour": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff"
-  ],
-  "\u2154 cup packed brown sugar": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff"
-  ],
-  "\u2153 cup granulated sugar": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff"
-  ],
-  "melted salted butter": [
-    "Buttery Cinnamon Pull-Apart Bread Dollywood Bread Knockoff"
-  ],
-  "diced onion": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes"
-  ],
-  "low-sodium chicken broth": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes"
-  ],
-  "shredded sharp cheddar": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes"
-  ],
-  "5-6 medium russet/yukon gold potatoes , peeled, cooked, cooled, shredded": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes"
-  ],
-  "cornflakes, lightly crushed": [
-    "Cheesy Funeral Potatoes Au Gratin Potatoes"
-  ],
-  "\u2013 1 tbsp olive oil": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "bacon": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "chicken thigh, bite-sized": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "mushrooms , sliced": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "\u00bd cup  white wine": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "1\u00bc cups  arborio rice": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "\u00bd cup  freshly grated parmesan": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "1\u20133 tbsp  unsalted butter": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "fresh parsley, chopped": [
-    "Chicken And Mushroom Risotto"
-  ],
-  "500g  chicken breast, thinly sliced": [
-    "Chicken Broccoli Stir Fry"
-  ],
-  "1\u00bd tsp baking soda / bi-carb soda": [
-    "Chicken Broccoli Stir Fry"
-  ],
-  "cornflour/cornstarch": [
-    "Chicken Broccoli Stir Fry"
-  ],
-  "toasted sesame oil": [
-    "Chicken Broccoli Stir Fry"
-  ],
-  "400g  broccoli florets, bite-sized": [
-    "Chicken Broccoli Stir Fry"
-  ],
-  "1\u00bc cups water": [
-    "Chicken Broccoli Stir Fry"
-  ],
-  "white rice or cauliflower rice": [
-    "Chicken Broccoli Stir Fry"
-  ],
-  "250g white/button mushrooms, sliced": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "1 red capsicum , sliced 8mm thick": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "1 brown/yellow onion, diced": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "2 bay leave": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "2 sprigs fresh rosemary": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "2 anchovy fillet": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "\u00bd cup dry red wine": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "crushed tomato": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "1\u00bd cups low-sodium chicken stock": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "\u00bd cup kalamata olives, pitted": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "mashed potato, polenta, rice, or crusty bread": [
-    "Chicken Cacciatore Italian Chicken Stew"
-  ],
-  "\u00be tsp kosher salt": [
-    "Chicken Chasseur"
-  ],
-  "plain flour": [
-    "Chicken Chasseur"
-  ],
-  "30g / 2 tbsp unsalted butter": [
-    "Chicken Chasseur"
-  ],
-  "400g / 14oz white mushrooms, sliced 6mm": [
-    "Chicken Chasseur"
-  ],
-  "2 brown/yellow onions, sliced 6mm thick": [
-    "Chicken Chasseur"
-  ],
-  "3 garlic cloves, finely minced": [
-    "Chicken Chasseur"
-  ],
-  "\u00bc cup brandy": [
-    "Chicken Chasseur"
-  ],
-  "\u00bd cup chardonnay or dry white wine": [
-    "Chicken Chasseur"
-  ],
-  "2\u00bd cups low-sodium beef stock": [
-    "Chicken Chasseur"
-  ],
-  "\u00be tsp salt + \u00bc tsp pepper": [
-    "Chicken Chasseur"
-  ],
-  "30g / 2 tbsp cold unsalted butter, cubed": [
-    "Chicken Chasseur"
-  ],
-  "creamy mashed potato , rice, or small pasta": [
-    "Chicken Chasseur"
-  ],
-  "cornflour / cornstarch": [
-    "Chicken Chow Mein"
-  ],
-  "1\u00bd tbsp soy sauce": [
-    "Chicken Chow Mein"
-  ],
-  "\u00bd tsp sesame oil": [
-    "Chicken Chow Mein"
-  ],
-  "white pepper": [
-    "Chicken Chow Mein"
-  ],
-  "250g thin chow mein noodle": [
-    "Chicken Chow Mein"
-  ],
-  "2 garlic cloves, finely chopped": [
-    "Chicken Chow Mein"
-  ],
-  "300g chicken thigh, sliced": [
-    "Chicken Chow Mein"
-  ],
-  "green cabbage, shredded": [
-    "Chicken Chow Mein"
-  ],
-  "1 medium carrot, julienned": [
-    "Chicken Chow Mein"
-  ],
-  "3 green onions, cut into 5cm piece": [
-    "Chicken Chow Mein"
-  ],
-  "kosher/cooking salt": [
-    "Chicken Francese"
-  ],
-  "1 lemon, thinly sliced": [
-    "Chicken Francese"
-  ],
-  "50g / 3 tbsp unsalted butter": [
-    "Chicken Francese"
-  ],
-  "plain/all-purpose flour": [
-    "Chicken Francese"
-  ],
-  "low-sodium chicken stock/broth": [
-    "Chicken Francese"
-  ],
-  "\u2153 cup chardonnay or dry white wine": [
-    "Chicken Francese"
-  ],
-  "finely chopped parsley": [
-    "Chicken Francese"
-  ],
-  "700g / 1.4 lb boneless, skinless chicken thighs  or breast": [
-    "Chicken In Creamy Mustard Sauce"
-  ],
-  "wholegrain mustard": [
-    "Chicken In Creamy Mustard Sauce"
-  ],
-  "fresh parsley, finely chopped": [
-    "Chicken In Creamy Mustard Sauce"
-  ],
-  "\u00bd tsp kosher/cooking salt": [
-    "Chicken Marsala"
-  ],
-  "2 eschalots , diced into 1cm square": [
-    "Chicken Marsala"
-  ],
-  "1 garlic clove, finely minced": [
-    "Chicken Marsala"
-  ],
-  "sliced white or cremini mushroom": [
-    "Chicken Marsala"
-  ],
-  "dry marsala wine": [
-    "Chicken Marsala"
-  ],
-  "\u00bd cup low-sodium chicken stock/broth": [
-    "Chicken Marsala"
-  ],
-  "\u00bc tsp salt + \u215b tsp pepper": [
-    "Chicken Marsala"
-  ],
-  "1\u00bd tbsp tamarind puree": [
-    "Chicken Pad Thai"
-  ],
-  "packed brown sugar": [
-    "Chicken Pad Thai"
-  ],
-  "125g dried chang's 'thai style' rice noodle": [
-    "Chicken Pad Thai"
-  ],
-  "250g chicken breast or thigh, sliced": [
-    "Chicken Pad Thai"
-  ],
-  "2 eggs, scrambled": [
-    "Chicken Pad Thai"
-  ],
-  "150g firm tofu, cubed": [
-    "Chicken Pad Thai"
-  ],
-  "\u00bd cup garlic chives, cut into 5cm piece": [
-    "Chicken Pad Thai"
-  ],
-  "extra bean sprout": [
-    "Chicken Pad Thai"
-  ],
-  "chili/cayenne": [
-    "Chicken Pad Thai"
-  ],
-  "300g / 10 oz fettuccine": [
-    "Chicken Pasta Recipe"
-  ],
-  "2 chicken breasts, butterflied": [
-    "Chicken Pasta Recipe"
-  ],
-  "30g / 2 tbsp butter, divided": [
-    "Chicken Pasta Recipe"
-  ],
-  "\u00bd cup  dry white wine": [
-    "Chicken Pasta Recipe"
-  ],
-  "\u00bd cup  low-sodium chicken broth": [
-    "Chicken Pasta Recipe"
-  ],
-  "1\u00bc cups  thickened/heavy cream": [
-    "Chicken Pasta Recipe"
-  ],
-  "\u00be cup  finely shredded parmesan": [
-    "Chicken Pasta Recipe"
-  ],
-  "70g / 2.5 oz baby spinach": [
-    "Chicken Pasta Recipe"
-  ],
-  "100g / 3 oz sun-dried tomato strip": [
-    "Chicken Pasta Recipe"
-  ],
-  "120g / 4 oz bacon, cooked and crumbled": [
-    "Chicken Pasta Recipe"
-  ],
-  "extra parmesan": [
-    "Chicken Pasta Recipe"
-  ],
-  "450g / 16oz chicken breast , skinless bonele": [
-    "Chicken Piccata"
-  ],
-  "2\u00bd tbsp parmesan, finely grated": [
-    "Chicken Piccata"
-  ],
-  "\u00bc tsp pepper": [
-    "Chicken Piccata"
-  ],
-  "2\u00bd tbsp olive oil": [
-    "Chicken Piccata"
-  ],
-  "/ 15g unsalted butter": [
-    "Chicken Piccata"
-  ],
-  "/ 30g unsalted butter, cut into 1.5cm cube": [
-    "Chicken Piccata"
-  ],
-  "\u2154 cup dry white wine": [
-    "Chicken Piccata"
-  ],
-  "lemon juice, fresh": [
-    "Chicken Piccata"
-  ],
-  "capers in brine, drained": [
-    "Chicken Piccata"
-  ],
-  "1\u00bd tsp parsley, finely chopped, plus more for garnish": [
-    "Chicken Piccata"
-  ],
-  "600 g / 1.2 lb chicken breast": [
-    "Chicken Pot Pie"
-  ],
-  "chicken or vegetable stock powder": [
-    "Chicken Pot Pie"
-  ],
-  "2 sprigs thyme": [
-    "Chicken Pot Pie"
-  ],
-  "1 large onion, chopped": [
-    "Chicken Pot Pie"
-  ],
-  "2 large carrots , chopped": [
-    "Chicken Pot Pie"
-  ],
-  "3 celery ribs, chopped": [
-    "Chicken Pot Pie"
-  ],
-  "50 g / 3 tbsp butter": [
-    "Chicken Pot Pie"
-  ],
-  "\u2153 cup white wine": [
-    "Chicken Pot Pie"
-  ],
-  "\u2153 cup flour": [
-    "Chicken Pot Pie"
-  ],
-  "\u00bd cup grated parmesan": [
-    "Chicken Pot Pie"
-  ],
-  "frozen pea": [
-    "Chicken Pot Pie"
-  ],
-  "2 sheets puff pastry": [
-    "Chicken Pot Pie"
-  ],
-  "1 egg, lightly whisked": [
-    "Chicken Pot Pie"
-  ],
-  "750g boneless, skinless chicken thighs  or breast": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "ground coriander": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "ground cumin": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "\u00bd tsp ground cardamom": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "smoked paprika": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "\u00bc\u2013\u00bd tsp cayenne pepper": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "plain yogurt": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "salt to taste": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "warm flatbread": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "lettuce, tomato, red onion": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "optional: cheese, hot sauce, hummu": [
-    "Chicken Shawarma Middle Eastern"
-  ],
-  "750g / 1.5 lb chicken thighs or breast": [
-    "Chicken With Creamy Sun Dried Tomato Sauce"
-  ],
-  "\u00bd cup sun-dried tomatoe": [
-    "Chicken With Creamy Sun Dried Tomato Sauce"
-  ],
-  "oil from sun-dried tomato jar": [
-    "Chicken With Creamy Sun Dried Tomato Sauce"
-  ],
-  "\u00be cup low-sodium chicken broth": [
-    "Chicken With Creamy Sun Dried Tomato Sauce"
-  ],
-  "\u2153 cup finely shredded parmesan": [
-    "Chicken With Creamy Sun Dried Tomato Sauce"
-  ],
-  "packed fresh basil leave": [
-    "Chicken With Creamy Sun Dried Tomato Sauce"
-  ],
-  "salt and black pepper to taste": [
-    "Chicken With Creamy Sun Dried Tomato Sauce"
-  ],
-  "cornstarch / cornflour": [
-    "Chinese Cashew Chicken"
-  ],
-  "1\u00bd tbsp chinese cooking wine or mirin": [
-    "Chinese Cashew Chicken"
-  ],
-  "sesame oil": [
-    "Chinese Cashew Chicken"
-  ],
-  "500g / 1 lb chicken thigh, skinless boneless, cut into 2.5cm/1\" piece": [
-    "Chinese Cashew Chicken"
-  ],
-  "\u00bd onion, chopped into 1.75 cm piece": [
-    "Chinese Cashew Chicken"
-  ],
-  "1 green capsicum / bell pepper, chopped into 2 cm piece": [
-    "Chinese Cashew Chicken"
-  ],
-  "\u00be cup roasted cashews, unsalted": [
-    "Chinese Cashew Chicken"
-  ],
-  "greek yogurt": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "1 cucumber, salted and drained": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "red wine vinegar": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "chicken breast": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "3 pita breads, cut into 1/4-inch square": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "chopped romaine": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "1 cucumber, diced": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "1 bell pepper, diced": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "kalamata olive": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "red onion, diced": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "crumbled feta cheese": [
-    "Chopped Greek Chicken Salad With Pita Croutons And Tzatziki "
-  ],
-  "16 pearl onion": [
-    "Coq Au Vin"
-  ],
-  "3 thyme sprig": [
-    "Coq Au Vin"
-  ],
-  "750 ml  pinot noir or other dry red wine": [
-    "Coq Au Vin"
-  ],
-  "3\u20134 tbsp vegetable or canola oil": [
-    "Coq Au Vin"
-  ],
-  "400g white mushrooms, halved or quartered": [
-    "Coq Au Vin"
-  ],
-  "150g slab bacon or speck, cut into baton": [
-    "Coq Au Vin"
-  ],
-  "60g  unsalted butter": [
-    "Coq Au Vin"
-  ],
-  "750 ml  beef stock": [
-    "Coq Au Vin"
-  ],
-  "\u00bc tsp salt + \u00bc tsp pepper": [
-    "Coq Au Vin"
-  ],
-  "mashed potatoes or tagliatelle pasta": [
-    "Coq Au Vin"
-  ],
-  "/ 180 g fettuccine": [
-    "Creamy Chicken And Bacon Pasta"
-  ],
-  "5\u20137 oz / 150\u2013200 g bacon, chopped": [
-    "Creamy Chicken And Bacon Pasta"
-  ],
-  "/ 180 g chicken breast, butterflied": [
-    "Creamy Chicken And Bacon Pasta"
-  ],
-  "\u00be cup heavy cream": [
-    "Creamy Chicken And Bacon Pasta"
-  ],
-  "\u00bd small onion, finely chopped": [
-    "Creamy Chicken And Bacon Pasta"
-  ],
-  "\u00bd cup finely shredded parmesan": [
-    "Creamy Chicken And Bacon Pasta"
-  ],
-  "\u00be cup reserved pasta cooking water": [
-    "Creamy Chicken And Bacon Pasta"
-  ],
-  "salsa verde or green enchilada sauce": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "1 tablespoon fresh lime juice": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "1 teaspoon garlic powder": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "1 teaspoon dried parsley": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "pinch of dried dill": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "pinch of salt and black pepper": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "coarsely chopped cilantro": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "1 green onion": [
-    "Creamy Cilantro Lime Dressing"
-  ],
-  "2 tablespoons butter": [
-    "Creamy Garlic Alfredo Sauce My Go-To Dinner Saver"
-  ],
-  "garlic, finely minced or pressed": [
-    "Creamy Garlic Alfredo Sauce My Go-To Dinner Saver"
-  ],
-  "cream cheese, softened and cut into 6 piece": [
-    "Creamy Garlic Alfredo Sauce My Go-To Dinner Saver"
-  ],
-  "1/2 teaspoon salt, plus more to taste": [
-    "Creamy Garlic Alfredo Sauce My Go-To Dinner Saver"
-  ],
-  "1/4 teaspoon pepper": [
-    "Creamy Garlic Alfredo Sauce My Go-To Dinner Saver"
-  ],
-  "/ 150g dried rice stick noodle": [
-    "Crispy Shredded Chicken Noodle Stir Fry"
-  ],
-  "2 garlic cloves, smashed": [
-    "Crispy Shredded Chicken Noodle Stir Fry"
-  ],
-  "slow cooker crispy chinese shredded chicken": [
-    "Crispy Shredded Chicken Noodle Stir Fry"
-  ],
-  "\u00bd cup braising liquid": [
-    "Crispy Shredded Chicken Noodle Stir Fry"
-  ],
-  "sriracha sauce": [
-    "Crispy Shredded Chicken Noodle Stir Fry"
-  ],
-  "chinese broccoli, tightly packed , leaves separated from stem": [
-    "Crispy Shredded Chicken Noodle Stir Fry"
-  ],
-  "6 tablespoons salted butter": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock "
-  ],
-  "cream, divided": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock "
-  ],
-  "pure vanilla extract": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock "
-  ],
-  "8 ounces pretzel twist": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock "
-  ],
-  "12 ounces chocolate chips or chopped baking chocolate, divided": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock "
-  ],
-  "sea salt for sprinkling": [
-    "Dark Chocolate Sea Salt Caramel Pretzel Bark Snappers Knock "
-  ],
-  "1  package chocolate cookie": [
-    "Decadent Chocolate Cheesecake"
-  ],
-  "semisweet or bittersweet chocolate, chopped": [
-    "Decadent Chocolate Cheesecake"
-  ],
-  "cream cheese, room temperature": [
-    "Decadent Chocolate Cheesecake"
-  ],
-  "+ 2 tbsp granulated sugar": [
-    "Decadent Chocolate Cheesecake"
-  ],
-  "unsweetened cocoa powder": [
-    "Decadent Chocolate Cheesecake"
-  ],
-  "whipping cream": [
-    "Decadent Chocolate Cheesecake"
-  ],
-  "chocolate curls for garnish": [
-    "Decadent Chocolate Cheesecake"
-  ],
-  "1  can white bean": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "1  can black bean": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "1  can corn  or thawed frozen corn": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "1-2 avocados, diced": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "1 medium red bell pepper, diced": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "1-2 roma tomatoes, diced": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "finely chopped red onion": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "chopped cilantro": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "italian dressing": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "squeeze of fresh lime": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "tortilla chips for serving": [
-    "Easy Cowboy Caviar Dip Aka Shrapnel Dip"
-  ],
-  "instant or active dry yeast": [
-    "Easy Homemade French Bread"
-  ],
-  "olive, canola, vegetable, or avocado oil": [
-    "Easy Homemade French Bread"
-  ],
-  "all-purpose or bread flour": [
-    "Easy Homemade French Bread"
-  ],
-  "1 1/2 tablespoons instant yeast": [
-    "Easy Rustic Crusty Bread With Tutorial No Mixer No Kneading"
-  ],
-  "1 tablespoon coarse/kosher salt": [
-    "Easy Rustic Crusty Bread With Tutorial No Mixer No Kneading"
-  ],
-  "unbleached all-purpose flour, plus more for dusting": [
-    "Easy Rustic Crusty Bread With Tutorial No Mixer No Kneading"
-  ],
-  "2 large boneless, skinless chicken breasts , sliced horizontally into 4 thin steak": [
-    "French Chicken Au Poivre Sauce"
-  ],
-  "\u00be tsp cooking/kosher salt": [
-    "French Chicken Au Poivre Sauce"
-  ],
-  "vegetable or neutral oil": [
-    "French Chicken Au Poivre Sauce"
-  ],
-  "whole black peppercorns, coarsely crushed": [
-    "French Chicken Au Poivre Sauce"
-  ],
-  "\u2153 cup brandy/cognac": [
-    "French Chicken Au Poivre Sauce"
-  ],
-  "1\u00bd cups low-sodium beef stock": [
-    "French Chicken Au Poivre Sauce"
-  ],
-  "\u00bc cup apple cider vinegar": [
-    "Harvest Apple Salad"
-  ],
-  "1\u20132 tablespoons honey": [
-    "Harvest Apple Salad"
-  ],
-  "1 teaspoon dijon mustard": [
-    "Harvest Apple Salad"
-  ],
-  "\u00bc teaspoon coarse kosher salt": [
-    "Harvest Apple Salad"
-  ],
-  "baby green": [
-    "Harvest Apple Salad"
-  ],
-  "chopped honeycrisp or cosmic crisp apple": [
-    "Harvest Apple Salad"
-  ],
-  "\u00be cup sweet-spicy candied pecan": [
-    "Harvest Apple Salad"
-  ],
-  "\u00bd cup dried cranberrie": [
-    "Harvest Apple Salad"
-  ],
-  "\u00bd cup lightly salted roasted pumpkin seed": [
-    "Harvest Apple Salad"
-  ],
-  "\u00bd cup cooked, crumbled bacon": [
-    "Harvest Apple Salad"
-  ],
-  "\u00bd cup crumbled feta cheese": [
-    "Harvest Apple Salad"
-  ],
-  "\u00bc cup thinly sliced red onion": [
-    "Harvest Apple Salad"
-  ],
-  "fresh or frozen raspberrie": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "\u00bc cup  granulated sugar": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "\u00bc cup cold water": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "\u00bc cup fresh lemon juice": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "cubed angel food cake": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "light or regular cream cheese, softened": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "\u00be\u20131 cup half-and-half or evaporated milk": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "\u2154 cup  granulated sugar": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "lemon extract": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "1\u00bd cups heavy cream": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "\u00bc cup  powdered sugar": [
-    "Heavenly Raspberry Cream Angel Food Cake Dessert"
-  ],
-  "1  can pineapple chunks, drained": [
-    "Honey Lime Fruit Salad"
-  ],
-  "1  can mandarin oranges, drained": [
-    "Honey Lime Fruit Salad"
-  ],
-  "2-3 ripe kiwi, peeled and chopped": [
-    "Honey Lime Fruit Salad"
-  ],
-  "red or green grapes, halved": [
-    "Honey Lime Fruit Salad"
-  ],
-  "strawberries, hulled and quartered": [
-    "Honey Lime Fruit Salad"
-  ],
-  "zest of 1 lime": [
-    "Honey Lime Fruit Salad"
-  ],
-  "1-2 tablespoons honey": [
-    "Honey Lime Fruit Salad"
-  ],
-  "1/2-1 teaspoon poppy seed": [
-    "Honey Lime Fruit Salad"
-  ],
-  "cocoa powder": [
-    "Hot Fudge Pudding Cake"
-  ],
-  "1 large egg yolk": [
-    "Hot Fudge Pudding Cake"
-  ],
-  "semisweet chocolate chip": [
-    "Hot Fudge Pudding Cake"
-  ],
-  "boiling water": [
-    "Hot Fudge Pudding Cake"
-  ],
-  "8 drumstick": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "juice of 1 lime": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "1 onion, coarsely chopped": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "fresh ginger": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "1+ scotch bonnet or habanero pepper": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "6 garlic clove": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "cinnamon": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "allspice": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "nutmeg": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "1/2 onion, diced": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "long grain rice": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "can red kidney beans, rinsed and drained": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "coconut milk": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "1 small bay leaf": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "cajun spice mix": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "paprika": [
-    "Jamaican Jerk Chicken Drumsticks"
-  ],
-  "2 chicken thighs, bone-in, skin-on": [
-    "Jambalaya Recipe"
-  ],
-  "250g andouille sausage , sliced": [
-    "Jambalaya Recipe"
-  ],
-  "100g smoked bacon, chopped": [
-    "Jambalaya Recipe"
-  ],
-  "200g prawns/shrimp, peeled and deveined": [
-    "Jambalaya Recipe"
-  ],
-  "1 onion, diced": [
-    "Jambalaya Recipe"
-  ],
-  "1 celery stalk, diced": [
-    "Jambalaya Recipe"
-  ],
-  "1 green capsicum , diced": [
-    "Jambalaya Recipe"
-  ],
-  "3 green onions, sliced": [
-    "Jambalaya Recipe"
-  ],
-  "long-grain white rice": [
-    "Jambalaya Recipe"
-  ],
-  "2\u00bd cups low-sodium chicken broth": [
-    "Jambalaya Recipe"
-  ],
-  "2 sprigs fresh thyme": [
-    "Jambalaya Recipe"
-  ],
-  "sweet paprika": [
-    "Jambalaya Recipe"
-  ],
-  "\u00bd tsp cayenne": [
-    "Jambalaya Recipe"
-  ],
-  "1 tablespoon fresh lemon zest": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "4 large eggs, room temp": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "2 teaspoons vanilla extract": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "2 teaspoons baking powder": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "1/4 teaspoon baking soda": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "blueberrie": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "2 tablespoons flour": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "1-2 teaspoons fresh lemon zest": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "1 tablespoon fresh lemon juice": [
-    "Lemon Blueberry Cake With Whipped Lemon Cream Frosting"
-  ],
-  "1 tablespoon olive oil": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "1\u00bd cups diced carrot": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "\u00bd cup diced celery": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "\u00bd cup finely diced onion": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "\u00be cup  orzo pasta": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "\u00bc tsp each: dried oregano, basil, thyme": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "2\u20133 cups cooked, chopped chicken": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "\u00bc\u2013\u00bd cup fresh lemon juice": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "3 tablespoons melted butter": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "3 tablespoons flour": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "shredded parmesan cheese": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "chopped fresh parsley": [
-    "Lemon Chicken Orzo Soup"
-  ],
-  "1 large garlic clove, minced": [
-    "Lemon Chicken Salad"
-  ],
-  "\u00bd tsp salt + \u00bc tsp black pepper": [
-    "Lemon Chicken Salad"
-  ],
-  "1 large chicken breast  or 2 boneless skinless chicken thigh": [
-    "Lemon Chicken Salad"
-  ],
-  "finely chopped dill": [
-    "Lemon Chicken Salad"
-  ],
-  "cos/romaine lettuce": [
-    "Lemon Chicken Salad"
-  ],
-  "1 medium avocado, quartered and sliced": [
-    "Lemon Chicken Salad"
-  ],
-  "\u00bd small red onion, finely sliced": [
-    "Lemon Chicken Salad"
-  ],
-  "120g/4 oz bacon, cooked and chopped": [
-    "Lemon Chicken Salad"
-  ],
-  "salted butter, melted and cooled": [
-    "Little Lemonies Yummy Lemon Brownies"
-  ],
-  "\u00bc cup  olive oil": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "2 small chicken breast": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "\u00bd tsp chipotle powder": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "\u00bd tsp oregano": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "\u00bc tsp cumin powder": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "salt & pepper": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "1 avocado, chunky dice": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "\u00bd red onion, finely chopped": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "\u00bc cup coriander/cilantro, finely chopped": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "5 heaped cups cos/romaine lettuce, bite-sized piece": [
-    "Mexican Chicken Avocado Salad"
-  ],
-  "boneless, skinless chicken breast": [
-    "Mexican Shredded Chicken"
-  ],
-  "\u00bd cup chipotles in adobo sauce": [
-    "Mexican Shredded Chicken"
-  ],
-  "can crushed tomatoe": [
-    "Mexican Shredded Chicken"
-  ],
-  "each: dried oregano, cumin powder, onion powder": [
-    "Mexican Shredded Chicken"
-  ],
-  "pepper to taste": [
-    "Mexican Shredded Chicken"
-  ],
-  "3\u20134 cups frozen or fresh kernel": [
-    "Mexican Street Corn Salad"
-  ],
-  "butter + 1 tbsp oil": [
-    "Mexican Street Corn Salad"
-  ],
-  "\u00bc cup mayonnaise": [
-    "Mexican Street Corn Salad"
-  ],
-  "\u00bc cup sour cream": [
-    "Mexican Street Corn Salad"
-  ],
-  "\u00bc cup chopped fresh cilantro": [
-    "Mexican Street Corn Salad"
-  ],
-  "fresh lime juice": [
-    "Mexican Street Corn Salad"
-  ],
-  "chili powder": [
-    "Mexican Street Corn Salad"
-  ],
-  "\u00bc tsp ground cumin": [
-    "Mexican Street Corn Salad"
-  ],
-  "\u215b\u2013\u00bc tsp smoked paprika": [
-    "Mexican Street Corn Salad"
-  ],
-  "\u00bc\u2013\u00bd cup crumbled queso fresco, cotija, or feta": [
-    "Mexican Street Corn Salad"
-  ],
-  "lime wedges/slice": [
-    "Mexican Street Corn Salad"
-  ],
-  "pitted sweet, dark cherrie": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "2 tablespoons fresh lemon juice": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "1/4 teaspoon almond extract": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "1/2 teaspoon coarse kosher salt": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "tapioca starch/flour": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "1 tablespoon cornstarch": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "1 tablespoon butter": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "2 teaspoons water": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "2 teaspoons cream or milk": [
-    "My Favorite Cherry Pie In The History Of Ever"
-  ],
-  "sweetened condensed milk": [
-    "My Mom8217S Famous Caramels"
-  ],
-  "2 teaspoons vanilla": [
-    "My Mom8217S Famous Caramels"
-  ],
-  "chopped toasted pecan": [
-    "My Mom8217S Famous Caramels"
-  ],
-  "1.25 kg / 2.5 lb chicken wings, cut into drumettes & wingette": [
-    "New Orleans Chicken Wings"
-  ],
-  "50g / 3 tbsp unsalted butter, melted": [
-    "New Orleans Chicken Wings"
-  ],
-  "chopped coriander/cilantro, parsley, or sliced green onion": [
-    "New Orleans Chicken Wings"
-  ],
-  "1\u00bd tbsp brown sugar": [
-    "New Orleans Chicken Wings"
-  ],
-  "2\u00bd tsp paprika": [
-    "New Orleans Chicken Wings"
-  ],
-  "1\u00bd tsp cooking/kosher salt": [
-    "New Orleans Chicken Wings"
-  ],
-  "\u00bd tsp dried thyme": [
-    "New Orleans Chicken Wings"
-  ],
-  "\u00bd tsp dried oregano": [
-    "New Orleans Chicken Wings"
-  ],
-  "\u00bc tsp cayenne pepper": [
-    "New Orleans Chicken Wings"
-  ],
-  "4 chicken thigh fillets, skin-on, bone-in": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "8\u201312 baby potatoes, scrubbed, halved": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "2 chorizo sausages , sliced 1/3cm thick": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "1 small red capsicum , sliced": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "1 small red onion, halved and sliced": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "\u00bd to 1 punnet cherry tomatoe": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "1\u00bd tbsp paprika": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "\u00bc\u2013\u00bd tsp cayenne or chilli powder": [
-    "One Pan Spanish Chicken Chorizo"
-  ],
-  "/ 500g boneless skinless chicken thighs , cut into 2 cm / 1\" piece": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "\u00bd tbsp lemon juice": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "2 medium zucchini, cut into 1 cm cube": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "1 red bell pepper / capsicum, cut into 1 cm cube": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "2\u00bd cups low-sodium chicken broth/stock": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "/ 400g canned crushed tomatoe": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "1\u00bd cups orzo / risoni": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "1\u00bd cups cherry tomatoe": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "cooking  salt": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "\u00bd cup  greek feta cheese, crumbled": [
-    "One Pot Baked Greek Chicken Orzo Risoni"
-  ],
-  "400g  chicken breast, sliced horizontally into thin steak": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "1 small onion, diced": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "3 garlic cloves, crushed": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "1 red bell pepper/capsicum, diced": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "680g  tomato passata or crushed canned tomatoe": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "chicken broth or water": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "1\u00bd cups  uncooked white rice": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "1\u00bd cups  frozen corn": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "1\u20131\u00bd cups grated cheese": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "cumin": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "1\u00bd tsp coriander": [
-    "One Pot Chicken Enchilada Rice Casserole"
-  ],
-  "bone-in, skin-on chicken thigh": [
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "2\u20133 tbsp lemon pepper seasoning": [
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "1\u00bd cups risotto rice": [
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "freshly grated parmesan": [
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "\u00bd to 1 cup milk": [
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "fresh thyme, parsley, chives, or oregano": [
-    "One Pot Creamy Parmesan Garlic Risotto"
-  ],
-  "5 bone-in, skin-on chicken thigh": [
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "zest + 4 tbsp juice from 1\u20132 lemon": [
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "1\u00bd tbsp olive oil": [
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "1 small onion, finely diced": [
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "long grain white rice": [
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "\u00be cup  water": [
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "fresh parsley or oregano, finely chopped": [
-    "One Pot Greek Chicken Lemon Rice"
-  ],
-  "warm buttermilk": [
-    "Orange Sweet Rolls"
-  ],
-  "melted and cooled butter": [
-    "Orange Sweet Rolls"
-  ],
-  "freshly squeezed orange juice": [
-    "Orange Sweet Rolls"
-  ],
-  "zest from 2 large orange": [
-    "Orange Sweet Rolls"
-  ],
-  "orange juice": [
-    "Orange Sweet Rolls"
-  ],
-  "reserved orange zest": [
-    "Orange Sweet Rolls"
-  ],
-  "freshly grated orange zest": [
-    "Orange Zested Cranberry White Chocolate Bliss Bars"
-  ],
-  "dried cranberries, coarsely chopped": [
-    "Orange Zested Cranberry White Chocolate Bliss Bars"
-  ],
-  "white baking chocolate, chopped": [
-    "Orange Zested Cranberry White Chocolate Bliss Bars"
-  ],
-  "white baking chocolate, melted": [
-    "Orange Zested Cranberry White Chocolate Bliss Bars"
-  ],
-  "36 oreo cookies, divided": [
-    "Oreo Cheesecake Bites"
-  ],
-  "semisweet chocolate": [
-    "Oreo Cheesecake Bites"
-  ],
-  "white chocolate": [
-    "Oreo Cheesecake Bites"
-  ],
-  "5 bone-in, skinless chicken thigh fillet": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "50g  unsalted butter": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "1\u00bd cups  long grain white rice": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "1\u00bc cups  apple juice": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "dried cranberrie": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "walnuts, roughly chopped": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "1 red apple, diced": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "\u00be tsp dried rosemary": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "\u00bd tsp pepper": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "\u2153 cup  apricot jam": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "2\u00bd tbsp dijon mustard": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "\u00bd tsp all spice": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "\u00bc tsp paprika": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "\u00bc tsp black pepper": [
-    "Oven Baked Chicken And Rice Pilaf"
-  ],
-  "400 g  chicken , cut into bite-sized piece": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "cumin powder": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "paprika powder": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "\u00bd small onion, diced": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "1 red capsicum / bell pepper, diced": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "1 green capsicum / bell pepper, diced": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "4 flour tortilla": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "olive oil spray": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "grated melting cheese": [
-    "Oven Baked Chicken Quesadillas"
-  ],
-  "2 tablespoons instant yeast": [
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "1 1/2 teaspoons salt": [
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "8 tablespoons salted butter, melted": [
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "zest of 1 lemon": [
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "strawberry jam": [
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "1 tablespoon melted butter": [
-    "Overnight Strawberry Cream Cheese Sweet Rolls"
-  ],
-  "20-22 oreo cookie": [
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust"
-  ],
-  "roasted, salted peanut": [
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust"
-  ],
-  "creamy peanut butter": [
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust"
-  ],
-  "10 regular-sized peanut butter cups, chopped": [
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust"
-  ],
-  "semisweet/bittersweet chocolate chip": [
-    "Peanut Butter Cup Cheesecake With Chocolate Cookie Crust"
-  ],
-  "fresh asparagus, cut into 1-inch piece": [
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "coarse kosher salt": [
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "freshly ground black pepper": [
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "balsamic vinegar": [
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "light or dark brown sugar": [
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "pinch of black pepper": [
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "penne pasta": [
-    "Penne With Roasted Asparagus And Balsamic Butter"
-  ],
-  "\u00bd cup packed brown sugar": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "\u00bc cup light corn syrup": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "\u00bd cup heavy cream": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "1\u20131.5 cups coarsely chopped pecan": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "milk , scalded and cooled": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "2\u00bc tsp instant yeast": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "1 large egg": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "3\u20133\u00bc cups all-purpose flour": [
-    "Perfect Caramel Pecan Sticky Buns"
-  ],
-  "2\u20133 lbs pork roast , cut into 1-inch cube": [
-    "Slow Cooker Posole"
-  ],
-  "white hominy, drained": [
-    "Slow Cooker Posole"
-  ],
-  "enchilada sauce, green preferred": [
-    "Slow Cooker Posole"
-  ],
-  "1 jar  salsa verde, regular or thick 'n chunky": [
-    "Slow Cooker Posole"
-  ],
-  "green chile": [
-    "Slow Cooker Posole"
-  ],
-  "1 yellow onion, thinly sliced": [
-    "Slow Cooker Posole"
-  ],
-  "\u00bd cup fresh cilantro, chopped": [
-    "Slow Cooker Posole"
-  ],
-  "1\u20132 tbsp canola, vegetable, or avocado oil": [
-    "Slow Cooker Posole"
-  ],
-  "shredded cabbage": [
-    "Slow Cooker Posole"
-  ],
-  "sliced or diced avocado": [
-    "Slow Cooker Posole"
-  ],
-  "salsa": [
-    "Slow Cooker Posole"
-  ],
-  "thinly sliced radishe": [
-    "Slow Cooker Posole"
-  ],
-  "shredded cheese or crumbled queso fresco": [
-    "Slow Cooker Posole"
-  ],
-  "tortilla chip": [
-    "Slow Cooker Posole"
-  ],
-  "plain popcorn": [
-    "Soft And Chewy Caramel Popcorn"
-  ],
-  "packed light or dark brown sugar": [
-    "Soft And Chewy Caramel Popcorn"
-  ],
-  "corn syrup": [
-    "Soft And Chewy Caramel Popcorn"
-  ],
-  "pinch of coarse kosher salt": [
-    "Soft And Chewy Caramel Popcorn"
-  ],
-  "1/2 teaspoon baking soda": [
-    "Soft And Chewy Caramel Popcorn"
-  ],
-  "1 teaspoon vanilla extract": [
-    "Soft And Chewy Caramel Popcorn"
-  ],
-  "thin spaghetti or vermicelli": [
-    "Spaghetti Pie"
-  ],
-  "lean ground beef or ground turkey": [
-    "Spaghetti Pie"
-  ],
-  "1 small white or yellow onion, diced": [
-    "Spaghetti Pie"
-  ],
-  "1  can crushed tomatoe": [
-    "Spaghetti Pie"
-  ],
-  "1  can tomato sauce": [
-    "Spaghetti Pie"
-  ],
-  "dried basil": [
-    "Spaghetti Pie"
-  ],
-  "lowfat cottage cheese": [
-    "Spaghetti Pie"
-  ],
-  "parmesan cheese, divided": [
-    "Spaghetti Pie"
-  ],
-  "mozzarella cheese, divided": [
-    "Spaghetti Pie"
-  ],
-  "\u00bd cup avocado, olive, or vegetable oil": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "\u00bc cup apple cider or white vinegar": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "\u00bd tsp dijon mustard": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "poppy seed": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "5\u20136 oz fresh baby spinach": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "strawberries, hulled and sliced": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "toasted chopped pecans, sliced almonds, or candied sweet-spicy pecan": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "red onion, thinly sliced": [
-    "Strawberry Spinach Salad With Homemade Poppy Seed Dressing"
-  ],
-  "precooked bone-in ham": [
-    "Sweet Baked Ham"
-  ],
-  "white distilled vinegar": [
-    "Sweet Baked Ham"
-  ],
-  "1 1/2 tablespoons ground dry mustard": [
-    "Sweet Baked Ham"
-  ],
-  "225g / 7oz chicken thigh fillets, skinless boneless, cut into bite-size piece": [
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "1 green onion, cut into 4cm / 2\" length": [
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "thai basil leaves, loosely packed": [
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "2 large garlic cloves, finely chopped": [
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "1 bird's eye or thai chilli, deseeded and finely chopped": [
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "1\u00bd tbsp oil": [
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "steamed jasmine rice": [
-    "Thai Basil Chicken Stir Fry"
-  ],
-  "cornflour/cornstarch or 2 tbsp uncooked rice": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "2\u00bd tbsp lime juice": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "fresh ginger, grated or finely chopped": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "2 large garlic cloves, minced": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "1 lemongrass stalk, white/pale green part only, finely chopped": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "2 thai or bird's eye chillies, deseeded & finely chopped": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "chicken mince or pork mince": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "\u00bd red onion, quartered then finely sliced": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "\u2153 cup coriander/cilantro leave": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "\u2153 cup mint leave": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "6\u20138 small/medium lettuce leave": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "extra lime wedges and chilli": [
-    "Thai Chicken Lettuce Cups Larb Gai"
-  ],
-  "chilli, finely chopped": [
-    "Thai Coconut Chicken"
-  ],
-  "1 lemongrass stalk  or 1.5\u20132 tsp lemongrass paste": [
-    "Thai Coconut Chicken"
-  ],
-  "1\u00bd tsp coriander powder": [
-    "Thai Coconut Chicken"
-  ],
-  "\u00be tsp turmeric powder": [
-    "Thai Coconut Chicken"
-  ],
-  "\u00bd tsp curry powder": [
-    "Thai Coconut Chicken"
-  ],
-  "\u00be cup full-fat coconut milk": [
-    "Thai Coconut Chicken"
-  ],
-  "750g \u2013 1kg  boneless, skinless chicken thigh": [
-    "Thai Coconut Chicken"
-  ],
-  "oil for cooking": [
-    "Thai Coconut Chicken"
-  ],
-  "\u00bd cup coconut milk": [
-    "Thai Coconut Chicken"
-  ],
-  "smooth peanut butter": [
-    "Thai Coconut Chicken"
-  ],
-  "hoisin sauce": [
-    "Thai Coconut Chicken"
-  ],
-  "1\u00bd tbsp lime juice": [
-    "Thai Coconut Chicken"
-  ],
-  "\u00bd tsp chilli paste": [
-    "Thai Coconut Chicken"
-  ],
-  "/ 1 kg boneless, skinless chicken thigh": [
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "1 large lemongrass stalk": [
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "sliced red chili": [
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "fresh cilantro/coriander": [
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "coconut rice or jasmine rice": [
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "cucumber & tomato slice": [
-    "Thai Grilled Chicken Gai Yang"
-  ],
-  "1 whole chicken": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "3\u20134 tbsp thai red curry paste": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "1 lemongrass stalk, sliced": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "chicken stock": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "coconut cream": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "4 kaffir lime leaves, crushed": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "white sugar": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "500g small whole potatoe": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "200g green beans, trimmed": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "thai basil leave": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "coriander/cilantro for garnish": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "sliced red chilli for garnish": [
-    "Thai Red Curry Pot Roast Chicken"
-  ],
-  "unbleached all-purpose flour": [
-    "The Best And Only Pie Crust Recipe 038 Tutorial You8217Ll Ev"
-  ],
-  "2 teaspoons granulated sugar": [
-    "The Best And Only Pie Crust Recipe 038 Tutorial You8217Ll Ev"
-  ],
-  "10 tablespoons salted butter, frozen": [
-    "The Best And Only Pie Crust Recipe 038 Tutorial You8217Ll Ev"
-  ],
-  "full-fat sour cream, plus extra 1-3 tsp if needed": [
-    "The Best And Only Pie Crust Recipe 038 Tutorial You8217Ll Ev"
-  ],
-  "medium carrots , ends trimmed": [
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "unsweetened applesauce": [
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "table salt": [
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "ground clove": [
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "toasted chopped pecan": [
-    "The Best Carrot Cake With Whipped Cream Cheese Frosting"
-  ],
-  "\u00bd tsp baking soda": [
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "1\u00bd cups  shredded sharp cheddar cheese": [
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "\u00bc tsp crushed dried parsley": [
-    "The Best Cheesy Garlic Drop Biscuits Red Lobster Knockoff"
-  ],
-  "12 tablespoons butter, cool room temperature, cut into 1-inch piece": [
-    "The Best Lemon Bars"
-  ],
-  "3 tablespoons all-purpose flour": [
-    "The Best Lemon Bars"
-  ],
-  "2 teaspoons grated lemon zest": [
-    "The Best Lemon Bars"
-  ],
-  "freshly squeezed lemon juice": [
-    "The Best Lemon Bars"
-  ],
-  "pinch of salt": [
-    "The Best Lemon Bars"
-  ],
-  "2 tablespoons softened butter": [
-    "The Best Monkey Bread"
-  ],
-  "2 tablespoons melted butter": [
-    "The Best Monkey Bread"
-  ],
-  "warm milk": [
-    "The Best Monkey Bread"
-  ],
-  "2 1/4 teaspoons instant yeast": [
-    "The Best Monkey Bread"
-  ],
-  "2 teaspoons salt": [
-    "The Best Monkey Bread"
-  ],
-  "2 teaspoons ground cinnamon": [
-    "The Best Monkey Bread"
-  ],
-  "confectioners' sugar": [
-    "The Best Monkey Bread"
-  ],
-  "1\u00bd cups heavy cream, half-and-half, or milk": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "2 tablespoons all-purpose flour": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "\u00bd teaspoon garlic powder": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "1 teaspoon coarse, kosher salt": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "\u00bc to \u00bd teaspoon coarsely ground black pepper": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "8 ounces  cream cheese, light or regular, softened": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "artichoke hearts, drained and coarsely chopped": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "\u00bd to 1 teaspoon hot sauce": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "1 to 1\u00bd cups  freshly grated mozzarella or monterey jack cheese": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "10 to 16 ounces  frozen chopped spinach, defrosted and squeezed dry": [
-    "The Best Spinach Artichoke Dip"
-  ],
-  "1 kg / 2 lb boneless chicken thighs, cut into large 5cm/2\" piece": [
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "\u00bc cup brown sugar, packed": [
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "\u2153 cup ginger, finely julienned": [
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "1 bird's eye or thai chilli": [
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "2 eschalots , optional": [
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "\u00bd cup boiling water": [
-    "Vietnamese Caramel Ginger Chicken"
-  ],
-  "4 large or 5 small chicken thighs, bone-in, skin-on": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "\u00bd cup  brown sugar, loosely packed": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "400g  coconut milk, low-fat": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "1\u00bd tbsp fish sauce": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "2\u00bd tbsp rice vinegar": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "1 eschallot / french onion, finely sliced": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "\u00bc tsp white pepper": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "1 shallot , finely sliced": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "1 large red chilli, finely sliced": [
-    "Vietnamese Coconut Caramel Chicken"
-  ],
-  "chocolate crackers, finely crushed": [
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "chopped real white chocolate": [
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "seedless raspberry jam": [
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "shaved or finely chopped white chocolate": [
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "fresh raspberrie": [
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ],
-  "additional raspberry jam or puree": [
-    "White Chocolate Raspberry Truffle Cheesecake"
-  ]
+ "b chicken breast": [
+  "Thai Cashew Chicken"
+ ],
+ "red bell pepper": [
+  "Chili Con Carne Corn Bread Pie",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Easy Cowboy Caviar Dip (Shrapnel Dip)",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "Spicy Firecracker Beef",
+  "Thai Cashew Chicken"
+ ],
+ "s garlic": [
+  "Beef Rendang",
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Creamy Homemade Alfredo Sauce",
+  "Instant Pot Refried Black Beans",
+  "Massaman Curry",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "Pad See Ew",
+  "Pad Woon Sen Noodles (with Crab)",
+  "Peppercorn Sauce",
+  "Sichuan Green Beans",
+  "Slow Cooker Posole",
+  "Spaghetti Pie",
+  "Thai Cashew Chicken",
+  "Thai Clams"
+ ],
+ "soy sauce": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Chow Mein",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Chinese Cashew Chicken",
+  "Crispy Sticky Mongolian Beef",
+  "Fall Apart Mexican Beef Ribs",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Mapo Tofu",
+  "Mexican Shredded Beef Ribs",
+  "Spicy Firecracker Beef",
+  "Thai Basil Chicken (Pad Krapow Gai)",
+  "Thai Cashew Chicken"
+ ],
+ "cornstarch mixed with 2 tbsp water": [
+  "Mapo Tofu",
+  "Thai Cashew Chicken"
+ ],
+ "b ground chicken": [
+  "Thai Basil Chicken (Pad Krapow Gai)"
+ ],
+ "4 thai chilies": [
+  "Thai Basil Chicken (Pad Krapow Gai)",
+  "Thai Basil Squid"
+ ],
+ "thai basil leaves": [
+  "Green Curry",
+  "Thai Basil Chicken (Pad Krapow Gai)",
+  "Thai Basil Chicken Stir Fry",
+  "Thai Basil Squid",
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "dark soy sauce": [
+  "Pad Kee Mao (Thai Drunken Noodles)",
+  "Pineapple Fried Rice",
+  "Thai Basil Chicken (Pad Krapow Gai)",
+  "Thai Basil Chicken Stir Fry",
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "1lb leftover cooked brisket": [
+  "Caramelised Vietnamese Shredded Beef"
+ ],
+ "2 tbsp oil": [
+  "Caramelised Vietnamese Shredded Beef"
+ ],
+ "lemongrass paste": [
+  "Caramelised Vietnamese Shredded Beef"
+ ],
+ "**serving:** rice or noodles": [
+  "Caramelised Vietnamese Shredded Beef"
+ ],
+ "salt": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Amish-Style Apple and Cinnamon Baked Oatmeal",
+  "Avocado Chicken Salad",
+  "Braised Beef Short Ribs in Red Wine Sauce",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chicken Piccata",
+  "Chicken Shawarma (Middle Eastern)",
+  "Chili Con Carne Corn Bread Pie",
+  "Chocolate Cheesecake",
+  "Chocolate Peanut Butter Cake",
+  "Christmas Tree Cake",
+  "Coq au Vin",
+  "Creamy Chicken and Bacon Pasta",
+  "Crispy Sticky Mongolian Beef",
+  "Decadent Hot Fudge Pudding Cake",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Easy Rustic Crusty Bread",
+  "Fall Apart Mexican Beef Ribs",
+  "Family Meat Pie",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Jambalaya Recipe",
+  "Lemon Blueberry Cake",
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "Lemon Cheesecake",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "Marinated Beef Kabobs",
+  "Mexican Shredded Beef Ribs",
+  "Mexican Shredded Chicken",
+  "Moroccan Baked Eggplant with Beef",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "My Mom's Famous Christmas Caramels",
+  "Nachos Pie",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "One Pot Greek Chicken Lemon Rice",
+  "Orange Zested Cranberry White Chocolate Bliss Bars",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake"
+ ],
+ "orange zest": [
+  "Orange Zested Cranberry White Chocolate Bliss Bars"
+ ],
+ "bone-in": [
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Coq au Vin",
+  "One Pot Greek Chicken Lemon Rice"
+ ],
+ "chicken drumsticks": [
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chicken Chasseur",
+  "Coq au Vin"
+ ],
+ "pearl onions": [
+  "Coq au Vin"
+ ],
+ "bay leaf": [
+  "Coq au Vin",
+  "Family Meat Pie"
+ ],
+ "thyme sprigs": [
+  "Coq au Vin"
+ ],
+ "pinot noir or other dry red wine": [
+  "Coq au Vin"
+ ],
+ "4 tbsp vegetable or canola oil": [
+  "Coq au Vin"
+ ],
+ "black pepper": [
+  "Avocado Chicken Salad",
+  "Chicken Chasseur",
+  "Chicken Francese",
+  "Chicken Pot Pie",
+  "Chicken Shawarma (Middle Eastern)",
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Coq au Vin",
+  "Crispy Sticky Mongolian Beef",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Fall Apart Mexican Beef Ribs",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Jambalaya Recipe",
+  "Mexican Shredded Beef Ribs",
+  "Moroccan Baked Eggplant with Beef",
+  "Nachos Pie",
+  "New Orleans Chicken Wings",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+  "One Pot Baked Greek Chicken Orzo Risoni",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "white mushrooms": [
+  "Coq au Vin"
+ ],
+ "slab bacon or speck": [
+  "Coq au Vin"
+ ],
+ "unsalted butter": [
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chicken Marsala",
+  "Chicken Pasta Recipe",
+  "Chocolate Peanut Butter Cake",
+  "Christmas Tree Cake",
+  "Coq au Vin",
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Chicken and Bacon Pasta",
+  "Lemon Blueberry Cake",
+  "Lemon Cheesecake",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Raspberry Cheesecake",
+  "Turtle Cheesecake"
+ ],
+ "arlic cloves": [
+  "Australian Meat Pie",
+  "Beef Bourguignon (Beef Burgundy)",
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Broccoli Stir Fry",
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chicken Chasseur",
+  "Chicken Chow Mein",
+  "Chicken Pad Thai",
+  "Chicken Pasta Recipe",
+  "Chicken Pot Pie",
+  "Chicken Shawarma (Middle Eastern)",
+  "Chicken and Mushroom Risotto",
+  "Chicken with Creamy Sun Dried Tomato Sauce",
+  "Chili Con Carne Corn Bread Pie",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Chinese Cashew Chicken",
+  "Coq au Vin",
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Chicken and Bacon Pasta",
+  "Creamy Tuscan Chicken Pasta Bake",
+  "Crispy Shredded Chicken Noodle Stir Fry",
+  "Crispy Sticky Mongolian Beef",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Family Meat Pie",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Jambalaya Recipe",
+  "Mapo Tofu",
+  "Mexican Shredded Beef Ribs",
+  "Mexican Shredded Chicken",
+  "Moroccan Baked Eggplant with Beef",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Nachos Pie",
+  "New Orleans Chicken Wings",
+  "One Pot Baked Greek Chicken Orzo Risoni",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "One Pot Greek Chicken Lemon Rice",
+  "Osso Buco",
+  "Slow Cooker Red Wine Beef Cheeks",
+  "Spicy Firecracker Beef",
+  "Thai Basil Chicken Stir Fry",
+  "Thai Grilled Chicken (Gai Yang)",
+  "Thai Red Curry Pot Roast Chicken",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "tomato paste": [
+  "Australian Meat Pie",
+  "Beef Bourguignon (Beef Burgundy)",
+  "Braised Beef Short Ribs in Red Wine Sauce",
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chicken Chasseur",
+  "Chili Con Carne Corn Bread Pie",
+  "Coq au Vin",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Family Meat Pie",
+  "Jambalaya Recipe",
+  "Moroccan Baked Eggplant with Beef",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "One Pot Baked Greek Chicken Orzo Risoni",
+  "Osso Buco",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "plain/all-purpose flour": [
+  "Coq au Vin"
+ ],
+ "beef stock": [
+  "Chicken Chasseur",
+  "Coq au Vin",
+  "Massaman Curry",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "salt + 1/4 tsp black pepper": [
+  "Coq au Vin",
+  "Lemon Chicken Salad"
+ ],
+ "chopped parsley": [
+  "Coq au Vin"
+ ],
+ "mashed potatoes or tagliatelle": [
+  "Coq au Vin"
+ ],
+ "1 lb flank steak or sirloin": [
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Crispy Sticky Mongolian Beef",
+  "Spicy Firecracker Beef"
+ ],
+ "cornstarch": [
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Crispy Sticky Mongolian Beef",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Spicy Firecracker Beef",
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "oil for shallow frying": [
+  "Crispy Sticky Mongolian Beef"
+ ],
+ "water": [
+  "Chicken Broccoli Stir Fry",
+  "Chinese Cashew Chicken",
+  "Cranberry Apple Pie",
+  "Crispy Sticky Mongolian Beef",
+  "Green Curry",
+  "Green Curry Shrimp",
+  "Instant Pot Refried Black Beans",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Lemon Blueberry Cake",
+  "One Pot Greek Chicken Lemon Rice",
+  "Pad Kee Mao (Thai Drunken Noodles)",
+  "Pineapple Curry",
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Quick Satay Peanut Stir Fry",
+  "Thai Basil Chicken Stir Fry",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
+  "Thai Clams",
+  "Thai Red Curry",
+  "Tom Kha Soup (Thai Coconut Chicken Soup)",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "brown sugar": [
+  "Beef Rendang",
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Pad Thai",
+  "Crispy Sticky Mongolian Beef",
+  "Fall Apart Mexican Beef Ribs",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Massaman Curry",
+  "Mexican Shredded Beef Ribs",
+  "New Orleans Chicken Wings",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
+  "Thai Coconut Chicken",
+  "Thai Grilled Chicken (Gai Yang)",
+  "Vietnamese Caramel Ginger Chicken",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "hoisin sauce": [
+  "Crispy Sticky Mongolian Beef",
+  "Thai Coconut Chicken"
+ ],
+ "oyster sauce": [
+  "Chicken Broccoli Stir Fry",
+  "Chicken Chow Mein",
+  "Chicken Pad Thai",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Chinese Cashew Chicken",
+  "Crispy Sticky Mongolian Beef",
+  "Pad Kee Mao (Thai Drunken Noodles)",
+  "Thai Basil Chicken Stir Fry"
+ ],
+ "sesame oil": [
+  "Chicken Broccoli Stir Fry",
+  "Chicken Chow Mein",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Chinese Cashew Chicken",
+  "Crispy Sticky Mongolian Beef",
+  "Pad Woon Sen Noodles (with Crab)",
+  "Sichuan Green Beans",
+  "Spicy Firecracker Beef"
+ ],
+ "fresh ginger": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Crispy Sticky Mongolian Beef",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Mapo Tofu",
+  "Spicy Firecracker Beef",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "5 dried red chili peppers": [
+  "Crispy Sticky Mongolian Beef"
+ ],
+ "spring onions": [
+  "Crispy Sticky Mongolian Beef",
+  "Mapo Tofu"
+ ],
+ "sesame seeds": [
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Crispy Sticky Mongolian Beef",
+  "Spicy Firecracker Beef"
+ ],
+ "sliced spring onions": [
+  "Chili Con Carne Corn Bread Pie",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Crispy Sticky Mongolian Beef",
+  "Nachos Pie",
+  "Spicy Firecracker Beef"
+ ],
+ "b fresh green beans": [
+  "Sichuan Green Beans"
+ ],
+ "2 dried red chilies": [
+  "Sichuan Green Beans"
+ ],
+ "olive oil": [
+  "Avocado Chicken Salad",
+  "Beef Bourguignon (Beef Burgundy)",
+  "Chicken Piccata",
+  "Chicken Shawarma (Middle Eastern)",
+  "Chicken in Creamy Mustard Sauce",
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Tuscan Chicken Pasta Bake",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Lemon Chicken Salad",
+  "Mexican Chicken Avocado Salad",
+  "Mexican Shredded Chicken",
+  "Moroccan Baked Eggplant with Beef",
+  "One Pot Baked Greek Chicken Orzo Risoni",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "One Pot Greek Chicken Lemon Rice",
+  "Osso Buco",
+  "Oven Baked Chicken Quesadillas",
+  "Penne with Roasted Asparagus and Balsamic Butter",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "chicken breast": [
+  "Creamy Chicken and Bacon Pasta",
+  "Green Curry",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "Thai Red Curry"
+ ],
+ "small onion": [
+  "Beef Rendang",
+  "Chicken Pad Thai",
+  "Creamy Chicken and Bacon Pasta",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Instant Pot Refried Black Beans",
+  "One Pot Baked Greek Chicken Orzo Risoni",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "One Pot Greek Chicken Lemon Rice",
+  "Osso Buco",
+  "Oven Baked Chicken Quesadillas",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "tomato passata or crushed canned tomatoes": [
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "chicken broth or water": [
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "frozen corn": [
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "cayenne pepper": [
+  "Chicken Shawarma (Middle Eastern)",
+  "Chili Con Carne Corn Bread Pie",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Jambalaya Recipe",
+  "Moroccan Baked Eggplant with Beef",
+  "New Orleans Chicken Wings",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "dried oregano": [
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Fall Apart Mexican Beef Ribs",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Mexican Shredded Beef Ribs",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "New Orleans Chicken Wings",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+  "One Pot Baked Greek Chicken Orzo Risoni",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "One Pot Greek Chicken Lemon Rice"
+ ],
+ "cumin": [
+  "Chicken Shawarma (Middle Eastern)",
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "coriander": [
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "onion powder": [
+  "Baked Ziti",
+  "Creamy Cilantro Lime Dressing",
+  "Jambalaya Recipe",
+  "New Orleans Chicken Wings",
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "salt and pepper to taste": [
+  "Beef Bourguignon (Beef Burgundy)",
+  "Chicken Shawarma (Middle Eastern)",
+  "Chili Con Carne Corn Bread Pie",
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Tuscan Chicken Pasta Bake",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Family Meat Pie",
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "uncooked)": [
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "\u20131 1/2 cups grated cheese": [
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "chopped cilantro/coriander": [
+  "One Pot Chicken Enchilada Rice Casserole"
+ ],
+ "melted butter": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Chili Con Carne Corn Bread Pie",
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
+  "Decadent Chocolate Cheesecake",
+  "Oreo Cheesecake",
+  "Oreo Cheesecake Bites",
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "Overnight Strawberry Cream Cheese Sweet Rolls",
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "eggs": [
+  "Chicken Pad Thai",
+  "Decadent Chocolate Cheesecake"
+ ],
+ "sugar": [
+  "Chicken Chow Mein",
+  "Chili Con Carne Corn Bread Pie",
+  "Decadent Chocolate Cheesecake",
+  "Green Curry",
+  "Lemon Blueberry Cake",
+  "Mexican Shredded Chicken",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Pad Kee Mao (Thai Drunken Noodles)",
+  "Pineapple Curry",
+  "Red Curry Shrimp",
+  "Thai Basil Chicken Stir Fry",
+  "Thai Red Curry",
+  "Thai Red Curry Pot Roast Chicken",
+  "The Only Pie Crust Recipe You'll Ever Need"
+ ],
+ "s  refrigerated buttermilk biscuits": [
+  "The Best Monkey Bread"
+ ],
+ "cinnamon": [
+  "Caramel Apple Cake",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "The Best Monkey Bread"
+ ],
+ "maple syrup": [
+  "The Best Monkey Bread"
+ ],
+ "all-purpose flour": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Beef Bourguignon (Beef Burgundy)",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Chili Con Carne Corn Bread Pie",
+  "Chocolate Cheesecake",
+  "Chocolate Peanut Butter Cake",
+  "Cranberry Apple Pie",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Family Meat Pie",
+  "Lemon Blueberry Cake",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "Raspberry Cheesecake"
+ ],
+ "granulated sugar": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chocolate Cheesecake",
+  "Chocolate Peanut Butter Cake",
+  "Christmas Tree Cake",
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
+  "Cranberry Apple Pie",
+  "Easy Homemade French Bread",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Lemon Blueberry Cake",
+  "Lemon Cheesecake",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "Overnight Strawberry Cream Cheese Sweet Rolls",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Raspberry Cheesecake",
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "lemon zest": [
+  "Lemon Blueberry Cake",
+  "Lemon Cheesecake",
+  "Lemon Chicken Orzo Soup",
+  "Lemon Chicken Salad",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "baking powder": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chili Con Carne Corn Bread Pie",
+  "Chocolate Peanut Butter Cake",
+  "Christmas Tree Cake",
+  "Lemon Blueberry Cake",
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites"
+ ],
+ "salted butter": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Cranberry Apple Pie",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "The Only Pie Crust Recipe You'll Ever Need"
+ ],
+ "arge eggs": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chicken Francese",
+  "Chocolate Cheesecake",
+  "Chocolate Peanut Butter Cake",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "Lemon Cheesecake",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake",
+  "Overnight Strawberry Cream Cheese Sweet Rolls",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Raspberry Cheesecake",
+  "The Best Carrot Cake Recipe Ever",
+  "Turtle Cheesecake"
+ ],
+ "arge egg yolk": [
+  "Lemonies \u2014 Lemony Lemon Brownie Bites"
+ ],
+ "fresh lemon juice": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Lemon Blueberry Cake",
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "Lemon Cheesecake",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites"
+ ],
+ "vanilla extract": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Amish-Style Apple and Cinnamon Baked Oatmeal",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chocolate Cheesecake",
+  "Chocolate Peanut Butter Cake",
+  "Christmas Tree Cake",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Lemon Blueberry Cake",
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "Lemon Cheesecake",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake",
+  "Raspberry Cheesecake",
+  "The Best Carrot Cake Recipe Ever",
+  "Turtle Cheesecake",
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "powdered sugar": [
+  "Butterscotch Cake",
+  "Chocolate Cheesecake",
+  "Chocolate Peanut Butter Cake",
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "Overnight Strawberry Cream Cheese Sweet Rolls",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "1 lb soft or silken tofu": [
+  "Mapo Tofu"
+ ],
+ "7 oz pork mince": [
+  "Mapo Tofu"
+ ],
+ "doubanjiang": [
+  "Mapo Tofu"
+ ],
+ "fermented black beans": [
+  "Mapo Tofu"
+ ],
+ "3 dried red chili peppers": [
+  "Mapo Tofu"
+ ],
+ "sichuan peppercorns": [
+  "Mapo Tofu"
+ ],
+ "chicken or vegetable broth": [
+  "Mapo Tofu"
+ ],
+ "vegetable oil": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Beef Stroganoff",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chicken Chasseur",
+  "Chicken Chow Mein",
+  "Chicken Marsala",
+  "Chicken Pad Thai",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Chocolate Peanut Butter Cake",
+  "Fall Apart Mexican Beef Ribs",
+  "Instant Pot Refried Black Beans",
+  "Mapo Tofu",
+  "Mexican Shredded Beef Ribs",
+  "Spicy Firecracker Beef",
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "steamed jasmine rice for serving": [
+  "Mapo Tofu"
+ ],
+ "fresh wide rice noodles": [
+  "Pad See Ew"
+ ],
+ "chicken or pork": [
+  "Pad See Ew"
+ ],
+ "chinese broccoli or regular broccoli": [
+  "Pad See Ew"
+ ],
+ "**sauce:** 3 tbsp oyster sauce": [
+  "Drunken Noodles (Pad Kee Mao)",
+  "Pad See Ew"
+ ],
+ "flour": [
+  "Beef Stroganoff",
+  "Chicken Francese",
+  "Chicken Marsala",
+  "Chicken Piccata",
+  "Chicken Pot Pie",
+  "Family Meat Pie",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Slow Cooker Red Wine Beef Cheeks",
+  "The Best Spinach Artichoke Dip",
+  "The Only Pie Crust Recipe You'll Ever Need"
+ ],
+ "full-fat sour cream": [
+  "The Only Pie Crust Recipe You'll Ever Need"
+ ],
+ "b linguine or spaghetti": [
+  "Beach Street Lemon Chicken Pasta"
+ ],
+ "**marinade:** 1/2 cup olive oil": [
+  "Beach Street Lemon Chicken Pasta"
+ ],
+ "**pasta sauce:** 2 tbsp olive oil": [
+  "Beach Street Lemon Chicken Pasta"
+ ],
+ "b medium carrots": [
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "cups  granulated sugar": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "packed light brown sugar": [
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "vegetable/canola oil": [
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "unsweetened applesauce": [
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "cups  all-purpose flour": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "Overnight Strawberry Cream Cheese Sweet Rolls",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "tsp baking powder": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "tsp ground cinnamon": [
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "baking soda": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chocolate Peanut Butter Cake",
+  "Christmas Tree Cake",
+  "Instant Pot Refried Black Beans",
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "table salt": [
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "ground nutmeg": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal",
+  "Carrot Cake with Walnuts",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "ground cloves": [
+  "Massaman Curry",
+  "Moroccan Baked Eggplant with Beef",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "cream cheese": [
+  "Creamy Homemade Alfredo Sauce",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "The Best Carrot Cake Recipe Ever",
+  "The Best Spinach Artichoke Dip"
+ ],
+ "butter": [
+  "Beef Bourguignon (Beef Burgundy)",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "My Favorite Cherry Pie",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake",
+  "Slow Cooker Red Wine Beef Cheeks",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "sour cream": [
+  "Butterscotch Cake",
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Chili Con Carne Corn Bread Pie",
+  "Chocolate Cheesecake",
+  "Christmas Tree Cake",
+  "Creamy Cilantro Lime Dressing",
+  "Lemon Blueberry Cake",
+  "Nachos Pie",
+  "Oreo Cheesecake Bites",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Raspberry Cheesecake",
+  "The Best Carrot Cake Recipe Ever",
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "cups  powdered sugar": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "toasted chopped pecans for garnish": [
+  "The Best Carrot Cake Recipe Ever"
+ ],
+ "6 beef short ribs": [
+  "Braised Beef Short Ribs in Red Wine Sauce"
+ ],
+ "arge onion": [
+  "Braised Beef Short Ribs in Red Wine Sauce",
+  "Chicken Pot Pie",
+  "Chili Con Carne Corn Bread Pie",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Fall Apart Mexican Beef Ribs",
+  "Family Meat Pie",
+  "Jambalaya Recipe",
+  "Massaman Curry",
+  "Mexican Shredded Beef Ribs",
+  "Moroccan Baked Eggplant with Beef",
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Quick Satay Peanut Stir Fry"
+ ],
+ "carrots": [
+  "Beef Bourguignon (Beef Burgundy)",
+  "Braised Beef Short Ribs in Red Wine Sauce",
+  "Family Meat Pie",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "dry red wine": [
+  "Braised Beef Short Ribs in Red Wine Sauce",
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "low-sodium beef stock": [
+  "Braised Beef Short Ribs in Red Wine Sauce"
+ ],
+ "bay leaves": [
+  "Australian Meat Pie",
+  "Braised Beef Short Ribs in Red Wine Sauce",
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Osso Buco",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "corn kernels": [
+  "Avocado Chicken Salad",
+  "Chili Con Carne Corn Bread Pie",
+  "Lemon Chicken Salad",
+  "Mexican Chicken Avocado Salad",
+  "Mexican Street Corn Salad (Esquites)",
+  "Nachos Pie"
+ ],
+ "sour cream or mexican crema": [
+  "Mexican Street Corn Salad (Esquites)"
+ ],
+ "crumbled cotija cheese": [
+  "Mexican Street Corn Salad (Esquites)"
+ ],
+ "cayenne": [
+  "Mexican Street Corn Salad (Esquites)",
+  "Slow Cooker Posole"
+ ],
+ "chopped cilantro": [
+  "Chili Con Carne Corn Bread Pie",
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs",
+  "Mexican Street Corn Salad (Esquites)",
+  "Slow Cooker Posole",
+  "Thai Coconut Soup with Chicken and Shrimp"
+ ],
+ "jalape\u00f1o": [
+  "Mexican Street Corn Salad (Esquites)"
+ ],
+ "3 lb beef cheeks": [
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "salt and black pepper": [
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "plain flour": [
+  "Australian Meat Pie",
+  "Chicken Chasseur",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "red wine": [
+  "Epic Chunky Beef and Mushroom Pie",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "worcestershire sauce": [
+  "Australian Meat Pie",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Family Meat Pie",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "s fresh thyme": [
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "s fresh rosemary": [
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "onions": [
+  "Chicken Chasseur",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "celery stalks": [
+  "Family Meat Pie",
+  "Lemon Chicken Orzo Soup",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "7 oz bacon lardons": [
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "fresh parsley": [
+  "Chicken Marsala",
+  "Chicken and Mushroom Risotto",
+  "Creamy Chicken Mushroom Fettucine",
+  "Slow Cooker Red Wine Beef Cheeks"
+ ],
+ "chicken thigh fillets": [
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "\u201312 baby potatoes": [
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "chorizo sausages": [
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "small red capsicum": [
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "small red onion": [
+  "Lemon Chicken Salad",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "crushed tomatoes": [
+  "Chili Con Carne Corn Bread Pie",
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs",
+  "Moroccan Baked Eggplant with Beef",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Nachos Pie",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "\u20131 punnet cherry tomatoes": [
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "lemon juice": [
+  "Chicken Piccata",
+  "Chicken Shawarma (Middle Eastern)",
+  "Cranberry Apple Pie",
+  "Lemon Blueberry Cake",
+  "Lemon Chicken Salad",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+  "One Pot Baked Greek Chicken Orzo Risoni",
+  "Raspberry Cheesecake"
+ ],
+ "paprika": [
+  "Baked Ziti",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Moroccan Baked Eggplant with Beef",
+  "New Orleans Chicken Wings",
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "\u20131/2 tsp cayenne or chilli powder": [
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes"
+ ],
+ "fresh oregano leaves": [
+  "One Pan Spanish Chicken Chorizo Tomato Potatoes",
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "salt and pepper": [
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chicken in Creamy Mustard Sauce",
+  "Easy Cowboy Caviar Dip (Shrapnel Dip)",
+  "Lemon Chicken Salad",
+  "Osso Buco",
+  "Salisbury Steak with Mushroom Gravy"
+ ],
+ "dijon mustard": [
+  "Beef Stroganoff",
+  "Chicken in Creamy Mustard Sauce",
+  "Chicken with Creamy Sun Dried Tomato Sauce",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Lemon Chicken Salad",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Salisbury Steak with Mushroom Gravy"
+ ],
+ "b / 1 kg boneless": [
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "arge lemongrass stalk": [
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "fish sauce": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Pad Thai",
+  "Massaman Curry",
+  "Pad Kee Mao (Thai Drunken Noodles)",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
+  "Thai Coconut Chicken",
+  "Thai Grilled Chicken (Gai Yang)",
+  "Thai Panang Curry with Beef",
+  "Thai Red Curry Pot Roast Chicken",
+  "Vietnamese Caramel Ginger Chicken",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "light soy sauce": [
+  "Chicken Broccoli Stir Fry",
+  "Pad Kee Mao (Thai Drunken Noodles)",
+  "Thai Basil Chicken Stir Fry",
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "vegetable or canola oil": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "nam jim jaew": [
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "coconut rice or jasmine rice": [
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "fresh cucumber and tomato slices": [
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "lime wedges": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Pad Thai",
+  "Thai Coconut Chicken",
+  "Thai Grilled Chicken (Gai Yang)"
+ ],
+ "1.4 lb boneless": [
+  "Chicken in Creamy Mustard Sauce"
+ ],
+ "thickened/heavy cream": [
+  "Chicken Marsala",
+  "Chicken au Poivre (Creamy Peppercorn Sauce)",
+  "Chicken in Creamy Mustard Sauce",
+  "French Chicken au Poivre Sauce"
+ ],
+ "wholegrain mustard": [
+  "Chicken in Creamy Mustard Sauce"
+ ],
+ "finely chopped tarragon": [
+  "Chicken in Creamy Mustard Sauce"
+ ],
+ "finely chopped parsley": [
+  "Chicken Francese",
+  "Chicken in Creamy Mustard Sauce"
+ ],
+ "cups warm water": [
+  "Easy Homemade French Bread"
+ ],
+ "instant or active dry yeast": [
+  "Easy Homemade French Bread"
+ ],
+ "tsp salt": [
+  "Beef Rendang",
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
+  "Easy Homemade French Bread",
+  "Overnight Cinnamon and Sugar Sweet Rolls"
+ ],
+ "olive": [
+  "Easy Homemade French Bread"
+ ],
+ "\u20136 cups  all-purpose or bread flour": [
+  "Easy Homemade French Bread"
+ ],
+ "head-on shrimp": [
+  "Tom Yum Soup"
+ ],
+ "kaffir lime leaves": [
+  "Coconut Lime Noodle Soup",
+  "Massaman Curry",
+  "Thai Clams",
+  "Thai Red Curry Pot Roast Chicken",
+  "Tom Yum Soup"
+ ],
+ "fresh oyster mushrooms": [
+  "Tom Yum Soup"
+ ],
+ "nam prik pao oil": [
+  "Tom Yum Soup"
+ ],
+ "cilantro": [
+  "Tom Kha Soup (Thai Coconut Chicken Soup)",
+  "Tom Yum Soup"
+ ],
+ "oil": [
+  "Beef Rendang",
+  "Chicken Broccoli Stir Fry",
+  "Crispy Shredded Chicken Noodle Stir Fry",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Massaman Curry",
+  "Quick Asian Caramelised Beef Ramen Noodles",
+  "Thai Panang Curry with Beef",
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "coconut cream": [
+  "Thai Panang Curry with Beef",
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "**spice paste:** 2 1/2 tbsp chili powder": [
+  "Thai Panang Curry with Beef"
+ ],
+ "batches homemade shortcrust pastry or 3 frozen shortcrust sheets": [
+  "Australian Meat Pie"
+ ],
+ "frozen puff pastry sheets": [
+  "Australian Meat Pie"
+ ],
+ "egg": [
+  "Australian Meat Pie",
+  "Chicken Pot Pie",
+  "Chili Con Carne Corn Bread Pie",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Family Meat Pie",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "beef chuck": [
+  "Australian Meat Pie"
+ ],
+ "salt & pepper": [
+  "Australian Meat Pie",
+  "Beef Stroganoff",
+  "Mexican Chicken Avocado Salad"
+ ],
+ "3 tbsp olive oil": [
+  "Australian Meat Pie"
+ ],
+ "onion": [
+  "Australian Meat Pie",
+  "Chicken Broccoli Stir Fry",
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chicken and Mushroom Risotto",
+  "Chinese Cashew Chicken",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Nachos Pie",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "Pad Kee Mao (Thai Drunken Noodles)",
+  "Quick Asian Caramelised Beef Ramen Noodles"
+ ],
+ "cups  low-sodium beef stock": [
+  "Australian Meat Pie"
+ ],
+ "dry full-bodied red wine": [
+  "Australian Meat Pie"
+ ],
+ "coarsely ground black pepper": [
+  "Australian Meat Pie"
+ ],
+ "2.2 lbs beef chuck": [
+  "Beef Bourguignon (Beef Burgundy)"
+ ],
+ "5 oz bacon lardons": [
+  "Beef Bourguignon (Beef Burgundy)"
+ ],
+ "bottle  dry red wine": [
+  "Beef Bourguignon (Beef Burgundy)"
+ ],
+ "beef broth": [
+  "Beef Bourguignon (Beef Burgundy)",
+  "Chili Con Carne Corn Bread Pie",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Fall Apart Mexican Beef Ribs",
+  "Family Meat Pie",
+  "Mexican Shredded Beef Ribs",
+  "Moroccan Baked Eggplant with Beef",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Peppercorn Sauce"
+ ],
+ "bouquet garni": [
+  "Beef Bourguignon (Beef Burgundy)"
+ ],
+ "8 oz pearl onions": [
+  "Beef Bourguignon (Beef Burgundy)"
+ ],
+ "10 oz mushrooms": [
+  "Beef Bourguignon (Beef Burgundy)",
+  "Beef Stroganoff"
+ ],
+ "fresh flat-leaf parsley": [
+  "Beef Bourguignon (Beef Burgundy)",
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "crusty bread or mashed potatoes for serving": [
+  "Beef Bourguignon (Beef Burgundy)"
+ ],
+ "2.5 lb chicken wings": [
+  "New Orleans Chicken Wings"
+ ],
+ "3 tbsp unsalted butter": [
+  "Chicken Francese",
+  "New Orleans Chicken Wings"
+ ],
+ "coriander/cilantro or parsley": [
+  "New Orleans Chicken Wings"
+ ],
+ "cooking/kosher salt": [
+  "Chicken au Poivre (Creamy Peppercorn Sauce)",
+  "French Chicken au Poivre Sauce",
+  "New Orleans Chicken Wings",
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "garlic powder": [
+  "Cheesy Garlic Drop Biscuits",
+  "Creamy Cilantro Lime Dressing",
+  "Jambalaya Recipe",
+  "New Orleans Chicken Wings",
+  "Oven Baked Chicken Quesadillas",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "dried thyme": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Chicken Pot Pie",
+  "Epic Chunky Beef and Mushroom Pie",
+  "Family Meat Pie",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "New Orleans Chicken Wings",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "1kg boneless": [
+  "Thai Coconut Chicken"
+ ],
+ "garlic": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Thai Coconut Chicken"
+ ],
+ "ginger": [
+  "Massaman Curry",
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Thai Coconut Chicken",
+  "Thai Red Curry Pot Roast Chicken",
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "chilli": [
+  "Thai Coconut Chicken"
+ ],
+ "lemongrass": [
+  "Massaman Curry",
+  "Thai Coconut Chicken"
+ ],
+ "coriander powder": [
+  "Thai Coconut Chicken"
+ ],
+ "turmeric powder": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Thai Coconut Chicken"
+ ],
+ "curry powder": [
+  "Thai Coconut Chicken"
+ ],
+ "full-fat coconut milk": [
+  "Thai Coconut Chicken"
+ ],
+ "coconut milk": [
+  "Beef Rendang",
+  "Beef Satay with Thai Peanut Sauce",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Thai Coconut Chicken",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "smooth peanut butter": [
+  "Thai Coconut Chicken"
+ ],
+ "lime juice": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Coconut Lime Noodle Soup",
+  "Mexican Chicken Avocado Salad",
+  "Mexican Shredded Chicken",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
+  "Thai Coconut Chicken",
+  "Thai Coconut Soup with Chicken and Shrimp"
+ ],
+ "arlic clove": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Marsala",
+  "Mexican Chicken Avocado Salad",
+  "Osso Buco",
+  "Oven Baked Chicken Quesadillas",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Thai Coconut Chicken"
+ ],
+ "chilli paste": [
+  "Thai Coconut Chicken"
+ ],
+ "steamed jasmine rice": [
+  "Thai Basil Chicken Stir Fry",
+  "Thai Coconut Chicken"
+ ],
+ "fresh coriander/cilantro": [
+  "Thai Coconut Chicken"
+ ],
+ "sliced chilli": [
+  "Thai Coconut Chicken"
+ ],
+ "whole milk": [
+  "Christmas Tree Cake",
+  "Lemon Blueberry Cake"
+ ],
+ "egg whites": [
+  "Christmas Tree Cake",
+  "Lemon Blueberry Cake"
+ ],
+ "kosher salt": [
+  "Lemon Blueberry Cake"
+ ],
+ "fresh blueberries": [
+  "Lemon Blueberry Cake"
+ ],
+ "confectioners' sugar": [
+  "Lemon Blueberry Cake"
+ ],
+ "arge or 5 small chicken thighs": [
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "rice vinegar": [
+  "Spicy Firecracker Beef",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "eschallot": [
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "white pepper": [
+  "Chicken Chow Mein",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "shallot": [
+  "Massaman Curry",
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "arge red chilli": [
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "jasmine rice": [
+  "Vietnamese Coconut Caramel Chicken"
+ ],
+ "arge chicken breasts": [
+  "Chicken Francese",
+  "Chicken Marsala"
+ ],
+ "cooking salt / kosher salt": [
+  "Chicken Chasseur",
+  "Chicken Francese"
+ ],
+ "milk": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Butterscotch Cake",
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Chicken Francese",
+  "Chicken Pot Pie",
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "Overnight Cinnamon and Sugar Sweet Rolls"
+ ],
+ "extra virgin olive oil": [
+  "Chicken Francese",
+  "Lemon Chicken Salad"
+ ],
+ "emon": [
+  "Chicken Francese"
+ ],
+ "chicken stock/broth": [
+  "Chicken Francese",
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "chardonnay or other dry white wine": [
+  "Chicken Chasseur",
+  "Chicken Francese"
+ ],
+ "red curry paste": [
+  "Red Curry Shrimp",
+  "Thai Red Curry"
+ ],
+ "sliced bamboo shoots": [
+  "Thai Red Curry"
+ ],
+ "red chili": [
+  "Pineapple Fried Rice",
+  "Thai Red Curry"
+ ],
+ "inch double crust pie dough": [
+  "Cranberry Apple Pie"
+ ],
+ "5 medium crisp apples": [
+  "Cranberry Apple Pie"
+ ],
+ "almond extract": [
+  "Cranberry Apple Pie"
+ ],
+ "of salt": [
+  "Cranberry Apple Pie",
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "2 cups  fresh cranberries": [
+  "Cranberry Apple Pie"
+ ],
+ "light brown sugar": [
+  "Cranberry Apple Pie"
+ ],
+ "arge egg": [
+  "Cranberry Apple Pie"
+ ],
+ "**crust:** 1 3/4 cups flour": [
+  "The Best Lemon Bars"
+ ],
+ "**filling:** 4 eggs": [
+  "The Best Lemon Bars"
+ ],
+ "extra powdered sugar for topping": [
+  "The Best Lemon Bars"
+ ],
+ "shaoxing wine": [
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Spicy Firecracker Beef"
+ ],
+ "sriracha sauce": [
+  "Crispy Shredded Chicken Noodle Stir Fry",
+  "Spicy Firecracker Beef"
+ ],
+ "honey": [
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Lemon Chicken Salad",
+  "Mexican Chicken Avocado Salad",
+  "Moroccan Baked Eggplant with Beef",
+  "Spicy Firecracker Beef"
+ ],
+ "chicken broth": [
+  "Chicken Pasta Recipe",
+  "Chicken Pot Pie",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Coconut Lime Noodle Soup",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "One Pot Greek Chicken Lemon Rice",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Slow Cooker Posole",
+  "Spicy Firecracker Beef",
+  "Thai Coconut Soup with Chicken and Shrimp"
+ ],
+ "yellow bell pepper": [
+  "Spicy Firecracker Beef"
+ ],
+ "medium onion": [
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Instant Pot Refried Black Beans",
+  "Spicy Firecracker Beef"
+ ],
+ "4 dried red chili peppers": [
+  "Spicy Firecracker Beef"
+ ],
+ "fresh cilantro": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Nachos Pie",
+  "Spicy Firecracker Beef",
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "1/2 tsp pepper": [
+  "The Best Spinach Artichoke Dip"
+ ],
+ "s  artichoke hearts": [
+  "The Best Spinach Artichoke Dip"
+ ],
+ "1 tsp hot sauce": [
+  "The Best Spinach Artichoke Dip"
+ ],
+ "1 1/2 cups shredded mozzarella": [
+  "The Best Spinach Artichoke Dip"
+ ],
+ "16 oz frozen chopped spinach": [
+  "The Best Spinach Artichoke Dip"
+ ],
+ "10 oz fettuccine": [
+  "Chicken Pasta Recipe"
+ ],
+ "chicken breasts": [
+  "Chicken Pasta Recipe"
+ ],
+ "dry white wine": [
+  "Chicken Pasta Recipe",
+  "Chicken Piccata"
+ ],
+ "heavy/thickened cream": [
+  "Chicken Pasta Recipe"
+ ],
+ "finely shredded parmesan": [
+  "Chicken Pasta Recipe",
+  "Chicken with Creamy Sun Dried Tomato Sauce",
+  "Creamy Chicken and Bacon Pasta"
+ ],
+ "sun-dried tomato strips": [
+  "Chicken Pasta Recipe"
+ ],
+ "baby spinach": [
+  "Chicken Pasta Recipe"
+ ],
+ "s bacon": [
+  "Chicken Pasta Recipe"
+ ],
+ "extra parmesan and parsley for garnish": [
+  "Chicken Pasta Recipe"
+ ],
+ "all purpose flour": [
+  "Christmas Tree Cake"
+ ],
+ "vanilla": [
+  "Christmas Tree Cake",
+  "Decadent Hot Fudge Pudding Cake",
+  "Soft and Chewy Caramel Popcorn"
+ ],
+ "peppermint extract": [
+  "Christmas Tree Cake"
+ ],
+ "b confectioners sugar": [
+  "Christmas Tree Cake"
+ ],
+ "b unsalted butter": [
+  "Christmas Tree Cake"
+ ],
+ "2 tbsp heavy whipping cream": [
+  "Christmas Tree Cake"
+ ],
+ "drops green food coloring for the trees": [
+  "Christmas Tree Cake"
+ ],
+ "ice cream cones": [
+  "Christmas Tree Cake"
+ ],
+ "**dough:** 1/2 cup warm milk": [
+  "Orange Sweet Rolls"
+ ],
+ "**filling:** 1/4 cup softened butter": [
+  "Orange Sweet Rolls"
+ ],
+ "**glaze:** 1 1/2 cups powdered sugar": [
+  "Orange Sweet Rolls"
+ ],
+ "3.3 lbs beef short ribs": [
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs"
+ ],
+ "chipotle peppers in adobo": [
+  "Mexican Shredded Beef Ribs"
+ ],
+ "ancho chili powder": [
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs"
+ ],
+ "ground cumin": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Shawarma (Middle Eastern)",
+  "Chili Con Carne Corn Bread Pie",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Fall Apart Mexican Beef Ribs",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Massaman Curry",
+  "Mexican Shredded Beef Ribs",
+  "Moroccan Baked Eggplant with Beef",
+  "Nachos Pie"
+ ],
+ "ground cinnamon": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
+  "Fall Apart Mexican Beef Ribs",
+  "Massaman Curry",
+  "Mexican Shredded Beef Ribs",
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "apple cider vinegar": [
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs",
+  "Thai Sweet Chili Peanut Noodles"
+ ],
+ "warm tortillas": [
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs"
+ ],
+ "fresh lime juice": [
+  "Creamy Cilantro Lime Dressing",
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs"
+ ],
+ "diced white onion": [
+  "Mexican Shredded Beef Ribs"
+ ],
+ "sliced radishes": [
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs"
+ ],
+ "sliced avocado": [
+  "Mexican Shredded Beef Ribs"
+ ],
+ "salsa verde": [
+  "Mexican Shredded Beef Ribs"
+ ],
+ "mexican crema or sour cream": [
+  "Mexican Shredded Beef Ribs"
+ ],
+ "mexican rice": [
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs"
+ ],
+ "refried beans": [
+  "Fall Apart Mexican Beef Ribs",
+  "Mexican Shredded Beef Ribs"
+ ],
+ "wide rice noodles": [
+  "Drunken Noodles (Pad Kee Mao)"
+ ],
+ "chicken": [
+  "Drunken Noodles (Pad Kee Mao)"
+ ],
+ "mixed vegetables": [
+  "Drunken Noodles (Pad Kee Mao)"
+ ],
+ "3 thai chilies": [
+  "Drunken Noodles (Pad Kee Mao)"
+ ],
+ "freshly grated nutmeg": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Caramel Apple Cake"
+ ],
+ "chopped apples": [
+  "Caramel Apple Cake"
+ ],
+ "heavy cream": [
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Chocolate Cheesecake",
+  "Chocolate Peanut Butter Cake",
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Tuscan Chicken Pasta Bake",
+  "Lemon Cheesecake",
+  "Oreo Cheesecake",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Turtle Cheesecake",
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "b  powdered sugar": [
+  "Caramel Apple Cake"
+ ],
+ "freshly grated parmesan": [
+  "Creamy Homemade Alfredo Sauce",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "pepper": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
+  "Chicken Piccata",
+  "Creamy Homemade Alfredo Sauce",
+  "Moussaka (Greek Beef and Eggplant Bake)",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "graham cracker crumbs": [
+  "Lemon Cheesecake",
+  "Raspberry Cheesecake"
+ ],
+ "full-fat cream cheese": [
+  "Chocolate Cheesecake",
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "Lemon Cheesecake",
+  "Raspberry Cheesecake"
+ ],
+ "fresh raspberries": [
+  "Raspberry Cheesecake",
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "warm water": [
+  "Easy Rustic Crusty Bread"
+ ],
+ "unbleached all-purpose flour": [
+  "Easy Rustic Crusty Bread"
+ ],
+ "**crust:** 3 cups shredded hash browns": [
+  "Hash Brown Veggie Egg Cups"
+ ],
+ "**fillings:** 1/2 cup cooked crumbled bacon": [
+  "Hash Brown Veggie Egg Cups"
+ ],
+ "**eggs:** 8 eggs": [
+  "Hash Brown Veggie Egg Cups"
+ ],
+ "small yellow bell pepper": [
+  "Red Curry Shrimp"
+ ],
+ "shrimp": [
+  "Green Curry Shrimp",
+  "Red Curry Shrimp",
+  "Thai Coconut Soup with Chicken and Shrimp"
+ ],
+ "thai red chilies": [
+  "Red Curry Shrimp"
+ ],
+ "salt + black pepper": [
+  "Mexican Chicken Avocado Salad",
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "small chicken breasts": [
+  "Mexican Chicken Avocado Salad"
+ ],
+ "chipotle powder": [
+  "Mexican Chicken Avocado Salad"
+ ],
+ "oregano": [
+  "Mexican Chicken Avocado Salad",
+  "Nachos Pie"
+ ],
+ "cumin powder": [
+  "Mexican Chicken Avocado Salad",
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "avocado": [
+  "Mexican Chicken Avocado Salad"
+ ],
+ "cherry tomatoes": [
+  "Mexican Chicken Avocado Salad",
+  "Moroccan Baked Eggplant with Beef",
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "red onion": [
+  "Mexican Chicken Avocado Salad",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "coriander/cilantro": [
+  "Mexican Chicken Avocado Salad"
+ ],
+ "heaped cups cos/romaine lettuce": [
+  "Mexican Chicken Avocado Salad"
+ ],
+ "dry black beans": [
+  "Instant Pot Refried Black Beans"
+ ],
+ "dried fennel seeds **": [
+  "Instant Pot Refried Black Beans"
+ ],
+ "fine sea salt": [
+  "Instant Pot Refried Black Beans"
+ ],
+ "chipotle en adobo with sauce": [
+  "Instant Pot Refried Black Beans"
+ ],
+ "butterscotch sauce": [
+  "Butterscotch Cake"
+ ],
+ "creamy peanut butter": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chocolate Peanut Butter Cake",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Thai Sweet Chili Peanut Noodles"
+ ],
+ "garnishes: chopped peanuts": [
+  "Thai Sweet Chili Peanut Noodles"
+ ],
+ "to 2 pounds fresh asparagus spears": [
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "coarse kosher salt": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "freshly ground black pepper": [
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "balsamic vinegar": [
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "light or dark brown sugar": [
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "of black pepper": [
+  "Creamy Cilantro Lime Dressing",
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "penne pasta": [
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "s butter": [
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "to \u00bd cup freshly grated parmesan cheese": [
+  "Penne with Roasted Asparagus and Balsamic Butter"
+ ],
+ "shallots": [
+  "Peppercorn Sauce"
+ ],
+ "whole peppercorns": [
+  "Peppercorn Sauce"
+ ],
+ "brandy or cognac": [
+  "Peppercorn Sauce"
+ ],
+ "salt to taste": [
+  "Peppercorn Sauce"
+ ],
+ "cornstarch / cornflour": [
+  "Chinese Cashew Chicken"
+ ],
+ "chinese cooking wine or mirin": [
+  "Chinese Cashew Chicken"
+ ],
+ "of white pepper": [
+  "Chicken Broccoli Stir Fry",
+  "Chinese Cashew Chicken"
+ ],
+ "1 lb chicken thigh": [
+  "Chinese Cashew Chicken"
+ ],
+ "peanut oil": [
+  "Chinese Cashew Chicken",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "reen capsicum / bell pepper": [
+  "Chinese Cashew Chicken"
+ ],
+ "roasted cashews": [
+  "Chinese Cashew Chicken"
+ ],
+ "thai shrimp paste": [
+  "Pineapple Fried Rice"
+ ],
+ "leftover steamed rice": [
+  "Pineapple Fried Rice"
+ ],
+ "cilantro for garnish": [
+  "Pineapple Fried Rice"
+ ],
+ "drumsticks": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "juice of 1 lime": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "+ scotch bonnet or habanero pepper": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "cinnamon powder": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "allspice powder": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "nutmeg": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "long grain rice": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "can red kidney beans": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "small bay leaf": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "cajun spice mix": [
+  "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans"
+ ],
+ "1.75 lbs beef chuck": [
+  "Epic Chunky Beef and Mushroom Pie"
+ ],
+ "14 oz mixed mushrooms": [
+  "Epic Chunky Beef and Mushroom Pie"
+ ],
+ "store-bought puff pastry": [
+  "Epic Chunky Beef and Mushroom Pie"
+ ],
+ "fresh thyme sprigs": [
+  "Epic Chunky Beef and Mushroom Pie"
+ ],
+ "mashed potatoes for serving": [
+  "Epic Chunky Beef and Mushroom Pie"
+ ],
+ "eggplant": [
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "ground beef or lamb": [
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "cups milk": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal",
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "grated parmesan": [
+  "Chicken Pot Pie",
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "egg + 1 egg yolk": [
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "tsp vegeta/stock powder": [
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "panko breadcrumbs": [
+  "Moussaka (Greek Beef and Eggplant Bake)"
+ ],
+ "1 lb beef mince": [
+  "Chili Con Carne Corn Bread Pie",
+  "Family Meat Pie",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Moroccan Baked Eggplant with Beef",
+  "Nachos Pie",
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "8 oz pork mince": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "fresh breadcrumbs": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "fresh mint": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "zest of 1 lemon": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)",
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "plain flour for dusting": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "tzatziki sauce": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "lemon wedges": [
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "warm pita bread": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "greek salad": [
+  "Greek Meatballs",
+  "Greek Meatballs (Keftedes)"
+ ],
+ "boiling water": [
+  "Decadent Hot Fudge Pudding Cake",
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "tamarind puree": [
+  "Chicken Pad Thai"
+ ],
+ "7oz thin flat rice noodles": [
+  "Chicken Pad Thai"
+ ],
+ "7oz chicken breast or thigh": [
+  "Chicken Pad Thai"
+ ],
+ "3.5oz firm tofu": [
+  "Chicken Pad Thai"
+ ],
+ "bean sprouts": [
+  "Chicken Chow Mein",
+  "Chicken Pad Thai"
+ ],
+ "garlic chives": [
+  "Chicken Pad Thai"
+ ],
+ "crushed peanuts": [
+  "Chicken Pad Thai",
+  "Quick Satay Peanut Stir Fry",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "chili flakes": [
+  "Chicken Pad Thai"
+ ],
+ "extra bean sprouts": [
+  "Chicken Pad Thai"
+ ],
+ "squid": [
+  "Thai Basil Squid"
+ ],
+ "oreo cookies": [
+  "Oreo Cheesecake"
+ ],
+ "dry skinny rice sticks": [
+  "Chicken Pad Thai"
+ ],
+ "scallion": [
+  "Chicken Pad Thai"
+ ],
+ "**pad thai sauce:** 3 1/2 tbsp fish sauce": [
+  "Chicken Pad Thai"
+ ],
+ "garnish: crushed peanuts": [
+  "Chicken Pad Thai"
+ ],
+ "wide dried rice noodles": [
+  "Pad Kee Mao (Thai Drunken Noodles)"
+ ],
+ "chicken thighs": [
+  "Chicken Chasseur",
+  "Pad Kee Mao (Thai Drunken Noodles)"
+ ],
+ "arge cloves garlic": [
+  "Pad Kee Mao (Thai Drunken Noodles)"
+ ],
+ "bird's eye or thai chilies": [
+  "Pad Kee Mao (Thai Drunken Noodles)"
+ ],
+ "reen onions": [
+  "Chicken Chow Mein",
+  "Pad Kee Mao (Thai Drunken Noodles)"
+ ],
+ "thai basil or thai holy basil leaves": [
+  "Pad Kee Mao (Thai Drunken Noodles)"
+ ],
+ "packets ramen or instant noodles": [
+  "Quick Asian Caramelised Beef Ramen Noodles"
+ ],
+ "beef mince": [
+  "Quick Asian Caramelised Beef Ramen Noodles"
+ ],
+ "big handful bean sprouts": [
+  "Quick Asian Caramelised Beef Ramen Noodles",
+  "Quick Satay Peanut Stir Fry"
+ ],
+ "**sauce:** 1 tbsp dark soy sauce": [
+  "Quick Asian Caramelised Beef Ramen Noodles"
+ ],
+ "garnishes: green onion": [
+  "Quick Asian Caramelised Beef Ramen Noodles"
+ ],
+ "thai red curry paste": [
+  "Pineapple Curry",
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "emongrass stalk": [
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "1.2 lb small whole potatoes": [
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "4 oz green beans": [
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "sliced red chili and coriander for garnish": [
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "3.6 lb whole chicken": [
+  "Thai Red Curry Pot Roast Chicken"
+ ],
+ "dried chilies  or 12 fresh long red chilies": [
+  "Beef Rendang"
+ ],
+ "emongrass stalks": [
+  "Beef Rendang"
+ ],
+ "tbsp fresh galangal": [
+  "Beef Rendang"
+ ],
+ "tbsp fresh ginger": [
+  "Beef Rendang"
+ ],
+ "b  chuck steak": [
+  "Beef Rendang"
+ ],
+ "cinnamon stick": [
+  "Beef Rendang"
+ ],
+ "clove powder": [
+  "Beef Rendang"
+ ],
+ "star anise": [
+  "Beef Rendang"
+ ],
+ "cardamom powder": [
+  "Beef Rendang"
+ ],
+ "emongrass stick": [
+  "Beef Rendang"
+ ],
+ "tamarind puree/paste": [
+  "Beef Rendang"
+ ],
+ "arge kaffir lime leaves": [
+  "Beef Rendang"
+ ],
+ "desiccated  coconut": [
+  "Beef Rendang"
+ ],
+ "chili powder": [
+  "Chili Con Carne Corn Bread Pie",
+  "Nachos Pie"
+ ],
+ "smoked paprika": [
+  "Chicken Shawarma (Middle Eastern)",
+  "Chili Con Carne Corn Bread Pie",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Nachos Pie"
+ ],
+ "red kidney beans": [
+  "Chili Con Carne Corn Bread Pie",
+  "Nachos Pie"
+ ],
+ "arge bags tortilla chips": [
+  "Nachos Pie"
+ ],
+ "shredded cheddar cheese": [
+  "Cheesy Garlic Drop Biscuits",
+  "Chili Con Carne Corn Bread Pie",
+  "Nachos Pie"
+ ],
+ "shredded mozzarella cheese": [
+  "Creamy Tuscan Chicken Pasta Bake",
+  "Nachos Pie"
+ ],
+ "sliced jalape\u00f1os": [
+  "Nachos Pie"
+ ],
+ "diced avocado": [
+  "Nachos Pie"
+ ],
+ "hot sauce": [
+  "Nachos Pie"
+ ],
+ "arge boneless": [
+  "Chicken au Poivre (Creamy Peppercorn Sauce)",
+  "French Chicken au Poivre Sauce"
+ ],
+ "vegetable or neutral oil": [
+  "Chicken au Poivre (Creamy Peppercorn Sauce)",
+  "French Chicken au Poivre Sauce"
+ ],
+ "whole black peppercorns": [
+  "Chicken au Poivre (Creamy Peppercorn Sauce)",
+  "French Chicken au Poivre Sauce"
+ ],
+ "brandy/cognac": [
+  "Chicken au Poivre (Creamy Peppercorn Sauce)",
+  "French Chicken au Poivre Sauce"
+ ],
+ "low sodium beef stock/broth": [
+  "French Chicken au Poivre Sauce"
+ ],
+ "14oz fettuccine pasta": [
+  "Creamy Chicken Mushroom Fettucine"
+ ],
+ "1 lb boneless": [
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "10oz mushrooms": [
+  "Creamy Chicken Mushroom Fettucine"
+ ],
+ "chicken stock": [
+  "Chicken Marsala",
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "freshly grated parmesan cheese": [
+  "Creamy Chicken Mushroom Fettucine",
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "reserved pasta water": [
+  "Creamy Chicken Mushroom Fettucine"
+ ],
+ "jar  marinara sauce": [
+  "Spaghetti Pie"
+ ],
+ "italian seasoning": [
+  "Spaghetti Pie"
+ ],
+ "parmesan for topping": [
+  "Spaghetti Pie"
+ ],
+ "**vinaigrette:** 1/2 cup olive oil": [
+  "Harvest Apple Salad"
+ ],
+ "**salad:** 6 cups baby greens": [
+  "Harvest Apple Salad"
+ ],
+ "**topping:** 1/4 cup melted butter": [
+  "Pineapple Upside Down Cake"
+ ],
+ "**cake:** 1 1/2 cups flour": [
+  "Pineapple Upside Down Cake"
+ ],
+ "fully cooked bone-in ham": [
+  "Sweet Baked Ham"
+ ],
+ "**glaze:** 1 cup brown sugar": [
+  "Sweet Baked Ham"
+ ],
+ "whole cloves for studding": [
+  "Sweet Baked Ham"
+ ],
+ "chipotle peppers in adobo sauce": [
+  "Fall Apart Mexican Beef Ribs"
+ ],
+ "cups  warm water": [
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)"
+ ],
+ "tbsp instant or active dry yeast": [
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)"
+ ],
+ "4\u00bc cups  all-purpose flour": [
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)"
+ ],
+ "packed brown sugar": [
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)"
+ ],
+ "melted salted butter": [
+  "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)"
+ ],
+ "prepared lemon curd": [
+  "Lemon Cheesecake"
+ ],
+ "packed light or dark brown sugar": [
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake"
+ ],
+ "pure maple syrup": [
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake"
+ ],
+ "8 slices french bread": [
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake"
+ ],
+ "half-and-half": [
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake"
+ ],
+ "**optional toppings:** sweetened whipped cream": [
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake"
+ ],
+ "bs beef sirloin or ribeye": [
+  "Marinated Beef Kabobs"
+ ],
+ "wooden or metal skewers": [
+  "Marinated Beef Kabobs"
+ ],
+ "cups low-sodium beef stock": [
+  "Chicken au Poivre (Creamy Peppercorn Sauce)"
+ ],
+ "english cucumber": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "plain greek yogurt": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "mayonnaise": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "red wine vinegar": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "dried parsley": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "bs chicken breasts": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "buttermilk": [
+  "Chili Con Carne Corn Bread Pie",
+  "Chocolate Peanut Butter Cake",
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "5 pita breads": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "small-medium heads romaine": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "1 english cucumber": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "medium bell pepper": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "kalamata or black olives": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "cherry or roma tomatoes": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "\u00bd red onion": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "+ cup crumbled feta cheese": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
+ ],
+ "arge garlic cloves": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "cayenne pepper or chilli powder  \u2014 omit for not spicy": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "tsp garam masala": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "tsp cumin powder": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "tsp coriander powder": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "reen cayenne pepper": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "cilantro/coriander leaves": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "plain yogurt or mint yogurt": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "plain yogurt": [
+  "Chicken Shawarma (Middle Eastern)",
+  "Qeema \u2013 Easy Indian Curried Beef Mince"
+ ],
+ "mint leaves": [
+  "Qeema \u2013 Easy Indian Curried Beef Mince",
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "**salad:** 16 oz baby spinach": [
+  "Amazing Spinach Salad with Apples, Bacon and Feta"
+ ],
+ "**red wine vinaigrette:** 1/4 cup red wine vinegar": [
+  "Amazing Spinach Salad with Apples, Bacon and Feta"
+ ],
+ "hummus": [
+  "Greek Meatballs"
+ ],
+ "fine cornmeal": [
+  "Chili Con Carne Corn Bread Pie"
+ ],
+ "jalape\u00f1os": [
+  "Chili Con Carne Corn Bread Pie"
+ ],
+ "old-fashioned rolled oats": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal"
+ ],
+ "lightly packed brown sugar": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Amish-Style Apple and Cinnamon Baked Oatmeal"
+ ],
+ "butter or coconut oil": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal"
+ ],
+ "\u20133 large tart sweet apples": [
+  "Amish-Style Apple and Cinnamon Baked Oatmeal"
+ ],
+ "cornflour/cornstarch or 2 tbsp uncooked rice": [
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "thai or bird's eye chilies": [
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "b  chicken mince": [
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "8 small lettuce leaves": [
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "extra lime wedges & chili": [
+  "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
+ ],
+ "2 lb beef mince": [
+  "Doner Kebab Meat (Beef or Lamb)"
+ ],
+ "ground coriander": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Shawarma (Middle Eastern)",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Massaman Curry",
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "warm pide or flatbread": [
+  "Doner Kebab Meat (Beef or Lamb)"
+ ],
+ "shredded lettuce": [
+  "Doner Kebab Meat (Beef or Lamb)"
+ ],
+ "sliced tomatoes": [
+  "Doner Kebab Meat (Beef or Lamb)"
+ ],
+ "sliced onion": [
+  "Doner Kebab Meat (Beef or Lamb)"
+ ],
+ "pickled chillies": [
+  "Doner Kebab Meat (Beef or Lamb)"
+ ],
+ "garlic yogurt sauce or tahini sauce": [
+  "Doner Kebab Meat (Beef or Lamb)"
+ ],
+ "chocolate crackers": [
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "egg yolk": [
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "chopped real white chocolate": [
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "\u00d7 8-oz packages cream cheese": [
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "seedless raspberry jam": [
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "shaved or finely chopped white chocolate": [
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "dditional raspberry jam or puree": [
+  "White Chocolate Raspberry Truffle Cheesecake"
+ ],
+ "can black beans": [
+  "Easy Cowboy Caviar Dip (Shrapnel Dip)"
+ ],
+ "can corn  or thawed frozen corn": [
+  "Easy Cowboy Caviar Dip (Shrapnel Dip)"
+ ],
+ "3 tbsp chopped cilantro": [
+  "Easy Cowboy Caviar Dip (Shrapnel Dip)"
+ ],
+ "s galangal": [
+  "Thai Coconut Soup with Chicken and Shrimp",
+  "Tom Kha Soup (Thai Coconut Chicken Soup)"
+ ],
+ "s instant yeast": [
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "teaspoons salt": [
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "cup hot water": [
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "s  salted butter": [
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "ounces  cream cheese": [
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "to 2 cups strawberry jam": [
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "s milk": [
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "splash of vanilla extract": [
+  "Overnight Cinnamon and Sugar Sweet Rolls",
+  "Overnight Strawberry Cream Cheese Sweet Rolls"
+ ],
+ "10oz penne or rigatoni pasta": [
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "sun-dried tomatoes": [
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "fresh spinach leaves": [
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "dried italian herbs": [
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "fresh basil for garnish": [
+  "Creamy Tuscan Chicken Pasta Bake"
+ ],
+ "**crust:** 1 1/2 cups graham cracker crumbs": [
+  "Easy Key Lime Pie"
+ ],
+ "**filling:** 2  cans sweetened condensed milk": [
+  "Easy Key Lime Pie"
+ ],
+ "**topping:** 1 cup heavy cream": [
+  "Easy Key Lime Pie"
+ ],
+ "arge garlic clove": [
+  "Lemon Chicken Salad"
+ ],
+ "arge chicken breast  or 2 boneless skinless chicken thighs": [
+  "Lemon Chicken Salad"
+ ],
+ "extra lemon juice": [
+  "Lemon Chicken Salad"
+ ],
+ "finely chopped dill": [
+  "Lemon Chicken Salad"
+ ],
+ "chopped cos/romaine lettuce": [
+  "Lemon Chicken Salad"
+ ],
+ "halved cherry tomatoes": [
+  "Avocado Chicken Salad",
+  "Lemon Chicken Salad"
+ ],
+ "medium avocado": [
+  "Lemon Chicken Salad"
+ ],
+ "cooked chopped bacon": [
+  "Lemon Chicken Salad"
+ ],
+ "**crust:** 1 1/2 cups flour": [
+  "My Favorite Cherry Pie"
+ ],
+ "coarse sugar for sprinkling": [
+  "My Favorite Cherry Pie"
+ ],
+ "2 red chilies": [
+  "Pineapple Curry"
+ ],
+ "mini pretzels": [
+  "Dark Chocolate Sea Salt Caramel Pretzel Bark"
+ ],
+ "corn syrup": [
+  "Dark Chocolate Sea Salt Caramel Pretzel Bark",
+  "Soft and Chewy Caramel Popcorn"
+ ],
+ "flaky sea salt": [
+  "Dark Chocolate Sea Salt Caramel Pretzel Bark"
+ ],
+ "softened butter": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting"
+ ],
+ "fresh lemon zest": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
+  "One Pot Greek Chicken Lemon Rice"
+ ],
+ "or sub with \u00bd sour cream + \u00bd milk)": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting"
+ ],
+ "fresh or frozen blueberries + 2 tbsp flour for tossing": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting"
+ ],
+ "\u20132 tsp lemon zest + 1 tbsp lemon juice": [
+  "Lemon Blueberry Cake with Whipped Lemon Cream Frosting"
+ ],
+ "unsweetened cocoa powder": [
+  "Chocolate Peanut Butter Cake"
+ ],
+ "hot water or coffee": [
+  "Chocolate Peanut Butter Cake"
+ ],
+ "5 tbsp whole milk": [
+  "Chocolate Peanut Butter Cake"
+ ],
+ "dark chocolate": [
+  "Chocolate Peanut Butter Cake"
+ ],
+ "miniature peanut butter cups": [
+  "Chocolate Peanut Butter Cake"
+ ],
+ "melted butter for brushing": [
+  "Cheesy Garlic Drop Biscuits"
+ ],
+ "\u201322 oreo cookies": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "s brown sugar": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "roasted": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "s  butter": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "pure vanilla extract": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "regular-sized peanut butter cups": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "semisweet or bittersweet chocolate chips": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "hot fudge sauce or extra ganache": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "chopped peanut butter cups": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
+ ],
+ "ziti": [
+  "Classic Baked Ziti (Mel's Kitchen Cafe)"
+ ],
+ "arge": [
+  "Classic Baked Ziti (Mel's Kitchen Cafe)"
+ ],
+ "cubed or shredded": [
+  "Classic Baked Ziti (Mel's Kitchen Cafe)"
+ ],
+ "medium cloves": [
+  "Classic Baked Ziti (Mel's Kitchen Cafe)"
+ ],
+ "can": [
+  "Classic Baked Ziti (Mel's Kitchen Cafe)"
+ ],
+ "thick veal osso buco steaks  \u2014 or beef": [
+  "Osso Buco"
+ ],
+ "small carrot": [
+  "Osso Buco"
+ ],
+ "celery stick": [
+  "Osso Buco"
+ ],
+ "28oz can crushed tomato": [
+  "Osso Buco"
+ ],
+ "250ml dry white wine": [
+  "Osso Buco"
+ ],
+ "250ml chicken broth": [
+  "Osso Buco"
+ ],
+ "chicken bouillon cube": [
+  "Osso Buco"
+ ],
+ "s thyme": [
+  "Chicken Pot Pie",
+  "Osso Buco"
+ ],
+ "parsley leaves": [
+  "Osso Buco"
+ ],
+ "3 tsp lemon zest": [
+  "Osso Buco"
+ ],
+ "12 cups plain popcorn": [
+  "Soft and Chewy Caramel Popcorn"
+ ],
+ "shrimp or chicken": [
+  "Coconut Lime Noodle Soup"
+ ],
+ "thai chilies": [
+  "Coconut Lime Noodle Soup",
+  "Green Curry Shrimp"
+ ],
+ "freshly cracked black pepper": [
+  "Chinese Beef with Honey and Black Pepper Sauce"
+ ],
+ "reen bell pepper": [
+  "Chinese Beef with Honey and Black Pepper Sauce"
+ ],
+ "extra cracked black pepper": [
+  "Chinese Beef with Honey and Black Pepper Sauce"
+ ],
+ "150g dried rice stick noodles": [
+  "Crispy Shredded Chicken Noodle Stir Fry"
+ ],
+ "slow cooker crispy chinese shredded chicken": [
+  "Crispy Shredded Chicken Noodle Stir Fry"
+ ],
+ "braising liquid": [
+  "Crispy Shredded Chicken Noodle Stir Fry"
+ ],
+ "chinese broccoli": [
+  "Crispy Shredded Chicken Noodle Stir Fry"
+ ],
+ "instant yeast": [
+  "Overnight Cinnamon and Sugar Sweet Rolls"
+ ],
+ "fettuccine or other long strand pasta": [
+  "Creamy Chicken and Bacon Pasta"
+ ],
+ "7 oz  bacon": [
+  "Creamy Chicken and Bacon Pasta"
+ ],
+ "heavy/full-fat cream": [
+  "Creamy Chicken and Bacon Pasta"
+ ],
+ "starchy pasta cooking water": [
+  "Creamy Chicken and Bacon Pasta"
+ ],
+ "8 oz beef chuck": [
+  "Family Meat Pie"
+ ],
+ "dried rosemary": [
+  "Family Meat Pie",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "1 cup cold butter": [
+  "Family Meat Pie"
+ ],
+ "8 tbsp ice water": [
+  "Family Meat Pie"
+ ],
+ "2 tbsp olive oil": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "bacon": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "12oz chicken thigh": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "13oz mushrooms": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "2 tbsp unsalted butter": [
+  "Chicken Chasseur",
+  "Chicken and Mushroom Risotto"
+ ],
+ "white wine": [
+  "Chicken Pot Pie",
+  "Chicken and Mushroom Risotto",
+  "Chicken with Creamy Sun Dried Tomato Sauce",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "1 1/4 cups arborio rice": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "4 cups chicken broth/stock": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "1/2 cup freshly grated parmesan": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "50g / 1-3 tbsp unsalted butter": [
+  "Chicken and Mushroom Risotto"
+ ],
+ "ned straw mushrooms": [
+  "Tom Kha Soup (Thai Coconut Chicken Soup)"
+ ],
+ "breast ok if velveted": [
+  "Chicken Chow Mein"
+ ],
+ "green cabbage": [
+  "Chicken Chow Mein"
+ ],
+ "medium carrot": [
+  "Chicken Chow Mein"
+ ],
+ "cornflour / cornstarch": [
+  "Chicken Chow Mein"
+ ],
+ "chinese cooking wine  or mirin": [
+  "Chicken Broccoli Stir Fry",
+  "Chicken Chow Mein"
+ ],
+ "7oz thin chow mein noodles": [
+  "Chicken Chow Mein"
+ ],
+ "arge eggplants": [
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "salt for sweating": [
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "raisins or sultanas": [
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "pine nuts": [
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "5 oz crumbled feta cheese": [
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "fresh mint leaves": [
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "plain yogurt for serving": [
+  "Moroccan Baked Eggplant with Beef"
+ ],
+ "6oz smoked bacon": [
+  "Jambalaya Recipe"
+ ],
+ "7oz andouille or smoked sausage": [
+  "Jambalaya Recipe"
+ ],
+ "10oz boneless skinless chicken thigh": [
+  "Jambalaya Recipe"
+ ],
+ "arge raw prawns/shrimp": [
+  "Jambalaya Recipe"
+ ],
+ "celery ribs": [
+  "Chicken Pot Pie",
+  "Jambalaya Recipe"
+ ],
+ "reen bell peppers": [
+  "Jambalaya Recipe"
+ ],
+ "sliced green onions": [
+  "Jambalaya Recipe"
+ ],
+ "long grain white rice": [
+  "Jambalaya Recipe",
+  "One Pot Greek Chicken Lemon Rice",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "low-sodium chicken broth": [
+  "Jambalaya Recipe"
+ ],
+ "crushed canned tomato": [
+  "Jambalaya Recipe"
+ ],
+ "fresh thyme": [
+  "Jambalaya Recipe",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "sweet paprika": [
+  "Jambalaya Recipe"
+ ],
+ "dried red chillies": [
+  "Massaman Curry"
+ ],
+ "galangal": [
+  "Massaman Curry"
+ ],
+ "ground cardamom": [
+  "Chicken Shawarma (Middle Eastern)",
+  "Massaman Curry"
+ ],
+ "1.8 lb beef chuck": [
+  "Massaman Curry"
+ ],
+ "14 oz coconut milk": [
+  "Massaman Curry"
+ ],
+ "medium potatoes": [
+  "Massaman Curry"
+ ],
+ "roasted peanuts": [
+  "Massaman Curry"
+ ],
+ "tamarind paste": [
+  "Massaman Curry"
+ ],
+ "each salt and pepper": [
+  "Chicken Marsala",
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "eschalots": [
+  "Chicken Marsala"
+ ],
+ "sliced mushrooms": [
+  "Chicken Marsala"
+ ],
+ "dry marsala wine": [
+  "Chicken Marsala"
+ ],
+ "1.2 lb scotch fillet steak": [
+  "Beef Stroganoff"
+ ],
+ "300g pasta or egg noodles for serving": [
+  "Beef Stroganoff"
+ ],
+ "**cake:** 2 cups flour": [
+  "Moist Pumpkin Cake with Cream Cheese Frosting"
+ ],
+ "**frosting:** 8 oz cream cheese": [
+  "Moist Pumpkin Cake with Cream Cheese Frosting"
+ ],
+ "white vinegar": [
+  "Carne Asada"
+ ],
+ "1.2kg / 1.5-2.5lb skirt or flank steak": [
+  "Carne Asada"
+ ],
+ "**for tacos:** tortillas": [
+  "Carne Asada"
+ ],
+ "zest + 4 tbsp juice from 1\u20132 lemons": [
+  "One Pot Greek Chicken Lemon Rice"
+ ],
+ "black pepper to taste": [
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "One Pot Greek Chicken Lemon Rice"
+ ],
+ "fresh parsley or oregano": [
+  "One Pot Greek Chicken Lemon Rice"
+ ],
+ "orzo pasta": [
+  "Lemon Chicken Orzo Soup"
+ ],
+ "fresh dill for garnish": [
+  "Lemon Chicken Orzo Soup"
+ ],
+ "can pineapple chunks  or 1.5\u20132 cups fresh pineapple": [
+  "Honey Lime Fruit Salad"
+ ],
+ "can mandarin oranges": [
+  "Honey Lime Fruit Salad"
+ ],
+ "\u20133 ripe kiwi fruit": [
+  "Honey Lime Fruit Salad"
+ ],
+ "red or green grapes": [
+  "Honey Lime Fruit Salad"
+ ],
+ "strawberries": [
+  "Honey Lime Fruit Salad"
+ ],
+ "zest from 1 lime": [
+  "Honey Lime Fruit Salad",
+  "Key Lime Cheesecake {No-Cracking!}"
+ ],
+ "\u20132 tablespoons honey": [
+  "Honey Lime Fruit Salad"
+ ],
+ "to 1 teaspoon poppy seeds": [
+  "Honey Lime Fruit Salad"
+ ],
+ "1.2 lb chicken breast": [
+  "Chicken Pot Pie"
+ ],
+ "chicken/vegetable stock powder": [
+  "Chicken Pot Pie"
+ ],
+ "arge carrots": [
+  "Chicken Pot Pie"
+ ],
+ "3 tbsp butter": [
+  "Chicken Pot Pie"
+ ],
+ "frozen peas": [
+  "Chicken Pot Pie"
+ ],
+ "s puff pastry": [
+  "Chicken Pot Pie"
+ ],
+ "14oz white mushrooms": [
+  "Chicken Chasseur"
+ ],
+ "brandy": [
+  "Chicken Chasseur"
+ ],
+ "fresh tarragon": [
+  "Chicken Chasseur"
+ ],
+ "creamy mashed potato": [
+  "Chicken Chasseur"
+ ],
+ "oreos  - use whole cookies": [
+  "Chocolate Cheesecake"
+ ],
+ "melted unsalted butter": [
+  "Chocolate Cheesecake"
+ ],
+ "bars bittersweet chocolate": [
+  "Chocolate Cheesecake"
+ ],
+ "bar semi-sweet chocolate": [
+  "Chocolate Cheesecake"
+ ],
+ "hot brewed coffee": [
+  "Chocolate Cheesecake"
+ ],
+ "semi-sweet chocolate chips": [
+  "Chocolate Cheesecake",
+  "Turtle Cheesecake"
+ ],
+ "natural unsweetened cocoa powder": [
+  "Chocolate Cheesecake"
+ ],
+ "cups  graham cracker crumbs": [
+  "Key Lime Cheesecake {No-Cracking!}"
+ ],
+ "key lime juice or 2 tbsp fresh lemon juice + 6 tbsp fresh lime juice": [
+  "Key Lime Cheesecake {No-Cracking!}"
+ ],
+ "heavy whipping cream": [
+  "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Key Lime Cheesecake {No-Cracking!}",
+  "Turtle Cheesecake"
+ ],
+ "lime slices or zest for garnish": [
+  "Key Lime Cheesecake {No-Cracking!}"
+ ],
+ "2 lb boneless": [
+  "Chicken Shawarma (Middle Eastern)"
+ ],
+ "flatbread": [
+  "Chicken Shawarma (Middle Eastern)"
+ ],
+ "lettuce": [
+  "Chicken Shawarma (Middle Eastern)"
+ ],
+ "optional: red onion": [
+  "Chicken Shawarma (Middle Eastern)"
+ ],
+ "1.5 lb chicken thighs or breast": [
+  "Chicken with Creamy Sun Dried Tomato Sauce"
+ ],
+ "reserve oil)": [
+  "Chicken with Creamy Sun Dried Tomato Sauce"
+ ],
+ "oil from sun-dried tomato jar": [
+  "Chicken with Creamy Sun Dried Tomato Sauce"
+ ],
+ "low-sodium chicken broth/stock": [
+  "Chicken with Creamy Sun Dried Tomato Sauce",
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "thickened / heavy cream": [
+  "Chicken with Creamy Sun Dried Tomato Sauce"
+ ],
+ "packed fresh basil leaves": [
+  "Chicken with Creamy Sun Dried Tomato Sauce"
+ ],
+ "grated carrots": [
+  "Carrot Cake with Walnuts"
+ ],
+ "chopped pecans": [
+  "Carrot Cake with Walnuts",
+  "Turtle Cheesecake"
+ ],
+ "block  cream cheese": [
+  "Carrot Cake with Walnuts"
+ ],
+ "5 cups powdered sugar": [
+  "Carrot Cake with Walnuts"
+ ],
+ "1.3 lbs beef sirloin or flank steak": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "bamboo skewers": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "s lemongrass": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "ground turmeric": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "sriracha or chili garlic sauce": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "warm water to thin": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "sliced cucumber": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "sliced red onion": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "steamed jasmine rice or coconut rice": [
+  "Beef Satay with Thai Peanut Sauce"
+ ],
+ "penne has ridges)": [
+  "Baked Ziti"
+ ],
+ "1 lb ground beef": [
+  "Baked Ziti"
+ ],
+ "24oz": [
+  "Baked Ziti"
+ ],
+ "grated mozzarella + 1 cup freshly grated parmesan": [
+  "Baked Ziti"
+ ],
+ "fennel seeds": [
+  "Baked Ziti"
+ ],
+ "cayenne pepper or 3/4 tsp chilli flakes": [
+  "Baked Ziti"
+ ],
+ "each salt and black pepper": [
+  "Baked Ziti"
+ ],
+ "each dried basil": [
+  "Baked Ziti"
+ ],
+ "8 oz white/button mushrooms": [
+  "Chicken Cacciatore (Italian Chicken Stew)"
+ ],
+ "red capsicum": [
+  "Chicken Cacciatore (Italian Chicken Stew)"
+ ],
+ "anchovy fillets": [
+  "Chicken Cacciatore (Italian Chicken Stew)"
+ ],
+ "s fresh rosemary  or 1 tsp dried": [
+  "Chicken Cacciatore (Italian Chicken Stew)"
+ ],
+ "14 oz canned crushed tomato": [
+  "Chicken Cacciatore (Italian Chicken Stew)"
+ ],
+ "low-sodium chicken stock": [
+  "Chicken Cacciatore (Italian Chicken Stew)"
+ ],
+ "kalamata olives": [
+  "Chicken Cacciatore (Italian Chicken Stew)"
+ ],
+ "fresh lime or lemon juice": [
+  "Avocado Chicken Salad"
+ ],
+ "chopped cooked chicken": [
+  "Avocado Chicken Salad"
+ ],
+ "medium/large ripe avocados": [
+  "Avocado Chicken Salad"
+ ],
+ "finely chopped red onion": [
+  "Avocado Chicken Salad"
+ ],
+ "chopped fresh cilantro or parsley": [
+  "Avocado Chicken Salad"
+ ],
+ "cooked": [
+  "Avocado Chicken Salad"
+ ],
+ "feta cheese": [
+  "Avocado Chicken Salad"
+ ],
+ "chocolate sandwich cookies": [
+  "Turtle Cheesecake"
+ ],
+ "pecan halves": [
+  "Turtle Cheesecake"
+ ],
+ "ounce blocks cream cheese": [
+  "Turtle Cheesecake"
+ ],
+ "firmly packed light brown sugar": [
+  "Turtle Cheesecake"
+ ],
+ "+ 2 tsp all-purpose flour": [
+  "Turtle Cheesecake"
+ ],
+ "caramel sauce": [
+  "Turtle Cheesecake"
+ ],
+ "3 lbs pork roast": [
+  "Slow Cooker Posole"
+ ],
+ "s  white hominy": [
+  "Slow Cooker Posole"
+ ],
+ "jar  salsa verde": [
+  "Slow Cooker Posole"
+ ],
+ "2 lb boneless chicken thighs": [
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "bird's eye or thai chili": [
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "substitute red onion or omit)": [
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "jasmine rice or white rice": [
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "sian slaw or smashed cucumber salad": [
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "350g thinly sliced beef": [
+  "Quick Satay Peanut Stir Fry"
+ ],
+ "**200g / 7 oz chow mein noodles**": [
+  "Beef Chow Mein"
+ ],
+ "lean won't caramelise as well)": [
+  "Beef Chow Mein"
+ ],
+ "**2 garlic cloves**": [
+  "Beef Chow Mein"
+ ],
+ "**1 egg** \u2014 scrambled into beef to help it stick to noodles + protein boost": [
+  "Beef Chow Mein"
+ ],
+ "**3 green onion stems**": [
+  "Beef Chow Mein"
+ ],
+ "**2 cups green cabbage**": [
+  "Beef Chow Mein"
+ ],
+ "**1 carrot**": [
+  "Beef Chow Mein"
+ ],
+ "**1 heaped cup bean sprouts**": [
+  "Beef Chow Mein"
+ ],
+ "**1\u00bd tbsp canola oil**": [
+  "Beef Chow Mein"
+ ],
+ "**1\u00bd tbsp light soy sauce**": [
+  "Beef Chow Mein"
+ ],
+ "**1\u00bd tsp dark soy sauce**": [
+  "Beef Chow Mein"
+ ],
+ "**1\u00bd tbsp oyster sauce**": [
+  "Beef Chow Mein"
+ ],
+ "**1\u00bd tbsp chinese cooking wine**": [
+  "Beef Chow Mein"
+ ],
+ "**1\u00bd tsp white sugar**": [
+  "Beef Chow Mein"
+ ],
+ "**pinch white pepper**": [
+  "Beef Chow Mein"
+ ],
+ "**1\u00bd tsp cornflour / cornstarch**": [
+  "Beef Chow Mein"
+ ],
+ "**3 tbsp water**": [
+  "Beef Chow Mein"
+ ],
+ "bone-in chicken thigh fillets": [
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "apricot jam": [
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "all spice": [
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "apple juice": [
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "dried cranberries": [
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "walnuts": [
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "red apple": [
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "14 oz chicken": [
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "paprika powder": [
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "red capsicum/bell pepper": [
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "reen capsicum/bell pepper": [
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "flour tortillas": [
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "olive oil spray": [
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "grated cheese": [
+  "Oven Baked Chicken Quesadillas"
+ ],
+ "green curry paste": [
+  "Green Curry",
+  "Green Curry Shrimp"
+ ],
+ "bamboo shoots or thai eggplants": [
+  "Green Curry"
+ ],
+ "b  bone-in": [
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "\u20133 tbsp lemon pepper seasoning": [
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "arborio rice": [
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "to 1 cup milk": [
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "b / 500g boneless skinless chicken thighs": [
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "medium zucchini": [
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "red bell pepper / capsicum": [
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "400g canned crushed tomatoes": [
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "orzo / risoni": [
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "cooking  salt": [
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "greek feta cheese": [
+  "One Pot Baked Greek Chicken Orzo Risoni"
+ ],
+ "diced white/yellow onion": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}"
+ ],
+ "cups low-sodium chicken broth": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}"
+ ],
+ "shredded sharp cheddar cheese": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}"
+ ],
+ "\u20136 medium cooked": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}"
+ ],
+ "cornflakes": [
+  "Cheesy Funeral Potatoes {Au Gratin Potatoes}"
+ ],
+ "**dry:** 3 cups  flour": [
+  "Gingerbread Cake"
+ ],
+ "**wet:** 1 cup unsulphured molasses": [
+  "Gingerbread Cake"
+ ],
+ "7oz chicken thigh fillets": [
+  "Thai Basil Chicken Stir Fry"
+ ],
+ "reen onion": [
+  "Creamy Cilantro Lime Dressing",
+  "Thai Basil Chicken Stir Fry"
+ ],
+ "birds eye or thai chilli": [
+  "Thai Basil Chicken Stir Fry"
+ ],
+ "tbsp oil": [
+  "Thai Basil Chicken Stir Fry"
+ ],
+ "16oz chicken breast": [
+  "Chicken Piccata"
+ ],
+ "parmesan": [
+  "Chicken Piccata"
+ ],
+ "15g unsalted butter": [
+  "Chicken Piccata"
+ ],
+ "30g unsalted butter": [
+  "Chicken Piccata"
+ ],
+ "capers in brine": [
+  "Chicken Piccata"
+ ],
+ "parsley": [
+  "Chicken Piccata"
+ ],
+ "crab meat": [
+  "Pad Woon Sen Noodles (with Crab)"
+ ],
+ "dashes white pepper": [
+  "Pad Woon Sen Noodles (with Crab)"
+ ],
+ "s scallions": [
+  "Pad Woon Sen Noodles (with Crab)"
+ ],
+ "can pumpkin puree": [
+  "Amazing Crustless Pumpkin Pie Cupcakes"
+ ],
+ "arge eggs + 1 large egg yolk": [
+  "Amazing Crustless Pumpkin Pie Cupcakes"
+ ],
+ "pumpkin pie spice": [
+  "Amazing Crustless Pumpkin Pie Cupcakes"
+ ],
+ "cups heavy whipping cream": [
+  "Amazing Crustless Pumpkin Pie Cupcakes"
+ ],
+ "\u20133 tbsp powdered sugar": [
+  "Amazing Crustless Pumpkin Pie Cupcakes"
+ ],
+ "can be omitted)": [
+  "Amazing Crustless Pumpkin Pie Cupcakes"
+ ],
+ "**dough:** 1 cup milk": [
+  "Perfect Caramel Pecan Sticky Buns"
+ ],
+ "**caramel:** 10 tbsp butter": [
+  "Perfect Caramel Pecan Sticky Buns"
+ ],
+ "**filling:** 4 tbsp softened butter": [
+  "Perfect Caramel Pecan Sticky Buns"
+ ],
+ "bs fresh clams": [
+  "Thai Clams"
+ ],
+ "thai basil": [
+  "Green Curry Shrimp",
+  "Thai Clams"
+ ],
+ "*base:**": [
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "*flavoring:**": [
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "salsa verde or green enchilada sauce": [
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "*herbs & aromatics:**": [
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "coarsely chopped cilantro": [
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "*seasoning:**": [
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "of dried dill": [
+  "Creamy Cilantro Lime Dressing"
+ ],
+ "1 lb chicken breast": [
+  "Chicken Broccoli Stir Fry"
+ ],
+ "baking soda / bi-carb soda": [
+  "Chicken Broccoli Stir Fry"
+ ],
+ "cornflour/cornstarch": [
+  "Chicken Broccoli Stir Fry"
+ ],
+ "14 oz broccoli florets": [
+  "Chicken Broccoli Stir Fry"
+ ],
+ "white rice": [
+  "Chicken Broccoli Stir Fry"
+ ],
+ "b / 750g boneless": [
+  "Mexican Shredded Chicken"
+ ],
+ "chipotles in adobo sauce": [
+  "Mexican Shredded Chicken"
+ ],
+ "400g can crushed tomatoes": [
+  "Mexican Shredded Chicken"
+ ],
+ "each: dried oregano": [
+  "Mexican Shredded Chicken"
+ ],
+ "pepper to taste": [
+  "Mexican Shredded Chicken"
+ ],
+ "whipped cream": [
+  "Oreo Cheesecake Bites"
+ ],
+ "**raspberry filling:** 16 oz raspberries": [
+  "Heavenly Raspberry Cream Angel Food Cake Dessert"
+ ],
+ "**cake:** 12 cups cubed angel food cake": [
+  "Heavenly Raspberry Cream Angel Food Cake Dessert"
+ ],
+ "**cream layer:** 12 oz cream cheese": [
+  "Heavenly Raspberry Cream Angel Food Cake Dessert"
+ ],
+ "**whipped cream:** 1 1/2 cups heavy cream": [
+  "Heavenly Raspberry Cream Angel Food Cake Dessert"
+ ]
 }

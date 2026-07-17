@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paw Prints – Trusted Pet Care</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+    body { background: #faf7f2; color: #2d2b28; line-height: 1.5; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 1.5rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+    .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.4rem; color: #3d3b38; text-decoration: none; }
+    .logo span { font-size: 1.6rem; }
+    nav a { margin-left: 2rem; text-decoration: none; color: #4a4643; font-weight: 500; transition: color 0.2s; }
+    nav a:hover { color: #c97b5d; }
+    .btn-primary { background: #c97b5d; color: #fff; padding: 0.7rem 1.4rem; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; text-decoration: none; font-weight: 600; }
+    .btn-primary:hover { background: #b56a4e; }
+    .hero { text-align: center; padding: 4rem 0; background: linear-gradient(135deg, #fff 0%, #f5eadf 100%); }
+    .hero h1 { font-size: 3rem; margin-bottom: 1rem; color: #3d3b38; }
+    .hero p { font-size: 1.3rem; margin-bottom: 2rem; color: #6b6661; max-width: 600px; margin-left: auto; margin-right: auto; }
+    .features { display: flex; flex-wrap: wrap; justify-content: space-around; margin: 3rem 0; gap: 2rem; }
+    .feature { flex: 1; min-width: 250px; text-align: center; padding: 1.5rem; background: #fff; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .feature .icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .feature h3 { margin-bottom: 0.5rem; color: #3d3b38; }
+    .feature p { color: #6b6661; }
+    .cta { text-align: center; margin: 3rem 0; }
+    footer { background: #333; color: #ddd; text-align: center; padding: 1.5rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><span>🐾</span> Paw Prints</a>
+    <nav>
+      <a href="#features">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#book" class="btn-primary">Book Now</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Trusted Care for Your Furry Friends</h1>
+      <p>Professional dog walking, pet sitting, and grooming services tailored to your pet's needs.</p>
+      <a href="#book" class="btn-primary">Get Started Today</a>
+    </div>
+  </section>
+
+  <section id="features" class="container">
+    <div class="features">
+      <div class="feature">
+        <div class="icon">🐕</div>
+        <h3>Dog Walking</h3>
+        <p>Daily walks with experienced handlers to keep your pup happy and healthy.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">🏠</div>
+        <h3>Pet Sitting</h3>
+        <p>In-home care while you're away so your pets stay in their comfort zone.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">✂️</div>
+        <h3>Grooming</h3>
+        <p>Gentle bathing and styling to keep your pet looking and feeling great.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="book" class="cta container">
+    <h2>Ready to Pamper Your Pet?</h2>
+    <p style="margin:1rem 0 2rem; color:#6b6661;">Join hundreds of happy pet parents in your area.</p>
+    <a href="#contact" class="btn-primary">Schedule a Visit</a>
+  </section>
+
+  <footer id="contact">
+    <p>🐾 Paw Prints &copy; 2024 | hello@pawprints.example | (555) 123-4567</p>
+  </footer>
+</body>
+</html>
