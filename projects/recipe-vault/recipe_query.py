@@ -46,19 +46,37 @@ def parse_nl(text):
                 cuisine = cuis  # list of cuisines
                 break
     meal = next((m for m in MEAL_MAP if m in text_l), None)
-    # ingredient extraction — find user words that map to ANY index key
+    # ingredient extraction — find user words/phrases that map to ANY index key
     found = []
+    # multi-word phrases first (red peppers, bell pepper, etc.)
+    MULTI = ["red peppers", "bell pepper", "green pepper", "red pepper", "green peppers",
+             "black pepper", "chicken breast", "ground beef", "pork chop", "pork chops"]
+    for phrase in MULTI:
+        if phrase in text_l and phrase not in found:
+            found.append(phrase)
     tokens = re.findall(r"[a-z]+", text_l)
     for t in tokens:
         if len(t) < 3:
             continue
-        if t in ("the", "and", "for", "with", "some", "people", "servings", "dinner",
-                 "lunch", "breakfast", "asian", "european", "latino", "oriental"):
+        if t in ("the", "and", "for", "with", "some", "people", "servings",
+                 "dinner", "lunch", "breakfast", "asian", "european", "latino", "oriental"):
             continue
-        # does this token appear in any ingredient key? (e.g. 'chicken' in 'bone-in chicken thighs')
+        if t in ("red", "green") and any(f"{t} pepper" in found for _ in [0]):
+            continue  # skip standalone 'red'/'green' if already captured as pepper phrase
+        # does this token appear in any ingredient key?
         hits = [k for k in ING if t in k.lower()]
         if hits and t not in found:
             found.append(t)  # store the clean user word, not the key
+    # cuisine detection — only if the word is a real cuisine, NOT an ingredient
+    cuisine = next((c for c in CLEAN_CUISINES if c in text_l), None)
+    if not cuisine:
+        for region, cuis in REGION_MAP.items():
+            if region in text_l:
+                cuisine = cuis
+                break
+    # if detected "cuisine" is actually one of the parsed ingredients, drop it
+    if cuisine and isinstance(cuisine, str) and cuisine in found:
+        cuisine = None
     # servings
     serv = None
     m = re.search(r"(\d+)\s*(people|servings|portions)", text_l)
@@ -165,7 +183,10 @@ def main():
     else:
         cuisine, meal, ings = args.cuisine, args.meal, args.ingredient
 
-    results = recommend(cuisine, meal, ings, args.max_missing)
+    # Conversational fridge-raid: rank by how many of your ingredients match.
+    # Require at least 1 match, allow the rest missing (don't demand all-or-nothing).
+    mm = args.max_missing if args.max_missing > 0 else (len(ings) - 1 if ings else 0)
+    results = recommend(cuisine, meal, ings, mm)
     out = {
         "mode": "recommend",
         "parsed": {"cuisine": cuisine, "meal": meal, "ingredients": ings, "servings": serv},

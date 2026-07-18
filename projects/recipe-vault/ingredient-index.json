@@ -6,21 +6,34 @@
   "Chili Con Carne Corn Bread Pie",
   "Chinese Beef with Honey and Black Pepper Sauce",
   "Easy Cowboy Caviar Dip (Shrapnel Dip)",
+  "Instant Pot 15 Bean Soup Recipe",
   "One Pot Chicken Enchilada Rice Casserole",
+  "Pressure Cooker Thai Red Beef Curry",
   "Spicy Firecracker Beef",
   "Thai Cashew Chicken"
  ],
  "s garlic": [
   "Beef Rendang",
   "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Cincinnati Chili (Instant Pot) Recipe",
   "Creamy Homemade Alfredo Sauce",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Coconut Curry Chicken Recipe",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Mushroom Risotto Recipe",
+  "Instant Pot Quick Chili Verde",
+  "Instant Pot Refried Beans",
   "Instant Pot Refried Black Beans",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
   "Massaman Curry",
   "One Pan Spanish Chicken Chorizo Tomato Potatoes",
   "One Pot Chicken Enchilada Rice Casserole",
   "Pad See Ew",
   "Pad Woon Sen Noodles (with Crab)",
   "Peppercorn Sauce",
+  "Pressure Cooker Texas Red Chili Recipe",
+  "Pressure Cooker Thai Red Beef Curry",
   "Sichuan Green Beans",
   "Slow Cooker Posole",
   "Spaghetti Pie",
@@ -34,9 +47,12 @@
   "Chinese Cashew Chicken",
   "Crispy Sticky Mongolian Beef",
   "Fall Apart Mexican Beef Ribs",
+  "Instant Pot Coconut Curry Chicken Recipe",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
   "Mapo Tofu",
   "Mexican Shredded Beef Ribs",
+  "Northern-Style Pork Dumplings",
+  "Pressure Cooker Thai Red Beef Curry",
   "Spicy Firecracker Beef",
   "Thai Basil Chicken (Pad Krapow Gai)",
   "Thai Cashew Chicken"
@@ -66,6 +82,24 @@
   "Thai Basil Chicken Stir Fry",
   "Thai Grilled Chicken (Gai Yang)"
  ],
+ "boneless skinless chicken breasts": [
+  "Buffalo Chicken Dip"
+ ],
+ "ouncebottle hot sauce": [
+  "Buffalo Chicken Dip"
+ ],
+ "ouncescream cheese": [
+  "Buffalo Chicken Dip"
+ ],
+ "ouncebottle ranch dressing": [
+  "Buffalo Chicken Dip"
+ ],
+ "ouncesmonterey jack cheese": [
+  "Buffalo Chicken Dip"
+ ],
+ "ouncescheddar cheese": [
+  "Buffalo Chicken Dip"
+ ],
  "1lb leftover cooked brisket": [
   "Caramelised Vietnamese Shredded Beef"
  ],
@@ -82,6 +116,7 @@
   "Amazing Crustless Pumpkin Pie Cupcakes",
   "Amish-Style Apple and Cinnamon Baked Oatmeal",
   "Avocado Chicken Salad",
+  "Belgian Venison Medallions",
   "Braised Beef Short Ribs in Red Wine Sauce",
   "Butterscotch Cake",
   "Caramel Apple Cake",
@@ -95,13 +130,22 @@
   "Coq au Vin",
   "Creamy Chicken and Bacon Pasta",
   "Crispy Sticky Mongolian Beef",
+  "Cumberland Sauce with Venison",
   "Decadent Hot Fudge Pudding Cake",
   "Doner Kebab Meat (Beef or Lamb)",
   "Easy Rustic Crusty Bread",
+  "Elk Tenderloin with Ancho Sauce",
   "Fall Apart Mexican Beef Ribs",
   "Family Meat Pie",
+  "Fried Fish Tacos",
+  "German Rabbit Stew",
+  "Goan Crab Curry",
+  "Grandma\u2019s Banana Nut Bread",
+  "Greek Honeyed Fish",
   "Greek Meatballs",
   "Greek Meatballs (Keftedes)",
+  "Grilled Whole Fish",
+  "Hank\u2019s Venison Marinade",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
   "Jambalaya Recipe",
   "Lemon Blueberry Cake",
@@ -113,14 +157,24 @@
   "Mexican Shredded Chicken",
   "Moroccan Baked Eggplant with Beef",
   "Moussaka (Greek Beef and Eggplant Bake)",
+  "My Favorite White Bread Recipe",
   "My Mom's Famous Christmas Caramels",
   "Nachos Pie",
+  "Northern-Style Pork Dumplings",
   "One Pan Spanish Chicken Chorizo Tomato Potatoes",
   "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
   "One Pot Greek Chicken Lemon Rice",
   "Orange Zested Cranberry White Chocolate Bliss Bars",
   "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
-  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake"
+  "Overnight Creme Br\u00fbl\u00e9e French Toast Bake",
+  "Pan Seared Venison Tenderloin",
+  "Sardinian Hare Stew",
+  "Sauce au Poivre",
+  "Thai Fish Curry",
+  "Venison Steak Diane",
+  "Venison Steak with Wild Rice Pilaf",
+  "Venison Tacos",
+  "Venison with Blueberry Sauce and Colcannon"
  ],
  "orange zest": [
   "Orange Zested Cranberry White Chocolate Bliss Bars"
@@ -139,8 +193,12 @@
   "Coq au Vin"
  ],
  "bay leaf": [
+  "Cincinnati Chili (Instant Pot) Recipe",
   "Coq au Vin",
-  "Family Meat Pie"
+  "Family Meat Pie",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Refried Beans",
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
  ],
  "thyme sprigs": [
   "Coq au Vin"
@@ -162,6 +220,7 @@
   "Crispy Sticky Mongolian Beef",
   "Doner Kebab Meat (Beef or Lamb)",
   "Fall Apart Mexican Beef Ribs",
+  "German Rabbit Stew",
   "Greek Meatballs",
   "Greek Meatballs (Keftedes)",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
@@ -172,7 +231,9 @@
   "New Orleans Chicken Wings",
   "One Pan Spanish Chicken Chorizo Tomato Potatoes",
   "One Pot Baked Greek Chicken Orzo Risoni",
-  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Thai Fish Curry",
+  "Venison Steak with Wild Rice Pilaf"
  ],
  "white mushrooms": [
   "Coq au Vin"
@@ -214,6 +275,7 @@
   "Chili Con Carne Corn Bread Pie",
   "Chinese Beef with Honey and Black Pepper Sauce",
   "Chinese Cashew Chicken",
+  "Classic White Clam Sauce",
   "Coq au Vin",
   "Creamy Chicken Mushroom Fettucine",
   "Creamy Chicken and Bacon Pasta",
@@ -222,6 +284,8 @@
   "Crispy Sticky Mongolian Beef",
   "Doner Kebab Meat (Beef or Lamb)",
   "Family Meat Pie",
+  "Goan Crab Curry",
+  "Greek Honeyed Fish",
   "Greek Meatballs",
   "Greek Meatballs (Keftedes)",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
@@ -240,8 +304,10 @@
   "Slow Cooker Red Wine Beef Cheeks",
   "Spicy Firecracker Beef",
   "Thai Basil Chicken Stir Fry",
+  "Thai Fish Curry",
   "Thai Grilled Chicken (Gai Yang)",
   "Thai Red Curry Pot Roast Chicken",
+  "Vension Stroganoff with Spatzle",
   "Vietnamese Coconut Caramel Chicken"
  ],
  "tomato paste": [
@@ -254,12 +320,14 @@
   "Coq au Vin",
   "Epic Chunky Beef and Mushroom Pie",
   "Family Meat Pie",
+  "Instant Pot Beef and Barley Soup",
   "Jambalaya Recipe",
   "Moroccan Baked Eggplant with Beef",
   "Moussaka (Greek Beef and Eggplant Bake)",
   "One Pot Baked Greek Chicken Orzo Risoni",
   "Osso Buco",
-  "Slow Cooker Red Wine Beef Cheeks"
+  "Slow Cooker Red Wine Beef Cheeks",
+  "Venison Steak Diane"
  ],
  "plain/all-purpose flour": [
   "Coq au Vin"
@@ -275,7 +343,9 @@
   "Lemon Chicken Salad"
  ],
  "chopped parsley": [
-  "Coq au Vin"
+  "Coq au Vin",
+  "Sardinian Hare Stew",
+  "Venison Steak with Wild Rice Pilaf"
  ],
  "mashed potatoes or tagliatelle": [
   "Coq au Vin"
@@ -299,11 +369,19 @@
  "water": [
   "Chicken Broccoli Stir Fry",
   "Chinese Cashew Chicken",
+  "Cincinnati Chili (Instant Pot) Recipe",
   "Cranberry Apple Pie",
   "Crispy Sticky Mongolian Beef",
   "Green Curry",
   "Green Curry Shrimp",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Hummus Recipe",
+  "Instant Pot Quick Chili Verde",
+  "Instant Pot Refried Beans",
   "Instant Pot Refried Black Beans",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
+  "Instant Pot Shrimp Risotto Recipe",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
   "Lemon Blueberry Cake",
   "One Pot Greek Chicken Lemon Rice",
@@ -324,6 +402,7 @@
   "Chicken Pad Thai",
   "Crispy Sticky Mongolian Beef",
   "Fall Apart Mexican Beef Ribs",
+  "Instant Pot Quick Chili Verde",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
   "Massaman Curry",
   "Mexican Shredded Beef Ribs",
@@ -387,6 +466,25 @@
   "Nachos Pie",
   "Spicy Firecracker Beef"
  ],
+ "s thin cut pork chops": [
+  "Grilled Thin Pork Chops, Quick Brinerated"
+ ],
+ "oy sauce": [
+  "Grilled Thin Pork Chops, Quick Brinerated"
+ ],
+ "sbalsamic vinegar": [
+  "Grilled Thin Pork Chops, Quick Brinerated"
+ ],
+ "shoney": [
+  "Greek Honeyed Fish",
+  "Grilled Thin Pork Chops, Quick Brinerated"
+ ],
+ "solive oil": [
+  "Agnolotti with Brown Butter and Sage",
+  "Greek Honeyed Fish",
+  "Grilled Thin Pork Chops, Quick Brinerated",
+  "Sardinian Hare Stew"
+ ],
  "b fresh green beans": [
   "Sichuan Green Beans"
  ],
@@ -399,6 +497,7 @@
   "Chicken Piccata",
   "Chicken Shawarma (Middle Eastern)",
   "Chicken in Creamy Mustard Sauce",
+  "Chimichurri with Grilled Venison",
   "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
   "Creamy Chicken Mushroom Fettucine",
   "Creamy Tuscan Chicken Pasta Bake",
@@ -406,6 +505,12 @@
   "Epic Chunky Beef and Mushroom Pie",
   "Greek Meatballs",
   "Greek Meatballs (Keftedes)",
+  "Greek Rabbit Stew. Kouneli Stifado",
+  "Greek Souvlaki",
+  "Grilled Venison Steaks",
+  "Grilled Whole Fish",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Instant Pot Mushroom Risotto Recipe",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
   "Lemon Chicken Salad",
   "Mexican Chicken Avocado Salad",
@@ -438,13 +543,17 @@
   "One Pot Greek Chicken Lemon Rice",
   "Osso Buco",
   "Oven Baked Chicken Quesadillas",
-  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Sichuan Rabbit with Peanuts",
+  "Venison with Blueberry Sauce and Colcannon"
  ],
  "tomato passata or crushed canned tomatoes": [
   "One Pot Chicken Enchilada Rice Casserole"
  ],
  "chicken broth or water": [
-  "One Pot Chicken Enchilada Rice Casserole"
+  "Instant Pot Quick Chili Verde",
+  "One Pot Chicken Enchilada Rice Casserole",
+  "Pressure Cooker Thai Red Beef Curry"
  ],
  "frozen corn": [
   "One Pot Chicken Enchilada Rice Casserole"
@@ -453,6 +562,8 @@
   "Chicken Shawarma (Middle Eastern)",
   "Chili Con Carne Corn Bread Pie",
   "Doner Kebab Meat (Beef or Lamb)",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
   "Jambalaya Recipe",
   "Moroccan Baked Eggplant with Beef",
   "New Orleans Chicken Wings",
@@ -465,6 +576,7 @@
   "Fall Apart Mexican Beef Ribs",
   "Greek Meatballs",
   "Greek Meatballs (Keftedes)",
+  "Greek Rabbit Stew. Kouneli Stifado",
   "Mexican Shredded Beef Ribs",
   "Moussaka (Greek Beef and Eggplant Bake)",
   "New Orleans Chicken Wings",
@@ -483,6 +595,7 @@
  "onion powder": [
   "Baked Ziti",
   "Creamy Cilantro Lime Dressing",
+  "Hank\u2019s Venison Marinade",
   "Jambalaya Recipe",
   "New Orleans Chicken Wings",
   "One Pot Chicken Enchilada Rice Casserole"
@@ -506,7 +619,26 @@
  "chopped cilantro/coriander": [
   "One Pot Chicken Enchilada Rice Casserole"
  ],
+ "2 garlic clovesminced": [
+  "Chimichurri with Grilled Venison"
+ ],
+ "fresh chopped parsley": [
+  "Chimichurri with Grilled Venison"
+ ],
+ "fresh chopped mint": [
+  "Chimichurri with Grilled Venison"
+ ],
+ "small hot chile": [
+  "Chimichurri with Grilled Venison"
+ ],
+ "3 tablespoonslime juice": [
+  "Chimichurri with Grilled Venison"
+ ],
+ "salt and black pepper to taste": [
+  "Chimichurri with Grilled Venison"
+ ],
  "melted butter": [
+  "Blackened Catfish with Maque Choux",
   "Cheesy Funeral Potatoes {Au Gratin Potatoes}",
   "Chili Con Carne Corn Bread Pie",
   "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
@@ -519,7 +651,8 @@
  ],
  "eggs": [
   "Chicken Pad Thai",
-  "Decadent Chocolate Cheesecake"
+  "Decadent Chocolate Cheesecake",
+  "Grandma\u2019s Banana Nut Bread"
  ],
  "sugar": [
   "Chicken Chow Mein",
@@ -532,6 +665,7 @@
   "Pad Kee Mao (Thai Drunken Noodles)",
   "Pineapple Curry",
   "Red Curry Shrimp",
+  "Sichuan Rabbit with Peanuts",
   "Thai Basil Chicken Stir Fry",
   "Thai Red Curry",
   "Thai Red Curry Pot Roast Chicken",
@@ -542,6 +676,7 @@
  ],
  "cinnamon": [
   "Caramel Apple Cake",
+  "Instant Pot Birria Tacos Recipe",
   "Moussaka (Greek Beef and Eggplant Bake)",
   "The Best Monkey Bread"
  ],
@@ -561,6 +696,7 @@
   "Cranberry Apple Pie",
   "Epic Chunky Beef and Mushroom Pie",
   "Family Meat Pie",
+  "Grandma\u2019s Banana Nut Bread",
   "Lemon Blueberry Cake",
   "Lemonies \u2014 Lemony Lemon Brownie Bites",
   "Raspberry Cheesecake"
@@ -575,10 +711,12 @@
   "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
   "Cranberry Apple Pie",
   "Easy Homemade French Bread",
+  "Grandma\u2019s Banana Nut Bread",
   "Key Lime Cheesecake {No-Cracking!}",
   "Lemon Blueberry Cake",
   "Lemon Cheesecake",
   "Lemonies \u2014 Lemony Lemon Brownie Bites",
+  "My Favorite White Bread Recipe",
   "Overnight Cinnamon and Sugar Sweet Rolls",
   "Overnight Strawberry Cream Cheese Sweet Rolls",
   "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
@@ -621,6 +759,7 @@
   "Chicken Francese",
   "Chocolate Cheesecake",
   "Chocolate Peanut Butter Cake",
+  "Instant Pot Hard-Boiled Eggs Recipe",
   "Key Lime Cheesecake {No-Cracking!}",
   "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
   "Lemon Cheesecake",
@@ -652,6 +791,7 @@
   "Chocolate Cheesecake",
   "Chocolate Peanut Butter Cake",
   "Christmas Tree Cake",
+  "Grandma\u2019s Banana Nut Bread",
   "Key Lime Cheesecake {No-Cracking!}",
   "Lemon Blueberry Cake",
   "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
@@ -674,6 +814,105 @@
   "Overnight Strawberry Cream Cheese Sweet Rolls",
   "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
  ],
+ "vegetable oil": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Beef Stroganoff",
+  "Butterscotch Cake",
+  "Caramel Apple Cake",
+  "Carrot Cake with Walnuts",
+  "Chicken Cacciatore (Italian Chicken Stew)",
+  "Chicken Chasseur",
+  "Chicken Chow Mein",
+  "Chicken Marsala",
+  "Chicken Pad Thai",
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Chocolate Peanut Butter Cake",
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Fall Apart Mexican Beef Ribs",
+  "Grandma\u2019s Banana Nut Bread",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Coconut Curry Chicken Recipe",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Quick Chili Verde",
+  "Instant Pot Refried Beans",
+  "Instant Pot Refried Black Beans",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
+  "Mapo Tofu",
+  "Mexican Shredded Beef Ribs",
+  "Pressure Cooker Kielbasa and Sauerkraut",
+  "Pressure Cooker Texas Red Chili Recipe",
+  "Pressure Cooker Thai Red Beef Curry",
+  "Spicy Firecracker Beef",
+  "Vietnamese Caramel Ginger Chicken"
+ ],
+ "s beef chuck roast": [
+  "Instant Pot Green Chile Stew",
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "sfine sea salt": [
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "medium onions": [
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Goan Crab Curry",
+  "Instant Pot Beef and Barley Soup",
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "minced chipotles en adobo": [
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "fine sea salt": [
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Instant Pot Beef Ribs Recipe",
+  "Instant Pot Beef and Barley Soup",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Coconut Curry Chicken Recipe",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Mushroom Risotto Recipe",
+  "Instant Pot Quick Chili Verde",
+  "Instant Pot Refried Beans",
+  "Instant Pot Refried Black Beans",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
+  "Instant Pot Shrimp Risotto Recipe",
+  "Pressure Cooker Kielbasa and Sauerkraut",
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "chili powder": [
+  "Chili Con Carne Corn Bread Pie",
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Nachos Pie",
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "scumin": [
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "soregano": [
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "coffee": [
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "ouncecan crushed tomatoes": [
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "masa harina": [
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "juice of2 limes": [
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
+ "fresh ground black pepper": [
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Instant Pot Beef Ribs Recipe",
+  "Instant Pot Beef and Barley Soup",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Quick Chili Verde",
+  "Pressure Cooker Texas Red Chili Recipe"
+ ],
  "1 lb soft or silken tofu": [
   "Mapo Tofu"
  ],
@@ -694,26 +933,6 @@
  ],
  "chicken or vegetable broth": [
   "Mapo Tofu"
- ],
- "vegetable oil": [
-  "Beef Satay with Thai Peanut Sauce",
-  "Beef Stroganoff",
-  "Butterscotch Cake",
-  "Caramel Apple Cake",
-  "Carrot Cake with Walnuts",
-  "Chicken Cacciatore (Italian Chicken Stew)",
-  "Chicken Chasseur",
-  "Chicken Chow Mein",
-  "Chicken Marsala",
-  "Chicken Pad Thai",
-  "Chinese Beef with Honey and Black Pepper Sauce",
-  "Chocolate Peanut Butter Cake",
-  "Fall Apart Mexican Beef Ribs",
-  "Instant Pot Refried Black Beans",
-  "Mapo Tofu",
-  "Mexican Shredded Beef Ribs",
-  "Spicy Firecracker Beef",
-  "Vietnamese Caramel Ginger Chicken"
  ],
  "steamed jasmine rice for serving": [
   "Mapo Tofu"
@@ -738,6 +957,7 @@
   "Chicken Piccata",
   "Chicken Pot Pie",
   "Family Meat Pie",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
   "Moussaka (Greek Beef and Eggplant Bake)",
   "Slow Cooker Red Wine Beef Cheeks",
   "The Best Spinach Artichoke Dip",
@@ -795,6 +1015,8 @@
   "Carrot Cake with Walnuts",
   "Chocolate Peanut Butter Cake",
   "Christmas Tree Cake",
+  "Fried Fish Tacos",
+  "Instant Pot Refried Beans",
   "Instant Pot Refried Black Beans",
   "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
   "The Best Carrot Cake Recipe Ever"
@@ -805,9 +1027,12 @@
  "ground nutmeg": [
   "Amish-Style Apple and Cinnamon Baked Oatmeal",
   "Carrot Cake with Walnuts",
-  "The Best Carrot Cake Recipe Ever"
+  "The Best Carrot Cake Recipe Ever",
+  "Vension Stroganoff with Spatzle"
  ],
  "ground cloves": [
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Instant Pot Birria Tacos Recipe",
   "Massaman Curry",
   "Moroccan Baked Eggplant with Beef",
   "The Best Carrot Cake Recipe Ever"
@@ -821,7 +1046,10 @@
  ],
  "butter": [
   "Beef Bourguignon (Beef Burgundy)",
+  "Chicken Pot Pie",
   "Epic Chunky Beef and Mushroom Pie",
+  "Instant Pot Beef and Barley Soup",
+  "Instant Pot Mushroom Risotto Recipe",
   "Moussaka (Greek Beef and Eggplant Bake)",
   "My Favorite Cherry Pie",
   "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
@@ -862,32 +1090,40 @@
   "Epic Chunky Beef and Mushroom Pie",
   "Fall Apart Mexican Beef Ribs",
   "Family Meat Pie",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Quick Chili Verde",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
   "Jambalaya Recipe",
   "Massaman Curry",
   "Mexican Shredded Beef Ribs",
   "Moroccan Baked Eggplant with Beef",
   "Qeema \u2013 Easy Indian Curried Beef Mince",
-  "Quick Satay Peanut Stir Fry"
+  "Quick Satay Peanut Stir Fry",
+  "Sardinian Hare Stew"
  ],
  "carrots": [
   "Beef Bourguignon (Beef Burgundy)",
   "Braised Beef Short Ribs in Red Wine Sauce",
   "Family Meat Pie",
+  "Instant Pot Beef and Barley Soup",
   "Slow Cooker Red Wine Beef Cheeks"
  ],
  "dry red wine": [
   "Braised Beef Short Ribs in Red Wine Sauce",
   "Chicken Cacciatore (Italian Chicken Stew)",
+  "Greek Rabbit Stew. Kouneli Stifado",
   "Moussaka (Greek Beef and Eggplant Bake)"
  ],
  "low-sodium beef stock": [
   "Braised Beef Short Ribs in Red Wine Sauce"
  ],
  "bay leaves": [
+  "Agnolotti with Brown Butter and Sage",
   "Australian Meat Pie",
   "Braised Beef Short Ribs in Red Wine Sauce",
   "Chicken Cacciatore (Italian Chicken Stew)",
   "Epic Chunky Beef and Mushroom Pie",
+  "Greek Rabbit Stew. Kouneli Stifado",
   "Moussaka (Greek Beef and Eggplant Bake)",
   "Osso Buco",
   "Slow Cooker Red Wine Beef Cheeks"
@@ -913,12 +1149,14 @@
  "chopped cilantro": [
   "Chili Con Carne Corn Bread Pie",
   "Fall Apart Mexican Beef Ribs",
+  "Goan Crab Curry",
   "Mexican Shredded Beef Ribs",
   "Mexican Street Corn Salad (Esquites)",
   "Slow Cooker Posole",
   "Thai Coconut Soup with Chicken and Shrimp"
  ],
  "jalape\u00f1o": [
+  "Instant Pot Refried Beans",
   "Mexican Street Corn Salad (Esquites)"
  ],
  "3 lb beef cheeks": [
@@ -934,7 +1172,8 @@
  ],
  "red wine": [
   "Epic Chunky Beef and Mushroom Pie",
-  "Slow Cooker Red Wine Beef Cheeks"
+  "Slow Cooker Red Wine Beef Cheeks",
+  "Venison with Blueberry Sauce and Colcannon"
  ],
  "worcestershire sauce": [
   "Australian Meat Pie",
@@ -943,6 +1182,7 @@
   "Slow Cooker Red Wine Beef Cheeks"
  ],
  "s fresh thyme": [
+  "Instant Pot Beef and Barley Soup",
   "Slow Cooker Red Wine Beef Cheeks"
  ],
  "s fresh rosemary": [
@@ -953,6 +1193,7 @@
   "Slow Cooker Red Wine Beef Cheeks"
  ],
  "celery stalks": [
+  "Agnolotti with Brown Butter and Sage",
   "Family Meat Pie",
   "Lemon Chicken Orzo Soup",
   "Slow Cooker Red Wine Beef Cheeks"
@@ -998,6 +1239,8 @@
   "Chicken Piccata",
   "Chicken Shawarma (Middle Eastern)",
   "Cranberry Apple Pie",
+  "German Rabbit Stew",
+  "Greek Souvlaki",
   "Lemon Blueberry Cake",
   "Lemon Chicken Salad",
   "One Pan Spanish Chicken Chorizo Tomato Potatoes",
@@ -1023,6 +1266,7 @@
   "Chicken Cacciatore (Italian Chicken Stew)",
   "Chicken in Creamy Mustard Sauce",
   "Easy Cowboy Caviar Dip (Shrapnel Dip)",
+  "Grilled Venison Steaks",
   "Lemon Chicken Salad",
   "Osso Buco",
   "Salisbury Steak with Mushroom Gravy"
@@ -1043,12 +1287,14 @@
   "Thai Grilled Chicken (Gai Yang)"
  ],
  "fish sauce": [
+  "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)",
   "Beef Satay with Thai Peanut Sauce",
   "Chicken Pad Thai",
   "Massaman Curry",
   "Pad Kee Mao (Thai Drunken Noodles)",
   "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
   "Thai Coconut Chicken",
+  "Thai Fish Curry",
   "Thai Grilled Chicken (Gai Yang)",
   "Thai Panang Curry with Beef",
   "Thai Red Curry Pot Roast Chicken",
@@ -1077,6 +1323,7 @@
  "lime wedges": [
   "Beef Satay with Thai Peanut Sauce",
   "Chicken Pad Thai",
+  "Pressure Cooker Thai Red Beef Curry",
   "Thai Coconut Chicken",
   "Thai Grilled Chicken (Gai Yang)"
  ],
@@ -1098,6 +1345,15 @@
  "finely chopped parsley": [
   "Chicken Francese",
   "Chicken in Creamy Mustard Sauce"
+ ],
+ "teaspoonsbaking soda": [
+  "Grandma\u2019s Banana Nut Bread"
+ ],
+ "medium ripe bananas": [
+  "Grandma\u2019s Banana Nut Bread"
+ ],
+ "coarsely chopped walnuts": [
+  "Grandma\u2019s Banana Nut Bread"
  ],
  "cups warm water": [
   "Easy Homemade French Bread"
@@ -1182,17 +1438,22 @@
   "Australian Meat Pie"
  ],
  "onion": [
+  "Agnolotti with Brown Butter and Sage",
   "Australian Meat Pie",
   "Chicken Broccoli Stir Fry",
   "Chicken Cacciatore (Italian Chicken Stew)",
   "Chicken and Mushroom Risotto",
   "Chinese Cashew Chicken",
+  "German Rabbit Stew",
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
   "Moussaka (Greek Beef and Eggplant Bake)",
   "Nachos Pie",
   "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
   "Pad Kee Mao (Thai Drunken Noodles)",
-  "Quick Asian Caramelised Beef Ramen Noodles"
+  "Pressure Cooker Kielbasa and Sauerkraut",
+  "Quick Asian Caramelised Beef Ramen Noodles",
+  "Venison Steak with Wild Rice Pilaf"
  ],
  "cups  low-sodium beef stock": [
   "Australian Meat Pie"
@@ -1240,6 +1501,24 @@
  "crusty bread or mashed potatoes for serving": [
   "Beef Bourguignon (Beef Burgundy)"
  ],
+ "teaspoonsinstant yeast": [
+  "My Favorite White Bread Recipe"
+ ],
+ "+ 2\u2154 cups warm water": [
+  "My Favorite White Bread Recipe"
+ ],
+ "sunsalted butter": [
+  "Cumberland Sauce with Venison",
+  "German Rabbit Stew",
+  "My Favorite White Bread Recipe",
+  "Sauce au Poivre",
+  "Venison Steak Diane",
+  "Venison Steak with Wild Rice Pilaf",
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "to 10 cupsall-purpose flour": [
+  "My Favorite White Bread Recipe"
+ ],
  "2.5 lb chicken wings": [
   "New Orleans Chicken Wings"
  ],
@@ -1269,6 +1548,7 @@
   "Chicken Pot Pie",
   "Epic Chunky Beef and Mushroom Pie",
   "Family Meat Pie",
+  "Instant Pot Beef and Barley Soup",
   "Jamaican Jerk Chicken Drumsticks with Caribbean Rice and Beans",
   "New Orleans Chicken Wings",
   "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
@@ -1292,7 +1572,8 @@
  ],
  "lemongrass": [
   "Massaman Curry",
-  "Thai Coconut Chicken"
+  "Thai Coconut Chicken",
+  "Thai Fish Curry"
  ],
  "coriander powder": [
   "Thai Coconut Chicken"
@@ -1333,7 +1614,8 @@
   "Osso Buco",
   "Oven Baked Chicken Quesadillas",
   "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
-  "Thai Coconut Chicken"
+  "Thai Coconut Chicken",
+  "Venison with Blueberry Sauce and Colcannon"
  ],
  "chilli paste": [
   "Thai Coconut Chicken"
@@ -1357,6 +1639,8 @@
   "Lemon Blueberry Cake"
  ],
  "kosher salt": [
+  "Greek Rabbit Stew. Kouneli Stifado",
+  "Instant Pot Hummus Recipe",
   "Lemon Blueberry Cake"
  ],
  "fresh blueberries": [
@@ -1364,6 +1648,29 @@
  ],
  "confectioners' sugar": [
   "Lemon Blueberry Cake"
+ ],
+ "dark lager beer": [
+  "Hank\u2019s Venison Marinade"
+ ],
+ "malt or cider vinegar": [
+  "Hank\u2019s Venison Marinade"
+ ],
+ "sbrown sugar": [
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Hank\u2019s Venison Marinade"
+ ],
+ "mustard seed": [
+  "Hank\u2019s Venison Marinade"
+ ],
+ "caraway seeds": [
+  "Hank\u2019s Venison Marinade",
+  "Pressure Cooker Kielbasa and Sauerkraut"
+ ],
+ "celery seed": [
+  "Hank\u2019s Venison Marinade"
+ ],
+ "schopped parsley": [
+  "Hank\u2019s Venison Marinade"
  ],
  "arge or 5 small chicken thighs": [
   "Vietnamese Coconut Caramel Chicken"
@@ -1377,16 +1684,19 @@
  ],
  "white pepper": [
   "Chicken Chow Mein",
+  "Thai Fish Curry",
   "Vietnamese Coconut Caramel Chicken"
  ],
  "shallot": [
   "Massaman Curry",
+  "Venison Steak Diane",
   "Vietnamese Coconut Caramel Chicken"
  ],
  "arge red chilli": [
   "Vietnamese Coconut Caramel Chicken"
  ],
  "jasmine rice": [
+  "Pressure Cooker Thai Red Beef Curry",
   "Vietnamese Coconut Caramel Chicken"
  ],
  "arge chicken breasts": [
@@ -1409,6 +1719,7 @@
  ],
  "extra virgin olive oil": [
   "Chicken Francese",
+  "Instant Pot Hummus Recipe",
   "Lemon Chicken Salad"
  ],
  "emon": [
@@ -1423,6 +1734,7 @@
   "Chicken Francese"
  ],
  "red curry paste": [
+  "Pressure Cooker Thai Red Beef Curry",
   "Red Curry Shrimp",
   "Thai Red Curry"
  ],
@@ -1484,9 +1796,12 @@
   "Chicken Pot Pie",
   "Chinese Beef with Honey and Black Pepper Sauce",
   "Coconut Lime Noodle Soup",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Northern-Style Pork Dumplings",
   "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
   "One Pot Greek Chicken Lemon Rice",
   "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)",
+  "Pressure Cooker Kielbasa and Sauerkraut",
   "Slow Cooker Posole",
   "Spicy Firecracker Beef",
   "Thai Coconut Soup with Chicken and Shrimp"
@@ -1496,7 +1811,12 @@
  ],
  "medium onion": [
   "Chinese Beef with Honey and Black Pepper Sauce",
+  "Instant Pot 15 Bean Soup Recipe",
+  "Instant Pot Beef and Barley Soup",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Refried Beans",
   "Instant Pot Refried Black Beans",
+  "Pressure Cooker Thai Red Beef Curry",
   "Spicy Firecracker Beef"
  ],
  "4 dried red chili peppers": [
@@ -1531,7 +1851,9 @@
  ],
  "dry white wine": [
   "Chicken Pasta Recipe",
-  "Chicken Piccata"
+  "Chicken Piccata",
+  "Pressure Cooker Kielbasa and Sauerkraut",
+  "Ravioli with White Fish"
  ],
  "heavy/thickened cream": [
   "Chicken Pasta Recipe"
@@ -1552,6 +1874,51 @@
  ],
  "extra parmesan and parsley for garnish": [
   "Chicken Pasta Recipe"
+ ],
+ "s beef bones": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "pounds meaty beef shanks": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "head garlic": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "s celery": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "peppercorns": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "water to cover": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "celery": [
+  "Instant Pot Beef and Barley Soup",
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "carrot": [
+  "Agnolotti with Brown Butter and Sage",
+  "Instant Pot Beef and Barley Soup",
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "boneless beef chuck steak": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "pearl barley": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "quartsof browned beef broth from above": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "ounce can diced tomatoes": [
+  "Instant Pot Beef and Barley Soup"
+ ],
+ "teaspoonsfine sea salt": [
+  "Instant Pot Beef and Barley Soup",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
  ],
  "all purpose flour": [
   "Christmas Tree Cake"
@@ -1597,25 +1964,33 @@
  ],
  "ancho chili powder": [
   "Fall Apart Mexican Beef Ribs",
+  "Instant Pot Beef Ribs Recipe",
   "Mexican Shredded Beef Ribs"
  ],
  "ground cumin": [
   "Beef Satay with Thai Peanut Sauce",
   "Chicken Shawarma (Middle Eastern)",
   "Chili Con Carne Corn Bread Pie",
+  "Cincinnati Chili (Instant Pot) Recipe",
   "Doner Kebab Meat (Beef or Lamb)",
   "Fall Apart Mexican Beef Ribs",
+  "Goan Crab Curry",
   "Greek Meatballs",
   "Greek Meatballs (Keftedes)",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Quick Chili Verde",
   "Massaman Curry",
   "Mexican Shredded Beef Ribs",
   "Moroccan Baked Eggplant with Beef",
-  "Nachos Pie"
+  "Nachos Pie",
+  "Thai Fish Curry"
  ],
  "ground cinnamon": [
   "Amish-Style Apple and Cinnamon Baked Oatmeal",
   "Caramel Apple Cake",
   "Carrot Cake with Walnuts",
+  "Cincinnati Chili (Instant Pot) Recipe",
   "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
   "Fall Apart Mexican Beef Ribs",
   "Massaman Curry",
@@ -1689,7 +2064,11 @@
   "Lemon Cheesecake",
   "Oreo Cheesecake",
   "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Ravioli with White Fish",
+  "Sauce au Poivre",
   "Turtle Cheesecake",
+  "Venison Steak Diane",
+  "Vension Stroganoff with Spatzle",
   "White Chocolate Raspberry Truffle Cheesecake"
  ],
  "b  powdered sugar": [
@@ -1721,10 +2100,32 @@
   "White Chocolate Raspberry Truffle Cheesecake"
  ],
  "warm water": [
-  "Easy Rustic Crusty Bread"
+  "Easy Rustic Crusty Bread",
+  "Sardinian Hare Stew"
  ],
  "unbleached all-purpose flour": [
-  "Easy Rustic Crusty Bread"
+  "Easy Rustic Crusty Bread",
+  "Ravioli with White Fish"
+ ],
+ "inch piece ginger": [
+  "Instant Pot Coconut Curry Chicken Recipe"
+ ],
+ "ounce can unsweetened coconut milk": [
+  "Instant Pot Coconut Curry Chicken Recipe"
+ ],
+ "sthai red curry paste": [
+  "Instant Pot Coconut Curry Chicken Recipe"
+ ],
+ "s boneless skinless chicken thighs": [
+  "Instant Pot Coconut Curry Chicken Recipe"
+ ],
+ "juice of1 lime": [
+  "Instant Pot Coconut Curry Chicken Recipe",
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "minced cilantro for garnish": [
+  "Instant Pot Coconut Curry Chicken Recipe",
+  "Instant Pot Green Chile Stew"
  ],
  "**crust:** 3 cups shredded hash browns": [
   "Hash Brown Veggie Egg Cups"
@@ -1734,6 +2135,77 @@
  ],
  "**eggs:** 8 eggs": [
   "Hash Brown Veggie Egg Cups"
+ ],
+ "finely diced onion": [
+  "Chicken Pot Pie"
+ ],
+ "finely diced carrot": [
+  "Chicken Pot Pie"
+ ],
+ "finely diced celery": [
+  "Chicken Pot Pie"
+ ],
+ "shredded cooked chicken or turkey": [
+  "Chicken Pot Pie"
+ ],
+ "low-sodium chicken broth": [
+  "Chicken Pot Pie",
+  "Jambalaya Recipe"
+ ],
+ "turmericsalt and pepper": [
+  "Chicken Pot Pie"
+ ],
+ "half-and-half or cream1 unbaked pie crust1 egg": [
+  "Chicken Pot Pie"
+ ],
+ "dry red kidney beans": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "quartswater": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "ground coriander": [
+  "Beef Satay with Thai Peanut Sauce",
+  "Chicken Shawarma (Middle Eastern)",
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Doner Kebab Meat (Beef or Lamb)",
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Green Chile Stew",
+  "Instant Pot Quick Chili Verde",
+  "Massaman Curry",
+  "Moroccan Baked Eggplant with Beef",
+  "Thai Fish Curry"
+ ],
+ "cocoa powder": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "ground allspice": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "pounds ground beef": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "to 16-ounce can crushed tomatoes": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "cider vinegar": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "dry spaghetti": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "ounces finely shredded cheddar cheese": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "minced onions": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "oyster crackers": [
+  "Cincinnati Chili (Instant Pot) Recipe"
+ ],
+ "hot sauce": [
+  "Cincinnati Chili (Instant Pot) Recipe",
+  "Nachos Pie"
  ],
  "small yellow bell pepper": [
   "Red Curry Shrimp"
@@ -1746,6 +2218,36 @@
  "thai red chilies": [
   "Red Curry Shrimp"
  ],
+ "sbutter": [
+  "Instant Pot Mushroom Risotto Recipe",
+  "Instant Pot Shrimp Risotto Recipe",
+  "Vension Stroganoff with Spatzle"
+ ],
+ "svenison backstrap": [
+  "Vension Stroganoff with Spatzle"
+ ],
+ "arge shallots": [
+  "Vension Stroganoff with Spatzle"
+ ],
+ "sliced cremini or button mushrooms": [
+  "Vension Stroganoff with Spatzle"
+ ],
+ "sliced shiitake mushrooms": [
+  "Vension Stroganoff with Spatzle"
+ ],
+ "schopped fresh dill": [
+  "Vension Stroganoff with Spatzle"
+ ],
+ "madeira wine or sherry": [
+  "Vension Stroganoff with Spatzle"
+ ],
+ "our cream": [
+  "German Rabbit Stew",
+  "Vension Stroganoff with Spatzle"
+ ],
+ "dill pollen to garnish": [
+  "Vension Stroganoff with Spatzle"
+ ],
  "salt + black pepper": [
   "Mexican Chicken Avocado Salad",
   "Oven Baked Chicken Quesadillas"
@@ -1754,9 +2256,12 @@
   "Mexican Chicken Avocado Salad"
  ],
  "chipotle powder": [
-  "Mexican Chicken Avocado Salad"
+  "Mexican Chicken Avocado Salad",
+  "Venison Tacos"
  ],
  "oregano": [
+  "Instant Pot Birria Tacos Recipe",
+  "Instant Pot Quick Chili Verde",
   "Mexican Chicken Avocado Salad",
   "Nachos Pie"
  ],
@@ -1788,11 +2293,61 @@
  "dried fennel seeds **": [
   "Instant Pot Refried Black Beans"
  ],
- "fine sea salt": [
-  "Instant Pot Refried Black Beans"
- ],
  "chipotle en adobo with sauce": [
   "Instant Pot Refried Black Beans"
+ ],
+ "svenison backstrap or leg meat": [
+  "Greek Souvlaki"
+ ],
+ "zest of a lemon": [
+  "Greek Souvlaki"
+ ],
+ "sdried oregano": [
+  "Greek Souvlaki"
+ ],
+ "sdried thyme": [
+  "Greek Souvlaki"
+ ],
+ "sblack pepper": [
+  "Greek Souvlaki"
+ ],
+ "cottontail rabbits or 1 domestic rabbit": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "medium red onions": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "schopped garlic": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "allspice berries": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "cinnamon stick": [
+  "Beef Rendang",
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "stomato paste": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "arge tomatoes": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "weet red wine": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "chicken or rabbit stock": [
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "red wine vinegar": [
+  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
+  "Greek Rabbit Stew. Kouneli Stifado"
+ ],
+ "freshly ground black pepper": [
+  "Greek Rabbit Stew. Kouneli Stifado",
+  "Grilled Whole Fish",
+  "Pan Seared Venison Tenderloin",
+  "Penne with Roasted Asparagus and Balsamic Butter"
  ],
  "butterscotch sauce": [
   "Butterscotch Cake"
@@ -1811,9 +2366,6 @@
  ],
  "coarse kosher salt": [
   "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
-  "Penne with Roasted Asparagus and Balsamic Butter"
- ],
- "freshly ground black pepper": [
   "Penne with Roasted Asparagus and Balsamic Butter"
  ],
  "balsamic vinegar": [
@@ -1835,6 +2387,12 @@
  "to \u00bd cup freshly grated parmesan cheese": [
   "Penne with Roasted Asparagus and Balsamic Butter"
  ],
+ "svenison flank": [
+  "Venison Tacos"
+ ],
+ "vegetable oil to coat": [
+  "Venison Tacos"
+ ],
  "shallots": [
   "Peppercorn Sauce"
  ],
@@ -1845,7 +2403,8 @@
   "Peppercorn Sauce"
  ],
  "salt to taste": [
-  "Peppercorn Sauce"
+  "Peppercorn Sauce",
+  "Ravioli with White Fish"
  ],
  "cornstarch / cornflour": [
   "Chinese Cashew Chicken"
@@ -1949,6 +2508,15 @@
  "panko breadcrumbs": [
   "Moussaka (Greek Beef and Eggplant Bake)"
  ],
+ "svenison backstrap or loin": [
+  "Belgian Venison Medallions"
+ ],
+ "slard or butter": [
+  "Belgian Venison Medallions"
+ ],
+ "pomegranate seeds for garnish": [
+  "Belgian Venison Medallions"
+ ],
  "1 lb beef mince": [
   "Chili Con Carne Corn Bread Pie",
   "Family Meat Pie",
@@ -2032,6 +2600,27 @@
  ],
  "squid": [
   "Thai Basil Squid"
+ ],
+ "ounce bag 15 bean soup mix": [
+  "Instant Pot 15 Bean Soup Recipe"
+ ],
+ "water for soaking": [
+  "Instant Pot 15 Bean Soup Recipe"
+ ],
+ "sfine sea salt for soaking": [
+  "Instant Pot 15 Bean Soup Recipe"
+ ],
+ "andouille sausage": [
+  "Instant Pot 15 Bean Soup Recipe"
+ ],
+ "rib celery": [
+  "Instant Pot 15 Bean Soup Recipe"
+ ],
+ "scajun seasoning": [
+  "Instant Pot 15 Bean Soup Recipe"
+ ],
+ "ounce can diced tomatoes with green chilies": [
+  "Instant Pot 15 Bean Soup Recipe"
  ],
  "oreo cookies": [
   "Oreo Cheesecake"
@@ -2119,9 +2708,6 @@
  "b  chuck steak": [
   "Beef Rendang"
  ],
- "cinnamon stick": [
-  "Beef Rendang"
- ],
  "clove powder": [
   "Beef Rendang"
  ],
@@ -2142,10 +2728,6 @@
  ],
  "desiccated  coconut": [
   "Beef Rendang"
- ],
- "chili powder": [
-  "Chili Con Carne Corn Bread Pie",
-  "Nachos Pie"
  ],
  "smoked paprika": [
   "Chicken Shawarma (Middle Eastern)",
@@ -2175,9 +2757,6 @@
  "diced avocado": [
   "Nachos Pie"
  ],
- "hot sauce": [
-  "Nachos Pie"
- ],
  "arge boneless": [
   "Chicken au Poivre (Creamy Peppercorn Sauce)",
   "French Chicken au Poivre Sauce"
@@ -2188,7 +2767,8 @@
  ],
  "whole black peppercorns": [
   "Chicken au Poivre (Creamy Peppercorn Sauce)",
-  "French Chicken au Poivre Sauce"
+  "French Chicken au Poivre Sauce",
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
  ],
  "brandy/cognac": [
   "Chicken au Poivre (Creamy Peppercorn Sauce)",
@@ -2196,6 +2776,48 @@
  ],
  "low sodium beef stock/broth": [
   "French Chicken au Poivre Sauce"
+ ],
+ "rotisserie chicken": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "juices from the rotisserie chicken container": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "fresh thyme": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
+  "Jambalaya Recipe",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "reen bell pepper": [
+  "Chinese Beef with Honey and Black Pepper Sauce",
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "rotisserie chicken broth": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "ouncessmoked sausage  sliced 1 inch thick": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "breast meat from the rotisserie chicken": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "to 16-ounce can diced tomatoes": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "fresh or frozen okra": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "long grain white rice": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup",
+  "Jambalaya Recipe",
+  "One Pot Greek Chicken Lemon Rice",
+  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
+ ],
+ "tabasco sauce": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
+ ],
+ "minced parsley": [
+  "Instant Pot Rotisserie Chicken Gumbo Soup"
  ],
  "14oz fettuccine pasta": [
   "Creamy Chicken Mushroom Fettucine"
@@ -2248,6 +2870,39 @@
  ],
  "whole cloves for studding": [
   "Sweet Baked Ham"
+ ],
+ "tenderloins from a deeror 1/2 pound venison backstrap": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "sclarified butter": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "ouncedried mushrooms": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "venison stock or beef stock": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "blueberries or huckleberries": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "fresh rosemaryminced": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "black pepper to taste": [
+  "Classic White Clam Sauce",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "One Pot Greek Chicken Lemon Rice",
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "malt or red wine vinegarto taste": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "sugaroptional": [
+  "Venison with Blueberry Sauce and Colcannon"
+ ],
+ "to 1/2 pounds venison backstrap": [
+  "Cumberland Sauce with Venison"
  ],
  "chipotle peppers in adobo sauce": [
   "Fall Apart Mexican Beef Ribs"
@@ -2303,9 +2958,6 @@
  "mayonnaise": [
   "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
   "Creamy Cilantro Lime Dressing"
- ],
- "red wine vinegar": [
-  "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing"
  ],
  "dried parsley": [
   "Chopped Greek Chicken Salad with Pita Croutons and Tzatziki Dressing",
@@ -2378,6 +3030,40 @@
   "Qeema \u2013 Easy Indian Curried Beef Mince",
   "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
  ],
+ "shells and tails from 8 ounces of shrimp": [
+  "Instant Pot Shrimp Risotto Recipe"
+ ],
+ "sextra virgin olive oil": [
+  "Classic White Clam Sauce",
+  "Instant Pot Shrimp Risotto Recipe"
+ ],
+ "medium shallot": [
+  "Instant Pot Shrimp Risotto Recipe"
+ ],
+ "arborio rice": [
+  "Instant Pot Mushroom Risotto Recipe",
+  "Instant Pot Shrimp Risotto Recipe",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "white wine": [
+  "Chicken Pot Pie",
+  "Chicken and Mushroom Risotto",
+  "Chicken with Creamy Sun Dried Tomato Sauce",
+  "Classic White Clam Sauce",
+  "Instant Pot Mushroom Risotto Recipe",
+  "Instant Pot Shrimp Risotto Recipe",
+  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+  "Ravioli with White Fish"
+ ],
+ "shrimp broth": [
+  "Instant Pot Shrimp Risotto Recipe"
+ ],
+ "ouncesraw peeled shrimp": [
+  "Instant Pot Shrimp Risotto Recipe"
+ ],
+ "sminced parsley": [
+  "Instant Pot Shrimp Risotto Recipe"
+ ],
  "**salad:** 16 oz baby spinach": [
   "Amazing Spinach Salad with Apples, Bacon and Feta"
  ],
@@ -2386,6 +3072,51 @@
  ],
  "hummus": [
   "Greek Meatballs"
+ ],
+ "svenison steaks": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "wild rice": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "venison or beef stock": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "mushrooms": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "chopped hazelnuts": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "cranberriesor 1/4 cup craisins": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "fuyu persimmon": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "squash seed oil": [
+  "Venison Steak with Wild Rice Pilaf"
+ ],
+ "heads    garlic": [
+  "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)"
+ ],
+ "imes": [
+  "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)"
+ ],
+ "white vinegar": [
+  "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)",
+  "Carne Asada",
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "white sugar": [
+  "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)"
+ ],
+ "chili-garlic sauce": [
+  "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)"
+ ],
+ "cold water": [
+  "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)",
+  "Instant Pot Birria Tacos Recipe"
  ],
  "fine cornmeal": [
   "Chili Con Carne Corn Bread Pie"
@@ -2406,6 +3137,31 @@
  "\u20133 large tart sweet apples": [
   "Amish-Style Apple and Cinnamon Baked Oatmeal"
  ],
+ "piece of venison backstrapor tenderloin": [
+  "Venison Steak Diane"
+ ],
+ "sgarlic": [
+  "Sardinian Hare Stew",
+  "Venison Steak Diane"
+ ],
+ "brandy": [
+  "Chicken Chasseur",
+  "Sauce au Poivre",
+  "Venison Steak Diane"
+ ],
+ "venison stock or beef broth": [
+  "Venison Steak Diane"
+ ],
+ "sworcestershire sauce": [
+  "Greek Honeyed Fish",
+  "Venison Steak Diane"
+ ],
+ "mustard": [
+  "Venison Steak Diane"
+ ],
+ "minced herbs for garnish": [
+  "Venison Steak Diane"
+ ],
  "cornflour/cornstarch or 2 tbsp uncooked rice": [
   "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)"
  ],
@@ -2423,13 +3179,6 @@
  ],
  "2 lb beef mince": [
   "Doner Kebab Meat (Beef or Lamb)"
- ],
- "ground coriander": [
-  "Beef Satay with Thai Peanut Sauce",
-  "Chicken Shawarma (Middle Eastern)",
-  "Doner Kebab Meat (Beef or Lamb)",
-  "Massaman Curry",
-  "Moroccan Baked Eggplant with Beef"
  ],
  "warm pide or flatbread": [
   "Doner Kebab Meat (Beef or Lamb)"
@@ -2453,6 +3202,7 @@
   "White Chocolate Raspberry Truffle Cheesecake"
  ],
  "egg yolk": [
+  "Fried Fish Tacos",
   "White Chocolate Raspberry Truffle Cheesecake"
  ],
  "chopped real white chocolate": [
@@ -2470,6 +3220,21 @@
  "dditional raspberry jam or puree": [
   "White Chocolate Raspberry Truffle Cheesecake"
  ],
+ "to 2 pounds of your favorite fish": [
+  "Fried Fish Tacos"
+ ],
+ "to 6 cups vegetable oil for cooking": [
+  "Fried Fish Tacos"
+ ],
+ "rice flour or all-purpose flour": [
+  "Fried Fish Tacos"
+ ],
+ "corn starch": [
+  "Fried Fish Tacos"
+ ],
+ "ice cold sparkling water": [
+  "Fried Fish Tacos"
+ ],
  "can black beans": [
   "Easy Cowboy Caviar Dip (Shrapnel Dip)"
  ],
@@ -2478,6 +3243,92 @@
  ],
  "3 tbsp chopped cilantro": [
   "Easy Cowboy Caviar Dip (Shrapnel Dip)"
+ ],
+ "steaks": [
+  "Sauce au Poivre"
+ ],
+ "minced shallot": [
+  "Sauce au Poivre",
+  "Thai Fish Curry"
+ ],
+ "demi glace or glace de viande": [
+  "Sauce au Poivre"
+ ],
+ "roughly cracked black peppercorns": [
+  "Sauce au Poivre"
+ ],
+ "to 2 tablespoonsgreen peppercorns": [
+  "Sauce au Poivre"
+ ],
+ "cottontail rabbits or squirrelsor 1 domestic rabbit": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "3 inch piece of ginger": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "ssoy sauce": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "roasted": [
+  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "scallions": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "sblack bean paste": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "speanut oil or lard": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "schile bean paste": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "ssesame oil": [
+  "Sichuan Rabbit with Peanuts"
+ ],
+ "ouncesvenison tenderloin": [
+  "Pan Seared Venison Tenderloin"
+ ],
+ "tablesponssafflower oil": [
+  "Pan Seared Venison Tenderloin"
+ ],
+ "*for the filling:**": [
+  "Ravioli with White Fish"
+ ],
+ "s unsalted butter": [
+  "Ravioli with White Fish"
+ ],
+ "finely minced shallots or yellow onions": [
+  "Ravioli with White Fish"
+ ],
+ "white fish fillets": [
+  "Ravioli with White Fish"
+ ],
+ "fresh spinach": [
+  "Ravioli with White Fish"
+ ],
+ "finely minced fresh mint": [
+  "Ravioli with White Fish"
+ ],
+ "chopped fresh parsley": [
+  "Ravioli with White Fish"
+ ],
+ "ricotta": [
+  "Ravioli with White Fish"
+ ],
+ "*for the sauce:**": [
+  "Ravioli with White Fish"
+ ],
+ "canned italian plum tomatoes with their juice": [
+  "Ravioli with White Fish"
+ ],
+ "*for the ravioli dough:**": [
+  "Ravioli with White Fish"
+ ],
+ "extra-large eggs": [
+  "Ravioli with White Fish"
  ],
  "s galangal": [
   "Thai Coconut Soup with Chicken and Shrimp",
@@ -2534,6 +3385,7 @@
   "Easy Key Lime Pie"
  ],
  "arge garlic clove": [
+  "Elk Tenderloin with Ancho Sauce",
   "Lemon Chicken Salad"
  ],
  "arge chicken breast  or 2 boneless skinless chicken thighs": [
@@ -2608,6 +3460,15 @@
  "miniature peanut butter cups": [
   "Chocolate Peanut Butter Cake"
  ],
+ "ounceslight meat": [
+  "Agnolotti with Brown Butter and Sage"
+ ],
+ "herry or white wine": [
+  "Agnolotti with Brown Butter and Sage"
+ ],
+ "quartbroth": [
+  "Agnolotti with Brown Butter and Sage"
+ ],
  "melted butter for brushing": [
   "Cheesy Garlic Drop Biscuits"
  ],
@@ -2615,9 +3476,6 @@
   "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
  ],
  "s brown sugar": [
-  "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
- ],
- "roasted": [
   "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust"
  ],
  "s  butter": [
@@ -2653,6 +3511,18 @@
  ],
  "can": [
   "Classic Baked Ziti (Mel's Kitchen Cafe)"
+ ],
+ "beef broth or chicken broth": [
+  "Instant Pot Green Chile Stew"
+ ],
+ "s red skin potatoes": [
+  "Instant Pot Green Chile Stew"
+ ],
+ "ounce can fire-roasted diced tomatoes": [
+  "Instant Pot Green Chile Stew"
+ ],
+ "ounces diced roasted green chiles": [
+  "Instant Pot Green Chile Stew"
  ],
  "thick veal osso buco steaks  \u2014 or beef": [
   "Osso Buco"
@@ -2698,9 +3568,6 @@
  "freshly cracked black pepper": [
   "Chinese Beef with Honey and Black Pepper Sauce"
  ],
- "reen bell pepper": [
-  "Chinese Beef with Honey and Black Pepper Sauce"
- ],
  "extra cracked black pepper": [
   "Chinese Beef with Honey and Black Pepper Sauce"
  ],
@@ -2716,8 +3583,41 @@
  "chinese broccoli": [
   "Crispy Shredded Chicken Noodle Stir Fry"
  ],
+ "to 2 pounds skinless firm fish": [
+  "Greek Honeyed Fish"
+ ],
+ "flour for dusting": [
+  "Greek Honeyed Fish"
+ ],
+ "2 shots of ouzo or other anise-flavored liqueur": [
+  "Greek Honeyed Fish"
+ ],
+ "schopped fresh oregano": [
+  "Greek Honeyed Fish"
+ ],
+ "lots of freshly ground black pepper": [
+  "Greek Honeyed Fish"
+ ],
+ "dried pinto beans": [
+  "Instant Pot Quick Chili Verde"
+ ],
+ "s ground pork": [
+  "Instant Pot Quick Chili Verde"
+ ],
+ "ouncescanned diced green chiles": [
+  "Instant Pot Quick Chili Verde"
+ ],
+ "ouncesstore-boughtsalsa verdeortomatillo salsa": [
+  "Instant Pot Quick Chili Verde"
+ ],
  "instant yeast": [
   "Overnight Cinnamon and Sugar Sweet Rolls"
+ ],
+ "catfish filletsor skinless fillets of other fish": [
+  "Blackened Catfish with Maque Choux"
+ ],
+ "cajun seasoning": [
+  "Blackened Catfish with Maque Choux"
  ],
  "fettuccine or other long strand pasta": [
   "Creamy Chicken and Bacon Pasta"
@@ -2760,12 +3660,6 @@
   "Chicken Chasseur",
   "Chicken and Mushroom Risotto"
  ],
- "white wine": [
-  "Chicken Pot Pie",
-  "Chicken and Mushroom Risotto",
-  "Chicken with Creamy Sun Dried Tomato Sauce",
-  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
- ],
  "1 1/4 cups arborio rice": [
   "Chicken and Mushroom Risotto"
  ],
@@ -2799,6 +3693,9 @@
  ],
  "7oz thin chow mein noodles": [
   "Chicken Chow Mein"
+ ],
+ "to8 bones of beef back ribs": [
+  "Instant Pot Beef Ribs Recipe"
  ],
  "arge eggplants": [
   "Moroccan Baked Eggplant with Beef"
@@ -2843,23 +3740,17 @@
  "sliced green onions": [
   "Jambalaya Recipe"
  ],
- "long grain white rice": [
-  "Jambalaya Recipe",
-  "One Pot Greek Chicken Lemon Rice",
-  "Oven Baked Chicken and Rice Pilaf (Cranberry Walnut Apple)"
- ],
- "low-sodium chicken broth": [
-  "Jambalaya Recipe"
- ],
  "crushed canned tomato": [
   "Jambalaya Recipe"
  ],
- "fresh thyme": [
-  "Jambalaya Recipe",
-  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
- ],
  "sweet paprika": [
   "Jambalaya Recipe"
+ ],
+ "ounces dried pinto beans": [
+  "Instant Pot Refried Beans"
+ ],
+ "of cooked pinto beans and their cooking liquid": [
+  "Instant Pot Refried Beans"
  ],
  "dried red chillies": [
   "Massaman Curry"
@@ -2911,20 +3802,38 @@
  "**frosting:** 8 oz cream cheese": [
   "Moist Pumpkin Cake with Cream Cheese Frosting"
  ],
- "white vinegar": [
-  "Carne Asada"
- ],
  "1.2kg / 1.5-2.5lb skirt or flank steak": [
   "Carne Asada"
  ],
  "**for tacos:** tortillas": [
   "Carne Asada"
  ],
- "zest + 4 tbsp juice from 1\u20132 lemons": [
-  "One Pot Greek Chicken Lemon Rice"
+ "inch piece of ginger": [
+  "Pressure Cooker Thai Red Beef Curry"
  ],
- "black pepper to taste": [
-  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken",
+ "cream from the top of a  can of coconut milk": [
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "s flat iron steak": [
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "the rest of the liquid from the can of coconut milk": [
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "ounce can bamboo shoots": [
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "thai fish sauce": [
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "minced cilantro": [
+  "Instant Pot Birria Tacos Recipe",
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "minced basil": [
+  "Pressure Cooker Thai Red Beef Curry"
+ ],
+ "zest + 4 tbsp juice from 1\u20132 lemons": [
   "One Pot Greek Chicken Lemon Rice"
  ],
  "fresh parsley or oregano": [
@@ -2982,9 +3891,6 @@
  "14oz white mushrooms": [
   "Chicken Chasseur"
  ],
- "brandy": [
-  "Chicken Chasseur"
- ],
  "fresh tarragon": [
   "Chicken Chasseur"
  ],
@@ -3012,6 +3918,30 @@
  ],
  "natural unsweetened cocoa powder": [
   "Chocolate Cheesecake"
+ ],
+ "cottontail rabbits": [
+  "German Rabbit Stew"
+ ],
+ "sflour": [
+  "German Rabbit Stew"
+ ],
+ "to 2 cups chicken stock": [
+  "German Rabbit Stew"
+ ],
+ "zest of a lemonwhite pith removed": [
+  "German Rabbit Stew"
+ ],
+ "to 3 bay leaves": [
+  "German Rabbit Stew"
+ ],
+ "scapers": [
+  "German Rabbit Stew"
+ ],
+ "white wine to taste": [
+  "German Rabbit Stew"
+ ],
+ "parsley for garnish": [
+  "German Rabbit Stew"
  ],
  "cups  graham cracker crumbs": [
   "Key Lime Cheesecake {No-Cracking!}"
@@ -3070,6 +4000,33 @@
  ],
  "5 cups powdered sugar": [
   "Carrot Cake with Walnuts"
+ ],
+ "of rau ram or cilantro": [
+  "Thai Fish Curry"
+ ],
+ "juice and zest of 2 limes": [
+  "Thai Fish Curry"
+ ],
+ "medium dried shrimp": [
+  "Thai Fish Curry"
+ ],
+ "sminced galangal or ginger": [
+  "Thai Fish Curry"
+ ],
+ "lots of green chilessee below": [
+  "Thai Fish Curry"
+ ],
+ "ouncesof baby portobello mushrooms": [
+  "Instant Pot Mushroom Risotto Recipe"
+ ],
+ "homemadevegetableorchicken broth": [
+  "Instant Pot Mushroom Risotto Recipe"
+ ],
+ "grated parmesan cheese": [
+  "Instant Pot Mushroom Risotto Recipe"
+ ],
+ "chopped fresh parsley for garnish": [
+  "Instant Pot Mushroom Risotto Recipe"
  ],
  "1.3 lbs beef sirloin or flank steak": [
   "Beef Satay with Thai Peanut Sauce"
@@ -3143,6 +4100,21 @@
  "kalamata olives": [
   "Chicken Cacciatore (Italian Chicken Stew)"
  ],
+ "to 30 smallhardshell clams": [
+  "Classic White Clam Sauce"
+ ],
+ "red pepper flakes": [
+  "Classic White Clam Sauce"
+ ],
+ "linguine": [
+  "Classic White Clam Sauce"
+ ],
+ "arge fresh plum tomato": [
+  "Classic White Clam Sauce"
+ ],
+ "sfresh basil": [
+  "Classic White Clam Sauce"
+ ],
  "fresh lime or lemon juice": [
   "Avocado Chicken Salad"
  ],
@@ -3164,6 +4136,12 @@
  "feta cheese": [
   "Avocado Chicken Salad"
  ],
+ "ounces dry black beans": [
+  "Instant Pot Refried Black Beans"
+ ],
+ "dried fennel seeds or1 sprig fresh epazote": [
+  "Instant Pot Refried Black Beans"
+ ],
  "chocolate sandwich cookies": [
   "Turtle Cheesecake"
  ],
@@ -3182,6 +4160,15 @@
  "caramel sauce": [
   "Turtle Cheesecake"
  ],
+ "arge white onion": [
+  "Elk Tenderloin with Ancho Sauce"
+ ],
+ "slard": [
+  "Elk Tenderloin with Ancho Sauce"
+ ],
+ "or 4 dried ancho chiles": [
+  "Elk Tenderloin with Ancho Sauce"
+ ],
  "3 lbs pork roast": [
   "Slow Cooker Posole"
  ],
@@ -3190,6 +4177,75 @@
  ],
  "jar  salsa verde": [
   "Slow Cooker Posole"
+ ],
+ "2 hares or rabbits": [
+  "Sardinian Hare Stew"
+ ],
+ "capers": [
+  "Sardinian Hare Stew"
+ ],
+ "large pinch saffron": [
+  "Sardinian Hare Stew"
+ ],
+ "high-quality red wine vinegar": [
+  "Sardinian Hare Stew"
+ ],
+ "crabmeat": [
+  "Goan Crab Curry"
+ ],
+ "coriander seeds": [
+  "Goan Crab Curry"
+ ],
+ "black peppercorns": [
+  "Goan Crab Curry"
+ ],
+ "cardamom pods": [
+  "Goan Crab Curry"
+ ],
+ "turmeric": [
+  "Goan Crab Curry"
+ ],
+ "sfenugreek": [
+  "Goan Crab Curry"
+ ],
+ "vegetable oil or clarified butter": [
+  "Goan Crab Curry"
+ ],
+ "3 small fresh chiles": [
+  "Goan Crab Curry"
+ ],
+ "sfresh ginger": [
+  "Goan Crab Curry"
+ ],
+ "ouncecan of coconut milk": [
+  "Goan Crab Curry"
+ ],
+ "grated coconut": [
+  "Goan Crab Curry"
+ ],
+ "heaping tablespoon tamarind paste": [
+  "Goan Crab Curry"
+ ],
+ "bok choy": [
+  "Northern-Style Pork Dumplings"
+ ],
+ "lean boneless pork": [
+  "Northern-Style Pork Dumplings"
+ ],
+ "grated fresh ginger root": [
+  "Northern-Style Pork Dumplings"
+ ],
+ "chinese rice wine": [
+  "Northern-Style Pork Dumplings"
+ ],
+ "sesame seed oil": [
+  "Northern-Style Pork Dumplings"
+ ],
+ "s peanut or vegetable oil": [
+  "Northern-Style Pork Dumplings"
+ ],
+ "soy sauce combined with 2 tablespoons white vinegar": [
+  "Northern-Style Pork Dumplings"
  ],
  "2 lb boneless chicken thighs": [
   "Vietnamese Caramel Ginger Chicken"
@@ -3315,11 +4371,35 @@
  "\u20133 tbsp lemon pepper seasoning": [
   "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
  ],
- "arborio rice": [
-  "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
- ],
  "to 1 cup milk": [
   "One Pot Creamy Parmesan Garlic Risotto with Lemon Pepper Chicken"
+ ],
+ "ancho chiles": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "uajillo chiles": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "plum tomatoes": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "dobo": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "bone-in beef short ribs": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "s boneless beef chuck": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "corn tortillas": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "shredded monterey jack": [
+  "Instant Pot Birria Tacos Recipe"
+ ],
+ "diced onion": [
+  "Instant Pot Birria Tacos Recipe"
  ],
  "b / 500g boneless skinless chicken thighs": [
   "One Pot Baked Greek Chicken Orzo Risoni"
@@ -3356,6 +4436,15 @@
  ],
  "cornflakes": [
   "Cheesy Funeral Potatoes {Au Gratin Potatoes}"
+ ],
+ "to 2 poundsvenison loin": [
+  "Grilled Venison Steaks"
+ ],
+ "your favorite sauce": [
+  "Grilled Venison Steaks"
+ ],
+ "or 2 whole fish": [
+  "Grilled Whole Fish"
  ],
  "**dry:** 3 cups  flour": [
   "Gingerbread Cake"
@@ -3402,6 +4491,27 @@
  ],
  "s scallions": [
   "Pad Woon Sen Noodles (with Crab)"
+ ],
+ "dried chickpeas": [
+  "Instant Pot Hummus Recipe"
+ ],
+ "cans chickpeas": [
+  "Instant Pot Hummus Recipe"
+ ],
+ "medium cloves garlic": [
+  "Instant Pot Hummus Recipe"
+ ],
+ "chickpea cooking liquid": [
+  "Instant Pot Hummus Recipe"
+ ],
+ "juice of1 lemon": [
+  "Instant Pot Hummus Recipe"
+ ],
+ "tahini": [
+  "Instant Pot Hummus Recipe"
+ ],
+ "smoked spanish paprika": [
+  "Instant Pot Hummus Recipe"
  ],
  "can pumpkin puree": [
   "Amazing Crustless Pumpkin Pie Cupcakes"
@@ -3502,5 +4612,17 @@
  ],
  "**whipped cream:** 1 1/2 cups heavy cream": [
   "Heavenly Raspberry Cream Angel Food Cake Dessert"
+ ],
+ "kielbasa or smoked sausage": [
+  "Pressure Cooker Kielbasa and Sauerkraut"
+ ],
+ "apple": [
+  "Pressure Cooker Kielbasa and Sauerkraut"
+ ],
+ "juniper berries": [
+  "Pressure Cooker Kielbasa and Sauerkraut"
+ ],
+ "s sauerkraut": [
+  "Pressure Cooker Kielbasa and Sauerkraut"
  ]
 }

@@ -98,6 +98,16 @@
    "size": 966
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "name": "Buffalo Chicken Dip",
+   "file": "recipes/Buffalo-Chicken-Dip-browneyedbaker.md"
+  },
+  {
    "name": "Caramelised Vietnamese Shredded Beef",
    "file": "recipes/caramelised_vietnamese_shredded_beef.md",
    "cuisines": [
@@ -164,6 +174,16 @@
    "size": 3487
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill"
+   ],
+   "name": "Grilled Thin Pork Chops, Quick Brinerated",
+   "file": "recipes/Grilled-Thin-Pork-Chops-Quick-Brinerated-dadcooksdinner.md"
+  },
+  {
    "name": "Sichuan Green Beans",
    "file": "recipes/rasa_sichuan_green_beans.md",
    "cuisines": [],
@@ -193,6 +213,17 @@
    "has_full_content": true,
    "url": "https://www.recipetineats.com/one-pot-chicken-enchilada-rice-casserole/)",
    "size": 2617
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill",
+    "roast"
+   ],
+   "name": "Chimichurri with Grilled Venison",
+   "file": "recipes/Chimichurri-with-Grilled-Venison-honestfood.md"
   },
   {
    "name": "Decadent Chocolate Cheesecake",
@@ -238,6 +269,20 @@
    "has_full_content": true,
    "url": "https://www.melskitchencafe.com/lemonies/)",
    "size": 2653
+  },
+  {
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "roast",
+    "saute"
+   ],
+   "name": "Pressure Cooker Texas Red Chili Recipe",
+   "file": "recipes/Pressure-Cooker-Texas-Red-Chili-Recipe-dadcooksdinner.md"
   },
   {
    "name": "Mapo Tofu",
@@ -432,6 +477,16 @@
    "size": 2071
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "name": "Grandma\u2019s Banana Nut Bread",
+   "file": "recipes/Grandmas-Banana-Nut-Bread-browneyedbaker.md"
+  },
+  {
    "name": "Easy Homemade French Bread",
    "file": "recipes/mels-kitchen-cafe_french-bread.md",
    "cuisines": [
@@ -514,6 +569,16 @@
    "size": 3925
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "name": "My Favorite White Bread Recipe",
+   "file": "recipes/My-Favorite-White-Bread-Recipe-browneyedbaker.md"
+  },
+  {
    "name": "New Orleans Chicken Wings",
    "file": "recipes/new_orleans_chicken_wings.md",
    "cuisines": [
@@ -559,6 +624,16 @@
    "has_full_content": true,
    "url": "https://preppykitchen.com/blueberry-lemon-cake/)",
    "size": 2614
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Hank\u2019s Venison Marinade",
+   "file": "recipes/Hanks-Venison-Marinade-honestfood.md"
   },
   {
    "name": "Vietnamese Coconut Caramel Chicken",
@@ -689,6 +764,17 @@
    "size": 2307
   },
   {
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "roast",
+    "saute"
+   ],
+   "name": "Instant Pot Beef and Barley Soup",
+   "file": "recipes/Instant-Pot-Beef-and-Barley-Soup-dadcooksdinner.md"
+  },
+  {
    "name": "Christmas Tree Cake",
    "file": "recipes/christmas_tree_cake.md",
    "cuisines": [],
@@ -811,6 +897,19 @@
    "size": 1462
   },
   {
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Coconut Curry Chicken Recipe",
+   "file": "recipes/Instant-Pot-Coconut-Curry-Chicken-Recipe-dadcooksdinner.md"
+  },
+  {
    "name": "Hash Brown Veggie Egg Cups",
    "file": "recipes/mels_hash_brown_egg_cups.md",
    "cuisines": [],
@@ -823,6 +922,32 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/hash-brown-veggie-egg-cups/)",
    "size": 1306
+  },
+  {
+   "name": "Chicken Pot Pie",
+   "file": "recipes/chicken_pot_pie.md",
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "baked"
+   ],
+   "has_full_content": true,
+   "url": "https://www.recipetineats.com/chicken-pot-pie/)",
+   "size": 2357
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "pressure-cook"
+   ],
+   "name": "Cincinnati Chili (Instant Pot) Recipe",
+   "file": "recipes/Cincinnati-Chili-Instant-Pot-Recipe-dadcooksdinner.md"
   },
   {
    "name": "Red Curry Shrimp",
@@ -839,6 +964,17 @@
    "has_full_content": false,
    "url": "https://rasamalaysia.com/red-curry-shrimp/)",
    "size": 808
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute",
+    "simmer"
+   ],
+   "name": "Vension Stroganoff with Spatzle",
+   "file": "recipes/Vension-Stroganoff-with-Spatzle-honestfood.md"
   },
   {
    "name": "Mexican Chicken Avocado Salad",
@@ -858,7 +994,7 @@
   },
   {
    "name": "Instant Pot Refried Black Beans",
-   "file": "recipes/instant_pot_refried_black_beans.md",
+   "file": "recipes/Instant-Pot-Refried-Black-Beans-dadcooksdinner.md",
    "cuisines": [
     "mexican"
    ],
@@ -872,6 +1008,32 @@
    "has_full_content": true,
    "url": "https://www.dadcooksdinner.com/pressure-cooker-refried-black-beans/)",
    "size": 3684
+  },
+  {
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill"
+   ],
+   "name": "Greek Souvlaki",
+   "file": "recipes/Greek-Souvlaki-honestfood.md"
+  },
+  {
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "name": "Greek Rabbit Stew. Kouneli Stifado",
+   "file": "recipes/Greek-Rabbit-Stew-Kouneli-Stifado-honestfood.md"
   },
   {
    "name": "Butterscotch Cake",
@@ -918,6 +1080,17 @@
    "has_full_content": true,
    "url": "https://www.melskitchencafe.com/penne-with-roasted-asparagus-and-balsamic-butter/)",
    "size": 2716
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill",
+    "steam"
+   ],
+   "name": "Venison Tacos",
+   "file": "recipes/Venison-Tacos-honestfood.md"
   },
   {
    "name": "Peppercorn Sauce",
@@ -1015,6 +1188,16 @@
    "size": 2109
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute"
+   ],
+   "name": "Belgian Venison Medallions",
+   "file": "recipes/Belgian-Venison-Medallions-honestfood.md"
+  },
+  {
    "name": "Greek Meatballs (Keftedes)",
    "file": "recipes/greek_meatballs_keftedes.md",
    "cuisines": [
@@ -1078,6 +1261,17 @@
    "has_full_content": false,
    "url": "https://rasamalaysia.com/thai-squid-recipe/)",
    "size": 697
+  },
+  {
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "saute",
+    "steam"
+   ],
+   "name": "Instant Pot 15 Bean Soup Recipe",
+   "file": "recipes/Instant-Pot-15-Bean-Soup-Recipe-dadcooksdinner.md"
   },
   {
    "name": "Oreo Cheesecake",
@@ -1205,6 +1399,17 @@
    "size": 1955
   },
   {
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "steam",
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Rotisserie Chicken Gumbo Soup",
+   "file": "recipes/Instant-Pot-Rotisserie-Chicken-Gumbo-Soup-dadcooksdinner.md"
+  },
+  {
    "name": "Creamy Chicken Mushroom Fettucine",
    "file": "recipes/creamy_chicken_mushroom_fettucine.md",
    "cuisines": [
@@ -1279,6 +1484,38 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/sweet-baked-ham-the-most-unique-and-delicious-hive-ever-had/)",
    "size": 1171
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "steam",
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Hard-Boiled Eggs Recipe",
+   "file": "recipes/Instant-Pot-Hard-Boiled-Eggs-Recipe-dadcooksdinner.md"
+  },
+  {
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "saute",
+    "steam"
+   ],
+   "name": "Venison with Blueberry Sauce and Colcannon",
+   "file": "recipes/Venison-with-Blueberry-Sauce-and-Colcannon-honestfood.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute"
+   ],
+   "name": "Cumberland Sauce with Venison",
+   "file": "recipes/Cumberland-Sauce-with-Venison-honestfood.md"
   },
   {
    "name": "Fall Apart Mexican Beef Ribs",
@@ -1410,6 +1647,17 @@
    "size": 3625
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "steam",
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Shrimp Risotto Recipe",
+   "file": "recipes/Instant-Pot-Shrimp-Risotto-Recipe-dadcooksdinner.md"
+  },
+  {
    "name": "Amazing Spinach Salad with Apples, Bacon and Feta",
    "file": "recipes/mels_spinach_salad_sweet_spicy_nuts.md",
    "cuisines": [],
@@ -1442,6 +1690,29 @@
    "size": 2646
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute"
+   ],
+   "name": "Venison Steak with Wild Rice Pilaf",
+   "file": "recipes/Venison-Steak-with-Wild-Rice-Pilaf-honestfood.md"
+  },
+  {
+   "cuisines": [
+    "vietnamese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "100% Authentic Vietnamese Dipping Sauce (Nuoc Cham)",
+   "file": "recipes/100-Authentic-Vietnamese-Dipping-Sauce-Nuoc-Cham-foodcom.md"
+  },
+  {
    "name": "Chili Con Carne Corn Bread Pie",
    "file": "recipes/chili_con_carne_corn_bread_pie.md",
    "cuisines": [
@@ -1472,6 +1743,16 @@
    "has_full_content": true,
    "url": "https://www.melskitchencafe.com/amish-style-apple-and-cinnamon-baked-oatmeal/)",
    "size": 2932
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute"
+   ],
+   "name": "Venison Steak Diane",
+   "file": "recipes/Venison-Steak-Diane-honestfood.md"
   },
   {
    "name": "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
@@ -1521,6 +1802,16 @@
    "size": 3188
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "fried"
+   ],
+   "name": "Fried Fish Tacos",
+   "file": "recipes/Fried-Fish-Tacos-honestfood.md"
+  },
+  {
    "name": "Easy Cowboy Caviar Dip (Shrapnel Dip)",
    "file": "recipes/mels_amazing_shrapnel_dip.md",
    "cuisines": [
@@ -1535,6 +1826,50 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/amazing-shrapnel-dip/)",
    "size": 1376
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Sauce au Poivre",
+   "file": "recipes/Sauce-au-Poivre-honestfood.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry",
+    "roast"
+   ],
+   "name": "Sichuan Rabbit with Peanuts",
+   "file": "recipes/Sichuan-Rabbit-with-Peanuts-honestfood.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Pan Seared Venison Tenderloin",
+   "file": "recipes/Pan-Seared-Venison-Tenderloin-honestfood.md"
+  },
+  {
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Ravioli with White Fish",
+   "file": "recipes/Ravioli-with-White-Fish-cookbook.md"
   },
   {
    "name": "Thai Coconut Soup with Chicken and Shrimp",
@@ -1693,6 +2028,17 @@
    "size": 2804
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute",
+    "simmer"
+   ],
+   "name": "Agnolotti with Brown Butter and Sage",
+   "file": "recipes/Agnolotti-with-Brown-Butter-and-Sage-honestfood.md"
+  },
+  {
    "name": "Cheesy Garlic Drop Biscuits",
    "file": "recipes/mels_cheesy_garlic_drop_biscuits.md",
    "cuisines": [],
@@ -1737,6 +2083,17 @@
    "has_full_content": true,
    "url": "https://www.melskitchencafe.com/classic-baked-ziti/) | **Author:** Mel Gunnell",
    "size": 2716
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "roast",
+    "steam"
+   ],
+   "name": "Instant Pot Green Chile Stew",
+   "file": "recipes/Instant-Pot-Green-Chile-Stew-dadcooksdinner.md"
   },
   {
    "name": "Osso Buco",
@@ -1820,6 +2177,30 @@
    "size": 2555
   },
   {
+   "cuisines": [
+    "greek"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Greek Honeyed Fish",
+   "file": "recipes/Greek-Honeyed-Fish-honestfood.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "steam",
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Quick Chili Verde",
+   "file": "recipes/Instant-Pot-Quick-Chili-Verde-dadcooksdinner.md"
+  },
+  {
    "name": "Overnight Cinnamon and Sugar Sweet Rolls",
    "file": "recipes/mels-kitchen-cafe_overnight-cinnamon-and-sugar-twists.md",
    "cuisines": [
@@ -1836,6 +2217,16 @@
    "has_full_content": true,
    "url": "https://www.melskitchencafe.com/overnight-cinnamon-and-sugar-twists/)",
    "size": 3462
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute"
+   ],
+   "name": "Blackened Catfish with Maque Choux",
+   "file": "recipes/Blackened-Catfish-with-Maque-Choux-honestfood.md"
   },
   {
    "name": "Creamy Chicken and Bacon Pasta",
@@ -1918,6 +2309,16 @@
    "size": 2252
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Beef Ribs Recipe",
+   "file": "recipes/Instant-Pot-Beef-Ribs-Recipe-dadcooksdinner.md"
+  },
+  {
    "name": "Moroccan Baked Eggplant with Beef",
    "file": "recipes/moroccan_baked_eggplant_with_beef.md",
    "cuisines": [
@@ -1948,6 +2349,17 @@
    "has_full_content": true,
    "url": "https://www.recipetineats.com/jambalaya-recipe/)",
    "size": 2507
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "fried",
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Refried Beans",
+   "file": "recipes/Instant-Pot-Refried-Beans-dadcooksdinner.md"
   },
   {
    "name": "Massaman Curry",
@@ -2024,6 +2436,20 @@
    "has_full_content": false,
    "url": "https://www.recipetineats.com/carne-asada/)",
    "size": 1322
+  },
+  {
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "roast",
+    "pressure-cook"
+   ],
+   "name": "Pressure Cooker Thai Red Beef Curry",
+   "file": "recipes/Pressure-Cooker-Thai-Red-Beef-Curry-dadcooksdinner.md"
   },
   {
    "name": "One Pot Greek Chicken Lemon Rice",
@@ -2122,6 +2548,19 @@
    "size": 3107
   },
   {
+   "cuisines": [
+    "german"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "simmer"
+   ],
+   "name": "German Rabbit Stew",
+   "file": "recipes/German-Rabbit-Stew-honestfood.md"
+  },
+  {
    "name": "Pad Kee Mao (Thai Drunken Noodles)",
    "file": "recipes/pad_keemao_thai_drunken_noodles.md",
    "cuisines": [
@@ -2201,6 +2640,30 @@
    "size": 2255
   },
   {
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Thai Fish Curry",
+   "file": "recipes/Thai-Fish-Curry-honestfood.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "steam",
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Mushroom Risotto Recipe",
+   "file": "recipes/Instant-Pot-Mushroom-Risotto-Recipe-dadcooksdinner.md"
+  },
+  {
    "name": "Beef Satay with Thai Peanut Sauce",
    "file": "recipes/beef_satay_with_thai_peanut_sauce.md",
    "cuisines": [
@@ -2254,6 +2717,17 @@
    "size": 2427
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "steam",
+    "simmer"
+   ],
+   "name": "Classic White Clam Sauce",
+   "file": "recipes/Classic-White-Clam-Sauce-honestfood.md"
+  },
+  {
    "name": "Avocado Chicken Salad",
    "file": "recipes/avocado_chicken_salad.md",
    "cuisines": [
@@ -2268,6 +2742,23 @@
    "has_full_content": true,
    "url": "https://www.melskitchencafe.com/avocado-chicken-salad/)",
    "size": 2240
+  },
+  {
+   "name": "Instant Pot Refried Black Beans",
+   "file": "recipes/Instant-Pot-Refried-Black-Beans-dadcooksdinner.md",
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "breakfast"
+   ],
+   "methods": [
+    "fried",
+    "simmer"
+   ],
+   "has_full_content": true,
+   "url": "https://www.dadcooksdinner.com/pressure-cooker-refried-black-beans/)",
+   "size": 3684
   },
   {
    "name": "Turtle Cheesecake",
@@ -2285,6 +2776,16 @@
    "size": 2610
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Elk Tenderloin with Ancho Sauce",
+   "file": "recipes/Elk-Tenderloin-with-Ancho-Sauce-honestfood.md"
+  },
+  {
    "name": "Slow Cooker Posole",
    "file": "recipes/mels_slow_cooker_posole.md",
    "cuisines": [
@@ -2300,6 +2801,45 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/slow-cooker-posole/)",
    "size": 1371
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute",
+    "simmer"
+   ],
+   "name": "Sardinian Hare Stew",
+   "file": "recipes/Sardinian-Hare-Stew-honestfood.md"
+  },
+  {
+   "cuisines": [
+    "thai",
+    "greek"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute",
+    "simmer"
+   ],
+   "name": "Goan Crab Curry",
+   "file": "recipes/Goan-Crab-Curry-honestfood.md"
+  },
+  {
+   "cuisines": [
+    "chinese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Northern-Style Pork Dumplings",
+   "file": "recipes/Northern-Style-Pork-Dumplings-cookbook.md"
   },
   {
    "name": "Vietnamese Caramel Ginger Chicken",
@@ -2415,6 +2955,19 @@
    "size": 3004
   },
   {
+   "cuisines": [
+    "mexican"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Birria Tacos Recipe",
+   "file": "recipes/Instant-Pot-Birria-Tacos-Recipe-dadcooksdinner.md"
+  },
+  {
    "name": "One Pot Baked Greek Chicken Orzo Risoni",
    "file": "recipes/one_pot_baked_greek_chicken_orzo_risoni.md",
    "cuisines": [
@@ -2445,6 +2998,26 @@
    "has_full_content": true,
    "url": "https://www.melskitchencafe.com/cheesy-au-gratin-potatoes-2/)",
    "size": 3083
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill"
+   ],
+   "name": "Grilled Venison Steaks",
+   "file": "recipes/Grilled-Venison-Steaks-honestfood.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "grill"
+   ],
+   "name": "Grilled Whole Fish",
+   "file": "recipes/Grilled-Whole-Fish-honestfood.md"
   },
   {
    "name": "Gingerbread Cake",
@@ -2507,6 +3080,19 @@
    "has_full_content": false,
    "url": "https://rasamalaysia.com/pad-woon-sen-recipe/)",
    "size": 997
+  },
+  {
+   "cuisines": [
+    "spanish"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "pressure-cook"
+   ],
+   "name": "Instant Pot Hummus Recipe",
+   "file": "recipes/Instant-Pot-Hummus-Recipe-dadcooksdinner.md"
   },
   {
    "name": "My Mom's Famous Christmas Caramels",
@@ -2647,6 +3233,17 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/raspberry-cream-angel-food-cake-dessert/)",
    "size": 1481
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute",
+    "simmer"
+   ],
+   "name": "Pressure Cooker Kielbasa and Sauerkraut",
+   "file": "recipes/Pressure-Cooker-Kielbasa-and-Sauerkraut-dadcooksdinner.md"
   },
   {
    "name": "Green Curry Shrimp",

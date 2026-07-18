@@ -85,6 +85,33 @@ accurately, $0.00, 2893 video tokens processed.
 - Create Hermes skill to audit Claude Code projects (Git status, deps) — Jeff's ask, applicable to our multi-project setup
 - Build niche demo sites; $250 migration + $25-35/mo hosting pricing model (if productizing)
 
+## Coaching Call — AI Profit Boardroom (2026-07-17, 285 min)
+
+**Status:** ✅ extracted → `coaching-calls/2026-07-17-ai-profit-boardroom.md`
+
+### Field-validated patterns (apply to our Atlas/MoA)
+- **D1 Shared "brain" via Obsidian** — Rashad + Keith both dump ALL AI notes/files into local Obsidian, query as knowledge base, use graph view for linkages. → DIRECTLY validates our shared memory bridge (memory_bridge.py + MEMORY.md). We're ahead: programmatic subbot access vs their manual. ✅
+- **D2 Auto model-routing by task** — GenSpark (Stan/Russell) auto-picks best of 50 models per task to cut cost. → Our MoA ref+aggregator does this. Validation. ✅
+- **D3 Collective brain > single agent** — put files in one store, AI draws from all; mastermind synergy. → Validates Agent OS concept Tom wanted. ✅
+- **D4 Hermes completes tasks (differentiator)** — Jeff: "Hermes goes to end, Claude gives up." (same as 7/16 D5) ✅
+- **D5 Comet/browser AI for night research** — Keith: Hermes uses Chrome/Comet for research, dumps to browser. → We have browser_navigate + Kimi WebBridge. ✅
+
+### Caution lessons
+- **C1** Hermes loose guardrails noted (asks for API keys directly) — our .env + redaction is safer. If productizing, harden.
+- **C2** Don't build me-too widgets — 10s of M vibe-coders; find blue-ocean/infrastructure (John M.).
+- **C3** Auto-routing tools burn tokens (GenSpark "chews tokens") — our free-cap + cheap-default avoids.
+- **C4** Trust before JV; first 10 beta → 100 paying = valley of death.
+
+### Investigate
+- **R1** GenSpark as MoA alternative — 50 models, free image/video gen. 🔄 compare UX
+- **R2** Obsidian as Agent OS memory backend — we have vault at ~/Documents/ObsidianVault. ❓
+- **R3** Blockchain-encrypted cross-agent file sharing (John M.). ❓
+- **R4** Comet browser for Atlas night-research. ❓
+
+### Action items (Tom's interest)
+- Keep shared memory bridge as core (DONE — already built)
+- AI Builders Guild (Rick's, 65+ members) = mastermind for joint builds; Fathom archived w/ clickable transcript
+
 ## MoA can build WORKING Flask apps from prompt (2026-07-16)
 
 **Test:** Recipe Recommendation Dashboard prompt (recipe-vault/MOA_RECIPE_DASHBOARD_PROMPT.md)

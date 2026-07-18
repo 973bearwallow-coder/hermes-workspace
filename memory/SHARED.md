@@ -115,3 +115,4 @@ so every spun-up subbot and the voice app operate from the same facts as Atlas.
 
 [Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked.] | A: Sounds like you're confirming hy3 as my brain — yes, that's the setup you chose. I'm Atlas on hy3:free with nemotron-nan
 - [2026-07-14 22:01][voice-app] Q: What time is my flight to IAD and when should I leave? | A: Your UA1445 flight leaves IAD at 9:12 PM. With about a 31 minute drive, you'd want to leave by around 8:41 PM. | via openrouter
+- [2026-07-17 11:30][flipp_scraper] Scraped 750 items from Flipp for ZIP 22046

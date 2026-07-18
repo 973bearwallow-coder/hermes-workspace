@@ -1,0 +1,1526 @@
+{
+  "store": "ALDI - FRE 69 - Falls Church",
+  "zip": "22042",
+  "scraped_at": "2026-07-17T15:38:51.386886+00:00",
+  "items": [
+    {
+      "name": "Hershey's Milk Chocolate 4pk",
+      "current_price": 4.39,
+      "original_price": 6.05,
+      "discount_pct": 27,
+      "category": null
+    },
+    {
+      "name": "Romaine Hearts, Bag",
+      "current_price": 3.65,
+      "original_price": 4.09,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Coconut Water",
+      "current_price": 1.49,
+      "original_price": 2.19,
+      "discount_pct": 32,
+      "category": null
+    },
+    {
+      "name": "Choceur Chocolate Smores Cluster",
+      "current_price": 2.99,
+      "original_price": 3.65,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Red Cherries, Bag",
+      "current_price": 4.98,
+      "original_price": 6.98,
+      "discount_pct": 29,
+      "category": null
+    },
+    {
+      "name": "Kirkwood USDA Fresh Ground Turkey 85% Lean 15% Fat",
+      "current_price": 7.99,
+      "original_price": 9.95,
+      "discount_pct": 20,
+      "category": null
+    },
+    {
+      "name": "Pembrook Transparent Tape",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "SOHL Couch Table",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Ambiano Black 2 Cup Rice Cooker",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Gray Laundry Basket",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Gold Bakeware Set - 3pc",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "NERF Scented Dog Toy - Beef Bar Bell",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Philadelphia Cream Cheese bar",
+      "current_price": 2.98,
+      "original_price": 3.29,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Bremer Mini Corndogs",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Welch's Tropical Variety Drink 24 Pack",
+      "current_price": 1.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Baker's Treat Mini Muffin Value Pack - Chocolate Chip",
+      "current_price": 5.35,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Breakfast Best 2pk Sausage, Egg, & Cheese Breakfast Pizza",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Season's Choice Extra Crispy Skin-On Shoestring Fries",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Starbucks Caramel Macchiato Iced Latte",
+      "current_price": 6.55,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Starbucks Vanilla Iced Latte",
+      "current_price": 6.55,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Frito-Lay 28ct Bold Variety Pack",
+      "current_price": 17.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Season's Choice Extra Crispy Restaurant Fries",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Aged Cheddar",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Buffalo Wing Jack Cheese",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Lacura Tropical Lotion SPF 50",
+      "current_price": 4.39,
+      "original_price": 5.75,
+      "discount_pct": 24,
+      "category": null
+    },
+    {
+      "name": "Choceur Chocolate Pretzel Cluster",
+      "current_price": 2.99,
+      "original_price": 3.65,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Lacura Tropical Spray SPF 50",
+      "current_price": 4.39,
+      "original_price": 5.75,
+      "discount_pct": 24,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Sharp Cheddar/Gouda Pretz SS",
+      "current_price": 2.49,
+      "original_price": 2.85,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Benner Tea Co Benner Iced Tea Family Sized Tea Bags",
+      "current_price": 1.65,
+      "original_price": 2.19,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Millville Fiber Now 70 Calorie Lemon Bars",
+      "current_price": 1.99,
+      "original_price": 2.59,
+      "discount_pct": 23,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Mild Cheddar Cracker SS",
+      "current_price": 2.49,
+      "original_price": 2.85,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "PurAqua Strawberry Lemonade Probiotic Water",
+      "current_price": 1.55,
+      "original_price": 1.85,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "PurAqua White Peach Sugar Free Hydration Drink Mix Sticks",
+      "current_price": 3.09,
+      "original_price": 3.55,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Colby/Pepper Jack Cracker SS",
+      "current_price": 2.49,
+      "original_price": 2.85,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Millville Fiber Now 70 Calorie Cinnamon Coffee Cake Bars",
+      "current_price": 1.99,
+      "original_price": 2.59,
+      "discount_pct": 23,
+      "category": null
+    },
+    {
+      "name": "Lacura Tropical Spray SPF 30",
+      "current_price": 4.39,
+      "original_price": 5.75,
+      "discount_pct": 24,
+      "category": null
+    },
+    {
+      "name": "PurAqua Sugar Free Raspberry Melon Hydration Drink Mix Sticks",
+      "current_price": 3.09,
+      "original_price": 3.55,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Manzanilla Olives Stuffed with Pimiento",
+      "current_price": 2.29,
+      "original_price": 2.75,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "Stonemill Grill Master Blend",
+      "current_price": 2.49,
+      "original_price": 2.85,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Millville Blueberry Pastry Crisps",
+      "current_price": 2.15,
+      "original_price": 2.55,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "PurAqua Blueberry Lemonade Probiotic Water",
+      "current_price": 1.55,
+      "original_price": 1.85,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Power Force Toilet Bowl Cleaner",
+      "current_price": 1.99,
+      "original_price": 2.09,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Hot Honey Goat Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Millville Strawberry Pastry Crisps",
+      "current_price": 2.15,
+      "original_price": 2.55,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Millville Fiber Now 70 Calorie Chocolate Fudge Bars",
+      "current_price": 1.99,
+      "original_price": 2.59,
+      "discount_pct": 23,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Gourmet Peaches Passion Fruit",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Burman's Poblano Hot Sauce",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Burman's Chimichurri Hot Sauce",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Specially Selected 4 Yr Aged Yellow Cheddar",
+      "current_price": 3.99,
+      "original_price": 4.75,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Gourmet Peaches in Pineapple Juice with Coconut Flavor",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Millville Chocolate Pastry Crisps",
+      "current_price": 2.15,
+      "original_price": 2.55,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "ALDI Caribbean Style Ready to Serve Rice",
+      "current_price": 1.45,
+      "original_price": 1.65,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Specially Selected 1,000 Day Aged Gouda, 5.3 oz",
+      "current_price": 3.99,
+      "original_price": 4.75,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "ALDI Macaroni Salad",
+      "current_price": 3.99,
+      "original_price": 4.39,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "PurAqua Berry Cherry Probiotic Water",
+      "current_price": 1.55,
+      "original_price": 1.85,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "General Mills Cinnamon Almond Creamy Protein Bars",
+      "current_price": 3.85,
+      "original_price": 4.29,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Crispy Nuggets",
+      "current_price": 6.75,
+      "original_price": 7.69,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "PurAqua Grape Sugar Free Hydration Drink Mix Sticks",
+      "current_price": 3.09,
+      "original_price": 3.55,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Buffalo Ranch Dressing",
+      "current_price": 2.75,
+      "original_price": 3.09,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "PurAqua Strawberry Hydration Drink Mix Sticks",
+      "current_price": 3.09,
+      "original_price": 3.19,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Spring Garden Goat Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Avocado Ranch Dressing",
+      "current_price": 2.75,
+      "original_price": 3.09,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Berryhill Pineapple Jalapeno Jelly",
+      "current_price": 3.29,
+      "original_price": 3.95,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "ALDI Chili Crisp Ready to Serve Rice",
+      "current_price": 1.45,
+      "original_price": 1.65,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Berryhill Berry Bacon Jam",
+      "current_price": 3.29,
+      "original_price": 3.95,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Gourmet Peaches with Ginger Flavor",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Dlx Cashews Unsalted",
+      "current_price": 6.59,
+      "original_price": 7.15,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "PurAqua Passion Fruit Hydration Drink Mix Sticks",
+      "current_price": 3.09,
+      "original_price": 3.19,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bare Water Alcohol-Infused Water Variety Pack - 6 Pack, 12 fl oz Cans",
+      "current_price": 7.79,
+      "original_price": 8.89,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Dlx Cashews LS",
+      "current_price": 6.59,
+      "original_price": 7.15,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Dill Pickle Dressing",
+      "current_price": 2.75,
+      "original_price": 3.09,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Belluccini Aperitivo Spritz",
+      "current_price": 6.65,
+      "original_price": 7.79,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Winking Owl California Sweet Red",
+      "current_price": 14.39,
+      "original_price": 15.49,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Fieldcraft Guava Pineapple Seltzer",
+      "current_price": 7.79,
+      "original_price": 8.89,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Stonemill Smoky Brown Sugar Rub",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Sauvignon Blanc Napa Valley CA",
+      "current_price": 9.99,
+      "original_price": 11.45,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Poppi Lemon Lime Prebiotic Soda, 4 Pack",
+      "current_price": 7.65,
+      "original_price": 8.25,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Always Fresh Jumbo Blueberries, Package",
+      "current_price": 5.05,
+      "original_price": 5.39,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "USDA BBQ Seasoned Brisket, per lb",
+      "current_price": 22.72,
+      "original_price": 24.67,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Zarita Fruit Punch Tetra",
+      "current_price": 3.35,
+      "original_price": 3.89,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Stonemill Roasted Garlic & Herb",
+      "current_price": 2.49,
+      "original_price": 2.85,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "PurAqua Lemon Lime Hydration Drink Mix Sticks",
+      "current_price": 3.09,
+      "original_price": 3.19,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "SpeciallySelected Touraine Sauvignon Blanc",
+      "current_price": 7.79,
+      "original_price": 8.89,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Zarita Pink Lemonade Tetra",
+      "current_price": 3.35,
+      "original_price": 3.89,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Sweet Chili Lime Chicken Breast Skewers - 8 Count",
+      "current_price": 7.49,
+      "original_price": 8.79,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "L'oven Fresh French Toast Bagels",
+      "current_price": 2.09,
+      "original_price": 2.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Belletti IT Belletti Prosecco Rose",
+      "current_price": 9.99,
+      "original_price": 11.05,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Spicy Smoked Gouda Cheese",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "GREAT GHERKINS Squeeze Sweet Relish",
+      "current_price": 1.75,
+      "original_price": 1.89,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Nature's Nectar Spicy Limeade",
+      "current_price": 2.29,
+      "original_price": 2.55,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Simms Spicy Honey Smoked Sausages",
+      "current_price": 8.05,
+      "original_price": 8.79,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Zarita Blue Hawaiian",
+      "current_price": 9.99,
+      "original_price": 11.09,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Clancy's Spicy Margarita Tortilla Chips",
+      "current_price": 1.99,
+      "original_price": 2.19,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "100% Grass Fed Beef Patties",
+      "current_price": 7.97,
+      "original_price": 8.63,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Everlight Sainte Victoire Provence Rose",
+      "current_price": 13.35,
+      "original_price": 14.45,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "USDA Pollo Asado Chicken Breast Skewers - 8 Count",
+      "current_price": 7.49,
+      "original_price": 8.79,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Stonemill Chicago Style Steak",
+      "current_price": 2.49,
+      "original_price": 2.85,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Stonemill Hot Honey Seasoning",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Nature's Nectar Spicy Lemonade",
+      "current_price": 2.29,
+      "original_price": 2.55,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Mixed Sundae Nut Cones",
+      "current_price": 6.05,
+      "original_price": 6.35,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Vodka Olive Salami",
+      "current_price": 3.65,
+      "original_price": 4.39,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "ALDI Coleslaw",
+      "current_price": 3.99,
+      "original_price": 4.39,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Poppi Strawberry Lemon Prebiotic Soda, 4 Pack",
+      "current_price": 7.65,
+      "original_price": 8.25,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Salt & Pepper Seasoned Brisket, per lb",
+      "current_price": 22.72,
+      "original_price": 24.67,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Clancy's Pineapple Habanero Tortilla Chips",
+      "current_price": 1.99,
+      "original_price": 2.19,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "General Mills Peanut Butter Chocolate Creamy Protein Bar",
+      "current_price": 3.85,
+      "original_price": 4.29,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Bear Bros. Chardonnay",
+      "current_price": 7.79,
+      "original_price": 8.39,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "ALDI Party Pack Seasoned Beef Patties",
+      "current_price": 17.59,
+      "original_price": 18.69,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "Summit Sparkling Non-Alcoholic Root Beer",
+      "current_price": 3.59,
+      "original_price": 3.95,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "ALDI Lemon Herb Basmati Ready to Serve Rice",
+      "current_price": 1.45,
+      "original_price": 1.65,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Stuffed Crust Pepperoni Pizza",
+      "current_price": 10.45,
+      "original_price": 10.75,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Fluer d'Eau Brut Rose",
+      "current_price": 9.89,
+      "original_price": 9.99,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "USDA Sun-Dried Tomato & Basil Seasoned Chicken, per lb",
+      "current_price": 7.48,
+      "original_price": 7.94,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "USDA Cilantro Lime Seasoned Chicken, per lb",
+      "current_price": 7.48,
+      "original_price": 7.94,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "Barissimo Organic Cold Brew Medium Roast Coffee, 48 fl oz",
+      "current_price": 4.75,
+      "original_price": 4.95,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Red Bull Sugar Free",
+      "current_price": 3.09,
+      "original_price": 3.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Red Bull Sea Blue Edition",
+      "current_price": 3.09,
+      "original_price": 3.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Red Bull Red Edition",
+      "current_price": 3.09,
+      "original_price": 3.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "ALDI Italian Trio: Hot Ham, Pepperoni, Provolone",
+      "current_price": 7.99,
+      "original_price": 9.35,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "ALDI Italian Trio: Salami, Pepperoni, Provolone",
+      "current_price": 7.99,
+      "original_price": 9.35,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Italian Loaf",
+      "current_price": 4.19,
+      "original_price": 4.39,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Oh Me, Oh My! Pineapple Mimosa",
+      "current_price": 7.79,
+      "original_price": 8.35,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Chef's Cupboard Chicken Cooking Stock",
+      "current_price": 1.49,
+      "original_price": 1.55,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "PurAqua Watermelon Wild Berry Probiotic Water",
+      "current_price": 1.55,
+      "original_price": 1.85,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Nature's Nectar Canned Coconut Water with Pulp",
+      "current_price": 0.89,
+      "original_price": 1.09,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Nature's Nectar 100% Coconut Water No Pulp",
+      "current_price": 0.89,
+      "original_price": 1.09,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Boulder 10\" Everyday Plate",
+      "current_price": 8.79,
+      "original_price": 9.89,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Pacific Fruit Vineyards PFV Black Cherry",
+      "current_price": 4.25,
+      "original_price": 4.45,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Season's Choice Steamable Frozen California Medley Vegetables",
+      "current_price": 1.15,
+      "original_price": 1.29,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "ALDI Rotisserie Style Pulled Chicken",
+      "current_price": 6.59,
+      "original_price": 8.05,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "USDA Grass Fed Boneless New York Strip Steak, per lb",
+      "current_price": 18.7,
+      "original_price": 21.82,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Priano Ricotta Spinach Ravioli",
+      "current_price": 1.65,
+      "original_price": 2.09,
+      "discount_pct": 21,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Garlic Mini Naan",
+      "current_price": 4.95,
+      "original_price": 5.25,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "Berryhill Caramel Topping",
+      "current_price": 2.49,
+      "original_price": 2.69,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "USDA Grass Fed Ribeye Steak",
+      "current_price": 15.33,
+      "original_price": 17.69,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Burman's Spicy Garlic Hot Sauce",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Earthly Grains Cheddar Broccoli Rice",
+      "current_price": 0.99,
+      "original_price": 1.09,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Earthly Grains Chicken Flavored Rice",
+      "current_price": 0.99,
+      "original_price": 1.09,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Earthly Grains Spanish Rice",
+      "current_price": 0.99,
+      "original_price": 1.09,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Monterey Mushrooms Sliced White Mushrooms, Package",
+      "current_price": 1.29,
+      "original_price": 1.45,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Dynamic Duo Potatoes, Bag",
+      "current_price": 2.75,
+      "original_price": 2.85,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Organic Raspberries, Package",
+      "current_price": 4.09,
+      "original_price": 4.19,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Little Salad Bar Sweet Kale Chopped Salad Kit",
+      "current_price": 2.99,
+      "original_price": 3.65,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Little Salad Bar Asian Chopped Salad Kit",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Beefsteak Tomatoes",
+      "current_price": 2.09,
+      "original_price": 2.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Little Yellows Fresh Potatoes",
+      "current_price": 2.75,
+      "original_price": 2.85,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mini Cucumbers, Package",
+      "current_price": 1.69,
+      "original_price": 2.09,
+      "discount_pct": 19,
+      "category": null
+    },
+    {
+      "name": "Strawberries, Package",
+      "current_price": 1.89,
+      "original_price": 2.35,
+      "discount_pct": 20,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Heavy Whipping Cream",
+      "current_price": 5.05,
+      "original_price": 5.19,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Boulder",
+      "current_price": 4.79,
+      "original_price": 5.49,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "current_price": 2.19,
+      "original_price": 2.49,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Large Avocado",
+      "current_price": 0.55,
+      "original_price": 0.89,
+      "discount_pct": 38,
+      "category": null
+    },
+    {
+      "name": "Kiwi, Package",
+      "current_price": 3.85,
+      "original_price": 3.95,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Raspberries, Package",
+      "current_price": 2.99,
+      "original_price": 3.09,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Little Salad Bar Caesar Chop Salad Kit",
+      "current_price": 2.99,
+      "original_price": 3.65,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Baby Bella Mushrooms",
+      "current_price": 1.45,
+      "original_price": 1.55,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "Fuji Apples, Bag",
+      "current_price": 3.59,
+      "original_price": 3.65,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Little Salad Bar Southwest Chopped Salad Kit",
+      "current_price": 2.99,
+      "original_price": 3.65,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Double Cream Amarena Cherry Goat Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Mango and Chili Goat Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "PurAqua Natural Spring Water",
+      "current_price": 3.55,
+      "original_price": 3.65,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Slivered Almonds",
+      "current_price": 3.19,
+      "original_price": 3.29,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Graintastic Organic Thin-Sliced Bread",
+      "current_price": 3.49,
+      "original_price": 3.85,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Seedtastic Organic Thin-Sliced Bread",
+      "current_price": 3.49,
+      "original_price": 3.85,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Fremont Fish Market Argentine Red Shrimp",
+      "current_price": 9.99,
+      "original_price": 10.99,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Berryhill Hot Fudge Ice Cream Topping",
+      "current_price": 2.49,
+      "original_price": 2.69,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Bomb Pop Original Popsicle",
+      "current_price": 3.05,
+      "original_price": 3.69,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "Elevation Peanut Butter Cookie Pure & Simple Bar",
+      "current_price": 3.49,
+      "original_price": 4.39,
+      "discount_pct": 21,
+      "category": null
+    },
+    {
+      "name": "Elevation Apple Pie Pure & Simple Bar",
+      "current_price": 3.49,
+      "original_price": 4.39,
+      "discount_pct": 21,
+      "category": null
+    },
+    {
+      "name": "Earthly Grains Roasted Garlic Couscous",
+      "current_price": 1.65,
+      "original_price": 1.85,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Tuscan Garden Ceasar Croutons",
+      "current_price": 1.15,
+      "original_price": 1.29,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Earthly Grains Parmesan Couscous",
+      "current_price": 1.65,
+      "original_price": 1.85,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Tuscan Garden Italian Seasoned Croutons",
+      "current_price": 1.15,
+      "original_price": 1.29,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Tuscan Garden Cheese and Garlic Croutons",
+      "current_price": 1.15,
+      "original_price": 1.29,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Hot Italian Sausage Links",
+      "current_price": 2.95,
+      "original_price": 4.65,
+      "discount_pct": 37,
+      "category": null
+    },
+    {
+      "name": "Pueblo Lindo Fajita Flour Tortillas, 20 ct",
+      "current_price": 1.85,
+      "original_price": 2.05,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Pueblo Lindo Flour Tortillas",
+      "current_price": 1.89,
+      "original_price": 1.95,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bratwurst",
+      "current_price": 2.95,
+      "original_price": 4.65,
+      "discount_pct": 37,
+      "category": null
+    },
+    {
+      "name": "Aldi USDA Beer Bratwurst",
+      "current_price": 2.95,
+      "original_price": 4.65,
+      "discount_pct": 37,
+      "category": null
+    },
+    {
+      "name": "L'oven Fresh Everything Bagels",
+      "current_price": 2.09,
+      "original_price": 2.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Three Cheese Vinaigrette Dressing",
+      "current_price": 2.29,
+      "original_price": 2.55,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Raspberry Vinaigrette Dressing",
+      "current_price": 2.29,
+      "original_price": 2.55,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Greek Vinaigrette Dressing",
+      "current_price": 2.29,
+      "original_price": 2.55,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Cattlemen's Ranch Unseasoned Black Angus Beef Patties, 6 Pack",
+      "current_price": 10.45,
+      "original_price": 10.75,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Baker's Corner Sweetened Condensed Milk",
+      "current_price": 1.75,
+      "original_price": 1.85,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Cattlemen's Ranch Bacon Cheddar Beef Burger Patties",
+      "current_price": 10.45,
+      "original_price": 10.75,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "PurAqua Purified Water",
+      "current_price": 2.85,
+      "original_price": 3.05,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Strawberry Fruit Strips",
+      "current_price": 5.49,
+      "original_price": 5.85,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "L'oven Fresh Blueberry Bagels",
+      "current_price": 2.09,
+      "original_price": 2.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Skim Milk",
+      "current_price": 1.89,
+      "original_price": 1.95,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Chocolate Milk",
+      "current_price": 2.19,
+      "original_price": 2.25,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms 2% Milk",
+      "current_price": 3.79,
+      "original_price": 3.89,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Chef's Cupboard Beef Stock",
+      "current_price": 1.49,
+      "original_price": 1.55,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake House Creations Cinnamon Rolls with Icing",
+      "current_price": 1.95,
+      "original_price": 2.45,
+      "discount_pct": 20,
+      "category": null
+    },
+    {
+      "name": "Happy Farms American Cheese Singles",
+      "current_price": 1.89,
+      "original_price": 1.95,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Earth Grown USDA Organic Vegan Extra Firm Tofu",
+      "current_price": 1.49,
+      "original_price": 1.55,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Berry Acai Bowl",
+      "current_price": 2.49,
+      "original_price": 3.29,
+      "discount_pct": 24,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Tropical Acai Bowl",
+      "current_price": 2.49,
+      "original_price": 3.29,
+      "discount_pct": 24,
+      "category": null
+    },
+    {
+      "name": "Appleton Farms Bite Size Original Salami",
+      "current_price": 6.59,
+      "original_price": 6.95,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Gluten Free Chicken Bites",
+      "current_price": 6.35,
+      "original_price": 7.15,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Deluxe Whole Cashews with Sea Salt",
+      "current_price": 10.49,
+      "original_price": 11.55,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Gluten Free Gen Tso's Chicken",
+      "current_price": 6.35,
+      "original_price": 7.15,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Blueberry Vanilla Flavored Goat Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Dill Havarti Cheese",
+      "current_price": 2.49,
+      "original_price": 3.29,
+      "discount_pct": 24,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Original Feta Cheese Crumbles",
+      "current_price": 1.39,
+      "original_price": 1.45,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Large Ripe Pitted Olives",
+      "current_price": 1.59,
+      "original_price": 1.95,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Tide Pods Spring Meadow",
+      "current_price": 12.85,
+      "original_price": 13.55,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Tide Pods Free & Gentle",
+      "current_price": 12.85,
+      "original_price": 13.55,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Benton's Key Lime Cookie Thins",
+      "current_price": 2.19,
+      "original_price": 2.65,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "Benton's Lemon Cookie Thins",
+      "current_price": 2.19,
+      "original_price": 2.65,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "Appleton Farms Bite Size Spicy Salami",
+      "current_price": 6.59,
+      "original_price": 6.95,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Stonemill Kicked Up Chicken Grill Seasoning",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Stonemill Amazing Burger Grill Seasoning",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "L'oven Fresh Hawaiian Bagels",
+      "current_price": 2.09,
+      "original_price": 2.15,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Wildberry Fruit Strips",
+      "current_price": 5.49,
+      "original_price": 5.85,
+      "discount_pct": 6,
+      "category": null
+    },
+    {
+      "name": "General Mills Cinnamon Toast Crunch",
+      "current_price": 4.39,
+      "original_price": 4.89,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Frozen Chicken Breasts",
+      "current_price": 9.55,
+      "original_price": 9.69,
+      "discount_pct": null,
+      "category": null
+    }
+  ]
+}
