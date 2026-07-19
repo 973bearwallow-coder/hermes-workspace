@@ -242,8 +242,13 @@ def fetch_agnes(models):
     for mid in ids:
         if not mid or "video" in mid or "image" in mid:
             continue
-        add_common(models, f"agnes/{mid}", mid, "agnes", "free", 0.0, 0.0, 128000,
-                   ["agnes", "cloud", "free"])
+        # NOTE: bare slug (agnes-2.0-flash), NOT agnes/agnes-2.0-flash — the latter
+        # 503s because apihub.agnes-ai.com expects the raw model id. home_provider='agnes'
+        # routes to the correct endpoint. Context = 256K (real spec, not 128K).
+        # Tagged multimodal+vision so the router can pick Agnes for image tasks.
+        add_common(models, mid, mid, "agnes", "free-fallback", 0.0, 0.0, 256000,
+                   ["agnes", "cloud", "free", "multimodal", "vision", "tools", "fallback"],
+                   mods={"text": True, "vision": True, "audio": False, "file": False})
         n += 1
     print(f"  (Agnes: {n} models)")
 
@@ -464,12 +469,23 @@ def build():
     print("Pulling Agnes..."); fetch_agnes(models)
     print("Adding local Ollama..."); local_ollama(models)
     print("Scanning curated free-LLM GitHub lists..."); fetch_freellm(models)
+    # PRESERVE openai-codex entries (ChatGPT Plus OAuth) across refreshes — these
+    # are added manually (not discovered via OpenRouter) and must survive rebuild.
+    if os.path.exists(OUT):
+        try:
+            old = json.load(open(OUT))["models"]
+            preserved = [m for m in old if m.get("home_provider") == "openai-codex"]
+            if preserved:
+                models.extend(preserved)
+                print(f"Preserved {len(preserved)} openai-codex (ChatGPT Plus) entr(ies)")
+        except Exception:
+            pass
     by_tier = {}
     for x in models:
         by_tier[x["tier"]] = by_tier.get(x["tier"], 0) + 1
     catalog = {
         "generated": datetime.datetime.now().isoformat(timespec="seconds"),
-        "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama",
+        "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama + openai-codex (preserved)",
         "total": len(models), "by_tier": by_tier, "models": models,
     }
     os.makedirs(MEMORY, exist_ok=True)

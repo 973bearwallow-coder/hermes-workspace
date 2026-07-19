@@ -579,6 +579,19 @@
    "file": "recipes/My-Favorite-White-Bread-Recipe-browneyedbaker.md"
   },
   {
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "name": "Pasta Incaciata Baked Pasta Wrapped In Eggplant Slices",
+   "file": "recipes/pasta-incaciata-baked-pasta-wrapped-in-eggplant-slices-nickstellino.md"
+  },
+  {
    "name": "New Orleans Chicken Wings",
    "file": "recipes/new_orleans_chicken_wings.md",
    "cuisines": [
@@ -714,6 +727,16 @@
    "size": 1320
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Pasta With Artichokes And Cooked Ham",
+   "file": "recipes/pasta-with-artichokes-and-cooked-ham-nickstellino.md"
+  },
+  {
    "name": "Spicy Firecracker Beef",
    "file": "recipes/spicy_firecracker_beef.md",
    "cuisines": [
@@ -746,6 +769,19 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/the-best-spinach-artichoke-dip/)",
    "size": 1416
+  },
+  {
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "soup"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Pasta e Fagioli",
+   "file": "recipes/pasta-e-fagioli-nickstellino.md"
   },
   {
    "name": "Chicken Pasta Recipe",
@@ -940,6 +976,19 @@
    "size": 2357
   },
   {
+   "cuisines": [
+    "french"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Commanders Palace Bread Pudding Souffle with Whiskey Sauce",
+   "file": "recipes/commanders-palace-bread-pudding-souffle-with-whiskey-sauce-commanders.md"
+  },
+  {
    "types": [
     "main"
    ],
@@ -948,6 +997,17 @@
    ],
    "name": "Cincinnati Chili (Instant Pot) Recipe",
    "file": "recipes/Cincinnati-Chili-Instant-Pot-Recipe-dadcooksdinner.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "steam"
+   ],
+   "name": "Dartagnan Venison and Cherry Pate en Croute",
+   "file": "recipes/dartagnan-venison-and-cherry-pate-en-croute-dartagnan.md"
   },
   {
    "name": "Red Curry Shrimp",
@@ -1091,6 +1151,16 @@
    ],
    "name": "Venison Tacos",
    "file": "recipes/Venison-Tacos-honestfood.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Sicilian Watermelon Pudding",
+   "file": "recipes/sicilian-watermelon-pudding-nickstellino.md"
   },
   {
    "name": "Peppercorn Sauce",
@@ -1426,6 +1496,19 @@
    "size": 2094
   },
   {
+   "cuisines": [
+    "italian"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Pasta Agghiu e Ogghiu Aglio e Olio",
+   "file": "recipes/pasta-agghiu-e-ogghiu-aglio-e-olio-nickstellino.md"
+  },
+  {
    "name": "Spaghetti Pie",
    "file": "recipes/mels_spaghetti_pie.md",
    "cuisines": [
@@ -1484,6 +1567,16 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/sweet-baked-ham-the-most-unique-and-delicious-hive-ever-had/)",
    "size": 1171
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Commanders Palace Catfish Pecan with Lemon Thyme Pecan Butter",
+   "file": "recipes/commanders-palace-catfish-pecan-with-lemon-thyme-pecan-butte-commanders.md"
   },
   {
    "types": [
@@ -1771,6 +1864,17 @@
    "size": 2430
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake",
+    "roast"
+   ],
+   "name": "Dartagnan Festive Terrine of Rabbit with Pork and Prunes",
+   "file": "recipes/dartagnan-festive-terrine-of-rabbit-with-pork-and-prunes-dartagnan.md"
+  },
+  {
    "name": "Doner Kebab Meat (Beef or Lamb)",
    "file": "recipes/doner_kebab_meat_beef_or_lamb.md",
    "cuisines": [],
@@ -1982,6 +2086,19 @@
    "size": 790
   },
   {
+   "cuisines": [
+    "vietnamese"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "ATK 2008 Vietnamese Caramel Catfish (Ca Kho To)",
+   "file": "recipes/atk-2008-vietnamese-caramel-catfish-ca-kho-to-atk2008.md"
+  },
+  {
    "name": "Dark Chocolate Sea Salt Caramel Pretzel Bark",
    "file": "recipes/mels_chocolate_caramel_pretzel_bark.md",
    "cuisines": [],
@@ -1994,6 +2111,16 @@
    "has_full_content": false,
    "url": "https://www.melskitchencafe.com/dark-chocolate-sea-salt-caramel-pretzel-bark-snappers-knock-off/)",
    "size": 1107
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "saute"
+   ],
+   "name": "Sauteed Arugula",
+   "file": "recipes/sauteed-arugula-nickstellino.md"
   },
   {
    "name": "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
@@ -2199,6 +2326,16 @@
    ],
    "name": "Instant Pot Quick Chili Verde",
    "file": "recipes/Instant-Pot-Quick-Chili-Verde-dadcooksdinner.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "bake"
+   ],
+   "name": "Potato Crusted Fish (Commanders Palace Style)",
+   "file": "recipes/potato-crusted-fish-commanders-palace-style-commanders.md"
   },
   {
    "name": "Overnight Cinnamon and Sugar Sweet Rolls",
@@ -2484,6 +2621,16 @@
    "size": 1283
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Pasta With White Meat Sauce",
+   "file": "recipes/pasta-with-white-meat-sauce-nickstellino.md"
+  },
+  {
    "name": "Honey Lime Fruit Salad",
    "file": "recipes/mels-kitchen-cafe_honey-lime-fruit-salad.md",
    "cuisines": [
@@ -2608,6 +2755,16 @@
    "has_full_content": true,
    "url": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/)",
    "size": 2104
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Tipsy Strawberries",
+   "file": "recipes/tipsy-strawberries-nickstellino.md"
   },
   {
    "name": "Chicken with Creamy Sun Dried Tomato Sauce",
@@ -3175,6 +3332,16 @@
    "size": 2433
   },
   {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Pasta With Pesto Sauce",
+   "file": "recipes/pasta-with-pesto-sauce-nickstellino.md"
+  },
+  {
    "name": "Chicken Broccoli Stir Fry",
    "file": "recipes/chicken_broccoli_stir_fry.md",
    "cuisines": [
@@ -3244,6 +3411,16 @@
    ],
    "name": "Pressure Cooker Kielbasa and Sauerkraut",
    "file": "recipes/Pressure-Cooker-Kielbasa-and-Sauerkraut-dadcooksdinner.md"
+  },
+  {
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stovetop"
+   ],
+   "name": "Ravioli In Wild Mushroom Sauce",
+   "file": "recipes/ravioli-in-wild-mushroom-sauce-nickstellino.md"
   },
   {
    "name": "Green Curry Shrimp",

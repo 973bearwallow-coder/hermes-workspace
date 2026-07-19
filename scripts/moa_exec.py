@@ -25,9 +25,10 @@ COST: real tokens billed by OpenRouter; free models = $0; cheap-paid aggregator 
 import json, os, sys, time, concurrent.futures, urllib.request, urllib.error, re
 sys.path.insert(0, os.path.dirname(__file__))
 sys.path.insert(0, "/home/tom/hermes-workspace/memory")
-from moa_router import load_catalog, detect_task, free_mix, paid_upgrade, premium_upgrade, estimate_cost
+from moa_router import load_catalog, detect_task, free_mix, paid_upgrade, premium_upgrade, estimate_cost, should_escalate
 from moa_providers import call_model
 from get_openrouter_key import get_key
+from codex_usage_gate import should_use_codex, record_call, record_throttle as gate_record_throttle
 
 OR_URL = "https://openrouter.ai/api/v1/chat/completions"
 MEMORY = "/home/tom/hermes-workspace/memory"
@@ -58,6 +59,17 @@ def run(task_text, paid_ok=False, premium=False, max_tokens=1200):
     models = load_catalog()
     task = detect_task(task_text)
     refs, agg = free_mix(models, task)
+    # Auto-escalate to GPT-5.6-sol (ChatGPT Plus) for high-value/complex tasks,
+    # but ONLY if the usage gate says we have codex budget left. Regular chats
+    # stay on free DeepSeek — this reserves the $20/mo sub for when it matters
+    # AND prevents end-of-month throttling.
+    if should_escalate(task_text) and premium_upgrade(models, task):
+        prem = premium_upgrade(models, task)
+        if prem and prem["home_provider"] == "openai-codex" and should_use_codex(task_text, max_tokens):
+            agg = prem
+            print(f"[escalate] high-value task → using {agg['id']} (ChatGPT Plus)")
+        elif prem and prem["home_provider"] == "openai-codex":
+            print(f"[gate] codex over-cap/throttled — keeping free {agg['id']}")
     # inline any referenced transcript file so advisors can actually see it
     transcript, tpath = _load_transcript(task_text)
     if transcript:
@@ -83,9 +95,36 @@ def run(task_text, paid_ok=False, premium=False, max_tokens=1200):
 
     # Aggregator synthesizes
     agg_prompt = f"TASK: {task_text}\n\nADVISOR OUTPUTS:\n{ref_block}\n\nSynthesize the best final answer from the advisors above."
-    final, usage = call_or(agg, agg_prompt,
-                           sys_prompt="You are the lead synthesizer. Combine advisor inputs into one clear, correct final answer.",
-                           max_tokens=max_tokens)
+    # Usage gate: if codex is the chosen aggregator but we're throttled or over
+    # soft cap on low-value tasks, fall back to DeepSeek (free) transparently.
+    using_codex = agg["home_provider"] == "openai-codex"
+    if using_codex and not should_use_codex(task_text, max_tokens):
+        # swap to free fallback
+        fb = [m for m in models if m["id"] == "deepseek/deepseek-v4-flash"]
+        if fb:
+            agg = fb[0]
+            print(f"[gate] codex throttled/over-cap — fell back to {agg['id']}")
+    try:
+        final, usage = call_or(agg, agg_prompt,
+                               sys_prompt="You are the lead synthesizer. Combine advisor inputs into one clear, correct final answer.",
+                               max_tokens=max_tokens)
+        if using_codex:
+            record_call(tokens=usage.get("total_tokens", max_tokens), ok=True)
+    except urllib.error.HTTPError as e:
+        if using_codex and e.code == 429:
+            gate_record_throttle()
+            # retry once on free fallback
+            fb = [m for m in models if m["id"] == "deepseek/deepseek-v4-flash"]
+            if fb:
+                agg = fb[0]
+                print(f"[gate] codex 429 — retrying on {agg['id']}")
+                final, usage = call_or(agg, agg_prompt,
+                                       sys_prompt="You are the lead synthesizer.",
+                                       max_tokens=max_tokens)
+            else:
+                final, usage = "", {}
+        else:
+            raise
     dt = time.time() - t0
 
     # cost accounting (refs may be local $0; aggregator cost from its pricing)

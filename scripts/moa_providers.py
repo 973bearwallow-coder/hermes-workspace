@@ -19,7 +19,7 @@ Providers supported:
 
 All keys read via get_provider_key (never printed).
 """
-import json, time, urllib.request, urllib.error
+import json, time, urllib.request, urllib.error, os
 import get_provider_key as pk
 
 OPENAI_COMPAT = {
@@ -96,6 +96,70 @@ def _openai_call(url, key, provider, model_id, prompt, sys_prompt, max_tokens, t
         text = msg.get("reasoning") or msg.get("reasoning_content") or ""
     usage = data.get("usage", {})
     return text, usage
+
+
+def _codex_call(model_id, prompt, sys_prompt, max_tokens, timeout=180):
+    """ChatGPT Plus OAuth route (openai-codex). Reads token from ~/.hermes/auth.json.
+    Endpoint: chatgpt.com/backend-api/codex/responses (streaming, store:false required).
+    Raises urllib.error.HTTPError(429) on throttle so caller can fall back."""
+    import json as _json
+    auth_path = os.path.expanduser("~/.hermes/auth.json")
+    if not os.path.exists(auth_path):
+        return "(openai-codex: no auth.json — run 'hermes auth add openai-codex')", {}
+    d = _json.load(open(auth_path))
+    creds = d.get("credential_pool", {}).get("openai-codex", [])
+    if not creds:
+        return "(openai-codex: no credential in auth.json)", {}
+    token = creds[0].get("access_token")
+    if not token:
+        return "(openai-codex: access_token missing — re-auth)", {}
+
+    url = "https://chatgpt.com/backend-api/codex/responses"
+    body = _json.dumps({
+        "model": model_id,
+        "input": [
+            {"role": "system", "content": sys_prompt},
+            {"role": "user", "content": prompt},
+        ],
+        "store": False,
+        "stream": True,
+    }).encode()
+    req = urllib.request.Request(url, data=body, headers={
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+        "OpenAI-Beta": "codex-v1",
+        "User-Agent": "atlas-moa/1.0",
+    }, method="POST")
+
+    try:
+        resp = urllib.request.urlopen(req, timeout=timeout)
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            raise  # let caller catch + record throttle
+        msg = e.read().decode()[:160]
+        return f"(codex HTTP {e.code}: {msg})", {}
+
+    # Parse SSE stream
+    text_parts = []
+    usage = {}
+    for raw in resp:
+        line = raw.decode("utf-8", errors="ignore").strip()
+        if not line.startswith("data:"):
+            continue
+        payload = line[5:].strip()
+        if payload == "[DONE]":
+            break
+        try:
+            ev = _json.loads(payload)
+        except Exception:
+            continue
+        t = ev.get("type")
+        if t == "response.output_text.delta":
+            text_parts.append(ev.get("delta", ""))
+        elif t == "response.completed":
+            usage = ev.get("response", {}).get("usage", {})
+    full = "".join(text_parts)
+    return full, usage
 
 def _anthropic_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=120):
     # map catalog id -> anthropic model name
@@ -197,6 +261,8 @@ def call_model(model_entry, prompt, sys_prompt="You are a helpful assistant.", m
     provider = model_entry.get("home_provider", "openrouter")
     mid = model_entry["id"]
     try:
+        if provider == "openai-codex":
+            return _codex_call(mid.split("/", 1)[-1], prompt, sys_prompt, max_tokens, timeout)
         if provider in OPENAI_COMPAT:
             key = _get_key(provider) or (pk.get_key("openrouter") if provider == "openrouter" else "")
             call_mid = mid.split("/", 1)[-1] if provider != "openrouter" else mid

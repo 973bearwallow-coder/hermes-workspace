@@ -1,0 +1,143 @@
+[0:33] Rick Rodriguez (rickr1@gmail.com): You're the first one in today.
+[0:38] Ed Grimshaw: Hi, Rick. It's afternoon here. I'm in the UK. I have a friend in Washington who's suffering from the smoke coming down from Canada or something.
+[0:56] Rick Rodriguez (rickr1@gmail.com): It's still, they say the weather's still set. As it's bad today, but you can smell, it smells like a campfire outside and burnt plastic.
+[1:05] Ed Grimshaw: Yeah. So can you tell me a bit about the Builders Guild? Because obviously I've just joined. I have been in that profit boardroom for nearly 12 months.
+[1:46] Rick Rodriguez (rickr1@gmail.com): So the Guild, I wanted to make a place where people could learn from beginner to advanced. And we have certainly a lot of advanced people in here.
+[4:11] John Mackenzie: Afternoon, wherever you are.
+[4:15] Rick Rodriguez (rickr1@gmail.com): Good. Yeah. Choking on the smoke. The smoke's a little better here today.
+[4:23] Keith Obrosky: A little bit. Yeah. Whereabouts are you, Keith? In central, southern tier of New York state. So near Binghamton. So, so I'm in Scotland.
+[4:36] Ed Grimshaw: It's completely clear here. And we're getting, we're getting caught from Canada.
+[4:44] Keith Obrosky: There are wildfires and all their smoke. Yeah. Yeah. Just sitting up a friend in Washington. She's getting it there now.
+[4:51] Ed Grimshaw: Yeah. Yeah. It's, but we're supposed to get some heavy rain today.
+[4:56] Keith Obrosky: I'll maybe wash the atmosphere a little bit. Yeah, so I'm going see who we got in here so far.
+[5:12] Yasmine Ison: Good morning, Yasmine.
+[5:14] Rick Rodriguez (rickr1@gmail.com): Good morning, Yasmine.
+[5:19] Yasmine Ison: I'm trying to get Andrew in. Good morning, Forrest.
+[5:28] Keith Obrosky: Good morning.
+[5:34] Rick Rodriguez (rickr1@gmail.com): So this morning I thought we would do a little show and tell with things that we've created so far.
+[6:28] Keith Obrosky: They've been out, they haven't And there's no cats in. Oh, and I was right at Walmart last night. Okay, now you have to run down of our morning animal feed.
+[6:47] Rick Rodriguez (rickr1@gmail.com): So Keith, you said you maybe that you would like you had a couple of Pomodoro timers that you that you built that you'd like to maybe show and tell today?
+[6:59] Keith Obrosky: Thank you. Thank you. I it because I was starting to take some of the tests so I could level up.
+[12:53] Tom Torok: I do have something that I made before Hermes agent. And it's. It's basically using the mixture of, I think it's agents or whatever it is where you sort of have three or four different agents that will, that are cheap and then will do somewhat closer to a more frontier model thinking.
+[14:24] Keith Obrosky: Well, okay.
+[14:25] Tom Torok: I'll just explain it then. So, basically, it's a dashboard that has a total of 642 models, 243 are free, 324 are cheap, and then 35 of are benchmarked as AA, and I've got the Claude code and ChatGTP models, too.
+[15:00] Yasmine Ison: The screen to share. If you don't stay on that screen or application or tab, it'll gray out for privacy.
+[15:13] Tom Torok: Oh, sure. Here's something here. It's a share tab from. Can I ask a question while we're waiting?
+[15:24] Ed Grimshaw: With Keith's kind of ecosystem, teaching ecosystem, how do you keep the ecosystem so itself entering closed rather than contaminated with other other agents or other aspects of your history?
+[15:41] Keith Obrosky: uh, I've never even thought of that, to be honest, uh, everything is, everything is uploaded. I'm, I'm using WordPress as my host.
+[16:43] Ed Grimshaw: You're welcome. Well, I finally got it up. Can you see it? Yeah, I see it.
+[16:48] Tom Torok: Yeah. OK, so basically what you do is you'll it has a type you type in whatever research or coding or you can just describe it.
+[18:46] Rick Rodriguez (rickr1@gmail.com): Yes. I just, well, yeah, I just told Hermes what I wanted.
+[18:52] Tom Torok: And it worked. It was, it's kind of cool. Nice. And then what are you using for the LL? Right now, it's HY3, so it's free, at least for a couple more days.
+[19:19] Rick Rodriguez (rickr1@gmail.com): And did you make this just an app, a PWA app that you put on your phone? No, I go ahead and I tail scale into the computer from the phone.
+[19:31] Tom Torok: Oh, nice.
+[19:34] Yasmine Ison: Okay. Yeah. That's really nice. I'm working on putting Hermes onto tail scale right now so that I'm trying to set up basically a workspace for me and Ryan, where we can share resources, but have our own Hermes accounts.
+[20:00] Tom Torok: It seems that it's fun to play with, and I've gotten some pretty good, so I've also, I got rid of the screen share, but it also does some free stuff where you copy a website, and then it'll take it and make your own website afterwards.
+[20:49] Rick Rodriguez (rickr1@gmail.com): Yeah, as a matter of fact, I had to make your Pomodoro timer.
+[20:54] Tom Torok: Oh, nice. You want to, you want to show what, uh, what you, uh, it's very, very basic. Let's see if I can get through it.
+[21:11] Rick Rodriguez (rickr1@gmail.com): I'm not sure.
+[21:22] Tom Torok: Oh, here it is. This is very basic. So the work in five minutes and then you can adjust the time you want to work.
+[21:57] Keith Obrosky: I'm sorry. Did someone say something?
+[22:01] Tom Torok: Okay. Oh, I was talking to my dog. Oh, okay. Anyway, I thought it was kind of cool because it's free and it was done fairly quickly.
+[22:17] Rick Rodriguez (rickr1@gmail.com): The concept of the Pomodoro is very interesting in how focus time and work time and break time all come together for optimum productivity.
+[22:58] Keith Obrosky: I got to go back to I've to find where the meeting is, though. Okay. Let's see. If I can find it.
+[23:26] Rick Rodriguez (rickr1@gmail.com): How did you create all those agents and orchestrate those agents?
+[23:31] Keith Obrosky: I just told, well, I got the download from James Maddock, and I gave you those files. that's how you build them.
+[24:40] Yasmine Ison: No. Is it? Or is it the mantle? The inner core. It is the mantle.
+[24:48] Keith Obrosky: So see? Yeah, that's what I said. Good. I see you can check your answers, and then you can go on the next lesson.
+[25:10] Yasmine Ison: Yeah. Oh, okay. We'll do. That'd be fun. So, and I can build these for anything.
+[25:17] Keith Obrosky: So anyway, let me go back to artifacts and see what I can find here. Interactive artifact demo. I don't know what this one even is.
+[26:33] John Mackenzie: I might show you something. A few of you are aware that I'm developing two major tools at the moment, one being the Business Intelligence Hub and the other one being a LLM Vault, which is basically an all of AI API manager, like its infrastructure.
+[28:03] Keith Obrosky: You've been in a swimming pool a couple of days. What's that, sorry?
+[28:07] John Mackenzie: You've been baking in the sun by a swimming pool. For the last two days, I've been out swimming and stuff, and on Sunday, going out, it's like an hour or two, I think it's two hours south of Kiev, so we're going there to another resort.
+[40:53] Rick Rodriguez (rickr1@gmail.com): Yeah, so there's two apps that I'll look for beta testers.
+[40:58] John Mackenzie: I'm trying to find it. In fact, I can't find it. Where is it? Oh, it's because it's on my other computer because I'm building it on the other one at the moment.
+[43:25] Jobi Armstrong: Did you use Claude to make those documents that you were just showing? No, that's ChatGPT. Okay, interesting. Okay, thank you.
+[43:34] John Mackenzie: Yeah, so, but what I did is, essentially, I came to Claude, and I came down and basically said, develop a multi-laptop IDE setup recommendation.
+[45:47] Jobi Armstrong: Like, let's just say I've had some people show me some documents, and I can immediately tell ChatGPT or Claude created it just because of the header, branding, color, and all that type of stuff.
+[46:18] John Mackenzie: Look, I've done parts of that. Look, I'll show you one at the moment. So, like, inside my business intelligence hub, I've got something called the advisory console.
+[52:19] Rick Rodriguez (rickr1@gmail.com): That's fully working. Because you actually saw me go to the console.
+[52:22] John Mackenzie: You can see that I've completed various checks and double checks. A lot of this here was me recalibrating the depth and the quality of the document, right?
+[55:34] Rick Rodriguez (rickr1@gmail.com): So I also have a Pomodoro timer, too, that I have been working on that I'd like to share.
+[55:46] Keith Obrosky: When I first started this and I saw how simple it was, this simple timer, I started getting ideas, how could I use this in a work environment?
+[55:55] Rick Rodriguez (rickr1@gmail.com): And so I came up and it just started growing and mushrooming. From from just a just a a timer to something that you could actually use in business and actually bill out your time as you work on different projects.
+[56:14] Keith Obrosky: Or she could graduate. She finished it. She got out of the role. You could do it all along. Is that it?
+[56:46] John Mackenzie: All right. So let's see here. Let go over to that.
+[56:51] Rick Rodriguez (rickr1@gmail.com): And so, yeah, this just this started out and I saw Keith's and I was when I saw Keith's Pomodoro, I'm like, wow.
+[58:09] Keith Obrosky: Okay.
+[58:10] Rick Rodriguez (rickr1@gmail.com): So now you should be able to hear it when I turn it on there. All right. So then I had some rain.
+[58:37] Keith Obrosky: This one takes a little bit of time to come in the ocean waves and everything, but it eventually comes in.
+[58:44] Rick Rodriguez (rickr1@gmail.com): Campfire. And then a little creek, Babylon Creek there. So I thought that was, that was kind of nice.
+[58:58] Keith Obrosky: And then I thought. Okay.
+[59:00] Rick Rodriguez (rickr1@gmail.com): How can I use this to keep track of the time when I'm working on a project so I properly bill out a client?
+[59:11] Keith Obrosky: Well, first adding the clients. So we can just add a client here, and then we add him there.
+[59:21] Rick Rodriguez (rickr1@gmail.com): Then, once you add the client, you can add their email, their phone number, their company, the rate that you're going to bill them, if they're going to be taxed or not, and then the payment methods.
+[59:34] Keith Obrosky: And this was really cool. This was the last thing that I entered.
+[59:36] Rick Rodriguez (rickr1@gmail.com): I set up my Venmo QR code and my Zelle credentials so that when I send them an invoice through the Pomodoro timer, by the way, I just checkmark these.
+[59:49] Keith Obrosky: Save the client. Save Okay.
+[59:51] Rick Rodriguez (rickr1@gmail.com): So then we go over here and we create the task. We're just going to say, um, consult.
+[1:00:00] Keith Obrosky: All right.
+[1:00:01] Rick Rodriguez (rickr1@gmail.com): And for the sake of not having to wait for the timer to go off every few minutes or whatever, I'm going to add the consult and then I'm going to add in case, where is that?
+[1:01:13] Keith Obrosky: No, it's not there.
+[1:01:16] Rick Rodriguez (rickr1@gmail.com): Where's my task? We're supposed to be able to add a task when I come back to it, and I don't see it here for some reason.
+[1:01:36] Keith Obrosky: There was an area where I can add to the tasks that I'm currently working on. So if you come back like the next day, but I don't see it here now.
+[1:01:45] Rick Rodriguez (rickr1@gmail.com): What I'll do is I'll go ahead and click. Oh, that's right. I didn't add the client. Here we go.
+[1:01:52] Keith Obrosky: So I have to add the client there. Thank you. you. Add entry. Here we go. There's where it pops up there.
+[1:02:24] Rick Rodriguez (rickr1@gmail.com): Here's where you can enter multiple entries, what you worked on. Let's just say, add. We'll say, add client. If I want to do a straight, if I want to use the time, I can use the time that's been being calculated by the Pomodoro timer.
+[1:03:43] Keith Obrosky: On my phone, it was building the QR code, but let's see here. Here's the email. Um, it sends, it creates that.
+[1:04:08] Rick Rodriguez (rickr1@gmail.com): How about I'll just bring up the print save. Of course, it's not doing it again. It brings the links in here and the QR code so that you can actually send it to them and they can pay via the text or the email.
+[1:04:26] Keith Obrosky: And it's not doing it, of course. Yeah, it did it on my phone, but it's not doing it right here.
+[1:05:17] Rick Rodriguez (rickr1@gmail.com): Well, it's just one of those things where it starts at one thing and then just, like I was talking to you about earlier, just, it's like, what about this?
+[1:05:40] Keith Obrosky: What did you do on this date? What did you do here?
+[1:05:43] Rick Rodriguez (rickr1@gmail.com): So I would have a going record of every date and time that I actually worked on his or her project.
+[1:05:50] Elias Siqueira: Yeah, for me, you know, building is more like automations for me, but I saw a meme the other day on Twitter.
+[1:06:38] Rick Rodriguez (rickr1@gmail.com): For some reason your, your, your, um, audio just changed. It's a little, little, little garble. Mine? Yeah.
+[1:06:49] Elias Siqueira: That's weird. Oh, you're better now. It's better now. Okay.
+[1:06:55] Rick Rodriguez (rickr1@gmail.com): Okay. Did you have something you wanted to share? Yeah, let me get... I literally put my computer away, but I'm setting it back up again.
+[1:07:08] Jobi Armstrong: I've got to hook up into... Okay. Why you doing that? I'll show you my IDE that I've created.
+[1:07:17] John Mackenzie: I'm on a different computer. I'm going to drop those.
+[1:07:26] Yasmine Ison: need to eat and take meds. So I'll see y'all at 11. All right, Yasmine. Okay. Okay. Bye, guys. Can you see my screen?
+[1:07:38] Rick Rodriguez (rickr1@gmail.com): So this is like developing Claude Code, my own Claude Code.
+[1:07:44] John Mackenzie: And you can see in here that I've got, for this particular test project, that I've got my Claude Code and I can change my subscriptions.
+[1:09:33] Rick Rodriguez (rickr1@gmail.com): Can I interrupt you really quick on this and everything, because this is something that I wanted to do earlier, and not exactly something like this, but this was the problem I came up, I had.
+[1:11:00] Elias Siqueira: The use case. So, and that's for me, what is one of the most stupid and frustrating things about Entropica and probably all the other LLMs.
+[1:11:50] John Mackenzie: So, and I'll give you the fundamental reason why it breaks it. So, because you say you've got your account and you've got your
+[1:13:44] Elias Siqueira: So, what you're saying is, technically, I could do, create two accounts in my name, and then I could do that.
+[1:13:59] John Mackenzie: My use case is I'm... got two accounts, one, two different emails, same person. It's not a breach. No, okay.
+[1:15:40] Rick Rodriguez (rickr1@gmail.com): I want to definitely talk to – have you show this – demonstrate this a lot more because this is great.
+[1:16:01] Jobi Armstrong: I've to get my kid to school. I'll just do it on Monday. Sorry, Jobi. No worries. Okay. So please go back, John.
+[1:16:11] Rick Rodriguez (rickr1@gmail.com): Sorry about that, Jobi. No, that's okay.
+[1:16:16] John Mackenzie: Yeah, so the existing IDEs, they are very limiting, and that's the challenge that I think we'll explore, particularly when we start to hit some usage challenges.
+[1:20:27] Elias Siqueira: Because I agree with you. And for me, as a known engineer, known anything, it strikes me. It's such an advanced technology that we have with AI.
+[1:22:00] John Mackenzie: It's for for us being normal, say, non-technical and improving technical people, but it's also still not fit for purpose for technical people.
+[1:22:13] Elias Siqueira: But even in small things, for me, like so, for example, why can I, for example, where you have the chat, like you can pin a chat, but you cannot create like a folder to organize yourself.
+[1:22:38] John Mackenzie: So easy. And what you're talking about at the moment is things like parents, siblings, and so parents and siblings.
+[1:23:28] Tom Torok: have access to the final version of the Memo Line 1 glasses. Tom? Tom, your audio is... Oh, man. I think you had chalk on top.
+[1:23:47] John Mackenzie: Yeah, so the problem with a fork or a branch, and I can demonstrate this now that I've created the LLM vault, even in its very detailed mechanism.
+[1:24:23] Tom Torok: So the problem with the branch or fork, which we all do, I think, well, I do a lot, immensely amount.
+[1:24:30] John Mackenzie: Is that inside Claude Code, the context window that you have previously in that fork, the new fork of that session, it completely keeps, right?
+[1:27:42] Rick Rodriguez (rickr1@gmail.com): So, Lee, you're saying IDE different from agent operating system.
+[1:27:46] John Mackenzie: I spent my career in IDE's, but I don't understand the AI use of terminology. Can you, can you explain, Lee, what you mean by AI use of terminology?
+[1:28:00] Lee Grey: Yeah, I'm just talking about the way, like, Agent OS, to me, is a very nebulous term. And when I see what you're calling an IDE, it sounds to me like it's closer to an Agent OS or an Agent OS should be an IDE.
+[1:28:36] John Mackenzie: But I, um, that's a very, very good point and question. Um, my rebranding, cause look, I originally called my, my, um, B-I-H-I-D-A-T-E.
+[1:34:10] Lee Grey: They would be what? Sorry, I said that again? Oh, outputs? Is that what you said?
+[1:34:15] John Mackenzie: Yeah, so when we use the systems like Claude Code or, you know, Visual Studio or OpenClaw or Codex or whatever, what we get back, we go, wow, this is amazing, right?
+[1:35:41] Lee Grey: Yeah, well, okay, I understand what you're saying there, but I don't understand how that relates to your IDE versus, and let me just say one other thing.
+[1:36:17] John Mackenzie: I'm developing, I'm talking, I've been talking maybe for the last couple of weeks across three developments. The first development, which sits at the base, is my LLM Vault.
+[1:47:36] Lee Grey: So you don't have to be an expert in that. My software essentially does all of that for you. You just say where you live, what your limitations are, and then I'm building at the moment an appetite statement for that particular session of that project.
+[1:48:00] John Mackenzie: You are making considered decisions rather than unknowns, and the problem with AI that I see at the moment is most of us use AI, and there's so much stuff that happens that we don't see that's not transparent that we have no visibility of and the risk of that in the project or the client use case or any of these things.
+[1:49:09] Lee Grey: Like you just said, it's not IDE. I don't understand it. Rick and Keith have said different things and Elias at different times.
+[1:49:52] John Mackenzie: So you don't have to use them all. You can use one or you can use whatever mix. But I want your feedback because you'll help me.
+[1:55:16] Lee Grey: These regulations are a problem. We can do it a better way. Work with me to research that. Work with me to, like I do, you've seen me do it.
+[1:56:38] John Mackenzie: So that becomes the single source of truth. And then the thing I've been doing, like I spent I worked until five this morning doing a complex change and I work on a trading system, two of them, actually.
+[1:58:28] Lee Grey: Because what the 590 pages of documentation is, it's like, it goes beyond just IDE development.
+[1:58:38] John Mackenzie: It goes beyond just, like, it's a full engineer and security team and expert project management team, right?
+[1:58:50] Lee Grey: And all of that in a multi-user, multi-provider, multi-LLM environment.
+[1:58:59] John Mackenzie: Bye. It's, that's why it's 590 pages. It's insane. And that's sitting on top of the rails of governance and provenance at LLM API level.
+[1:59:23] Lee Grey: I thought it was doing handoffs where it's like, you know, you do tons of work and then you hand it off to another model.
+[1:59:38] John Mackenzie: I wanted to get it to that point first so I could test it and then say, yep, she's working.
+[2:00:09] Lee Grey: These are the main outputs. This is where they are on the plan. This is what's left in each one of the tasks.
+[2:00:23] John Mackenzie: That sounds great.
+[2:00:25] Jobi Armstrong: That is very close to my needs. So I'm really happy to hear you're doing that.
+[2:00:33] Lee Grey: I look forward to being able to beta test it. Oh, man, I love you too. And, you know, like we are, like with all the guys here, I'm just conscious of the time, all the guys here that, you know, call it as you see it, because you'll only make it better.
+[2:00:46] Elias Siqueira: You know, if it's not working or it's not, you know, whatever it is, there's always a solution to it.

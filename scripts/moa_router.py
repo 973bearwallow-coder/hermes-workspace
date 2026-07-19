@@ -83,17 +83,20 @@ def free_mix(models, task):
     # exclude nvidia NIM which cold-loads >90s and is unreliable as the SYNCHRONOUS
     # final step). Prefer openrouter/local (fast) then other clouds.
     def agg_pred(m):
-        if m["tier"] != "free":
+        # ALLOW: free, cheap, AND premium (ChatGPT Plus OAuth — already paid, $0 marginal).
+        # Premium (openai-codex/gpt-5.6-sol) is preferred when credits are available.
+        if m["tier"] not in ("free", "cheap", "premium"):
             return False
         if not m["modalities"]["text"]:
             return False
-        if _is_coder(m):
+        # openai-codex/gpt-5.6-sol is a GENERAL model (not code-only) despite "codex" in name
+        if _is_coder(m) and m["home_provider"] != "openai-codex":
             return False
         if m["home_provider"] == "nvidia":   # NIM cold-load too slow for aggregator
             return False
         if m["home_provider"] == "cloudflare":  # some need Workers Paid plan (403)
             return False
-        # allow expiring openrouter free models as aggregator (we have runway; hy3 idx 41)
+        # hy3 promo expires ~2026-07-21; after that DeepSeek V4 Flash is the daily default.
         if m.get("expiring_soon") and m["home_provider"] != "openrouter":
             return False
         return True
@@ -101,8 +104,29 @@ def free_mix(models, task):
         # references: free, usable, NOT nvidia NIM (cold-load >90s drags parallel run)
         if m["home_provider"] == "nvidia":
             return False
-        return m["tier"] in ("free",) and is_usable(m)
-    agg_rank = lambda m: (0 if m["home_provider"] == "openrouter" else 1 if m["home_provider"] != "local_ollama" else 2, -m["quality"])
+        return m["tier"] in ("free", "cheap") and is_usable(m)
+    # Daily-driver: DeepSeek V4 Flash is the stable FREE default (fast, 1M ctx).
+    # ChatGPT Plus OAuth (gpt-5.6-sol) is RESERVED for high-value / complex tasks
+    # (client docs, hard builds, research synthesis) — invoked via premium_upgrade()
+    # or auto-escalation, NOT as the default. This maximizes the $20/mo sub's value
+    # without burning the codex credit limit on trivial chatter.
+    DAILY_DRIVER = "deepseek/deepseek-v4-flash"
+    FALLBACK_DRIVER = "gemini/gemini-2.5-flash"   # free, 1M ctx, different provider (redundancy)
+    PRIVACY_DRIVER = "local_ollama/qwen2:72b"     # 100% local, free, private, no API cost
+    SPEED_DRIVER = "groq/llama-3.3-70b-versatile" # free, very fast (0.1s), 128K ctx
+    PREMIUM_DRIVER = "openai-codex/gpt-5.6-sol"  # ChatGPT Plus OAuth, $0 marginal, frontier quality
+    def agg_rank(m):
+        if m["id"] == DAILY_DRIVER:
+            return (-1, 0)   # always top for regular chats
+        if m["id"] == FALLBACK_DRIVER:
+            return (0, 0)    # second choice
+        if m["id"] == PRIVACY_DRIVER:
+            return (1, 0)    # third choice (privacy/local)
+        if m["id"] == SPEED_DRIVER:
+            return (2, 0)    # fourth choice (fast free)
+        if m["id"] == PREMIUM_DRIVER:
+            return (3, 0)    # reserved — only used when explicitly escalated
+        return (4 if m["home_provider"] == "openrouter" else 5 if m["home_provider"] != "local_ollama" else 2, -m["quality"])
     if task == "vision_doc":
         refs = pick(models, lambda m: ref_pred(m) and m["modalities"]["vision"], 3)
         if not refs:
@@ -130,16 +154,43 @@ def paid_upgrade(models, task):
         return ds[0]
     return pick(models, lambda m: m["tier"]=="cheap" and m["modalities"]["text"], 1, prefer_local=False)[0]
 
+# Keywords that signal a task deserves GPT "horsepower" (client-facing, complex,
+# high-stakes). Regular chatter / casual Qs stay on free DeepSeek.
+HORSEPOWER_KEYWORDS = [
+    "client", "proposal", "contract", "report", "publish", "final", "important",
+    "critical", "perfect", "best quality", "boardroom", "coaching call", "strategy",
+    "analysis", "research", "build", "deploy", "architecture", "security doc",
+    "paw prints", "business", "investment", "legal", "presentation", "email to",
+    "send to", "hard", "complex", "reasoning", "synthesize", "comparison",
+]
+
+def should_escalate(task_text):
+    """Return True if task warrants GPT-5.6-sol horsepower over free default."""
+    t = task_text.lower()
+    return any(k in t for k in HORSEPOWER_KEYWORDS)
+
 def premium_upgrade(models, task):
-    """TOP rung: Claude / GPT (PAID, highest quality). Used only when user opts in."""
-    for wanted in ["anthropic/claude-3-5-sonnet", "anthropic/claude-sonnet-4", "openai/gpt-4o", "openai/gpt-4.1"]:
-        hit = [m for m in models if m["id"].lower() == wanted and is_usable(m)]
-        if hit:
-            return hit[0]
+    """TOP rung: highest-quality models. Used only when user opts in (--premium).
+
+    Priority order:
+      1. openai-codex/gpt-5.6-sol  — ChatGPT Plus OAuth (ALREADY PAID $20/mo, $0 marginal)
+      2. openai/gpt-5.6-sol        — OpenRouter cheap (funded balance)
+      3. anthropic/claude-*         — OpenRouter cheap
+    The codex route is preferred because it costs nothing extra vs the Plus sub
+    we already pay for. API key (openai/gpt-4o) is intentionally NOT used — the
+    sk-proj key has insufficient_quota (no API billing).
+    """
+    # 1. ChatGPT Plus OAuth — zero marginal cost, top quality
+    codex_hit = [m for m in models if m["id"].lower() == "openai-codex/gpt-5.6-sol" and is_usable(m)]
+    if codex_hit:
+        return codex_hit[0]
+    # 2. OpenRouter gpt-5.6-sol (funded cheap tier)
+    or_hit = [m for m in models if m["id"].lower() == "openai/gpt-5.6-sol" and is_usable(m)]
+    if or_hit:
+        return or_hit[0]
+    # 3. Anthropic fallback
     cl = pick(models, lambda m: m["home_provider"]=="anthropic" and m["modalities"]["text"], 1, prefer_local=False)
     if cl: return cl[0]
-    gpt = pick(models, lambda m: m["home_provider"]=="openai" and m["modalities"]["text"], 1, prefer_local=False)
-    if gpt: return gpt[0]
     return None
 
 def estimate_cost(mix_refs, agg, task):
