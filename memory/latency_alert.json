@@ -1,0 +1,13 @@
+{
+  "ts": 1784469780.3791761,
+  "stt": {
+    "current": "ggml-small.en.bin",
+    "current_dt": 2.5,
+    "all": {
+      "ggml-small.en.bin": 2.5,
+      "ggml-medium.en.bin": 7.9
+    }
+  },
+  "brain": {},
+  "recommend": []
+}

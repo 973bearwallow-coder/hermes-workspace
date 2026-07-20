@@ -78,6 +78,11 @@ def fetch_openrouter(models):
             cin = float(p.get("prompt") or 0); cout = float(p.get("completion") or 0)
         except Exception:
             cin = cout = 0
+        # Skip OpenRouter "auto" routers (auto-beta, fusion, pareto, etc.) — they have
+        # sentinel cost -1.0 (dynamic backend, unknown price until query). Including them
+        # as "cheap/free" pollutes cost estimates. We only want fixed-price models.
+        if cin == -1.0 or cout == -1.0:
+            continue
         tier, cin, cout = cost_tier(cin, cout)
         arch = m.get("architecture", {}) or {}
         ins = set(arch.get("input_modalities", []) or []); outs = set(arch.get("output_modalities", []) or [])

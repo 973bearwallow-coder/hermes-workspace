@@ -85,6 +85,8 @@ def free_mix(models, task):
     def agg_pred(m):
         # ALLOW: free, cheap, AND premium (ChatGPT Plus OAuth — already paid, $0 marginal).
         # Premium (openai-codex/gpt-5.6-sol) is preferred when credits are available.
+        if m["home_provider"] == "local_ollama":  # slow on this box (~20-50s) — never the sync aggregator
+            return False
         if m["tier"] not in ("free", "cheap", "premium"):
             return False
         if not m["modalities"]["text"]:
@@ -101,8 +103,9 @@ def free_mix(models, task):
             return False
         return True
     def ref_pred(m):
-        # references: free, usable, NOT nvidia NIM (cold-load >90s drags parallel run)
-        if m["home_provider"] == "nvidia":
+        # references: free, usable, NOT nvidia NIM (cold-load >90s drags parallel run),
+        # NOT local_ollama (slow ~20-50s on this box — only useful as offline fallback)
+        if m["home_provider"] in ("nvidia", "local_ollama"):
             return False
         return m["tier"] in ("free", "cheap") and is_usable(m)
     # Daily-driver: DeepSeek V4 Flash is the stable FREE default (fast, 1M ctx).

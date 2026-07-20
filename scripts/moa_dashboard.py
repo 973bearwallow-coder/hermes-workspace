@@ -71,9 +71,14 @@ def advise_for_task(task):
     up = mr.paid_upgrade(models, task)
     cost_free, _ = mr.estimate_cost(refs, agg, task)
     cost_paid, _ = mr.estimate_cost(refs, up, task) if up else (0, None)
-    # est completion: parallel refs (max of their latencies ~ local 4s) + agg latency + overhead
-    agg_lat = AGG_LATENCY.get(agg["home_provider"], 8)
-    est_sec = 4 + agg_lat + 6  # refs run parallel (~4s) + agg + synthesis overhead
+    # est completion: use MEASURED latency if available, else fall back to rough guess.
+    # refs run in PARALLEL (max of their latencies), then the aggregator runs once.
+    def _lat(m):
+        ms = m.get("latency_ms")
+        return (ms / 1000.0) if (ms and ms > 0) else AGG_LATENCY.get(m["home_provider"], 8)
+    ref_lat = max([_lat(r) for r in refs], default=4)
+    agg_lat = _lat(agg)
+    est_sec = ref_lat + agg_lat + 2  # parallel refs + agg + synthesis overhead
     reasons = []
     for r in refs:
         tag = []
