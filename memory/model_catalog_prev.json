@@ -1,10 +1,10 @@
 {
- "generated": "2026-07-19T08:02:23",
+ "generated": "2026-07-20T08:02:33",
  "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama",
- "total": 662,
+ "total": 655,
  "by_tier": {
   "cheap": 326,
-  "free": 261,
+  "free": 254,
   "paid": 75
  },
  "models": [
@@ -37,7 +37,7 @@
    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
    "usable": true,
    "aa_intelligence_index": 41.0,
-   "aa_blended_usd_1m": 1.1,
+   "aa_blended_usd_1m": null,
    "aa_median_tok_s": null,
    "aa_latency": null,
    "quality_source": "aa"
@@ -504,8 +504,8 @@
    "usable": true,
    "aa_intelligence_index": 41.0,
    "aa_blended_usd_1m": 0.0,
-   "aa_median_tok_s": 50.0,
-   "aa_latency": 2.43,
+   "aa_median_tok_s": 59.0,
+   "aa_latency": 2.47,
    "quality_source": "aa"
   },
   {
@@ -532,14 +532,14 @@
    "rate_limit": null,
    "expiration": "2026-07-21",
    "expiring_soon": true,
-   "expires_in_days": 2,
+   "expires_in_days": 1,
    "direct_key": false,
    "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
    "usable": true,
    "aa_intelligence_index": 41.0,
    "aa_blended_usd_1m": 0.0,
-   "aa_median_tok_s": 50.0,
-   "aa_latency": 2.43,
+   "aa_median_tok_s": 59.0,
+   "aa_latency": 2.47,
    "quality_source": "aa"
   },
   {
@@ -806,8 +806,8 @@
    "provider": "z-ai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.618e-07,
-   "cost_out": 8.228e-07,
+   "cost_in": 9.758e-07,
+   "cost_out": 3.0668e-06,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -827,9 +827,9 @@
    "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
    "usable": true,
    "aa_intelligence_index": 34.0,
-   "aa_blended_usd_1m": 2.52,
-   "aa_median_tok_s": 75.0,
-   "aa_latency": 1.68,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 93.0,
+   "aa_latency": 1.55,
    "quality_source": "aa"
   },
   {
@@ -976,9 +976,9 @@
    "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
    "usable": true,
    "aa_intelligence_index": 41.0,
-   "aa_blended_usd_1m": 0.53,
-   "aa_median_tok_s": 139.0,
-   "aa_latency": 1.63,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 142.0,
+   "aa_latency": 1.7,
    "quality_source": "aa"
   },
   {
@@ -1126,9 +1126,9 @@
    "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
    "usable": true,
    "aa_intelligence_index": 44.0,
-   "aa_blended_usd_1m": 0.22,
-   "aa_median_tok_s": 84.0,
-   "aa_latency": 1.85,
+   "aa_blended_usd_1m": 0.12,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.46,
    "quality_source": "aa"
   },
   {
@@ -1388,9 +1388,9 @@
    "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
    "usable": true,
    "aa_intelligence_index": 31.0,
-   "aa_blended_usd_1m": 0.52,
-   "aa_median_tok_s": 133.0,
-   "aa_latency": 3.18,
+   "aa_blended_usd_1m": 0.35,
+   "aa_median_tok_s": 135.0,
+   "aa_latency": 3.2,
    "quality_source": "aa"
   },
   {
@@ -1590,7 +1590,7 @@
    "rate_limit": null,
    "expiration": "2026-07-28",
    "expiring_soon": true,
-   "expires_in_days": 9,
+   "expires_in_days": 8,
    "direct_key": false,
    "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
    "usable": true,
@@ -1618,7 +1618,7 @@
    "rate_limit": null,
    "expiration": "2026-07-28",
    "expiring_soon": true,
-   "expires_in_days": 9,
+   "expires_in_days": 8,
    "direct_key": false,
    "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
    "usable": true,
@@ -2112,7 +2112,7 @@
    "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company\u2019s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a \u201cfast...",
    "usable": true,
    "aa_intelligence_index": 26.0,
-   "aa_blended_usd_1m": 0.52,
+   "aa_blended_usd_1m": null,
    "aa_median_tok_s": null,
    "aa_latency": null,
    "quality_source": "aa"
@@ -2145,9 +2145,9 @@
    "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
    "usable": true,
    "aa_intelligence_index": 26.0,
-   "aa_blended_usd_1m": 0.1,
-   "aa_median_tok_s": 137.0,
-   "aa_latency": 3.13,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 138.0,
+   "aa_latency": 3.05,
    "quality_source": "aa"
   },
   {
@@ -2177,9 +2177,9 @@
    "description": "MiMo-V2.5-Pro is Xiaomi\u2019s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
    "usable": true,
    "aa_intelligence_index": 28.0,
-   "aa_blended_usd_1m": 0.36,
-   "aa_median_tok_s": 60.0,
-   "aa_latency": 2.51,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 57.0,
+   "aa_latency": 2.58,
    "quality_source": "aa"
   },
   {
@@ -2210,9 +2210,9 @@
    "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
    "usable": true,
    "aa_intelligence_index": 37.0,
-   "aa_blended_usd_1m": 0.06,
+   "aa_blended_usd_1m": 0.01,
    "aa_median_tok_s": 64.0,
-   "aa_latency": 3.69,
+   "aa_latency": 4.29,
    "quality_source": "aa"
   },
   {
@@ -2415,9 +2415,9 @@
    "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
    "usable": true,
    "aa_intelligence_index": 35.0,
-   "aa_blended_usd_1m": 0.9,
-   "aa_median_tok_s": 59.0,
-   "aa_latency": 1.86,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 67.0,
+   "aa_latency": 1.82,
    "quality_source": "aa"
   },
   {
@@ -2590,7 +2590,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26463,
+   "expires_in_days": 26462,
    "direct_key": false,
    "description": "GLM-5V-Turbo is Z.ai\u2019s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
    "usable": true,
@@ -2825,9 +2825,9 @@
    "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
    "usable": true,
    "aa_intelligence_index": 38.0,
-   "aa_blended_usd_1m": 0.22,
-   "aa_median_tok_s": 63.0,
-   "aa_latency": 1.67,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 73.0,
+   "aa_latency": 1.64,
    "quality_source": "aa"
   },
   {
@@ -2939,7 +2939,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26463,
+   "expires_in_days": 26462,
    "direct_key": false,
    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
    "usable": true,
@@ -2955,8 +2955,8 @@
    "provider": "nvidia",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.1e-07,
-   "cost_out": 4.55e-07,
+   "cost_in": 8.5e-08,
+   "cost_out": 4e-07,
    "context_length": 1000000,
    "modalities": {
     "text": true,
@@ -3174,7 +3174,7 @@
    "rate_limit": null,
    "expiration": "2026-08-10",
    "expiring_soon": true,
-   "expires_in_days": 22,
+   "expires_in_days": 21,
    "direct_key": false,
    "description": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly...",
    "usable": true,
@@ -3621,8 +3621,8 @@
    "home_provider": "openrouter",
    "tier": "cheap",
    "cost_in": 9.5e-07,
-   "cost_out": 3.15e-06,
-   "context_length": 202752,
+   "cost_out": 2.55e-06,
+   "context_length": 204800,
    "modalities": {
     "text": true,
     "vision": false,
@@ -3641,9 +3641,9 @@
    "description": "GLM-5 is Z.ai\u2019s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading...",
    "usable": true,
    "aa_intelligence_index": 35.0,
-   "aa_blended_usd_1m": 0.9,
-   "aa_median_tok_s": 59.0,
-   "aa_latency": 1.86,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 67.0,
+   "aa_latency": 1.82,
    "quality_source": "aa"
   },
   {
@@ -4240,7 +4240,7 @@
    "rate_limit": null,
    "expiration": "2026-08-10",
    "expiring_soon": true,
-   "expires_in_days": 22,
+   "expires_in_days": 21,
    "direct_key": false,
    "description": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively \u201cthink\u201d on...",
    "usable": true,
@@ -5020,9 +5020,9 @@
    "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba\u2019s...",
    "usable": true,
    "aa_intelligence_index": 5.0,
-   "aa_blended_usd_1m": 0.24,
-   "aa_median_tok_s": 206.0,
-   "aa_latency": 1.22,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 200.0,
+   "aa_latency": 1.36,
    "quality_source": "aa"
   },
   {
@@ -5052,9 +5052,9 @@
    "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning,...",
    "usable": true,
    "aa_intelligence_index": 38.0,
-   "aa_blended_usd_1m": 0.22,
-   "aa_median_tok_s": 63.0,
-   "aa_latency": 1.67,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 73.0,
+   "aa_latency": 1.64,
    "quality_source": "aa"
   },
   {
@@ -5836,35 +5836,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "qwen/qwen3-next-80b-a3b-instruct:free",
-   "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
-   "provider": "qwen",
-   "home_provider": "openrouter",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 262144,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "longctx",
-    "fast"
-   ],
-   "quality": 8.0,
-   "rate_limit": null,
-   "expiration": "2026-07-19",
-   "expiring_soon": true,
-   "expires_in_days": 0,
-   "direct_key": false,
-   "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without \u201cthinking\u201d traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "qwen/qwen-plus-2025-07-28",
    "name": "Qwen: Qwen Plus 0728",
    "provider": "qwen",
@@ -5950,9 +5921,9 @@
    "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and...",
    "usable": true,
    "aa_intelligence_index": 7.0,
-   "aa_blended_usd_1m": 0.06,
-   "aa_median_tok_s": 129.0,
-   "aa_latency": 3.25,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 117.0,
+   "aa_latency": 2.66,
    "quality_source": "aa"
   },
   {
@@ -6147,7 +6118,7 @@
    "rate_limit": null,
    "expiration": "2026-12-31",
    "expiring_soon": false,
-   "expires_in_days": 165,
+   "expires_in_days": 164,
    "direct_key": false,
    "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications. Built on a Mixture-of-Experts (MoE) architecture with 106B parameters and 12B activated parameters, it achieves state-of-the-art results in video understanding,...",
    "usable": true,
@@ -6518,7 +6489,7 @@
    "rate_limit": null,
    "expiration": "2026-12-31",
    "expiring_soon": false,
-   "expires_in_days": 165,
+   "expires_in_days": 164,
    "direct_key": false,
    "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
    "usable": true,
@@ -6558,8 +6529,8 @@
    "provider": "qwen",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 1.495e-07,
-   "cost_out": 1.495e-06,
+   "cost_in": 3e-07,
+   "cost_out": 3e-06,
    "context_length": 262144,
    "modalities": {
     "text": true,
@@ -6605,35 +6576,6 @@
    "expiration": null,
    "expiring_soon": false,
    "expires_in_days": null,
-   "direct_key": false,
-   "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "qwen/qwen3-coder:free",
-   "name": "Qwen: Qwen3 Coder 480B A35B (free)",
-   "provider": "qwen",
-   "home_provider": "openrouter",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 1048576,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "coder",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": "2026-07-19",
-   "expiring_soon": true,
-   "expires_in_days": 0,
    "direct_key": false,
    "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
    "usable": true,
@@ -6776,34 +6718,6 @@
    "expiration": null,
    "expiring_soon": false,
    "expires_in_days": null,
-   "direct_key": false,
-   "description": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an \u201cuncensored\u201d instruct-tuned LLM, preserving...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-   "name": "Venice: Uncensored (free)",
-   "provider": "cognitivecomputations",
-   "home_provider": "openrouter",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 32768,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": null,
-   "expiration": "2026-07-19",
-   "expiring_soon": true,
-   "expires_in_days": 0,
    "direct_key": false,
    "description": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an \u201cuncensored\u201d instruct-tuned LLM, preserving...",
    "usable": true,
@@ -7383,8 +7297,8 @@
    "provider": "qwen",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.275e-07,
-   "cost_out": 9.1e-07,
+   "cost_in": 1.2e-07,
+   "cost_out": 2.4e-07,
    "context_length": 131702,
    "modalities": {
     "text": true,
@@ -7518,9 +7432,9 @@
    "description": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following....",
    "usable": true,
    "aa_intelligence_index": 30.0,
-   "aa_blended_usd_1m": 1.55,
-   "aa_median_tok_s": 123.0,
-   "aa_latency": 5.53,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 162.0,
+   "aa_latency": 6.22,
    "quality_source": "aa"
   },
   {
@@ -7950,7 +7864,7 @@
    "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a...",
    "usable": true,
    "aa_intelligence_index": 4.0,
-   "aa_blended_usd_1m": 0.26,
+   "aa_blended_usd_1m": null,
    "aa_median_tok_s": null,
    "aa_latency": null,
    "quality_source": "aa"
@@ -8428,7 +8342,7 @@
    "description": "[Microsoft Research](/microsoft) Phi-4 is designed to perform well in complex reasoning tasks and can operate efficiently in situations with limited memory or where quick responses are needed. At 14 billion...",
    "usable": true,
    "aa_intelligence_index": 5.0,
-   "aa_blended_usd_1m": 0.16,
+   "aa_blended_usd_1m": null,
    "aa_median_tok_s": 42.0,
    "aa_latency": 3.78,
    "quality_source": "aa"
@@ -8569,35 +8483,6 @@
    "expiration": null,
    "expiring_soon": false,
    "expires_in_days": null,
-   "direct_key": false,
-   "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "meta-llama/llama-3.3-70b-instruct:free",
-   "name": "Meta: Llama 3.3 70B Instruct (free)",
-   "provider": "meta-llama",
-   "home_provider": "openrouter",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "longctx",
-    "fast"
-   ],
-   "quality": 6.5,
-   "rate_limit": null,
-   "expiration": "2026-07-19",
-   "expiring_soon": true,
-   "expires_in_days": 0,
    "direct_key": false,
    "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model...",
    "usable": true,
@@ -8990,35 +8875,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "meta-llama/llama-3.2-3b-instruct:free",
-   "name": "Meta: Llama 3.2 3B Instruct (free)",
-   "provider": "meta-llama",
-   "home_provider": "openrouter",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "longctx",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": null,
-   "expiration": "2026-07-19",
-   "expiring_soon": true,
-   "expires_in_days": 0,
-   "direct_key": false,
-   "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "qwen/qwen-2.5-72b-instruct",
    "name": "Qwen2.5 72B Instruct",
    "provider": "qwen",
@@ -9181,34 +9037,6 @@
    "expiration": null,
    "expiring_soon": false,
    "expires_in_days": null,
-   "direct_key": false,
-   "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "nousresearch/hermes-3-llama-3.1-405b:free",
-   "name": "Nous: Hermes 3 405B Instruct (free)",
-   "provider": "nousresearch",
-   "home_provider": "openrouter",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "longctx"
-   ],
-   "quality": 5.0,
-   "rate_limit": null,
-   "expiration": "2026-07-19",
-   "expiring_soon": true,
-   "expires_in_days": 0,
    "direct_key": false,
    "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the...",
    "usable": true,
@@ -11173,9 +11001,9 @@
    "usable": true,
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 38.0,
-   "aa_blended_usd_1m": 0.22,
-   "aa_median_tok_s": 63.0,
-   "aa_latency": 1.67,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 73.0,
+   "aa_latency": 1.64,
    "quality_source": "aa"
   },
   {
@@ -11207,9 +11035,9 @@
    "usable": true,
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 44.0,
-   "aa_blended_usd_1m": 0.22,
-   "aa_median_tok_s": 84.0,
-   "aa_latency": 1.85,
+   "aa_blended_usd_1m": 0.12,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.46,
    "quality_source": "aa"
   },
   {
@@ -12547,9 +12375,9 @@
    "usable": true,
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 5.0,
-   "aa_blended_usd_1m": 0.24,
-   "aa_median_tok_s": 206.0,
-   "aa_latency": 1.22,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 200.0,
+   "aa_latency": 1.36,
    "quality_source": "aa"
   },
   {
@@ -13024,35 +12852,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "nvidia/qwen/qwen3.5-122b-a10b",
-   "name": "qwen/qwen3.5-122b-a10b",
-   "provider": "nvidia",
-   "home_provider": "nvidia",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 65536,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "nim",
-    "cloud"
-   ],
-   "quality": 8.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via nvidia.",
-   "quality_source": "heuristic"
-  },
-  {
    "id": "nvidia/qwen/qwen3.5-397b-a17b",
    "name": "qwen/qwen3.5-397b-a17b",
    "provider": "nvidia",
@@ -13228,7 +13027,7 @@
    "usable": true,
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 41.0,
-   "aa_blended_usd_1m": 1.1,
+   "aa_blended_usd_1m": null,
    "aa_median_tok_s": null,
    "aa_latency": null,
    "quality_source": "aa"
@@ -13407,9 +13206,9 @@
    "usable": true,
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 34.0,
-   "aa_blended_usd_1m": 2.52,
-   "aa_median_tok_s": 75.0,
-   "aa_latency": 1.68,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 93.0,
+   "aa_latency": 1.55,
    "quality_source": "aa"
   },
   {
@@ -13594,7 +13393,7 @@
    "usable": true,
    "notes": "Routed via github.",
    "aa_intelligence_index": 5.0,
-   "aa_blended_usd_1m": 0.16,
+   "aa_blended_usd_1m": null,
    "aa_median_tok_s": 42.0,
    "aa_latency": 3.78,
    "quality_source": "aa"
@@ -14178,9 +13977,9 @@
    "usable": true,
    "notes": "Routed via openai.",
    "aa_intelligence_index": 30.0,
-   "aa_blended_usd_1m": 1.55,
-   "aa_median_tok_s": 123.0,
-   "aa_latency": 5.53,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 162.0,
+   "aa_latency": 6.22,
    "quality_source": "aa"
   },
   {
@@ -16406,9 +16205,9 @@
    "usable": true,
    "notes": "Routed via cloudflare.",
    "aa_intelligence_index": 34.0,
-   "aa_blended_usd_1m": 2.52,
-   "aa_median_tok_s": 75.0,
-   "aa_latency": 1.68,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 93.0,
+   "aa_latency": 1.55,
    "quality_source": "aa"
   },
   {
@@ -16992,36 +16791,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "cerebras/gpt-oss-120b",
-   "name": "gpt-oss-120b",
-   "provider": "cerebras",
-   "home_provider": "cerebras",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "cerebras",
-    "cloud",
-    "free"
-   ],
-   "quality": 8.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via cerebras.",
-   "quality_source": "heuristic"
-  },
-  {
    "id": "cerebras/gemma-4-31b",
    "name": "gemma-4-31b",
    "provider": "cerebras",
@@ -17043,6 +16812,36 @@
     "fast"
    ],
    "quality": 6.5,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via cerebras.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "cerebras/gpt-oss-120b",
+   "name": "gpt-oss-120b",
+   "provider": "cerebras",
+   "home_provider": "cerebras",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 128000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "cerebras",
+    "cloud",
+    "free"
+   ],
+   "quality": 8.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -17637,9 +17436,9 @@
    "usable": true,
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 35.0,
-   "aa_blended_usd_1m": 0.9,
-   "aa_median_tok_s": 59.0,
-   "aa_latency": 1.86,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 67.0,
+   "aa_latency": 1.82,
    "quality_source": "aa"
   },
   {
@@ -17795,9 +17594,9 @@
    "usable": true,
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 44.0,
-   "aa_blended_usd_1m": 0.22,
-   "aa_median_tok_s": 84.0,
-   "aa_latency": 1.85,
+   "aa_blended_usd_1m": 0.12,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.46,
    "quality_source": "aa"
   },
   {
@@ -17859,9 +17658,9 @@
    "usable": true,
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 34.0,
-   "aa_blended_usd_1m": 2.52,
-   "aa_median_tok_s": 75.0,
-   "aa_latency": 1.68,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 93.0,
+   "aa_latency": 1.55,
    "quality_source": "aa"
   },
   {
@@ -18658,9 +18457,9 @@
    "usable": true,
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 44.0,
-   "aa_blended_usd_1m": 0.22,
-   "aa_median_tok_s": 84.0,
-   "aa_latency": 1.85,
+   "aa_blended_usd_1m": 0.12,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.46,
    "quality_source": "aa"
   },
   {
@@ -18886,8 +18685,8 @@
    "usable": true,
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 24.0,
-   "aa_blended_usd_1m": 0.77,
-   "aa_median_tok_s": 84.0,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 91.0,
    "aa_latency": 0.92,
    "quality_source": "aa"
   },
@@ -19082,8 +18881,8 @@
    "usable": true,
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 24.0,
-   "aa_blended_usd_1m": 0.77,
-   "aa_median_tok_s": 84.0,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 91.0,
    "aa_latency": 0.92,
    "quality_source": "aa"
   },
@@ -19182,9 +18981,9 @@
    "usable": true,
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 44.0,
-   "aa_blended_usd_1m": 1.87,
-   "aa_median_tok_s": 93.0,
-   "aa_latency": 71.47,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 132.0,
+   "aa_latency": 64.32,
    "quality_source": "aa"
   },
   {
