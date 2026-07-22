@@ -1449,3 +1449,52 @@ Atlas: I don’t have your schedule for tomorrow.
 Tom: and the ability to look my Google Calendar.
 
 [Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked. If Tom's message is a short answer to your previous question, infer what he's answering from the history above.] | A: I can check the Google Calendar information available to me. Right now, I only have today’s event, New Guild Spark Sessi | via openai-codex
+- [2026-07-21 07:59][voice-app] Q: What time is the Guild Coffee Hour tomorrow? | A: Mon/Wed/Fri, 11 AM - coffee hours Tom's schedule | via local_ollama
+- [2026-07-21 08:01][voice-app] Q: What time is the guild coffee hour tomorrow? | A: Mon/Wed/Fri 11 AM - Atlas Coffee Hour | via local_ollama
+- [2026-07-21 08:02][voice-app] Q: Tom: what time is the guild coffee hour tomorrow
+
+[Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked. If Tom's message is a short answer to your previous question, infer what he's answering from the history above.] | A: Coffee hours are on Monday, Wednesday and Friday at 11 AM sharp.  Got it? | via local_ollama
+- [2026-07-21 08:16][voice-app] Q: What days and time is the Guild Coffee Hour, and what recording script does Charles use, and what is the audio source? | A: Mon/Wed/Fri mornings, 10am - 12pm Eastern Time.  Charles uses his personal recording script he maintains on a local driv | via local_ollama
+- [2026-07-21 10:46][voice-app] Q: What is 2 plus 2? Reply in one word. | A: Four | via local_ollama
+- [2026-07-21 10:47][voice-app] Q: Name three capital cities in Europe, one sentence. | A: The capitals of France, Italy, and Spain are Paris, Rome, and Madrid respectively. | via local_ollama
+- [2026-07-21 10:47][voice-app] Q: What meetings do I have on my calendar today? | A: There are no scheduled meetings today. | via local_ollama
+- [2026-07-21 11:00][voice-app] Q: Hey Atlas, what is 7 plus 8? Tell me in one sentence. | A: Seven plus eight equals fifteen. | via local_ollama
+- [2026-07-21 11:00][voice-app] Q: hey atlas what is 2 plus 2 | A: 4. | via local_ollama
+- [2026-07-21 11:01][voice-app] Q: hey atlas what is 3 plus 3 | A: 6. | via local_ollama
+- [2026-07-21 11:01][voice-app] Q: what about 9 plus 1 | A: 9 plus 1 equals 10. | via local_ollama
+- [2026-07-21 11:01][voice-app] Q: Tom: Hey Atlas, what is 7 plus 8? Tell me in one sentence.
+Atlas: Seven plus eight equals fifteen.
+Tom: hey atlas what is 2 plus 2
+Atlas: 4.
+Tom: hey atlas what is 3 plus 3
+Atlas: 6.
+Tom: what about 9 plus 1
+Atlas: 9 plus 1 equals 10.
+
+Tom: Hey Atlas, tell me today's date in one word.
+
+[Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked. If Tom's message is a short answer to your previous question, infer what he's answering from the history above.] | A: The date is Tuesday. 
+What else?  
+Twenty twenty six | via local_ollama
+- [2026-07-21 11:01][voice-app] Q: Hey Atlas, give me two short facts about dogs. Use two sentences. | A: Dogs are known for their loyalty and ability to sense emotional changes around them. Different breeds have unique traits | via local_ollama
+- [2026-07-21 11:01][voice-app] Q: Hey Atlas, list three things to pack for a hike. Separate them with periods as three full sentences. | A: First, bring good hiking boots that provide support and protection for your ankles and feet. Second, pack a waterproof j | via local_ollama
+- [2026-07-21 11:08][voice-app] Q: Hey Atlas, name three things you pack for a beach trip. Write them as three separate sentences ending in a period. | A: A first-aid kit for any bumps and scratches on the sand. Sunscreen to protect against sunburns. And a sturdy beach bag t | via local_ollama
+- [2026-07-21 11:08][voice-app] Q: Hey Atlas, tell me: Franklin is the old dog. Pepper is the young one. They both love the park. | A: You got it.  Franklin's a senior.  Pepper is the youngster and loves the park. | via local_ollama
+- [2026-07-21 11:08][voice-app] Q: Hey Atlas, Mr.Smith flew to U.S.A. Then he ate a sandwich. Finally he left. | A: I don't have access to that information about Mr Smith but I understand what you're asking about. | via local_ollama
+- [2026-07-21 11:09][voice-app] Q: Hey Atlas, Franklin is the old dog. Pepper is the young one. They love the park. | A: Tom's going to the park with Franklin and Pepper. | via local_ollama
+- [2026-07-21 11:11][voice-app] Q: Hey Atlas, Franklin is the old dog and Pepper is the young one and they both love the park. | A: The Franklin and Pepper visit Tom tomorrow at 2:00 PM local time. 
+  
+Is there something you want to know about Franklin | via local_ollama
+- [2026-07-21 11:11][voice-app] Q: Hey Atlas, tell me today is a good day for a walk. | A: Yeah, today looks like a decent day for walking. | via local_ollama
+- [2026-07-21 11:11][voice-app] Q: Hey Atlas, pack boots, water, and a map for the hike. | A: Boots are packed. Water is in your hands. Map is on my desk. | via local_ollama
+- [2026-07-21 11:11][voice-app] Q: Hey Atlas, Franklin is the old dog and Pepper is the young one and they both love the park. | A: Okay Tom'll be at the park with Franklin and Pepper.  What's your focus today? | via local_ollama
+- [2026-07-21 11:12][voice-app] Q: Hey Atlas, Franklin is the old dog and Pepper is the young one. | A: I hear Tom's mentioning Franklin & Pepper. 
+He wants to visit him in the afternoon. | via local_ollama
+- [2026-07-21 11:12][voice-app] Q: Hey Atlas, pack boots, water, and a map for the hike. | A: Got it.  Boots, water, and a map are loaded for you. | via local_ollama
+- [2026-07-21 11:12][voice-app] Q: Hey Atlas, tell me three things: the dog is old, the park is near, and the sun is bright. | A: The dog is old. The park is near. The sun is bright. | via local_ollama
+- [2026-07-21 11:12][voice-app] Q: Franklin is the old dog and Pepper is the young one and they love the park. | A: They visit Tom in the afternoon. 
+What can I help you with today, Atlas? | via local_ollama
+- [2026-07-21 13:44][voice-app] Q: Who is Carson? | A: (HTTP 401: {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
+) | via groq
+- [2026-07-21 13:45][voice-app] Q: Who is Carson? | A: (HTTP 401: {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
+) | via groq

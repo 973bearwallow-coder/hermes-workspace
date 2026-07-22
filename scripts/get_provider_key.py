@@ -20,9 +20,10 @@ ALIASES = {
     "openai": "openai", "gpt": "openai",
     "cloudflare": "cloudflare", "cf": "cloudflare",
     "cloudflare_account_id": "cloudflare_account_id",
-    "agnes": "agnes", "cerebras": "cerebras", "deepseek": "deepseek", "gemini": "gemini", "chutes": "chutes",
-    "agnes": "agnes",
+    "agnes": "agnes", "cerebras": "cerebras", "deepseek": "deepseek", "gemini": "gemini",
+    "chutes": "chutes", "nebius": "nebius",
     "openrouter": "openrouter",
+    "groq": "groq",
 }
 
 # providers whose key may live in Hermes config.yaml if not in secrets

@@ -19,7 +19,7 @@ Providers supported:
 
 All keys read via get_provider_key (never printed).
 """
-import json, time, urllib.request, urllib.error, os
+import json, time, urllib.request, urllib.error, base64, os
 import get_provider_key as pk
 
 OPENAI_COMPAT = {
@@ -67,15 +67,62 @@ def _post(url, body, headers, timeout=120):
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.load(r)
 
-def _openai_call(url, key, provider, model_id, prompt, sys_prompt, max_tokens, timeout=120):
+def _ollama_native_vision_call(model_id, prompt, sys_prompt, max_tokens, image_path, timeout=120):
+    """Local Ollama vision models (llama3.2-vision, etc.) only reliably ingest
+    images via the NATIVE /api/chat endpoint with `images`=[base64]. The
+    OpenAI-compat shim at /v1/chat/completions silently drops the `images`
+    field for these models (advisor reported 'no image provided'). Route
+    vision calls here; text-only calls stay on the OpenAI-compat path."""
+    with open(image_path, "rb") as f:
+        b64 = base64.b64encode(f.read()).decode()
+    body = {
+        "model": model_id,
+        "messages": [{"role": "system", "content": sys_prompt},
+                     {"role": "user", "content": prompt, "images": [b64]}],
+        "stream": False,
+        "options": {"num_predict": max_tokens},
+    }
+    if "qwen3" in model_id.lower():
+        body["think"] = False
+    url = "http://localhost:11434/api/chat"
+    headers = {"Content-Type": "application/json", "User-Agent": "atlas-moa/1.0"}
+    data = _post(url, body, headers, timeout)
+    msg = data.get("message", {})
+    text = msg.get("content") or ""
+    usage = {"prompt_tokens": (data.get("prompt_eval_count") or 0),
+             "completion_tokens": (data.get("eval_count") or 0)}
+    return text, usage
+
+def _openai_call(url, key, provider, model_id, prompt, sys_prompt, max_tokens, timeout=120, image_path=None):
+    # Build user content (text + optional image)
+    if image_path and os.path.isfile(image_path):
+        with open(image_path, "rb") as f:
+            b64 = base64.b64encode(f.read()).decode()
+        import mimetypes
+        mime = mimetypes.guess_type(image_path)[0] or "image/png"
+        data_uri = f"data:{mime};base64,{b64}"
+        if provider == "local_ollama":
+            # Ollama's OpenAI-compatible endpoint needs the NATIVE 'images' field
+            # (a list of bare base64 strings), NOT the image_url content block.
+            user_content = prompt
+            body_extra = {"images": [b64]}
+        else:
+            user_content = [{"type": "text", "text": prompt},
+                            {"type": "image_url", "image_url": {"url": data_uri}}]
+            body_extra = {}
+    else:
+        user_content = prompt
+        body_extra = {}
     body = {
         "model": model_id,
         "messages": [
             {"role": "system", "content": sys_prompt},
-            {"role": "user", "content": prompt},
+            {"role": "user", "content": user_content},
         ],
         "max_tokens": max_tokens,
     }
+    if body_extra:
+        body.update(body_extra)
     # Local Ollama Qwen3 is a reasoning model that leaves `content` empty and
     # only fills `reasoning`. For normal chat/voice use we want the answer in
     # `content`, so disable thinking for local qwen3 (cloud reasoning models like
@@ -96,70 +143,6 @@ def _openai_call(url, key, provider, model_id, prompt, sys_prompt, max_tokens, t
         text = msg.get("reasoning") or msg.get("reasoning_content") or ""
     usage = data.get("usage", {})
     return text, usage
-
-
-def _codex_call(model_id, prompt, sys_prompt, max_tokens, timeout=180):
-    """ChatGPT Plus OAuth route (openai-codex). Reads token from ~/.hermes/auth.json.
-    Endpoint: chatgpt.com/backend-api/codex/responses (streaming, store:false required).
-    Raises urllib.error.HTTPError(429) on throttle so caller can fall back."""
-    import json as _json
-    auth_path = os.path.expanduser("~/.hermes/auth.json")
-    if not os.path.exists(auth_path):
-        return "(openai-codex: no auth.json — run 'hermes auth add openai-codex')", {}
-    d = _json.load(open(auth_path))
-    creds = d.get("credential_pool", {}).get("openai-codex", [])
-    if not creds:
-        return "(openai-codex: no credential in auth.json)", {}
-    token = creds[0].get("access_token")
-    if not token:
-        return "(openai-codex: access_token missing — re-auth)", {}
-
-    url = "https://chatgpt.com/backend-api/codex/responses"
-    body = _json.dumps({
-        "model": model_id,
-        "input": [
-            {"role": "system", "content": sys_prompt},
-            {"role": "user", "content": prompt},
-        ],
-        "store": False,
-        "stream": True,
-    }).encode()
-    req = urllib.request.Request(url, data=body, headers={
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-        "OpenAI-Beta": "codex-v1",
-        "User-Agent": "atlas-moa/1.0",
-    }, method="POST")
-
-    try:
-        resp = urllib.request.urlopen(req, timeout=timeout)
-    except urllib.error.HTTPError as e:
-        if e.code == 429:
-            raise  # let caller catch + record throttle
-        msg = e.read().decode()[:160]
-        return f"(codex HTTP {e.code}: {msg})", {}
-
-    # Parse SSE stream
-    text_parts = []
-    usage = {}
-    for raw in resp:
-        line = raw.decode("utf-8", errors="ignore").strip()
-        if not line.startswith("data:"):
-            continue
-        payload = line[5:].strip()
-        if payload == "[DONE]":
-            break
-        try:
-            ev = _json.loads(payload)
-        except Exception:
-            continue
-        t = ev.get("type")
-        if t == "response.output_text.delta":
-            text_parts.append(ev.get("delta", ""))
-        elif t == "response.completed":
-            usage = ev.get("response", {}).get("usage", {})
-    full = "".join(text_parts)
-    return full, usage
 
 def _anthropic_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=120):
     # map catalog id -> anthropic model name
@@ -215,21 +198,29 @@ def _replicate_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=200):
         return "\n".join(str(o) for o in out), {}
     return str(out or ""), {}
 
-def _gemini_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=120):
+def _gemini_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=120, image_path=None):
     # Gemini uses the native Generative Language API (not OpenAI-compat)
     mid = model_id.split("/", 1)[-1] if "/" in model_id else model_id
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{mid}:generateContent?key={key}"
+    # Build parts (text + optional inline media: image OR video)
+    parts = [{"text": f"{sys_prompt}\n\n{prompt}"}]
+    if image_path and os.path.isfile(image_path):
+        import mimetypes
+        mime = mimetypes.guess_type(image_path)[0] or "application/octet-stream"
+        with open(image_path, "rb") as fh:
+            b64 = base64.b64encode(fh.read()).decode()
+        parts.append({"inline_data": {"mime_type": mime, "data": b64}})
     # Gemini reasoning models eat the token budget on thoughts; disable thinking
     # for normal chat/voice use so we get a real answer in content.parts.
     body = {
-        "contents": [{"role": "user", "parts": [{"text": f"{sys_prompt}\n\n{prompt}"}]}],
+        "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {"maxOutputTokens": max_tokens, "thinkingConfig": {"thinkingBudget": 0}},
     }
     headers = {"Content-Type": "application/json", "User-Agent": "atlas-moa/1.0"}
     data = _post(url, body, headers, timeout)
     try:
-        parts = data["candidates"][0]["content"].get("parts", [])
-        text = "".join(p.get("text", "") for p in parts)
+        parts_out = data["candidates"][0]["content"].get("parts", [])
+        text = "".join(p.get("text", "") for p in parts_out)
     except (KeyError, IndexError):
         text = ""
     if not text:  # fallback: try reasoning/thought summary
@@ -238,10 +229,11 @@ def _gemini_call(model_id, prompt, sys_prompt, max_tokens, key, timeout=120):
     return text, usage
 
 def _chutes_call(model_slug, prompt, sys_prompt, max_tokens, key, timeout=120):
-    # Chutes deploys models as user "chutes" (apps). Generate endpoint:
-    # POST https://api.chutes.ai/v1/chats/{username}/{slug}/api/generate
-    user, slug = (model_slug.split("/", 1) + [""])[:2] if "/" in model_slug else ("chutes", model_slug)
-    url = f"https://api.chutes.ai/v1/chats/{user}/{slug}/api/generate"
+    # Chutes generate endpoint: POST https://api.chutes.ai/v1/chats/{chute_name}/api/generate
+    # model_slug is the full chute name (e.g. "chutes-deepseek-ai-deepseek-v3-2-tee")
+    # as shown in the chutes.ai/app/chute/{name} URL. No user/slug split.
+    chute = model_slug.split("/", 1)[-1] if "/" in model_slug else model_slug
+    url = f"https://api.chutes.ai/v1/chats/{chute}/api/generate"
     body = {"messages": [{"role": "system", "content": sys_prompt},
                           {"role": "user", "content": prompt}], "max_tokens": max_tokens}
     headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json",
@@ -256,44 +248,55 @@ def _chutes_call(model_slug, prompt, sys_prompt, max_tokens, key, timeout=120):
         text = str(data)
     return text, {}
 
-def call_model(model_entry, prompt, sys_prompt="You are a helpful assistant.", max_tokens=500, timeout=180):
-    """Route a call by the catalog model's home_provider. Returns (text, usage)."""
+def call_model(model_entry, prompt, sys_prompt="You are a helpful assistant.", max_tokens=500, timeout=180, image_path=None):
+    """Route a call by the catalog model's home_provider. Returns (text, usage).
+    If image_path is given and the model is vision-capable, sends a multimodal request."""
     provider = model_entry.get("home_provider", "openrouter")
     mid = model_entry["id"]
     try:
-        if provider == "openai-codex":
-            return _codex_call(mid.split("/", 1)[-1], prompt, sys_prompt, max_tokens, timeout)
+        if provider == "local_ollama":
+            # Vision models: use NATIVE /api/chat (OpenAI-compat shim drops images).
+            # Text-only: keep OpenAI-compat path.
+            if image_path and os.path.isfile(image_path):
+                call_mid = mid.split("/", 1)[-1]
+                return _ollama_native_vision_call(call_mid, prompt, sys_prompt, max_tokens, image_path, timeout)
+            key = _get_key(provider)
+            call_mid = mid.split("/", 1)[-1]
+            return _openai_call(OPENAI_COMPAT[provider], key, provider, call_mid, prompt, sys_prompt, max_tokens, timeout, image_path)
         if provider in OPENAI_COMPAT:
             key = _get_key(provider) or (pk.get_key("openrouter") if provider == "openrouter" else "")
-            call_mid = mid.split("/", 1)[-1] if provider != "openrouter" else mid
+            # Nebius keeps the internal slash (MiniMaxAI/MiniMax-M3) like OpenRouter,
+            # so strip ONLY the provider prefix segment — NOT the whole id.
+            call_mid = mid.split("/", 1)[-1] if provider in ("openrouter", "local_ollama", "nebius", "groq") else mid
             url = OPENAI_COMPAT[provider]
             if provider == "cloudflare":
                 acct = pk.get_key("cloudflare_account_id") or ""
                 if not acct:
                     return "(Cloudflare account_id missing — add cloudflare_account_id to secrets)", {}
                 url = url.format(account_id=acct)
-            return _openai_call(url, key, provider, call_mid, prompt, sys_prompt, max_tokens, timeout)
+            return _openai_call(url, key, provider, call_mid, prompt, sys_prompt, max_tokens, timeout, image_path)
         if provider == "anthropic":
             ak = pk.get_key("anthropic")
             if not ak:
                 return "(Anthropic key not set)", {}
-            return _anthropic_call(mid, prompt, sys_prompt, max_tokens, ak, timeout)
-        if provider == "huggingface":
-            return _hf_call(mid, prompt, sys_prompt, max_tokens, pk.get_key("huggingface"), timeout)
-        if provider == "replicate":
-            return _replicate_call(mid, prompt, sys_prompt, max_tokens, pk.get_key("replicate"), timeout)
+            return _anthropic_call(mid, prompt, sys_prompt, max_tokens, ak, timeout, image_path)
         if provider == "gemini":
             gk = pk.get_key("gemini")
             if not gk:
                 return "(Gemini key not set)", {}
-            return _gemini_call(mid, prompt, sys_prompt, max_tokens, gk, timeout)
+            return _gemini_call(mid, prompt, sys_prompt, max_tokens, gk, timeout, image_path)
+        if provider == "huggingface":
+            return _hf_call(mid, prompt, sys_prompt, max_tokens, pk.get_key("huggingface"), timeout)
+        if provider == "replicate":
+            return _replicate_call(mid, prompt, sys_prompt, max_tokens, pk.get_key("replicate"), timeout)
         if provider == "chutes":
             ck = pk.get_key("chutes")
             if not ck:
                 return "(Chutes key not set)", {}
             return _chutes_call(mid, prompt, sys_prompt, max_tokens, ck, timeout)
+            return _codex_call(mid, prompt, sys_prompt, max_tokens, timeout)
         # fallback: treat as openrouter
-        return _openai_call(OPENAI_COMPAT["openrouter"], pk.get_key("openrouter"), "openrouter", mid, prompt, sys_prompt, max_tokens, timeout)
+        return _openai_call(OPENAI_COMPAT["openrouter"], pk.get_key("openrouter"), "openrouter", mid, prompt, sys_prompt, max_tokens, timeout, image_path)
     except urllib.error.HTTPError as e:
         msg = e.read().decode()[:160]
         if provider == "anthropic" and "authentication_error" in msg:
@@ -301,6 +304,60 @@ def call_model(model_entry, prompt, sys_prompt="You are a helpful assistant.", m
         return f"(HTTP {e.code}: {msg})", {}
     except Exception as e:
         return f"(ERR {type(e).__name__}: {e})", {}
+
+
+def call_model_stream(model_entry, prompt, sys_prompt="You are a helpful assistant.", max_tokens=500, timeout=120, image_path=None):
+    """Streaming variant of call_model. Yields text deltas (str) as they arrive.
+    Falls back to yielding the full text once if the provider doesn't stream.
+    Returns a generator. Supports OpenAI-compat streaming (groq, openrouter,
+    local_ollama, nebius, cerebras, deepseek, etc.) via SSE."""
+    import urllib.request as _urllib_req
+    provider = model_entry.get("home_provider", "openrouter")
+    mid = model_entry["id"]
+    url = OPENAI_COMPAT.get(provider)
+    if not url:
+        # unknown provider -> non-streaming fallback
+        full, _ = call_model(model_entry, prompt, sys_prompt, max_tokens, timeout, image_path)
+        yield full or ""
+        return
+    # strip provider prefix for the api model name (same rule as call_model)
+    call_mid = mid.split("/", 1)[-1] if provider in ("openrouter", "local_ollama", "nebius", "groq") else mid
+    key = _get_key(provider) or (pk.get_key("openrouter") if provider == "openrouter" else "")
+    headers = {"Content-Type": "application/json", "Accept": "text/event-stream"}
+    if provider in _UA_FOR:
+        headers.update(_BROWSER_UA)
+    else:
+        headers["User-Agent"] = "atlas-moa/1.0"
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
+    body = {
+        "model": call_mid,
+        "messages": [{"role": "system", "content": sys_prompt},
+                     {"role": "user", "content": prompt}],
+        "max_tokens": max_tokens,
+        "stream": True,
+    }
+    req = _urllib_req.Request(url, data=json.dumps(body).encode(), headers=headers, method="POST")
+    try:
+        with _urllib_req.urlopen(req, timeout=timeout) as r:
+            for raw in r:
+                line = raw.decode("utf-8", "replace").strip()
+                if not line or not line.startswith("data:"):
+                    continue
+                data = line[5:].strip()
+                if data == "[DONE]":
+                    break
+                try:
+                    obj = json.loads(data)
+                    delta = obj["choices"][0]["delta"].get("content", "")
+                except Exception:
+                    continue
+                if delta:
+                    yield delta
+    except Exception as e:
+        # stream failed -> fall back to full non-streaming call
+        full, _ = call_model(model_entry, prompt, sys_prompt, max_tokens, timeout, image_path)
+        yield full or f"(stream err {type(e).__name__})"
 
 def configured_providers():
     return pk.list_configured()
