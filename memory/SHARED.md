@@ -1498,3 +1498,69 @@ What can I help you with today, Atlas? | via local_ollama
 ) | via groq
 - [2026-07-21 13:45][voice-app] Q: Who is Carson? | A: (HTTP 401: {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
 ) | via groq
+- [2026-07-22 13:14][voice-app] Q: Tom: what is the weather in New York?
+
+[Voice mode: reply in 2-3 short spoken sentences. No markdown.] | A: The user is asking about the weather in New York. According to my instructions, the KEY FACTS, CALENDAR, and EMAIL secti | via openrouter
+- [2026-07-22 15:15][voice-app] Q: Tom (async): butler ready
+Atlas: Butler ready.  What can I do for you?
+Tom (async): butler ready
+Atlas: Atlas is ready to assist you.  What can I do for you?
+Tom (async): butler ready
+Atlas: Atlas is ready to assist you. What can I do for you?
+Tom (async): butler ready
+Atlas: Atlas is ready to assist you. What can I do for you?
+Tom (async): butler ready
+Atlas: Atlas is ready to assist you. What can I do for you?
+Tom: what time is the coffee hour today
+Atlas: Guild Coffee Hour is at 10 AM PST/ 1 PM EST today.
+
+Tom: what is 2+2
+
+[Voice mode: reply in 2-3 short spoken sentences. No markdown.] | A: Four. I'm here for any other tasks you need help with today. | via agnes
+- [2026-07-22 17:05][voice-app] Q: Tom (async): butler ready
+Atlas: Butler is online and ready for your commands.  What can I do for you?
+Tom: what time is it
+Atlas: It's 5:05 PM on Wednesday, July 22.
+Tom: what is on my calendar
+Atlas: Today's calendar: Today's calendar:
+2026-07-22  
+2026-07-22T09:00:00-04:00  Guild Coffee Hour
+2026-07-22T19:30:00-04:00  New Guild Spark Sessions
+Tom: build me a timer
+Atlas: I've asked Atlas to look into that. You'll hear about it when there's an update.
+Tom: thank you
+Atlas: My pleasure.
+Tom: Spencer is also my son
+Atlas: Good to know, I've saved that.
+
+Tom: who is my wife
+
+[Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked. If Tom's message is a short answer to your previous question, infer what he's answering from the history above. If you don't know the answer, check the [MEMORY VAULT SEARCH] and [SHARED CONTEXT] sections in your system prompt — they contain results from my conversation history and memory files. Do not say you 'don't have that information' without checking those sections first. If Tom's query is short or unclear (under 5 words or a fragment), ask a clarifying question like 'What would you like me to look up?' or 'What kind of timer?' instead of saying 'Sorry, didn't catch that.'] | A: Your wife is Jane, and you co-own Paw Prints Pet Services with her. | via agnes
+- [2026-07-22 18:09][voice-app] Q: Tom: tell me a joke
+Atlas: Why don't scientists trust atoms?  Because they make up everything! 😄
+
+Tom: what is the population of France
+
+[Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked. If Tom's message is a short answer to your previous question, infer what he's answering from the history above. If you don't know the answer, check the [MEMORY VAULT SEARCH] and [SHARED CONTEXT] sections in your system prompt — they contain results from my conversation history and memory files. Do not say you 'don't have that information' without checking those sections first. If Tom's query is short or unclear (under 5 words or a fragment), ask a clarifying question like 'What would you like me to look up?' or 'What kind of timer?' instead of saying 'Sorry, didn't catch that.'] | A: I don't have the current population of France at hand. Want me to look it up? | via openrouter
+- [2026-07-22 18:38][voice-app] Q: Tom: what time is it
+Atlas: It's 6:38 PM on Wednesday, July 22.
+
+Tom: who is my son
+
+[Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked. If Tom's message is a short answer to your previous question, infer what he's answering from the history above. If you don't know the answer, check the [MEMORY VAULT SEARCH] and [SHARED CONTEXT] sections in your system prompt — they contain results from my conversation history and memory files. Do not say you 'don't have that information' without checking those sections first. If Tom's query is short or unclear (under 5 words or a fragment), ask a clarifying question like 'What would you like me to look up?' or 'What kind of timer?' instead of saying 'Sorry, didn't catch that.'] | A: Your son is Carson—he lives in Falls Church and co-owns Paw Prints with you and Jane. I also have a note that Spencer is | via openrouter
+- [2026-07-22 19:39][voice-app] Q: Tom: what time is it
+Atlas: It's 7:39 PM on Wednesday, July 22.
+
+Tom: what is my sons name
+
+[Voice mode: reply as my co-worker in 2-3 short spoken sentences. No markdown or lists unless asked. If Tom's message is a short answer to your previous question, infer what he's answering from the history above. If you don't know the answer, check the [MEMORY VAULT SEARCH] and [SHARED CONTEXT] sections in your system prompt — they contain results from my conversation history and memory files. Do not say you 'don't have that information' without checking those sections first. If Tom's query is short or unclear (under 5 words or a fragment), ask a clarifying question like 'What would you like me to look up?' or 'What kind of timer?' instead of saying 'Sorry, didn't catch that.'] | A: Tom, your son's name is Carson. He lives in Falls Church, Virginia, and co-owns Paw Prints Pet Services with you and Jan | via openrouter
+- [2026-07-22 19:52][voice-app] Q: Tom: what time is it
+Atlas: It's 7:39 PM on Wednesday, July 22.
+Tom: what is my sons name
+Atlas: Tom, your son's name is Carson. He lives in Falls Church, Virginia, and co-owns Paw Prints Pet Services with you and Jane.
+Tom: what time is it
+Atlas: It's 7:52 PM on Wednesday, July 22.
+
+Tom: butler ready
+
+[Voice mode: reply in 2-3 short spoken sentences. No markdown.] | A: Butler's ready — all health checks passed. What do you need? | via openrouter
