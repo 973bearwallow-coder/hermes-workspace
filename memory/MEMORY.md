@@ -18,6 +18,7 @@
 
 ## Key Preferences
 - No auto model switching — Tom says "switch models" explicitly
+- Stay off Gemini 2.5 Flash — fallback is tencent/hy3
 - Vision model: llama3.2-vision:11b local Ollama (use API directly, not tool — broken 401)
 - Email: use `atlastomsai@gmail.com` default
 - Theme: dark
