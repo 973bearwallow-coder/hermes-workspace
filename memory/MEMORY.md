@@ -7,7 +7,7 @@
 - **Tom Torok**, 61, Falls Church VA (22042)
 - Co-owner of Paw Prints pet services (Jane is primary owner/face)
 - Hermes v0.16.0, Charles OpenClaw v2026.6.1, Qwen 2.5 7B on RTX 3090
-- Models: OWL-Alpha (default), DeepSeek V4 Pro (heavy reasoning), Nemotron 3 Nano (free backup)
+- Models: DeepSeek V4 Flash (primary), tencent/hy3 (fallback)
 - Hobbies: AI, woodworking, vehicles, guns, fishing, hunting, hiking, fitness, cooking
 - Wife: Jane | Mother-in-law: Caroline (turned 90, June 6 2026)
 
@@ -32,7 +32,6 @@
 - Voice cloning: upload sample, generate speech in that voice
 - Code fix applied 2026-06-27: Whisper loading via `whisper.load_model()` instead of HF direct
 - Env: `/home/tom/voicebox-env/`
-- ⚠️ Cancel Resemble.AI $14/mo subscription
 - Full details: `Tools/voicebox-local-ai-voice.md`
 
 ## Obsidian Vault Pointers
@@ -44,14 +43,11 @@
 - GitHub tools inventory: `ObsidianVault/Areas/Technology/github-tools.md`
 - Hermes/Charles config: `ObsidianVault/Areas/Technology/hermes-config.md`
 
-## Pending / Recent (June 2026)
-- Pool Referee: Raspberry Pi sourced (George Sandy, $75 Annandale) — waiting for seller meet-up. NexiGo N60 camera added to setup.
-- Duke's Shot Clock v5: live on GitHub Pages, Voicebox integrated for audio
-- Brand Brain: last updated 2026-06-23 (master reference for all Paw Prints work)
-- Travel camera for Jane: Panasonic Lumix ZS80/TZ95 recommended (30x zoom, 20.3MP, $500-800 range)
-- TNDC Pam Bondi invite: IP-Adapter FaceID pipeline for likeness (CLIP ViT encoder needed)
-- Dishwasher pickup (LG, ~$420)
-- ZenBook if ThinkPad ghosted
+## Pending / Recent
+- Pool Referee: Raspberry Pi sourced (George Sandy, $75 Annandale) — awaiting pickup. NexiGo N60 camera. ThinkPad X1 ($119) as possible laptop compute.
+- Duke's Shot Clock v5: live, Voicebox integrated
+- Dishwasher: LG LDTH5554S open-box $419.99 bought for TNDC pool hall (per Price-Tracking notes)
+- Brand Brain: last updated 2026-06-23 (master ref for Paw Prints work)
 
 ---
-_Capacity target: <8K chars. Last consolidated: 2026-07-08_
+_Capacity target: <8K chars. Last consolidated: 2026-07-25_
