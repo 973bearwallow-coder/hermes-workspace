@@ -1,26 +1,25 @@
 # Model Stack & Fallbacks — Detailed Notes
 _Created: June 2026. Moved from MEMORY.md during weekly consolidation._
 
-## Current Stack (as of June 14 2026)
+## Current Stack (as of 2026-07-26)
 | Role | Model | Notes |
 |---|---|---|
-| Atlas (primary) | openrouter/owl-alpha | 1M ctx. Do NOT switch without asking Tom. |
-| Charles (OpenClaw) | ollama/qwen3:30b-a3b | Local, RTX 3090. |
-| Heavy reasoning | deepseek/deepseek-v4-pro | Use when stuck on complex debugging. |
-| Vision | nemotron-nano-12b-v2-vl:free | Via vision_analyze.py script. step-3.7-flash 404s. |
-| SD (charles) | dreamshaper-8 (Lykon) | Preferred for TNDC. 2-3s/img on RTX 3090. |
+| Atlas (primary) | `deepseek/deepseek-v4-flash` | Primary brain; keep this unless a real regression justifies change. |
+| Fallback | `tencent/hy3` | Default fallback; Tom explicitly prefers this over Gemini. |
+| Vision | `llama3.2-vision:11b` | Local Ollama vision model; use the direct API path when needed. |
+| Charles / OpenClaw | `ollama/qwen2.5:7b` | Local Charles-side model from the standing protocols. |
 
-## Fallback Chain
-1. OWL-Alpha (daily)
-2. DeepSeek V4 Pro (heavy reasoning)
-3. Nemotron 3 Nano (second free fallback)
+## Fallback / Promotion Rules
+1. Use the free current brain first.
+2. Fall back to hy3 if needed.
+3. Do not promote a new or paid model without practical evidence.
+4. Stay off Gemini 2.5 Flash unless Tom explicitly overrides.
 
 ## Key Model Notes
-- CLIP 77-token limit truncates long prompts — keep SD prompts under 65 tokens.
-- Dream Shaper 8 handles "artistic nude / centerfold" aesthetic with tasteful results.
-- Negative prompts: exclude cartoon, anime, illustrated, explicit terms.
-- Charles local Ollama models: qwen2:72b, qwen3:30b-a3b, gemma4:31b, etc.
+- Keep prompts tight; avoid unnecessary context when testing stack changes.
+- Prefer live health checks over assumptions.
+- Record any model switch or fallback change in the project notes before changing memory.
 
 ## Model Check History
-- Jun 8 2026: owl-alpha confirmed best free model by context length (1,048,756 tokens).
-- Jun 8 2026: Full model scout report at memory/model_scout_2026-06-08.md and model_check_2026-06-08.md.
+- Jun 8 2026: owl-alpha was previously the preferred free model by context length.
+- Jul 2026: current Atlas brain stabilized on DeepSeek V4 Flash, with hy3 as fallback.

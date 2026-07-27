@@ -23,3 +23,8 @@ _Moved from MEMORY.md / USER.md during weekly consolidation (2026-07-19)._
 ## Voice butler browser trap
 - Firefox blocks getUserMedia on self-signed cert → butler buttons die. Use Chrome.
 - Android background tabs hold mic 30-60s → blocks Telegram STT; mitigate with visibilitychange auto-release + manual Release Mic button.
+
+## Voice sample testing preference
+- Use Android for noisy/driving clips.
+- Use desktop mic for clean reference clips.
+- Keep raw audio available when testing denoise/STT changes so you can compare outputs.

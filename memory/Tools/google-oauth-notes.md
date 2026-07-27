@@ -22,3 +22,9 @@ _Created: June 2026. Moved from MEMORY.md during weekly consolidation._
 ## Email Organization (created Jun 13 2026)
 See: memory/business/email-organization.md
 - Folders: Appointments (1mo), Farm (1mo), Guns (2wk), News (1wk), Promotions (1wk), Tools (1wk).
+
+## Charles / Carson Setup
+- Charles uses Carson's own identity/account.
+- Gmail/Calendar access is read-mostly; writes need approval.
+- Morning report scope: weather + schedule; skip YouTube summaries and AI news unless Tom asks.
+- Keep Google OAuth aligned with Carson's password/identity, not Tom's.

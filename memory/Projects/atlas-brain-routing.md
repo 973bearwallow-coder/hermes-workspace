@@ -1,11 +1,13 @@
 # Atlas Brain & Routing Project State
 _Moved from MEMORY.md during weekly consolidation (2026-07-19)._
 
-## Current state (2026-07-19)
-- Atlas brain: `tencent/hy3:free` (expires 2026-07-21).
-- Jul21 auto-switch cron `eebf2f75fbb8` → `deepseek-v4-flash`.
+## Current state (2026-07-26)
+- Atlas brain: `deepseek/deepseek-v4-flash` primary.
+- Fallback: `tencent/hy3`.
+- Stay off Gemini 2.5 Flash unless Tom explicitly overrides.
+- Tom prefers conservative model adoption: validate with real use before promoting a new/expensive model.
 - Daily 8PM status cron `9b9195006ae3` → Telegram.
-- `atlas_reason.py` escalates to `gpt-5.6-sol` when `should_escalate_brain()`=True (soft cap 15/day).
+- `atlas_reason.py` still escalates only when `should_escalate_brain()`=True; keep production changes evidence-based.
 
 ## Open items (carried from Jul18)
 1. Resend 4 Italy al Dente cookbook photos → vault.
