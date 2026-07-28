@@ -51,4 +51,4 @@
 - Brand Brain: last updated 2026-06-23 (master ref for Paw Prints work)
 
 ---
-_Capacity target: <8K chars. Last consolidated: 2026-07-25_
+_Capacity target: <8K chars. Last consolidated: 2026-07-27_
