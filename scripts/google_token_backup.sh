@@ -1,13 +1,15 @@
 #!/bin/bash
+set -euo pipefail
 # Backup Google OAuth tokens to a secondary location
 # Also refreshes tokens to keep them active
 
 BACKUP_DIR="/home/tom/.hermes/google/backups"
 mkdir -p "$BACKUP_DIR"
 
-# Refresh both tokens first
-/home/tom/.hermes/hermes-agent/venv/bin/python3 /home/tom/hermes-workspace/scripts/google_token_manager.py personal refresh 2>/dev/null
-/home/tom/.hermes/hermes-agent/venv/bin/python3 /home/tom/hermes-workspace/scripts/google_token_manager.py atlas refresh 2>/dev/null
+# Refresh both tokens first. Do not suppress failures: cron must alert if a
+# refresh breaks rather than reporting a false successful backup.
+/home/tom/.hermes/hermes-agent/venv/bin/python3 /home/tom/hermes-workspace/scripts/google_token_manager.py personal refresh
+/home/tom/.hermes/hermes-agent/venv/bin/python3 /home/tom/hermes-workspace/scripts/google_token_manager.py atlas refresh
 
 # Backup with timestamp
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)

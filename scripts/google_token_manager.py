@@ -7,7 +7,7 @@ Run this before any Google API call to ensure fresh tokens.
 import json
 import os
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # Configuration: map account names to token files and client secrets
@@ -78,7 +78,13 @@ def refresh_if_needed(account_name):
             scopes=token_data['scopes'],
         )
         if token_data.get('expiry'):
-            creds.expiry = datetime.fromisoformat(token_data['expiry'])
+            expiry = datetime.fromisoformat(token_data['expiry'])
+            # google-auth compares expiry against a timezone-naive UTC datetime.
+            # Tokens saved with '+00:00' must be normalized or creds.expired raises
+            # TypeError: can't compare offset-naive and offset-aware datetimes.
+            if expiry.tzinfo is not None:
+                expiry = expiry.astimezone(timezone.utc).replace(tzinfo=None)
+            creds.expiry = expiry
         
         # Refresh if expired
         if creds.expired and creds.refresh_token:
