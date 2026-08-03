@@ -23,3 +23,9 @@ _Created: June 2026. Moved from MEMORY.md during weekly consolidation._
 ## Model Check History
 - Jun 8 2026: owl-alpha was previously the preferred free model by context length.
 - Jul 2026: current Atlas brain stabilized on DeepSeek V4 Flash, with hy3 as fallback.
+
+## Web lookup + phone voice preferences
+- Public web lookups should try Scrapling first; use browser/manual fallback only when extraction or interaction is needed.
+- WakeHermesClaw is preferred over browser WebRTC for phone voice when available.
+- Butler/Amy should aim for true OpenAI Realtime speech-to-speech; browser TTS is emergency-only.
+- Keep model fallbacks practical and avoid OAuth paths that break the gateway.

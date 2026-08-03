@@ -31,3 +31,9 @@ _Moved from MEMORY.md during weekly consolidation (2026-07-19)._
 
 ## Reference
 - Full architecture + latency levers in skill `atlas-voice-butler` (24,021 chars).
+
+## Current user-facing preferences
+- Mic never auto-releases; the green button stays and the mic stays live. Ten-minute hard cap only.
+- Idle timeout re-arms the wake word; it does **not** release the mic.
+- On phone, keep the same Amy/GPT voice. Use browser TTS only as an emergency fallback.
+- Voice replies should stay short; details can remain on screen or in follow-up context.

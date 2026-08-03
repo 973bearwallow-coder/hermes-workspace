@@ -28,3 +28,9 @@ _Moved from MEMORY.md / USER.md during weekly consolidation (2026-07-19)._
 - Use Android for noisy/driving clips.
 - Use desktop mic for clean reference clips.
 - Keep raw audio available when testing denoise/STT changes so you can compare outputs.
+
+## Working style preferences
+- Fix one thing at a time; do not escalate to a redesign without user buy-in.
+- Favor exact copy-paste commands when guiding remote setup on another machine.
+- Keep the memory system bulletproof: smoke tests, self-heal checks, and explicit verification.
+- Prefer autonomous hardening and skeptical verification over hype or assumptions.

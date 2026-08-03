@@ -17,6 +17,10 @@ _Created: June 2026. Moved from MEMORY.md during weekly consolidation._
 - Atlas does everything remotely via SSH.
 - Carson only needs to: create Telegram bot via BotFather, approve Google OAuth, provide OpenRouter API key.
 
+## Remote access hardening
+- Tom wants Carson's host hardened so only the intended Tailscale/key-based SSH paths remain.
+- Prefer exact copy-paste commands when giving Tom remote instructions for this machine.
+
 ## Options
 1. Carson joins Tom's tailnet.
 2. Tom generates auth key for Carson's own network.
