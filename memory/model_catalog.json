@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T08:02:06",
+  "generated": "2026-08-03T08:02:23",
   "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama",
   "total": 658,
   "by_tier": {
@@ -516,7 +516,7 @@
       "home_provider": "openrouter",
       "tier": "cheap",
       "cost_in": 1e-07,
-      "cost_out": 6.000000000000001e-07,
+      "cost_out": 6e-07,
       "context_length": 1050000,
       "modalities": {
         "text": true,
@@ -544,7 +544,7 @@
       "home_provider": "openrouter",
       "tier": "cheap",
       "cost_in": 1e-07,
-      "cost_out": 6.000000000000001e-07,
+      "cost_out": 6e-07,
       "context_length": 1050000,
       "modalities": {
         "text": true,
@@ -571,7 +571,7 @@
       "provider": "openai",
       "home_provider": "openrouter",
       "tier": "cheap",
-      "cost_in": 1.0000000000000002e-06,
+      "cost_in": 1e-06,
       "cost_out": 6e-06,
       "context_length": 1050000,
       "modalities": {
@@ -599,7 +599,7 @@
       "provider": "openai",
       "home_provider": "openrouter",
       "tier": "cheap",
-      "cost_in": 1.0000000000000002e-06,
+      "cost_in": 1e-06,
       "cost_out": 6e-06,
       "context_length": 1050000,
       "modalities": {
@@ -1071,8 +1071,8 @@
       "provider": "z-ai",
       "home_provider": "openrouter",
       "tier": "cheap",
-      "cost_in": 2.842e-07,
-      "cost_out": 8.932e-07,
+      "cost_in": 7.098e-07,
+      "cost_out": 2.2308e-06,
       "context_length": 1048576,
       "modalities": {
         "text": true,
@@ -2705,7 +2705,7 @@
       "rate_limit": null,
       "expiration": "2098-12-31",
       "expiring_soon": false,
-      "expires_in_days": 26449,
+      "expires_in_days": 26448,
       "direct_key": false,
       "description": "GLM-5V-Turbo is Z.ai\u2019s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
       "usable": true
@@ -3038,7 +3038,7 @@
       "rate_limit": null,
       "expiration": "2098-12-31",
       "expiring_soon": false,
-      "expires_in_days": 26449,
+      "expires_in_days": 26448,
       "direct_key": false,
       "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
       "usable": true
@@ -3261,7 +3261,7 @@
       "rate_limit": null,
       "expiration": "2026-08-10",
       "expiring_soon": true,
-      "expires_in_days": 8,
+      "expires_in_days": 7,
       "direct_key": false,
       "description": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly...",
       "usable": true
@@ -3411,8 +3411,8 @@
       "provider": "qwen",
       "home_provider": "openrouter",
       "tier": "cheap",
-      "cost_in": 2.6e-07,
-      "cost_out": 2.08e-06,
+      "cost_in": 4e-07,
+      "cost_out": 3.2e-06,
       "context_length": 262144,
       "modalities": {
         "text": true,
@@ -4285,7 +4285,7 @@
       "rate_limit": null,
       "expiration": "2026-08-10",
       "expiring_soon": true,
-      "expires_in_days": 8,
+      "expires_in_days": 7,
       "direct_key": false,
       "description": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively \u201cthink\u201d on...",
       "usable": true
@@ -5460,8 +5460,8 @@
       "provider": "qwen",
       "home_provider": "openrouter",
       "tier": "cheap",
-      "cost_in": 4e-07,
-      "cost_out": 4e-06,
+      "cost_in": 9.8e-07,
+      "cost_out": 3.95e-06,
       "context_length": 131072,
       "modalities": {
         "text": true,
@@ -6275,7 +6275,7 @@
       "rate_limit": null,
       "expiration": "2026-12-31",
       "expiring_soon": false,
-      "expires_in_days": 151,
+      "expires_in_days": 150,
       "direct_key": false,
       "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
       "usable": true
@@ -6425,8 +6425,8 @@
       "provider": "qwen",
       "home_provider": "openrouter",
       "tier": "cheap",
-      "cost_in": 9e-08,
-      "cost_out": 5.5e-07,
+      "cost_in": 1.495e-07,
+      "cost_out": 5.98e-07,
       "context_length": 262144,
       "modalities": {
         "text": true,
@@ -12369,14 +12369,14 @@
       "notes": "Routed via github."
     },
     {
-      "id": "groq/whisper-large-v3",
-      "name": "whisper-large-v3",
+      "id": "groq/llama-3.1-8b-instant",
+      "name": "llama-3.1-8b-instant",
       "provider": "groq",
       "home_provider": "groq",
       "tier": "free",
       "cost_in": 0.0,
       "cost_out": 0.0,
-      "context_length": 448,
+      "context_length": 131072,
       "modalities": {
         "text": true,
         "vision": false,
@@ -12388,6 +12388,64 @@
         "cloud",
         "free",
         "fast"
+      ],
+      "quality": 5.0,
+      "rate_limit": "see provider",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": true,
+      "usable": true,
+      "notes": "Routed via groq."
+    },
+    {
+      "id": "groq/openai/gpt-oss-120b",
+      "name": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "home_provider": "groq",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 131072,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "groq",
+        "cloud",
+        "free"
+      ],
+      "quality": 8.0,
+      "rate_limit": "see provider",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": true,
+      "usable": true,
+      "notes": "Routed via groq."
+    },
+    {
+      "id": "groq/groq/compound",
+      "name": "groq/compound",
+      "provider": "groq",
+      "home_provider": "groq",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 131072,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "groq",
+        "cloud",
+        "free"
       ],
       "quality": 5.0,
       "rate_limit": "see provider",
@@ -12429,43 +12487,14 @@
       "notes": "Routed via groq."
     },
     {
-      "id": "groq/openai/gpt-oss-120b",
-      "name": "openai/gpt-oss-120b",
+      "id": "groq/whisper-large-v3",
+      "name": "whisper-large-v3",
       "provider": "groq",
       "home_provider": "groq",
       "tier": "free",
       "cost_in": 0.0,
       "cost_out": 0.0,
-      "context_length": 131072,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "groq",
-        "cloud",
-        "free"
-      ],
-      "quality": 8.0,
-      "rate_limit": "see provider",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": true,
-      "usable": true,
-      "notes": "Routed via groq."
-    },
-    {
-      "id": "groq/meta-llama/llama-prompt-guard-2-22m",
-      "name": "meta-llama/llama-prompt-guard-2-22m",
-      "provider": "groq",
-      "home_provider": "groq",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 512,
+      "context_length": 448,
       "modalities": {
         "text": true,
         "vision": false,
@@ -12488,98 +12517,8 @@
       "notes": "Routed via groq."
     },
     {
-      "id": "groq/meta-llama/llama-prompt-guard-2-86m",
-      "name": "meta-llama/llama-prompt-guard-2-86m",
-      "provider": "groq",
-      "home_provider": "groq",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 512,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "groq",
-        "cloud",
-        "free",
-        "fast"
-      ],
-      "quality": 5.0,
-      "rate_limit": "see provider",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": true,
-      "usable": true,
-      "notes": "Routed via groq."
-    },
-    {
-      "id": "groq/llama-3.1-8b-instant",
-      "name": "llama-3.1-8b-instant",
-      "provider": "groq",
-      "home_provider": "groq",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 131072,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "groq",
-        "cloud",
-        "free",
-        "fast"
-      ],
-      "quality": 5.0,
-      "rate_limit": "see provider",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": true,
-      "usable": true,
-      "notes": "Routed via groq."
-    },
-    {
-      "id": "groq/allam-2-7b",
-      "name": "allam-2-7b",
-      "provider": "groq",
-      "home_provider": "groq",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 4096,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "groq",
-        "cloud",
-        "free",
-        "fast"
-      ],
-      "quality": 5.0,
-      "rate_limit": "see provider",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": true,
-      "usable": true,
-      "notes": "Routed via groq."
-    },
-    {
-      "id": "groq/openai/gpt-oss-20b",
-      "name": "openai/gpt-oss-20b",
+      "id": "groq/openai/gpt-oss-safeguard-20b",
+      "name": "openai/gpt-oss-safeguard-20b",
       "provider": "groq",
       "home_provider": "groq",
       "tier": "free",
@@ -12637,14 +12576,14 @@
       "notes": "Routed via groq."
     },
     {
-      "id": "groq/whisper-large-v3-turbo",
-      "name": "whisper-large-v3-turbo",
+      "id": "groq/openai/gpt-oss-20b",
+      "name": "openai/gpt-oss-20b",
       "provider": "groq",
       "home_provider": "groq",
       "tier": "free",
       "cost_in": 0.0,
       "cost_out": 0.0,
-      "context_length": 448,
+      "context_length": 131072,
       "modalities": {
         "text": true,
         "vision": false,
@@ -12654,10 +12593,9 @@
       "tags": [
         "groq",
         "cloud",
-        "free",
-        "fast"
+        "free"
       ],
-      "quality": 5.0,
+      "quality": 8.0,
       "rate_limit": "see provider",
       "expiration": null,
       "expiring_soon": false,
@@ -12697,65 +12635,6 @@
       "notes": "Routed via groq."
     },
     {
-      "id": "groq/canopylabs/orpheus-arabic-saudi",
-      "name": "canopylabs/orpheus-arabic-saudi",
-      "provider": "groq",
-      "home_provider": "groq",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 4000,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "groq",
-        "cloud",
-        "free",
-        "fast"
-      ],
-      "quality": 5.0,
-      "rate_limit": "see provider",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": true,
-      "usable": true,
-      "notes": "Routed via groq."
-    },
-    {
-      "id": "groq/openai/gpt-oss-safeguard-20b",
-      "name": "openai/gpt-oss-safeguard-20b",
-      "provider": "groq",
-      "home_provider": "groq",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 131072,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "groq",
-        "cloud",
-        "free"
-      ],
-      "quality": 8.0,
-      "rate_limit": "see provider",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": true,
-      "usable": true,
-      "notes": "Routed via groq."
-    },
-    {
       "id": "groq/canopylabs/orpheus-v1-english",
       "name": "canopylabs/orpheus-v1-english",
       "provider": "groq",
@@ -12786,14 +12665,14 @@
       "notes": "Routed via groq."
     },
     {
-      "id": "groq/groq/compound",
-      "name": "groq/compound",
+      "id": "groq/meta-llama/llama-prompt-guard-2-86m",
+      "name": "meta-llama/llama-prompt-guard-2-86m",
       "provider": "groq",
       "home_provider": "groq",
       "tier": "free",
       "cost_in": 0.0,
       "cost_out": 0.0,
-      "context_length": 131072,
+      "context_length": 512,
       "modalities": {
         "text": true,
         "vision": false,
@@ -12803,7 +12682,128 @@
       "tags": [
         "groq",
         "cloud",
-        "free"
+        "free",
+        "fast"
+      ],
+      "quality": 5.0,
+      "rate_limit": "see provider",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": true,
+      "usable": true,
+      "notes": "Routed via groq."
+    },
+    {
+      "id": "groq/allam-2-7b",
+      "name": "allam-2-7b",
+      "provider": "groq",
+      "home_provider": "groq",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 4096,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "groq",
+        "cloud",
+        "free",
+        "fast"
+      ],
+      "quality": 5.0,
+      "rate_limit": "see provider",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": true,
+      "usable": true,
+      "notes": "Routed via groq."
+    },
+    {
+      "id": "groq/meta-llama/llama-prompt-guard-2-22m",
+      "name": "meta-llama/llama-prompt-guard-2-22m",
+      "provider": "groq",
+      "home_provider": "groq",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 512,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "groq",
+        "cloud",
+        "free",
+        "fast"
+      ],
+      "quality": 5.0,
+      "rate_limit": "see provider",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": true,
+      "usable": true,
+      "notes": "Routed via groq."
+    },
+    {
+      "id": "groq/canopylabs/orpheus-arabic-saudi",
+      "name": "canopylabs/orpheus-arabic-saudi",
+      "provider": "groq",
+      "home_provider": "groq",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 4000,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "groq",
+        "cloud",
+        "free",
+        "fast"
+      ],
+      "quality": 5.0,
+      "rate_limit": "see provider",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": true,
+      "usable": true,
+      "notes": "Routed via groq."
+    },
+    {
+      "id": "groq/whisper-large-v3-turbo",
+      "name": "whisper-large-v3-turbo",
+      "provider": "groq",
+      "home_provider": "groq",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 448,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "groq",
+        "cloud",
+        "free",
+        "fast"
       ],
       "quality": 5.0,
       "rate_limit": "see provider",
@@ -16029,6 +16029,35 @@
       "notes": "Routed via replicate."
     },
     {
+      "id": "cerebras/zai-glm-4.7",
+      "name": "zai-glm-4.7",
+      "provider": "cerebras",
+      "home_provider": "cerebras",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 128000,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "cerebras",
+        "cloud",
+        "free"
+      ],
+      "quality": 5.0,
+      "rate_limit": "see provider",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": true,
+      "usable": true,
+      "notes": "Routed via cerebras."
+    },
+    {
       "id": "cerebras/gemma-4-31b",
       "name": "gemma-4-31b",
       "provider": "cerebras",
@@ -16079,35 +16108,6 @@
         "free"
       ],
       "quality": 8.0,
-      "rate_limit": "see provider",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": true,
-      "usable": true,
-      "notes": "Routed via cerebras."
-    },
-    {
-      "id": "cerebras/zai-glm-4.7",
-      "name": "zai-glm-4.7",
-      "provider": "cerebras",
-      "home_provider": "cerebras",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 128000,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "cerebras",
-        "cloud",
-        "free"
-      ],
-      "quality": 5.0,
       "rate_limit": "see provider",
       "expiration": null,
       "expiring_soon": false,
@@ -17567,6 +17567,36 @@
       "usable": true
     },
     {
+      "id": "local_ollama/qwen3:30b-a3b",
+      "name": "qwen3:30b-a3b",
+      "provider": "local_ollama",
+      "home_provider": "local_ollama",
+      "tier": "free",
+      "cost_in": 0.0,
+      "cost_out": 0.0,
+      "context_length": 32768,
+      "modalities": {
+        "text": true,
+        "vision": false,
+        "audio": false,
+        "file": false
+      },
+      "tags": [
+        "local",
+        "unlimited",
+        "fast",
+        "reasoning"
+      ],
+      "quality": 6.5,
+      "rate_limit": "unlimited (local GPU)",
+      "expiration": null,
+      "expiring_soon": false,
+      "expires_in_days": null,
+      "direct_key": false,
+      "notes": "Runs on Charles RTX 3090 \u2014 $0, no rate limit. PREFERRED.",
+      "usable": true
+    },
+    {
       "id": "local_ollama/qwen3-64k:latest",
       "name": "qwen3-64k:latest",
       "provider": "local_ollama",
@@ -17587,36 +17617,6 @@
         "fast",
         "reasoning",
         "longctx"
-      ],
-      "quality": 6.5,
-      "rate_limit": "unlimited (local GPU)",
-      "expiration": null,
-      "expiring_soon": false,
-      "expires_in_days": null,
-      "direct_key": false,
-      "notes": "Runs on Charles RTX 3090 \u2014 $0, no rate limit. PREFERRED.",
-      "usable": true
-    },
-    {
-      "id": "local_ollama/qwen3:30b-a3b",
-      "name": "qwen3:30b-a3b",
-      "provider": "local_ollama",
-      "home_provider": "local_ollama",
-      "tier": "free",
-      "cost_in": 0.0,
-      "cost_out": 0.0,
-      "context_length": 32768,
-      "modalities": {
-        "text": true,
-        "vision": false,
-        "audio": false,
-        "file": false
-      },
-      "tags": [
-        "local",
-        "unlimited",
-        "fast",
-        "reasoning"
       ],
       "quality": 6.5,
       "rate_limit": "unlimited (local GPU)",
