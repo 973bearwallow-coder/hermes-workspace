@@ -21,8 +21,13 @@ import sys, os, json, time, subprocess, tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import moa_router as MR
-import moa_dashboard as MD
 import moa_catalog as MC
+# moa_dashboard is optional here; this monitor only needs the catalog/router.
+# Importing it at module load time made the cron job fail when Flask wasn't installed.
+try:
+    import moa_dashboard as MD  # noqa: F401
+except Exception:
+    MD = None
 
 MEM = "/home/tom/hermes-workspace/memory"
 CATALOG = os.path.join(MEM, "model_catalog.json")

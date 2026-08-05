@@ -31,12 +31,8 @@ CATALOG = os.path.join(MEMORY, "model_catalog.json")
 AA_OUT = os.path.join(MEMORY, "aa_scores.json")
 AA_URL = "https://artificialanalysis.ai/leaderboards/models"
 
-try:
-    import requests
-    from bs4 import BeautifulSoup
-except ImportError as e:
-    print(f"[bench] MISSING DEP: {e} — run: pip install requests beautifulsoup4")
-    sys.exit(2)
+# Keep imports lazy so cron/report jobs can continue even if optional
+# scraping dependencies are missing in the active runtime.
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
@@ -52,6 +48,12 @@ def _norm(name):
 
 def scrape_aa():
     """Return dict raw_name -> {index, usd_1m, tok_s, latency}. Empty on failure."""
+    try:
+        import requests
+        from bs4 import BeautifulSoup
+    except ImportError as e:
+        print(f"[bench] MISSING DEP: {e} — skipping AA refresh")
+        return {}
     try:
         r = requests.get(AA_URL, headers=UA, timeout=30)
     except Exception as e:
