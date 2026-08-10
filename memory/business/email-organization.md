@@ -6,6 +6,10 @@ _Created June 13, 2026_
 2. Then sort into folders below
 3. Run daily
 
+## Send / Review Rule
+- If Tom says **"send it"**, send the email without further review.
+- If Tom says **"let me look first"**, show him the draft before sending.
+
 ## Folders & Retention Rules
 
 | Folder | What Goes There | Retention | Special Rules |

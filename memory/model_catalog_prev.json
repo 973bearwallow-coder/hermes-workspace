@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T08:02:27",
+ "generated": "2026-08-09T08:02:50",
  "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama",
  "total": 720,
  "by_tier": {
@@ -100,8 +100,8 @@
    "provider": "~deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 9e-08,
-   "cost_out": 1.8e-07,
+   "cost_in": 7.9996e-08,
+   "cost_out": 2.52e-07,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -554,8 +554,8 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.34,
-   "aa_median_tok_s": 77.0,
-   "aa_latency": 1.83,
+   "aa_median_tok_s": 74.0,
+   "aa_latency": 1.79,
    "quality_source": "aa"
   },
   {
@@ -1224,7 +1224,7 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.04,
-   "aa_median_tok_s": 69.0,
+   "aa_median_tok_s": 67.0,
    "aa_latency": 2.82,
    "quality_source": "aa"
   },
@@ -1522,8 +1522,8 @@
    "provider": "z-ai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.52e-07,
-   "cost_out": 7.92e-07,
+   "cost_in": 7e-08,
+   "cost_out": 2.2e-07,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -1544,8 +1544,8 @@
    "usable": true,
    "aa_intelligence_index": 35.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 98.0,
-   "aa_latency": 1.92,
+   "aa_median_tok_s": 114.0,
+   "aa_latency": 1.88,
    "quality_source": "aa"
   },
   {
@@ -1781,7 +1781,7 @@
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 130.0,
-   "aa_latency": 1.62,
+   "aa_latency": 1.63,
    "quality_source": "aa"
   },
   {
@@ -1959,8 +1959,8 @@
    "usable": true,
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 138.0,
-   "aa_latency": 1.77,
+   "aa_median_tok_s": 112.0,
+   "aa_latency": 1.48,
    "quality_source": "aa"
   },
   {
@@ -2308,8 +2308,8 @@
    "usable": true,
    "aa_intelligence_index": 31.0,
    "aa_blended_usd_1m": 0.37,
-   "aa_median_tok_s": 150.0,
-   "aa_latency": 3.13,
+   "aa_median_tok_s": 139.0,
+   "aa_latency": 3.34,
    "quality_source": "aa"
   },
   {
@@ -2609,7 +2609,7 @@
    "provider": "~moonshotai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.5e-06,
+   "cost_in": 2.8e-06,
    "cost_out": 1.4e-05,
    "context_length": 1048576,
    "modalities": {
@@ -2783,7 +2783,7 @@
    "provider": "qwen",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 1.4e-07,
+   "cost_in": 1.5e-07,
    "cost_out": 1e-06,
    "context_length": 262144,
    "modalities": {
@@ -3120,8 +3120,8 @@
    "usable": true,
    "aa_intelligence_index": 28.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 69.0,
-   "aa_latency": 3.46,
+   "aa_median_tok_s": 74.0,
+   "aa_latency": 3.15,
    "quality_source": "aa"
   },
   {
@@ -3153,8 +3153,8 @@
    "usable": true,
    "aa_intelligence_index": 38.0,
    "aa_blended_usd_1m": 0.01,
-   "aa_median_tok_s": 89.0,
-   "aa_latency": 3.02,
+   "aa_median_tok_s": 88.0,
+   "aa_latency": 3.1,
    "quality_source": "aa"
   },
   {
@@ -3557,7 +3557,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26443,
+   "expires_in_days": 26442,
    "direct_key": false,
    "description": "GLM-5V-Turbo is Z.ai\u2019s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
    "usable": true,
@@ -3771,8 +3771,8 @@
    "provider": "minimax",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.7e-07,
-   "cost_out": 1.08e-06,
+   "cost_in": 3e-07,
+   "cost_out": 1.2e-06,
    "context_length": 204800,
    "modalities": {
     "text": true,
@@ -3960,7 +3960,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26443,
+   "expires_in_days": 26442,
    "direct_key": false,
    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
    "usable": true,
@@ -3972,8 +3972,8 @@
    "provider": "nvidia",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 8.5e-08,
-   "cost_out": 4e-07,
+   "cost_in": 3e-07,
+   "cost_out": 9e-07,
    "context_length": 1000000,
    "modalities": {
     "text": true,
@@ -4249,7 +4249,7 @@
    "rate_limit": null,
    "expiration": "2026-08-10",
    "expiring_soon": true,
-   "expires_in_days": 2,
+   "expires_in_days": 1,
    "direct_key": false,
    "description": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly...",
    "usable": true,
@@ -4774,8 +4774,8 @@
    "usable": true,
    "aa_intelligence_index": 35.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 98.0,
-   "aa_latency": 1.92,
+   "aa_median_tok_s": 114.0,
+   "aa_latency": 1.88,
    "quality_source": "aa"
   },
   {
@@ -5430,7 +5430,7 @@
    "rate_limit": null,
    "expiration": "2026-08-10",
    "expiring_soon": true,
-   "expires_in_days": 2,
+   "expires_in_days": 1,
    "direct_key": false,
    "description": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively \u201cthink\u201d on...",
    "usable": true,
@@ -5818,8 +5818,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.6e-07,
-   "cost_out": 3.8e-07,
+   "cost_in": 2.69e-07,
+   "cost_out": 4e-07,
    "context_length": 163840,
    "modalities": {
     "text": true,
@@ -6270,8 +6270,8 @@
    "usable": true,
    "aa_intelligence_index": 4.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 177.0,
-   "aa_latency": 2.33,
+   "aa_median_tok_s": 180.0,
+   "aa_latency": 1.84,
    "quality_source": "aa"
   },
   {
@@ -7196,8 +7196,8 @@
    "usable": true,
    "aa_intelligence_index": 7.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 170.0,
-   "aa_latency": 1.43,
+   "aa_median_tok_s": 162.0,
+   "aa_latency": 1.63,
    "quality_source": "aa"
   },
   {
@@ -7849,7 +7849,7 @@
    "rate_limit": null,
    "expiration": "2026-12-31",
    "expiring_soon": false,
-   "expires_in_days": 145,
+   "expires_in_days": 144,
    "direct_key": false,
    "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
    "usable": true,
@@ -8937,8 +8937,8 @@
    "usable": true,
    "aa_intelligence_index": 31.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 127.0,
-   "aa_latency": 7.98,
+   "aa_median_tok_s": 140.0,
+   "aa_latency": 7.18,
    "quality_source": "aa"
   },
   {
@@ -12557,8 +12557,8 @@
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 138.0,
-   "aa_latency": 1.77,
+   "aa_median_tok_s": 112.0,
+   "aa_latency": 1.48,
    "quality_source": "aa"
   },
   {
@@ -13718,8 +13718,8 @@
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 4.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 177.0,
-   "aa_latency": 2.33,
+   "aa_median_tok_s": 180.0,
+   "aa_latency": 1.84,
    "quality_source": "aa"
   },
   {
@@ -14281,8 +14281,8 @@
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.34,
-   "aa_median_tok_s": 77.0,
-   "aa_latency": 1.83,
+   "aa_median_tok_s": 74.0,
+   "aa_latency": 1.79,
    "quality_source": "aa"
   },
   {
@@ -14430,8 +14430,8 @@
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 35.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 98.0,
-   "aa_latency": 1.92,
+   "aa_median_tok_s": 114.0,
+   "aa_latency": 1.88,
    "quality_source": "aa"
   },
   {
@@ -14653,14 +14653,136 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/canopylabs/orpheus-arabic-saudi",
-   "name": "canopylabs/orpheus-arabic-saudi",
+   "id": "groq/whisper-large-v3-turbo",
+   "name": "whisper-large-v3-turbo",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
    "cost_in": 0.0,
    "cost_out": 0.0,
-   "context_length": 4000,
+   "context_length": 448,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/openai/gpt-oss-120b",
+   "name": "openai/gpt-oss-120b",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/meta-llama/llama-prompt-guard-2-22m",
+   "name": "meta-llama/llama-prompt-guard-2-22m",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 512,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/groq/compound",
+   "name": "groq/compound",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/meta-llama/llama-prompt-guard-2-86m",
+   "name": "meta-llama/llama-prompt-guard-2-86m",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 512,
    "modalities": {
     "text": true,
     "vision": false,
@@ -14715,6 +14837,37 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "groq/canopylabs/orpheus-arabic-saudi",
+   "name": "canopylabs/orpheus-arabic-saudi",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 4000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
    "id": "groq/openai/gpt-oss-safeguard-20b",
    "name": "openai/gpt-oss-safeguard-20b",
    "provider": "groq",
@@ -14735,6 +14888,37 @@
     "free"
    ],
    "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/llama-3.3-70b-versatile",
+   "name": "llama-3.3-70b-versatile",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 6.5,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -14776,8 +14960,8 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/groq/compound",
-   "name": "groq/compound",
+   "id": "groq/groq/compound-mini",
+   "name": "groq/compound-mini",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
@@ -14793,7 +14977,8 @@
    "tags": [
     "groq",
     "cloud",
-    "free"
+    "free",
+    "fast"
    ],
    "quality": 5.0,
    "rate_limit": "see provider",
@@ -14867,129 +15052,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/meta-llama/llama-prompt-guard-2-22m",
-   "name": "meta-llama/llama-prompt-guard-2-22m",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 512,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/groq/compound-mini",
-   "name": "groq/compound-mini",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/openai/gpt-oss-120b",
-   "name": "openai/gpt-oss-120b",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free"
-   ],
-   "quality": 8.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/whisper-large-v3-turbo",
-   "name": "whisper-large-v3-turbo",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 448,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
    "id": "groq/whisper-large-v3",
    "name": "whisper-large-v3",
    "provider": "groq",
@@ -14998,68 +15060,6 @@
    "cost_in": 0.0,
    "cost_out": 0.0,
    "context_length": 448,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/llama-3.3-70b-versatile",
-   "name": "llama-3.3-70b-versatile",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 6.5,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/meta-llama/llama-prompt-guard-2-86m",
-   "name": "meta-llama/llama-prompt-guard-2-86m",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 512,
    "modalities": {
     "text": true,
     "vision": false,
@@ -15662,8 +15662,8 @@
    "notes": "Routed via openai.",
    "aa_intelligence_index": 31.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 127.0,
-   "aa_latency": 7.98,
+   "aa_median_tok_s": 140.0,
+   "aa_latency": 7.18,
    "quality_source": "aa"
   },
   {
@@ -17890,8 +17890,8 @@
    "notes": "Routed via cloudflare.",
    "aa_intelligence_index": 35.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 98.0,
-   "aa_latency": 1.92,
+   "aa_median_tok_s": 114.0,
+   "aa_latency": 1.88,
    "quality_source": "aa"
   },
   {
@@ -19306,8 +19306,8 @@
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 138.0,
-   "aa_latency": 1.77,
+   "aa_median_tok_s": 112.0,
+   "aa_latency": 1.48,
    "quality_source": "aa"
   },
   {
@@ -19552,8 +19552,8 @@
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 35.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 98.0,
-   "aa_latency": 1.92,
+   "aa_median_tok_s": 114.0,
+   "aa_latency": 1.88,
    "quality_source": "aa"
   },
   {
@@ -20319,8 +20319,8 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 138.0,
-   "aa_latency": 1.77,
+   "aa_median_tok_s": 112.0,
+   "aa_latency": 1.48,
    "quality_source": "aa"
   },
   {
@@ -20484,38 +20484,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "freellm/Ollama Cloud",
-   "name": "Ollama Cloud",
-   "provider": "freellm",
-   "home_provider": "freellm",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 32000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "freellm",
-    "cloud",
-    "free",
-    "awesome-freellm-apis",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via freellm.",
-   "quality_source": "heuristic"
-  },
-  {
    "id": "freellm/OVHcloud AI Endpoints",
    "name": "OVHcloud AI Endpoints",
    "provider": "freellm",
@@ -20612,7 +20580,7 @@
    "aa_intelligence_index": 24.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 87.0,
-   "aa_latency": 0.94,
+   "aa_latency": 0.95,
    "quality_source": "aa"
   },
   {
@@ -20679,9 +20647,41 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 46.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 130.0,
-   "aa_latency": 74.01,
+   "aa_median_tok_s": 137.0,
+   "aa_latency": 73.14,
    "quality_source": "aa"
+  },
+  {
+   "id": "freellm/Ollama Cloud",
+   "name": "Ollama Cloud",
+   "provider": "freellm",
+   "home_provider": "freellm",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 32000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "freellm",
+    "cloud",
+    "free",
+    "awesome-freellm-apis",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via freellm.",
+   "quality_source": "heuristic"
   },
   {
    "id": "freellm/OpenCode Zen",
@@ -20844,7 +20844,7 @@
    "aa_intelligence_index": 24.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 87.0,
-   "aa_latency": 0.94,
+   "aa_latency": 0.95,
    "quality_source": "aa"
   },
   {
