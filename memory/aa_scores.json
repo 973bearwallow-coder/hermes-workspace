@@ -2,74 +2,74 @@
  "Claude Opus 5 (max)": {
   "index": 63.0,
   "usd_1m": 2.34,
-  "tok_s": 53.0,
-  "latency": 53.48
+  "tok_s": 62.0,
+  "latency": 50.37
  },
  "Claude Opus 5 (xhigh)": {
   "index": 63.0,
   "usd_1m": 1.8,
-  "tok_s": 54.0,
-  "latency": 25.75
+  "tok_s": 60.0,
+  "latency": 34.19
  },
  "Claude Fable 5 (with fallback)": {
   "index": 62.0,
   "usd_1m": 3.14,
-  "tok_s": 63.0,
-  "latency": 98.2
+  "tok_s": 69.0,
+  "latency": 121.24
  },
  "Claude Opus 5 (high)": {
   "index": 61.0,
   "usd_1m": 1.23,
-  "tok_s": 54.0,
-  "latency": 13.43
+  "tok_s": 60.0,
+  "latency": 18.43
  },
  "GPT-5.6 Sol (max)": {
   "index": 61.0,
   "usd_1m": 1.23,
-  "tok_s": 62.0,
-  "latency": 176.57
+  "tok_s": 67.0,
+  "latency": 142.43
  },
  "Grok 4.6 (high)": {
   "index": 61.0,
   "usd_1m": 0.84,
-  "tok_s": 66.0,
-  "latency": 32.3
+  "tok_s": 69.0,
+  "latency": 36.42
  },
  "Kimi K3 (max)": {
   "index": 60.0,
   "usd_1m": 0.84,
   "tok_s": 39.0,
-  "latency": 3.64
+  "latency": 3.63
  },
  "GPT-5.6 Sol (xhigh)": {
   "index": 59.0,
   "usd_1m": 0.81,
-  "tok_s": 61.0,
+  "tok_s": 64.0,
   "latency": 42.36
  },
  "Claude Opus 5 (medium)": {
   "index": 59.0,
   "usd_1m": 0.72,
-  "tok_s": 54.0,
+  "tok_s": 59.0,
   "latency": 5.76
  },
  "Qwen3.8 Max": {
   "index": 58.0,
   "usd_1m": 1.13,
   "tok_s": 47.0,
-  "latency": 2.6
+  "latency": 2.59
  },
  "Qwen3.8 2.4T A95B": {
   "index": 58.0,
   "usd_1m": 1.09,
-  "tok_s": 52.0,
+  "tok_s": 49.0,
   "latency": 2.75
  },
  "GPT-5.6 Sol (high)": {
   "index": 57.0,
   "usd_1m": 0.55,
-  "tok_s": 56.0,
-  "latency": 12.34
+  "tok_s": 70.0,
+  "latency": 17.33
  },
  "Muse Spark 1.2 (xhigh)": {
   "index": 57.0,
@@ -80,7 +80,7 @@
  "GPT-5.6 Terra (max)": {
   "index": 57.0,
   "usd_1m": 0.51,
-  "tok_s": 115.0,
+  "tok_s": 120.0,
   "latency": 197.3
  },
  "Gemini 3.7 Flash (high)": {
@@ -92,20 +92,20 @@
  "Grok 4.5 (high)": {
   "index": 56.0,
   "usd_1m": 0.36,
-  "tok_s": 60.0,
-  "latency": 8.14
+  "tok_s": 68.0,
+  "latency": 11.51
  },
  "GPT-5.6 Sol (medium)": {
   "index": 56.0,
   "usd_1m": 0.37,
-  "tok_s": 62.0,
-  "latency": 5.0
+  "tok_s": 70.0,
+  "latency": 3.74
  },
  "Claude Sonnet 5 (max)": {
   "index": 55.0,
   "usd_1m": 1.72,
-  "tok_s": 66.0,
-  "latency": 186.44
+  "tok_s": 68.0,
+  "latency": 135.14
  },
  "Gemini 3.7 Flash (medium)": {
   "index": 53.0,
@@ -116,44 +116,44 @@
  "DeepSeek V4 Pro 0813 (max)": {
   "index": 53.0,
   "usd_1m": 0.25,
-  "tok_s": 81.0,
-  "latency": 1.85
+  "tok_s": 90.0,
+  "latency": 1.82
  },
  "GPT-5.6 Terra (xhigh)": {
   "index": 53.0,
   "usd_1m": 0.31,
-  "tok_s": 94.0,
-  "latency": 25.72
+  "tok_s": 118.0,
+  "latency": 21.66
  },
  "GLM-5.2 (max)": {
   "index": 53.0,
   "usd_1m": 0.32,
-  "tok_s": 108.0,
+  "tok_s": 111.0,
   "latency": 1.38
  },
  "Claude Opus 5 (low)": {
   "index": 52.0,
   "usd_1m": 0.43,
-  "tok_s": 53.0,
-  "latency": 3.47
+  "tok_s": 58.0,
+  "latency": 3.55
  },
  "GPT-5.6 Luna (max)": {
   "index": 52.0,
   "usd_1m": 0.05,
-  "tok_s": 152.0,
-  "latency": 157.72
+  "tok_s": 166.0,
+  "latency": 137.6
  },
  "DeepSeek V4 Flash 0731 (max)": {
   "index": 52.0,
-  "usd_1m": 0.03,
-  "tok_s": 121.0,
-  "latency": 1.41
+  "usd_1m": 0.11,
+  "tok_s": 123.0,
+  "latency": 1.48
  },
  "Gemini 3.6 Flash": {
   "index": 52.0,
   "usd_1m": 0.56,
-  "tok_s": 225.0,
-  "latency": 19.69
+  "tok_s": 232.0,
+  "latency": 19.71
  },
  "Gemini 3.7 Flash (low)": {
   "index": 51.0,
@@ -164,32 +164,32 @@
  "GPT-5.6 Sol (low)": {
   "index": 51.0,
   "usd_1m": 0.23,
-  "tok_s": 59.0,
-  "latency": 3.74
+  "tok_s": 62.0,
+  "latency": 3.79
  },
  "GPT-5.6 Terra (high)": {
   "index": 50.0,
   "usd_1m": 0.22,
-  "tok_s": 96.0,
-  "latency": 4.02
+  "tok_s": 119.0,
+  "latency": 3.56
  },
  "GPT-5.6 Luna (xhigh)": {
   "index": 50.0,
   "usd_1m": 0.03,
-  "tok_s": 148.0,
-  "latency": 50.52
+  "tok_s": 168.0,
+  "latency": 40.72
  },
  "Kimi K3 (low)": {
   "index": 48.0,
   "usd_1m": 0.24,
-  "tok_s": 37.0,
-  "latency": 3.32
+  "tok_s": 38.0,
+  "latency": 2.92
  },
  "Gemini 3.1 Pro Preview": {
   "index": 48.0,
   "usd_1m": 0.33,
-  "tok_s": 113.0,
-  "latency": 28.33
+  "tok_s": 118.0,
+  "latency": 33.91
  },
  "Motif 3": {
   "index": 47.0,
@@ -200,32 +200,32 @@
  "GPT-5.6 Luna (high)": {
   "index": 47.0,
   "usd_1m": 0.02,
-  "tok_s": 153.0,
+  "tok_s": 169.0,
   "latency": 16.98
  },
  "GPT-5.6 Terra (medium)": {
   "index": 47.0,
   "usd_1m": 0.12,
-  "tok_s": 89.0,
-  "latency": 1.76
+  "tok_s": 108.0,
+  "latency": 1.78
  },
  "Gemini 3.5 Flash (medium)": {
   "index": 47.0,
   "usd_1m": null,
-  "tok_s": 187.0,
-  "latency": 21.1
+  "tok_s": 189.0,
+  "latency": 21.94
  },
  "GPT-5.3 Codex (xhigh)": {
   "index": 46.0,
   "usd_1m": null,
-  "tok_s": 111.0,
-  "latency": 78.88
+  "tok_s": 133.0,
+  "latency": 77.85
  },
  "MiniMax-M3": {
   "index": 45.0,
   "usd_1m": 0.14,
-  "tok_s": 86.0,
-  "latency": 1.65
+  "tok_s": 100.0,
+  "latency": 1.58
  },
  "Motif 3 (Beta)": {
   "index": 45.0,
@@ -236,74 +236,74 @@
  "DeepSeek V4 Pro (max)": {
   "index": 45.0,
   "usd_1m": 0.05,
-  "tok_s": 71.0,
-  "latency": 1.65
+  "tok_s": 81.0,
+  "latency": 1.69
  },
  "DeepSeek V4 Pro (high)": {
   "index": 44.0,
   "usd_1m": 0.04,
-  "tok_s": 70.0,
-  "latency": 1.75
+  "tok_s": 79.0,
+  "latency": 1.73
  },
  "Kimi K2.7 Code": {
   "index": 43.0,
   "usd_1m": 0.22,
   "tok_s": 37.0,
-  "latency": 2.92
+  "latency": 2.88
  },
  "MiMo-V2.5-Pro": {
   "index": 28.0,
   "usd_1m": null,
-  "tok_s": 47.0,
+  "tok_s": 51.0,
   "latency": 3.23
  },
  "Claude Sonnet 5 (Non-reasoning)": {
   "index": 43.0,
   "usd_1m": 0.42,
-  "tok_s": 67.0,
-  "latency": 1.82
+  "tok_s": 71.0,
+  "latency": 1.61
  },
  "Inkling": {
   "index": 42.0,
   "usd_1m": 0.34,
-  "tok_s": 73.0,
-  "latency": 1.84
+  "tok_s": 78.0,
+  "latency": 1.82
  },
  "Hy3": {
   "index": 42.0,
   "usd_1m": 0.04,
-  "tok_s": 64.0,
-  "latency": 2.98
- },
- "Nex-N2-Pro": {
-  "index": 42.0,
-  "usd_1m": null,
-  "tok_s": 134.0,
-  "latency": 1.73
+  "tok_s": 68.0,
+  "latency": 2.87
  },
  "GPT-5.6 Sol (Non-reasoning)": {
   "index": 42.0,
   "usd_1m": 0.24,
-  "tok_s": 59.0,
-  "latency": 1.38
+  "tok_s": 64.0,
+  "latency": 1.32
+ },
+ "Nex-N2-Pro": {
+  "index": 42.0,
+  "usd_1m": null,
+  "tok_s": 130.0,
+  "latency": 1.73
  },
  "Solar Pro 4": {
   "index": 42.0,
   "usd_1m": 0.22,
-  "tok_s": 57.0,
-  "latency": 2.33
+  "tok_s": 61.0,
+  "latency": 2.31
  },
  "GPT-5.6 Terra (low)": {
   "index": 41.0,
   "usd_1m": 0.09,
-  "tok_s": 90.0,
-  "latency": 1.79
+  "tok_s": 111.0,
+  "latency": 1.68
  },
  "Inkling Small": {
   "index": 41.0,
   "usd_1m": 0.07,
-  "tok_s": 114.0,
-  "latency": 1.79
+  "tok_s": 108.0,
+  "latency": 1.83
  },
  "JT-4.1 Flash 236B A21B": {
   "index": 40.0,
@@ -315,49 +315,49 @@
   "index": 40.0,
   "usd_1m": null,
   "tok_s": 131.0,
-  "latency": 2.18
+  "latency": 2.21
  },
  "Qwen3.7 Plus": {
   "index": 39.0,
   "usd_1m": 0.24,
-  "tok_s": 56.0,
-  "latency": 2.21
+  "tok_s": 55.0,
+  "latency": 2.16
  },
  "GPT-5.6 Luna (medium)": {
   "index": 39.0,
   "usd_1m": 0.01,
-  "tok_s": 141.0,
-  "latency": 2.33
+  "tok_s": 167.0,
+  "latency": 2.13
  },
  "Nemotron 3 Ultra": {
   "index": 38.0,
   "usd_1m": 0.38,
-  "tok_s": 146.0,
-  "latency": 2.3
+  "tok_s": 156.0,
+  "latency": 2.27
  },
  "MiMo-V2.5": {
   "index": 38.0,
   "usd_1m": 0.01,
-  "tok_s": 101.0,
-  "latency": 1.94
+  "tok_s": 107.0,
+  "latency": 1.93
  },
  "Ling 3.0 Flash": {
   "index": 38.0,
   "usd_1m": 0.04,
-  "tok_s": 374.0,
-  "latency": 2.06
+  "tok_s": 394.0,
+  "latency": 1.91
  },
  "Qwen3.6 27B": {
   "index": 31.0,
   "usd_1m": 0.4,
-  "tok_s": 57.0,
-  "latency": 3.94
+  "tok_s": 60.0,
+  "latency": 3.89
  },
  "Gemini 3.5 Flash-Lite": {
   "index": 37.0,
   "usd_1m": 0.1,
-  "tok_s": 368.0,
-  "latency": 10.11
+  "tok_s": 389.0,
+  "latency": 10.09
  },
  "Solar Open2 250B": {
   "index": 37.0,
@@ -374,14 +374,14 @@
  "Grok 4.3 (medium)": {
   "index": 37.0,
   "usd_1m": null,
-  "tok_s": 117.0,
-  "latency": 15.29
+  "tok_s": 123.0,
+  "latency": 15.09
  },
  "Grok 4.3 (low)": {
   "index": 36.0,
   "usd_1m": null,
-  "tok_s": 117.0,
-  "latency": 7.54
+  "tok_s": 122.0,
+  "latency": 8.72
  },
  "MiMo-V2-Omni": {
   "index": 36.0,
@@ -392,19 +392,19 @@
  "Gemini 3.5 Flash (minimal)": {
   "index": 36.0,
   "usd_1m": null,
-  "tok_s": 161.0,
-  "latency": 0.89
+  "tok_s": 173.0,
+  "latency": 0.9
  },
  "Claude Sonnet 4.6 (Non-reasoning, Low Effort)": {
   "index": 35.0,
   "usd_1m": null,
-  "tok_s": 44.0,
-  "latency": 1.92
+  "tok_s": 47.0,
+  "latency": 1.9
  },
  "Muse Glimmer (high)": {
   "index": 35.0,
   "usd_1m": 0.07,
-  "tok_s": 99.0,
+  "tok_s": 100.0,
   "latency": 0.83
  },
  "A.X-K2": {
@@ -416,32 +416,20 @@
  "GLM-5.2": {
   "index": 35.0,
   "usd_1m": null,
-  "tok_s": 132.0,
+  "tok_s": 140.0,
   "latency": 1.93
  },
  "GPT-5.6 Terra (Non-reasoning)": {
   "index": 35.0,
   "usd_1m": 0.1,
-  "tok_s": 96.0,
-  "latency": 0.81
- },
- "KAT-Coder-Pro V2": {
-  "index": 35.0,
-  "usd_1m": null,
-  "tok_s": 104.0,
-  "latency": 1.51
- },
- "LongCat 2.0": {
-  "index": 34.0,
-  "usd_1m": null,
-  "tok_s": 40.0,
-  "latency": 2.92
+  "tok_s": 118.0,
+  "latency": 0.8
  },
  "Qwen3.5 397B A17B": {
   "index": 33.0,
   "usd_1m": null,
-  "tok_s": 82.0,
-  "latency": 2.07
+  "tok_s": 93.0,
+  "latency": 2.2
  },
  "MiMo-V2-Flash (Feb 2026)": {
   "index": 34.0,
@@ -449,29 +437,47 @@
   "tok_s": null,
   "latency": null
  },
+ "LongCat 2.0": {
+  "index": 34.0,
+  "usd_1m": 0.12,
+  "tok_s": 42.0,
+  "latency": 2.82
+ },
  "GPT-5.6 Luna (low)": {
   "index": 34.0,
   "usd_1m": 0.01,
-  "tok_s": 142.0,
+  "tok_s": 167.0,
   "latency": 1.85
+ },
+ "KAT-Coder-Pro V2": {
+  "index": 34.0,
+  "usd_1m": null,
+  "tok_s": 104.0,
+  "latency": 1.46
  },
  "Qwen3.5 122B A10B": {
   "index": 28.0,
   "usd_1m": 0.2,
-  "tok_s": 146.0,
-  "latency": 2.37
+  "tok_s": 148.0,
+  "latency": 2.35
  },
  "Qwen3.6 35B A3B": {
   "index": 25.0,
-  "usd_1m": null,
+  "usd_1m": 0.63,
   "tok_s": 154.0,
-  "latency": 2.33
+  "latency": 2.21
  },
  "DeepSeek V4 Pro": {
   "index": 32.0,
   "usd_1m": null,
-  "tok_s": 73.0,
-  "latency": 1.73
+  "tok_s": 84.0,
+  "latency": 1.74
+ },
+ "Ring-2.6-1T": {
+  "index": 32.0,
+  "usd_1m": 0.36,
+  "tok_s": 130.0,
+  "latency": 2.92
  },
  "G9v3-39A5B": {
   "index": 32.0,
@@ -485,17 +491,11 @@
   "tok_s": 50.0,
   "latency": 2.5
  },
- "Ring-2.6-1T": {
-  "index": 31.0,
-  "usd_1m": null,
-  "tok_s": 121.0,
-  "latency": 3.27
- },
  "o3": {
   "index": 31.0,
   "usd_1m": null,
-  "tok_s": 118.0,
-  "latency": 7.37
+  "tok_s": 132.0,
+  "latency": 8.11
  },
  "K-EXAONE 2.0": {
   "index": 31.0,
@@ -506,26 +506,26 @@
  "Step 3.7 Flash": {
   "index": 31.0,
   "usd_1m": 0.09,
-  "tok_s": 399.0,
-  "latency": 0.84
+  "tok_s": 380.0,
+  "latency": 0.88
  },
  "Mistral Medium 3.5": {
   "index": 30.0,
   "usd_1m": 0.46,
-  "tok_s": 69.0,
-  "latency": 2.35
+  "tok_s": 68.0,
+  "latency": 2.29
  },
  "Claude 4.5 Haiku": {
   "index": 24.0,
   "usd_1m": null,
-  "tok_s": 88.0,
-  "latency": 0.82
+  "tok_s": 93.0,
+  "latency": 0.83
  },
  "Gemma 4 31B": {
   "index": 22.0,
   "usd_1m": 0.04,
-  "tok_s": 62.0,
-  "latency": 2.2
+  "tok_s": 71.0,
+  "latency": 2.11
  },
  "DeepSeek V4 Flash": {
   "index": 29.0,
@@ -536,8 +536,8 @@
  "GPT-5.5 Instant (June 2026)": {
   "index": 29.0,
   "usd_1m": 0.54,
-  "tok_s": 148.0,
-  "latency": 1.09
+  "tok_s": 159.0,
+  "latency": 1.08
  },
  "JT-35B-Flash": {
   "index": 29.0,
@@ -548,8 +548,8 @@
  "GPT-5.6 Luna (Non-reasoning)": {
   "index": 27.0,
   "usd_1m": 0.01,
-  "tok_s": 160.0,
-  "latency": 0.79
+  "tok_s": 174.0,
+  "latency": 0.78
  },
  "Doubao Seed Code": {
   "index": 26.0,
@@ -560,8 +560,8 @@
  "Gemma 4 26B A4B": {
   "index": 20.0,
   "usd_1m": null,
-  "tok_s": 56.0,
-  "latency": 1.32
+  "tok_s": 59.0,
+  "latency": 1.4
  },
  "Nemotron 3 Super": {
   "index": 26.0,
@@ -578,38 +578,38 @@
  "Grok 4.3 (Non-reasoning)": {
   "index": 25.0,
   "usd_1m": 0.29,
-  "tok_s": 97.0,
+  "tok_s": 115.0,
   "latency": 0.8
  },
  "Ling 3.0 Tiny": {
   "index": 25.0,
   "usd_1m": 0.0,
   "tok_s": 199.0,
-  "latency": 2.45
+  "latency": 2.47
  },
  "Qwen3.5 35B A3B": {
   "index": 24.0,
   "usd_1m": 0.24,
-  "tok_s": 171.0,
-  "latency": 2.11
+  "tok_s": 172.0,
+  "latency": 2.1
  },
  "gpt-oss-120b (high)": {
   "index": 24.0,
   "usd_1m": 0.07,
-  "tok_s": 169.0,
-  "latency": 0.91
+  "tok_s": 176.0,
+  "latency": 0.92
  },
  "Nemotron 3.5 Lightning": {
   "index": 24.0,
   "usd_1m": 0.06,
-  "tok_s": 297.0,
-  "latency": 1.06
+  "tok_s": 302.0,
+  "latency": 1.05
  },
  "Command A+": {
   "index": 23.0,
   "usd_1m": 0.0,
   "tok_s": 199.0,
-  "latency": 0.4
+  "latency": 0.39
  },
  "K-EXAONE": {
   "index": 17.0,
@@ -626,32 +626,32 @@
  "Gemma 4 12B": {
   "index": 22.0,
   "usd_1m": null,
-  "tok_s": 110.0,
-  "latency": 2.36
+  "tok_s": 116.0,
+  "latency": 2.32
  },
  "Nova 2.0 Pro Preview (medium)": {
   "index": 22.0,
   "usd_1m": null,
-  "tok_s": 115.0,
+  "tok_s": 119.0,
   "latency": 16.6
  },
  "Mercury 2": {
   "index": 22.0,
   "usd_1m": 0.08,
-  "tok_s": 820.0,
-  "latency": 3.34
+  "tok_s": 1230.0,
+  "latency": 3.96
  },
  "Qwen3.5 9B": {
   "index": 21.0,
   "usd_1m": null,
-  "tok_s": 92.0,
-  "latency": 0.85
+  "tok_s": 94.0,
+  "latency": 0.87
  },
  "Qwen3 Coder Next": {
   "index": 21.0,
   "usd_1m": 0.34,
-  "tok_s": 119.0,
-  "latency": 1.55
+  "tok_s": 123.0,
+  "latency": 1.53
  },
  "Nova 2.0 Omni (medium)": {
   "index": 21.0,
@@ -668,8 +668,8 @@
  "Nova 2.0 Lite (high)": {
   "index": 21.0,
   "usd_1m": null,
-  "tok_s": 157.0,
-  "latency": 15.31
+  "tok_s": 163.0,
+  "latency": 23.3
  },
  "EXAONE 4.5 33B": {
   "index": null,
@@ -680,43 +680,43 @@
  "Qwen3.5 4B": {
   "index": 16.0,
   "usd_1m": null,
-  "tok_s": 22.0,
-  "latency": 0.78
+  "tok_s": 24.0,
+  "latency": 0.85
  },
  "North Mini Code": {
   "index": 20.0,
   "usd_1m": 0.0,
-  "tok_s": 26.0,
-  "latency": 0.58
+  "tok_s": 27.0,
+  "latency": 0.54
  },
  "Nova 2.0 Pro Preview (low)": {
   "index": 20.0,
   "usd_1m": null,
-  "tok_s": 111.0,
-  "latency": 10.91
+  "tok_s": 116.0,
+  "latency": 11.31
  },
  "Mistral Small 4": {
   "index": 12.0,
   "usd_1m": null,
-  "tok_s": 138.0,
-  "latency": 0.88
+  "tok_s": 151.0,
+  "latency": 0.85
  },
  "Devstral 2": {
   "index": 19.0,
   "usd_1m": 0.0,
-  "tok_s": 41.0,
-  "latency": 1.5
+  "tok_s": 47.0,
+  "latency": 1.48
  },
  "Nova 2.0 Lite (medium)": {
   "index": 19.0,
   "usd_1m": null,
-  "tok_s": 150.0,
-  "latency": 18.12
+  "tok_s": 165.0,
+  "latency": 20.79
  },
  "Qwen3.5 Omni Flash": {
   "index": 19.0,
   "usd_1m": null,
-  "tok_s": 246.0,
+  "tok_s": 268.0,
   "latency": 1.83
  },
  "JT-MINI": {
@@ -726,10 +726,10 @@
   "latency": null
  },
  "Trinity Large Thinking": {
-  "index": 18.0,
-  "usd_1m": null,
+  "index": 19.0,
+  "usd_1m": 0.16,
   "tok_s": 203.0,
-  "latency": 1.23
+  "latency": 1.21
  },
  "HyperNova 60B 2605": {
   "index": 18.0,
@@ -740,14 +740,14 @@
  "Magistral Medium 1.2": {
   "index": 18.0,
   "usd_1m": 0.89,
-  "tok_s": 69.0,
-  "latency": 2.27
+  "tok_s": 112.0,
+  "latency": 2.22
  },
  "Nova 2.0 Lite (low)": {
   "index": 18.0,
   "usd_1m": null,
-  "tok_s": 150.0,
-  "latency": 9.65
+  "tok_s": 161.0,
+  "latency": 10.68
  },
  "Nemotron Cascade 2 30B A3B": {
   "index": 18.0,
@@ -758,8 +758,8 @@
  "Devstral Small 2": {
   "index": 18.0,
   "usd_1m": 0.0,
-  "tok_s": 108.0,
-  "latency": 2.33
+  "tok_s": 130.0,
+  "latency": 2.22
  },
  "K2 Think V2": {
   "index": 17.0,
@@ -782,8 +782,8 @@
  "Qwen3 Next 80B A3B": {
   "index": 14.0,
   "usd_1m": null,
-  "tok_s": 186.0,
-  "latency": 2.21
+  "tok_s": 203.0,
+  "latency": 2.15
  },
  "Nova 2.0 Omni (low)": {
   "index": 17.0,
@@ -806,8 +806,8 @@
  "Mistral Large 3": {
   "index": 16.0,
   "usd_1m": 0.08,
-  "tok_s": 43.0,
-  "latency": 1.21
+  "tok_s": 50.0,
+  "latency": 1.17
  },
  "INTELLECT-3": {
   "index": 16.0,
@@ -824,50 +824,50 @@
  "gpt-oss-20b (high)": {
   "index": 15.0,
   "usd_1m": 0.02,
-  "tok_s": 133.0,
-  "latency": 0.99
+  "tok_s": 140.0,
+  "latency": 1.0
  },
  "Nemotron 3 Nano Omni 30B A3B": {
   "index": 15.0,
   "usd_1m": null,
-  "tok_s": 325.0,
-  "latency": 1.01
+  "tok_s": 322.0,
+  "latency": 1.04
  },
  "gpt-oss-120b (low)": {
   "index": 15.0,
   "usd_1m": 0.02,
-  "tok_s": 199.0,
-  "latency": 0.96
+  "tok_s": 221.0,
+  "latency": 0.98
  },
  "Nemotron 3 Nano": {
   "index": 7.0,
   "usd_1m": null,
-  "tok_s": 240.0,
-  "latency": 0.79
+  "tok_s": 220.0,
+  "latency": 0.91
  },
  "Solar Pro 3": {
   "index": 14.0,
   "usd_1m": 0.15,
-  "tok_s": 133.0,
-  "latency": 2.34
+  "tok_s": 138.0,
+  "latency": 2.32
  },
  "Llama 4 Maverick": {
   "index": 14.0,
   "usd_1m": 0.04,
-  "tok_s": 119.0,
+  "tok_s": 113.0,
   "latency": 0.96
  },
  "Nova 2.0 Pro Preview": {
   "index": 14.0,
   "usd_1m": null,
-  "tok_s": 96.0,
+  "tok_s": 104.0,
   "latency": 1.11
  },
  "gpt-oss-20b (low)": {
   "index": 14.0,
   "usd_1m": null,
-  "tok_s": 176.0,
-  "latency": 1.05
+  "tok_s": 165.0,
+  "latency": 1.06
  },
  "K2-V2 (high)": {
   "index": 14.0,
@@ -884,8 +884,8 @@
  "Gemma 4 12B (Non-reasoning)": {
   "index": 13.0,
   "usd_1m": null,
-  "tok_s": 112.0,
-  "latency": 2.54
+  "tok_s": 116.0,
+  "latency": 2.4
  },
  "Motif-2-12.7B": {
   "index": 13.0,
@@ -896,8 +896,8 @@
  "Nova Premier": {
   "index": 13.0,
   "usd_1m": null,
-  "tok_s": 31.0,
-  "latency": 2.86
+  "tok_s": 32.0,
+  "latency": 2.85
  },
  "K2-V2 (medium)": {
   "index": 12.0,
@@ -908,13 +908,13 @@
  "Llama Nemotron Super 49B v1.5": {
   "index": 9.0,
   "usd_1m": null,
-  "tok_s": 113.0,
-  "latency": 5.65
+  "tok_s": 92.0,
+  "latency": 8.22
  },
  "Celeris-1": {
   "index": 12.0,
   "usd_1m": 0.26,
-  "tok_s": 1560.0,
+  "tok_s": 1629.0,
   "latency": 0.6
  },
  "Tri-21B-Think": {
@@ -926,8 +926,8 @@
  "Gemma 4 E4B": {
   "index": 9.0,
   "usd_1m": null,
-  "tok_s": 61.0,
-  "latency": 0.83
+  "tok_s": 56.0,
+  "latency": 0.89
  },
  "MiniCPM5-1B": {
   "index": 12.0,
@@ -944,20 +944,20 @@
  "Nova 2.0 Lite": {
   "index": 12.0,
   "usd_1m": null,
-  "tok_s": 150.0,
-  "latency": 1.09
+  "tok_s": 167.0,
+  "latency": 1.19
  },
  "Magistral Small 1.2": {
   "index": 11.0,
   "usd_1m": 0.3,
-  "tok_s": 142.0,
-  "latency": 0.85
+  "tok_s": 160.0,
+  "latency": 0.83
  },
  "Ministral 3 14B": {
   "index": 11.0,
   "usd_1m": 0.16,
-  "tok_s": 96.0,
-  "latency": 0.86
+  "tok_s": 92.0,
+  "latency": 0.84
  },
  "Nanbeige4.1-3B": {
   "index": 11.0,
@@ -980,14 +980,14 @@
  "Llama 4 Scout": {
   "index": 10.0,
   "usd_1m": 0.01,
-  "tok_s": 127.0,
-  "latency": 0.8
+  "tok_s": 128.0,
+  "latency": 0.83
  },
  "Hermes 4 70B": {
   "index": 7.0,
   "usd_1m": null,
-  "tok_s": 87.0,
-  "latency": 1.37
+  "tok_s": 84.0,
+  "latency": 1.39
  },
  "Falcon-H1R-7B": {
   "index": 10.0,
@@ -1005,7 +1005,7 @@
   "index": 5.0,
   "usd_1m": null,
   "tok_s": 93.0,
-  "latency": 1.91
+  "latency": 1.93
  },
  "Step3 VL 10B": {
   "index": 9.0,
@@ -1016,13 +1016,13 @@
  "Llama 3.3 70B": {
   "index": 9.0,
   "usd_1m": null,
-  "tok_s": 76.0,
-  "latency": 1.77
+  "tok_s": 82.0,
+  "latency": 1.72
  },
  "Ministral 3 8B": {
   "index": 9.0,
   "usd_1m": 0.18,
-  "tok_s": 106.0,
+  "tok_s": 110.0,
   "latency": 0.75
  },
  "Llama Nemotron Ultra": {
@@ -1040,14 +1040,14 @@
  "Hermes 4 405B": {
   "index": 9.0,
   "usd_1m": null,
-  "tok_s": 29.0,
-  "latency": 2.47
+  "tok_s": 32.0,
+  "latency": 2.51
  },
  "NVIDIA Nemotron Nano 12B v2 VL": {
   "index": 4.0,
   "usd_1m": null,
-  "tok_s": 191.0,
-  "latency": 1.83
+  "tok_s": 199.0,
+  "latency": 1.78
  },
  "Granite 4.1 30B": {
   "index": 9.0,
@@ -1058,8 +1058,8 @@
  "NVIDIA Nemotron Nano 9B V2": {
   "index": 7.0,
   "usd_1m": null,
-  "tok_s": 167.0,
-  "latency": 1.56
+  "tok_s": 166.0,
+  "latency": 1.42
  },
  "Nemotron 3 Nano 4B": {
   "index": 9.0,
@@ -1088,8 +1088,8 @@
  "LFM2.5-8B-A1B": {
   "index": 8.0,
   "usd_1m": null,
-  "tok_s": 340.0,
-  "latency": 2.1
+  "tok_s": 341.0,
+  "latency": 2.02
  },
  "Ring-flash-2.0": {
   "index": 8.0,
@@ -1106,8 +1106,8 @@
  "Command A": {
   "index": 7.0,
   "usd_1m": null,
-  "tok_s": 58.0,
-  "latency": 1.7
+  "tok_s": 59.0,
+  "latency": 1.91
  },
  "Qwen3.5 2B": {
   "index": 5.0,
@@ -1118,13 +1118,13 @@
  "Llama 3.1 Nemotron 70B": {
   "index": 7.0,
   "usd_1m": null,
-  "tok_s": 121.0,
-  "latency": 5.28
+  "tok_s": 113.0,
+  "latency": 6.93
  },
  "Ministral 3 3B": {
   "index": 7.0,
   "usd_1m": 0.13,
-  "tok_s": 196.0,
+  "tok_s": 205.0,
   "latency": 0.65
  },
  "Granite 4.1 8B": {
@@ -1160,7 +1160,7 @@
  "Phi-4 Mini": {
   "index": 6.0,
   "usd_1m": null,
-  "tok_s": 43.0,
+  "tok_s": 44.0,
   "latency": 0.84
  },
  "Qwen3.5 0.8B": {
@@ -1184,8 +1184,8 @@
  "Granite 4.0 H Small": {
   "index": 5.0,
   "usd_1m": null,
-  "tok_s": 31.0,
-  "latency": 15.95
+  "tok_s": 27.0,
+  "latency": 18.87
  },
  "LFM2 24B A2B": {
   "index": 5.0,
@@ -1196,14 +1196,14 @@
  "Phi-4": {
   "index": 5.0,
   "usd_1m": null,
-  "tok_s": 35.0,
-  "latency": 2.24
+  "tok_s": 29.0,
+  "latency": 2.67
  },
  "Nova Micro": {
   "index": 4.0,
   "usd_1m": null,
-  "tok_s": 277.0,
-  "latency": 0.89
+  "tok_s": 304.0,
+  "latency": 0.87
  },
  "Granite 4.1 3B": {
   "index": 4.0,
@@ -1251,7 +1251,7 @@
   "index": 3.0,
   "usd_1m": null,
   "tok_s": 20.0,
-  "latency": 1.77
+  "latency": 1.39
  },
  "Exaone 4.0 1.2B": {
   "index": 2.0,
@@ -1340,8 +1340,8 @@
  "LFM2.5-VL-1.6B": {
   "index": 1.0,
   "usd_1m": null,
-  "tok_s": 342.0,
-  "latency": 1.04
+  "tok_s": 349.0,
+  "latency": 1.06
  },
  "Granite 4.0 350M": {
   "index": 1.0,
@@ -1370,14 +1370,14 @@
  "Claude Sonnet 5 (low)": {
   "index": null,
   "usd_1m": null,
-  "tok_s": 64.0,
-  "latency": 2.48
+  "tok_s": 71.0,
+  "latency": 2.83
  },
  "Claude Sonnet 5 (xhigh)": {
   "index": null,
   "usd_1m": null,
-  "tok_s": 70.0,
-  "latency": 24.34
+  "tok_s": 78.0,
+  "latency": 36.7
  },
  "Gemini 3 Deep Think": {
   "index": null,
@@ -1388,8 +1388,8 @@
  "Claude Sonnet 5 (high)": {
   "index": null,
   "usd_1m": null,
-  "tok_s": 67.0,
-  "latency": 8.1
+  "tok_s": 73.0,
+  "latency": 9.3
  },
  "GPT-5.5 Pro (xhigh)": {
   "index": null,
@@ -1406,7 +1406,7 @@
  "Claude Sonnet 5 (medium)": {
   "index": null,
   "usd_1m": null,
-  "tok_s": 64.0,
-  "latency": 2.65
+  "tok_s": 71.0,
+  "latency": 2.62
  }
 }
