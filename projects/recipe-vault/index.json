@@ -3080,6 +3080,20 @@
    "size": 2117
   },
   {
+   "cuisines": [
+    "american"
+   ],
+   "types": [
+    "dessert"
+   ],
+   "methods": [
+    "bake",
+    "simmer"
+   ],
+   "name": "Chocolate Strawberry Cake",
+   "file": "recipes/Chocolate-Strawberry-Cake-preppykitchen.md"
+  },
+  {
    "name": "Green Curry",
    "file": "recipes/rasa_green_curry.md",
    "cuisines": [

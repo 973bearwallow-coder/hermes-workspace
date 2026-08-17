@@ -127,6 +127,7 @@
   "Chili Con Carne Corn Bread Pie",
   "Chocolate Cheesecake",
   "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake",
   "Christmas Tree Cake",
   "Commanders Palace Catfish Pecan with Lemon Thyme Pecan Butter",
   "Coq au Vin",
@@ -257,6 +258,7 @@
   "Chicken Marsala",
   "Chicken Pasta Recipe",
   "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake",
   "Christmas Tree Cake",
   "Coq au Vin",
   "Creamy Chicken Mushroom Fettucine",
@@ -712,6 +714,7 @@
   "Chili Con Carne Corn Bread Pie",
   "Chocolate Cheesecake",
   "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake",
   "Commanders Palace Catfish Pecan with Lemon Thyme Pecan Butter",
   "Cranberry Apple Pie",
   "Epic Chunky Beef and Mushroom Pie",
@@ -727,6 +730,7 @@
   "Carrot Cake with Walnuts",
   "Chocolate Cheesecake",
   "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake",
   "Christmas Tree Cake",
   "Cinnamon Pull-Apart Bread (Dollywood Bread Knockoff)",
   "Cranberry Apple Pie",
@@ -779,6 +783,7 @@
   "Chicken Francese",
   "Chocolate Cheesecake",
   "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake",
   "Instant Pot Hard-Boiled Eggs Recipe",
   "Key Lime Cheesecake {No-Cracking!}",
   "Lemon Blueberry Cake with Whipped Lemon Cream Frosting",
@@ -810,6 +815,7 @@
   "Carrot Cake with Walnuts",
   "Chocolate Cheesecake",
   "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake",
   "Christmas Tree Cake",
   "Grandma\u2019s Banana Nut Bread",
   "Key Lime Cheesecake {No-Cracking!}",
@@ -847,6 +853,7 @@
   "Chicken Pad Thai",
   "Chinese Beef with Honey and Black Pepper Sauce",
   "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake",
   "Cincinnati Chili (Instant Pot) Recipe",
   "Fall Apart Mexican Beef Ribs",
   "Grandma\u2019s Banana Nut Bread",
@@ -1837,6 +1844,7 @@
   "Cranberry Apple Pie"
  ],
  "of salt": [
+  "Chocolate Strawberry Cake",
   "Cranberry Apple Pie",
   "Creamy Cilantro Lime Dressing"
  ],
@@ -3810,7 +3818,8 @@
   "Lemon Blueberry Cake with Whipped Lemon Cream Frosting"
  ],
  "unsweetened cocoa powder": [
-  "Chocolate Peanut Butter Cake"
+  "Chocolate Peanut Butter Cake",
+  "Chocolate Strawberry Cake"
  ],
  "hot water or coffee": [
   "Chocolate Peanut Butter Cake"
@@ -4353,6 +4362,7 @@
  ],
  "heavy whipping cream": [
   "Amazing Crustless Pumpkin Pie Cupcakes",
+  "Chocolate Strawberry Cake",
   "Key Lime Cheesecake {No-Cracking!}",
   "Turtle Cheesecake"
  ],
@@ -4761,6 +4771,30 @@
  ],
  "grated cheese": [
   "Oven Baked Chicken Quesadillas"
+ ],
+ "boiling water or very hot coffee": [
+  "Chocolate Strawberry Cake"
+ ],
+ "s baking soda": [
+  "Chocolate Strawberry Cake"
+ ],
+ "s baking powder": [
+  "Chocolate Strawberry Cake"
+ ],
+ "whole or low-fat buttermilk": [
+  "Chocolate Strawberry Cake"
+ ],
+ "to 8 cups confectioners' sugar": [
+  "Chocolate Strawberry Cake"
+ ],
+ "chopped fresh strawberries": [
+  "Chocolate Strawberry Cake"
+ ],
+ "ounces semi-sweet chocolate bar": [
+  "Chocolate Strawberry Cake"
+ ],
+ "fresh strawberries": [
+  "Chocolate Strawberry Cake"
  ],
  "green curry paste": [
   "Green Curry",
