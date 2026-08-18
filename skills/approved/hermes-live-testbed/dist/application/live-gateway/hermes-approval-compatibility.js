@@ -1,0 +1,29 @@
+export const HERMES_TARGETED_APPROVAL_FEATURE = "run_approval_response_by_id";
+export function hermesApprovalCompatibility(capabilities) {
+    return approvalCompatibility(capabilities.features?.[HERMES_TARGETED_APPROVAL_FEATURE] === true, true);
+}
+export function unnegotiatedHermesApprovalCompatibility() {
+    return approvalCompatibility(false, false);
+}
+export async function negotiateHermesApprovalCompatibility(hermes) {
+    try {
+        return hermesApprovalCompatibility(await hermes.capabilities());
+    }
+    catch {
+        return unnegotiatedHermesApprovalCompatibility();
+    }
+}
+function approvalCompatibility(upstreamTargetingAdvertised, negotiated) {
+    return {
+        // Protocol v4 deliberately does not expose an approval UI until Hermes can
+        // prove stable approval identity across both events and targeted mutation.
+        // A capability bit alone is not sufficient proof at this boundary.
+        uiSupported: false,
+        interactive: false,
+        fallback: "deny_all_then_stop",
+        requiredFeature: HERMES_TARGETED_APPROVAL_FEATURE,
+        upstreamTargetedResponseAdvertised: upstreamTargetingAdvertised,
+        negotiated,
+    };
+}
+//# sourceMappingURL=hermes-approval-compatibility.js.map

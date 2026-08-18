@@ -1,0 +1,1666 @@
+import { createHash, randomUUID } from "node:crypto";
+import { errorToMessage } from "../../domain/error-message.js";
+import { isPcmMimeType, requirePcmSampleRate } from "../../domain/audio/pcm.js";
+import { makeSessionKey } from "../../config.js";
+import { parseClientMessage, RequestIdSchema, } from "../../domain/protocol/client-protocol.js";
+import { serverMessage, } from "../../domain/protocol/server-protocol.js";
+import { incompatibleProtocolVersionMessage, isHermesLiveProtocolVersion, } from "../../domain/protocol/version.js";
+import { realtimeClientCapabilities } from "./client-capabilities.js";
+import { buildSystemInstruction } from "./system-instruction.js";
+import { isTaskNotificationState, projectSupersededTaskNotification, projectTaskLifecycle, projectTaskNotification, projectTaskSnapshot, } from "./task-public-projection.js";
+const MAX_PENDING_PROVIDER_EVENTS = 256;
+const MAX_PENDING_PROVIDER_EVENT_BYTES = 8 * 1024 * 1024;
+const MAX_PROVIDER_TRANSCRIPT_CHARS = 20_000;
+const MAX_PROVIDER_IO_WAIT_MS = 10_000;
+const MAX_PROVIDER_CLOSE_WAIT_MS = 5_000;
+const MAX_PROVIDER_CANCEL_WAIT_MS = 1_000;
+const MAX_PROVIDER_NOTIFICATION_RESPONSE_WAIT_MS = 30_000;
+const MAX_NOTIFICATION_DELIVERY_ATTEMPTS = 3;
+const NOTIFICATION_RETRY_BASE_MS = 250;
+const MAX_PENDING_CLIENT_MESSAGES = 256;
+const MAX_PENDING_CLIENT_BYTES = 8 * 1024 * 1024;
+const MAX_CLIENT_MESSAGE_ERRORS = 16;
+const MAX_PENDING_PROVIDER_TOOL_CALLS = 32;
+const MAX_CONCURRENT_PROVIDER_TOOL_CALLS = 4;
+const MAX_PROCESSED_PROVIDER_TOOL_CALLS = 256;
+const MAX_SEEN_PROVIDER_TOOL_CALLS = 4_096;
+const MAX_PROVIDER_TOOL_CALL_ARGS_BYTES = 100_000;
+const MAX_PROVIDER_TOOL_RESPONSE_BYTES = 256_000;
+const MAX_CACHED_PROVIDER_TOOL_RESPONSE_BYTES = 4 * 1024 * 1024;
+const MAX_PUBLIC_TASKS = 100;
+const MAX_TOOL_RESOURCE_KEYS = 8;
+export class LiveGatewaySession {
+    client;
+    deps;
+    id = `live_${randomUUID().replaceAll("-", "")}`;
+    notificationToken = randomUUID().replaceAll("-", "");
+    abort = new AbortController();
+    liveSession;
+    pendingLiveConnect;
+    starting = false;
+    readySent = false;
+    closing = false;
+    closePromise;
+    sessionKey;
+    ownerId;
+    profileId = "default";
+    userLabel = "anonymous";
+    protocolVersion = 3;
+    conversation = { mode: "unbound" };
+    conversationOperation = Promise.resolve();
+    unsubscribeTasks;
+    pendingTaskRecords = new Map();
+    pendingNotifications = new Map();
+    claimedNotifications = new Map();
+    notificationDeliveryAttempts = new Map();
+    notificationFlushRunning = false;
+    notificationRetryTimer;
+    notificationResponsePending = false;
+    notificationResponseTimer;
+    providerResponseActive = false;
+    providerTurnResponseExpected = false;
+    userSpeaking = false;
+    messageQueue = Promise.resolve();
+    pendingClientMessages = 0;
+    pendingClientBytes = 0;
+    clientInputOverflowed = false;
+    clientMessageErrors = 0;
+    providerToolCalls = new Map();
+    providerToolCallTombstones = new Map();
+    providerToolOperations = [];
+    activeProviderToolOperations = 0;
+    pendingProviderToolCalls = 0;
+    cachedProviderToolResponseBytes = 0;
+    constructor(client, deps) {
+        this.client = client;
+        this.deps = deps;
+    }
+    bind() {
+        this.client.onMessage((frame) => this.enqueueClientFrame(frame));
+        this.client.onClose(() => {
+            void this.close();
+        });
+        this.client.onError((error) => {
+            this.deps.logger.warn("client connection error", { sessionId: this.id, error: errorToMessage(error) });
+        });
+    }
+    async start(message) {
+        if (!isHermesLiveProtocolVersion(message.protocolVersion)) {
+            this.fail("unsupported_protocol_version", new Error(incompatibleProtocolVersionMessage(message.protocolVersion)), false, message.id);
+            return;
+        }
+        if (this.liveSession || this.starting || this.readySent) {
+            this.fail("session_already_started", new Error("Realtime session is already started."), true, message.id);
+            return;
+        }
+        if (this.deps.config.realtime.provider === "local" && message.protocolVersion < 5) {
+            this.fail("unsupported_protocol_version", new Error("The Hugging Face local voice provider requires Hermes Live protocol v5. Upgrade the client and reconnect."), false, message.id);
+            return;
+        }
+        this.starting = true;
+        let startupPhase = "hermes";
+        let connected;
+        let unsubscribe;
+        try {
+            this.protocolVersion = message.protocolVersion;
+            this.profileId = this.deps.config.server.trustClientIdentity
+                ? message.profileId ?? this.deps.config.server.defaultProfileId
+                : this.deps.config.server.defaultProfileId;
+            this.userLabel = this.deps.config.server.trustClientIdentity
+                ? message.userLabel ?? this.deps.config.server.defaultUserLabel
+                : this.deps.config.server.defaultUserLabel;
+            this.sessionKey = makeSessionKey(this.deps.config.server.sessionPrefix, this.profileId, this.userLabel);
+            this.ownerId = this.deps.taskSupervisor.registerOwner(this.sessionKey, this.sessionKey);
+            unsubscribe = this.deps.taskSupervisor.subscribe(this.ownerId, (record) => this.receiveTaskRecord(record));
+            this.unsubscribeTasks = unsubscribe;
+            const capabilities = await this.deps.hermes.assertRunsSupported(this.abort.signal);
+            if (this.protocolVersion >= 4) {
+                this.conversation = await this.resolveConversation(message.conversation ?? { mode: "unbound" });
+            }
+            startupPhase = "realtime";
+            const providerEvents = [];
+            let providerEventBytes = 0;
+            let providerOpened = false;
+            let resolveOpen;
+            let rejectOpen;
+            const providerOpen = new Promise((resolve, reject) => {
+                resolveOpen = resolve;
+                rejectOpen = reject;
+            });
+            // Some adapters reject connect and report the same pre-ready failure
+            // through callbacks. The connect path is awaited below, while this
+            // readiness latch may otherwise reject first and become an unhandled
+            // promise before startup cleanup can attach its await.
+            void providerOpen.catch(() => undefined);
+            const connect = this.deps.liveModel.connect({
+                sessionId: this.id,
+                systemInstruction: buildSystemInstruction(this.notificationToken, this.deps.config.tasks.trustDeclaredReadOnly === true, {
+                    bound: this.conversation.mode !== "unbound",
+                    voiceInputPause: this.protocolVersion >= 6,
+                }, this.deps.config.realtime.provider === "local"),
+                availableTools: this.availableProviderTools(),
+                safetyIdentifier: safetyIdentifierForSessionKey(this.sessionKey),
+                callbacks: {
+                    onOpen: () => {
+                        providerOpened = true;
+                        resolveOpen();
+                    },
+                    onClose: (event) => {
+                        if (!this.readySent) {
+                            rejectOpen(new Error("Realtime provider session closed before ready."));
+                            return;
+                        }
+                        this.deps.logger.info("realtime provider session closed", {
+                            sessionId: this.id,
+                            ...providerCloseLogDetail(event),
+                        });
+                        if (this.closing)
+                            return;
+                        this.fail("realtime_provider_closed", new Error("Realtime provider session closed."), true);
+                        void this.closeClientAfterCleanup(1011, "realtime provider closed");
+                    },
+                    onError: (error) => {
+                        if (!this.readySent) {
+                            rejectOpen(new Error(publicRealtimeStartupError(error, this.deps.config.server.providerReadyTimeoutMs)));
+                            return;
+                        }
+                        this.deps.logger.warn("realtime provider reported an error", {
+                            sessionId: this.id,
+                            error: "realtime_provider_error",
+                        });
+                        if (!this.closing) {
+                            this.fail("realtime_provider_error", new Error("Realtime provider reported an error."), true);
+                        }
+                    },
+                    onEvent: (event) => {
+                        if (this.closing)
+                            return;
+                        if (!this.readySent) {
+                            const bytes = safeJsonByteLength(event);
+                            if (providerEvents.length >= MAX_PENDING_PROVIDER_EVENTS ||
+                                !Number.isFinite(bytes) ||
+                                bytes > MAX_PENDING_PROVIDER_EVENT_BYTES - providerEventBytes) {
+                                rejectOpen(new Error("Realtime provider exceeded the safe pre-ready event queue limit."));
+                                return;
+                            }
+                            providerEvents.push(event);
+                            providerEventBytes += bytes;
+                            return;
+                        }
+                        this.dispatchLiveModelEvent(event);
+                    },
+                },
+            });
+            this.pendingLiveConnect = connect;
+            void connect.catch(() => undefined);
+            connected = await withDeadline(connect, this.deps.config.server.providerReadyTimeoutMs, `Realtime provider did not connect within ${this.deps.config.server.providerReadyTimeoutMs}ms.`);
+            if (this.pendingLiveConnect === connect)
+                this.pendingLiveConnect = undefined;
+            this.liveSession = connected;
+            if (!providerOpened) {
+                await withDeadline(providerOpen, this.deps.config.server.providerReadyTimeoutMs, `Realtime provider did not become ready within ${this.deps.config.server.providerReadyTimeoutMs}ms.`);
+            }
+            if (this.closing) {
+                await this.closeProvider(connected);
+                return;
+            }
+            // Recent history is intentionally bounded for the public inbox, but
+            // active work and unread notifications are correctness-critical. Load
+            // those independently so neither can disappear behind newer terminal
+            // history, then de-duplicate and project the union in bounded frames.
+            const [recentWindow, activeTasks, unreadTasks] = await Promise.all([
+                this.deps.taskSupervisor.list(this.ownerId, MAX_PUBLIC_TASKS + 1),
+                this.deps.taskSupervisor.listActive(this.ownerId),
+                this.deps.taskSupervisor.listUnreadNotifications(this.ownerId),
+            ]);
+            const initialTasks = mergeTaskRecords([
+                ...activeTasks,
+                ...unreadTasks,
+                ...recentWindow.slice(0, MAX_PUBLIC_TASKS),
+            ]);
+            const projectedInitialTasks = projectTaskList(initialTasks);
+            const initialSnapshotTruncated = recentWindow.length > MAX_PUBLIC_TASKS
+                || projectedInitialTasks.length > MAX_PUBLIC_TASKS;
+            this.send({
+                type: "session.ready",
+                protocolVersion: this.protocolVersion,
+                ...(message.id ? { requestId: message.id } : {}),
+                sessionId: this.id,
+                model: this.deps.config.realtime.model,
+                hermes: publicHermesCapabilities(capabilities),
+                realtime: realtimeClientCapabilities(this.deps.config),
+                tasks: {
+                    scope: "owner",
+                    sequence: "per_task",
+                    reconnect: "snapshot",
+                    durable: true,
+                    parallel: this.deps.config.tasks.maxConcurrent > 1
+                        && this.deps.config.tasks.trustDeclaredReadOnly === true,
+                    maxConcurrent: this.deps.config.tasks.maxConcurrent,
+                    maxRetained: this.deps.config.tasks.historyLimit,
+                    supports: {
+                        list: true,
+                        get: true,
+                        stop: true,
+                        followUp: this.protocolVersion >= 4 && this.deps.taskSupervisor.followUp !== undefined,
+                        resume: false,
+                        notificationAck: true,
+                    },
+                },
+                ...(this.protocolVersion >= 4 ? { conversation: this.conversation } : {}),
+            });
+            const initialSnapshotReason = initialTasks.length > 0 ? "reconnect" : "initial";
+            if (projectedInitialTasks.length === 0) {
+                this.send({
+                    type: "task.snapshot",
+                    reason: initialSnapshotReason,
+                    tasks: [],
+                    truncated: false,
+                });
+            }
+            else {
+                for (let offset = 0; offset < projectedInitialTasks.length; offset += MAX_PUBLIC_TASKS) {
+                    this.send({
+                        type: "task.snapshot",
+                        reason: initialSnapshotReason,
+                        tasks: projectedInitialTasks.slice(offset, offset + MAX_PUBLIC_TASKS),
+                        // `truncated` describes the bounded recent-history view, not a
+                        // pagination cursor. Active and unread records are still emitted
+                        // across every bounded reconnect frame.
+                        truncated: initialSnapshotTruncated,
+                    });
+                }
+            }
+            this.readySent = true;
+            const initialTaskSequences = new Map(initialTasks.map((record) => [record.taskId, record.sequence]));
+            for (const record of unreadTasks) {
+                const notification = projectTaskNotification(record);
+                if (!record.notification.unread || !notification)
+                    continue;
+                this.send({
+                    type: "task.notification",
+                    taskId: record.taskId,
+                    sequence: record.sequence,
+                    occurredAt: record.updatedAt,
+                    notification,
+                });
+                // Client inbox delivery and provider speech have independent durable
+                // state. Re-project every unread item on reconnect, but never enqueue
+                // one that has already been announced for speech again.
+                if (record.notification.announcedAt === undefined) {
+                    this.pendingNotifications.set(record.taskId, structuredClone(record));
+                }
+            }
+            for (const record of this.pendingTaskRecords.values()) {
+                if (record.sequence > (initialTaskSequences.get(record.taskId) ?? 0))
+                    this.dispatchTaskRecord(record);
+            }
+            this.pendingTaskRecords.clear();
+            for (const event of providerEvents)
+                this.dispatchLiveModelEvent(event);
+            this.scheduleNotificationFlush();
+        }
+        catch (error) {
+            if (this.pendingLiveConnect) {
+                const lateConnect = this.pendingLiveConnect;
+                this.pendingLiveConnect = undefined;
+                void lateConnect.then((session) => this.closeProvider(session)).catch(() => undefined);
+            }
+            if (connected)
+                await this.closeProvider(connected).catch(() => undefined);
+            if (this.liveSession === connected)
+                this.liveSession = undefined;
+            if (unsubscribe && this.unsubscribeTasks === unsubscribe) {
+                unsubscribe();
+                this.unsubscribeTasks = undefined;
+            }
+            if (!this.closing) {
+                this.deps.logger.warn("live session startup failed", {
+                    sessionId: this.id,
+                    phase: startupPhase,
+                    ...startupFailureLogDetail(error),
+                });
+                this.fail("session_start_failed", new Error(startupPhase === "hermes"
+                    ? "Hermes Agent is not ready for background tasks. Check the authenticated /ready endpoint and gateway logs."
+                    : publicRealtimeStartupError(error, this.deps.config.server.providerReadyTimeoutMs)), true, message.id);
+            }
+        }
+        finally {
+            this.starting = false;
+        }
+    }
+    async close() {
+        if (this.closePromise)
+            return this.closePromise;
+        this.closing = true;
+        this.closePromise = this.performClose();
+        return this.closePromise;
+    }
+    enqueueClientFrame(frame) {
+        if (this.closing || this.clientInputOverflowed)
+            return;
+        const bytes = clientInboundFrameBytes(frame);
+        if (this.pendingClientMessages >= MAX_PENDING_CLIENT_MESSAGES ||
+            this.pendingClientBytes + bytes > MAX_PENDING_CLIENT_BYTES) {
+            this.clientInputOverflowed = true;
+            this.fail("client_input_backpressure", new Error("Client sent messages faster than the realtime session could process them."), false);
+            void this.closeClientAfterCleanup(1009, "client input backpressure");
+            return;
+        }
+        let message;
+        let requestId;
+        try {
+            const text = typeof frame === "string" ? frame : new TextDecoder().decode(frame);
+            const parsed = JSON.parse(text);
+            requestId = requestIdFromUnknown(parsed);
+            message = parseClientMessage(parsed);
+        }
+        catch (error) {
+            this.handleClientMessageFailure(error, requestId);
+            return;
+        }
+        this.pendingClientMessages += 1;
+        this.pendingClientBytes += bytes;
+        const processMessage = async () => {
+            try {
+                if (!this.closing && !this.clientInputOverflowed) {
+                    await this.handleClientMessage(message);
+                    this.clientMessageErrors = 0;
+                }
+            }
+            catch (error) {
+                this.handleClientMessageFailure(error, message.id);
+            }
+            finally {
+                this.pendingClientMessages -= 1;
+                this.pendingClientBytes -= bytes;
+            }
+        };
+        if (isPreemptiveClientControl(message, Boolean(this.liveSession))) {
+            void processMessage();
+        }
+        else {
+            this.messageQueue = this.messageQueue.then(processMessage, processMessage);
+        }
+    }
+    async handleClientMessage(message) {
+        if (message.type === "session.start") {
+            await this.start(message);
+            return;
+        }
+        if (message.type === "session.close") {
+            await this.closeClientAfterCleanup(1000, "session detached");
+            return;
+        }
+        if (!this.liveSession || !this.ownerId || !this.sessionKey || !this.readySent) {
+            this.fail("session_not_started", new Error("Send session.start before using the live session."), true, message.id);
+            return;
+        }
+        switch (message.type) {
+            case "audio.input":
+                validateAudioFrame(message.data, message.mimeType, this.deps.config.server.maxAudioBytes);
+                this.userSpeaking = true;
+                await this.forwardRealtimeClientInput("audio", () => this.liveSession.sendRealtimeAudio({ data: message.data, mimeType: message.mimeType }));
+                return;
+            case "audio.end":
+                this.userSpeaking = false;
+                await this.forwardRealtimeClientInput("audio turn", async () => {
+                    if (await this.liveSession.sendAudioStreamEnd())
+                        this.providerResponseActive = true;
+                });
+                return;
+            case "text.input":
+                validateText(message.text, this.deps.config.server.maxTextChars, "Text input");
+                this.userSpeaking = false;
+                await this.forwardRealtimeClientInput("text", () => this.liveSession.sendText(message.text), true);
+                return;
+            case "response.cancel":
+                await this.cancelRealtimeResponse(message.reason, message.truncate);
+                return;
+            case "task.list": {
+                const taskWindow = await this.runTaskOperation(() => this.deps.taskSupervisor.list(this.ownerId, message.limit + 1), "Unable to read the background task inbox.");
+                const tasks = taskWindow.slice(0, message.limit);
+                this.send({
+                    type: "task.snapshot",
+                    reason: "list",
+                    requestId: message.id,
+                    tasks: projectTaskList(tasks),
+                    truncated: taskWindow.length > message.limit,
+                });
+                return;
+            }
+            case "task.get": {
+                const task = await this.runTaskOperation(() => this.deps.taskSupervisor.get(this.ownerId, message.taskId), "Unable to read that background task.");
+                this.send({
+                    type: "task.snapshot",
+                    reason: "get",
+                    requestId: message.id,
+                    tasks: task ? [projectTaskSnapshot(task, { includeOutput: true })] : [],
+                    truncated: false,
+                });
+                return;
+            }
+            case "task.follow_up": {
+                if (this.protocolVersion < 4 || !this.deps.taskSupervisor.followUp) {
+                    throw new Error("Task follow-ups require Hermes Live protocol v4.");
+                }
+                validateText(message.message, this.deps.config.server.maxTextChars, "Task follow-up message");
+                const task = await this.runTaskOperation(() => this.deps.taskSupervisor.followUp({
+                    ownerIdentity: this.sessionKey,
+                    ownerId: this.ownerId,
+                    sessionKey: this.sessionKey,
+                    parentTaskId: message.taskId,
+                    input: message.message,
+                    ...(message.title ? { title: message.title } : {}),
+                    ...(this.conversation.sessionId ? { originConversationId: this.conversation.sessionId } : {}),
+                }), "Unable to start that task follow-up.");
+                this.send(projectTaskLifecycle(task, message.id));
+                return;
+            }
+            case "task.stop": {
+                const task = await this.runTaskOperation(() => this.deps.taskSupervisor.stop(this.ownerId, message.taskId, message.reason), "Unable to stop that background task safely.");
+                this.send(projectTaskLifecycle(task, message.id));
+                return;
+            }
+            case "task.notification.ack": {
+                const current = await this.runTaskOperation(() => this.deps.taskSupervisor.get(this.ownerId, message.taskId), "Unable to acknowledge that task notification.");
+                const currentNotification = current ? projectTaskNotification(current) : undefined;
+                if (!current ||
+                    !current.notification.unread ||
+                    !currentNotification ||
+                    currentNotification.notificationId !== message.notificationId) {
+                    throw new Error("Notification acknowledgement does not match the current task notification.");
+                }
+                const task = await this.runTaskOperation(() => this.deps.taskSupervisor.acknowledgeNotification(this.ownerId, message.taskId), "Unable to acknowledge that task notification.");
+                const notification = projectTaskNotification(task);
+                if (notification) {
+                    this.send({
+                        type: "task.notification",
+                        taskId: task.taskId,
+                        sequence: task.sequence,
+                        occurredAt: task.updatedAt,
+                        requestId: message.id,
+                        notification,
+                    });
+                }
+                return;
+            }
+        }
+    }
+    async resolveConversation(selection) {
+        if (selection.mode === "unbound")
+            return { mode: "unbound" };
+        const assertSessionsSupported = this.deps.hermes.assertSessionsSupported;
+        const createSession = this.deps.hermes.createSession;
+        const getSession = this.deps.hermes.getSession;
+        const getSessionHistory = this.deps.hermes.getSessionHistory;
+        if (!assertSessionsSupported || !createSession || !getSession || !getSessionHistory) {
+            throw new Error("Hermes session continuity is unavailable in this installation.");
+        }
+        await assertSessionsSupported.call(this.deps.hermes, this.abort.signal);
+        if (selection.mode === "new") {
+            const session = await createSession.call(this.deps.hermes, {
+                ...(selection.title ? { title: selection.title } : {}),
+                signal: this.abort.signal,
+            });
+            return publicConversation("new", session);
+        }
+        const history = await getSessionHistory.call(this.deps.hermes, selection.sessionId, this.abort.signal);
+        const session = await getSession.call(this.deps.hermes, history.sessionId, this.abort.signal);
+        return publicConversation("resume", session);
+    }
+    serializeConversationOperation(operation) {
+        const result = this.conversationOperation.then(operation, operation);
+        this.conversationOperation = result.then(() => undefined, () => undefined);
+        return result;
+    }
+    availableProviderTools() {
+        const tools = [
+            "start_background_task",
+            "list_background_tasks",
+            "get_background_task",
+            "stop_background_task",
+        ];
+        if (this.protocolVersion >= 4 && this.deps.taskSupervisor.followUp) {
+            tools.push("follow_up_background_task");
+        }
+        if (this.protocolVersion >= 4 && this.conversation.mode !== "unbound" && this.deps.hermes.chatSession) {
+            tools.unshift("continue_hermes_conversation");
+        }
+        if (this.protocolVersion >= 6)
+            tools.push("pause_voice_input");
+        return tools;
+    }
+    executeToolCall(call) {
+        if (!this.ownerId || !this.sessionKey)
+            throw new Error("session.start has not completed.");
+        switch (call.name) {
+            case "continue_hermes_conversation": {
+                const message = stringArg(call, "message");
+                if (!message)
+                    throw new Error("continue_hermes_conversation requires message.");
+                validateText(message, this.deps.config.server.maxTextChars, "Hermes conversation message");
+                if (this.protocolVersion < 4 || this.conversation.mode === "unbound" || !this.conversation.sessionId) {
+                    return Promise.resolve({
+                        ok: false,
+                        error: "No persisted Hermes conversation is selected for this voice session.",
+                    });
+                }
+                const chatSession = this.deps.hermes.chatSession;
+                if (!chatSession) {
+                    return Promise.resolve({ ok: false, error: "This Hermes installation cannot continue saved conversations." });
+                }
+                return this.serializeConversationOperation(async () => {
+                    const result = await chatSession.call(this.deps.hermes, this.conversation.sessionId, message, {
+                        signal: this.abort.signal,
+                        sessionKey: this.sessionKey,
+                    });
+                    this.conversation = {
+                        ...this.conversation,
+                        sessionId: result.sessionId,
+                        lastActiveAt: Date.now(),
+                    };
+                    return {
+                        ok: true,
+                        session_id: result.sessionId,
+                        message: result.content,
+                        ...(result.usage ? { usage: result.usage } : {}),
+                    };
+                });
+            }
+            case "start_background_task": {
+                const message = stringArg(call, "message");
+                if (!message)
+                    throw new Error("start_background_task requires message.");
+                validateText(message, this.deps.config.server.maxTextChars, "Background task message");
+                const recentContext = optionalStringArg(call, "recent_voice_context");
+                if (recentContext)
+                    validateText(recentContext, this.deps.config.server.maxTextChars, "Recent voice context");
+                const title = optionalStringArg(call, "title");
+                if (title && title.length > 256)
+                    throw new Error("Background task title exceeds 256 characters.");
+                const requestedExecutionMode = executionModeArg(call);
+                const executionMode = this.deps.config.tasks.trustDeclaredReadOnly === true
+                    ? requestedExecutionMode
+                    : "exclusive";
+                const resourceKeys = this.deps.config.tasks.trustDeclaredReadOnly === true
+                    ? resourceKeysArg(call)
+                    : undefined;
+                const input = recentContext ? `${message}\n\nRecent voice context:\n${recentContext}` : message;
+                return this.runTaskOperation(() => this.deps.taskSupervisor.submit({
+                    ownerIdentity: this.sessionKey,
+                    sessionKey: this.sessionKey,
+                    input,
+                    ...(title ? { title } : {}),
+                    executionMode,
+                    ...(resourceKeys ? { resourceKeys } : {}),
+                    ...(this.conversation.sessionId ? { originConversationId: this.conversation.sessionId } : {}),
+                }), "Background task could not be accepted safely.").then((task) => ({
+                    spoken_response: "I've started that in the background. You can keep talking.",
+                    ok: true,
+                    task_id: task.taskId,
+                    status: task.status,
+                    execution_mode: task.executionMode,
+                    message: "Background task accepted. The user can keep talking or disconnect.",
+                }));
+            }
+            case "list_background_tasks": {
+                const includeCompleted = booleanArg(call, "include_completed", true);
+                const summaryOnly = booleanArg(call, "summary_only", false);
+                return this.runTaskOperation(() => this.deps.taskSupervisor.list(this.ownerId, 25), "Unable to read the background task inbox.").then((records) => {
+                    const selected = records
+                        .filter((record) => includeCompleted || !isTaskNotificationState(record.status));
+                    return {
+                        ...(summaryOnly ? { spoken_response: taskInboxSpokenSummary(selected) } : {}),
+                        ok: true,
+                        tasks: selected.map((record) => projectTaskSnapshot(record)),
+                    };
+                });
+            }
+            case "get_background_task": {
+                const taskId = stringArg(call, "task_id");
+                if (!taskId)
+                    throw new Error("get_background_task requires task_id.");
+                const includeOutput = booleanArg(call, "include_output", false);
+                return this.runTaskOperation(() => this.deps.taskSupervisor.get(this.ownerId, taskId), "Unable to read that background task.").then((task) => task
+                    ? { ok: true, task: projectTaskSnapshot(task, { includeOutput }) }
+                    : { ok: false, task_id: taskId, error: "Task not found." });
+            }
+            case "follow_up_background_task": {
+                const taskId = stringArg(call, "task_id");
+                const message = stringArg(call, "message");
+                if (!taskId || !message)
+                    throw new Error("follow_up_background_task requires task_id and message.");
+                validateText(message, this.deps.config.server.maxTextChars, "Task follow-up message");
+                const title = optionalStringArg(call, "title");
+                if (title && title.length > 256)
+                    throw new Error("Task follow-up title exceeds 256 characters.");
+                if (this.protocolVersion < 4 || !this.deps.taskSupervisor.followUp) {
+                    return Promise.resolve({ ok: false, error: "Task follow-ups require Hermes Live protocol v4." });
+                }
+                return this.runTaskOperation(() => this.deps.taskSupervisor.followUp({
+                    ownerIdentity: this.sessionKey,
+                    ownerId: this.ownerId,
+                    sessionKey: this.sessionKey,
+                    parentTaskId: taskId,
+                    input: message,
+                    ...(title ? { title } : {}),
+                    ...(this.conversation.sessionId ? { originConversationId: this.conversation.sessionId } : {}),
+                }), "Unable to start that task follow-up.").then((task) => ({
+                    spoken_response: "I've started that follow-up in the background.",
+                    ok: true,
+                    task_id: task.taskId,
+                    parent_task_id: task.parentTaskId,
+                    root_task_id: task.rootTaskId,
+                    status: task.status,
+                    message: "Follow-up task accepted. The user can keep talking or disconnect.",
+                }));
+            }
+            case "stop_background_task": {
+                const taskId = stringArg(call, "task_id");
+                if (!taskId)
+                    throw new Error("stop_background_task requires task_id.");
+                return this.runTaskOperation(() => this.deps.taskSupervisor.stop(this.ownerId, taskId, optionalStringArg(call, "reason")), "Unable to stop that background task safely.").then((task) => ({
+                    spoken_response: "I've asked Hermes to stop that task.",
+                    ok: true,
+                    task_id: task.taskId,
+                    status: projectTaskSnapshot(task).state,
+                }));
+            }
+            case "pause_voice_input": {
+                if (this.protocolVersion < 6) {
+                    return Promise.resolve({
+                        ok: false,
+                        error: "Voice-controlled microphone pause requires Hermes Live protocol v6.",
+                    });
+                }
+                this.send({ type: "input.pause_requested", reason: "voice_command" });
+                return Promise.resolve({
+                    spoken_response: "Listening is paused. Use the microphone button when you want me back.",
+                    ok: true,
+                    listening: false,
+                    message: "Microphone listening paused. The user can resume from the client microphone control.",
+                });
+            }
+            default:
+                return Promise.resolve({ ok: false, error: `Unknown hermes-live tool: ${call.name}` });
+        }
+    }
+    enqueueProviderToolCall(call) {
+        let id;
+        let fingerprint;
+        try {
+            id = requireProviderToolCallId(call);
+            fingerprint = providerToolCallFingerprint(call);
+        }
+        catch (error) {
+            this.fail("tool_call_failed", error, false);
+            void this.closeClientAfterCleanup(1011, "invalid realtime tool call");
+            return;
+        }
+        const existing = this.providerToolCalls.get(id);
+        if (existing) {
+            if (existing.fingerprint !== fingerprint) {
+                this.fail("realtime_tool_call_conflict", new Error("Realtime provider reused a tool-call id."), false);
+                void this.closeClientAfterCleanup(1011, "conflicting realtime tool call");
+                return;
+            }
+            if (existing.cancelled || existing.state !== "done")
+                return;
+            if (!existing.response) {
+                this.failExpiredProviderToolCallReplay();
+                return;
+            }
+            this.scheduleProviderToolOperation(() => this.deliverProviderToolResponse(call, existing.response, existing));
+            return;
+        }
+        const tombstoneFingerprint = this.providerToolCallTombstones.get(providerToolCallIdDigest(id));
+        if (tombstoneFingerprint) {
+            if (tombstoneFingerprint !== fingerprint) {
+                this.fail("realtime_tool_call_conflict", new Error("Realtime provider reused a tool-call id."), false);
+                void this.closeClientAfterCleanup(1011, "conflicting realtime tool call");
+                return;
+            }
+            this.failExpiredProviderToolCallReplay();
+            return;
+        }
+        if (this.pendingProviderToolCalls >= MAX_PENDING_PROVIDER_TOOL_CALLS) {
+            this.failProviderToolQueueOverflow();
+            return;
+        }
+        if (this.providerToolCalls.size + this.providerToolCallTombstones.size >= MAX_SEEN_PROVIDER_TOOL_CALLS) {
+            this.failProviderToolReplayLedgerOverflow();
+            return;
+        }
+        if (this.providerToolCalls.size >= MAX_PROCESSED_PROVIDER_TOOL_CALLS) {
+            const oldestDone = [...this.providerToolCalls].find(([, record]) => record.state === "done");
+            if (!oldestDone) {
+                this.failProviderToolQueueOverflow();
+                return;
+            }
+            this.cachedProviderToolResponseBytes = Math.max(0, this.cachedProviderToolResponseBytes - (oldestDone[1].responseBytes ?? 0));
+            this.providerToolCalls.delete(oldestDone[0]);
+            this.providerToolCallTombstones.set(providerToolCallIdDigest(oldestDone[0]), oldestDone[1].fingerprint);
+        }
+        const record = {
+            fingerprint,
+            state: "pending",
+            cancelled: false,
+            responseDelivery: "not_started",
+        };
+        this.providerToolCalls.set(id, record);
+        this.pendingProviderToolCalls += 1;
+        this.scheduleProviderToolOperation(async () => {
+            try {
+                if (record.cancelled)
+                    return;
+                let response;
+                try {
+                    response = await this.executeToolCall(call);
+                }
+                catch (error) {
+                    const publicMessage = error instanceof PublicTaskOperationError
+                        ? error.message
+                        : "Background task request was rejected.";
+                    const operationError = error instanceof PublicTaskOperationError ? error.operationCause : error;
+                    response = { ok: false, error: publicMessage };
+                    if (!record.cancelled) {
+                        this.failPublic("tool_call_failed", publicMessage, operationError, true);
+                    }
+                }
+                response = boundedProviderToolResponse(response);
+                record.state = "done";
+                if (!record.cancelled) {
+                    const bytes = safeJsonByteLength(response);
+                    if (bytes <= MAX_CACHED_PROVIDER_TOOL_RESPONSE_BYTES - this.cachedProviderToolResponseBytes) {
+                        record.response = response;
+                        record.responseBytes = bytes;
+                        this.cachedProviderToolResponseBytes += bytes;
+                    }
+                    await this.deliverProviderToolResponse(call, response, record);
+                }
+            }
+            finally {
+                record.state = "done";
+                this.pendingProviderToolCalls -= 1;
+            }
+        });
+    }
+    handleProviderToolCallCancellation(callIds) {
+        if (callIds.length === 0 || callIds.length > MAX_PROCESSED_PROVIDER_TOOL_CALLS) {
+            throw new Error("Realtime provider emitted an invalid tool-call cancellation batch.");
+        }
+        for (const id of new Set(callIds.map(requireProviderToolCancellationId))) {
+            const record = this.providerToolCalls.get(id);
+            if (!record) {
+                if (this.providerToolCallTombstones.has(providerToolCallIdDigest(id))) {
+                    this.send({ type: "log", level: "info", message: "Realtime provider cancelled a completed tool call" });
+                    continue;
+                }
+                this.fail("realtime_tool_cancellation_unknown", new Error("Realtime provider cancelled an unknown tool call."), false);
+                void this.closeClientAfterCleanup(1011, "uncorrelated realtime tool cancellation");
+                return;
+            }
+            if (record.responseDelivery === "sending") {
+                this.fail("realtime_tool_cancellation_delivery_indeterminate", new Error("The realtime provider cancelled a tool result while it was being delivered."), false);
+                void this.closeClientAfterCleanup(1011, "realtime tool delivery indeterminate");
+                return;
+            }
+            record.cancelled = true;
+            if (record.responseBytes) {
+                this.cachedProviderToolResponseBytes = Math.max(0, this.cachedProviderToolResponseBytes - record.responseBytes);
+            }
+            record.response = undefined;
+            record.responseBytes = undefined;
+            this.send({ type: "log", level: "info", message: "Realtime provider cancelled a tool call" });
+        }
+    }
+    async deliverProviderToolResponse(call, response, record) {
+        if (record.cancelled || this.closing || !this.liveSession)
+            return;
+        record.responseDelivery = "sending";
+        try {
+            await withAbortAndDeadline(this.liveSession.sendToolResponse(call, response), this.abort.signal, MAX_PROVIDER_IO_WAIT_MS, "Realtime provider tool response did not settle before the safety deadline.");
+            if (!record.cancelled)
+                record.responseDelivery = "sent";
+        }
+        catch (error) {
+            if (this.closing)
+                return;
+            this.deps.logger.warn("failed to send realtime tool response", {
+                sessionId: this.id,
+                error: "realtime_provider_tool_response_failed",
+            });
+            this.fail("realtime_tool_response_failed", new Error("Realtime provider could not accept the task receipt."), false);
+            await this.closeClientAfterCleanup(1011, "realtime tool response failed");
+        }
+    }
+    scheduleProviderToolOperation(operation) {
+        this.providerToolOperations.push(operation);
+        this.drainProviderToolOperations();
+    }
+    drainProviderToolOperations() {
+        while (!this.closing &&
+            this.activeProviderToolOperations < MAX_CONCURRENT_PROVIDER_TOOL_CALLS &&
+            this.providerToolOperations.length > 0) {
+            const operation = this.providerToolOperations.shift();
+            this.activeProviderToolOperations += 1;
+            void operation().catch((error) => {
+                this.deps.logger.error("unexpected realtime tool operation failure", {
+                    sessionId: this.id,
+                    error: errorToMessage(error),
+                });
+            }).finally(() => {
+                this.activeProviderToolOperations -= 1;
+                this.drainProviderToolOperations();
+            });
+        }
+    }
+    failProviderToolQueueOverflow() {
+        this.fail("realtime_tool_queue_overflow", new Error("Realtime provider exceeded the safe tool-call limit."), false);
+        void this.closeClientAfterCleanup(1011, "realtime tool queue overflow");
+    }
+    failExpiredProviderToolCallReplay() {
+        this.fail("realtime_tool_call_replay_expired", new Error("Realtime provider replayed a completed tool call after its response cache expired."), false);
+        void this.closeClientAfterCleanup(1011, "realtime tool replay expired");
+    }
+    failProviderToolReplayLedgerOverflow() {
+        this.fail("realtime_tool_replay_ledger_overflow", new Error("Realtime provider exceeded the safe lifetime tool-call limit."), false);
+        void this.closeClientAfterCleanup(1011, "realtime tool replay ledger overflow");
+    }
+    dispatchLiveModelEvent(event) {
+        if (this.closing)
+            return;
+        try {
+            this.handleLiveModelEvent(event);
+        }
+        catch (error) {
+            this.deps.logger.warn("invalid realtime provider event", { sessionId: this.id, error: errorToMessage(error) });
+            this.fail("realtime_provider_event_invalid", new Error("Realtime provider emitted an invalid event."), false);
+            void this.closeClientAfterCleanup(1011, "invalid realtime provider event");
+        }
+    }
+    handleLiveModelEvent(event) {
+        if (event.type === "audio") {
+            validateAudioFrame(event.audio.data, event.audio.mimeType, this.deps.config.server.maxAudioBytes);
+            const itemId = publicProviderIdentifier(event.audio.itemId);
+            const contentIndex = publicContentIndex(event.audio.contentIndex);
+            this.send({
+                type: "audio.output",
+                data: event.audio.data,
+                mimeType: event.audio.mimeType,
+                ...(itemId ? { itemId } : {}),
+                ...(contentIndex === undefined ? {} : { contentIndex }),
+            });
+            return;
+        }
+        if (event.type === "text") {
+            if (!event.text || event.text.length > MAX_PROVIDER_TRANSCRIPT_CHARS) {
+                throw new Error("Realtime provider transcript is empty or exceeds its limit.");
+            }
+            if ((event.speaker ?? "assistant") === "user" && event.final) {
+                this.userSpeaking = false;
+                this.scheduleNotificationFlush();
+            }
+            this.send({
+                type: "transcript.delta",
+                speaker: event.speaker ?? "assistant",
+                text: event.text,
+                ...(event.final === undefined ? {} : { final: event.final }),
+            });
+            return;
+        }
+        if (event.type === "tool_call") {
+            this.enqueueProviderToolCall(event.call);
+            return;
+        }
+        if (event.type === "tool_call_cancelled") {
+            this.handleProviderToolCallCancellation(event.callIds);
+            return;
+        }
+        if (event.type === "input_speech_started") {
+            this.userSpeaking = true;
+            const itemId = publicProviderIdentifier(event.itemId);
+            const audioStartMs = publicAudioStartMs(event.audioStartMs);
+            this.send({
+                type: "input.speech_started",
+                provider: event.provider,
+                ...(itemId ? { itemId } : {}),
+                ...(audioStartMs === undefined ? {} : { audioStartMs }),
+            });
+            return;
+        }
+        if (event.type === "input_speech_stopped") {
+            this.userSpeaking = false;
+            // The OpenAI adapter schedules the normal conversational response after
+            // this event. Keep completion speech gated during the protocol gap before
+            // the provider emits response.created.
+            this.providerTurnResponseExpected = true;
+            return;
+        }
+        if (event.status === "started") {
+            if (event.scope !== "task_notification")
+                this.providerTurnResponseExpected = false;
+            this.providerResponseActive = true;
+            const responseId = publicProviderIdentifier(event.responseId);
+            this.send({ type: "response.started", ...(responseId ? { responseId } : {}) });
+            return;
+        }
+        this.providerResponseActive = false;
+        if (event.scope !== "conversation")
+            this.clearNotificationResponsePending();
+        const responseId = publicProviderIdentifier(event.responseId);
+        if (event.status === "failed") {
+            this.send({
+                type: "response.failed",
+                ...(responseId ? { responseId } : {}),
+                error: "Realtime provider response failed. Check the gateway logs.",
+            });
+        }
+        else if (event.status === "completed") {
+            this.send({ type: "response.completed", ...(responseId ? { responseId } : {}) });
+        }
+        else {
+            this.send({ type: "response.cancelled", ...(responseId ? { responseId } : {}) });
+        }
+        this.scheduleNotificationFlush();
+    }
+    receiveTaskRecord(record) {
+        if (this.closing)
+            return;
+        if (!this.readySent) {
+            this.pendingTaskRecords.set(record.taskId, structuredClone(record));
+            return;
+        }
+        this.dispatchTaskRecord(record);
+    }
+    dispatchTaskRecord(record) {
+        const latestType = record.events.at(-1)?.type;
+        const notificationMetadataOnly = latestType === "notification.announced"
+            || latestType === "notification.acknowledged";
+        if (!notificationMetadataOnly) {
+            this.send(projectTaskLifecycle(record));
+        }
+        const notification = projectTaskNotification(record)
+            ?? projectSupersededTaskNotification(record);
+        // Announcement ownership is internal metadata. Acknowledgements, however,
+        // must be broadcast so every connected client clears the same durable
+        // unread item rather than only the client that sent the request.
+        if (notification && latestType !== "notification.announced") {
+            this.send({
+                type: "task.notification",
+                taskId: record.taskId,
+                sequence: record.sequence,
+                occurredAt: record.updatedAt,
+                notification,
+            });
+        }
+        if (record.notification.unread && record.notification.announcedAt === undefined && notification) {
+            this.pendingNotifications.set(record.taskId, structuredClone(record));
+        }
+        else {
+            this.pendingNotifications.delete(record.taskId);
+            this.notificationDeliveryAttempts.delete(record.taskId);
+        }
+        this.scheduleNotificationFlush();
+    }
+    scheduleNotificationFlush() {
+        if (this.closing ||
+            !this.readySent ||
+            this.notificationFlushRunning ||
+            this.notificationResponsePending ||
+            this.providerResponseActive ||
+            this.providerTurnResponseExpected ||
+            this.userSpeaking ||
+            this.notificationRetryTimer !== undefined ||
+            this.pendingNotifications.size === 0) {
+            return;
+        }
+        queueMicrotask(() => {
+            void this.flushNotifications();
+        });
+    }
+    async flushNotifications() {
+        if (this.closing ||
+            this.notificationFlushRunning ||
+            this.notificationResponsePending ||
+            this.providerResponseActive ||
+            this.providerTurnResponseExpected ||
+            this.userSpeaking ||
+            !this.liveSession?.sendTaskNotification ||
+            !this.ownerId) {
+            return;
+        }
+        const candidates = [...this.pendingNotifications.values()];
+        if (candidates.length === 0)
+            return;
+        this.notificationFlushRunning = true;
+        const records = [];
+        try {
+            for (const candidate of candidates) {
+                try {
+                    const claim = await this.deps.taskSupervisor.claimNotificationAnnouncement(this.ownerId, candidate.taskId, this.id);
+                    if (claim.claimed) {
+                        this.claimedNotifications.set(claim.task.taskId, claim.task);
+                        if (this.closing) {
+                            this.releaseNotificationClaim(claim.task.taskId);
+                            continue;
+                        }
+                        this.pendingNotifications.delete(candidate.taskId);
+                        records.push(claim.task);
+                    }
+                    else if (!claim.task.notification.unread || claim.task.notification.announcedAt !== undefined) {
+                        this.pendingNotifications.delete(candidate.taskId);
+                    }
+                    else {
+                        // Another owner session currently holds the in-memory lease. Keep
+                        // the durable item eligible in this session in case that claimant
+                        // disconnects or its provider handoff fails.
+                        this.scheduleNotificationRetry(NOTIFICATION_RETRY_BASE_MS);
+                    }
+                }
+                catch (error) {
+                    this.retryNotification(candidate);
+                    this.deps.logger.warn("failed to claim task notification announcement", {
+                        sessionId: this.id,
+                        taskId: candidate.taskId,
+                        error: errorToMessage(error),
+                    });
+                }
+            }
+            if (records.length === 0)
+                return;
+            // A claim is asynchronous. Speech or a normal provider response can
+            // begin while it is in flight, so recheck immediately before handing an
+            // announcement to the provider. Released claims remain unread and can be
+            // retried when the conversation becomes idle.
+            if (this.closing ||
+                this.userSpeaking ||
+                this.providerResponseActive ||
+                this.providerTurnResponseExpected ||
+                this.notificationResponsePending) {
+                for (const record of records) {
+                    if (this.claimedNotifications.has(record.taskId))
+                        this.releaseNotificationClaim(record.taskId);
+                    this.pendingNotifications.set(record.taskId, structuredClone(record));
+                }
+                return;
+            }
+            this.notificationResponsePending = true;
+            const announcement = notificationDigest(records);
+            const context = `[HERMES_LIVE_TASK_EVENT_V1:${this.notificationToken}] ${JSON.stringify({ announcement })}`;
+            await withAbortAndDeadline(this.liveSession.sendTaskNotification({ context, announcement }), this.abort.signal, MAX_PROVIDER_IO_WAIT_MS, "Realtime provider task notification did not settle before the safety deadline.");
+            for (const record of records) {
+                try {
+                    await this.deps.taskSupervisor.completeNotificationAnnouncement(this.ownerId, record.taskId, this.id);
+                    this.claimedNotifications.delete(record.taskId);
+                    this.notificationDeliveryAttempts.delete(record.taskId);
+                }
+                catch (error) {
+                    this.releaseNotificationClaim(record.taskId);
+                    if (!this.closing) {
+                        // Provider delivery succeeded, but without the durable marker a
+                        // restart cannot distinguish this from an unsent notification.
+                        // Preserve at-least-once delivery and retry within the same
+                        // bounded budget instead of silently waiting for a reconnect.
+                        this.retryNotification(record);
+                        this.deps.logger.warn("failed to persist task notification announcement", {
+                            sessionId: this.id,
+                            taskId: record.taskId,
+                            error: errorToMessage(error),
+                        });
+                    }
+                }
+            }
+            // A mock or fast provider can emit completion before the send promise
+            // settles. In that case the event handler already cleared this flag and
+            // no stale watchdog should be armed.
+            if (this.notificationResponsePending)
+                this.armNotificationResponseWatchdog();
+        }
+        catch (error) {
+            this.notificationResponsePending = false;
+            for (const record of records) {
+                if (!this.claimedNotifications.has(record.taskId))
+                    continue;
+                this.releaseNotificationClaim(record.taskId);
+                this.retryNotification(record);
+            }
+            if (!this.closing) {
+                this.deps.logger.warn("task notification speech delivery failed", {
+                    sessionId: this.id,
+                    error: errorToMessage(error),
+                });
+            }
+        }
+        finally {
+            this.notificationFlushRunning = false;
+        }
+    }
+    releaseNotificationClaim(taskId) {
+        if (!this.claimedNotifications.delete(taskId) || !this.ownerId)
+            return;
+        try {
+            this.deps.taskSupervisor.releaseNotificationAnnouncement(this.ownerId, taskId, this.id);
+        }
+        catch (error) {
+            if (!this.closing) {
+                this.deps.logger.warn("failed to release task notification announcement claim", {
+                    sessionId: this.id,
+                    taskId,
+                    error: errorToMessage(error),
+                });
+            }
+        }
+    }
+    retryNotification(record) {
+        if (this.closing)
+            return;
+        const attempt = (this.notificationDeliveryAttempts.get(record.taskId) ?? 0) + 1;
+        if (attempt >= MAX_NOTIFICATION_DELIVERY_ATTEMPTS) {
+            this.notificationDeliveryAttempts.delete(record.taskId);
+            // Stop automatic retries for this live session while leaving the durable
+            // unread inbox item untouched. A reconnect receives a fresh snapshot and
+            // may try again with a fresh bounded budget.
+            this.pendingNotifications.delete(record.taskId);
+            return;
+        }
+        this.notificationDeliveryAttempts.set(record.taskId, attempt);
+        this.pendingNotifications.set(record.taskId, structuredClone(record));
+        this.scheduleNotificationRetry(NOTIFICATION_RETRY_BASE_MS * (2 ** (attempt - 1)));
+    }
+    scheduleNotificationRetry(delayMs) {
+        if (this.closing || this.notificationRetryTimer !== undefined)
+            return;
+        this.notificationRetryTimer = setTimeout(() => {
+            this.notificationRetryTimer = undefined;
+            // A claim batch can legitimately outlive the backoff (for example when
+            // the serialized store is busy). Do not consume the only wake-up while
+            // that batch still owns the flush loop.
+            if (this.notificationFlushRunning) {
+                this.scheduleNotificationRetry(NOTIFICATION_RETRY_BASE_MS);
+                return;
+            }
+            this.scheduleNotificationFlush();
+        }, delayMs);
+        this.notificationRetryTimer.unref?.();
+    }
+    async forwardRealtimeClientInput(label, operation, beginsResponse = false) {
+        if (beginsResponse)
+            this.providerResponseActive = true;
+        try {
+            await withAbortAndDeadline(operation(), this.abort.signal, MAX_PROVIDER_IO_WAIT_MS, `Realtime provider ${label} input did not settle before the safety deadline.`);
+        }
+        catch (error) {
+            if (beginsResponse)
+                this.providerResponseActive = false;
+            if (this.closing)
+                return;
+            this.deps.logger.warn("realtime provider rejected client input", {
+                sessionId: this.id,
+                input: label,
+                error: errorToMessage(error),
+            });
+            this.fail("realtime_provider_input_failed", new Error(`Realtime provider could not confirm ${label} input.`), false);
+            await this.closeClientAfterCleanup(1011, "realtime provider input failed");
+        }
+    }
+    async cancelRealtimeResponse(reason, truncate) {
+        try {
+            const cancelled = await withDeadline(Promise.resolve(this.liveSession?.cancelResponse(reason, truncate) ?? false), MAX_PROVIDER_CANCEL_WAIT_MS, "Realtime response cancellation did not settle before the safety deadline.");
+            if (!this.closing) {
+                this.send({
+                    type: "log",
+                    level: cancelled ? "info" : "debug",
+                    message: cancelled ? "Realtime response cancellation requested" : "No active realtime response to cancel",
+                });
+            }
+        }
+        catch (error) {
+            if (!this.closing) {
+                this.deps.logger.warn("failed to cancel realtime response", {
+                    sessionId: this.id,
+                    error: errorToMessage(error),
+                });
+                this.send({ type: "log", level: "warn", message: "Realtime response cancellation failed" });
+            }
+        }
+    }
+    async performClose() {
+        this.unsubscribeTasks?.();
+        this.unsubscribeTasks = undefined;
+        this.pendingTaskRecords.clear();
+        if (this.notificationRetryTimer !== undefined) {
+            clearTimeout(this.notificationRetryTimer);
+            this.notificationRetryTimer = undefined;
+        }
+        for (const taskId of [...this.claimedNotifications.keys()])
+            this.releaseNotificationClaim(taskId);
+        this.pendingNotifications.clear();
+        this.notificationDeliveryAttempts.clear();
+        this.clearNotificationResponsePending();
+        this.providerToolOperations.length = 0;
+        this.abort.abort(new Error("Voice session detached."));
+        const operations = [];
+        if (this.liveSession)
+            operations.push(this.closeProvider(this.liveSession));
+        if (this.pendingLiveConnect) {
+            const connect = this.pendingLiveConnect;
+            this.pendingLiveConnect = undefined;
+            const closeLateSession = connect
+                .then((session) => this.closeProvider(session))
+                .catch(() => undefined);
+            // Some provider SDKs cannot cancel a handshake already in flight. Keep
+            // the late-close continuation attached, but do not let that raw promise
+            // make gateway shutdown unbounded.
+            operations.push(withDeadline(closeLateSession, MAX_PROVIDER_CLOSE_WAIT_MS, "Pending realtime provider connection did not settle before the close deadline.").catch((error) => {
+                this.deps.logger.error("failed to confirm pending realtime provider closure", {
+                    sessionId: this.id,
+                    error: errorToMessage(error),
+                });
+            }));
+        }
+        await Promise.allSettled(operations);
+    }
+    async closeProvider(session) {
+        await withDeadline(Promise.resolve().then(() => session.close()), MAX_PROVIDER_CLOSE_WAIT_MS, "Realtime provider did not confirm closure before the safety deadline.").catch((error) => {
+            this.deps.logger.error("failed to confirm realtime provider closure", {
+                sessionId: this.id,
+                error: errorToMessage(error),
+            });
+        });
+    }
+    async closeClientAfterCleanup(code, reason) {
+        await this.close();
+        this.client.close(code, reason);
+    }
+    send(message) {
+        if (this.closing && message.type !== "session.error")
+            return;
+        this.client.sendText(serverMessage(message));
+    }
+    handleClientMessageFailure(error, requestId) {
+        if (this.closing)
+            return;
+        this.clientMessageErrors += 1;
+        if (error instanceof PublicTaskOperationError) {
+            this.failPublic("client_message_failed", error.message, error.operationCause, false, requestId);
+        }
+        else {
+            this.fail("client_message_failed", error, false, requestId);
+        }
+        if (this.clientMessageErrors >= MAX_CLIENT_MESSAGE_ERRORS) {
+            void this.closeClientAfterCleanup(1008, "too many invalid client messages");
+        }
+    }
+    fail(code, error, recoverable = false, requestId) {
+        const message = boundedText(errorToMessage(error), 2_000);
+        const safeRequestId = validatedRequestId(requestId);
+        this.deps.logger.warn("live session error", { sessionId: this.id, code, message });
+        this.send({
+            type: "session.error",
+            code,
+            message,
+            recoverable,
+            ...(safeRequestId ? { requestId: safeRequestId } : {}),
+        });
+    }
+    failPublic(code, publicMessage, operationError, recoverable = false, requestId) {
+        const message = boundedText(publicMessage, 500);
+        const safeRequestId = validatedRequestId(requestId);
+        this.deps.logger.warn("live session operation failed", {
+            sessionId: this.id,
+            code,
+            error: errorToMessage(operationError),
+        });
+        this.send({
+            type: "session.error",
+            code,
+            message,
+            recoverable,
+            ...(safeRequestId ? { requestId: safeRequestId } : {}),
+        });
+    }
+    runTaskOperation(operation, fallbackMessage) {
+        return Promise.resolve().then(operation).catch((error) => {
+            throw new PublicTaskOperationError(publicTaskOperationMessage(error, fallbackMessage), error);
+        });
+    }
+    armNotificationResponseWatchdog() {
+        if (this.notificationResponseTimer)
+            clearTimeout(this.notificationResponseTimer);
+        this.notificationResponseTimer = setTimeout(() => {
+            this.notificationResponseTimer = undefined;
+            this.notificationResponsePending = false;
+            this.scheduleNotificationFlush();
+        }, MAX_PROVIDER_NOTIFICATION_RESPONSE_WAIT_MS);
+        this.notificationResponseTimer.unref?.();
+    }
+    clearNotificationResponsePending() {
+        this.notificationResponsePending = false;
+        if (this.notificationResponseTimer) {
+            clearTimeout(this.notificationResponseTimer);
+            this.notificationResponseTimer = undefined;
+        }
+    }
+}
+function startupFailureLogDetail(error) {
+    const detail = { error: "startup_failed" };
+    if (!error || typeof error !== "object" || error.name !== "HermesRequestError") {
+        return detail;
+    }
+    const status = error.status;
+    if (typeof status === "number" && Number.isInteger(status) && status >= 400 && status <= 599) {
+        detail.hermesStatus = status;
+    }
+    const errorCode = error.errorCode;
+    if (typeof errorCode === "string" && /^[A-Za-z0-9._-]{1,80}$/u.test(errorCode)) {
+        detail.hermesErrorCode = errorCode;
+    }
+    return detail;
+}
+function publicConversation(mode, session) {
+    return {
+        mode,
+        sessionId: session.id,
+        ...(session.title ? { title: session.title } : {}),
+        ...(session.source ? { source: session.source } : {}),
+        ...(session.preview !== undefined ? { preview: session.preview } : {}),
+        ...(session.lastActive !== undefined ? { lastActiveAt: session.lastActive } : {}),
+    };
+}
+class PublicTaskOperationError extends Error {
+    operationCause;
+    constructor(publicMessage, operationCause) {
+        super(publicMessage);
+        this.name = "PublicTaskOperationError";
+        this.operationCause = operationCause;
+    }
+}
+function publicTaskOperationMessage(error, fallback) {
+    const name = error instanceof Error ? error.name : "";
+    if (name === "TaskNotFoundError")
+        return "Task not found.";
+    if (name === "TaskQueueFullError" || name === "TaskStoreCapacityError") {
+        return "The background task queue is full. Wait for retained work to finish or expire.";
+    }
+    if (name === "TaskSupervisorClosedError")
+        return "The background task supervisor is unavailable.";
+    return fallback;
+}
+function projectTaskList(records) {
+    return records.map((record) => projectTaskSnapshot(record));
+}
+function mergeTaskRecords(records) {
+    const newestByTaskId = new Map();
+    for (const record of records) {
+        const existing = newestByTaskId.get(record.taskId);
+        if (!existing || record.sequence > existing.sequence)
+            newestByTaskId.set(record.taskId, record);
+    }
+    return [...newestByTaskId.values()].sort((left, right) => right.updatedAt - left.updatedAt || left.taskId.localeCompare(right.taskId));
+}
+function notificationDigest(records) {
+    const completed = records.filter((record) => record.status === "completed").length;
+    const attention = records.length - completed;
+    if (records.length === 1 && completed === 1) {
+        return "Your background task is finished. The result is ready in the task inbox.";
+    }
+    if (records.length === 1) {
+        return "A background task needs your attention. Open the task inbox for the exact status.";
+    }
+    if (attention === 0) {
+        return `${records.length} background tasks are finished. Their results are ready in the task inbox.`;
+    }
+    return `${records.length} background tasks have updates: ${completed} finished and ${attention} need attention. Open the task inbox for details.`;
+}
+function validateAudioFrame(data, mimeType, maxBytes) {
+    if (!mimeType || mimeType.length > 128)
+        throw new Error("Audio frame MIME type is invalid.");
+    const decoded = decodeBase64Audio(data, maxBytes);
+    if (decoded.length > maxBytes)
+        throw new Error("Audio frame exceeds HERMES_LIVE_MAX_AUDIO_BYTES.");
+    if (isPcmMimeType(mimeType)) {
+        requirePcmSampleRate(mimeType);
+        if (decoded.length % 2 !== 0)
+            throw new Error("PCM16 audio frames must contain an even number of bytes.");
+    }
+}
+function decodeBase64Audio(data, maxBytes) {
+    if (!/^[A-Za-z0-9+/]*={0,2}$/u.test(data) || data.length % 4 === 1) {
+        throw new Error("Audio frame data must be base64 encoded.");
+    }
+    if (data.length > Math.ceil((maxBytes * 4) / 3) + 4) {
+        throw new Error("Audio frame exceeds HERMES_LIVE_MAX_AUDIO_BYTES.");
+    }
+    return Buffer.from(data, "base64");
+}
+function validateText(value, maxChars, label) {
+    if (value.length > maxChars)
+        throw new Error(`${label} exceeds HERMES_LIVE_MAX_TEXT_CHARS.`);
+}
+function clientInboundFrameBytes(frame) {
+    return typeof frame === "string" ? Buffer.byteLength(frame, "utf8") : frame.byteLength;
+}
+function requestIdFromUnknown(value) {
+    if (!value || typeof value !== "object" || Array.isArray(value))
+        return undefined;
+    return validatedRequestId(value.id);
+}
+function validatedRequestId(value) {
+    const parsed = RequestIdSchema.safeParse(value);
+    return parsed.success ? parsed.data : undefined;
+}
+function isPreemptiveClientControl(message, sessionReady) {
+    if (message.type === "session.close")
+        return true;
+    return sessionReady && ["response.cancel", "task.stop"].includes(message.type);
+}
+function safetyIdentifierForSessionKey(sessionKey) {
+    return createHash("sha256").update(sessionKey).digest("hex");
+}
+function stringArg(call, name) {
+    const value = call.args[name];
+    return typeof value === "string" ? value.trim() : "";
+}
+function optionalStringArg(call, name) {
+    const value = stringArg(call, name);
+    return value || undefined;
+}
+function booleanArg(call, name, fallback) {
+    const value = call.args[name];
+    if (value === undefined)
+        return fallback;
+    if (typeof value !== "boolean")
+        throw new Error(`${name} must be a boolean.`);
+    return value;
+}
+function executionModeArg(call) {
+    const value = call.args.execution_mode;
+    if (value === undefined)
+        return "exclusive";
+    if (value !== "exclusive" && value !== "parallel_read_only") {
+        throw new Error("execution_mode must be exclusive or parallel_read_only.");
+    }
+    return value;
+}
+function resourceKeysArg(call) {
+    const value = call.args.resource_keys;
+    if (value === undefined)
+        return undefined;
+    if (!Array.isArray(value) || value.length < 1 || value.length > MAX_TOOL_RESOURCE_KEYS) {
+        throw new Error(`resource_keys must contain between 1 and ${MAX_TOOL_RESOURCE_KEYS} strings.`);
+    }
+    const keys = value.map((item) => {
+        if (typeof item !== "string" || !item.trim() || item.length > 256 || /[\u0000-\u001f\u007f]/u.test(item)) {
+            throw new Error("resource_keys contains an invalid value.");
+        }
+        return item.trim();
+    });
+    return [...new Set(keys)];
+}
+function requireProviderToolCallId(call) {
+    if (!call.name || call.name.length > 128 || !/^[A-Za-z0-9_.:-]+$/u.test(call.name)) {
+        throw new Error("Realtime provider emitted a tool call with an invalid name.");
+    }
+    if (!call.id || call.id.length > 256 || /[\u0000-\u001f\u007f]/u.test(call.id)) {
+        throw new Error("Realtime provider emitted a tool call without a bounded id.");
+    }
+    return call.id;
+}
+function requireProviderToolCancellationId(value) {
+    if (!value || value.length > 256 || /[\u0000-\u001f\u007f]/u.test(value)) {
+        throw new Error("Realtime provider emitted a tool cancellation without a bounded id.");
+    }
+    return value;
+}
+function providerToolCallFingerprint(call) {
+    let args;
+    try {
+        args = JSON.stringify(call.args);
+    }
+    catch {
+        throw new Error("Realtime provider tool-call arguments were not serializable.");
+    }
+    if (Buffer.byteLength(args, "utf8") > MAX_PROVIDER_TOOL_CALL_ARGS_BYTES) {
+        throw new Error("Realtime provider tool-call arguments exceeded the safe size limit.");
+    }
+    return createHash("sha256").update(call.name).update("\0").update(args).digest("hex");
+}
+function providerToolCallIdDigest(id) {
+    return createHash("sha256").update(id).digest("hex");
+}
+function boundedProviderToolResponse(response) {
+    return safeJsonByteLength(response) <= MAX_PROVIDER_TOOL_RESPONSE_BYTES
+        ? response
+        : { ok: false, error: "Task result exceeded the safe provider response limit." };
+}
+function taskInboxSpokenSummary(records) {
+    if (records.length === 0)
+        return "Your background task inbox is empty.";
+    const finished = records.filter((record) => ["completed", "failed", "cancelled"].includes(record.status)).length;
+    const uncertain = records.filter((record) => ["unknown", "dispatch_unknown"].includes(record.status)).length;
+    const active = records.length - finished - uncertain;
+    const parts = [];
+    if (active > 0)
+        parts.push(`${active === 1 ? "one" : active} background ${active === 1 ? "task is" : "tasks are"} active`);
+    if (finished > 0)
+        parts.push(`${finished === 1 ? "one task is" : `${finished} tasks are`} finished in the inbox`);
+    if (uncertain > 0)
+        parts.push(`${uncertain === 1 ? "one task has" : `${uncertain} tasks have`} an uncertain state`);
+    const sentence = parts.join(", and ");
+    return `${sentence[0].toUpperCase()}${sentence.slice(1)}.`;
+}
+function publicHermesCapabilities(capabilities) {
+    const model = boundedDisplayText(capabilities.model, 256);
+    const projected = {};
+    const features = capabilities.features;
+    if (features && typeof features === "object" && !Array.isArray(features)) {
+        for (const key of [
+            "run_submission",
+            "run_status",
+            "run_events_sse",
+            "run_stop",
+            "run_approval_response",
+            "run_approval_response_by_id",
+        ]) {
+            if (typeof features[key] === "boolean")
+                projected[key] = features[key];
+        }
+    }
+    return {
+        ...(model ? { model } : {}),
+        ...(Object.keys(projected).length ? { capabilities: projected } : {}),
+    };
+}
+function publicRealtimeStartupError(error, readyTimeoutMs) {
+    const message = errorToMessage(error);
+    if (message.includes("Realtime provider did not") ||
+        message === "Realtime provider session closed before ready." ||
+        message === "Realtime provider exceeded the safe pre-ready event queue limit.") {
+        return boundedText(message, 500);
+    }
+    return `Realtime provider session failed to start within ${readyTimeoutMs}ms. Check the gateway logs.`;
+}
+function providerCloseLogDetail(value) {
+    if (!value || typeof value !== "object" || Array.isArray(value))
+        return {};
+    const code = value.code;
+    return typeof code === "number" && Number.isInteger(code) && code >= 1_000 && code <= 4_999
+        ? { providerCode: code }
+        : {};
+}
+function publicProviderIdentifier(value) {
+    if (typeof value !== "string" || !value || value.length > 256 || /[\u0000-\u001f\u007f]/u.test(value)) {
+        return undefined;
+    }
+    return value;
+}
+function publicContentIndex(value) {
+    return typeof value === "number" && Number.isInteger(value) && value >= 0 && value <= 100 ? value : undefined;
+}
+function publicAudioStartMs(value) {
+    return typeof value === "number" && Number.isFinite(value) && value >= 0 && value <= 60 * 60 * 1_000
+        ? value
+        : undefined;
+}
+function boundedDisplayText(value, maximum) {
+    if (typeof value !== "string")
+        return undefined;
+    const printable = value.replace(/[\u0000-\u001f\u007f]/gu, " ").replace(/\s+/gu, " ").trim();
+    return printable ? printable.slice(0, maximum) : undefined;
+}
+function boundedText(value, maximum) {
+    return value.length <= maximum ? value : value.slice(0, maximum);
+}
+function safeJsonByteLength(value) {
+    try {
+        return Buffer.byteLength(JSON.stringify(value), "utf8");
+    }
+    catch {
+        return Number.POSITIVE_INFINITY;
+    }
+}
+async function withDeadline(promise, timeoutMs, message) {
+    let timeout;
+    try {
+        return await Promise.race([
+            promise,
+            new Promise((_, reject) => {
+                timeout = setTimeout(() => reject(new Error(message)), Math.max(1, timeoutMs));
+                timeout.unref?.();
+            }),
+        ]);
+    }
+    finally {
+        if (timeout)
+            clearTimeout(timeout);
+    }
+}
+async function withAbortAndDeadline(promise, signal, timeoutMs, message) {
+    if (signal.aborted)
+        throw signal.reason ?? new DOMException("Aborted", "AbortError");
+    let timeout;
+    let rejectAbort;
+    const aborted = new Promise((_, reject) => {
+        rejectAbort = reject;
+    });
+    const onAbort = () => rejectAbort(signal.reason ?? new DOMException("Aborted", "AbortError"));
+    signal.addEventListener("abort", onAbort, { once: true });
+    try {
+        return await Promise.race([
+            promise,
+            aborted,
+            new Promise((_, reject) => {
+                timeout = setTimeout(() => reject(new Error(message)), Math.max(1, timeoutMs));
+                timeout.unref?.();
+            }),
+        ]);
+    }
+    finally {
+        signal.removeEventListener("abort", onAbort);
+        if (timeout)
+            clearTimeout(timeout);
+    }
+}
+//# sourceMappingURL=live-gateway-session.js.map

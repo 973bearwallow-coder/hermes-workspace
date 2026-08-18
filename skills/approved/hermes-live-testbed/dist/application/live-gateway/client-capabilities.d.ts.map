@@ -1,0 +1,1 @@
+{"version":3,"file":"client-capabilities.d.ts","sourceRoot":"","sources":["../../../src/application/live-gateway/client-capabilities.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,iBAAiB,CAAC;AACjD,OAAO,KAAK,EAAE,0BAA0B,EAAE,MAAM,0CAA0C,CAAC;AAE3F,wBAAgB,0BAA0B,CACxC,MAAM,EAAE,IAAI,CAAC,SAAS,EAAE,UAAU,GAAG,QAAQ,CAAC,GAC7C,0BAA0B,CA+C5B"}

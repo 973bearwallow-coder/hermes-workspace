@@ -1,0 +1,133 @@
+{
+  "name": "hermes-live-voice",
+  "version": "0.9.5",
+  "description": "Real-time voice control for Hermes Agent—keep talking while Hermes works in the background.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./browser": {
+      "types": "./clients/browser/hermes-live-client.d.ts",
+      "import": "./clients/browser/hermes-live-client.js"
+    },
+    "./browser/mic-worklet.js": "./clients/browser/mic-worklet.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Biel Carpi",
+    "url": "https://github.com/bielcarpi"
+  },
+  "homepage": "https://github.com/bielcarpi/hermes-live-voice#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bielcarpi/hermes-live-voice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bielcarpi/hermes-live-voice/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "keywords": [
+    "hermes-agent",
+    "continuous-voice",
+    "full-duplex",
+    "realtime",
+    "voice",
+    "speech-to-speech",
+    "background-tasks",
+    "task-supervision",
+    "openai-realtime",
+    "gemini-live",
+    "hermes-plugin",
+    "huggingface",
+    "local-ai",
+    "local-voice",
+    "nous-research",
+    "self-hosted",
+    "terminal",
+    "voice-assistant",
+    "websocket"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "hermes-live": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "clients/browser/hermes-live-client.js",
+    "clients/browser/hermes-live-client.d.ts",
+    "clients/browser/mic-worklet.js",
+    "apps/web-demo/app.js",
+    "apps/web-demo/index.html",
+    "apps/web-demo/styles.css",
+    "assets",
+    "!assets/__pycache__",
+    "!assets/**/*.pyc",
+    "docs",
+    "examples",
+    "plugins/hermes-live",
+    "!plugins/hermes-live/__pycache__",
+    "!plugins/hermes-live/**/*.pyc",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SUPPORT.md",
+    "SECURITY.md",
+    "CODE_OF_CONDUCT.md",
+    ".env.example"
+  ],
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "dev": "tsx src/cli.ts dev",
+    "start": "node dist/cli.js serve",
+    "check": "tsx src/cli.ts check",
+    "check:cli-check": "node scripts/cli-check-smoke.mjs",
+    "check:cli-client": "node scripts/cli-client-smoke.mjs",
+    "check:dashboard-assets": "node scripts/sync-dashboard-assets.mjs --check",
+    "check:dashboard-plugin": "node --check plugins/hermes-live/dashboard/dist/index.js && python3 scripts/dashboard-plugin-smoke.py",
+    "check:gateway": "node scripts/gateway-smoke.mjs",
+    "check:gateway:local": "npm run build && node scripts/gateway-smoke.mjs --live-provider local",
+    "check:hermes-compatibility": "node scripts/hermes-compatibility-smoke.mjs",
+    "check:docs": "node scripts/docs-check.mjs",
+    "check:live-provider": "npm run build && node dist/cli.js provider-smoke",
+    "check:live-provider-cli": "node scripts/live-provider-cli-smoke.mjs",
+    "check:local-runtime": "python3 scripts/local-runtime-contract-smoke.py",
+    "check:package": "node scripts/package-smoke.mjs",
+    "check:plugin": "python3 scripts/plugin-smoke.py",
+    "check:release-notes": "node scripts/release-notes-smoke.mjs",
+    "check:web-demo": "node --check clients/browser/hermes-live-client.js && node --check clients/browser/mic-worklet.js && node --check apps/web-demo/app.js",
+    "print-config": "tsx src/cli.ts print-config",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "sync:dashboard-assets": "node scripts/sync-dashboard-assets.mjs",
+    "verify": "npm run typecheck && npm run check:docs && npm run check:release-notes && npm run check:web-demo && npm run check:dashboard-assets && npm run check:dashboard-plugin && npm run check:plugin && npm run check:local-runtime && npm test && npm run build && npm run check:live-provider-cli && npm run check:cli-check && npm run check:cli-client && npm run check:gateway && npm run check:package",
+    "prepack": "npm run check:dashboard-assets && npm run build"
+  },
+  "dependencies": {
+    "@google/genai": "2.16.0",
+    "ws": "8.21.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.23.11",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "esbuild": "^0.28.1"
+  }
+}
