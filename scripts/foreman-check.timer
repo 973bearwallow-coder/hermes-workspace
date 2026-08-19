@@ -1,11 +1,11 @@
 [Unit]
-Description=Run foreman health check every 5 minutes
+Description=Run foreman health check every minute
 Requires=foreman-check.service
 
 [Timer]
 OnBootSec=1min
-OnUnitActiveSec=5min
-AccuracySec=30s
+OnUnitActiveSec=1min
+AccuracySec=5s
 Persistent=true
 Unit=foreman-check.service
 

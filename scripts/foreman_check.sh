@@ -5,6 +5,7 @@
 set -euo pipefail
 
 LOGFILE="/home/tom/hermes-workspace/logs/foreman_check.log"
+ALERTFILE="/home/tom/hermes-workspace/logs/voice_alert.json"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 
 log() {
@@ -59,6 +60,30 @@ check_system_service() {
     fi
 }
 
+check_voice_service() {
+    local service_name="$1"
+    local status
+    status=$(sudo -u tom XDG_RUNTIME_DIR=/run/user/1000 systemctl --user is-active "$service_name" 2>/dev/null || echo "inactive")
+    if [ "$status" != "active" ]; then
+        log "VOICE ALERT: $service_name is $status - leaving it untouched while a live call may be attached"
+        python3 - "$ALERTFILE" "$service_name" "$status" <<'PY'
+import json, sys, time
+path, service, status = sys.argv[1:]
+try:
+    data = json.load(open(path))
+except Exception:
+    data = {}
+data.update({"active": False, "service": service, "status": status,
+             "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+             "message": "Voice service stopped; manual/transport-safe recovery required."})
+with open(path, "w") as f:
+    json.dump(data, f, indent=2)
+PY
+        return 1
+    fi
+    return 0
+}
+
 # Main execution
 ensure_log_dir
 log "=== Starting foreman health check ==="
@@ -73,6 +98,23 @@ check_user_service "hermes-gateway.service" || exit_code=1
 
 # Check Charles orchestrator (system-level, idle marker)
 check_system_service "charles.service" || exit_code=1
+
+# Voice lane checks are detection-only. The live-transport guard deliberately
+# prevents Foreman from restarting these services underneath an attached call.
+for voice_service in atlas-voice-worker.service atlas-voice-gateway.service atlas-voice-web.service; do
+    check_voice_service "$voice_service" || exit_code=1
+done
+
+if [ "$exit_code" -eq 0 ] && [ -f "$ALERTFILE" ]; then
+    python3 - "$ALERTFILE" <<'PY'
+import json, sys, time
+path = sys.argv[1]
+try: data = json.load(open(path))
+except Exception: data = {}
+data.update({"active": True, "status": "recovered", "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S%z")})
+with open(path, "w") as f: json.dump(data, f, indent=2)
+PY
+fi
 
 # Check Ollama (system-level) — DISABLED: voice co-worker now uses a local
 # brain (qwen3:4b) on the 3090; ollama squatting VRAM starved chatterbox TTS.

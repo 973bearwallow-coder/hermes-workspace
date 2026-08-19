@@ -5020,3 +5020,6 @@ centerfold
 - [2026-08-04 10:06][flipp_scraper] Scraped 767 items from Flipp for ZIP 22046
 - [2026-08-05 06:06][flipp_scraper] Scraped 767 items from Flipp for ZIP 22046
 - [2026-08-12 06:05][flipp_scraper] Scraped 707 items from Flipp for ZIP 22046
+- [2026-08-18 12:54][voice-app] Q: Tom: butler ready
+
+[Voice mode: reply in 2-3 short spoken sentences. No markdown.] | A: Butler is online and ready, all checks passed. What do you need? | via openrouter

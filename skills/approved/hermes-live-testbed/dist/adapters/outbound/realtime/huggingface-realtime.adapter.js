@@ -741,7 +741,7 @@ export function buildHuggingFaceSessionUpdate(config, systemInstruction, availab
                     turn_detection: {
                         type: "server_vad",
                         create_response: !config.ownsTurnRouting,
-                        interrupt_response: true,
+                        interrupt_response: false,
                     },
                 },
                 output: {

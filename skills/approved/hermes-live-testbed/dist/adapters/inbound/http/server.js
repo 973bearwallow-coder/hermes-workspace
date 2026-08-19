@@ -158,6 +158,23 @@ export async function startServer({ config, logger, hermes: providedHermes, live
                     .finally(() => sessions.delete(session));
             });
             session.bind();
+            let socketAlive = true;
+            const socketHeartbeat = setInterval(() => {
+                if (ws.readyState !== ws.OPEN) return;
+                if (!socketAlive) {
+                    logger.warn("live websocket heartbeat expired", { sessionId: session.id });
+                    ws.terminate();
+                    return;
+                }
+                socketAlive = false;
+                ws.ping();
+            }, 15000);
+            ws.on("pong", () => {
+                socketAlive = true;
+            });
+            ws.once("close", () => {
+                clearInterval(socketHeartbeat);
+            });
             wss.emit("connection", ws, req);
         });
     });

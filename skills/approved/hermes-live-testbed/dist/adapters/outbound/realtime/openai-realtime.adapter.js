@@ -1043,10 +1043,10 @@ function openAiTurnDetection(turnDetection) {
     if (turnDetection === "disabled") {
         return null;
     }
-    // VAD still commits turns and interrupts default-conversation output. The
-    // adapter creates each response itself so a voice turn can be serialized
+    // VAD still commits turns, but hands-free output remains non-interrupting.
+    // The adapter creates each response itself so a voice turn can be serialized
     // safely behind a response-scoped task announcement.
-    return { type: turnDetection, create_response: false, interrupt_response: true };
+    return { type: turnDetection, create_response: false, interrupt_response: false };
 }
 function openAiSessionAudioFormat(format) {
     if (format === "pcm16") {
