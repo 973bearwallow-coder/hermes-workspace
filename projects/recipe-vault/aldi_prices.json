@@ -1,144 +1,4743 @@
 {
   "store": "ALDI - FRE 69 - Falls Church",
   "zip": "22042",
-  "scraped_at": "2026-08-05T10:09:31.130318+00:00",
+  "scraped_at": "2026-08-26T10:22:15.793448+00:00",
   "items": [
     {
-      "name": null,
+      "name": "Specially Selected Manuka Honey",
+      "current_price": 9.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Lacura Foaming Soap-Lemon",
+      "current_price": 2.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Lacura Foaming Soap-Eclypts",
+      "current_price": 2.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "ALDI Yogurt Pouches with Real Fruit - 10 Pouches",
+      "current_price": 7.15,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Fruit & Vegetable Pouches - 12 Pouches",
+      "current_price": 7.15,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Hot Chili Lime Ridged Potato Chips",
+      "current_price": 2.05,
+      "original_price": 2.75,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Buffalo Ranch Dressing",
+      "current_price": 2.59,
+      "original_price": 3.09,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Benton's Blueberry Lemon Mini Dipped Sandwich Cremes",
       "current_price": 2.45,
       "original_price": 3.29,
       "discount_pct": 26,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 1.29,
-      "original_price": 1.69,
-      "discount_pct": 24,
+      "name": "Clancy's Spicy Margarita Chips",
+      "current_price": 1.75,
+      "original_price": 1.99,
+      "discount_pct": 12,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 6.05,
-      "original_price": 6.29,
-      "discount_pct": null,
+      "name": "Clancy's Pineapple Habanero Chips",
+      "current_price": 1.75,
+      "original_price": 1.99,
+      "discount_pct": 12,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 3.19,
-      "original_price": 4.29,
+      "name": "Tuscan Garden Avocado Ranch Dressing",
+      "current_price": 2.59,
+      "original_price": 3.09,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Summit Passion Fruit Mocktails, 4 Pack",
+      "current_price": 4.25,
+      "original_price": 4.95,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Barissimo Original Medium Roast Coffee",
+      "current_price": 4.55,
+      "original_price": 5.49,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "Benton's Stawberry Mini Dipped Sandwich Cremes",
+      "current_price": 2.45,
+      "original_price": 3.29,
       "discount_pct": 26,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 5.29,
-      "original_price": 5.39,
-      "discount_pct": null,
+      "name": "Barissimo Coffee Concentrate Vanila",
+      "current_price": 4.55,
+      "original_price": 5.49,
+      "discount_pct": 17,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 4.79,
+      "name": "Summit Pina Colada Mocktails, 4 P ack",
+      "current_price": 4.25,
+      "original_price": 4.95,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Dill Pickle Dressing",
+      "current_price": 2.59,
+      "original_price": 3.09,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Fieldcraft Guava Pineapple Seltzer",
+      "current_price": 5.65,
+      "original_price": 8.89,
+      "discount_pct": 36,
+      "category": null
+    },
+    {
+      "name": "Summit Mai Tai Mocktails, 4 Pack",
+      "current_price": 4.25,
+      "original_price": 4.95,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Aged Cheddar",
+      "current_price": 3.49,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 10.98,
+      "name": "Carlini Beef Tallow",
+      "current_price": 9.89,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 9.99,
+      "name": "Emporium Selection Buffalo Wing Jack Cheese",
+      "current_price": 3.49,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 9.94,
+      "name": "Southern Grove Hot Honey",
+      "current_price": 3.29,
+      "original_price": 4.39,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Savoritz Avocado Oil Sea Salt Crackers",
+      "current_price": 3.29,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 14.99,
+      "name": "Simms Spicy Honey Smoked Sausages",
+      "current_price": 4.19,
+      "original_price": 8.05,
+      "discount_pct": 48,
+      "category": null
+    },
+    {
+      "name": "Savoritz Sourdough Rosemary Cracker",
+      "current_price": 3.29,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 5.99,
-      "original_price": null,
-      "discount_pct": null,
+      "name": "Bare Water Alcohol-Infused Water Variety Pack - 6 Pack, 12 fl oz Cans",
+      "current_price": 6.89,
+      "original_price": 8.89,
+      "discount_pct": 22,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 1.65,
-      "original_price": null,
-      "discount_pct": null,
+      "name": "Parkview Hot Honey Chicken Sausage",
+      "current_price": 2.45,
+      "original_price": 3.29,
+      "discount_pct": 26,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 2.99,
-      "original_price": null,
-      "discount_pct": null,
+      "name": "Parkview Nashville Hot Chicken Sausage",
+      "current_price": 2.45,
+      "original_price": 3.29,
+      "discount_pct": 26,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 2.95,
-      "original_price": null,
-      "discount_pct": null,
-      "category": null
-    },
-    {
-      "name": null,
-      "current_price": 1.99,
-      "original_price": null,
-      "discount_pct": null,
-      "category": null
-    },
-    {
-      "name": null,
+      "name": "Bendon KPDH Color or Imagine Ink, Coloring Book",
       "current_price": 3.99,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
-      "current_price": 9.69,
+      "name": "Aldi Dubai Swirl Spread",
+      "current_price": 4.95,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
+      "name": "Summit Apple Energy Drink",
+      "current_price": 1.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Milk Chocolate Mini Butter Biscuit",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Dark Chocolate Mini Butter Biscuit",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Boulder Reclosable Sandwich Bags",
+      "current_price": 2.15,
+      "original_price": 2.49,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Easy Home Cream Flexible Basket",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Gray Flexible Basket",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Savoritz Peanut Butter Toast Crackers",
+      "current_price": 3.09,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Priano Extra Virgin Olive Oil",
+      "current_price": 10.99,
+      "original_price": 12.99,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Peach Mango Flavored Protein Sparkling Drink",
+      "current_price": 2.09,
+      "original_price": 2.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Protein Tropical",
+      "current_price": 2.09,
+      "original_price": 2.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Cherry Limeade",
+      "current_price": 2.09,
+      "original_price": 2.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Berryhill Cookies and Cream",
+      "current_price": 2.99,
+      "original_price": 3.65,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Berryhill Smores Spread",
+      "current_price": 2.99,
+      "original_price": 3.65,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Org Flavored Creamer, Dubai Chocolate",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Dragon or Passion Fruit Cu, Dragon Fruit",
+      "current_price": 4.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Dragon or Passion Fruit C, Passion Fruit",
+      "current_price": 4.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Popped Protein Chips Nacho",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Popped Protein Chips Sweet Chili",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Belgian Boys Pumpkin Spice Mini Pancakes",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Milk Chocolate Cashews",
+      "current_price": 6.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Carlini Pure Olive Oil",
+      "current_price": 10.45,
+      "original_price": 12.45,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Dark Chocolate Cashews",
+      "current_price": 6.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Daisies Printer Chair Mat",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pembrook 3pk Notebook or A, 3pk Spiral Note, Blue",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pembrook 3pk Notebook or A, 3pk Spiral Note, Pink",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Purple Floral Printer Chair Mat",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Blue Checker Printer Chair Mat",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Dots Printer Chair Mat",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Glazed Iced Donuts",
+      "current_price": 4.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Burman's Red Hot Sauce",
+      "current_price": 3.55,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Burman's Honey Hot Sauce",
+      "current_price": 3.55,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Burman's Green Hot Sauce",
+      "current_price": 3.55,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House 2 in 1 Desk or Couch Caddy, Lavender",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Gray Desk/Couch Caddy",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bremer Creamy Chicken Alfredo with Broccoli",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Green Double Border Oversized Runner - 2' X 8'",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Cookie Tiles, Dark Chocolate",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Beige Border Oversized Runner - 2' X 8'",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Cream Floral High Low Faux Fur Rug - 4' X 6'",
+      "current_price": 29.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Dark Gray Floral Oversized Runner - 2' X 8'",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Seasoned Chicken Breast Strips",
+      "current_price": 6.59,
+      "original_price": 7.89,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Aldi Slow Smoked Pulled Pork",
+      "current_price": 6.59,
+      "original_price": 7.89,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Narrow Natural Wood Premium Pantry Basket",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crane Gray/Black Compression Socks - M",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Savoritz Cornbread Crackers, Butter",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Pickl/Jalapno Poppr Pza, Spinach Articho",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Mini Tarts Lemon Meringu, Lemon Meringue",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Narrow Dark Wood Premium Pantry Basket",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Halloween Coir, Halloween Dogs",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Savoritz Cornbread Crackers, Original",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Halloween Collection Pastel Halloween Mug, Ghost w Pumpkin",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Premium Pantry Bask, Large, Natural Wood",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Halloween Collection Pastel Halloween Mug, Skulls and Bows",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Premium Pantry Basket, Large, Dark Wood",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Silly Skeletons Pastel Halloween Throw",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Halloween Collection Iridescent Cauldron Halloween Mug",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Strawberry Filled Crepes",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Halloween Coir, Bats",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Black Berber Stripe Utility Runner - 2' X 6'",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "New York Bakery New York Bakery Croutons, Garlic Butter",
+      "current_price": 1.88,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Leopard Knotted Rope Dog Toy",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Hello Fall Wreath Deluxe Harvest Doormat - 18\" X 30\"",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fluted/Black Pump Premium Sink Dispenser",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Plush Knotted Rope Toy Assort., Monkey",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Dog Snack Toys Set",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Plush Knotted Rope Toy Assort., Lion",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Clear/Gold Pump Premium Sink Dispenser",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Extreme Pepperoni Deli Pizza",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Snacks Pet Toy Set, Cat Toys",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Home Sweet Home Gingham Deluxe Harvest Doormat - 18\" X 30\"",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Orange Buddy Ball Dog Toy",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Multistripe Pet Sweater - M",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Country Style Fry 26.5oz",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Boucle Plush Pet Bed - L",
+      "current_price": 16.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Zebra Knotted Rope Dog Toy",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Roman Style Pizza, Pepperoni",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Corduroy Plush Pet Bed - L",
+      "current_price": 16.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Cheese Roman Style Pizza",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Blue Buddy Ball Dog Toy",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Cable Knit Pet Sweater - M",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Bacon Chicken Pesto, Bacon Lovers",
+      "current_price": 5.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Asiago Peppercorn Sourdough",
+      "current_price": 4.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Bacon Chicken Pesto, Chicken Pesto",
+      "current_price": 5.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Crispy Smashed Potatoes, Garlic & Cheese",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Fruit Blossoms, Apple Cranbry",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Fruit Blossoms, Pumpkin CC",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home White/Gray Collapsible Laundry Basket",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Crispy Smashed Potatoes, Salt & Pepper",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Melii Football/Car Bag Tags",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Dark Gray Container Grater",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading Glas, Square, Clear/Blck/Tort, 2",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Bamboo Bag or Wr, Bag Organizer, Natural",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Bamboo Bag or, Bag Organizer, Dark Brown",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Green Rotary Grater",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Tile Scrubber Mix, Black Scrubber",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Extendable Bamboo Lid Organizer",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Melii Write On Bottle L, Bag Tags, soccer/dino",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Dark Brown Wrap Organizer",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Joie Laundry Care Accessori, Blue, Lint Bruhs",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Dark Gray Rotary Grater",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Halloween Triple Pour W, Gothic Elegance",
+      "current_price": 1.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House 20x34 Crystal Accent R, Skeletons, Black",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Halloween Triple Pour Wa, Enchnted Hrvst",
+      "current_price": 1.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Tile Scrubber Mix, Black S Duster",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Visage Ionic Hairdryer, Purple/Black",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Halloween Collection Pastel Metal Ghost or Jack, Purple, JOL",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Microwave Cookware Accs, 4in1 Egg Cooker",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading Gl, Circle, Burg/Black/Tort, 2.5",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Halloween Triple Pour Wax, Spooky Sweets",
+      "current_price": 1.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Tile Scrubber Mix, Blue Scrubber",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading Gl, Circle, Burg/Black/Tort, 1.5",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Bamboo Dish - 2pk",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Halloween Collection Pastel Metal Ghost or Jac, Orange, Ghost",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Savoritz Tropical Yogurt Rice Crackers",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Turntable",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading Gl, Square, Clear/Blck/Tort, 2.5",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Ceramic Food Containers, Square Cream",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Microwave Cookware Accs, Popcorn Maker",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading Glas, Circle, Burg/Black/Tort, 2",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Cereal Container, Pour Container",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Visage Ionic Hairdryer, Cream/Black",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Melii Unicorn/Rainbow Bag Tags",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading G, Rectangle, Nude/Black/Tort, 2",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Ghosts Purple Crystal Accent Rug - 20\" X 34\"",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Tile Scrubber Mix, Black Squeegee",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Joie Handy Household Helpers, Rainbow Ties",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Dentiguard Light Green Power Toothbrush with Refills",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Power Force Glasses Cleaning Wipes",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Serra Navy Ladies Knit Slide Sandal - Size 8",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Halloween Collection Pastel Metal Ghost o, Black/White, Ghost",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Cotton Candy or Bubblegum, Bubblegum Pop",
+      "current_price": 3.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Witchy Vibes Pink Crystal Accent Rug - 20\" X 34\"",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Violet Rotary Grater",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading, Rectangle, Nude/Black/Tort, 2.5",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Mixed Tongs, Wok Tg - Pk",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Cotton Candy or Bubbleg, Cotton Cndy Pop",
+      "current_price": 3.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Melii Write On Bottle, Bag Tags, Bow/butterfly",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Visage Manicure Pedicure Assortment, Pedicure",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Ceramic Food Containers, Rectangle PNK",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Serra Navy Ladies Knit Slide Sandal - Size 9",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Halloween Triple Pour W, Midnight Forest",
+      "current_price": 1.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Microwave Cookware Accs, Bacon Maker",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Divided Laundry Basket, White And Grey",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading Gl, Square, Clear/Blck/Tort, 1.5",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Mixed Tongs, Wok Tg - Gr",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Pull Out Drawer, 2pk Small Stora",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Joie Laundry Care Acc, Black, Sloth Dryerball",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Assorted Rice and Sauce, Kimchi Fried",
+      "current_price": 1.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Avenue Reading, Rectangle, Nude/Black/Tort, 1.5",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Foldable Sieves Bo, Fold.Spl.Gua.1, Grey",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Fusia Shrimp Wonton Soup",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Microwave Cookware Accs, Splatter Cover",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Foldable Siev, Fold.Spl.Gua.1, Darkgreen",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Black Microplate Grater",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Violet Container Grater",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Assorted Rice and Sauce, Sriracha",
+      "current_price": 1.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Ceramic Food Containers, Rectangle GRN",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Dentiguard Light Purple Power Toothbrush with Refills",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Cookbook Stand, Darker Acacia",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Bottles - 2pk",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Chickpeas, Org Chickpeas",
+      "current_price": 1.09,
+      "original_price": 1.25,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Witchy Vibes Black Crystal Accent Rug - 20\" X 34\"",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Natural Wrap Organizer",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Dentiguard Power Toothbrush with Refills, Peach",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Assorted Rice and Sauce, Mexican Adobo",
+      "current_price": 1.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Visage Manicure Pedicure Assortment, Manicure",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Black LED Pierced Ceramic Pumpkins",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House LED Vine Pumpkin, Tall 9.375 Inch",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Acorn Novelty Pet Bed",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Disney 40 oz Character Tumbler, Mickey, Teal, -",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Joie Joie Pet Hair Remover, Lintremover",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Gourd Fall Icon Candle",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House White Swirl LED Pierced Ceramic Pumpkins",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Acorn Fall Icon Candle",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Spread/Scoop - 2pk",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Licensed Ls Disney Hat, Baseball Cap BL",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Orange Drop-In Mum",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Burgundy Autumn Glass Pumpkin",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Orange Squatty LED Pierced Ceramic Pumpkins",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Cat Cordion, Single C",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Acacia Lazy Susan",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Licensed Ls Disney Hat, Stitch Hat",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Pumpkin Novelty Pet Bed",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Burgundy Drop-In Mum",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Floral Pumpkins Fall Framed Wall Art",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Disney Rose Minnie Mouse Character Tumbler - 40oz",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Joie Joie Pet Hair Remover, WasherBalls",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton 3pc Ribbed Sto, 3pc Hobnail Tex, (4127c)",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Joie Joie Pet Hair Remover, LintBrush",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Squirrel Fall Tray Objects",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Titanium Board",
+      "current_price": 16.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Autumn Glass Pumpkins, Orange",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fall Tray Objects, Pumpkin Pie",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Tree Trunk Novelty Pet Bed",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Licensed Polka Dot Beanie Hat",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fall Mini Gnome and Friends, Pumpkin",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Apples Fall Tray Objects",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Cream Swirl LED Pierced Ceramic Pumpkins",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Leaf Pumpkin Fall Framed Wall Art",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House LED Vine Pumpkin, Tall 12 Inch",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Licensed Ls Disney Hat, Beanie",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Tortoise Autumn Glass Pumpkin",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Roll Up Cooling Rack",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Disney Black Soft Touch Mickey Mouse Character Tumbler - 40oz",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fall Pumpkins Harvest Wreath",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fall Pumpkin Harvest Swag",
+      "current_price": 16.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Toadstool Novelty Pet Bed",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Baking Gadgets, Dough Cutter",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Licensed Ls Disney Hat, Baseball Cap Wh",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fall Favorites Fall Tray Objects",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fall Framed Wall Art, Allover Floral",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Pumpkin Fall Icon Candle",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Harvest Garland, Pumpkin",
+      "current_price": 19.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bendon KPDH Color or Imagine Ink, Glitter Book",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Licensed Ls Disney Hat, Bucket Hat",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Toffee Brown Autumn Glass Pumpkin",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Mixed Tongs, 2 pk Tg Ov Pl",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Mixed Tongs, St Pn Tg - Dk G",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Tint Jr Cndl, Amber",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Morton's Of Omaha Morton's of Omaha Rsmry Petite Bf Tender",
+      "current_price": 11.67,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Puraqua Probiotic Drink Mix Sticks L, Blackberry",
+      "current_price": 3.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Rao's Homemade Raos Pasta Sauce Mixe, Arrabbiata, 24 oz",
+      "current_price": 6.98,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Smore's Cupcakes",
+      "current_price": 3.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Buffalo Chicken Kettle, Buffalo Chicken",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Puraqua Probiotic Drink Mix Sticks, Lemon Ginger",
+      "current_price": 3.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Tyson Fresh Chicken Breast",
+      "current_price": 5.97,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Summer Fair SWC, Smores",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Restaurant Style Dressi, Garden Herb Ran",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Restaurant Style Dressi, Apple Cider Vin",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Tint Jr Cndl, Pink",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Puraqua Probiotic Drink Mix Sti, Dragonfrt Melon",
+      "current_price": 3.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Summer Fair SWC, Funnel Cake",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Licensed T Ch Char H PJ, Bluey, 3T",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Restaurant Style Dressi, Avocado Lime Ra",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House 2x6 Crystal Print Ru, Light, Traditional",
+      "current_price": 14.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "L'oven Fresh Protein Buns",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Fusia Asian Inspirations Beef/Chicken Skillets, Beef Lo Mein",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Barissimo Oat Milk Lattes, Pumpkin",
+      "current_price": 2.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Fall Hummus, Carrot Cumin",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Premium Ice Cream Pints, Oatmeal Cookie",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Barissimo Oat Milk Lattes, Vanilla",
+      "current_price": 2.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Single Serve Cheese Deli Pizza",
+      "current_price": 3.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Fusia Asian Inspirations Beef/Chicken Skillets, Swt&SourChckn",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Flavored Cashews, Toffee Butter",
+      "current_price": 4.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Fall Soft Baked Cookies, Apple Crisp",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Fall Soft Baked Cookies, Maple Pecan",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Fall Soft Baked Cookies, Pumpkin Spice",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "New York Bakery New York Bakery Croutons, Seasoned",
+      "current_price": 1.88,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Arizona Arizona Tea Big Can 22oz, Arnold Palmer",
+      "current_price": 0.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Arizona Green Tea with Ginseng and Honey Iced Tea, 12 pack",
+      "current_price": 5.39,
+      "original_price": 5.95,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Red Baron Classic Crust Pepperoni Pizza",
+      "current_price": 4.8,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nabisco Ritz Original Toasted Chips",
+      "current_price": 4.15,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Starbucks Caramel Macchiato Iced Espresso",
       "current_price": 6.55,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
+      "name": "Starbucks Vanilla Latte Iced Coffee",
+      "current_price": 6.55,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Snyder's Of Hanover Honey Mustard & Onion Pretzel Pieces",
+      "current_price": 2.55,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Baker's Corner Granulated Sugar",
+      "current_price": 3.05,
+      "original_price": 3.19,
+      "discount_pct": 4,
+      "category": null
+    },
+    {
+      "name": "93/7 Lean Ground Beef",
+      "current_price": 7.39,
+      "original_price": 7.49,
+      "discount_pct": 1,
+      "category": null
+    },
+    {
+      "name": "Sukhi's Chicken Coconut Curry",
+      "current_price": 9.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sukhi's Chicken Tikka Masala",
+      "current_price": 9.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Wilde WILDE-Protein Chips, Buffalo",
+      "current_price": 3.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Waterloo Lemon- Lime Sparkling Water - 8 Pack, 12 fl oz Cans",
+      "current_price": 4.58,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Italian Seasoned Croutons",
+      "current_price": 1.29,
+      "original_price": 1.49,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Benton's Waffle Cones - 12 Count",
+      "current_price": 2.39,
+      "original_price": 2.75,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Peanut Delight Crunchy Peanut Butter",
+      "current_price": 1.75,
+      "original_price": 2.19,
+      "discount_pct": 20,
+      "category": null
+    },
+    {
+      "name": "Breakfast Best Heat 'N Serve Sausage Links",
+      "current_price": 1.75,
+      "original_price": 1.89,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Summit Diet Cola, 12 Pack",
+      "current_price": 3.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Half & Half Creamer",
+      "current_price": 2.65,
+      "original_price": 2.75,
+      "discount_pct": 4,
+      "category": null
+    },
+    {
+      "name": "Breakfast Best Double Cinnamon French Toast Sticks",
+      "current_price": 3.25,
+      "original_price": 3.49,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Caesar Croutons",
+      "current_price": 1.29,
+      "original_price": 1.49,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Cheese and Garlic Croutons",
+      "current_price": 1.29,
+      "original_price": 1.49,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Peanut Delight Creamy Peanut Butter 40oz",
+      "current_price": 3.85,
+      "original_price": 4.35,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Dill Havarti Cheese",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Peanut Delight Creamy Peanut Butter",
+      "current_price": 1.75,
+      "original_price": 2.19,
+      "discount_pct": 20,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms 2% Lactose Free Milk",
+      "current_price": 2.59,
+      "original_price": 2.99,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Lacura Night Cream",
+      "current_price": 4.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Earthly Grains Rice Pilaf Mix",
+      "current_price": 0.99,
+      "original_price": 1.09,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Breakfast Best Original French Toast Sticks",
+      "current_price": 3.25,
+      "original_price": 3.49,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Whole Milk",
+      "current_price": 4.15,
+      "original_price": 4.25,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Fat Free Chicken Bone Broth",
+      "current_price": 3.55,
+      "original_price": 3.85,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Beef Bone Broth",
+      "current_price": 3.55,
+      "original_price": 3.85,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Banquet Dynamite Penne Mega Bowl",
+      "current_price": 2.98,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Just Made Just Made Cold Pressed J, Passion Dragon",
+      "current_price": 3.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Oh Snap! Pickling Co. Dilly Bites - 6 Pack",
+      "current_price": 6.05,
+      "original_price": 6.29,
+      "discount_pct": 4,
+      "category": null
+    },
+    {
+      "name": "Baby Back Pork Ribs, per lb",
+      "current_price": 11.52,
+      "original_price": 13.26,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Chicken Fries",
+      "current_price": 5.45,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Frozen Chicken Wings",
+      "current_price": 12.75,
+      "original_price": 13.19,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Creamy Peanut Butter",
+      "current_price": 4.25,
+      "original_price": 4.85,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic 2% Milk",
+      "current_price": 4.15,
+      "original_price": 4.25,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Boneless Skinless Chicken Breast Fillets Family Pack, per lb",
+      "current_price": 9.2,
+      "original_price": 9.62,
+      "discount_pct": 4,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Ciabatta Sandwich Rolls",
+      "current_price": 3.95,
+      "original_price": 4.09,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Sliced Sourdough Round",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Vanilla Bean Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Millville Dark Chocolate Sea Salt Super Foods Gluten Free Granola",
+      "current_price": 3.45,
+      "original_price": 3.95,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Chocolate Chip Cookie Dough Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Priano Cheese Tortelloni",
+      "current_price": 1.65,
+      "original_price": 2.09,
+      "discount_pct": 21,
+      "category": null
+    },
+    {
+      "name": "Priano Mushroom Tortelloni",
+      "current_price": 1.65,
+      "original_price": 2.09,
+      "discount_pct": 21,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Butter Pecan Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Cookies and Cream Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Mint Chocolate Chip Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Chocolate Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Bremer Frozen Chicken Pasta 24oz, ChxPnnePrivr",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bremer Frozen Chicken Pasta 24oz, BslPrmChckn",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Fremont Fish Market Wild Caught Boneless Breaded Flounder Fillets",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Arizona Arizona Tea Big Can 22oz, Sweet Tea",
+      "current_price": 0.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Strawberry Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Choceur Milk Chocolate Peanut Butter Cups",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Millville Corn Flakes Cereal",
+      "current_price": 2.15,
+      "original_price": 2.49,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Moose Tracks Ice Cream",
+      "current_price": 2.75,
+      "original_price": 3.25,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Original Bratwurst Party Pack, 12 Links",
+      "current_price": 7.49,
+      "original_price": 8.79,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Mini Naan Bread",
+      "current_price": 4.85,
+      "original_price": 5.25,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Little Journey Strawberry Banana Rice Rusks",
+      "current_price": 2.09,
+      "original_price": 2.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Little Journey Apple Rice Rusks",
+      "current_price": 2.09,
+      "original_price": 2.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Chocolate Chunk Cookies",
+      "current_price": 4.39,
+      "original_price": 4.75,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Kitchen Sink Cookies",
+      "current_price": 4.39,
+      "original_price": 4.75,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Burman's Hot Sauce",
+      "current_price": 1.35,
+      "original_price": 2.09,
+      "discount_pct": 35,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Honey Vanilla Indulgent Greek Yogurt",
+      "current_price": 3.85,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Oatmeal Cranberry Cookies - 10 Count",
+      "current_price": 4.39,
+      "original_price": 4.75,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Baker's Treat Cinnamon Streusel Coffee Cakes, 8 Cakes",
+      "current_price": 3.15,
+      "original_price": 3.25,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "L'oven Fresh Sandwich Potato Rolls - 8 Rolls",
+      "current_price": 1.65,
+      "original_price": 2.19,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Cattlemen's Ranch Bacon Cheddar Beef Burger Patties",
+      "current_price": 10.45,
+      "original_price": 12.45,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Cattlemen's Ranch Unseasoned Black Angus Beef Patties, 6 Pack",
+      "current_price": 10.45,
+      "original_price": 12.45,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Salmon Dinner Canned Cat Food",
+      "current_price": 0.55,
+      "original_price": 0.65,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail White Fish and Tuna Canned Cat Food",
+      "current_price": 0.55,
+      "original_price": 0.65,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Heart to Tail Turkey and Giblets Canned Cat Food",
+      "current_price": 0.55,
+      "original_price": 0.65,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Original Oatmilk",
+      "current_price": 3.85,
+      "original_price": 4.39,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Earthly Grains Chicken Flavored Rice Mix",
+      "current_price": 0.99,
+      "original_price": 1.09,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Pitted Dates",
+      "current_price": 3.19,
+      "original_price": 3.29,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Baker's Corner Pumpkin Quick Bread Mix",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Boulder Slow Cooker Liner",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Barissimo Caramel Macch/Apple Cups, Apple",
+      "current_price": 4.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Barissimo Caramel Macch/Apple Cups, Macchiato",
+      "current_price": 4.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Barissimo Caramel/Appl Crisp Coffee, Caramel",
+      "current_price": 5.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Family Pack Chicken Tenderloin",
+      "current_price": 2.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Barissimo Caramel/Appl Crisp Coffee, Apple Crisp",
+      "current_price": 5.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Flavored Almonds16pk, PmpknSpc",
+      "current_price": 5.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Flavored Almonds16pk, Snckrdoodl",
+      "current_price": 5.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Roasted Sweet Corn Flavored Popcorn",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Seafood Mac/Bake, Shrmp&LbstrBke",
+      "current_price": 7.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Seafood Mac/Bake, LbstrMcChs",
+      "current_price": 7.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Not A Branded Item Fresh Ground Beef Chub",
+      "current_price": 17.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mamba Fruit Chews",
+      "current_price": 1.09,
+      "original_price": 1.35,
+      "discount_pct": 19,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Sliced Almonds",
+      "current_price": 3.19,
+      "original_price": 3.29,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Pure Being Split Antler - L",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Stonemill Butter Popcorn Seasoning",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Stonemill Ranch Popcorn Seasoning",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Season's Choice Frozen Colorful Carrots",
+      "current_price": 2.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Season's Choice Frozen Colorful Cauliflower",
+      "current_price": 2.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Stonemill Nacho Cheddar Popcorn Seasoning",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pure Being Antler Assortment, LG Whole",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Smithfield Smithfield St. Louis Pork Ribs",
+      "current_price": 2.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Skim Milk",
+      "current_price": 1.79,
+      "original_price": 2.05,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms LacFree Whole/LowFat",
+      "current_price": 2.59,
+      "original_price": 2.99,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Family Pack Thin Sliced Boneless Pork Chops, per lb",
+      "current_price": 8.97,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Plain Havarti Cheese",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms 2% Milk",
+      "current_price": 1.95,
+      "original_price": 2.05,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Fat Free Half & Half",
+      "current_price": 2.65,
+      "original_price": 2.75,
+      "discount_pct": 4,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Jalapeño Havarti Cheese",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms 1% Milk",
+      "current_price": 1.85,
+      "original_price": 2.05,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Low Fat Chocolate Milk",
+      "current_price": 2.09,
+      "original_price": 2.25,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Appleton Farms Thick Sliced Flavrd Bacon, Hickory",
+      "current_price": 6.89,
+      "original_price": 7.45,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Appleton Farms Organic Thick Sliced Applewood Smoked Bacon",
+      "current_price": 6.89,
+      "original_price": 7.45,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Clancy's Butter Twists Tub",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simms USDA Thick Sliced Pepperoni",
+      "current_price": 7.15,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Frozen Blueberries",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nature's Nectar Homestyle Lemonade",
+      "current_price": 1.99,
+      "original_price": 2.19,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Gatorade F Punch Grp Org",
+      "current_price": 11.98,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Whole & Simple Mediterranean Chicken Quinoa Bowl",
+      "current_price": 4.25,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Elevation Chocolate Ready to Drink Protein Shake",
+      "current_price": 6.45,
+      "original_price": 6.99,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Elevation Vanilla Ready to Drink Protein Shake",
+      "current_price": 6.45,
+      "original_price": 6.99,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Fantasy Theme Cones, Unicorn",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Fantasy Theme Cones, Galactic",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nature's Nectar Raspberry Lemonade Not From Concentrate",
+      "current_price": 1.99,
+      "original_price": 2.19,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Southwestern Green Chile Chicken Sausage",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Tropical Açaí Bowl Frozen Fruit Blend",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Breakfast Best Breakfast Skillets",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Berry Açaí Bowl Frozen Fruit Blend",
+      "current_price": 2.75,
+      "original_price": 3.29,
+      "discount_pct": 16,
+      "category": null
+    },
+    {
+      "name": "Earth Grown USDA Organic Vegan Extra Firm Tofu",
+      "current_price": 1.45,
+      "original_price": 1.75,
+      "discount_pct": 17,
+      "category": null
+    },
+    {
+      "name": "Clancy's Loaded Bacon & Cheddar Wavy Potato Chips",
+      "current_price": 1.75,
+      "original_price": 2.19,
+      "discount_pct": 20,
+      "category": null
+    },
+    {
+      "name": "Pillsbury Pumpkin Mixes, Pumpkin Cake Mi",
+      "current_price": 1.86,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pillsbury Pumpkin Mixes, Pumpkin Cookie",
+      "current_price": 1.86,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Culture Pop Orange Mango & Lime Probiotic Soda",
+      "current_price": 1.88,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Olive Garden Olive Garden Croutons",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sparkling Ice Cherry Limeade",
+      "current_price": 1.09,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Autumncrisp Grapes, 2 lb Bag",
+      "current_price": 6.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Tostitos Tostitos Restaurant Sty, Tostitos Restau",
+      "current_price": 5.94,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pure Being Premium Molded Dental Chews for Large Dogs",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pure Being Premium Molded Dental Chews for Medium Dogs",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Pickl/Jalapno Poppr Pza, Jalapeno Popper",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Boulder 10\" Everyday Paper Plate",
+      "current_price": 8.79,
+      "original_price": 9.89,
+      "discount_pct": 11,
+      "category": null
+    },
+    {
+      "name": "Nature's Nectar Strawberry Lemonade Not From Concentrate",
+      "current_price": 1.99,
+      "original_price": 2.19,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Slivered Almonds",
+      "current_price": 3.19,
+      "original_price": 3.29,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Mango Chili Goat Milk Cheese Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Double Cream Amarena Cherry Goat Milk Cheese Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Assorted Vegetables, Fire Rstd Veg",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Fantasy Theme Cones, Mermaid",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Gatorade Grape Straw Berry",
+      "current_price": 11.98,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Elevation Caramel Flavored Ready to Drink Protein Shakes,  4 Pack",
+      "current_price": 7.15,
+      "original_price": 7.69,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Trail Mixes, CrmlAppl",
+      "current_price": 4.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Chef's Cupboard Chicken Broth",
+      "current_price": 1.99,
+      "original_price": 2.59,
+      "discount_pct": 23,
+      "category": null
+    },
+    {
+      "name": "Pantene Pantene Pumps, Conditioner",
+      "current_price": 10.79,
+      "original_price": 10.99,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Pantene Pantene Pumps, Shampoo",
+      "current_price": 10.79,
+      "original_price": 10.99,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Sprecher Brewing Company Honeycrisp Apple 4pk",
+      "current_price": 4.98,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Spinach Artichoke Gouda Cheese",
+      "current_price": 3.09,
+      "original_price": 3.95,
+      "discount_pct": 22,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Hot Honey Gouda Cheese",
+      "current_price": 3.09,
+      "original_price": 3.95,
+      "discount_pct": 22,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Siracha Gouda Cheese",
+      "current_price": 3.09,
+      "original_price": 3.95,
+      "discount_pct": 22,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Garlic Mini Naan",
+      "current_price": 4.85,
+      "original_price": 5.25,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Waterloo Cherry Limeade Sparkling Water - 8 Pack, 12 fl oz Cans",
+      "current_price": 4.58,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Real Organic Coconut Water",
+      "current_price": 2.75,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Priano Ricotta Spinach Ravioli",
+      "current_price": 1.65,
+      "original_price": 2.09,
+      "discount_pct": 21,
+      "category": null
+    },
+    {
+      "name": "Aldi Rotisserie Style Pulled Chicken",
+      "current_price": 6.59,
+      "original_price": 8.05,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Breakfast Best Buttermilk & Vanilla Protein Waffle",
+      "current_price": 3.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Pumpkin Sandwich Cookies",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Decadent Cookies, Brownie",
+      "current_price": 4.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Decadent Cookies, Fluffernutter",
+      "current_price": 4.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Peanut Delight Natural Creamy Peanut Butter",
+      "current_price": 1.65,
+      "original_price": 2.15,
+      "discount_pct": 23,
+      "category": null
+    },
+    {
+      "name": "Bakerly French Pancakes to Go",
+      "current_price": 3.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Breakfast Best Pumpkin/Cinnamon Waffles, PmpknSpc",
+      "current_price": 2.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nabisco Belvita Asstd Varieties, Pumpkin",
+      "current_price": 3.97,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Shelled Pistachios",
+      "current_price": 13.05,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Assorted Donut Holes",
+      "current_price": 2.99,
+      "original_price": 3.09,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Puraqua Watermelon Berry Probiotic Water",
+      "current_price": 1.75,
+      "original_price": 1.85,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Trail Mixes, PBChoc",
+      "current_price": 4.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Frz Org Fruit Assort 24oz, Strawberries",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Berryhill Fall Assorted Spreads, Salted Caramel",
+      "current_price": 0.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kellogg's Froot Loops",
+      "current_price": 3.75,
+      "original_price": 4.39,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Italian Loaf",
+      "current_price": 4.19,
+      "original_price": 4.39,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "The Ryl Co Iced Tea with Benefits, Peach",
+      "current_price": 1.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Vitalife Ginger Cold Pressed Juice",
+      "current_price": 2.75,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Vitalife Turmeric Cold Pressed Juice",
+      "current_price": 2.75,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Vitalife Greens Cold Pressed Juice",
+      "current_price": 2.75,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Ryl Co Iced Tea with Benefits, Raspberry",
+      "current_price": 1.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Perdue No Antibiotics Ever Chicken Drumsticks Value Pack, per lb",
+      "current_price": 3.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mamba Berrytasty Fruit Chews",
+      "current_price": 1.09,
+      "original_price": 1.35,
+      "discount_pct": 19,
+      "category": null
+    },
+    {
+      "name": "Clancy's Spicy Dill Pickle Flavored Wavy Potato Chips",
+      "current_price": 1.75,
+      "original_price": 2.19,
+      "discount_pct": 20,
+      "category": null
+    },
+    {
+      "name": "Briannas Briannas Dressings, Poppyseed",
+      "current_price": 3.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Rx Bar RX Pumpkin Spice Bar, Pumpkin Spice",
+      "current_price": 8.96,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Fall Drizzled Kettle Corn, Maple",
+      "current_price": 2.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Fall Drizzled Kettle Corn, Pumpkin Spice",
+      "current_price": 2.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Choceur Fall Clusters, Caramel Apple",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Choceur Fall Clusters, Pumpkin Pie",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Barissimo Coffees of Fall",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Crispy Baked Salted Caramel Coconut Rolls",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Pumpkin Feta Pizza",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Beet Root GC Pizza",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Choceur Milk Chocolate S'more Clusters",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Choceur Dark Chocolate Caramel Pretzel",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Kellogg's Froot loops Marshmallows",
+      "current_price": 3.75,
+      "original_price": 4.39,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Apple or Pumpkin Muffins, Pumpkin",
+      "current_price": 0.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Apple or Pumpkin Muffins, Apple Cinnamon",
+      "current_price": 0.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Aldi Crustless Peanut Butter & Grape Jelly Sandwiches, 4 Pack",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Traditional Burrata Cheese",
+      "current_price": 5.35,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected 1,000 Day Aged Gouda, 5.3 oz",
+      "current_price": 4.39,
+      "original_price": 4.75,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Arizona Arizona Tea Big Can 22oz, Green Tea",
+      "current_price": 0.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Chocolate Chip Cannoli Dip",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Old Spice Pure Sport Anti-Perspirant & Deodorant",
+      "current_price": 4.35,
+      "original_price": 4.49,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "One Fine Chicken One Fine Chicken Family Pack Antibiotic Free Boneless Skinless Chicken Thighs",
+      "current_price": 7.47,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Fabuloso Multi Purpose Cleaner Lavender",
+      "current_price": 5.29,
+      "original_price": 5.45,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Kirkwood Panko Chicken Breast Nuggets 48 oz",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nabisco Belvita Asstd Varieties, Chocolate",
+      "current_price": 3.97,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nabisco Belvita Asstd Varieties, Cinnamon",
+      "current_price": 3.97,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Frito Lay Bold Variety Pack. 28 count",
       "current_price": 17.59,
       "original_price": null,
       "discount_pct": null,
       "category": null
     },
     {
-      "name": null,
+      "name": "Simply Nature Breadless Crumbs, Plain",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Breadless Crumbs, Italian",
+      "current_price": 3.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Stuffed Crust Crack Pepper Pepperoni",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Stuffed Crust Buffalo Chicken",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sparkling Ice Orange Mango",
+      "current_price": 1.09,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sparkling Ice Kiwi Strawberry",
+      "current_price": 1.09,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sparkling Ice Black Raspberry",
+      "current_price": 1.09,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Arizona Arnold Palmer Lite Half and Half Iced Tea and Lemonde, 12 pack",
+      "current_price": 5.39,
+      "original_price": 5.95,
+      "discount_pct": 9,
+      "category": null
+    },
+    {
+      "name": "Branded Cristal Artisan Sliced Bread",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Boulder Ultra Paper Towel",
+      "current_price": 9.69,
+      "original_price": 9.89,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Built Bars Cookie Dough Chunk Built Bar",
+      "current_price": 9.69,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Fishwife Tinned Seafood Co. Albacore Tuna, Spicy Olive Oil",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Limaveza Lime Lager - 6 Pack, 12 fl oz Cans",
+      "current_price": 7.25,
+      "original_price": 8.89,
+      "discount_pct": 18,
+      "category": null
+    },
+    {
+      "name": "Willow Ultra Strong Bath Tissue",
+      "current_price": 10.99,
+      "original_price": 11.25,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Strawberry Mousse Cups",
+      "current_price": 3.29,
+      "original_price": 4.39,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Hot Honey Goat Milk Cheese Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Emporium Selection Spring Garden Goat Log",
+      "current_price": 3.29,
+      "original_price": 3.85,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Cookies & Cream Mousse Dessert Cups",
+      "current_price": 3.29,
+      "original_price": 4.39,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "ALDI Macaroni Salad",
+      "current_price": 4.29,
+      "original_price": 4.39,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Willow Ultra Soft Bath Tissue",
+      "current_price": 10.99,
+      "original_price": 11.25,
+      "discount_pct": 2,
+      "category": null
+    },
+    {
+      "name": "Millville Fiber Now 70 Calorie Cinnamon Coffee Cake Flavored Bars, 6 count",
+      "current_price": 2.19,
+      "original_price": 2.59,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Millville Fiber Now 70 Calorie Lemon Flavored Bars, 6 count",
+      "current_price": 2.19,
+      "original_price": 2.59,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Season's Choice Beer Battered Onion Rings",
+      "current_price": 3.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Millville Fiber Now 70 Calorie Chocolate Fudge Flavored Bars, 6 count",
+      "current_price": 2.19,
+      "original_price": 2.59,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Berryhill Fall Assorted Spreads, Maple Pumpkin",
+      "current_price": 0.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Acacia Solid Spoon",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Acacia Slotted Spoon",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Triple Flavor Dog Kabobs",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nestle Jack's Pep Sticks",
+      "current_price": 4.97,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Mediterranean Flatbread",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Mini Biscotti",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Fall Flavored Maple Syrup, Pumpkin Spice",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Sweet Chili Flatbread",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Fall Flavored Maple Syrup, Cinnamon Roll",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Fall Sandwich Cremes, Apple Pie",
+      "current_price": 2.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Fall Sandwich Cremes, Pumpkin Spice",
+      "current_price": 2.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Fall Flavored Maple Syru, Bourbon Barrel",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bremer Onion Pierogies",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Acacia Utensils, Turner",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Fall Harvest Mac & Cheese",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Fall Hummus, Savory Pumpkin",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Choceur Choc Caramel or Espresso, Choc Espresso",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Fall Hummus, Lemon Rosemary",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Crofton Acacia Pasta Spoon",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Flavored Cashews, Maple",
+      "current_price": 4.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Chicken Pot Pie, Chicken Pot Pie",
+      "current_price": 8.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Aged Yellow Cheddar Cheese",
+      "current_price": 4.39,
+      "original_price": 4.75,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Pretzel Bites Mustard Dip",
+      "current_price": 4.75,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "General Mills Gluten Free Strawberry Protein Cheerios Cereal",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Salted Caramel Cannoli Dip",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Pretzel Bites Cheese Dip",
+      "current_price": 4.75,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Mini Waffle Cones with Milk Chocolate",
+      "current_price": 3.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "General Mills Gluten Free Cinnamon Protein Cheerios Cereal",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Millville Gluten Free Coconut Cacao Superfood Granola",
+      "current_price": 3.45,
+      "original_price": 3.95,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Rustic Italian Boule",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Little Journey Organic Mango Carrot Puffs",
+      "current_price": 3.05,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Little Journey Organic Purple Carrot Blueberry Puffs",
+      "current_price": 3.05,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Frito Lay Positively Delicious Variety Pack, 10 count",
       "current_price": 6.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove On The Go Sweet Variety Nut Packs, 12 Snack Packs",
+      "current_price": 8.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Willow Soft & Strong Bath Tissue",
+      "current_price": 16.19,
+      "original_price": 17.05,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Freezer Quart Bags",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Freezer Gallon Bags",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Orange Jaffa Cakes",
+      "current_price": 2.45,
+      "original_price": 3.19,
+      "discount_pct": 23,
+      "category": null
+    },
+    {
+      "name": "Storage Gallon Bags",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Bake Shop Chocolate Hazelnut Filled Crepes",
+      "current_price": 3.85,
+      "original_price": 4.39,
+      "discount_pct": 12,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Part Skim Ricotta Cheese",
+      "current_price": 2.75,
+      "original_price": 2.95,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Whole Milk Ricotta Cheese",
+      "current_price": 2.75,
+      "original_price": 2.95,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Berryhill Hot Honey with Infused Chilies",
+      "current_price": 5.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Dill Pickle",
+      "current_price": 3.29,
+      "original_price": 4.39,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Unsalted Deluxe Whole Cashews",
+      "current_price": 6.59,
+      "original_price": 7.15,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Light Salted Deluxe Whole Cashews",
+      "current_price": 6.59,
+      "original_price": 7.15,
+      "discount_pct": 8,
+      "category": null
+    },
+    {
+      "name": "Fishwife Tinned Seafood Co. Albacore Tuna, Spanish Lemon",
+      "current_price": 6.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "The Ryl Co Iced Tea with Benefits, Watermelon",
+      "current_price": 1.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Casa Mamita Mini Tacos, Chicken",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Casa Mamita Mini Tacos, Vegetable",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Casa Mamita Mini Tacos, Beef",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Elevation Dark Chocolate Cherry Cashew Fruit & Nut Bar",
+      "current_price": 4.95,
+      "original_price": 5.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Elevation Dark Chocolate Peanut Butter Fruit and Nut Bar",
+      "current_price": 4.95,
+      "original_price": 5.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Elevation Dark Chocolate Nuts & Sea Salt Fruit and Nut Bar",
+      "current_price": 4.95,
+      "original_price": 5.19,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Puraqua Berry Cherry Flavored Probiotic Water",
+      "current_price": 1.75,
+      "original_price": 1.85,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Puraqua Blueberry Lemonade Flavored Probiotic Water",
+      "current_price": 1.75,
+      "original_price": 1.85,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Puraqua Strawberry Lemonade Flavored Probiotic Water",
+      "current_price": 1.75,
+      "original_price": 1.85,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Chef's Cupboard Protein Ramen Chicken Flavor",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Chef's Cupboard Beef Flavored Protein Ramen",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "General Mills Peanut Butter Chocolate Flavored Protein Creamy Bars, 5 count",
+      "current_price": 3.85,
+      "original_price": 4.29,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "General Mills Cinnamon Almond Flavored Protein Creamy Bars, 5 count",
+      "current_price": 3.85,
+      "original_price": 4.29,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Storage Quart Bags",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Townhouse Game Day Football Crack, Football Cracke",
+      "current_price": 3.92,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pillsbury Pumpkin Mixes, Whipped Butterc",
+      "current_price": 1.86,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "General Mills Lucky Charms Rainbow Sprinkles",
+      "current_price": 3.68,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Vista Bay Punch Hard Seltzer Variety Pack - 12 Pack, 12 fl oz Cans",
+      "current_price": 12.55,
+      "original_price": 14.75,
+      "discount_pct": 15,
+      "category": null
+    },
+    {
+      "name": "Sweet Harvest Gourmet Peaches with Ginger Flavor",
+      "current_price": 2.75,
+      "original_price": 3.65,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Clancy's Honey Barbecue Ridged Party Size Potato Chips",
+      "current_price": 2.05,
+      "original_price": 2.75,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Briannas Briannas Dressings, Asiago Caesar",
+      "current_price": 3.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sweet Harvest Pineapple Spears in Light Syrup with Coconut Water",
+      "current_price": 5.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sweet Harvest Gourmet Peaches in Passion Fruit Juice",
+      "current_price": 2.75,
+      "original_price": 3.65,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Sweet Harvest Gourmet Peaches in Pineapple Juice with Coconut",
+      "current_price": 2.75,
+      "original_price": 3.65,
+      "discount_pct": 25,
+      "category": null
+    },
+    {
+      "name": "Tuscan Garden Mediterranean Blend Sun-Dried Tomatoes",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's S'mores Soft Baked Cookies - 10 Count",
+      "current_price": 2.45,
+      "original_price": 3.29,
+      "discount_pct": 26,
+      "category": null
+    },
+    {
+      "name": "Benton's Key Lime & White Chocolate Chip Soft Baked Cookies",
+      "current_price": 2.45,
+      "original_price": 3.29,
+      "discount_pct": 26,
+      "category": null
+    },
+    {
+      "name": "Benton's Soft Baked Raspberry & White Chocolate Chip Cookies",
+      "current_price": 2.45,
+      "original_price": 3.29,
+      "discount_pct": 26,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Jalapeno Cheddar Sourdough",
+      "current_price": 4.09,
+      "original_price": 4.39,
+      "discount_pct": 7,
+      "category": null
+    },
+    {
+      "name": "Choceur Choco Changer Milk Chocolate Nougat Honeycomb & Sea Salt Choco Changer Chocolate Bar",
+      "current_price": 3.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Choceur Choco Changer Dark Chocolate with Salty Fudge & Almond Choco Changer Chocolate Bar",
+      "current_price": 3.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Choceur Choco Changer Milk Chocolate Brownie & Salted Caramel Choco Changer Chocolate Bar",
+      "current_price": 3.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "All Play Variety Pack Ready to Drink Margarita, 12 pack",
+      "current_price": 12.75,
+      "original_price": 14.75,
+      "discount_pct": 14,
+      "category": null
+    },
+    {
+      "name": "Simms Original Grass Fed Beef Sticks, 8 count",
+      "current_price": 14.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simms Jalapeno Grass Fed Beef Sticks, 8 count",
+      "current_price": 14.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Dentiguard Blue Power Toothbrush with Refills",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Real Organic Pressed Coconut Water",
+      "current_price": 2.75,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Premium Ice Cream Pints, Animal Cracker",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Nabisco Toasted Chips, Buffalo",
+      "current_price": 4.15,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Whole & Simple Honey Sesame Salmon Rice Bowl",
+      "current_price": 4.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Whole & Simple Assorted Fish Bowls, Baja Fish Taco",
+      "current_price": 4.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Scrub Daddy Orange Pumpkin",
+      "current_price": 4.48,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Welcome Leaves Deluxe Harvest Doormat - 18\" X 30\"",
+      "current_price": 7.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Scrub Daddy Yellow Leaf",
+      "current_price": 4.48,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Maple Sweet Potato Chips, Maple",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Pumpkin Stacked Fall Framed Wall Art",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House 20 x 30 Hand Hooked Accen, Bright Floral",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Scrub Daddy Green Leaf",
+      "current_price": 4.48,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Kirkton House Fall Framed Wall Art, Pumpkin Books",
+      "current_price": 12.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Org Tea Concentrate, Skinny Chai",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Org Tea Concentrate, Dirty Chai",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Org Tea Concentrate, Masala Chai",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "L'oven Fresh Iced Cinnamon Bread",
+      "current_price": 3.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Crispy Pumpkin Cookies",
+      "current_price": 4.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Flavored Cashews, Apple Cider",
+      "current_price": 4.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Southern Grove Fall Trail Mixes, Pumpkin Spice",
+      "current_price": 4.89,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Mini Waffle Cones with Dark Chocolate",
+      "current_price": 3.95,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Cinnamon Coffee Cake Gelato",
+      "current_price": 3.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Fall Gelato Pints, Apple Pie",
+      "current_price": 3.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Sundae Shoppe Fall Gelato Pints, Pmpkn Pecan Pie",
+      "current_price": 3.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Fat Free Vanilla Flavor Greek Yogurt",
+      "current_price": 5.45,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Friendly Farms Fat Free Plain Greek Yogurt",
+      "current_price": 5.45,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Depalo Foods Neapolitan 00 Pizza Dough",
+      "current_price": 1.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Orange",
+      "current_price": 1.35,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Watermelon Waves Energy Drink",
+      "current_price": 1.35,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Kiwi & Guava Waves Energy Drink",
+      "current_price": 1.35,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Honey Bourbon Cocktail Salami",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Tequila Ghost Pepper Cocktail Salami",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Specially Selected Vodka Olive Salami",
+      "current_price": 3.29,
+      "original_price": 3.65,
+      "discount_pct": 10,
+      "category": null
+    },
+    {
+      "name": "Welby Hot Cold Gel Wraps, Back",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Welby Hot Cold Gel Knee Relief Wraps",
+      "current_price": 9.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Cola, 12 pack",
+      "current_price": 3.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Vitalife Cherry Lime Zero Sugar Kombucha",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Vitalife Pineapple Pink Guava Zero Sugar Kombucha",
+      "current_price": 1.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Probiotic Soda Strawberry",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Tropical Probiotic Soda",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Watermelon Lime Probiotic Soda",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Prebiotic Cola",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Popz Dr. Popz Prebiotic Soda",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Strawberry Watermelon Prebiotic Energy Drink",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Raspberry Lemon Prebiotic Energy Drink",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Tropical Prebiotic Energy Drink",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Cherry Lime Prebiotic Energy Drink",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Pembrook Scissors Set, ScissorsGreen",
+      "current_price": 4.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Blue Duster - M",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Easy Home Black Duster - M",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Old Spice High Endurance Pure Sport Deodorant",
+      "current_price": 4.35,
+      "original_price": 4.49,
+      "discount_pct": 3,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Sous-Vide Egg Bites, Bacon & Gruyere",
+      "current_price": 5.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Power Force Ultra Plus Triple Action Pacs, 52 count",
+      "current_price": 10.69,
+      "original_price": 10.85,
+      "discount_pct": 1,
+      "category": null
+    },
+    {
+      "name": "Summit Zero Sugar Peach Mango Prebiotic Energy Drink",
+      "current_price": 1.65,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Clancy's Original Homestyle Seasoned Pretzel Twists",
+      "current_price": 4.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Vanilla Protein Pudding",
+      "current_price": 1.39,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Cat Treat Assrt, Sticks",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Heart To Tail Cat Treat Assrt, Nibbles",
+      "current_price": 2.99,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic White Cheddar Macaroni & Cheese, 4 Cups",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Simply Nature Organic Aged Cheddar Macaroni & Cheese, 4 Cups",
+      "current_price": 5.49,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Reggano Plant Based Protein Penne Pasta",
+      "current_price": 2.45,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Reggano Plant Based Protein Rotini Pasta",
+      "current_price": 2.45,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Benton's Raspberry Jaffa Cakes",
+      "current_price": 2.45,
+      "original_price": 3.19,
+      "discount_pct": 23,
+      "category": null
+    },
+    {
+      "name": "Season's Choice Extra Crispy Restaurant Fries",
+      "current_price": 3.29,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Oh Snap! Pickling Co. Sassy Bites 6 Pack",
+      "current_price": 5.79,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Just Made Just Made Cold Pressed Juice, Mango Chai",
+      "current_price": 3.19,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Power Force Toilet Bowl Cleaner",
+      "current_price": 1.99,
+      "original_price": 2.09,
+      "discount_pct": 5,
+      "category": null
+    },
+    {
+      "name": "Waterloo Banana Berry Bliss Flavored Sparkling Water, 8 Pack",
+      "current_price": 4.58,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Frito Lay Classics Variety Pack, 10 count",
+      "current_price": 6.59,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Morton's Of Omaha Bold Steakhouse Petite Tender Beef Filets, per lb",
+      "current_price": 11.67,
+      "original_price": null,
+      "discount_pct": null,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Ham & Cheddar Lunchkit",
+      "current_price": 2.45,
+      "original_price": 2.55,
+      "discount_pct": 4,
+      "category": null
+    },
+    {
+      "name": "Park Street Deli Turkey & Colby Lunchkit",
+      "current_price": 2.45,
+      "original_price": 2.55,
+      "discount_pct": 4,
+      "category": null
+    },
+    {
+      "name": "Waterloo Sparkling Water Root Beer Float",
+      "current_price": 4.39,
+      "original_price": 5.05,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Waterloo Sparkling Water Apple Crisp a la Mode",
+      "current_price": 4.39,
+      "original_price": 5.05,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Waterloo Sparkling Water Coconut Lime Cooler",
+      "current_price": 4.39,
+      "original_price": 5.05,
+      "discount_pct": 13,
+      "category": null
+    },
+    {
+      "name": "Mama Cozzi's Pizza Kitchen Pepperoni Mini Pizza Bagels, 40 ct",
+      "current_price": 7.69,
       "original_price": null,
       "discount_pct": null,
       "category": null

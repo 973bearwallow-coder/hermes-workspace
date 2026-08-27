@@ -30,6 +30,9 @@ STORE = "ALDI - FRE 69 - Falls Church"
 ZIP_CODE = "22042"
 URL = "https://www.aldi.us/weekly-specials/"
 OUT_PATH = "/home/tom/hermes-workspace/projects/recipe-vault/aldi_prices.json"
+# Discovered from the live ALDI store session for FRE 69 / Falls Church.
+SHOP_ID = "23754"
+ZONE_ID = "975"
 
 PRICE_RE = re.compile(r"\$[\s]*([\d,]+\.\d{2})")
 PCT_RE = re.compile(r"(\d+)\s*%\s*off")
@@ -121,6 +124,97 @@ def extract_items(page):
     return items
 
 
+def extract_item_ids(page):
+    """Collect all ALDI item IDs embedded in the rendered page source."""
+    try:
+        html = page.content()
+    except Exception:
+        return []
+    return sorted(set(re.findall(r"items_\d+-\d+", html)))
+
+
+def _parse_money(text):
+    if not text:
+        return None
+    m = re.search(r"\$\s*([\d,]+(?:\.\d{2})?)", str(text))
+    if not m:
+        return None
+    try:
+        return float(m.group(1).replace(",", ""))
+    except Exception:
+        return None
+
+
+def normalize_api_item(item):
+    """Map an ALDI GraphQL item object into the JSON schema we store."""
+    price = item.get("price") or {}
+    view = price.get("viewSection") or {}
+    card = view.get("itemCard") or {}
+    details = view.get("itemDetails") or {}
+
+    current_text = (
+        card.get("priceString")
+        or details.get("priceString")
+        or price.get("priceString")
+        or card.get("priceAriaLabelString")
+    )
+    original_text = (
+        card.get("fullPriceString")
+        or card.get("plainFullPriceString")
+        or details.get("fullPriceString")
+        or details.get("fullPriceScreenReaderString")
+    )
+
+    current_price = _parse_money(current_text)
+    original_price = _parse_money(original_text)
+    discount_pct = None
+    if current_price is not None and original_price is not None and original_price > 0:
+        try:
+            discount_pct = round((original_price - current_price) / original_price * 100)
+        except Exception:
+            discount_pct = None
+
+    category = None
+    view_section = item.get("viewSection") or {}
+    for key in ("categoryString", "category", "sectionName", "nameString"):
+        if view_section.get(key):
+            category = view_section.get(key)
+            break
+
+    return {
+        "name": item.get("name") or None,
+        "current_price": current_price,
+        "original_price": original_price,
+        "discount_pct": discount_pct,
+        "category": category,
+    }
+
+
+def fetch_items_api(page, ids, shop_id=SHOP_ID, zone_id=ZONE_ID, postal_code=ZIP_CODE):
+    """Fetch ALDI item details from GraphQL in manageable batches."""
+    items = []
+    batch_size = 30
+    total = len(ids)
+    for i in range(0, total, batch_size):
+        batch = ids[i:i + batch_size]
+        resp = page.evaluate(
+            """async ({ids, shopId, zoneId, postalCode}) => {
+              const vars = {ids, shopId, zoneId, postalCode};
+              const url = 'https://www.aldi.us/graphql?operationName=Items&variables=' +
+                encodeURIComponent(JSON.stringify(vars)) + '&extensions=' +
+                encodeURIComponent(JSON.stringify({persistedQuery:{version:1, sha256Hash:'388f200246a7fcc0f10ed9c1bb97952f9046e69c1be3b14ebae5855822cec831'}}));
+              const r = await fetch(url, {headers: {'accept': 'application/json'}});
+              if (!r.ok) throw new Error(`HTTP ${r.status} for Items batch`);
+              return await r.json();
+            }""",
+            {"ids": batch, "shopId": shop_id, "zoneId": zone_id, "postalCode": postal_code},
+        )
+        batch_items = (resp or {}).get("data", {}).get("items") or []
+        print(f"[api] batch {i // batch_size + 1}/{(total + batch_size - 1) // batch_size}: {len(batch_items)} items", file=sys.stderr)
+        items.extend(batch_items)
+    return items
+
+
 def try_weekly_ad(page, items):
     """Attempt to expand the full Weekly Ad via a 'View all' style button."""
     for label in ["View all", "View Weekly Ad", "See all", "View all (200+)"]:
@@ -175,33 +269,25 @@ def run(test_mode=False):
                 page.mouse.wheel(0, 2000)
                 page.wait_for_timeout(1200)
 
-            items = extract_items(page)
-
-            # Retry once if too few items
-            if len(items) < 20:
-                page.wait_for_timeout(3000)
-                for _ in range(4):
-                    page.mouse.wheel(0, 2000)
-                    page.wait_for_timeout(1000)
+            ids = extract_item_ids(page)
+            if ids:
+                print(f"[api] found {len(ids)} embedded item ids", file=sys.stderr)
+                raw_items = fetch_items_api(page, ids)
+                items = [normalize_api_item(it) for it in raw_items if it]
+                deduped = []
+                seen = set()
+                for it in items:
+                    key = (it.get("name"), it.get("current_price"), it.get("original_price"))
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    deduped.append(it)
+                items = deduped
+            else:
                 items = extract_items(page)
 
-            # Paginate the Price Drops carousel via "Next page" button (up to 40 pages)
-            if not test_mode:
-                for _ in range(40):
-                    try:
-                        nxt = page.get_by_role("button", name="Next page").first
-                        if nxt.count() == 0 or not nxt.is_enabled():
-                            break
-                        nxt.click(timeout=4000)
-                        page.wait_for_timeout(800)
-                        for it in extract_items(page):
-                            if it.get("name") and it["name"] not in {x.get("name") for x in items}:
-                                items.append(it)
-                    except Exception:
-                        break
-
-            if not test_mode:
-                items = try_weekly_ad(page, items)
+            if not items and not test_mode:
+                items = extract_items(page)
 
         except Exception as e:
             error = f"{type(e).__name__}: {e}"
