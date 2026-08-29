@@ -1,13 +1,70 @@
 {
- "generated": "2026-08-27T08:02:40",
+ "generated": "2026-08-28T08:03:14",
  "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama",
- "total": 728,
+ "total": 697,
  "by_tier": {
-  "cheap": 402,
+  "cheap": 371,
   "free": 251,
   "paid": 75
  },
  "models": [
+  {
+   "id": "tencent/hy4-preview",
+   "name": "Tencent: Hy4 preview",
+   "provider": "tencent",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 8.34e-07,
+   "cost_out": 2.501e-06,
+   "context_length": 1048576,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "inclusionai/ling-3.0-flash-fin:free",
+   "name": "Ling 3.0 Flash Fin (free)",
+   "provider": "inclusionai",
+   "home_provider": "openrouter",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 262144,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "longctx",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
   {
    "id": "qwen/qwen3.8-flash",
    "name": "Qwen: Qwen3.8 Flash",
@@ -36,9 +93,9 @@
    "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
    "usable": true,
    "aa_intelligence_index": 56.0,
-   "aa_blended_usd_1m": null,
+   "aa_blended_usd_1m": 0.1,
    "aa_median_tok_s": 74.0,
-   "aa_latency": 2.72,
+   "aa_latency": 3.01,
    "quality_source": "aa"
   },
   {
@@ -64,14 +121,14 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26424,
+   "expires_in_days": 26423,
    "direct_key": false,
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "usable": true,
    "aa_intelligence_index": 57.0,
    "aa_blended_usd_1m": 0.09,
    "aa_median_tok_s": 50.0,
-   "aa_latency": 1.47,
+   "aa_latency": 1.49,
    "quality_source": "aa"
   },
   {
@@ -206,7 +263,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26424,
+   "expires_in_days": 26423,
    "direct_key": false,
    "description": "This model always redirects to the latest GLM model from Z.ai.",
    "usable": true,
@@ -260,14 +317,14 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26424,
+   "expires_in_days": 26423,
    "direct_key": false,
    "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
    "usable": true,
    "aa_intelligence_index": 57.0,
    "aa_blended_usd_1m": 0.09,
    "aa_median_tok_s": 50.0,
-   "aa_latency": 1.47,
+   "aa_latency": 1.49,
    "quality_source": "aa"
   },
   {
@@ -322,7 +379,7 @@
    "rate_limit": null,
    "expiration": "2026-09-30",
    "expiring_soon": false,
-   "expires_in_days": 34,
+   "expires_in_days": 33,
    "direct_key": false,
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
    "usable": true,
@@ -479,8 +536,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 1.122e-06,
-   "cost_out": 3.366e-06,
+   "cost_in": 6.6e-07,
+   "cost_out": 1.98e-06,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -562,8 +619,8 @@
    "provider": "nvidia",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 8e-08,
-   "cost_out": 2e-07,
+   "cost_in": 1e-07,
+   "cost_out": 2.5e-07,
    "context_length": 262144,
    "modalities": {
     "text": true,
@@ -792,8 +849,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 6e-08,
-   "cost_out": 1.2e-07,
+   "cost_in": 7e-08,
+   "cost_out": 1.4e-07,
    "context_length": 1310720,
    "modalities": {
     "text": true,
@@ -1249,7 +1306,7 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.34,
-   "aa_median_tok_s": 50.0,
+   "aa_median_tok_s": 51.0,
    "aa_latency": 2.99,
    "quality_source": "aa"
   },
@@ -1313,7 +1370,7 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.34,
-   "aa_median_tok_s": 50.0,
+   "aa_median_tok_s": 51.0,
    "aa_latency": 2.99,
    "quality_source": "aa"
   },
@@ -1441,7 +1498,7 @@
    "tier": "cheap",
    "cost_in": 7.4e-07,
    "cost_out": 2.96e-06,
-   "context_length": 256000,
+   "context_length": 262144,
    "modalities": {
     "text": true,
     "vision": false,
@@ -1470,35 +1527,6 @@
    "tier": "cheap",
    "cost_in": 2e-07,
    "cost_out": 1.2e-06,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.6-luna-pro:batch",
-   "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-07,
-   "cost_out": 6e-07,
    "context_length": 1050000,
    "modalities": {
     "text": true,
@@ -1550,35 +1578,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.6-luna:batch",
-   "name": "OpenAI: GPT-5.6 Luna (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-07,
-   "cost_out": 6e-07,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5.6-terra-pro",
    "name": "OpenAI: GPT-5.6 Terra Pro",
    "provider": "openai",
@@ -1586,35 +1585,6 @@
    "tier": "cheap",
    "cost_in": 2e-06,
    "cost_out": 1.2e-05,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.6-terra-pro:batch",
-   "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-06,
-   "cost_out": 6e-06,
    "context_length": 1050000,
    "modalities": {
     "text": true,
@@ -1666,35 +1636,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.6-terra:batch",
-   "name": "OpenAI: GPT-5.6 Terra (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-06,
-   "cost_out": 6e-06,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5.6-sol-pro",
    "name": "OpenAI: GPT-5.6 Sol Pro",
    "provider": "openai",
@@ -1724,35 +1665,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.6-sol-pro:batch",
-   "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-06,
-   "cost_out": 5e-06,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5.6-sol",
    "name": "OpenAI: GPT-5.6 Sol",
    "provider": "openai",
@@ -1760,35 +1672,6 @@
    "tier": "cheap",
    "cost_in": 2e-06,
    "cost_out": 1e-05,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.6-sol:batch",
-   "name": "OpenAI: GPT-5.6 Sol (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-06,
-   "cost_out": 5e-06,
    "context_length": 1050000,
    "modalities": {
     "text": true,
@@ -1953,8 +1836,8 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.04,
-   "aa_median_tok_s": 68.0,
-   "aa_latency": 2.83,
+   "aa_median_tok_s": 67.0,
+   "aa_latency": 2.82,
    "quality_source": "aa"
   },
   {
@@ -2263,7 +2146,7 @@
    "tags": [
     "longctx"
    ],
-   "quality": 35.0,
+   "quality": 5.5,
    "rate_limit": null,
    "expiration": null,
    "expiring_soon": false,
@@ -2271,11 +2154,7 @@
    "direct_key": false,
    "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
    "usable": true,
-   "aa_intelligence_index": 35.0,
-   "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 101.0,
-   "aa_latency": 2.08,
-   "quality_source": "aa"
+   "quality_source": "heuristic"
   },
   {
    "id": "z-ai/glm-5.2:free",
@@ -2295,7 +2174,7 @@
    "tags": [
     "longctx"
    ],
-   "quality": 35.0,
+   "quality": 5.0,
    "rate_limit": null,
    "expiration": null,
    "expiring_soon": false,
@@ -2303,11 +2182,7 @@
    "direct_key": false,
    "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
    "usable": true,
-   "aa_intelligence_index": 35.0,
-   "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 101.0,
-   "aa_latency": 2.08,
-   "quality_source": "aa"
+   "quality_source": "heuristic"
   },
   {
    "id": "openrouter/fusion",
@@ -2345,36 +2220,6 @@
    "tier": "cheap",
    "cost_in": 6.6e-07,
    "cost_out": 3.4e-06,
-   "context_length": 262144,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "vision",
-    "coder",
-    "longctx"
-   ],
-   "quality": 5.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "moonshotai/kimi-k2.7-code:batch",
-   "name": "MoonshotAI: Kimi K2.7 Code (batch)",
-   "provider": "moonshotai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 9.5e-07,
-   "cost_out": 4e-06,
    "context_length": 262144,
    "modalities": {
     "text": true,
@@ -2513,8 +2358,8 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 130.0,
-   "aa_latency": 1.56,
+   "aa_median_tok_s": 132.0,
+   "aa_latency": 1.61,
    "quality_source": "aa"
   },
   {
@@ -2553,9 +2398,9 @@
    "provider": "nvidia",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 6e-07,
-   "cost_out": 3.6e-06,
-   "context_length": 512288,
+   "cost_in": 5e-07,
+   "cost_out": 2.2e-06,
+   "context_length": 262144,
    "modalities": {
     "text": true,
     "vision": false,
@@ -2692,8 +2537,8 @@
    "usable": true,
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 114.0,
-   "aa_latency": 1.34,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.13,
    "quality_source": "aa"
   },
   {
@@ -2755,8 +2600,8 @@
    "usable": true,
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 114.0,
-   "aa_latency": 1.34,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.13,
    "quality_source": "aa"
   },
   {
@@ -3221,6 +3066,35 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "mistralai/mistral-medium-3-5:batch",
+   "name": "Mistral: Mistral Medium 3.5 (batch)",
+   "provider": "mistralai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 7.5e-07,
+   "cost_out": 3.75e-06,
+   "context_length": 262144,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
    "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
    "provider": "nvidia",
@@ -3628,35 +3502,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.5-pro:batch",
-   "name": "OpenAI: GPT-5.5 Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1.5e-05,
-   "cost_out": 9e-05,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.5 Pro is OpenAI\u2019s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5.5",
    "name": "OpenAI: GPT-5.5",
    "provider": "openai",
@@ -3664,35 +3509,6 @@
    "tier": "cheap",
    "cost_in": 5e-06,
    "cost_out": 3e-05,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.5 is OpenAI\u2019s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.5:batch",
-   "name": "OpenAI: GPT-5.5 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 2.5e-06,
-   "cost_out": 1.5e-05,
    "context_length": 1050000,
    "modalities": {
     "text": true,
@@ -3748,8 +3564,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 7.952e-08,
-   "cost_out": 1.5904e-07,
+   "cost_in": 8.8606e-08,
+   "cost_out": 1.77212e-07,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -3817,7 +3633,7 @@
    "tags": [
     "longctx"
    ],
-   "quality": 28.0,
+   "quality": 43.0,
    "rate_limit": null,
    "expiration": null,
    "expiring_soon": false,
@@ -3825,10 +3641,10 @@
    "direct_key": false,
    "description": "MiMo-V2.5-Pro is Xiaomi\u2019s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
    "usable": true,
-   "aa_intelligence_index": 28.0,
-   "aa_blended_usd_1m": null,
+   "aa_intelligence_index": 43.0,
+   "aa_blended_usd_1m": 0.03,
    "aa_median_tok_s": 38.0,
-   "aa_latency": 6.5,
+   "aa_latency": 3.98,
    "quality_source": "aa"
   },
   {
@@ -3860,8 +3676,8 @@
    "usable": true,
    "aa_intelligence_index": 38.0,
    "aa_blended_usd_1m": 0.01,
-   "aa_median_tok_s": 69.0,
-   "aa_latency": 3.37,
+   "aa_median_tok_s": 67.0,
+   "aa_latency": 2.7,
    "quality_source": "aa"
   },
   {
@@ -4236,7 +4052,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26424,
+   "expires_in_days": 26423,
    "direct_key": false,
    "description": "GLM-5V-Turbo is Z.ai\u2019s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
    "usable": true,
@@ -4531,35 +4347,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.4-nano:batch",
-   "name": "OpenAI: GPT-5.4 Nano (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-07,
-   "cost_out": 6.25e-07,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5.4-mini",
    "name": "OpenAI: GPT-5.4 Mini",
    "provider": "openai",
@@ -4567,35 +4354,6 @@
    "tier": "cheap",
    "cost_in": 7.5e-07,
    "cost_out": 4.5e-06,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.4-mini:batch",
-   "name": "OpenAI: GPT-5.4 Mini (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 3.75e-07,
-   "cost_out": 2.25e-06,
    "context_length": 400000,
    "modalities": {
     "text": true,
@@ -4647,6 +4405,35 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "mistralai/mistral-small-2603:batch",
+   "name": "Mistral: Mistral Small 4 (batch)",
+   "provider": "mistralai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 1.5e-07,
+   "cost_out": 6e-07,
+   "context_length": 262144,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from...",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
    "id": "z-ai/glm-5-turbo",
    "name": "Z.ai: GLM 5 Turbo",
    "provider": "z-ai",
@@ -4668,7 +4455,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26424,
+   "expires_in_days": 26423,
    "direct_key": false,
    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
    "usable": true,
@@ -4820,35 +4607,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.4-pro:batch",
-   "name": "OpenAI: GPT-5.4 Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1.5e-05,
-   "cost_out": 9e-05,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5.4",
    "name": "OpenAI: GPT-5.4",
    "provider": "openai",
@@ -4856,35 +4614,6 @@
    "tier": "cheap",
    "cost_in": 2.5e-06,
    "cost_out": 1.5e-05,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.4 is OpenAI\u2019s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.4:batch",
-   "name": "OpenAI: GPT-5.4 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1.25e-06,
-   "cost_out": 7.5e-06,
    "context_length": 1050000,
    "modalities": {
     "text": true,
@@ -5084,8 +4813,8 @@
    "provider": "qwen",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.6e-07,
-   "cost_out": 2.08e-06,
+   "cost_in": 2.9e-07,
+   "cost_out": 2.4e-06,
    "context_length": 262144,
    "modalities": {
     "text": true,
@@ -5454,7 +5183,7 @@
    "aa_intelligence_index": 57.0,
    "aa_blended_usd_1m": 0.09,
    "aa_median_tok_s": 50.0,
-   "aa_latency": 1.47,
+   "aa_latency": 1.49,
    "quality_source": "aa"
   },
   {
@@ -5653,7 +5382,7 @@
    "rate_limit": null,
    "expiration": "2026-08-31",
    "expiring_soon": true,
-   "expires_in_days": 4,
+   "expires_in_days": 3,
    "direct_key": false,
    "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed...",
    "usable": true,
@@ -6115,35 +5844,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.2-pro:batch",
-   "name": "OpenAI: GPT-5.2 Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1.05e-05,
-   "cost_out": 8.4e-05,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.2 Pro is OpenAI\u2019s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5.2",
    "name": "OpenAI: GPT-5.2",
    "provider": "openai",
@@ -6151,35 +5851,6 @@
    "tier": "cheap",
    "cost_in": 1.75e-06,
    "cost_out": 1.4e-05,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.2:batch",
-   "name": "OpenAI: GPT-5.2 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 8.75e-07,
-   "cost_out": 7e-06,
    "context_length": 400000,
    "modalities": {
     "text": true,
@@ -6432,6 +6103,35 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "mistralai/ministral-8b-2512:batch",
+   "name": "Mistral: Ministral 3 8B 2512 (batch)",
+   "provider": "mistralai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 1.5e-07,
+   "cost_out": 1.5e-07,
+   "context_length": 262144,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities.",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
    "id": "mistralai/ministral-3b-2512",
    "name": "Mistral: Ministral 3 3B 2512",
    "provider": "mistralai",
@@ -6490,13 +6190,42 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "mistralai/mistral-large-2512:batch",
+   "name": "Mistral: Mistral Large 3 2512 (batch)",
+   "provider": "mistralai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 5e-07,
+   "cost_out": 1.5e-06,
+   "context_length": 262144,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Mistral Large 3 2512 is Mistral\u2019s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
    "id": "deepseek/deepseek-v3.2",
    "name": "DeepSeek: DeepSeek V3.2",
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.6e-07,
-   "cost_out": 3.8e-07,
+   "cost_in": 2.69e-07,
+   "cost_out": 4e-07,
    "context_length": 163840,
    "modalities": {
     "text": true,
@@ -6637,35 +6366,6 @@
    "tier": "cheap",
    "cost_in": 1.25e-06,
    "cost_out": 1e-05,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5.1:batch",
-   "name": "OpenAI: GPT-5.1 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 6.25e-07,
-   "cost_out": 5e-06,
    "context_length": 400000,
    "modalities": {
     "text": true,
@@ -7265,35 +6965,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5-pro:batch",
-   "name": "OpenAI: GPT-5 Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 7.5e-06,
-   "cost_out": 6e-05,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5 Pro is OpenAI\u2019s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "z-ai/glm-4.6",
    "name": "Z.ai: GLM 4.6",
    "provider": "z-ai",
@@ -7576,36 +7247,6 @@
    "expires_in_days": null,
    "direct_key": false,
    "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5-codex:batch",
-   "name": "OpenAI: GPT-5 Codex (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 6.25e-07,
-   "cost_out": 5e-06,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "vision",
-    "coder",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks....",
    "usable": true,
    "quality_source": "heuristic"
   },
@@ -7921,6 +7562,35 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "mistralai/mistral-medium-3.1:batch",
+   "name": "Mistral: Mistral Medium 3.1 (batch)",
+   "provider": "mistralai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 4e-07,
+   "cost_out": 2e-06,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances...",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
    "id": "z-ai/glm-4.5v",
    "name": "Z.ai: GLM 4.5V",
    "provider": "z-ai",
@@ -7942,7 +7612,7 @@
    "rate_limit": null,
    "expiration": "2026-12-31",
    "expiring_soon": false,
-   "expires_in_days": 126,
+   "expires_in_days": 125,
    "direct_key": false,
    "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications. Built on a Mixture-of-Experts (MoE) architecture with 106B parameters and 12B activated parameters, it achieves state-of-the-art results in video understanding,...",
    "usable": true,
@@ -7956,35 +7626,6 @@
    "tier": "cheap",
    "cost_in": 1.25e-06,
    "cost_out": 1e-05,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5 is OpenAI\u2019s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5:batch",
-   "name": "OpenAI: GPT-5 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 6.25e-07,
-   "cost_out": 5e-06,
    "context_length": 400000,
    "modalities": {
     "text": true,
@@ -8036,35 +7677,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5-mini:batch",
-   "name": "OpenAI: GPT-5 Mini (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1.25e-07,
-   "cost_out": 1e-06,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost....",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-5-nano",
    "name": "OpenAI: GPT-5 Nano",
    "provider": "openai",
@@ -8072,35 +7684,6 @@
    "tier": "cheap",
    "cost_in": 5e-08,
    "cost_out": 4e-07,
-   "context_length": 400000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-5-nano:batch",
-   "name": "OpenAI: GPT-5 Nano (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 2.5e-08,
-   "cost_out": 2e-07,
    "context_length": 400000,
    "modalities": {
     "text": true,
@@ -8266,6 +7849,35 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "mistralai/codestral-2508:batch",
+   "name": "Mistral: Codestral 2508 (batch)",
+   "provider": "mistralai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 3e-07,
+   "cost_out": 9e-07,
+   "context_length": 256000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "coder",
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
    "id": "qwen/qwen3-coder-30b-a3b-instruct",
    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
    "provider": "qwen",
@@ -8344,7 +7956,7 @@
    "rate_limit": null,
    "expiration": "2026-12-31",
    "expiring_soon": false,
-   "expires_in_days": 126,
+   "expires_in_days": 125,
    "direct_key": false,
    "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
    "usable": true,
@@ -8920,35 +8532,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/o3-pro:batch",
-   "name": "OpenAI: o3 Pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-05,
-   "cost_out": 4e-05,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o3-pro model uses more compute to think harder and provide consistently...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "google/gemini-2.5-pro-preview",
    "name": "Google: Gemini 2.5 Pro Preview 06-05",
    "provider": "google",
@@ -9349,35 +8932,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/o4-mini-high:batch",
-   "name": "OpenAI: o4 Mini High (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 5.5e-07,
-   "cost_out": 2.2e-06,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/o3",
    "name": "OpenAI: o3",
    "provider": "openai",
@@ -9407,37 +8961,8 @@
    "aa_intelligence_index": 31.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 116.0,
-   "aa_latency": 9.1,
+   "aa_latency": 9.16,
    "quality_source": "aa"
-  },
-  {
-   "id": "openai/o3:batch",
-   "name": "OpenAI: o3 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-06,
-   "cost_out": 4e-06,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following....",
-   "usable": true,
-   "quality_source": "heuristic"
   },
   {
    "id": "openai/o4-mini",
@@ -9447,35 +8972,6 @@
    "tier": "cheap",
    "cost_in": 1.1e-06,
    "cost_out": 4.4e-06,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/o4-mini:batch",
-   "name": "OpenAI: o4 Mini (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 5.5e-07,
-   "cost_out": 2.2e-06,
    "context_length": 200000,
    "modalities": {
     "text": true,
@@ -9527,35 +9023,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-4.1:batch",
-   "name": "OpenAI: GPT-4.1 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1e-06,
-   "cost_out": 4e-06,
-   "context_length": 1047576,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-4.1-mini",
    "name": "OpenAI: GPT-4.1 Mini",
    "provider": "openai",
@@ -9585,35 +9052,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-4.1-mini:batch",
-   "name": "OpenAI: GPT-4.1 Mini (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 2e-07,
-   "cost_out": 8e-07,
-   "context_length": 1047576,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "openai/gpt-4.1-nano",
    "name": "OpenAI: GPT-4.1 Nano",
    "provider": "openai",
@@ -9621,35 +9059,6 @@
    "tier": "cheap",
    "cost_in": 1e-07,
    "cost_out": 4e-07,
-   "context_length": 1047576,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "For tasks that demand low latency, GPT\u20114.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-4.1-nano:batch",
-   "name": "OpenAI: GPT-4.1 Nano (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 5e-08,
-   "cost_out": 2e-07,
    "context_length": 1047576,
    "modalities": {
     "text": true,
@@ -9765,35 +9174,6 @@
    "tier": "cheap",
    "cost_in": 0.00015,
    "cost_out": 0.0006,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/o1-pro:batch",
-   "name": "OpenAI: o1-pro (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 7.5e-05,
-   "cost_out": 0.0003,
    "context_length": 200000,
    "modalities": {
     "text": true,
@@ -9968,7 +9348,7 @@
    "tier": "cheap",
    "cost_in": 8e-08,
    "cost_out": 4.5e-07,
-   "context_length": 262144,
+   "context_length": 131072,
    "modalities": {
     "text": true,
     "vision": true,
@@ -10157,34 +9537,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/o3-mini-high:batch",
-   "name": "OpenAI: o3 Mini High (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 5.5e-07,
-   "cost_out": 2.2e-06,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "aion-labs/aion-rp-llama-3.1-8b",
    "name": "AionLabs: Aion-RP 1.0 (8B)",
    "provider": "aion-labs",
@@ -10275,34 +9627,6 @@
    "tier": "cheap",
    "cost_in": 1.1e-06,
    "cost_out": 4.4e-06,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/o3-mini:batch",
-   "name": "OpenAI: o3 Mini (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 5.5e-07,
-   "cost_out": 2.2e-06,
    "context_length": 200000,
    "modalities": {
     "text": true,
@@ -10489,7 +9813,7 @@
    "aa_intelligence_index": 5.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 41.0,
-   "aa_latency": 2.5,
+   "aa_latency": 2.53,
    "quality_source": "aa"
   },
   {
@@ -10556,35 +9880,6 @@
    "tier": "cheap",
    "cost_in": 1.5e-05,
    "cost_out": 6e-05,
-   "context_length": 200000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/o1:batch",
-   "name": "OpenAI: o1 (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 7.5e-06,
-   "cost_out": 3e-05,
    "context_length": 200000,
    "modalities": {
     "text": true,
@@ -10888,34 +10183,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "mistralai/ministral-8b",
-   "name": "Mistral: Ministral 8B",
-   "provider": "mistralai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1.1e-07,
-   "cost_out": 1.1e-07,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "longctx"
-   ],
-   "quality": 5.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "qwen/qwen-2.5-7b-instruct",
    "name": "Qwen: Qwen2.5 7B Instruct",
    "provider": "qwen",
@@ -10938,32 +10205,6 @@
    "expires_in_days": null,
    "direct_key": false,
    "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "thedrummer/rocinante-12b",
-   "name": "TheDrummer: Rocinante 12B",
-   "provider": "thedrummer",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 2.5e-07,
-   "cost_out": 5e-07,
-   "context_length": 65536,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [],
-   "quality": 5.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "Rocinante 12B is designed for engaging storytelling and rich prose. Early testers have reported: - Expanded vocabulary with unique and expressive word choices - Enhanced creativity for vivid narratives -...",
    "usable": true,
    "quality_source": "heuristic"
   },
@@ -11385,35 +10626,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-4o-mini:batch",
-   "name": "OpenAI: GPT-4o-mini (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 7.5e-08,
-   "cost_out": 3e-07,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "google/gemma-2-27b-it",
    "name": "Google: Gemma 2 27B",
    "provider": "google",
@@ -11498,35 +10710,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-4o:batch",
-   "name": "OpenAI: GPT-4o (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 1.25e-06,
-   "cost_out": 5e-06,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as...",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "mistralai/mixtral-8x22b-instruct",
    "name": "Mistral: Mixtral 8x22B Instruct",
    "provider": "mistralai",
@@ -11586,35 +10769,6 @@
    "tier": "cheap",
    "cost_in": 1e-05,
    "cost_out": 3e-05,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 8.5,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023.",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-4-turbo:batch",
-   "name": "OpenAI: GPT-4 Turbo (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 5e-06,
-   "cost_out": 1.5e-05,
    "context_length": 128000,
    "modalities": {
     "text": true,
@@ -11772,7 +10926,7 @@
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": false,
-   "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output. To see which model was used,...",
+   "description": "The Auto Router automatically selects the best model for your prompt, powered by the wisdom of the market. It routes you based on what the OpenRouter community collectively spends on...",
    "usable": true,
    "quality_source": "heuristic"
   },
@@ -11914,32 +11068,6 @@
    "tier": "cheap",
    "cost_in": 5e-07,
    "cost_out": 1.5e-06,
-   "context_length": 16385,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "openai/gpt-3.5-turbo:batch",
-   "name": "OpenAI: GPT-3.5 Turbo (batch)",
-   "provider": "openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 2.5e-07,
-   "cost_out": 7.5e-07,
    "context_length": 16385,
    "modalities": {
     "text": true,
@@ -12932,8 +12060,8 @@
    "notes": "Routed via nvidia.",
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 114.0,
-   "aa_latency": 1.34,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.13,
    "quality_source": "aa"
   },
   {
@@ -14298,36 +13426,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "nvidia/stepfun-ai/step-3.7-flash",
-   "name": "stepfun-ai/step-3.7-flash",
-   "provider": "nvidia",
-   "home_provider": "nvidia",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 65536,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "nim",
-    "cloud",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via nvidia.",
-   "quality_source": "heuristic"
-  },
-  {
    "id": "nvidia/writer/palmyra-creative-122b",
    "name": "writer/palmyra-creative-122b",
    "provider": "nvidia",
@@ -14627,7 +13725,7 @@
    "aa_intelligence_index": 5.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 41.0,
-   "aa_latency": 2.5,
+   "aa_latency": 2.53,
    "quality_source": "aa"
   },
   {
@@ -14662,44 +13760,14 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/groq/compound",
-   "name": "groq/compound",
+   "id": "groq/allam-2-7b",
+   "name": "allam-2-7b",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
    "cost_in": 0.0,
    "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/meta-llama/llama-prompt-guard-2-22m",
-   "name": "meta-llama/llama-prompt-guard-2-22m",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 512,
+   "context_length": 4096,
    "modalities": {
     "text": true,
     "vision": false,
@@ -14713,36 +13781,6 @@
     "fast"
    ],
    "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/openai/gpt-oss-20b",
-   "name": "openai/gpt-oss-20b",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free"
-   ],
-   "quality": 8.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -14783,8 +13821,8 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/qwen/qwen3.6-27b",
-   "name": "qwen/qwen3.6-27b",
+   "id": "groq/groq/compound-mini",
+   "name": "groq/compound-mini",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
@@ -14803,7 +13841,7 @@
     "free",
     "fast"
    ],
-   "quality": 8.0,
+   "quality": 5.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -14814,14 +13852,14 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/allam-2-7b",
-   "name": "allam-2-7b",
+   "id": "groq/whisper-large-v3-turbo",
+   "name": "whisper-large-v3-turbo",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
    "cost_in": 0.0,
    "cost_out": 0.0,
-   "context_length": 4096,
+   "context_length": 448,
    "modalities": {
     "text": true,
     "vision": false,
@@ -14876,8 +13914,99 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "groq/canopylabs/orpheus-v1-english",
+   "name": "canopylabs/orpheus-v1-english",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 4000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
    "id": "groq/openai/gpt-oss-safeguard-20b",
    "name": "openai/gpt-oss-safeguard-20b",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/groq/compound",
+   "name": "groq/compound",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/openai/gpt-oss-20b",
+   "name": "openai/gpt-oss-20b",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
@@ -14937,14 +14066,14 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/whisper-large-v3-turbo",
-   "name": "whisper-large-v3-turbo",
+   "id": "groq/meta-llama/llama-prompt-guard-2-22m",
+   "name": "meta-llama/llama-prompt-guard-2-22m",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
    "cost_in": 0.0,
    "cost_out": 0.0,
-   "context_length": 448,
+   "context_length": 512,
    "modalities": {
     "text": true,
     "vision": false,
@@ -14970,68 +14099,6 @@
   {
    "id": "groq/canopylabs/orpheus-arabic-saudi",
    "name": "canopylabs/orpheus-arabic-saudi",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 4000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/groq/compound-mini",
-   "name": "groq/compound-mini",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/canopylabs/orpheus-v1-english",
-   "name": "canopylabs/orpheus-v1-english",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
@@ -15092,14 +14159,14 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "openai/gpt-5.6-luna",
-   "name": "gpt-5.6-luna",
-   "provider": "openai",
-   "home_provider": "openai",
-   "tier": "paid",
+   "id": "groq/qwen/qwen3.6-27b",
+   "name": "qwen/qwen3.6-27b",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
    "cost_in": 0.0,
    "cost_out": 0.0,
-   "context_length": 128000,
+   "context_length": 131072,
    "modalities": {
     "text": true,
     "vision": false,
@@ -15107,18 +14174,19 @@
     "file": false
    },
    "tags": [
-    "openai",
+    "groq",
     "cloud",
-    "premium"
+    "free",
+    "fast"
    ],
-   "quality": 9.5,
+   "quality": 8.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": true,
    "usable": true,
-   "notes": "Routed via openai.",
+   "notes": "Routed via groq.",
    "quality_source": "heuristic"
   },
   {
@@ -15671,7 +14739,7 @@
    "aa_intelligence_index": 31.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 116.0,
-   "aa_latency": 9.1,
+   "aa_latency": 9.16,
    "quality_source": "aa"
   },
   {
@@ -17373,6 +16441,36 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "openai/gpt-5.6-luna",
+   "name": "gpt-5.6-luna",
+   "provider": "openai",
+   "home_provider": "openai",
+   "tier": "paid",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 128000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "openai",
+    "cloud",
+    "premium"
+   ],
+   "quality": 9.5,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via openai.",
+   "quality_source": "heuristic"
+  },
+  {
    "id": "cloudflare/@cf/openai/gpt-oss-120b",
    "name": "gpt-oss-120b",
    "provider": "cloudflare",
@@ -17652,7 +16750,7 @@
    "aa_intelligence_index": 57.0,
    "aa_blended_usd_1m": 0.09,
    "aa_median_tok_s": 50.0,
-   "aa_latency": 1.47,
+   "aa_latency": 1.49,
    "quality_source": "aa"
   },
   {
@@ -17924,7 +17022,7 @@
     "free",
     "fast"
    ],
-   "quality": 35.0,
+   "quality": 5.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -17932,11 +17030,7 @@
    "direct_key": true,
    "usable": true,
    "notes": "Routed via cloudflare.",
-   "aa_intelligence_index": 35.0,
-   "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 101.0,
-   "aa_latency": 2.08,
-   "quality_source": "aa"
+   "quality_source": "heuristic"
   },
   {
    "id": "cloudflare/@cf/nvidia/nemotron-3-120b-a12b",
@@ -18551,6 +17645,36 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "cerebras/gpt-oss-120b",
+   "name": "gpt-oss-120b",
+   "provider": "cerebras",
+   "home_provider": "cerebras",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 128000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "cerebras",
+    "cloud",
+    "free"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via cerebras.",
+   "quality_source": "heuristic"
+  },
+  {
    "id": "cerebras/gemma-4-31b",
    "name": "gemma-4-31b",
    "provider": "cerebras",
@@ -18572,36 +17696,6 @@
     "fast"
    ],
    "quality": 6.5,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via cerebras.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "cerebras/gpt-oss-120b",
-   "name": "gpt-oss-120b",
-   "provider": "cerebras",
-   "home_provider": "cerebras",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "cerebras",
-    "cloud",
-    "free"
-   ],
-   "quality": 8.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -19198,6 +18292,36 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "nebius/nvidia/Nemotron-3_5-Lightning",
+   "name": "nvidia/Nemotron-3_5-Lightning",
+   "provider": "nebius",
+   "home_provider": "nebius",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 128000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "nebius",
+    "cloud",
+    "free"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via nebius.",
+   "quality_source": "heuristic"
+  },
+  {
    "id": "nebius/openbmb/MiniCPM-V-4_5",
    "name": "openbmb/MiniCPM-V-4_5",
    "provider": "nebius",
@@ -19383,36 +18507,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "nebius/nvidia/Nemotron-3_5-Lightning",
-   "name": "nvidia/Nemotron-3_5-Lightning",
-   "provider": "nebius",
-   "home_provider": "nebius",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "nebius",
-    "cloud",
-    "free"
-   ],
-   "quality": 8.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via nebius.",
-   "quality_source": "heuristic"
-  },
-  {
    "id": "nebius/deepseek-ai/DeepSeek-V4-Flash",
    "name": "deepseek-ai/DeepSeek-V4-Flash",
    "provider": "nebius",
@@ -19474,8 +18568,8 @@
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 114.0,
-   "aa_latency": 1.34,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.13,
    "quality_source": "aa"
   },
   {
@@ -19710,7 +18804,7 @@
     "cloud",
     "free"
    ],
-   "quality": 35.0,
+   "quality": 5.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -19718,11 +18812,7 @@
    "direct_key": true,
    "usable": true,
    "notes": "Routed via nebius.",
-   "aa_intelligence_index": 35.0,
-   "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 101.0,
-   "aa_latency": 2.08,
-   "quality_source": "aa"
+   "quality_source": "heuristic"
   },
   {
    "id": "nebius/moonshotai/Kimi-K3",
@@ -20517,8 +19607,8 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 45.0,
    "aa_blended_usd_1m": 0.14,
-   "aa_median_tok_s": 114.0,
-   "aa_latency": 1.34,
+   "aa_median_tok_s": 108.0,
+   "aa_latency": 1.13,
    "quality_source": "aa"
   },
   {
@@ -20799,7 +19889,7 @@
     "awesome-freellm-apis",
     "fast"
    ],
-   "quality": 24.0,
+   "quality": 30.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -20807,10 +19897,10 @@
    "direct_key": true,
    "usable": true,
    "notes": "Routed via freellm.",
-   "aa_intelligence_index": 24.0,
-   "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 98.0,
-   "aa_latency": 0.77,
+   "aa_intelligence_index": 30.0,
+   "aa_blended_usd_1m": 0.22,
+   "aa_median_tok_s": 119.0,
+   "aa_latency": 17.17,
    "quality_source": "aa"
   },
   {
@@ -20877,8 +19967,8 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 46.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 136.0,
-   "aa_latency": 67.44,
+   "aa_median_tok_s": 123.0,
+   "aa_latency": 65.51,
    "quality_source": "aa"
   },
   {
@@ -21031,7 +20121,7 @@
     "awesome-freellm-apis",
     "fast"
    ],
-   "quality": 24.0,
+   "quality": 30.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -21039,10 +20129,10 @@
    "direct_key": true,
    "usable": true,
    "notes": "Routed via freellm.",
-   "aa_intelligence_index": 24.0,
-   "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 98.0,
-   "aa_latency": 0.77,
+   "aa_intelligence_index": 30.0,
+   "aa_blended_usd_1m": 0.22,
+   "aa_median_tok_s": 119.0,
+   "aa_latency": 17.17,
    "quality_source": "aa"
   },
   {

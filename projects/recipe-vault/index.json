@@ -1540,6 +1540,20 @@
    "size": 1200
   },
   {
+   "cuisines": [
+    "thai"
+   ],
+   "types": [
+    "main"
+   ],
+   "methods": [
+    "stir-fry"
+   ],
+   "name": "Thai Fried Rice",
+   "file": "recipes/thai-fried-rice-woks-of-life.md",
+   "url": "https://thewoksoflife.com/thai-fried-rice/"
+  },
+  {
    "name": "Pineapple Upside Down Cake",
    "file": "recipes/easy_pineapple_upside-down_cake.md",
    "cuisines": [],

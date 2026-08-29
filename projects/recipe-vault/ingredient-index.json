@@ -39,7 +39,8 @@
   "Slow Cooker Posole",
   "Spaghetti Pie",
   "Thai Cashew Chicken",
-  "Thai Clams"
+  "Thai Clams",
+  "Thai Fried Rice"
  ],
  "soy sauce": [
   "Beef Satay with Thai Peanut Sauce",
@@ -74,6 +75,7 @@
   "Thai Basil Chicken (Pad Krapow Gai)",
   "Thai Basil Chicken Stir Fry",
   "Thai Basil Squid",
+  "Thai Fried Rice",
   "Thai Red Curry Pot Roast Chicken"
  ],
  "dark soy sauce": [
@@ -375,6 +377,7 @@
   "Key Lime Cheesecake {No-Cracking!}",
   "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
   "Spicy Firecracker Beef",
+  "Thai Fried Rice",
   "White Chocolate Raspberry Truffle Cheesecake"
  ],
  "oil for shallow frying": [
@@ -406,6 +409,7 @@
   "Thai Basil Chicken Stir Fry",
   "Thai Chicken Lettuce Cups (Larb Gai / Laab Gai)",
   "Thai Clams",
+  "Thai Fried Rice",
   "Thai Red Curry",
   "Tom Kha Soup (Thai Coconut Chicken Soup)",
   "Vietnamese Coconut Caramel Chicken"
@@ -440,7 +444,8 @@
   "Chinese Cashew Chicken",
   "Crispy Sticky Mongolian Beef",
   "Pad Kee Mao (Thai Drunken Noodles)",
-  "Thai Basil Chicken Stir Fry"
+  "Thai Basil Chicken Stir Fry",
+  "Thai Fried Rice"
  ],
  "sesame oil": [
   "Chicken Broccoli Stir Fry",
@@ -794,6 +799,7 @@
   "Overnight Strawberry Cream Cheese Sweet Rolls",
   "Peanut Butter Cup Cheesecake with Chocolate Cookie Crust",
   "Raspberry Cheesecake",
+  "Thai Fried Rice",
   "The Best Carrot Cake Recipe Ever",
   "Turtle Cheesecake"
  ],
@@ -1486,6 +1492,7 @@
   "Pad Kee Mao (Thai Drunken Noodles)",
   "Pressure Cooker Kielbasa and Sauerkraut",
   "Quick Asian Caramelised Beef Ramen Noodles",
+  "Thai Fried Rice",
   "Venison Steak with Wild Rice Pilaf"
  ],
  "cups  low-sodium beef stock": [
@@ -1783,6 +1790,7 @@
  "white pepper": [
   "Chicken Chow Mein",
   "Thai Fish Curry",
+  "Thai Fried Rice",
   "Vietnamese Coconut Caramel Chicken"
  ],
  "shallot": [
@@ -2910,7 +2918,8 @@
   "Chicken Pad Thai"
  ],
  "scallion": [
-  "Chicken Pad Thai"
+  "Chicken Pad Thai",
+  "Thai Fried Rice"
  ],
  "**pad thai sauce:** 3 1/2 tbsp fish sauce": [
   "Chicken Pad Thai"
@@ -3148,6 +3157,43 @@
  ],
  "**salad:** 6 cups baby greens": [
   "Harvest Apple Salad"
+ ],
+ "ounces boneless pork shoulder or pork butt": [
+  "Thai Fried Rice"
+ ],
+ "neutral oil": [
+  "Thai Fried Rice"
+ ],
+ "cooked thai jasmine rice": [
+  "Thai Fried Rice"
+ ],
+ "chop one or more for extra heat": [
+  "Thai Fried Rice"
+ ],
+ "red bell pepper or another sweet red pepper": [
+  "Thai Fried Rice"
+ ],
+ "chinese broccoli": [
+  "Crispy Shredded Chicken Noodle Stir Fry",
+  "Thai Fried Rice"
+ ],
+ "s neutral oil": [
+  "Thai Fried Rice"
+ ],
+ "ime": [
+  "Thai Fried Rice"
+ ],
+ "hot water": [
+  "Thai Fried Rice"
+ ],
+ "palm sugar or dark brown sugar": [
+  "Thai Fried Rice"
+ ],
+ "s fish sauce": [
+  "Thai Fried Rice"
+ ],
+ "thai black soy sauce": [
+  "Thai Fried Rice"
  ],
  "**topping:** 1/4 cup melted butter": [
   "Pineapple Upside Down Cake"
@@ -3952,9 +3998,6 @@
   "Crispy Shredded Chicken Noodle Stir Fry"
  ],
  "braising liquid": [
-  "Crispy Shredded Chicken Noodle Stir Fry"
- ],
- "chinese broccoli": [
   "Crispy Shredded Chicken Noodle Stir Fry"
  ],
  "to 2 pounds skinless firm fish": [
