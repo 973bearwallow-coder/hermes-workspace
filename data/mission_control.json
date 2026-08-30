@@ -1,0 +1,44 @@
+{
+  "contact": {
+    "voice_url": "https://charles-1.taila0a481.ts.net:8443/",
+    "telegram_url": "https://web.telegram.org/a/"
+  },
+  "apps": [
+    {
+      "id": "atlas-voice",
+      "name": "Atlas Voice",
+      "description": "Talk naturally with Atlas using your microphone.",
+      "url": "https://charles-1.taila0a481.ts.net:8443/",
+      "health_url": "http://127.0.0.1:22600/health",
+      "icon": "mic",
+      "featured": true
+    },
+    {
+      "id": "amy",
+      "name": "Amy",
+      "description": "Open Amy's dedicated voice interface.",
+      "url": "https://charles-1.taila0a481.ts.net/",
+      "health_url": "http://127.0.0.1:8899/api/health",
+      "icon": "spark",
+      "featured": true
+    },
+    {
+      "id": "moa-board",
+      "name": "Agents & MoA Board",
+      "description": "Plan work and see which specialist agents are selected.",
+      "url": "http://100.115.214.128:8770/",
+      "health_url": "http://127.0.0.1:8770/api/status",
+      "icon": "agents",
+      "featured": true
+    },
+    {
+      "id": "agent-builds",
+      "name": "Agent Builds",
+      "description": "Open finished pages and tools produced by the agent team.",
+      "url": "http://100.115.214.128:8770/builds",
+      "health_url": "http://127.0.0.1:8770/builds",
+      "icon": "build",
+      "featured": false
+    }
+  ]
+}
