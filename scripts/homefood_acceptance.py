@@ -38,7 +38,7 @@ def main() -> int:
 
     skills = orchestra.get("skills", [])
     missing = [s for s in skills if not (PROFILE / "skills" / s / "SKILL.md").exists()]
-    results.append(check("assigned_skills", len(skills) == 11 and not missing,
+    results.append(check("assigned_skills", len(skills) == 12 and not missing,
                          f"assigned={len(skills)} missing={missing}"))
 
     inventory = {"chicken_lb": 1.5, "rice_cups": 2, "onion": 1}

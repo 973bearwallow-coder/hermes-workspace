@@ -10,7 +10,7 @@ ROOT = Path("/home/tom/hermes-workspace/scripts")
 SPECIALISTS = {
     "Charles Systems": ("charlesops", "charlesops_health.py"),
     "Research Scout": ("researchscout", "researchscout_web_stack_test.py"),
-    "Developer": ("developer", None),
+    "Developer": ("developer", "developer_acceptance.py"),
     "Memory Librarian": ("memorylibrarian", "memorylibrarian_benchmark.py"),
     "Communications Secretary": ("secretary", "secretary_workflow_test.py"),
     "Media Studio": ("mediastudio", "mediastudio_acceptance.py"),

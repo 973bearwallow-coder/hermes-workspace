@@ -1,0 +1,36 @@
+Controlled orchestra exercise: local video candidate
+Date: 2026-08-30
+Candidate: Tencent HunyuanVideo-1.5, 480p I2V step-distilled
+Upstream revision inspected: 60783e704160023913bee78f0b47036d393d4dfa
+Quarantine: /home/tom/hermes-workspace/skills/quarantine/HunyuanVideo-1.5
+
+Research Scout
+Official sources describe an 8.3B T2V/I2V model, minimum 14 GB VRAM with offload, and an 8/12-step 480p I2V variant reported at about 75 seconds on an RTX 4090. It has official source, weights, Diffusers and ComfyUI paths. License permits use in Virginia but excludes the EU, UK and South Korea, restricts use of outputs to improve other AI models, and imposes disclosure/acceptable-use conditions. Vendor performance and quality claims remain unverified locally.
+
+Comparative gate
+It is more practical on this 24 GB GPU than LTX-2.5, whose published requirements and roughly 66 GiB checkpoint make it a poor fit for current free storage and coexistence. HunyuanVideo-1.5 does not provide native synchronized audio conditioning, so it does not directly satisfy Tom's preferred talking-video path. It remains potentially useful for general I2V and motion tests.
+
+Developer
+The upstream repository was downloaded to quarantine and never executed. Review found optional network prompt-rewrite clients, distributed socket setup, training code, and many unnecessary dependencies for the target test. Rather than execute it, Developer created a minimal approved preflight harness and unit tests in /home/tom/hermes-workspace/experiments/hunyuanvideo15. No model weights or Python packages were installed.
+
+Charles Systems
+Observed host: NVIDIA GeForce RTX 3090, 24,576 MiB total VRAM. At the recorded harness preflight, 22,573 MiB was occupied and nvidia-smi reported only 1,543 MiB free. Home filesystem had 99.31 GiB free. The candidate's minimum is 14 GB free VRAM, so coexistence with the currently loaded local model fails. No model was unloaded and no active service was restarted. Thermal/power sample was 52 C and 15.21 W. Operational benchmark is blocked until a bounded maintenance window or a separate GPU is available.
+
+Media Studio
+Creative output was not generated, so visual quality, motion coherence, face identity, artifact rate, and production usefulness are unverified. Existing durable baseline says prior Wan expression editing produced unacceptable identity drift and that human full-clip playback is authoritative. Candidate is NOT READY for production use.
+
+Business Operations
+Possible value: faster low-cost local general I2V drafts and coaching/marketing B-roll without quota fees. Commercial promotion is premature because local quality is unverified and the license adds geographic and disclosure constraints. Lack of native audio conditioning limits talking-presenter value.
+
+Memory Librarian
+Durable conclusion only: HunyuanVideo-1.5 is a technically plausible 24 GB general-video candidate, but current GPU coexistence fails and it does not meet the native-audio requirement. Preserve source revision, license caveats, and measured resource state; do not preserve vendor quality claims as facts.
+
+Atlas recommendation
+DEFER, do not promote or download weights now. The orchestra handoffs and approval boundaries worked: research narrowed candidates, code stayed quarantined, the harness was isolated, systems blocked unsafe contention, creative and business roles did not overclaim, and memory retained only sourced conclusions. Reconsider HunyuanVideo-1.5 for a scheduled isolated I2V benchmark. Continue scouting a smaller native-audio-conditioned model as the more relevant talking-video candidate.
+
+Sources
+https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
+https://huggingface.co/tencent/HunyuanVideo-1.5
+https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo-1.5/main/LICENSE
+https://github.com/Lightricks/LTX-2
+https://huggingface.co/Lightricks/LTX-2

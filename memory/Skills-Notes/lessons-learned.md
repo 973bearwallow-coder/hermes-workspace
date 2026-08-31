@@ -1,5 +1,5 @@
 # Lessons Learned — Corrections & Recurring Pitfalls
-_Moved from MEMORY.md / USER.md during weekly consolidation (2026-07-19)._
+_Moved from MEMORY.md / USER.md during weekly consolidation (2026-07-19)._ 
 
 ## Verify before quoting (2026-07-18 correction)
 - Tom corrected my recipe-vault count — I said 611, truth was ~217. He trusts his own estimates ('in the 300s') over stale skill notes.
@@ -34,3 +34,8 @@ _Moved from MEMORY.md / USER.md during weekly consolidation (2026-07-19)._
 - Favor exact copy-paste commands when guiding remote setup on another machine.
 - Keep the memory system bulletproof: smoke tests, self-heal checks, and explicit verification.
 - Prefer autonomous hardening and skeptical verification over hype or assumptions.
+
+## 2026-08-30: recent hardening lessons
+- A curl exit 28 can still return a complete JSON payload; if the output file says `done:true`, inspect the file before blaming the model or VRAM.
+- The phrase `Supply it` is a non-authorizing near miss; the safer clarification is `Did you mean 'Apply it'?`
+- Exact `Apply it` remains the authorization trigger; unrelated or foreign-language phrases do not grant authority.

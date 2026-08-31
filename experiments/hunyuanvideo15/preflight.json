@@ -1,0 +1,23 @@
+{
+  "candidate": "HunyuanVideo-1.5 480p I2V step-distilled",
+  "observed_at_epoch": 1788126592.371569,
+  "preflight": {
+    "ready": false,
+    "reasons": [
+      "less than 14 GiB free VRAM; coexistence gate failed",
+      "model directory absent"
+    ],
+    "disk_free_gib": 99.31,
+    "gpu": {
+      "ok": true,
+      "name": "NVIDIA GeForce RTX 3090",
+      "memory_total_mib": 24576,
+      "memory_used_mib": 22573,
+      "memory_free_mib": 1543,
+      "temperature_c": 52,
+      "power_w": 15.21
+    },
+    "model_dir": "/home/tom/hermes-workspace/experiments/hunyuanvideo15/models/HunyuanVideo-1.5",
+    "output_dir": "/home/tom/hermes-workspace/experiments/hunyuanvideo15/outputs"
+  }
+}

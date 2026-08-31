@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-08-30T22:20:10.424261+00:00",
+  "overall": "PASS",
+  "validators": {
+    "charlesops": {
+      "exit_code": 0,
+      "stdout": "{\n  \"classification\": {\n    \"failed_service\": false,\n    \"low_disk\": false,\n    \"model_fallback_needed\": false,\n    \"post_reboot_recovery_needed\": false,\n    \"tailscale_problem\": false\n  },\n  \"host_checks\": {\n    \"backup_paths\": [\n      \"/home/tom/hermes-backups\"\n    ],\n    \"boot_age_seconds\": 975619.06,\n    \"disk_used_pct\": 84.1,\n    \"gpu\": {\n      \"err\": \"\",\n      \"out\": \"NVIDIA GeForce RTX 3090, 22654 MiB, 24576 MiB, 50\",\n      \"rc\": 0\n    },\n    \"ollama\": {\n      \"err\": \"\",\n      \"out\": \"NAME                                     ID              SIZE      MODIFIED     \\ngemma2:2b                                8ccf136fdd52    1.6 GB    5 weeks ago     \\nllama3.2:1b                              baf6a787fdff    1.3 GB    5 weeks ago     \\nqwen3:4b                                 359d7dd4bcda    2.5 GB    6 weeks ago     \\nornith-1.0-9b:latest                     6d40e6ebf8cc    5.6 GB    8 weeks ago     \\nhf.co/unsloth/Qwen3.6-27B-GGUF:Q4_K_M    25cf394c8747    17 GB     2 months ago    \\nllama3.2-vision:11b                      6f2f9757ae97    7.8 GB    2 months ago    \\nqwen2:72b                                93563ef658b2    41 GB     3 months ago    \\nmistral-nemo:latest                      e7e06d107c6c    7.1 GB    3 months ago    \\ngemma4:31b                               6316f0629137    19 GB     3 months ago    \\ngemma4:26b                               5571076f3d70    17 GB     3 months ago    \\nqwen-64k:latest                          39daa52f93c0    9.0 GB    3 months ago    \\nmistral-64k:latest                       de408a8cbacd    14 GB     3 months ago    \\nmistral-small:24b                        8039dd90c113    14 GB     3 months ago    \\nqwen3-64k:latest                         f423879f0ab1    18 GB     3 months ago    \\nqwen3:30b-a3b                            ad815644918f    18 GB     3 months ago    \\nqwen2.5:14b                              7cdf5a0187d5    9.0 GB    3 months ago    \\ngemma2:27b                               53261bc9c192    15 GB     3 months ago    \\nqwen2.5:7b                               845dbda0ea48    4.7 GB    3 months ago    \\nnomic-embed-text:latest                  0a109f422b47    274 MB    4 months ago    \\nllama3.2:3b                              a80c4f17acd5    2.0 GB    4 months ago\",\n      \"rc\": 0\n    },\n    \"services\": {\n      \"hermes-gateway.service\": {\n        \"err\": \"\",\n        \"out\": \"active\",\n        \"rc\": 0\n      },\n      \"openclaw.service\": {\n        \"err\": \"\",\n        \"out\": \"inactive\",\n        \"rc\": 4\n      }\n    },\n    \"tailscale_rc\": 0\n  },\n  \"timestamp\": 1788128406\n}",
+      "stderr": "",
+      "passed": null,
+      "total": null,
+      "suite": null
+    },
+    "researchscout": {
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"tool\": \"direct_http\",\n    \"ok\": true\n  },\n  {\n    \"tool\": \"scrapling\",\n    \"ok\": true,\n    \"stdout\": \"ok\",\n    \"stderr\": \"[2026-08-30 18:20:06] INFO: Fetched (200) <GET https://example.com/> (referer: https://www.google.com/)\"\n  },\n  {\n    \"tool\": \"playwright\",\n    \"ok\": true,\n    \"stdout\": \"ok\",\n    \"stderr\": \"\"\n  },\n  {\n    \"tool\": \"scrapy\",\n    \"ok\": true,\n    \"stdout\": \"2.16.0\",\n    \"stderr\": \"\"\n  },\n  {\n    \"tool\": \"crawlee\",\n    \"ok\": true,\n    \"stdout\": \"awler:\\u001b[39m Final request statistics:\\u001b[90m {\\\"requestsFinished\\\":1,\\\"requestsFailed\\\":0,\\\"retryHistogram\\\":[1],\\\"requestAvgFailedDurationMillis\\\":null,\\\"requestAvgFinishedDurationMillis\\\":202,\\\"requestsFinishedPerMinute\\\":218,\\\"requestsFailedPerMinute\\\":0,\\\"requestTotalDurationMillis\\\":202,\\\"requestsTotal\\\":1,\\\"crawlerRuntimeMillis\\\":275}\\u001b[39m\\n\\u001b[32mINFO\\u001b[39m \\u001b[33m CheerioCrawler:\\u001b[39m Finished! Total 1 requests: 1 succeeded, 0 failed.\\u001b[90m {\\\"terminal\\\":true}\\u001b[39m\\n{\\\"tool\\\":\\\"crawlee\\\",\\\"ok\\\":true,\\\"title\\\":\\\"Example Domain\\\"}\",\n    \"stderr\": \"\"\n  },\n  {\n    \"tool\": \"kimi_status\",\n    \"ok\": true,\n    \"stdout\": \":\\\"/home/tom/.claude/skills/kimi-webbridge\\\",\\\"version\\\":\\\"unknown\\\"},{\\\"agent\\\":\\\"Codex\\\",\\\"path\\\":\\\"/home/tom/.codex/skills/kimi-webbridge\\\",\\\"version\\\":\\\"unknown\\\"},{\\\"agent\\\":\\\"OpenClaw\\\",\\\"path\\\":\\\"/home/tom/.openclaw/skills/kimi-webbridge\\\",\\\"version\\\":\\\"unknown\\\"}],\\\"uptime_seconds\\\":99891,\\\"version\\\":\\\"v1.11.6\\\",\\\"version_mismatch\\\":{\\\"daemon\\\":\\\"v1.11.6\\\",\\\"extension\\\":\\\"1.9.7\\\",\\\"message\\\":\\\"daemon v1.11.6 does not match extension v1.9.7 \\u2014 commands may behave inconsistently across versions\\\",\\\"command\\\":\\\"kimi-webbridge upgrade v1.9.7\\\"}}\",\n    \"stderr\": \"\"\n  }\n]",
+      "stderr": ""
+    },
+    "developer": {
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": 6,\n  \"production_repositories_modified\": 0,\n  \"results\": [\n    {\n      \"detail\": \"TDD, Git, deployment, delegation, interface, and evidence rules present\",\n      \"name\": \"policy_contract\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"assigned=14 missing=[]\",\n      \"name\": \"assigned_skills\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"returncode=0; unittest=OK\",\n      \"name\": \"isolated_code_and_test_execution\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"only the two declared temporary fixture files were created\",\n      \"name\": \"artifact_scope\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"allowed=['edit_scoped_code'] blocked=['change_production_config', 'force_push', 'publish_release']\",\n      \"name\": \"consequential_action_gate\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"cross-domain work returns to Atlas\",\n      \"name\": \"cross_domain_escalation\",\n      \"passed\": true\n    }\n  ],\n  \"suite\": \"developer_acceptance\",\n  \"temporary_artifacts_removed_on_exit\": true,\n  \"total\": 6,\n  \"zero_external_writes\": true\n}",
+      "stderr": "",
+      "passed": 6,
+      "total": 6,
+      "suite": "developer_acceptance"
+    },
+    "memorylibrarian": {
+      "exit_code": 0,
+      "stdout": "{\n  \"authoritative_provider_changed\": false,\n  \"benchmark_version\": \"1.0.0\",\n  \"cases\": [\n    {\n      \"case\": \"orchid\",\n      \"hit\": true,\n      \"provenance\": true,\n      \"returned\": 1\n    },\n    {\n      \"case\": \"route\",\n      \"hit\": true,\n      \"provenance\": true,\n      \"returned\": 2\n    },\n    {\n      \"case\": \"date\",\n      \"hit\": true,\n      \"provenance\": true,\n      \"returned\": 3\n    },\n    {\n      \"case\": \"distractor\",\n      \"hit\": true,\n      \"provenance\": true,\n      \"returned\": 2\n    }\n  ],\n  \"cleanup\": \"temporary databases automatically removed\",\n  \"contradictions\": 0,\n  \"distinct_database_paths\": true,\n  \"false_positives\": 0,\n  \"isolation_passed\": true,\n  \"latency_ms\": 215.51,\n  \"passed\": true,\n  \"precision\": 1.0,\n  \"provenance_coverage\": 1.0,\n  \"recall\": 1.0\n}",
+      "stderr": "",
+      "passed": true,
+      "total": null,
+      "suite": null
+    },
+    "secretary": {
+      "exit_code": 0,
+      "stdout": "{\n  \"external_writes\": 0,\n  \"fixture\": \"sanitized in-memory simulation\",\n  \"passed\": true,\n  \"sender_default\": \"atlastomsai@gmail.com\",\n  \"tests\": {\n    \"ambiguous_recipient\": true,\n    \"attachment_mismatch\": true,\n    \"dangerous_reply_all\": true,\n    \"duplicate_event\": true,\n    \"exact_signature\": true,\n    \"post_write_verification\": true,\n    \"timezone_conversion\": true\n  }\n}",
+      "stderr": "",
+      "passed": true,
+      "total": null,
+      "suite": null
+    },
+    "mediastudio": {
+      "exit_code": 0,
+      "stdout": "{\n  \"external_writes\": 0,\n  \"passed\": true,\n  \"production_assets_modified\": 0,\n  \"sample_metadata\": {\n    \"audio\": {\n      \"format\": {\n        \"duration\": \"1.000000\"\n      },\n      \"programs\": [],\n      \"stream_groups\": [],\n      \"streams\": [\n        {\n          \"channels\": 1,\n          \"codec_name\": \"pcm_s16le\",\n          \"codec_type\": \"audio\",\n          \"index\": 0,\n          \"sample_rate\": \"48000\"\n        }\n      ]\n    },\n    \"image\": {\n      \"format\": {},\n      \"programs\": [],\n      \"stream_groups\": [],\n      \"streams\": [\n        {\n          \"codec_name\": \"png\",\n          \"codec_type\": \"video\",\n          \"height\": 360,\n          \"index\": 0,\n          \"width\": 640\n        }\n      ]\n    },\n    \"video\": {\n      \"format\": {\n        \"duration\": \"1.000000\"\n      },\n      \"programs\": [],\n      \"stream_groups\": [],\n      \"streams\": [\n        {\n          \"codec_name\": \"h264\",\n          \"codec_type\": \"video\",\n          \"height\": 360,\n          \"index\": 0,\n          \"width\": 640\n        },\n        {\n          \"channels\": 1,\n          \"codec_name\": \"aac\",\n          \"codec_type\": \"audio\",\n          \"index\": 1,\n          \"sample_rate\": \"48000\"\n        }\n      ]\n    }\n  },\n  \"temporary_artifacts_removed_on_exit\": true,\n  \"test_count\": 6,\n  \"tests\": {\n    \"audio_generation_and_probe\": true,\n    \"corrupt_artifact_rejected\": true,\n    \"external_publish_is_approval_gated\": true,\n    \"image_generation_and_dimensions\": true,\n    \"synthetic_voice_never_authorizes\": true,\n    \"video_composite_has_audio_and_video\": true\n  }\n}",
+      "stderr": "",
+      "passed": true,
+      "total": null,
+      "suite": null
+    },
+    "businessops": {
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"test_count\": 8,\n  \"tests\": {\n    \"decisions_not_suggestions\": true,\n    \"explicit_owner_due_only\": true,\n    \"citations_preserved\": true,\n    \"spreadsheet_total_reconciles\": true,\n    \"source_preserved\": true,\n    \"evidence_classes_distinguished\": true,\n    \"financial_and_external_actions_gated\": true,\n    \"cross_domain_work_returns_to_atlas\": true\n  },\n  \"external_writes\": 0,\n  \"authoritative_records_modified\": 0,\n  \"financial_commitments\": 0,\n  \"temporary_artifacts_removed_on_exit\": true\n}",
+      "stderr": "",
+      "passed": true,
+      "total": null,
+      "suite": null
+    },
+    "homefood": {
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": 9,\n  \"results\": [\n    {\n      \"detail\": \"food, price, location, home-safety, approval, and routing rules present\",\n      \"name\": \"policy_contract\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"assigned=12 missing=[]\",\n      \"name\": \"assigned_skills\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"only source-backed missing item={'lime': 2}\",\n      \"name\": \"inventory_first\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"scaled quantities={'chicken_lb': 3.0, 'broth_cups': 4.5}; restrictions remain explicit inputs\",\n      \"name\": \"recipe_scaling\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"equivalent unit comparison={'A': 3.0, 'B': 4.5}\",\n      \"name\": \"unit_price_integrity\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"{'the farm': 'West Augusta, Virginia', 'default': 'Fairfax County, Virginia'}\",\n      \"name\": \"location_resolution\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"hazardous electrical/bypass request stopped for qualified professional\",\n      \"name\": \"home_safety_boundary\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"allowed=['draft_list'] blocked=['change_thermostat', 'hire_contractor', 'place_order', 'send_message']\",\n      \"name\": \"consequential_action_gate\",\n      \"passed\": true\n    },\n    {\n      \"detail\": \"generated artifact parsed; authoritative fixture unchanged\",\n      \"name\": \"artifact_and_source_integrity\",\n      \"passed\": true\n    }\n  ],\n  \"suite\": \"homefood_acceptance\",\n  \"total\": 9,\n  \"zero_external_writes\": true,\n  \"zero_purchases_or_bookings\": true\n}",
+      "stderr": "",
+      "passed": 9,
+      "total": 9,
+      "suite": "homefood_acceptance"
+    }
+  }
+}

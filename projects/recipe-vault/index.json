@@ -2781,6 +2781,21 @@
    "file": "recipes/tipsy-strawberries-nickstellino.md"
   },
   {
+   "types": [
+    "marinade",
+    "condiment"
+   ],
+   "methods": [
+    "no-cook"
+   ],
+   "name": "Quick Steak Tenderizer",
+   "file": "recipes/quick-steak-tenderizer.md",
+   "cuisines": [
+    "american"
+   ],
+   "has_full_content": true
+  },
+  {
    "name": "Chicken with Creamy Sun Dried Tomato Sauce",
    "file": "recipes/chicken_with_creamy_sun_dried_tomato_sauce.md",
    "cuisines": [
