@@ -112,6 +112,24 @@ accurately, $0.00, 2893 video tokens processed.
 - Keep shared memory bridge as core (DONE — already built)
 - AI Builders Guild (Rick's, 65+ members) = mastermind for joint builds; Fathom archived w/ clickable transcript
 
+## Coaching Call — Coaching Calls (2026-08-31, 182 min)
+
+**Status:** ✅ Fathom recap extracted → `coaching-digests/2026-08-31-coaching-calls.md`
+
+### Apply now
+- **D1 Strategy before execution:** define goals, architecture, constraints, acceptance criteria, and tests in a strategic planning pass before handing implementation to a coding agent. This directly validates the Atlas (strategy) → Charles (execution) split. ✅
+- **D2 Independent code audit:** AI-generated code should receive a second-agent review for dead code, security, regressions, and requirement coverage. ✅
+- **D3 Sustained-use economics:** avoid metered builder credits for production when a local or predictable subscription path exists; the recap cited roughly $7 per build after included credits. ✅
+
+### Investigate before adoption
+- **R1 “GrokBot VPS”:** the call attributed an 8-CPU/16-GB remote environment and large cost savings to this name, but an exact-product public search returned no corroborating source. Confirm identity, terms, privacy, persistence, and true sustained cost before testing; use only synthetic/public data initially. 🔄
+
+### Product pattern, not a commitment
+- A mobile field companion using photo/voice notes, GPS, job records, and export may fit Paw Prints eventually, but only after mapping the actual workflow and confirming the business need. ❓
+
+### Tom-specific assignments
+- None identified in the Fathom recap.
+
 ## MoA can build WORKING Flask apps from prompt (2026-07-16)
 
 **Test:** Recipe Recommendation Dashboard prompt (recipe-vault/MOA_RECIPE_DASHBOARD_PROMPT.md)
