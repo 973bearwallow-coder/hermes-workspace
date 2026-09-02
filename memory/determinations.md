@@ -130,6 +130,24 @@ accurately, $0.00, 2893 video tokens processed.
 ### Tom-specific assignments
 - None identified in the Fathom recap.
 
+## Coaching Call — AI Profit Boardroom (2026-06-30, reviewed 2026-09-01)
+
+**Status:** ✅ full transcript reviewed with sampled visual evidence → `/home/tom/meet-record/summaries/2026-06-30-ai-profit-boardroom.md`
+
+### Adopted operational patterns
+- **D1 Evidence-focused call review:** use timestamped transcript cues to create small before/at/after keyframe clusters and a manifest. A visible interface proves only that an interface existed, not that the claimed outcome worked. ✅ implemented in `scripts/extract_screenshots_on_share.py`
+- **D2 Structured handoffs:** before compaction or transfer, record objective, acceptance criteria, completed/current/remaining state, blockers, changed files, actual test results, exact next action, external read-back, and rollback/checkpoint state. ✅ implemented in `templates/handover-md-template.md`
+- **D3 Project isolation and Git awareness:** inspect repository status before and after work; preserve unrelated dirty files and record checkpoints rather than assuming chat context is durable. ✅
+
+### Explicit non-adoptions
+- **C1 Autonomous LinkedIn commenting:** ❌ do not implement. The demo showed active debugging, not reliable conversion; account-policy and reputation risk outweigh the evidence. Human-reviewed drafting remains acceptable.
+- **C2 Bulk “Agency” agent import:** ❌ do not install wholesale. Unverified scale claims do not justify role overlap, prompt bloat, or importing untrusted code; evaluate individual roles only against a concrete gap.
+- **C3 Claude-centered migration:** ❌ do not migrate Atlas/Hermes. The useful patterns already fit Hermes without tying core operations to a quota-limited vendor.
+- **C4 Pinterest automation:** ⚠️ no autonomous system. Consider only a bounded, manual, human-reviewed experiment when Paw Prints has a specific evergreen visual campaign and success metric.
+
+### Tom-specific assignments
+- None identified.
+
 ## MoA can build WORKING Flask apps from prompt (2026-07-16)
 
 **Test:** Recipe Recommendation Dashboard prompt (recipe-vault/MOA_RECIPE_DASHBOARD_PROMPT.md)

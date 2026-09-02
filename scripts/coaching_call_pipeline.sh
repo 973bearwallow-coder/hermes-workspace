@@ -23,7 +23,7 @@ TOPICS="AI Profit Boardroom coaching, AI agents and tools, local SEO, business a
 
 # ─── RECORD ───────────────────────────────────────────────────────────
 cmd_record() {
-    local duration_min="${1:-90}"
+    local duration_min="${1:-120}"
     local duration_sec=$((duration_min * 60))
 
     echo "🔴 Starting coaching call recording (${duration_min} min)"

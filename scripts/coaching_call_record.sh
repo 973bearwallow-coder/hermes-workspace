@@ -12,7 +12,7 @@ export XAUTHORITY=/run/user/1000/gdm/Xauthority
 OUTPUT_DIR="/home/tom/Desktop/coaching_call"
 mkdir -p "$OUTPUT_DIR"
 
-DURATION=${1:-5400}
+DURATION=${1:-7200}
 NAME=${2:-$(date +%Y%m%d_%H%M)}
 VIDEO_FILE="$OUTPUT_DIR/${NAME}_video.mkv"
 AUDIO_FILE="$OUTPUT_DIR/${NAME}_audio.wav"

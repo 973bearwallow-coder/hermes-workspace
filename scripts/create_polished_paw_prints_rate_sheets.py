@@ -11,7 +11,7 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 ROOT = Path('/home/tom/hermes-workspace/inbox/janie-rate-sheets')
-OUT = ROOT / 'polished'
+OUT = ROOT / 'polished-portrait'
 OUT.mkdir(parents=True, exist_ok=True)
 LOGO = ROOT / 'inspection/Paw Prints Pet Services Rates 2026-images/image1.png'
 
@@ -129,13 +129,13 @@ def add_text(p, text, size=8.4, bold=False, color=CHARCOAL, italic=False):
 
 def configure_document(doc):
     sec = doc.sections[0]
-    sec.orientation = WD_ORIENT.LANDSCAPE
-    sec.page_width = Inches(11)
-    sec.page_height = Inches(8.5)
-    sec.top_margin = Inches(0.3)
-    sec.bottom_margin = Inches(0.3)
-    sec.left_margin = Inches(0.42)
-    sec.right_margin = Inches(0.42)
+    sec.orientation = WD_ORIENT.PORTRAIT
+    sec.page_width = Inches(8.5)
+    sec.page_height = Inches(11)
+    sec.top_margin = Inches(0.28)
+    sec.bottom_margin = Inches(0.28)
+    sec.left_margin = Inches(0.35)
+    sec.right_margin = Inches(0.35)
 
     normal = doc.styles['Normal']
     normal.font.name = 'Aptos'
@@ -149,9 +149,9 @@ def add_header(doc, legacy, effective):
     table = doc.add_table(rows=1, cols=3)
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     table.autofit = False
-    table.columns[0].width = Inches(2.1)
-    table.columns[1].width = Inches(5.7)
-    table.columns[2].width = Inches(2.1)
+    table.columns[0].width = Inches(1.55)
+    table.columns[1].width = Inches(4.15)
+    table.columns[2].width = Inches(1.85)
     for c in table.rows[0].cells:
         set_cell_margins(c, 10, 50, 10, 50)
         borders(c, WHITE, '0')
@@ -159,12 +159,12 @@ def add_header(doc, legacy, effective):
     if LOGO.exists():
         p = table.cell(0, 0).paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-        p.add_run().add_picture(str(LOGO), width=Inches(1.72))
+        p.add_run().add_picture(str(LOGO), width=Inches(1.35))
 
     p = table.cell(0, 1).paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p.paragraph_format.space_before = Pt(5)
-    add_text(p, 'RATES & SERVICES', 20, True, DARK_GREEN)
+    add_text(p, 'RATES & SERVICES', 17, True, DARK_GREEN)
     if legacy:
         p2 = table.cell(0, 1).add_paragraph()
         p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -216,17 +216,17 @@ def add_rate_table(cell, lodging_rate):
         borders(hdr[idx], GREEN)
         set_cell_margins(hdr[idx], 55, 70, 55, 70)
         p = hdr[idx].paragraphs[0]
-        add_text(p, label, 8, True, WHITE)
+        add_text(p, label, 8.5, True, WHITE)
     for i, (name, rate) in enumerate(rows):
         cells = table.add_row().cells
         fill = CREAM if i % 2 == 0 else WHITE
         for c in cells:
             shade(c, fill)
             borders(c)
-            set_cell_margins(c, 45, 70, 45, 70)
+            set_cell_margins(c, 58, 70, 58, 70)
             c.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
-        add_text(cells[0].paragraphs[0], name, 8.2, True if name == 'Pet Lodging*' else False)
-        add_text(cells[1].paragraphs[0], rate, 8.2, True if name == 'Pet Lodging*' else False, BROWN if name == 'Pet Lodging*' else CHARCOAL)
+        add_text(cells[0].paragraphs[0], name, 8.7, True if name == 'Pet Lodging*' else False)
+        add_text(cells[1].paragraphs[0], rate, 8.7, True if name == 'Pet Lodging*' else False, BROWN if name == 'Pet Lodging*' else CHARCOAL)
 
     add_section_title(cell, 'Additional Fees')
     fee_table = cell.add_table(rows=0, cols=2)
@@ -239,9 +239,9 @@ def add_rate_table(cell, lodging_rate):
         for c in cells:
             shade(c, fill)
             borders(c)
-            set_cell_margins(c, 43, 70, 43, 70)
-        add_text(cells[0].paragraphs[0], name, 7.8)
-        add_text(cells[1].paragraphs[0], rate, 7.8, True)
+            set_cell_margins(c, 52, 70, 52, 70)
+        add_text(cells[0].paragraphs[0], name, 8.25)
+        add_text(cells[1].paragraphs[0], rate, 8.25, True)
 
     p = cell.add_paragraph()
     p.paragraph_format.space_before = Pt(5)
@@ -256,7 +256,7 @@ def add_rate_table(cell, lodging_rate):
         p.paragraph_format.left_indent = Inches(0.13)
         p.paragraph_format.first_line_indent = Inches(-0.08)
         p.paragraph_format.space_after = Pt(1)
-        add_text(p, note, 7.35)
+        add_text(p, note, 7.9)
 
 
 def add_services(cell):
@@ -266,13 +266,13 @@ def add_services(cell):
         block.autofit = False
         shade(block.cell(0, 0), LIGHT_GREEN if idx % 2 == 0 else CREAM)
         borders(block.cell(0, 0), WHITE, '0')
-        set_cell_margins(block.cell(0, 0), 35, 80, 35, 80)
+        set_cell_margins(block.cell(0, 0), 50, 80, 50, 80)
         p = block.cell(0, 0).paragraphs[0]
         set_keep(p)
-        add_text(p, name, 8.5, True, DARK_GREEN)
-        add_text(p, f'  •  {time}', 7.7, True, BROWN)
+        add_text(p, name, 9.1, True, DARK_GREEN)
+        add_text(p, f'  •  {time}', 8.2, True, BROWN)
         p2 = block.cell(0, 0).add_paragraph()
-        add_text(p2, desc, 7.45)
+        add_text(p2, desc, 8.15)
 
 
 def add_terms(cell):
@@ -285,10 +285,10 @@ def add_terms(cell):
     ]
     for title, text in policies:
         p = cell.add_paragraph()
-        p.paragraph_format.space_after = Pt(3)
+        p.paragraph_format.space_after = Pt(4)
         set_keep(p)
-        add_text(p, title + ': ', 8.1, True, BROWN)
-        add_text(p, text, 7.7)
+        add_text(p, title + ': ', 8.6, True, BROWN)
+        add_text(p, text, 8.2)
 
     callout = cell.add_table(rows=1, cols=1)
     c = callout.cell(0, 0)
@@ -297,14 +297,14 @@ def add_terms(cell):
     set_cell_margins(c, 75, 90, 75, 90)
     p = c.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    add_text(p, 'Happy pets.\nPeace of mind.', 8.2, True, WHITE, True)
+    add_text(p, 'Happy pets.\nPeace of mind.', 9, True, WHITE, True)
 
 
 def add_footer(doc):
     footer = doc.sections[0].footer
     p = footer.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    add_text(p, 'Paw Prints Pet Services LLC  •  703-244-7390  •  pawprintsva.com  •  Rates subject to change', 7.3, False, DARK_GREEN)
+    add_text(p, 'Paw Prints Pet Services LLC  •  703-244-7390  •  pawprintsva.com  •  Rates subject to change', 7.6, False, DARK_GREEN)
 
 
 def build(filename, lodging_rate, legacy):
@@ -312,20 +312,19 @@ def build(filename, lodging_rate, legacy):
     configure_document(doc)
     add_header(doc, legacy, 'November 2026')
 
-    outer = doc.add_table(rows=1, cols=3)
+    outer = doc.add_table(rows=1, cols=2)
     outer.alignment = WD_TABLE_ALIGNMENT.CENTER
     outer.autofit = False
-    outer.columns[0].width = Inches(3.45)
-    outer.columns[1].width = Inches(4.0)
-    outer.columns[2].width = Inches(2.25)
+    outer.columns[0].width = Inches(3.35)
+    outer.columns[1].width = Inches(4.25)
     for c in outer.rows[0].cells:
         c.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.TOP
         set_cell_margins(c, 30, 90, 20, 90)
         borders(c, WHITE, '0')
 
     add_rate_table(outer.cell(0, 0), lodging_rate)
+    add_terms(outer.cell(0, 0))
     add_services(outer.cell(0, 1))
-    add_terms(outer.cell(0, 2))
     add_footer(doc)
 
     path = OUT / filename
@@ -335,9 +334,9 @@ def build(filename, lodging_rate, legacy):
 
 if __name__ == '__main__':
     paths = [
-        build('Paw Prints Rates & Services 2026 - Legacy 1 - Polished.docx', '$80', True),
-        build('Paw Prints Rates & Services 2026 - Legacy 2 - Polished.docx', '$80', True),
-        build('Paw Prints Rates & Services 2026 - Polished.docx', '$100', False),
+        build('Paw Prints Rates & Services 2026 - Legacy 1 - Portrait.docx', '$80', True),
+        build('Paw Prints Rates & Services 2026 - Legacy 2 - Portrait.docx', '$80', True),
+        build('Paw Prints Rates & Services 2026 - Portrait.docx', '$100', False),
     ]
     for path in paths:
         print(path)
