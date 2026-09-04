@@ -21,3 +21,5 @@ scripts/storage/
 results/
 github_monitor_readmes/
 memory/.search_index.db
+skills/approved/latentsync-1.6-runtime/
+skills/quarantine/LatentSync/
