@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
+import subprocess
 import threading
 import time
 import urllib.error
@@ -16,6 +17,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any
+from datetime import datetime, timezone
 from urllib.parse import urlparse
 
 from flask import Flask, Response, jsonify, render_template_string
@@ -27,6 +29,9 @@ KANBAN_DB = Path.home() / ".hermes" / "kanban.db"
 _HEALTH_CACHE: dict[str, Any] = {"at": 0.0, "apps": []}
 _HEALTH_LOCK = threading.Lock()
 _HEALTH_TTL_SECONDS = 15
+SPECIALIST_HEALTH = Path("/home/tom/hermes-workspace/scripts/specialist_health.py")
+_SPECIALIST_CACHE: dict[str, Any] = {"at": 0.0, "overall": "BLOCKED", "specialists": {}}
+_SPECIALIST_TTL_SECONDS = 300
 
 ICONS = {
     "mic": "◉",
@@ -105,6 +110,7 @@ PAGE = r"""<!doctype html>
     .app-card h3 { margin-top: 19px; }
     .launch { color: #bcd7ff; font-size: .8rem; font-weight: 800; margin-top: auto; padding-top: 16px; }
     .future { color: var(--muted); font-size: .84rem; margin-top: 11px; }
+    .refresh { color: var(--blue); background: transparent; border: 0; padding: 6px; font: inherit; font-size: .82rem; cursor: pointer; }
     footer { color: #727d90; font-size: .75rem; margin-top: 34px; text-align: center; }
     @media (max-width: 880px) { .apps { grid-template-columns: repeat(2,minmax(0,1fr)); } .hero { grid-template-columns: 1fr; } .actions { justify-content: flex-start; } }
     @media (max-width: 720px) {
@@ -173,10 +179,17 @@ PAGE = r"""<!doctype html>
     </div>
     <p class="future">New Atlas apps will appear here when they are ready to use.</p>
   </section>
-  <footer>Private on your Tailscale network · Status refreshes automatically</footer>
+  <section aria-labelledby="specialists-title">
+    <div class="section-head"><h2 id="specialists-title">Specialist Team</h2><span>{{ specialist_overall }}</span></div>
+    <div class="grid">
+      {% for name, item in specialists.items() %}<article class="card"><div class="card-row"><span class="priority {{ 'blocked' if item.status != 'READY' else '' }}"></span><div><h3>{{ name }}</h3><p>{{ 'Ready for assignments.' if item.status == 'READY' else 'Needs Atlas attention before use.' }}</p><span class="badge">{{ item.status }}</span></div></div></article>{% endfor %}
+    </div>
+  </section>
+  <footer>Last checked {{ checked_at }} · <button class="refresh" type="button" onclick="refreshStatus()">Refresh now</button> · Private on your Tailscale network</footer>
 </main>
 <script>
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  async function refreshStatus(){ try { await fetch('api/status?refresh=1', {cache:'no-store'}); location.reload(); } catch (_) { location.reload(); } }
   setTimeout(() => location.reload(), 60000);
 </script>
 </body></html>"""
@@ -276,13 +289,31 @@ def public_app(item: dict[str, Any]) -> dict[str, Any]:
     return {key: item[key] for key in allowed if key in item}
 
 
-def build_state() -> dict[str, Any]:
+def get_specialist_statuses(force: bool = False) -> dict[str, Any]:
+    now = time.monotonic()
+    if not force and _SPECIALIST_CACHE["specialists"] and now - float(_SPECIALIST_CACHE["at"]) < _SPECIALIST_TTL_SECONDS:
+        return dict(_SPECIALIST_CACHE)
+    try:
+        proc = subprocess.run(["python3", str(SPECIALIST_HEALTH)], text=True, capture_output=True, timeout=240)
+        payload = json.loads(proc.stdout)
+        if not isinstance(payload.get("specialists"), dict):
+            raise ValueError("missing specialist results")
+        _SPECIALIST_CACHE.update(at=now, overall=payload.get("overall", "BLOCKED"), specialists=payload["specialists"])
+    except (OSError, subprocess.SubprocessError, ValueError, json.JSONDecodeError):
+        _SPECIALIST_CACHE.update(at=now, overall="BLOCKED", specialists={})
+    return dict(_SPECIALIST_CACHE)
+
+
+def build_state(force: bool = False) -> dict[str, Any]:
     registry = load_registry()
-    apps = get_app_statuses(registry)
+    apps = get_app_statuses(registry, force=force)
+    specialist_state = get_specialist_statuses(force=force)
     sections = organize_tasks(get_tasks())
     unavailable = [item for item in apps if item.get("status") == "unavailable"]
     summary = "Ready" if not unavailable else "Needs attention"
-    return {"registry": registry, "apps": apps, "sections": sections, "unavailable": unavailable, "summary": summary}
+    return {"registry": registry, "apps": apps, "sections": sections, "unavailable": unavailable, "summary": summary,
+            "specialists": specialist_state["specialists"], "specialist_overall": specialist_state["overall"],
+            "checked_at": datetime.now(timezone.utc).astimezone().strftime("%I:%M %p").lstrip("0")}
 
 
 @app.get("/")
@@ -296,17 +327,24 @@ def home() -> str:
         unavailable=state["unavailable"],
         system_summary=state["summary"],
         icons=ICONS,
+        specialists=state["specialists"],
+        specialist_overall=state["specialist_overall"],
+        checked_at=state["checked_at"],
     )
 
 
 @app.get("/api/status")
 def status_api() -> Response:
-    state = build_state()
+    from flask import request
+    state = build_state(force=request.args.get("refresh") == "1")
     sections = state["sections"]
     return jsonify(
         summary=state["summary"],
         counts={key: len(sections[key]) for key in ("attention", "active", "upcoming")},
         apps=[public_app(item) for item in state["apps"]],
+        specialists=state["specialists"],
+        specialist_overall=state["specialist_overall"],
+        checked_at=state["checked_at"],
     )
 
 

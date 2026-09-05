@@ -1,0 +1,22 @@
+[Unit]
+Description=Local living-room dog camera monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+EnvironmentFile=/home/tom/.config/camera-dog-monitor/secrets.env
+Environment=OPENCV_FFMPEG_CAPTURE_OPTIONS=rtsp_transport;tcp
+WorkingDirectory=/home/tom/hermes-workspace/camera-dog-monitor
+ExecStart=/home/tom/pool-referee-env/bin/python -u /home/tom/hermes-workspace/camera-dog-monitor/camera_dog_monitor.py --config /home/tom/hermes-workspace/camera-dog-monitor/config.json --camera living_room
+Restart=always
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/tom/.local/share/camera-dog-monitor /home/tom/.local/state/camera-dog-monitor
+
+[Install]
+WantedBy=default.target

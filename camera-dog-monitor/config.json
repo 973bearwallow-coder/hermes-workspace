@@ -1,0 +1,20 @@
+{
+  "model_path": "/home/tom/yolov8n.pt",
+  "storage_root": "/home/tom/.local/share/camera-dog-monitor/events",
+  "health_path": "/home/tom/.local/state/camera-dog-monitor/health.json",
+  "retention_days": 7,
+  "max_events_per_camera": 100,
+  "cameras": [
+    {
+      "name": "living_room",
+      "location": "Living Room",
+      "url_env": "LIVING_ROOM_RTSP_URL",
+      "sample_every_seconds": 2.0,
+      "min_confidence": 0.45,
+      "consecutive_frames": 2,
+      "cooldown_seconds": 60.0,
+      "mapping_verified": true,
+      "alerts_enabled": false
+    }
+  ]
+}

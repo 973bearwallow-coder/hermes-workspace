@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Read-only aggregate health check for Atlas's eight specialist profiles."""
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -18,8 +19,20 @@ SPECIALISTS = {
     "Food and Home": ("homefood", "homefood_acceptance.py"),
 }
 
-def run(command, timeout=240):
-    proc = subprocess.run(command, text=True, capture_output=True, timeout=timeout)
+TOOL_PATHS = [
+    "/home/tom/.local/bin", "/home/tom/bin",
+    "/home/tom/.hermes/hermes-agent/venv/bin",
+    "/home/tom/.hermes/hermes-agent/node_modules/.bin",
+    "/home/tom/.hermes/node/bin", "/home/tom/.hermes/node",
+    "/home/tom/.cargo/bin", "/home/tom/.npm-global/bin",
+    "/usr/local/sbin", "/usr/local/bin", "/usr/sbin", "/usr/bin", "/sbin", "/bin",
+]
+
+def run(command, timeout=240, cwd=None):
+    env = os.environ.copy()
+    env["HOME"] = "/home/tom"
+    env["PATH"] = ":".join(TOOL_PATHS)
+    proc = subprocess.run(command, text=True, capture_output=True, timeout=timeout, env=env, cwd=cwd)
     return proc.returncode, (proc.stdout + proc.stderr).strip()
 
 def main():
@@ -34,7 +47,11 @@ def main():
             if not path.exists():
                 validator_ok, validator_rc = False, 127
             else:
-                validator_rc, _ = run([sys.executable, str(path)])
+                validator_rc, _ = run([sys.executable, str(path)], cwd=ROOT)
+                # External web/model checks can fail transiently; one bounded retry
+                # prevents Mission Control from raising a false specialist alarm.
+                if validator_rc != 0:
+                    validator_rc, _ = run([sys.executable, str(path)], cwd=ROOT)
                 validator_ok = validator_rc == 0
         status = "READY" if profile_ok and validator_ok else "BLOCKED"
         results[name] = {"status": status, "profile": profile, "profile_ok": profile_ok,

@@ -42,6 +42,7 @@ def client(tmp_path, monkeypatch):
         ],
     )
     monkeypatch.setattr(mc, "probe_app", lambda app: {**app, "status": "ready", "status_label": "Ready"})
+    monkeypatch.setattr(mc, "get_specialist_statuses", lambda force=False: {"overall": "READY", "specialists": {"Developer": {"status": "READY"}}})
     mc.app.config.update(TESTING=True)
     return mc.app.test_client()
 
@@ -56,6 +57,9 @@ def test_home_is_sparse_and_action_oriented(client):
         "Active Work",
         "Upcoming Projects",
         "Your Apps",
+        "Specialist Team",
+        "Developer",
+        "Refresh now",
         "Build Mission Control",
         "Paw Prints website",
         "Morning briefing integration",
@@ -96,6 +100,7 @@ def test_status_api_uses_human_readable_states(client):
     assert payload["apps"][0]["status"] == "ready"
     assert payload["apps"][0]["status_label"] == "Ready"
     assert payload["counts"] == {"attention": 1, "active": 1, "upcoming": 1}
+    assert payload["specialist_overall"] == "READY"
     assert "health_url" not in payload["apps"][0]
 
 
