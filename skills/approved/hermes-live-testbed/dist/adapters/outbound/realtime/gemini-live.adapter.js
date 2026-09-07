@@ -111,6 +111,7 @@ export function buildGeminiLiveConnectConfig(systemInstruction, availableTools) 
     const functionDeclarations = selectHermesLiveToolDeclarations(availableTools);
     return {
         responseModalities: [Modality.AUDIO],
+        sessionResumption: {},
         inputAudioTranscription: {},
         outputAudioTranscription: {},
         systemInstruction,

@@ -1,0 +1,12 @@
+{
+  "storage_root": "/home/tom/Videos/falls-church-cameras",
+  "health_root": "/home/tom/.local/state/camera-recorder",
+  "retention_hours": 48,
+  "segment_seconds": 900,
+  "min_free_gb": 40,
+  "cameras": [
+    {"name": "camera_27", "url_env": "CAMERA_27_RTSP_URL"},
+    {"name": "camera_28", "url_env": "CAMERA_28_RTSP_URL"},
+    {"name": "camera_29", "url_env": "CAMERA_29_RTSP_URL"}
+  ]
+}

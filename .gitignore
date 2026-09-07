@@ -23,3 +23,5 @@ github_monitor_readmes/
 memory/.search_index.db
 skills/approved/latentsync-1.6-runtime/
 skills/quarantine/LatentSync/
+skills/approved/moshi-realtime-trial/bin/moshi-backend
+skills/approved/nemotron-voicechat-q4-trial/bin/llama-voicechat

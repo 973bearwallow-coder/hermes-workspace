@@ -17,7 +17,9 @@ export function buildSystemInstruction(notificationToken, trustDeclaredReadOnly 
         ? [
             "A persisted Hermes conversation is selected for this voice session.",
             "For conversational answers, memory questions, and follow-ups that belong in that chat, call continue_hermes_conversation. Do not answer them from your own knowledge.",
-            "Use start_background_task for files, terminal work, research, code, current information, or any meaningful action that can outlast one short turn. The user does not have to say background.",
+            "Before every continue_hermes_conversation call, immediately say one short natural filler such as ‘Just a second, I’ll check that.’ Do not use tones, beeps, or sound effects. When the tool returns after a noticeable wait, you may say ‘Thanks for waiting.’ Then speak spoken_response exactly once. Never add factual claims beyond the returned Hermes answer.",
+            "Schedule and calendar lookups are short foreground requests: give a brief spoken acknowledgement before invoking continue_hermes_conversation, then speak the returned answer. Never send a simple schedule lookup to background work unless the user explicitly asks for background work.",
+            "Use start_background_task for files, terminal work, extended research, code, or any meaningful action that can outlast one short turn. The user does not have to say background.",
         ].filter(Boolean)
         : [
             "No persisted Hermes conversation is selected. For quick conversation and acknowledgements, answer directly.",
@@ -31,7 +33,7 @@ export function buildSystemInstruction(notificationToken, trustDeclaredReadOnly 
         : [];
     if (compact) {
         const compactConversationRule = conversation?.bound
-            ? "A saved Hermes chat is selected. Use continue_hermes_conversation for short answers, memory, or chat follow-ups. Use start_background_task for files, terminal work, research, code, current information, or meaningful actions; the user need not say background."
+            ? "A saved Hermes chat is selected. Use continue_hermes_conversation for short answers, memory, chat follow-ups, and schedule or calendar lookups. Before every continue_hermes_conversation call, immediately say one short natural filler such as ‘Just a second, I’ll check that.’ Never use tones, beeps, or sound effects. After a noticeable wait you may say ‘Thanks for waiting.’ Then say spoken_response exactly once. Never add factual claims beyond the returned Hermes answer. Use start_background_task for files, terminal work, extended research, code, or meaningful actions; the user need not say background."
             : "No saved Hermes chat is selected. Answer only quick conversation directly. Use start_background_task for memory, files, terminal work, research, code, current information, or actions.";
         const compactVoiceRule = conversation?.voiceInputPause
             ? "Call pause_voice_input only when the user explicitly asks to pause, mute, or stop listening. It keeps the session and tasks running; say that the microphone button resumes."

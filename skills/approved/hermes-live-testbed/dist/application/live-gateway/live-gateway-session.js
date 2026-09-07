@@ -596,7 +596,7 @@ export class LiveGatewaySession {
                     ...(resourceKeys ? { resourceKeys } : {}),
                     ...(this.conversation.sessionId ? { originConversationId: this.conversation.sessionId } : {}),
                 }), "Background task could not be accepted safely.").then((task) => ({
-                    spoken_response: "I've started that in the background. You can keep talking.",
+                    spoken_response: `I've started that in the background. It will probably take ${estimateBackgroundTaskDuration(input)}. That’s only an estimate, and I’ll let you know when it’s ready. You can keep talking.`,
                     ok: true,
                     task_id: task.taskId,
                     status: task.status,
@@ -763,7 +763,11 @@ export class LiveGatewaySession {
                         ? error.message
                         : "Background task request was rejected.";
                     const operationError = error instanceof PublicTaskOperationError ? error.operationCause : error;
-                    response = { ok: false, error: publicMessage };
+                    response = {
+                        ok: false,
+                        error: publicMessage,
+                        spoken_response: "I couldn’t complete that request in time. Please try again.",
+                    };
                     if (!record.cancelled) {
                         this.failPublic("tool_call_failed", publicMessage, operationError, true);
                     }
@@ -1413,6 +1417,16 @@ function notificationDigest(records) {
         return `${records.length} background tasks are finished. Their results are ready in the task inbox.`;
     }
     return `${records.length} background tasks have updates: ${completed} finished and ${attention} need attention. Open the task inbox for details.`;
+}
+function estimateBackgroundTaskDuration(input) {
+    const normalized = input.toLowerCase();
+    if (/\b(?:research|compare|comparison|top|best|highly[- ]rated|outfitter|reviews?|options|several|investigate|diagnose|build|implement|refactor|benchmark)\b/u.test(normalized)) {
+        return "about five to ten minutes";
+    }
+    if (/\b(?:search|find|look up|lookup|current|latest|recommend|price|cost|web|website|file|document)\b/u.test(normalized)) {
+        return "about two to five minutes";
+    }
+    return "about one to three minutes";
 }
 function validateAudioFrame(data, mimeType, maxBytes) {
     if (!mimeType || mimeType.length > 128)
