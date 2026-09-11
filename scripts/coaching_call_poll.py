@@ -7,11 +7,11 @@ link manually.
 
 Run by cron (no_agent=False). Output is delivered verbatim to Telegram.
 """
-import os, re, json, subprocess, sys
+import os, re, json, subprocess
 from datetime import datetime, timezone
 
 STATE_FILE = os.path.expanduser("~/.hermes/data/skool_last_check.json")
-GMAIL_ACCOUNT = "atlastomsai@gmail.com"  # Atlas token reads Atlas inbox
+GMAIL_ACCOUNTS = ("atlas_mail", "toms gmail")
 
 def load_seen():
     try:
@@ -25,53 +25,46 @@ def save_seen(data):
 
 def extract_fathom_shares(text):
     """Find all fathom.video/share/... links in text."""
-    return re.findall(r"https://fathom\.video/share/[A-Za-z0-9]+", text)
+    return re.findall(r"https://fathom\.video/share/[A-Za-z0-9_-]+", text)
 
 def check_gmail():
-    """Use himalaya to pull recent Atlas + Tom inboxes, scan for Fathom share links."""
-    links = []
-    for acct in ["atlas_mail", "toms gmail"]:
+    """Read recent messages from both inboxes and scan their bodies for links."""
+    links, errors = [], []
+    for acct in GMAIL_ACCOUNTS:
         try:
-            out = subprocess.run(
-                ["himalaya", "mail", "list", "--mailbox", "INBOX", "--max", "50", "--account", acct],
-                capture_output=True, text=True, timeout=90
+            listing = subprocess.run(
+                ["himalaya", "-o", "json", "envelope", "list", "-f", "INBOX", "-s", "50", "-a", acct],
+                capture_output=True, text=True, timeout=90,
             )
-            if out.returncode == 0:
-                links += extract_fathom_shares(out.stdout)
-        except Exception:
-            pass
-    return links
-
-def check_skool():
-    """
-    Poll AI Builders Guild 'Guild Archive' course for new Fathom /share/ links.
-    Requires browser auth (flaky) — best-effort only; Gmail + manual link are primary.
-    Returns list of fathom share URLs found.
-    """
-    try:
-        from hermes_tools import browser_navigate, browser_console
-    except Exception:
-        return []
-    try:
-        browser_navigate("https://www.skool.com/ai-builders-guild-9932/classroom/50af6e4d")
-        # extract fathom links from DOM
-        res = browser_console('''var links = Array.from(document.querySelectorAll('a')).map(a=>a.href).filter(h=>h.includes('fathom.video/share')); JSON.stringify(links);''')
-        import json as _json
-        try:
-            return _json.loads(res.get('result', '[]'))
-        except Exception:
-            return []
-    except Exception:
-        return []
+            if listing.returncode != 0:
+                errors.append(f"{acct}: envelope list failed")
+                continue
+            envelopes = json.loads(listing.stdout or "[]")
+            for envelope in envelopes:
+                message_id = envelope.get("id")
+                if message_id is None:
+                    continue
+                message = subprocess.run(
+                    ["himalaya", "message", "read", "-f", "INBOX", str(message_id), "-a", acct],
+                    capture_output=True, text=True, timeout=30,
+                )
+                if message.returncode == 0:
+                    links.extend(extract_fathom_shares(message.stdout))
+        except (OSError, subprocess.SubprocessError, json.JSONDecodeError) as exc:
+            errors.append(f"{acct}: {type(exc).__name__}")
+    return sorted(set(links)), errors
 
 def main():
     state = load_seen()
-    seen = set(state.get("seen_urls", []))
+    seen = set(state.get("last_seen_urls", state.get("seen_urls", [])))
 
-    # Collect from Gmail (primary) + Skool (secondary/manual)
-    gmail_links = check_gmail()
-    skool_links = check_skool()
-    all_links = sorted(set(gmail_links + skool_links))
+    # Fathom emails are deterministic and avoid a fragile authenticated
+    # browser dependency. The separate Skool archive job handles browser-only
+    # posts when an authenticated session is available.
+    all_links, errors = check_gmail()
+    if errors and not all_links:
+        print("Coaching-call poll could not scan the configured inboxes: " + "; ".join(errors))
+        raise SystemExit(1)
 
     new_links = [l for l in all_links if l not in seen]
 
@@ -79,7 +72,8 @@ def main():
         # Update state
         for l in new_links:
             seen.add(l)
-        state["seen_urls"] = list(seen)
+        state["last_seen_urls"] = sorted(seen)
+        state.pop("seen_urls", None)
         state["last_run"] = datetime.now(timezone.utc).isoformat()
         save_seen(state)
 
@@ -92,9 +86,8 @@ def main():
         # Nothing found — remind Tom
         state["last_run"] = datetime.now(timezone.utc).isoformat()
         save_seen(state)
-        print("⚠️ **No new Fathom coaching-call links found** in Atlas Gmail or Skool this week.\n\n"
-              "Tom — if a call happened and you have the /share/ link, send it to me and I'll extract the intelligence.\n"
-              "(Fathom notifications may have gone to your 973bearwallow@gmail.com inbox instead — if so, forward or paste the link.)")
+        # Quiet success: no new links is normal and should not create noise.
+        return
 
 if __name__ == "__main__":
     main()
