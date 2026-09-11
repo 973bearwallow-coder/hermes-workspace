@@ -63,7 +63,7 @@ def click_by_text(page, text, timeout=8000):
 
 def parse_card(card):
     """Parse a product card element into a structured dict."""
-    item = {
+    item: dict[str, object] = {
         "name": None,
         "current_price": None,
         "original_price": None,
@@ -76,14 +76,22 @@ def parse_card(card):
         return item
     full = " ".join(full.split())
 
-    # name from heading
-    try:
-        name = card.locator("[role='heading']").first.inner_text(timeout=2000)
-        name = " ".join(name.split())
-        if name:
-            item["name"] = name
-    except Exception:
-        pass
+    # Product name: ALDI currently renders an h3 and an image alt; older
+    # versions exposed role=heading. Try all three in stable order.
+    for selector, attribute in (
+        ("[role='heading']", None),
+        ("h3", None),
+        ("img[data-testid='item-card-image']", "alt"),
+    ):
+        try:
+            loc = card.locator(selector).first
+            name = loc.get_attribute(attribute) if attribute else loc.inner_text(timeout=2000)
+            name = " ".join((name or "").split())
+            if name:
+                item["name"] = name
+                break
+        except Exception:
+            continue
 
     # prices + discount from screen-reader text
     prices = PRICE_RE.findall(full)
@@ -283,6 +291,13 @@ def run(test_mode=False):
                     seen.add(key)
                     deduped.append(it)
                 items = deduped
+                # The ALDI Items API sometimes returns upcoming/unavailable
+                # products with names but no prices. Treat that as unusable and
+                # fall back to the rendered, store-selected product cards.
+                if not any(it.get("current_price") is not None for it in items):
+                    print("[api] returned no priced items; falling back to rendered cards", file=sys.stderr)
+                    items = extract_items(page)
+                    items = try_weekly_ad(page, items)
             else:
                 items = extract_items(page)
 

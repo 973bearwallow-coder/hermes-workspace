@@ -7,26 +7,12 @@ Focuses on: pet business tips, Etsy selling, dog groomer advice, local pet busin
 No API keys needed — uses crawlee to fetch and parse DuckDuckGo lite results.
 """
 
-import asyncio, json, os, sys, re
+import json, os, sys, re
 from datetime import datetime
-from bs4 import BeautifulSoup
-from crawlee.crawlers import PlaywrightCrawler
-from crawlee.browsers import BrowserPool, PlaywrightBrowserController
-from crawlee.browsers import PlaywrightBrowserPlugin
-from crawlee.browsers import PlaywrightBrowserController as PlaywrightBrowserControllerBase
-from typing_extensions import override
+from urllib.parse import quote_plus
 
-# We'll create a simple browser plugin that uses the default Playwright Chromium
-# (since we don't need CloakBrowser for this simple task)
-class DefaultBrowserPlugin(PlaywrightBrowserPlugin):
-    @override
-    async def new_browser(self) -> PlaywrightBrowserController:
-        if not self._playwright:
-            raise RuntimeError('Playwright browser plugin is not initialized.')
-        return PlaywrightBrowserController(
-            browser=await self._playwright.chromium.launch(),
-            max_open_pages_per_browser=1,
-        )
+import requests
+from bs4 import BeautifulSoup
 
 OUTPUT_DIR = "/home/tom/Desktop/coaching_call/pet_community"
 STATE_FILE = os.path.join(OUTPUT_DIR, "seen_urls.json")
@@ -53,61 +39,32 @@ KEYWORDS = [
     "workflow", "automate", "scale", "grow", "client", "booking"
 ]
 
-async def ddgs_search(query: str, max_results: int = 10):
-    """Search using crawlee to scrape DuckDuckGo lite."""
-    url = f"https://lite.duckduckgo.com/lite/?q={query}"
-    results = []
-
-    # We'll use a crawler that just visits the URL and extracts the results
-    crawler = PlaywrightCrawler(
-        max_requests_per_crawl=1,
-        browser_pool=BrowserPool(plugins=[DefaultBrowserPlugin()]),
+def ddgs_search(query: str, max_results: int = 10):
+    """Fetch and parse DuckDuckGo Lite without a browser dependency."""
+    url = f"https://lite.duckduckgo.com/lite/?q={quote_plus(query)}"
+    response = requests.get(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; AtlasPetMonitor/1.0)"},
+        timeout=30,
     )
-
-    @crawler.router.default_handler
-    async def request_handler(context):
-        nonlocal results
-        page = context.page
-        content = await page.content()
-        soup = BeautifulSoup(content, 'html.parser')
-        # Find all result links
-        link_tags = soup.find_all('a', class_='result-link')
-        for link_tag in link_tags:
-            if len(results) >= max_results:
-                break
-            title = link_tag.get_text(strip=True)
-            href = link_tag.get('href', '')
-            # Find the parent <tr> of the link
-            link_tr = link_tag.find_parent('tr')
-            if not link_tr:
-                continue
-            # Snippet is in the next <tr> that has a td with class 'result-snippet'
-            snippet_tr = link_tr.find_next_sibling('tr')
-            snippet = ''
-            if snippet_tr:
-                snippet_td = snippet_tr.find('td', class_='result-snippet')
-                if snippet_td:
-                    snippet = snippet_td.get_text(strip=True)
-            # URL is in the next <tr> after snippet that has a td with class 'link-text'
-            url_tr = snippet_tr.find_next_sibling('tr') if snippet_tr else None
-            display_url = ''
-            if url_tr:
-                url_td = url_tr.find('td', class_='link-text')
-                if url_td:
-                    url_span = url_td.find('span', class_='link-text')
-                    if url_span:
-                        display_url = url_span.get_text(strip=True)
-            # Build result dict
-            results.append({
-                'title': title,
-                'href': href,
-                'body': snippet,
-                # optionally store display_url if needed
-                'display_url': display_url,
-            })
-        # We don't want to enqueue links
-
-    await crawler.run([url])
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    results = []
+    for link_tag in soup.find_all("a", class_="result-link"):
+        if len(results) >= max_results:
+            break
+        link_tr = link_tag.find_parent("tr")
+        snippet_tr = link_tr.find_next_sibling("tr") if link_tr else None
+        snippet_td = snippet_tr.find("td", class_="result-snippet") if snippet_tr else None
+        href = link_tag.get("href", "")
+        if not href:
+            continue
+        results.append({
+            "title": link_tag.get_text(strip=True),
+            "href": href,
+            "body": snippet_td.get_text(strip=True) if snippet_td else "",
+            "display_url": "",
+        })
     return results
 def load_state():
     if os.path.exists(STATE_FILE):
@@ -142,8 +99,7 @@ def main():
     
     for i, query in enumerate(SEARCH_QUERIES, 1):
         print(f"[{i}/{len(SEARCH_QUERIES)}] Searching: {query[:60]}...")
-        # Run the async search function
-        results = asyncio.run(ddgs_search(query, max_results=8))
+        results = ddgs_search(query, max_results=8)
         
         for r in results:
             url = r.get("href", "")
