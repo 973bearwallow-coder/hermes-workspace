@@ -1,0 +1,35 @@
+Tom, I found the full Fathom recap for today’s Coaching Calls meeting. It covered 149 minutes and began at the opening seconds, so I recovered the main material you missed by joining late.
+
+Here is the central lesson: build reliable systems, not agent theater.
+
+The opening discussion argued that ordinary rule-based software should handle work that must happen the same way every time: API connections, scheduling, validation, retries, duplicate prevention, and consequential actions. Language models should handle the fuzzy work: understanding messages, classifying intent, summarizing, brainstorming, and drafting natural language.
+
+This idea started eight seconds into the call. At fourteen seconds, the speakers described purely agentic systems as unreliable and expensive to babysit. At fifty-five seconds, they recommended code for the mechanical pipeline. At two minutes, they recommended strong language models for creative work. So the part you may have missed was not an argument for adding more agents. It was an argument for knowing when not to use an agent.
+
+That directly validates our plan for Never Miss a Job. Hermes can understand an inbound lead, extract useful details, classify it, draft a response, and summarize the outcome. But deterministic software should control whether and when anything is sent, prevent duplicates, log every action, and enforce policies. The AI should not independently quote a price, change a booking, issue a refund, or promise an arrival time.
+
+Around forty-three minutes, the call discussed Pierpaolo’s Mission Control. A general agent called Cesar delegates work to specialist agents, each using a model chosen for its task and cost. They described a command center on a server, a website built quickly, and a dashboard for personal information and system status.
+
+The useful part is not the colorful agent organization chart. It is the control pattern: know what jobs exist, which specialist owns each one, which model is appropriate, whether the job succeeded, and what needs human attention. That resembles our Atlas and Charles arrangement. Atlas remains the conductor; Charles and specialized workers perform bounded jobs. But every new specialist has to earn its place through better reliability, quality, speed, or cost. More agents are not automatically a better system.
+
+The website-built-overnight example is impressive as a speed demonstration, but it is not proof that customers want the product or will pay for it. For your business idea, interviews and paid pilots matter more than building an elaborate command center.
+
+The call also recommended routing cheaper models to specialized work. That makes sense, but price cannot be the only criterion. Data sensitivity matters. Local models are good for sensitive internal material when their quality is sufficient. Trusted paid models can handle difficult reasoning. Less-trusted or low-cost external models should receive only public or carefully sanitized information.
+
+The speakers made dramatic legal claims about Chinese models, European privacy rules, and possible criminal penalties. The Fathom recap did not substantiate those claims, so I would treat them as a reason to investigate, not as legal advice. The defensible rule is simpler: know where client data goes, minimize what is shared, obtain appropriate consent, and verify provider retention and privacy terms before use.
+
+Near the end, the call discussed direct model subscriptions and a supposed trick involving new accounts each month to exploit token allocations. Keep the useful principle: buy access that matches real usage and route models economically. But reject the gimmick. Account rotation could violate provider terms, creates operational fragility, and could vanish tomorrow. It is no foundation for a serious customer service.
+
+Here are the five practical takeaways.
+
+First, use Never Miss a Job as the first hybrid-system pilot. The flow is: missed call or web lead, capture, classify, draft, policy or approval check, send, log, follow up, and report the outcome. Every transition needs a dependable owner.
+
+Second, build only a modest operator dashboard at first. Show new leads, drafts awaiting approval, sends, failures, follow-ups due, and recovered jobs. Do not build a grand Mission Control until the work proves what is needed.
+
+Third, prove the offer before multiplying agents. Interview local heating and air conditioning, plumbing, and electrical owners. Run a few paid pilots. Measure response time, leads recovered, appointments, and attributed revenue.
+
+Fourth, make privacy boundaries explicit before using client information. Define consent, permitted data, model routing, retention, deletion, review, and approval.
+
+Fifth, optimize costs honestly through routing, caching, fixed code, local models, batching, and provider selection. Do not build around loopholes.
+
+My bottom line is that today’s strongest lesson supports the direction we already chose. Language models should provide judgment and language. Deterministic software should provide reliability and control. Your opportunity is not to copy somebody else’s collection of agents. It is to turn that principle into one dependable, measurable service for local businesses. Start narrow, prove that Never Miss a Job recovers real revenue, and build the larger command center only after customers show us what it needs to become.

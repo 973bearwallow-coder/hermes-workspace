@@ -25,7 +25,7 @@ import json
 import re
 import os
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # Configuration
@@ -62,18 +62,20 @@ RETENTION = {
 # Classification rules: (folder_name, keywords)
 # Order matters — first match wins
 CLASSIFICATION_RULES = [
-    # --- Appointments & scheduling ---
-    ("Appointments", [
-        "appointment", "schedule", "meeting", "calendar", "book a", "reserve",
-        "consultation", "available", "time slot", "booking", "calendly",
-        "acuity", "square appointments", "setmore", "schedulicity",
-    ]),
-
     # --- AI Profit Boardroom (coaching calls, Skool, tl;dv) ---
+    # This must precede generic meeting keywords.
     ("AI Profit Boardroom", [
         "tl;dv", "tldv.io", "skool.com", "notifs.skool.com",
         "ai profit boardroom", "coaching call", "meeting notes",
         "multi-meeting ai report", "uncover trends and insights",
+    ]),
+
+    # --- Appointments & scheduling ---
+    # Avoid bare "available": it misclassifies financial confirmations.
+    ("Appointments", [
+        "appointment", "schedule", "meeting", "calendar", "book a", "reserve",
+        "consultation", "time slot", "booking", "calendly",
+        "acuity", "square appointments", "setmore", "schedulicity",
     ]),
 
     # --- AI Info (Reddit Hermes/AI blogs, AI news) ---
@@ -167,6 +169,19 @@ CLASSIFICATION_RULES = [
         "elegant themes", "elegantthemes.com", "divi 5", "divi",
     ]),
 
+    # --- Purchases (actual orders, receipts, shipping) ---
+    # Keep known transaction senders ahead of broad news terms such as "trade".
+    ("Purchases", [
+        "order confirmed", "order shipped", "your receipt",
+        "package was delivered", "shipping confirmation", "your order",
+        "purchase", "invoice", "payment received", "refill ready",
+        "order delivered", "delivered:",
+        "ebay - mark_k", "members.ebay.com", "reply.ebay.com",
+        "seller sent", "counteroffer", "payment method for best offer",
+        "confirm your email address", "thanks for selecting",
+        "together computer", "fidelity", "ups package was delivered",
+    ]),
+
     # --- News ---
     ("News", [
         "news", "breaking", "report", "update", "china", "market", "stock",
@@ -195,17 +210,6 @@ CLASSIFICATION_RULES = [
         "is in demand", "customer favorite", "act now", "interest is heating",
     ]),
 
-    # --- Purchases (actual orders, receipts, shipping) ---
-    ("Purchases", [
-        "order confirmed", "order shipped", "your receipt",
-        "package was delivered", "shipping confirmation", "your order",
-        "purchase", "invoice", "payment received", "refill ready",
-        "order delivered", "delivered:",
-        "ebay - mark_k", "members.ebay.com", "reply.ebay.com",
-        "seller sent", "counteroffer", "payment method for best offer",
-        "confirm your email address", "thanks for selecting",
-        "together computer", "fidelity", "ups package was delivered",
-    ]),
 
     # --- Recipes ---
     ("Recipes", [
@@ -220,10 +224,24 @@ CLASSIFICATION_RULES = [
     ]),
 ]
 
+# Sender-specific routes are evaluated before broad subject keywords. This
+# prevents phrases such as "meeting report", "trade confirmation is
+# available", and "package scheduled" from becoming false appointments.
+PRIORITY_SENDER_RULES = [
+    ("AI Profit Boardroom", ["tldv.io", "tl;dv", "skool.com", "notifs.skool.com"]),
+    ("Purchases", ["fidelity.com", "mcinfo@ups.com", "ebay@ebay.com"]),
+    ("Firearms", ["palmettostatearmory.com"]),
+    ("Farm Equipment", ["machinerytrader.com"]),
+]
+
 
 def run_himalaya(args, check=True, json_output=False):
     """Run himalaya CLI command and return output."""
-    cmd = ["himalaya", "-o", "json"] + args
+    # Never rely on Himalaya's default account: this organizer is only for
+    # Tom's inbox, while Atlas also has a configured sending account.
+    # Himalaya v1.1 defines --account on leaf commands (for example,
+    # `envelope list` and `message move`), not as a global option.
+    cmd = ["himalaya", "-o", "json"] + args + ["-a", ACCOUNT]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         if check:
@@ -299,7 +317,24 @@ def classify_email(email_data, email_body=""):
     body_preview = email_body[:500].lower() if email_body else ""
     
     combined = f"{subject} {sender} {sender_email} {body_preview}"
-    
+
+    # Context-sensitive exceptions that cannot be expressed safely as broad
+    # keywords without stealing genuine appointment messages.
+    if "fathom.video" in sender_email and ("recap" in subject or "how was your first meeting" in subject):
+        return "AI Profit Boardroom"
+    if sender_email == "store-news@amazon.com":
+        return "Promotions"
+    if "marketing@virginiaabc.com" in sender_email:
+        return "Promotions"
+    if "inbox2.foxnews.com" in sender_email:
+        return "News"
+    if "email.openai.com" in sender_email:
+        return "AI Info"
+
+    for folder, sender_tokens in PRIORITY_SENDER_RULES:
+        if any(token in sender or token in sender_email for token in sender_tokens):
+            return folder
+
     for folder, keywords in CLASSIFICATION_RULES:
         for keyword in keywords:
             if keyword in combined:
@@ -314,7 +349,7 @@ def apply_retention(folder):
     if not retention_days:
         return 0
     
-    cutoff = datetime.now() - timedelta(days=retention_days)
+    cutoff = datetime.now().astimezone() - timedelta(days=retention_days)
     emails = list_folder_emails(folder)
     deleted = 0
     
@@ -328,8 +363,7 @@ def apply_retention(folder):
             email_date = datetime.fromisoformat(date_str)
             # Make cutoff timezone-aware if email has tz info
             if email_date.tzinfo is not None:
-                from datetime import timezone
-                cutoff_aware = cutoff.replace(tzinfo=timezone.utc)
+                cutoff_aware = cutoff
             else:
                 cutoff_aware = cutoff
             
@@ -379,7 +413,7 @@ def main():
         return
     
     # Step 2: Filter emails older than 12 hours
-    cutoff_time = datetime.now() - timedelta(hours=12)
+    cutoff_time = datetime.now().astimezone() - timedelta(hours=12)
     old_emails = []
     for email in emails:
         date_str = email.get("date") or email.get("internaldate", "")
@@ -387,8 +421,7 @@ def main():
             try:
                 email_date = datetime.fromisoformat(date_str)
                 if email_date.tzinfo is not None:
-                    from datetime import timezone
-                    cutoff_aware = cutoff_time.replace(tzinfo=timezone.utc)
+                    cutoff_aware = cutoff_time
                 else:
                     cutoff_aware = cutoff_time
                 if email_date < cutoff_aware:
