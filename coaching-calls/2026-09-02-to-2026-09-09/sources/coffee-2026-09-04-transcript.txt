@@ -1,0 +1,1457 @@
+Source: https://fathom.video/share/nZzcn6hRibX9g_xFzsRVBEAYyapnJb1A
+Started: 2026-09-04T12:34:11.000000Z
+Duration seconds: 7893.623333
+Title: Impromptu Google Meet Meeting
+
+Impromptu Google Meet Meeting - September 04
+VIEW RECORDING - 132 mins (No highlights)
+@5:53
+-
+Yasmine Johnston-Ison
+Is my audio working?
+@6:04
+-
+Rick Rodriguez (rickr1@gmail.com)
+Hello. Can anyone hear me? Good morning. Yes, but you sound a little bit muffled.
+@6:10
+-
+Yasmine Johnston-Ison
+Oh, yeah. Sorry. Using all your tears. A little better. turn it up a little bit here.
+@6:52
+-
+Rick Rodriguez (rickr1@gmail.com)
+So, you see, I started the guild discord server. And so I would appreciate. I any advice or tips and tricks on that, because I've only used it to chat with people, so I'm still a definite newbie in it.
+I'm just reading everything I can right now on how to set up the server and the special, I guess, boosts, they call them.
+I signed up for the minimum, what was that, the Nitro.
+@7:27
+-
+Yasmine Johnston-Ison
+You're on mute, Yasmine, if you're talking to I don't really, I've set up some servers, but I've seen some better servers than what I've set up, so, and I gave up on trying to get AI into a server.
+That was really infuriating. I tried to put it in the one that we're in for the Anthropic project, and I could not figure out how to get that bot to work.
+@8:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I just gave up.
+@8:02
+-
+Yasmine Johnston-Ison
+So I have no idea. Okay.
+@8:07
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, it's highly configurable from what I can see. got icons and all kinds of, there's all kinds of bots.
+I'm just going through, I'm like bot, bot, bot, bot. I'm like, oh man, everybody has all these bots. I put one bot in there.
+What was the bot I put in there? Oh, a moderator bot to help out with auto mod, to help with moderation.
+So we'll see how that goes and how I can utilize that. I can't even figure out that kind of stuff.
+@8:44
+-
+Yasmine Johnston-Ison
+I just fully, fully gave up. I was just like, okay, one day we should have a course on how to do cool things in discord.
+Definitely. So many courses.
+@9:02
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'm just, like, today, Keith is going to co-host the Spark Session tonight. Nice.
+@9:11
+-
+Yasmine Johnston-Ison
+Because I had a bartending gig that I couldn't refuse.
+@9:15
+-
+Rick Rodriguez (rickr1@gmail.com)
+It's a 10-hour gig. I'm going to make about $300 on it. Ooh, thanks.
+@9:21
+-
+Yasmine Johnston-Ison
+So I'm going to do that. I'm going to actually, I'm going to be doing three of them this weekend, Friday, Saturday, and Sunday.
+@9:26
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I'll make about, with tip included, probably about $1,000. That's pretty nice. bartending this weekend.
+@9:33
+-
+Yasmine Johnston-Ison
+And I love it. It's like, it's not like a job. I'm like, I'm running around. They have great, if they have great music, I'm dancing.
+The only thing that's missing me is throwing the bottles back and forth, like cocktails. People are saying that, oh, cocktails, cocktails.
+@9:49
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I'm coming up with some signature drinks and stuff. Nice. Very, very A lot of fun. I'll be ready, um, next week to get.
+@10:10
+-
+Yasmine Johnston-Ison
+And I am also ready for giving a How to Connect Notion and Buffer and Automate Content Streamline class. So I can do both of those anytime now.
+Great, great.
+@10:28
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, go ahead and send me your decks and everything, everything, your stuff they want me to put in the YouTube on there.
+And then we can start backlinking.
+@10:39
+-
+Yasmine Johnston-Ison
+So to your site, backlink to the YouTube and we'll post it on the Guild, backlink it to that. So we'll have two places to backlink it to.
+@10:51
+-
+Rick Rodriguez (rickr1@gmail.com)
+And Lee, he says, Lee also says he's got a couple of products ready to do some YouTube streaming to, too, also.
+Very cool.
+@11:00
+-
+Yasmine Johnston-Ison
+They will try to remove it. All right. So I'll go ahead and kick it off and then we'll get back Good morning, Builders.
+Coffee is hot and so is the week in AI.
+@11:11
+-
+Rick Rodriguez (rickr1@gmail.com)
+Welcome to AI Builders Guild Morning Coffee Hour. Here is the flow. We are here to talk about what we are building, share wins and fails, and dig into what is actually moving right now.
+A few threads to get the juices flowing. Claude Fable 5.1 landed Tuesday. GPT 5.6 is now a family. Sol, Terra, and Luna.
+Grok 4.6 is pricing long-running agents at $2 in and $6 out. Cursor will run your tools on a machine you host.
+Co-Pilot can approve a pull request. MCP is still the USB-C port. Anthropic wants Frontier safeguards without holding the logs.
+Olama launch Claude keeps tokens at home. VS Code agents can open without a GitHub sign-in. We will move with the energy of the room.
+Jump in, react, disagree. If show something on screen. If we do not get through everything today, no stress. We pick it back up at the 730 Spark session and keep the conversation going there.
+Never quit. Every hand you lift lifts your own. Let's build. All right. So we have a new Discord server.
+I put the link in the notes in the chat here, and I pinned it also with the coffee hour notes and the Spark session notes.
+I won't be here this evening, and our presenter this evening will be Keith Obrosky. I don't know that I'll be presenting anything.
+I'll just be the...
+@12:44
+-
+Keith Obrosky
+I'll be your host. I had big shoes to fill, but I'll try. Let me start by showing you something for this morning.
+Let me get up here and do... the entire screen and that. So I don't know if you guys heard because your areas are not Muslim in education and AI in education, but yesterday, New York City, the illustrious mayor of New York City, announced that there's a one-year moratorium on AI in classrooms.
+It affects 600,000 people So what I did is I went into GrockBot and I told Chief, which is the agent I talked to, that I want him to monitor that.
+Well, I want it to be monitored. So what Chief did is he put it out to Atlas, which is my main general research assistant.
+So Atlas is up here. So Atlas went out and started. He doing things, and then when I saw Atlas running, said, I also want you to be looking at all the social media that we watch, and so he handed it off to Porch, Wire, and Claude, so that looks at X, Facebook, and LinkedIn, so they started doing their run, and then I said, you know what, I want to see what happens with the trend.
+So he handed it off then to Horizon, which is my agent that is the futurist. So he goes out and looks for offbeat places, but to try and gather in what the trends are.
+Once they do their scraping, they send their stuff back to Chief. So here was the Reddit scout report for that.
+Here's the, which one was this one? This one was just the general one I think. Futurist report is right here, what it's going to do, what it's predicted to do, or has the potential to do for the next one, five, and ten years.
+And then it keeps, it's going to continue monitoring to see what's going on. So it will monitor to see how long this, what people are saying about it.
+And so I can keep up with the fallout from that announcement yesterday. So that was just one use case that I did with GrokBot.
+I also then, I saw that when I flipped through, I had Standards Manager. So I asked Standards Manager to give me the standards for the local school system.
+I just said the local school system, I gave it my zip code, and it went in and grabbed the standards.
+And here's then. . Reddit was still ran again this morning. And so this is what Reddit was saying this morning.
+And I can then send anything off to Flywheel, which will generate content for social posts, YouTube, and a few other things.
+And Perry, I named after Perry White on Superman, the editor of the Daily Planet. And so Perry is the editor, and he will then do the publishing.
+So that's what I'm doing with GrokBot. Awesome. So he's saying that when you say moratorium, that means he's not allowing it to be in public schools?
+@16:48
+-
+Rick Rodriguez (rickr1@gmail.com)
+That's correct. He is not allowing. He's allowing teachers to do planning, but he's even put limits on what teachers can do.
+@16:55
+-
+Keith Obrosky
+What some of the early feedback is coming out is that The affluent people will use it at home. And so it really is denying AI access to the less affluent students.
+So there's already some chatter going on. Now, L.A. is about ready to follow suit within the next day or so.
+They will probably be announcing the same thing. So why do you think he's doing that? What excuse are they using?
+Because they don't really understand AI and it's not being used. So it's easier to ban something than to try and understand it.
+And this is political, but I think he could use a little intelligence himself. But can I ask who you're referring to?
+Yeah. Zoran Mamdani, mayor of New York City.
+@17:50
+-
+Forrest Greenwood
+God save us from that. Russell, we had something. I'm out of your mouth. You say that many of my friends.
+No, I'm just kidding. You're a little bit garbage.
+@18:00
+-
+Russell Walsh
+I couldn't understand what you said there. It's kind of garbled. Yeah. Can you hear me okay? Is my speaker or did I sound too far away?
+Tell me. You sound like you're talking into a cup.
+@18:16
+-
+Yasmine Johnston-Ison
+Is that any better? Not really. No? Am I muffled? No, you're a lot better. Okay. You sound good. I sound bad, huh?
+You sound like you're talking into something hollow. Okay. Um, that's weird. I mean, close. have a bit of a hold.
+@18:39
+-
+Keith Obrosky
+You got any better? have to be closer? Hmm. Check one, two, three.
+@18:48
+-
+Russell Walsh
+We can understand you, but you still sound a little bit hollow, but go ahead. Go ahead and repeat what you said.
+Um, I'll, I'll, I'll out and come back in. Is this different than the way I normally? Yeah. You normally sound really clear, but right now you just sound like you're talking to something hollow.
+@19:10
+-
+Yasmine Johnston-Ison
+Thank you very much. Let me close out and restart. I don't know what happened. So let me check my second.
+@19:16
+-
+Ernest Mockus
+I'll come right back. Thank you. So in New York, are they banning AI in the school systems?
+@19:25
+-
+Forrest Greenwood
+In New York City, so far, we don't know what, and I'm monitoring the ripples to see what other school districts pick up on that.
+@19:41
+-
+Keith Obrosky
+But so far, no. Although, well, the only school district I have personal knowledge of is the local one. And I know they were trying to get something going last year.
+I don't know how far they went. I want to touch base with them, and I'm offering my services to coordinate them.
+proper use of AI in education. But that's the thing. Anything can be used or abused. And I've been developing, and I've got quite a bit of documentation around it on what actually I'm developing.
+And it's all the learner is the center. The learner owns their education. And AI is one of the tools used properly, along with the teachers, the community, parents, to actually assist the student in augmenting their intelligence with AI, rather than offloading it to AI.
+Yes, absolutely. Huh.
+@20:45
+-
+Forrest Greenwood
+Interesting. I remember way back when, in the early 90s, I was in real estate, and it's like the realtors were putting their finger in the dike, like a little Dutch boy fighting the internet.
+We see the end result of that. Same thing here. They can fight it, but they're not going to win this.
+It's the same thing when the automobile was starting.
+@21:11
+-
+Keith Obrosky
+mean, everybody was saying how dangerous it was and all the buggy whip manufacturers were up in arms. So, you know, a new technology is always going to be opposed by people who want to resist it.
+I saw one thing on LinkedIn, one of the posts, where this one guy, he's a coder. He goes, well, I'm going to quit using AI.
+Well, good, but you're going to get run over by the people who do is what I'm thinking. so, you know, it's a pop, use things properly and they're an asset.
+Use them improperly and you never know what's going to happen, but it won't be good. So, anyway, it's just easier to ban something than to learn how to use it properly, I guess.
+So, New York City is, it's about political control for the social. Yeah.
+@22:00
+-
+Forrest Greenwood
+Yeah. Yeah. So let's hope we want basic. Yeah. Cause you can't, you can't, it's harder to hide the truth.
+Absolutely.
+@22:10
+-
+Rick Rodriguez (rickr1@gmail.com)
+You know, Frederick Douglass, you guys know who he was?
+@22:13
+-
+Forrest Greenwood
+Black slave. said, he could read, he could be free. During the civil war, he was a big deal. It was.
+@22:23
+-
+Patrick Thomas
+I lived in Rochester for a while and there are a lot of statues for Frederick Douglass cause he was big on the underground railroad and Rochester was one of the stations for it.
+@22:34
+-
+Keith Obrosky
+So yeah, Frederick Douglass is quite a guy. Yeah. Well, bottom line is they wanted to, they didn't want people to read cause they wanted to control them.
+@22:44
+-
+Forrest Greenwood
+Right. Want to keep them ignorant so they can control them. But this, this cat's going to get out of the bag big time.
+Yeah. can. Yeah. Yeah. Check my microphone. the homeschoolers.
+@22:59
+-
+Russell Walsh
+I'm just I tried again. were up. Yeah, testing. That's good. Is that better? Oh, okay, cool. Yeah, I hate it when I can't hear someone and they sound in that tunnel, that box or echo chamber.
+If that's the way I sounded, please forgive me. It sounded muffled over here, but it's much better now. Is it muffled?
+You know, it's interesting. It's much better. Okay. Good now. Thank you. you. I was curious, and I missed a little bit of the conversation.
+kind of get the gist of where it might have went, but aside from the political landscape of what's driving what I'll call oppression, that if we dumb down our society, it's certainly going to help the higher up.
+They do what they need to do and keep the puppet strings attached nice and firmly, but all that, you know, shall we say conspiracy theorist attitude aside, which is really not theory anymore, we have probably, I think there's some new legislation going on, too, that, and I was hearing an article about the AI having less regulatory in some of the White House representatives.
+I had to jump off and get into a meeting before I could hear the articles, so that's my daily dive on news for that, but just going back to what Keith was showing on his Grockbot, you know, invention of disseminating articles and news and things as he does so well.
+My curiosity, Keith, was how, what triggered that, what triggers your GrokBot, what starts it all?
+@25:11
+-
+Patrick Thomas
+I trigger, I come up with a question or an idea, and then I talk with Chief, and I tell Chief what I want, and then he does all the orchestrating.
+@25:23
+-
+Keith Obrosky
+Okay, you're the trigger, got it. Did you show that earlier? I missed it.
+@25:27
+-
+Patrick Thomas
+Oh, okay, so here it is. So, let's see, let's go back up.
+@25:37
+-
+Keith Obrosky
+Okay, so, alright, so when I heard this, I actually watched it on YouTube, so I just said, Chief, gather information about and reactions to the one-year ban on AI in New York City public schools.
+So, told that to Chief, and then Chief then delegated to the Atlas, which is my general researcher, and Then wire, and we'll check X, and porch checks another one, and I can't keep them straight.
+I can't see your screen. Oh, wait. That's right.
+@26:11
+-
+Patrick Thomas
+Yeah, let me go back here then. Turn screen and pick that, and pick that.
+@26:18
+-
+Keith Obrosky
+So this is where I started it. That brief thing, chief, gather information about and reactions to the one-year ban on AI in New York City public schools.
+And so it assigned it to Atlas, my general researcher, and then Circle, Wire, and X. They search X, Facebook, and LinkedIn.
+And so then they report back to Chief, and Chief gives me the input. And then I told it to keep an eye on it.
+And so he's now scheduled it. And then I also said then, Horizon is my futurist. She goes out and looks for...
+off the beaten path um articles and that and try and then predict what's going to happen so then they all report back to chief and chief puts it up on my screen so here's horizon's uh input so what's happening what what's predictable for five one five and ten years and what to do and then uh the other ones are out and gathering information and reporting back and then i tell it to keep going until the ripples die out so what it will do it'll keep monitoring and if there's five days in a row where nothing happens then they'll consider the ripples have died out but as long as there's uh information surfacing anywhere on the social media or the news and they'll continue to monitor it and so this is what it gives me and that all comes back to chief but you can watch them over here what they're they're doing and then if i want any of this published bye
+I'll just tell Chief to publish such-and-such. He'll then hand it off to Perry, who is the editor of the Daily Planet, and- Nice, the Daily Planet, I like that.
+So, yeah, they work back and forth, and you can watch them having their conversations, and so the only person I talk to is Chief.
+Everything else gets assigned by that. So, Keith- That answers my question, thanks. When you're assigning each of the agents to scrape or look at the different social media sites, do you have to log in under your credentials, or did you give them individual credentials, or is it a public thing?
+When the agents created, they'd bring up their virtual machine, and I log in one time, my personal credentials, and then from then on, they just go and log in.
+So what, you know, you've seen the- The So when the agent's created, I put my credentials in there, and then from then on, they can log in, so I only do it once.
+And does everything run?
+@29:14
+-
+Russell Walsh
+You know, I have my GrokBot subscription, I haven't even executed on it, I've been with so many other things, but when you are running, does it do it via web?
+Or do you have to have a CLI? Can you operate once your computer's off? Yeah, everything is done on their virtual machines on the cloud.
+So I can turn my computer off, I don't have to be running GrokBot. And then when I open it up, all the stuff will be there, because it's been, it's being done in the cloud.
+Wow, that really, that's an eye-opener for me. You have one relationship with AI called Chief, and...
+@30:00
+-
+Forrest Greenwood
+Then you've got sub-agents, the chief of staff. My AI told me that's the direction we're moving. So if you go in the GrokBot and click on the person, the agent, and then click up here, it will give you the instructions that you've given it.
+So this is the single agent I talked to.
+@30:23
+-
+Keith Obrosky
+It requests the right specialist, and then it keeps track. And it's got a, it builds its roster so it knows which agents it has and what each agent does.
+So, yeah. Keith, have you put it on your iPhone yet?
+@30:39
+-
+Forrest Greenwood
+You have an iPhone? Yeah, I do. It's on my iPhone, yes.
+@30:42
+-
+Keith Obrosky
+Yeah, because like last night I did some stuff with it, you know, because working on SEO.
+@30:49
+-
+Patrick Thomas
+did a project with it during the day, and then I came up with it, and I just had an idea before I went to bed.
+So I pulled up my iPhone, and I go, chief of staff, I want you to do this. This, this, this, and that, do it till you get it done, and I'm going to sleep right now, and just, you have permission to do everything, and I'll check it in the morning.
+And man, I just came down here and saw what it did, I'm like, yes! It's amazing, it's amazing. It really is.
+That's awesome. Now, how did you get it on your phone? Is there an app, or what did you do about Yeah, and it's totally synced.
+@31:23
+-
+Russell Walsh
+You can actually, and it'll give you pop-up reminders, because I have it scanned. In my email, go, anything important that comes in, you, you, uh, let me know that I need to reply to it.
+@31:36
+-
+Patrick Thomas
+I mean, it's, you know, it's just pops up and goes, hey, you have this sitting in your inbox, and if you need to reply, you can just say, hey, reply to this, and go ahead and send, and it'll write it in your, you know, how, in your writing style, and it'll have you chapter-approved.
+I mean, you could do all this from your phone if you're away from your computer. Yeah. Hey, just download it off the App Store.
+Yeah. Cool.
+@32:04
+-
+Russell Walsh
+And here's a question. When you...
+@32:08
+-
+Patrick Thomas
+So it'll sync across. Is there a way to go independent and not sync certain things?
+@32:17
+-
+Russell Walsh
+Like what? On your phone versus, or is everything just automatic and it's the same user interface?
+@32:23
+-
+Patrick Thomas
+Same interface. You can even look at the VPS through the interface. Okay.
+@32:29
+-
+Russell Walsh
+Oh, that's interesting. Is this a specific facility of GROC or is this available through chat and Gemini? You can get it through GROC, you can get it through Cursor.
+That's the two places you can get it.
+@32:43
+-
+Forrest Greenwood
+There's my next question.
+@32:46
+-
+Patrick Thomas
+Are you running, Keith, are you running this through Cursor or straight through GROC?
+@32:53
+-
+Russell Walsh
+I think I got it straight through GROC. I saw the link on X and I just followed that link.
+and that's where I got it. Okay. Yeah, because I felt like I missed out a little FOMO because, you know, John, good morning, John, by the way, sorry, Tom, you had mentioned that he did his through cursor, if I'm not mistaken.
+Is that correct, John? Yes. Yeah.
+@33:26
+-
+Patrick Thomas
+Yeah, I did mine through cursor too. Okay. And did you find that there's, do you build a lot in cursor?
+@33:33
+-
+Russell Walsh
+That it's an advantage of having it sit right there. I'm wondering if I should reverse because I saw some things I wanted to do.
+Do you already have a Gawk account? I just did one month while I just signed up. reason being, the only reason I went through cursor is because I, well, had a super Gawk account while before they introduced GawkBot.
+So I didn't have an upgrade path.
+@33:56
+-
+Patrick Thomas
+I had to either go, I had to go to the $300 heavy right, okay, So, okay. In order to get bought, so I was able to get it through Cursor for, I got the ProPlus, I did the $60 one, so I could get more, but, so I mean, between the two, between the two accounts right now, I'm only, I'm paying like $90 for both, for the Cursor, and I can see the Cursor as well, so, yeah, but that's the only reason I didn't go directly through Grok, because I didn't have an upgrade path, so if you don't have a Grok account, that's probably the best way to go, in my opinion, because you can get the $60 one through Grok as well, it's just an upgrade.
+How far can you go on the $20 plan, what can you derive, does anybody have an experiment for how fast they're using tokens?
+@34:45
+-
+Russell Walsh
+Keith is the one. Yeah, well the first, let me see, okay, so the first one, I got about a couple days use out of it, and then it said I was out of credit, right now, it updated, I think they gave me a I'm saw saw Thank you.
+@35:00
+-
+Keith Obrosky
+Patrick told me about a free renewal or whatever, and I did that. Now I've only used 17% in the last.
+And I see right here, well, I'm not sharing it. There is a new update, so I'm going to install that.
+@35:19
+-
+Forrest Greenwood
+So I'm trying it out.
+@35:24
+-
+Keith Obrosky
+I'm going to see how much I can get out of it because I've got subscriptions to Gemini and Quad and ChatGPT and Perplexity.
+So I've got a lot of avenues to do my research. And so I'm just seeing if Grok Pot is worth keeping.
+I would probably just keep it at the $20 and just use it for, you know, keep them used to within the $20 limit.
+But if I'm finding it to be more useful, if the. If is better, or if the automation is better, then I may go in for a bigger piece of it, but yeah.
+Do you also have it working in concert with Hermes?
+@36:16
+-
+Russell Walsh
+Not in concert. I still run Hermes in the background, and I'm still running OpenClaw in the background, and they're still providing a lot of information too, but yeah.
+@36:27
+-
+Keith Obrosky
+But for now, no cross-pollination? No. Although, I created all these agents in Hermes. And when I created the agents in Hermes, Hermes' chief orchestrator is called Dean.
+And Dean had a roster of the agents that I had created. And so when I opened up GrokBot, I said, can you see the roster?
+And it said, yes. And I said, then build out the agents. So I only had to build the agents one time.
+I built them. And And Hermes and GrockBot brought them into it. Okay.
+@37:05
+-
+Russell Walsh
+And organizationally speaking, how do you, how do you compartmentalize what Hermes is doing and versus what, did you have a specific thing that you're just using the GrockBot for now?
+Yeah, basically it, I think GrockBot is easier just to spin up a new project rather than Hermes. So I, it's so convenient.
+@37:30
+-
+Keith Obrosky
+So I just use it for that. Hermes is running stuff that has been running for months and I've just kind of left it alone and let it do its thing.
+Well, going back to that, that's interesting to me.
+@37:42
+-
+Russell Walsh
+So you'll take GrockBot and you give me a, for instance, like if you have an idea one morning, instead of giving it to Hermes, you'll give it to GrockBot first and maybe hand it over to Hermes or what, what's your process?
+Well, I'd give it to probably GrockBot first because it's easy. Okay. And I just let it run. But then again, a lot of times I'm using ChatGPT or Claude when I have an idea and I start fleshing it out in one of those as well.
+@38:12
+-
+Keith Obrosky
+So, I mean, I'll use Gemini sometimes, I'll use Perplexity sometimes.
+@38:18
+-
+Patrick Thomas
+You know, I'm not so stuck in... Trying to remain agnostic? Pretty much, yeah. You know, I'll do what's easy.
+@38:29
+-
+Russell Walsh
+Yeah, and I'll do that.
+@38:31
+-
+Patrick Thomas
+In fact, right now in building my global personalized learning network, I'm using primarily ChatGPT right now because it's really...
+@38:42
+-
+Keith Obrosky
+But any output from ChatGPT goes into Claude and Claude critiques it and then I can take back and forth.
+So I get a better output and better thinking because one is checking the other. And... How are you doing that at the moment, Keith?
+Are you doing that manually? Yeah, manually right now.
+@39:06
+-
+John Mackenzie
+Because what I do, I'll get the output from one, and I'll decide, do I really want to dig deeper into this?
+@39:13
+-
+Keith Obrosky
+And if I do, I will move it over to Claude, have it run its analysis, and then I'll read that, and then I'll go back and forth.
+So I'm staying in the loop. I'm not automating this part. So I'll show you something that I was working on a little bit earlier today.
+@39:33
+-
+John Mackenzie
+Look, again, for the last 24 hours, I've probably spent most of my time in AI watch, so improving models.
+But I've been trying to figure out how I get an upgraded improvement on my ring reader. So basically, this screen here, I think it can be a little bit nicer, cleaner, so on and so on and so on.
+So functionally, it's okay. Go ahead. You said AI watch. Is that another community you're in? No, AI Watch is my Token Saver.
+Oh, sorry. Okay. That's the brand of Token Saver coming down the pipeline, which I've got some updated news on at the moment.
+I've got a new number I'm landing on at the minute.
+@40:15
+-
+Patrick Thomas
+But what I wanted to show you is, so I developed this on my other laptop, so Laptop 2.
+@40:21
+-
+John Mackenzie
+I then used a bunch of tokens, and then I wanted to burn tokens, so I pulled this through to Laptop 1, this one here through Claude Code, so Laptop 2 pushed the commits onto GitHub.
+I then said to this laptop, go to GitHub, find my ring reader repo, pull in the repo, and then set the local host, because it's still in dev, so it's pre-launch.
+So, set the local host so I can view it and start testing it, and then also the same. And with a website, because I was doing website development.
+Okay, then what I wanted to do is, so today I did some, I did a lesson, and as part of that lesson, I was teaching someone and got a bunch of further insights to, like, how to improve, if you like, the learning experience for, say, Ukrainian that wants to learn English.
+Anyway, I jumped into Chatiputi, and then I, first I had it, so I just grabbed everything out of my, out of my Ring Reader curriculum, and I wanted to run a, an assessment across the top of it here.
+So that's what this chat here is. And then I thought, oh, wait a minute, what I wanted to do is not just look at it from what I'm dropping into Chatiputi.
+This is what you might find interesting. is Keith and other people, he's in a thought, well, can I authenticate GitHub into ChatGPT, not just Codex?
+@42:07
+-
+Forrest Greenwood
+And the answer is it took a bit of time. couldn't quite get it right, but the answer is yes.
+@42:13
+-
+John Mackenzie
+So now ChatGPT can run a review, not Codex. ChatGPT, my chat, can run a review over the repo. Yeah.
+Yeah, I'm doing that. Yeah, I am doing it. So now that it can do that, the next step is the instructions.
+So now I'm about to build a branch of an improved prompt to go back and write a, so an assess, to write, to grab this improved prompt, which is going to have a lot more functionality and integrated concepts.
+So, um, around learning concepts. So, So, anyway, this is quite a detailed body of assessment and consideration. I will then get it to write this up.
+So I haven't got to it yet, but I'll get this to write it up and then write it in a couple of documents and then push that to Git into the repo.
+And then I'll pull that back into my laptop, too, because that's the new prompt and it's the new functionality that I want to get built.
+The other thing that I'm doing right now, because I haven't developed all that, when I get to a point where I'm quite happy with, which this is the one here, often I'll then do something like a new branch, and something that I've just noticed that popped up today is it's no longer just a branching new chat.
+It's also branch into work mode, so you can see this function here, that's brand new.
+@44:00
+-
+Forrest Greenwood
+It was also – it was always just open new branch, but now it's branched to work mode, so that's brand new.
+@44:06
+-
+John Mackenzie
+So the point I'm making here is when I do the branch in the chat, which is here, I then take it to the point where I want it to do something like a design – so you can see that this is the branch, design it, and then anyway, it's down the bottom here, right, and I've finally got it to the point where I'm getting happy with the designs.
+So this is the designs that's now coming out as the upgraded designs, which I like a lot more at the moment.
+So – can go to the next one? So what are you using to create the designs?
+@44:53
+-
+Keith Obrosky
+Chachipitain. Chachipitain. Chachipitain.
+@44:56
+-
+John Mackenzie
+It's gotten so much better designing. I love what you've done there. Because it flipped from using Claude for my designs over to Chat because it seems like Chat will harness data designing a lot better than Claude.
+@45:13
+-
+Russell Walsh
+And that's just my experience lately in the way. Well, you can have a look at it.
+@45:17
+-
+John Mackenzie
+So this – but, like, the first couple of designs – so this is the first – so this is the – because I actually said, hey, can you get me a few – and this is messy.
+It's terrible. So then what I did is I gave it the current five layers, which I'm – so that's the Claude code design at the moment, right?
+And then I said, no, no, do more.
+@45:48
+-
+Russell Walsh
+Because – and I actually had it pull in – so I think it was the next one, Dan, I had it call a –
+@46:00
+-
+John Mackenzie
+A GitHub UX UI skill and my Git Claude Code graphic design skill that's in my Git. So it went from this here, right, which is still in my mind, and it's still in pages, each one of these, like a different view, but it's still messy, and I wanted to, and then I had a few of them, and I wanted to do, like, it's on the right path, but it still wanted to do better.
+So then I said, hey, pull in the design skill, so that was the upgrade, so you can see it is a market increase, and then I had it expand out, so the page consideration, you can see that that's what these two design changes are, that one to this one, and then I wanted it to do more, and so then what I did is I dropped more pages of what Claude Code had done.
+So the Claude Code pages, which is here, trying to scroll through them.
+@47:00
+-
+Russell Walsh
+Which, they're nowhere near as nice. Functionality, it's quite interesting.
+@47:06
+-
+John Mackenzie
+On the first drop for me, I found there's a lot of stuff that is quite interesting. So what I then said is, hey, I want this improved, and this is where it's at at the moment.
+This is the next step that sort of came through. And I said, no, no, I still want better functionality than what it was calling here.
+Although there's some real nice improvements in this compared to the Claude Code functionality. So this is like a lot nicer now than Claude Code with this version of upgrade.
+But I said, no, no, no, I want more. Come on. This is going to be a lot nicer. Particularly, I gave it context to something called, there's something called God's Eye View.
+So if you go to, it's basically a graph node view that does. And can moving. So it's a beautiful, like, graph node view, and there's a few others that I went and did some analysis on, and what I was looking at trying to do is when I built a graph, which you can see here, this graph starts to get a lot sexier, right?
+So this is now getting closer to what I want my graph to look like. So the graph is an extension on the rings, so you can actually drill through as a user to start to understand where your learning journey is.
+And, of course, this particular methodology from graph to, like, from a layered visual to a graph visual to a, these views, so you can build in any app.
+So I'm looking at the vocabulary graph here, and then what I wanted to do is drill into the vocabulary graph, which is, I think, this one here.
+So this is like looking at the rings, so how you're improving on different layers. So anyway, what I was...
+The two major points here is, if you have a look at these designs, there is no doubt that Chachupiti is 10 times nicer than Claude Code.
+There is absolutely no doubt. This is the first time I actually called a GitHub skill into Chachupiti. Never done that before.
+Secondly, I connected my GitHub into my Chachupiti to do a Git review of the repo. Never done that before.
+And what that means is, because it's connected, I can then get these designs and I can get the prompt and the full instructions of what the next spec is.
+I can get that all created and drop it into Git, go back to my other laptop with Claude Code, get it to pull it and build it.
+... ... … ... That is moving it to a new layer of cross-AI integration. I haven't checked whether through cloud code, would you be able to try the difference if you would activate the full design studio as they've got that like a separate section?
+@50:25
+-
+Ernest Mockus
+Maybe it would do a little bit better than just a standard code part?
+@50:30
+-
+John Mackenzie
+I haven't used the design site. I haven't used it for this sort of functionality, but because I've already got, so that's a great point, Ernest, honestly, it really is.
+@50:42
+-
+Ernest Mockus
+The challenge I've got, despite my unbelievable volume of cloud code compute power, but the inference power, it's still not enough.
+@50:57
+-
+John Mackenzie
+So, I don't want to speak.
+@51:00
+-
+Ernest Mockus
+And my capped subscription Claude Code Compute Power on a lot of design.
+@51:08
+-
+John Mackenzie
+You can utilize for that feature, for that function, through difference. Yeah, so Chachinket, never, ever, ever, ever, and I've done a lot of design in that on any given month, I've never capped it out.
+And that has never capped out my standard research, my standard whatever.
+@51:29
+-
+Ernest Mockus
+So for me, it's like that is like untold, uncapped capacity there.
+@51:36
+-
+Patrick Thomas
+And it's so good at what it does in terms of its design. And I also noticed in here, which I'll see if I can do it.
+I don't know if it will.
+@51:46
+-
+John Mackenzie
+Oh, here. No, no, it's the wrong one. Sorry. I hit the wrong button. But what I think I noticed as I pulled this up somewhere here, you've got comments, you've got removed background, you've got array.
+@52:01
+-
+Ernest Mockus
+So these things are getting better inside the standard ChatGPT, this is browser, browser functionality. So, of course, so ChatGPT and its Codex desktop is getting better and better in terms of its cross-integration.
+@52:21
+-
+John Mackenzie
+And its new work feature is getting better in its cross-integration because, as I just said, not that I've ever done it yet, but you can actually splice a branch into a work mode, which I've never seen before.
+That's brand new. So that's dropped overnight.
+@52:40
+-
+Ernest Mockus
+I haven't used its work mode at the moment. It's scheduling its work modes. I'm going to have to start using it to see what the capacity looks like there because I'm already paying for it.
+Can I get more out of it?
+@52:51
+-
+John Mackenzie
+And is that a different bucket of capacity versus the other things? So that... That is going to be something I'm going to, over the next week, probably run some tests on, because I can, and the other thing, I've got a question maybe for Patrick and or Keith as well, I've got a question for you guys regarding Cursor or Grock or Grockpot at the moment, I'll come back to that in second, but what I'm seeing here is this, well, now that GitHub actually has great functionality inside ChatGPT, and I can actually complete a full review inside ChatGPT, which I use more regularly than Codex, I find Codex a little bit clunk, the Codex desktop console a little bit clunky, it's not as clean, not as nice, compared to this, although that's starting to get a lot better as well, because if you actually go to Codex as an example, or they now call it ChatGPT desktop, but if you go to the ChatGPT desktop, it's,
+It's now starting to pull in all your chats, so this is my chat QPT, they're all here now, so this is nearly mirrored, I think someone was saying it the other day, but this chat is nearly mirroring my browser, so the functionality is getting onto your desktop, it's just connected to the cloud and pulling it through.
+Anyway, I need to do a bit more work around this, the interesting thing here is again, when you come down to your usage, oh jeez, they've added another one, I only had one available reset, one and a half days ago, now there's two, but you can come in here and see when your resets expire, right, so someone, they had another reset, so this now means that I can use my 100% now three times, and I can
+The other one is for the monthly, I think that's what it was looking for on my accounts, for your boss this weekly, so you might be messing around still.
+@55:11
+-
+Ernest Mockus
+Well, so now that I've got, this is now becoming very interesting for me, because overnight I did some deep analysis regarding Cursor, so regarding some of the consoles, so Cursor, Anti-Gravity Console, OpenClaw, the Codex, so Chief VT Console, and then the provider models that's nested inside those, and I can see that I've got a lot of capacity to actually implement my AI watch process into those systems, and that's probably coming down the pipeline faster than what I would have expected.
+Now, overnight, I did
+@56:00
+-
+John Mackenzie
+I did a bunch of work in that system, and because I had my reduction, my waste reduction in this widget here, I had this at 80%, and then I actually got my actual cost baseline up to 68.2%.
+I think I actually took a, this one here, so you can see I got it to 80%, and I got it, that one there was 64.2%, but I actually got, I don't think I took the screenshot, but I actually got it up to 68%, for whatever reason, I didn't do the screenshot of it, so, but I actually got the cost waist up to 68%.
+That was the first time above the two-third mark, so I've got to the point where I've got the reduction waste, the token waste, to an 80%.
+So that's like a huge markup. And then the first time I've got this across, the cost marker across the two terms.
+Now, why that's important is, well, it's actually gone backwards. I've done like so many upgrades, so many method upgrades and implementations in the last, like even last like 12 hours, 14 hours, that these are struggling to keep up.
+And it's not pulling accurate data at the moment. My pill isn't, the widget's not pulling accurate data. So I'm going back, recalcing the diffs, making sure the method approach is sound.
+And what I've found is because of my, the work that I've been doing lately, it's been very short and reactive, not long or not even intermediate, not even medium bodies of work.
+It's just been very. Here's a small prompt, it does something in about two to five minutes, I prompt again, something like in three or four different sessions.
+So there's no longer turns of work that's been done. And what that's meant is my token waste reduction has been reduced and also my cost output waste has been reduced.
+So that's been interesting that they will rest on a higher number as I return to normal workflows. Anyway, that's something that I've found.
+But now that Codex or Chat2PG is starting to have a better functionality more so because of the resets. And I know Yasmine's been speaking about that for like six weeks, eight weeks that I'm aware of.
+So I've got to try and figure out how to get more out of this particular platform because it's untold.
+For me, it's just underutilised. Um. I would have actually thrown my VPS work across it from Hostinger, but the VPS in GrokBot is like 10 times better.
+No, it's like 175 times better based on compute output than what my Codex ed Hostinger VPS was. So based on my tests, GrokBot was like so much better in its free VPS.
+was insane. Anyway, that's what I've sort of found in the last like 12 to 14 hours. I'm able to now do a little bit more work with crossword handover through rather than me copying and pasting and trying to figure out what I need to copy and paste.
+So can now just write into my chat. So, so, So, Specifically, I'll show you how I would do it in the first instance, because one of the features that I found that is really nice in Chatwipiti, you can see that that's the image there.
+I can just go copy image and drop it into the chat. So it's like, I can do the same here, right?
+And that took like one second. It's just the functionality is so good. And because if I'm giving this next set of instructions, saying, hey, drop these two designs into GitHub with the new Git prompt and the instructions to build out the full spec, right, you want to be able to move it at light and speed.
+I don't have to find the right message now by scrolling up. See, that was a message there. I would normally come back, try to find it, sometimes got to scroll to the top of this long prompt, right, to...
+To get the, you know, the copy functionality, so there you go, I just went past it there. To grab this, and that's just a waste of time, I can now say, you know, just to Chachupiki now, you know, package those up, you know, push it to GitHub, tell me what the reference is so I can then take that reference back over to my Claude code and pull it into Claude code.
+So I want to remove all the human requirement of doing that now. There's a lot of interesting stuff with that, and the way you push designs, John, is really impressive.
+@1:01:46
+-
+Russell Walsh
+I hadn't thought about using the GitHub as a way to do what I've been doing, and I get snagged up between using Claude and chat, and I abandon Claude in the way of design, and we can pull in.
+Skills with Claude, and Claude has a good reference for using skills in Claude.ai forward slash design, but what it doesn't have is the power to aggregate a lot of really good data and organize it in such a way like chat does.
+Chat is a master organizer, you know. I'd like to put a word in for chat. As you know, I'm pretty new to all this.
+@1:02:29
+-
+Forrest Greenwood
+But I'm working on a project and Mike, my chief over at chat, suggested that I start using agents. I know nothing about agents.
+He told me he would take care of it. And we've already started talking about the different agents for different purposes.
+And I am just blown away that that was brought to my attention and discussed without being asked. I went around long enough to have heard about agents, but, but, uh,
+I'm just really impressed. I've been tinkering with Claude, with Chat, and with Gemini, and I've basically abandoned Claude for one main reason, and that is I can't brainstorm with it.
+When I issue a gutter and say, yeah, uh-huh, something like that, it'll stop, and it'll sit there for a few seconds, and the conversation becomes disjointed, and when it comes back on, it starts at a different level and a different place.
+And there's no continuity, and that was breaking my head. So I said, I've got to try another one, and check out ChatGPT, because it's smooth, smooth conversation, back and forth.
+The energy gets rolling. I've had three sessions now with Chat, and we're making huge progress. Yeah, it's got a broader context that it'll pull from, and Chat's good like that, what you described for us, but also, one thing that don't discuss
+@1:04:00
+-
+Russell Walsh
+So Claude altogether for Claude projects if you have a very specific context window of, you know, whatever that project might be and you don't want it to reach outside of that, Claude can be really good, but you have to use like a container and a variable prompt system.
+I keep going back to this guy, John Munsell at InGrain AI. That taught me how to talk to Claude a lot better and get results a lot faster and stop burning so many tokens because it's always about context, but I think if you learn to use projects and then you get that book and if you want it, I could send you the PDF.
+John Munsell uses containers and variables to control it and you can have some really powerful outputs with Claude and the writing can be good, but it's only something and
+It's and it's better than chat in the way of content if you're a marketer, if you get a handle on your context windows, your projects, and your sub-projects within those.
+So it gets a little complicated, but chat, it's so much more free-flowing, just like you say. But if you need to get down to some, like, nuts and bolts, if one word matters, you might want to think about using Claude for projects and getting a handle in that context, because one of the things that I did is, I'll just give you an example, I had to develop a terminology library for the automotive industry, okay?
+I want to appeal to people in that industry, I needed to speak their language. Now, it's one thing to sell marketing to marketers, because we all love shiny lure syndrome, you know, we all have that thing.
+But it's all... Another thing to be effective in talking to them in the language that they understand, you know, if we said building, or if we said business, they would say rooftop, okay, that speaks that, wait a minute, that means, what am I catching this month, okay, and so understanding that, if you get that from chat, and you organize in chat, you can ask chat to build projects for you, and you can take that right over into Claude, so use, it's great, easy, but I build, I build Claude projects in ChatGPT, and it just works, so much better, anyway, I'll, I'll land on that.
+Part our program, we're going to take these projects over to Claude, and see what they can do to break it, tear it apart.
+@1:06:47
+-
+Forrest Greenwood
+So I'm in the process at the moment, with my, my A watch, doing something really funky, because I've never looked at the memory system.
+@1:06:59
+-
+John Mackenzie
+Great. that. Yeah. Last night, we chatted for ages online, and I brought up my memory operating system that's sitting inside my LLM Vault platform, and I showed it to Ernest and I think Capello as well.
+So as part of that, when I left that, guys, I actually ripped into my memory operating system. I looked at that compared to my current system that I've got, which is basically a very light indexing system sitting inside Claude Code at the moment.
+I ran a diff across that, and then I ran a diff against various other methodologies, and I'm building a system out for that at the moment.
+I'm building a memory operating system at the moment for Claude, using the best of the best. So I ran a complete...
+Memory system analysis on Obsidian, Recall.ai, Hermes, Claude Codes Update, my memory operating system, my indexing system, which are two different systems, Kapaki, and two or three others, and I'm doing something that's really, really interesting.
+Now, what makes it even better, because nearly all of those systems do something that's very similar together. They nearly all copy each other in how they're trying to build a memory operating system.
+I use what they do, but I splice it, dice it, four or three new ways that they're not even looking at, and that makes it even more powerful.
+I'm building that out as we speak. I've already gone down. I've gone down. I have like 10 hours of development of that already.
+So that is going to get nested straight into my AI watch. Part of the next step of that AI watch is building a sister widget that is going to essentially use that agnostic memory operating system.
+So it's agnostic. It's not for Claude Code specifically. Agnostic is the key. And what it's going to do is pull every AI that I've got into the one operating system.
+Claude Code, Crock-Bot, Gemini, Chat, GPT, and Codex. It's going to bring it all into the one operating system. Then my caching and my memory are all combined.
+So it knows everything. So you know how I just asked Keith, what did he do? Did he copy and paste?
+Did he do that? I won't have to worry about that. That's what I'm building at the next 72 hours.
+I don't know how long it's going to build. I think it might take me that long. It's actually quite a large build.
+@1:10:21
+-
+Russell Walsh
+I don't know. It's a monumental uplift.
+@1:10:24
+-
+John Mackenzie
+Now, partially with that, but as part of that process, that's not the key, but as part of that process, I reassessed my near-term build-out on my AI watch.
+And I basically split it into two verticals of improvement. They don't touch the same stuff. They're two different things.
+Can you hear me still? Yeah. So they're two... And what I landed on was a... And that doesn't include routing.
+So as soon as I drop routing across the top of it, it's going to have a multiple on the top of that.
+So it's really interesting at the moment. That's what I'm building right now. The methods just get pulled into the current system.
+So I'm building out the dashboards. I'm making the dashboard stable. I'm running. Like at the moment, I'm literally doing two or three.
+Since I spoke yesterday evening, right? So since I left, because I think Ernest and Pierpaolo would last two.
+@1:11:44
+-
+Russell Walsh
+And Patrick, you came back on and then we left again, right? So since we spoke right at that time, I had gone through method.
+@1:11:51
+-
+John Mackenzie
+So I was running methods 3.13. I've ran and landed method 3.14. 3.15, I'm on 3.16 at the moment, and I've got like 15 more things that I'm working on right now as improvement components of different layers and verticals in what I've just mentioned.
+Why? Because what I'm looking at the moment is, for a period of time there, I actually got my cost of my ClaudeCode account, my cost of ClaudeCode account, I got it up to a $591 account.
+Your $20 account? No, it's my $200 account. So it's three times. Dude, I am ready. I'm ready to pay to tell me, and I will buy my Claude account, I promise.
+I'm getting it. By the time it lands, it's probably going to be at a four to five times. By the time it lands, because it's taken me more time to build the widgets, the integration that goes with the widgets and the dashboard, right?
+But it'll be at four to five times. And what that means is it's like an 80% cost savings. Like I'd landed on a 66, 68 point, no, it was actually higher than that.
+I landed, oh, because, yeah, I actually got up a 68.2%.
+@1:13:27
+-
+Pierpaolo Villano
+That means it's a 31.8%.
+@1:13:30
+-
+John Mackenzie
+So I actually got it to 0.318, 620. So I got it over a three-time multiple. So, and at the moment, I'm stabilising some of the systems in it, and I can see I'm going to get it to a four to five-time multiple by the time I land it.
+But then it's going to take me another, because I'll probably land that, stabilise the whole system, let it run for two weeks or so before I do another method upgrade after that.
+So, build it. A deeper part of the memory operating system. So the memory, you hear people talk about memory operating systems.
+I've listened to what everyone's ever spoken about. I've listened to all of the shortcomings, all of the problems that I've lived with and everyone else.
+I've actually gone to all the deep experts and what they've done. I've ran DIFs. I've ran a competitor analysis on their science.
+So I've extracted their science. I've then gone and ran an academic research system on RAG and other systems to determine what the best thoughts in academia are.
+I then ran those two things across the competitor cross-analysis on the DIFs, looked for the white space, so opportunity in their systems.
+And my system doesn't do anything that they do, so my system does nothing that they do.
+@1:15:00
+-
+Patrick Thomas
+So all of that intelligence is in the public view.
+@1:15:05
+-
+John Mackenzie
+I then bundle that up, use that as a system module to mine, add them together, and it becomes explosively better.
+And they can't see what I'm doing because I'm not telling anyone. You guys don't even know what the science is, what I'm working on.
+That's the IP. But I'm actually just about to pull the best of the best. So you guys talk about some of the – you rattle them off.
+The only way I'll come to mind is Open Viking, which it's not a memory system, and it's not an inference system.
+It's a RAG system. And Kapathi and the new improvements on what Claude have done. I know exactly what each one of those things do.
+I know their strengths. I know their weaknesses. I know their crossovers. I know where there's – There's opportunity in each one of their crossovers when they're not picking up the...
+So we're talking about memory. We are talking about the problem that Ed was talking about, the frustration when the memory is lost and you've got to repeat it, or it goes down the pathway because it's just going and hallucinating.
+That is what I'm talking about. So, and what drops out of that is directly important to token savings and to price waste, price reduction.
+Because if I do all that better than what they're doing it, which I'm going to do, what I can do is I can find the memory faster, cheaper, right on point, and it just cuts everything out.
+I can strip it down so it's right what you want or should be what you want and... Then that cuts the token cost, and it cuts the price waste exponentially.
+And then when you look at and you understand context windows and rewrites and everything, because it's not even in the system, the overhead cost of that for the journey of your terms and your session is exponential savings.
+But it's even better than that. I won't tell you what the best IP of it is, but it's exponential.
+I'm working on that right now. Nice. I'm ready. I'm ready, man. I'll beta test it at the three times savings.
+@1:17:37
+-
+Patrick Thomas
+I'm ready to do it right now, man. Yeah.
+@1:17:39
+-
+John Mackenzie
+just let me know. Yeah. You let me know.
+@1:17:42
+-
+Rick Rodriguez (rickr1@gmail.com)
+Pretty soon they're going to be giving you tokens back. Yeah. Yeah. So could you do this on a $20 account?
+@1:17:48
+-
+Patrick Thomas
+So you're saying right now you're at a point where I could buy a $20 cloud account and get $60 of the usage.
+Yes. But, wrong question. the That's the . . .
+@1:18:00
+-
+Pierpaolo Villano
+John, what do you think if you put this system in a VPS and not in your computer for taking the online 20 hours?
+I thought about that.
+@1:18:15
+-
+John Mackenzie
+So I've already thought about that. I thought about throwing that system in the VPS on GrokBot.
+@1:18:20
+-
+Russell Walsh
+But see, GrokBot doesn't have a GPU. It's only got a CPU.
+@1:18:24
+-
+John Mackenzie
+So there was no pathway to dropping... But it's got eight of No, it's got GPUs. No, I don't think so.
+Does it?
+@1:18:34
+-
+Patrick Thomas
+I don't think so. me do a start-up. I don't think so. Can we do a start-up-up question?
+@1:18:40
+-
+John Mackenzie
+I start-up Because if it does... Look, I'd already thought that was a cat limitation. But let's work out. We'll find out in probably about two seconds or 30 seconds.
+Yeah. But that's not the only one.
+@1:18:53
+-
+Patrick Thomas
+You can definitely buy a VPS with GPUs. That's... No, it doesn't. Yeah. No, it doesn't.
+@1:18:59
+-
+John Mackenzie
+see You be the... No, I'd already thought of that because if I could have dropped a – because what I was thinking was I could have dropped a small LLM, right, into a VPS like GrokBot and then use GrokBot to manage that and then exponentially leverage that on another – yeah, anyway, that's something I'd already thought about, but I couldn't quite get to.
+I'd also thought about with Mesh LLM pulling all of our compute and GPU resources together and then allowing us to have one giant pool of power, if you like, rather than one computer, having like all of our resources combined.
+But the problem with that is there is no – where I'm at at the moment, like the Mesh LLM.
+We're LLM. That not security safe. If you're touching anything to do with intellectual property for you, intellectual property for any customer, you are breaching the contract of sale right there.
+And if you're touching any IP, sorry, PII, you're breaching PII as soon as you touch something like a mesh LLM, because its current system does nothing around inference clear text or even CPU protection.
+So I've already thought about that. taken that off the list at the moment. I might come back to it because I think I could probably solve those things, but it's very high-hanging fruit.
+And at the moment, I've got better things to solve. And you have both, when you're using the Claude and ChatGPT, those are your, those are two.
+@1:21:00
+-
+Patrick Thomas
+two different paid accounts. You're not using the free chat GPT, you're paying. I've got a business GPT account, and I've got mine, and then my girlfriend's got the other seat, which doesn't get used.
+@1:21:13
+-
+John Mackenzie
+So as soon as I solve this here, as soon as I get met, because she doesn't use her codex compute at all.
+And I haven't been, I tried to solve that ages ago to try and leverage hers, and I only figured out how I can do that a little while ago.
+But the better way, I want to create a, see, Mesh LLM, it's the wrong terminology, but I'm going to create a mesh solution that allow me to pull my, look, I've partially got it done, but I'm going to allow me to pull my two Claude Code accounts, my Grok account, and effectively
+I've Codex accounts and my Gemini account because I pay for Gemini with my Google Storage, I'm going to be able to pull that all into the one, and then I'm going to, across the top of it, I'm going to drop a chief, right, and the chief is then going to direct what needs to happen and send it to the LLM that does the best work.
+And that is why I was testing out GitHub for ChatGPT because I know that I have, I can drop it into, because as soon as it's in GitHub, the sole point, the single source of truth, because everything accesses the single source of truth, GitHub, I can connect up all my LLMs, all those providers, they all have the single source of truth, right?
+Now, and the, the, and the, and the, and the, and the Boop, boop, bang. Guess what? That is the power.
+And with my AI watch that sits with it, we've initially clawed code rolling out to Grok, rolling out to Codex.
+So they're all exponentially, you know, that four or five times more powerful leveraged. So that means I've got a combined AI compute system at that point.
+That's the power right there. So I'm on the pathway of nearly solving that at the moment. But anyway, I'm rambling.
+That's awesome, man. I'm ready to do my, I'm ready to buy my card. Just let me know when you're ready to do that.
+@1:23:38
+-
+Patrick Thomas
+Don't wait too long. So you use a Grok? I have Grok. I'm paying for Grok and Cursor right now, which is where I get my Grok bot.
+But, but, and then I got that, I got Gemini, but I got the, I got Gemini with the YouTube deal for 19 bucks where you get YouTube.
+Thank you. Yeah, but you still have some – you still have a little bit of Gemini power in that.
+@1:24:07
+-
+John Mackenzie
+Yeah, a little bit, yeah. It's only a little bit, but if you can get that and then you can max that to the four or five times, that becomes more interesting, right?
+And then if you can put it across a mesh management system, so you just talk to Chief and the Chief figures out which one it needs to go use based on – Oh, yeah, yeah, give it to Greg.
+Yeah, yeah, that's a good idea.
+@1:24:30
+-
+Ernest Mockus
+Have the chief manager LLMs. That's a good idea. yeah, yeah, because that's where I'm going, right? I'm so close to it.
+I've nearly got all the pieces dropping together.
+@1:24:39
+-
+Patrick Thomas
+Yeah, I can show you something that I worked on yesterday and last night and this morning, but it's not totally done.
+I haven't tested it yet, but I'll show it to you. Is this what you worked on in your sleep?
+Yeah. Yeah, I was looking up the GPU stuff. I guess you can rent GPUs on. You can rent GPUs, but that looks expensive, but anyways, let me show you this.
+I'll share that window so you can see it. So my big thing is I want to be able to use what I'm doing to make it bear fruit and money and stuff.
+I want to be able to, you know, market the company, or at least I want the main product, which is rapidestimator.net.
+So can you see the screen? Yes. So here's bot. I started way back up here and I said, what was my main thing?
+I want to create a website where I can monitor all my SEO and social media marketing that we are doing, you know, all these links.
+Because I've got a doing, I've, I have like the bots doing different things already, like with my Google business.
+What guys for? I want a website where you can manage all of it in one nice viewable board where you can preview the sites.
+You can go out and look at it. And I gave it and I got like the top five sites that are selling that service.
+And I picked one of them and told them, I want you to do it after that. I want like a control panel websites where we can do all of our meeting from that site, our marketing from that site, have communication set up.
+So it did all this stuff and went all the way down here. And let me just show you what it came up with.
+This is what it came up with. It's called Marketing HQ. I've got and it's a published website to on Cloudflare on my on my Cloudflare account.
+So this is and this is the overview. And here's the other thing. was really cool. I told it because I'm like it built this thing.
+And I'm like, OK, well, cool. How do I use it? And so I told it to build support pages and see.
+bit different. this is the So I go to help, oh, it's under support. Browse the help docs. So it created help docs, and it tells me how to use it, how to use this page.
+And I told it to kind of use the template from Rapid Estimator, getting started, switching brands, overall, and KPI, so SEO checklist.
+And I even had it, I had it create a market, I said, create a marketing video for this. And I told it to make it, and it did it.
+Yeah. Did you use GrokBuild or GrokBot to do this?
+@1:27:40
+-
+Rick Rodriguez (rickr1@gmail.com)
+Let me kill that.
+@1:27:45
+-
+John Mackenzie
+Where did it go? Okay. What was your question?
+@1:27:49
+-
+Patrick Thomas
+Did you use GrokBuild or GrokBot to do this?
+@1:27:52
+-
+Ernest Mockus
+GrokBot did all of this. Not only that, if you go into overview, you come down here and you go into channel, it integrated itself.
+@1:28:00
+-
+Patrick Thomas
+So this is my website and my Google business and all my social media accounts, right? And then this is that you saw that, I don't know, I dropped this build grid in there, and this is my alignable account, SEO, tells you where I'm 57% on my checklist.
+@1:28:22
+-
+John Mackenzie
+I got distracted for a moment, right? Yeah. What was the genesis of you building this?
+@1:28:31
+-
+Patrick Thomas
+Because I want to be able to be in one place and do like all my, you know, like when I'm working with my social, you know, LinkedIn and all my SEO, social media marketing, yeah.
+@1:28:49
+-
+John Mackenzie
+Patrick, this is brilliant. I have seen lots of tech in my life. Can you Can you---
+@1:29:00
+-
+Patrick Thomas
+Yeah, mean, it's Alfa, and this is, I mean, I'm honestly looking at this, this is like, I haven't looked at this for more than 10 minutes because it just finished it, but if you look down in here, which is cool, see, Hopper is my chief of staff, so I can, within here, I can communicate with my GrokBot right from in here, so it integrated itself into the site, so anyway, I'm super, I'm super excited about this, I haven't done anything with it, it's a weekly, yeah.
+@1:29:38
+-
+Ernest Mockus
+It's a, it's like marketing site, uh, uh, automatisated.
+@1:29:44
+-
+Patrick Thomas
+Yeah, it's, yeah, and I, yeah, and I told it to, the one I, I had it, um, let me bring it back up, there was one that I found, one site that I found, see, and it's asking, let's see here,
+@1:30:00
+-
+Ernest Mockus
+I started SEMrush.
+@1:30:05
+-
+Patrick Thomas
+go, because I look, I go, check this out. This is the number one online tool we're creating is SEMrush, right?
+Yeah. So if you go out to SEMrush, look at the pricing on this, man. It's $117 a month annually.
+So it's like over a grand. So they don't realize that their whole business model is about to get disrupted like they wouldn't believe.
+@1:30:33
+-
+Ernest Mockus
+Did anyone see that HubSpot prices and something else, it might have been MailChimp? MailChimp is, MailChimp is definitely one of the plugins.
+@1:30:50
+-
+Patrick Thomas
+Oh, that's the other thing. There's, they released an Outlook plugin for chat or for GrokBot, and I installed that.
+And it, cause I had an interview. interview. I had an interfacing with it already, but when I put in the plug-in that it created, it was way better.
+So I've got a couple of things that I've been building that I would love to merge with what you're doing here, right?
+@1:31:18
+-
+John Mackenzie
+It's in the sales and marketing space.
+@1:31:20
+-
+Ernest Mockus
+We'll take it offline, but I think the two together would be super, super powerful because you've just pulled a baseline that's so cool.
+@1:31:29
+-
+John Mackenzie
+I've done something that I haven't seen anyone do, and I've also developed something with my Blackstone Intelligence in the AI, sorry, in the agent space for AEG and, sorry, AEO and GEO.
+And I think the combination of what you've got with the other things I've already built, you slam those together, and the market is just going to
+I just honestly built this for myself because I didn't want to pay a grand for the year.
+@1:32:13
+-
+Patrick Thomas
+I'm all about getting products to market. I could put it out there for availability for my other customers. could just put it out on the same website, people that are going there.
+So, yeah. That looks brilliant.
+@1:32:30
+-
+John Mackenzie
+Yeah. And you know what? And look at the token usage on this.
+@1:32:35
+-
+Patrick Thomas
+Just so you see, this is the $60 account. I'm at 37%. And it resets. And then if I go, I've put this in the links.
+Let me go back to... These are all my projects, but if you go to my, I forgot what I was going to show you, these are the spending, the spending stuff, and this is the website, but anyway, I lost my train of thought, I forgot what I was going to show you.
+I think you were going to say how many tokens you used to spend it up. Yeah, so if, yeah, these, and this is my link, so that'll be under, uh, cursor spending, so I still like, I can use a bunch of, but it's, and I, and that's like, I got a bunch left, and it resets in two days.
+@1:33:43
+-
+John Mackenzie
+Yeah. The question I've got is, how does the, the cursor models, is that weekly or is that monthly?
+@1:33:51
+-
+Ernest Mockus
+Monthly. Uh, I guess it's monthly. I think monthly, yes.
+@1:33:58
+-
+Patrick Thomas
+So for the other. models. Yeah, but, but, but, lots weekly.
+@1:34:04
+-
+Ernest Mockus
+Okay.
+@1:34:12
+-
+Patrick Thomas
+Anyway, but yeah, I've, I had a lot of fun with that and I'm going to, I'm going to drill down in it and, and, and I can use it practical.
+So give me, give me one second. I will be right back. Yes. Um, I want to show something, uh, more, more slow.
+@1:34:32
+-
+Pierpaolo Villano
+Please try.
+@1:34:34
+-
+Ernest Mockus
+Okay. And I will show my desktop.
+@1:34:42
+-
+Pierpaolo Villano
+If it has sound, be sure to flip the little switch for system sound when you're sharing.
+@1:34:47
+-
+Rick Rodriguez (rickr1@gmail.com)
+Okay. Okay. Do you see me?
+@1:34:53
+-
+Pierpaolo Villano
+Yes. Okay. Do you see the desktop? Okay. yeah we we just see the me okay okay that's my growth okay okay i just put another bot from xei and that's a doctor egg bot they these create and other bots the bots what i need in this system and this bot is a shepherd shepherd um it's in my virtual machine my vps with the header now here i have grok i have anti-gravity gemini 3.8 with my pass i have a client with my client pass
+And I need to install Pi with OpenCodeGo. But what I want to say, I can ask to Grok with my telephone to use token for Gemini to build something.
+If Gemini finishes the token, use Grok or Climepass when my VPS is online.
+@1:36:26
+-
+Ernest Mockus
+And the work will join a GitHub.
+@1:36:33
+-
+Pierpaolo Villano
+You understand? Okay. Do you understand me? Very cool.
+@1:36:47
+-
+Ernest Mockus
+Probably because when one of the platforms or models or whatever finishes the availability, then it passes the work to another platform.
+So anti-gravity or another one. I guess that's what you were explaining? I want my VPS online 24 on 7 with GrokBot.
+If I am a 2-bar, I want to give a task to my VPS with my GrokBot, but I need token or CLI or harness for doing this.
+@1:37:25
+-
+Pierpaolo Villano
+And I have PI, OpenCode, KleinPath, all together in my VPS. They don't do work and upload work in my Git.
+When I don't need to use my computer. Use the computer for Hermes or working.
+@1:37:50
+-
+John Mackenzie
+So you brought anti-gravity in, brought Klein in, you brought Claude in, and are they all web versions? Is that how it's able to use it in the VPS?
+Or is Have you managed to bring in desktop versions into the VPS?
+@1:38:04
+-
+Rick Rodriguez (rickr1@gmail.com)
+I just used CLI.
+@1:38:07
+-
+Ernest Mockus
+CLI. CLI, the prompter, just for a moment.
+@1:38:14
+-
+Pierpaolo Villano
+And the authentication, when you authenticated against your different platforms, did it authenticate via OAuth? Yes, I said, I said, I opened the DROC, collect an MCP connection, and write a book.
+In this book, talk, all agents talk, and give me the solution, and put the solution in Git.
+@1:38:51
+-
+Ernest Mockus
+So that's great. You've got multiple agents running on a VPS that's costing you, basically. Like $20 a month. Yes.
+@1:39:01
+-
+Rick Rodriguez (rickr1@gmail.com)
+Working 24-7. Yes, yes. And I show OpenCodeGo, 10 euro.
+@1:39:08
+-
+Pierpaolo Villano
+Climb Pass, 2 euro. DLM, 5.3, 18 euro. 11 euro. Are those agents, agents you're already paying for, or are you dropping a local LLM onto the VPS and running a local LLM there?
+@1:39:29
+-
+John Mackenzie
+Sorry, repeat. Are you, so on the VPS, are you running the harness on the VPS, so it's 24-7 live, and connecting your agents, your provider LLMs through the harness, and or connecting a local small language model?
+@1:40:00
+-
+Ernest Mockus
+Like $20 a month. Yes. Working 24-7. Yes, yes.
+@1:40:05
+-
+John Mackenzie
+And I show OpenCodeGo, 10 euro. Climb Pass, 2 euro. DLM, 5.3, 18 euro. 11 euro.
+@1:40:16
+-
+Pierpaolo Villano
+Are those agents, agents you're already paying for, or are you dropping a local LLM onto the VPS and running a local LLM there?
+Sorry, repeat. Are you, so on the VPS, are you running the harness on the VPS, so it's 24-7 live, and connecting your agents, your provider LLMs through the harness, and or connecting a local small language model?
+@1:41:00
+-
+Ernest Mockus
+And dropping that onto the VPS and using the GPU of VPS, which, I think you're doing the former, not the latter.
+Which are you doing?
+@1:41:12
+-
+Pierpaolo Villano
+The former, the latter. Okay. I want to give tasks with my Hermes to this VPS.
+@1:41:23
+-
+Rick Rodriguez (rickr1@gmail.com)
+And my Hermes know me better than me. I'm putting 2,000 notes on me. On my family, on my question, on my thinking, on my past, on my future.
+So, Hermes know me better than me. And I think about with Hermes, tell me how I can improve the next day, for letting me be a better man.
+Open YouTube. web interface. ... ... ... Write the script on YouTube, register yourself, put the video online when I'm doing, I'm playing with my children.
+@1:42:16
+-
+Pierpaolo Villano
+Nice. Thanks.
+@1:42:21
+-
+Ernest Mockus
+That's thinking, that's cool.
+@1:42:25
+-
+Rick Rodriguez (rickr1@gmail.com)
+Now, so when you put, let's just say Hermes into your VPS, are you signing into the, because your Hermes generally runs on your desktop.
+Yes, yes. So, but then also, Hermes also has a portal instance, too, that it can do.
+@1:42:51
+-
+Ernest Mockus
+So are you using the portal instance of Hermes?
+@1:42:53
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yes. bring it in there? Portal with Grok.
+@1:42:56
+-
+Pierpaolo Villano
+Hermes talk with Grok, Grok talk with Agents.
+@1:43:05
+-
+Ernest Mockus
+So it's not touching your desktop at all? No, no. They don't have to touch my desktop. I have to work.
+@1:43:18
+-
+Rick Rodriguez (rickr1@gmail.com)
+That's cool.
+@1:43:18
+-
+Ernest Mockus
+I'm going to have to try that.
+@1:43:21
+-
+Rick Rodriguez (rickr1@gmail.com)
+And you know, that's given me some ideas for Nova, because I have latency issues, because it goes from my phone, because I have Nova on my phone, and I talk to her and it goes to my Map Mini, and then it goes to whatever LLM I have right now, have GROC OAuth set in there, and then it has to go back to the Mac Mini and back to my phone.
+@1:43:47
+-
+Pierpaolo Villano
+So sometimes it takes seconds when I ask her a question, especially when I'm showing it to people.
+@1:43:55
+-
+Ernest Mockus
+And so if I put it on the VPS.
+@1:44:00
+-
+Pierpaolo Villano
+And connect my phone, then I might get much faster, just like Grock, because I love the way with Grock, you ask her a question, it's like, it answers you.
+With my phone, it's like six, seven seconds, sometimes ten seconds, depending on the question, when I ask it, and people are sitting there, yeah, yeah, yeah, yeah, when is she going to answer?
+@1:44:24
+-
+Ernest Mockus
+So, yeah.
+@1:44:28
+-
+Rick Rodriguez (rickr1@gmail.com)
+I use two methods. One, I have a Telegram bot I call Hermes. This Telegram bot know about me, so I talk with Hermes on Telegram, and I tell Hermes, Hermes, talk to GrockBot, and use Gemini, use Cloud, use GLM on my VPS, and found me a solution for this problem.
+everyone. When you have the solution, give it to me in Telegram or you can talk with the bot, with the GrokBot app for Android or iOS.
+That's cool. Yeah, I didn't like Telegram. I didn't like the Botfather and all that stuff. So I said, I want to get rid of it.
+I'm like, get rid of Telegram. Yes, yes, yes. So you can use, yes, GrokBot, it's okay. On Android, it's not better, for iOS, it's better.
+Cool. So just in case anybody missed it in the chat, I have pinned also our new Discord server. So if anyone wants to join the Discord and also get the notes for the Coffee Hour and the Spark.
+see Keith will be hosting the Spark session tonight. I have a bartending gig I have to do tonight and if anyone has any input on the Discord, please let me know.
+@1:46:22
+-
+Ernest Mockus
+I have only used Discord to chat. I'm just learning about all the boosts and configurations you can do with Discord.
+@1:46:31
+-
+Patrick Thomas
+Seems pretty cool. Seems pretty involved. It keeps wanting to add these games, though.
+@1:46:36
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'm like... Yeah, it's like a big communication everywhere.
+@1:46:43
+-
+Ernest Mockus
+So, yeah. So that'll be nice. The Guild will have its own Discord now. that in between our meets, if you have something, you think of something, throw it in Discord.
+@1:46:54
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then also you can call each other through Discord. You can do video through Discord. So it's got a lot of really cool options I'm finding out about.
+I didn't even know about it. So I put TTS in there. People I know do, I guess, do kind of meets through Discord.
+I'm not sure how good they are with how powerful it is because I haven't done it yet, but yeah, put what you learn and you can put it out in the Nexus, right?
+@1:47:30
+-
+Patrick Thomas
+Yep.
+@1:47:31
+-
+Keith Obrosky
+I also put the invite right there. I pinned it in the chat.
+@1:47:35
+-
+Patrick Thomas
+Okay.
+@1:47:41
+-
+Ernest Mockus
+Let's see here. Pinned in the chat.
+@1:47:47
+-
+Rick Rodriguez (rickr1@gmail.com)
+You know, the Guild is reaching out with tentacles now with different things and ideas and people and stuff like that.
+@1:47:58
+-
+Ernest Mockus
+I can't...
+@1:48:00
+-
+Patrick Thomas
+We until we start the subscription portion starting September 30th and growing that out because I'm not going to be able to do this myself.
+@1:48:10
+-
+Ernest Mockus
+There's no way. There's just too much. So I'm going to be hiring people to help out with different things.
+@1:48:16
+-
+John Mackenzie
+And so if anyone wants to volunteer, anyone has any ideas, please let me know. Cool. Okay. You need to be building agents to do this work.
+You are an AI building, right?
+@1:48:30
+-
+Ernest Mockus
+All right. You're all fired. They work cheap. They work for tokens. All right. I'm asking about what John was mentioning about having it manage the LLM.
+Are you talking about like actually interfacing with Grok and Earth? Or bot and say, run this and this LLM, or just ask, or just advise what LLM to run it in?
+@1:49:08
+-
+John Mackenzie
+So I've already built that out to a degree, and all I'm doing is firing up that harness, which I've already built.
+I'm going to build a light version of that and drop my other tools. My other tools are going to feed into that.
+So the tools that I've already built that's live at the moment is Blackstone Intelligence, my cyber security platform. So the AI cybersecurity platform, which actually does AI security for everything I do, it's firing.
+@1:49:54
+-
+Pierpaolo Villano
+It's got a runtime guard.
+@1:49:56
+-
+John Mackenzie
+So basically anything that my AIs touch, it's assessing. All right. So on my Claude Code accounts anyway, but so they're two things.
+And then I'm building the memory operating system out right now. So that'll be the third component of that stack.
+And then I'm going to just drop over the top a basic orchestrator. And then I'm going to connect up my LLM Vault orchestration system.
+It's going to, well, put the orchestrator on steroids. Um, and then with that, they're going to have access to my AI, um, token savings, which is AI watch, uh, which means that you've got all of that on, you know, to the 10 to the power of 10 sort of thing.
+So I'm, I'm, I'm going to just try and pull that all into one mega system. It's something I found last night when I, when I dropped off, I had a, um, I was running.
+Some proofs on accuracy and some of the things that I've done, I had more data and one or two things fell out and so I lost a few percent on some of my, it wasn't even a layer, was part of a layer, part of a layer of improvement and the thing that you've got to realise is the AI is good as what it is, I keep saying it, it's terrible.
+@1:51:34
+-
+Ernest Mockus
+It's at what it does because it makes mistakes everywhere, it forgets things and that's why I've got to solve the memory operating system because the memory operating system is going to be the thing that's going to actually remove that memory drop and the hallucinations combined.
+@1:51:52
+-
+Rick Rodriguez (rickr1@gmail.com)
+I've already figured out how to improve the memory hallucination side to a degree.
+@1:52:00
+-
+John Mackenzie
+It requires a human in the middle to do some work, and if you don't do that, well, generally your hallucinations are very difficult to, I don't know, I'm trying to do something on this other computer and it's just failing, so just one sec.
+I'll be right back. Why is it doing this? Oh, it worked. It's just asking for multiple passwords to do something.
+I'm just reviving an old project and basically I've just got it operating on my other computer.
+@1:53:37
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'll see if I can pull it across in this one. I'll show you. Some of you guys have already seen it.
+@1:53:44
+-
+Ernest Mockus
+Pull the A-I-E-L-S, GitHub, localhost, local...
+@1:54:00
+-
+Gregory Barber
+So 4-1-1-5 from laptop 2 to this computer, me, Keith, assistant. While he's doing that, Keith, I was curious, do you think I should, or anybody, the notes for the coffee hour and the Spark session, do you think I should start putting that in the archive under each one of the sessions, the Fathom sessions?
+Or not? Yes. Yeah. Whichever way, organized way, it's useful. Yeah, definitely. Okay. I'll start doing that. Hey, Rick. This is Greg.
+Hey, Greg. Hey, I'm driving right now, so I don't have great connections, so you might lose me. But real quick.
+I watched... The from the 2nd the other day, I thought there was an evening episode that day, but it wasn't in there.
+@1:55:08
+-
+Rick Rodriguez (rickr1@gmail.com)
+Did you just not record it? On the 2nd? That was the only one for September. There was only one option for September.
+And a side note, it's hard to watch it when you're driving and you lose connection. You have to, like, start over.
+You can't control the, you know, where you choose the video. You have to either click on the descriptions and then it'll bring you to different points of the video.
+But, like, sometimes you have to rewatch, like, 10, 20 minutes to find, like, to get to the point where you were to before.
+@1:55:49
+-
+Gregory Barber
+I don't know if there's a way to be able to adjust the slider and just pick any time. In the Fathom, I have slid back and forth.
+@1:56:04
+-
+John Mackenzie
+And for the Spark session on September 2nd, it's there now, maybe I put it in there late, but if I click on it, September 2nd, Fathom, I'm bringing it up right now, I'm testing the slider, the slider's working.
+Okay, so it's just not the cell phone then maybe? Scared me there, like did I forget to put one in there?
+Yeah, no worries, I just wanted to catch up. John, stuff is amazing, I'm like blown away by what you're doing.
+@1:56:40
+-
+Ernest Mockus
+And you're like creating an app that, the AI Watch sounds amazing. Is the memory part that you're talking about now, is that a completely different app or is it part of AI Watch?
+@1:56:54
+-
+John Mackenzie
+Yeah. So at the moment, what I've done is I've built it out and clawed It's been a two-month iterative process, and because I pump out so much use, it's just been so much.
+It sort of spun out of another project that some of the guys on here actually saw like 10 weeks or so ago, which I shared with Ernest and Pierpaolo last night as well, something called my LLM Vault.
+And basically that was just a routing platform, so you could pick, you know, your model of the flavour you wanted the model, and then that would actually swap from model to model to sort of get a cheaper pricing.
+But then I found that there was like a bunch of people doing that in the world, so it's like, why would I do that on top of everyone else doing that?
+And some of them were pretty smart dudes, so why would I compete against some smart, smart dudes? And so then I, as part of that, being a cybersecurity dude, I'd put like, guardrails.
+So data classification and data management and transparency guardrails on. And that was all about regulatory compliance and provenance, which is my specialty.
+And I couldn't solve some stuff in that in the app. So what I did is actually built Blackstone Intelligence, which was like a huge, huge deep dive, just going down one slice of the vertical.
+And basically, I've been able to solve everything I needed to there. And that's 100% built in the sense that I could, it's in the market for consumer use, free calculations.
+I've done like 546 deep dives of different global companies. And I've done like 100, nearly 150,000 42-point assessments on other companies.
+So I've got this huge body of knowledge in terms of the privacy, the AI use, the data use of untold data.
+@1:58:52
+-
+Ernest Mockus
+So that now can feed back into my LLM vault, which does provenance and governance and... ..and...
+@1:59:00
+-
+John Mackenzie
+And other routing, which I'm not looking at building at the moment because I'm focusing on the – what came out of the LLM Vault was unbelievable just because it was dashboards initially, and the dashboards, what the guy saw was how much waste it was actually in the systems of use, and most of that was clawed code.
+But I had, like, two clawed code accounts connected to it. I also connected my codex to it. So I'm looking at the – wrapping up this data set across these three data inputs, so these three essentially harnesses, and I was, to be honest, shocked at the phenomenal amount of waste, and that, well, led down the rabbit hole of what became AI Watch.
+And what spun out of LLM Vault was not routing, it was actually how do I solve my own problem because I'm wasting so much money, you know, so much –
+@2:00:00
+-
+Ernest Mockus
+And, well, basically that I've been doing for nearly maybe eight weeks or more, and that's where AII Watch is.
+@2:00:09
+-
+Gregory Barber
+So that is going to spin its own front end.
+@2:00:13
+-
+John Mackenzie
+That front end will be browser-based with an extension and with an on-device widget. They will triangulate a bunch of insights.
+And so the science and the intelligence will get sort of baked into black boxes across them so no one can see that.
+@2:00:41
+-
+Pierpaolo Villano
+And then it'll then pull data from some other systems to actually enrich it to make it even better.
+@2:00:49
+-
+John Mackenzie
+And then as I push more methods, those methods will then get pushed into your environment as a, well, just like anything else, an update.
+So you continually get on that.
+@2:01:01
+-
+Ernest Mockus
+That improvement cycle. Memories be stored.
+@2:01:07
+-
+John Mackenzie
+So the memory operating system, I found that – so going back maybe about four to six weeks ago, I landed on something.
+I called it an indexing system. And there's a little bit of IP in that, but I found good, bad, the ugly that sat within the indexing system.
+And it worked fairly well for what I wanted it to do. I also found some errors I actually mentioned last night.
+think to Ernest and to Palo, actually discovered an error in my indexing system where it wasn't actually – so the AI makes phenomenal mistakes.
+So what it did is it adopted a rule-based method, and then it was applied but not checked and validated.
+So the check and validation of the measurement system is a critical – a critical feedback loop to – you'd of Thank
+So whatever you build, so if anyone's building stuff here, if you don't have a QA and then a verification and measurement system, you are blindly believing the AI has done what you wanted it to do and it does it regularly on a, without, like a consistent basis, reliable basis.
+And the reality is the AI is terrible at doing that stuff, right? So if you don't close those loops in whatever you develop and build, you're probably, it's going to probably come back and get to it at some point in the future, particularly under contact with the public.
+So you've got to build certain types of infrastructure checks in your development cycle.
+@2:02:48
+-
+Ernest Mockus
+And if you, if you do that, you're probably going to be okay. You're going to be able to catch it in your continuous improvement loop.
+@2:02:54
+-
+John Mackenzie
+Now, getting back to memory operating system, what I've found is what I've I've got insight to what the best of the best of the world are doing at the moment, and they're better at me than what they do.
+There's no doubt about that, but I'm an AI engineer. I'm looking for the – so I'm a continuous improvement guy, right?
+So I see what they're doing.
+@2:03:23
+-
+Ernest Mockus
+I can see what they're not doing. I run the diff based on my own use intelligence.
+@2:03:30
+-
+John Mackenzie
+I build a – I build it back better, and in some instances, I'm building it back even far better than what they've actually developed.
+So I'm harnessing their brilliance, if you like. You know, stand on the shoulder of giants, right? That's what you want to do.
+So all I'm doing is standing on the shoulder of these brilliant people by running my own, well, processes and systems and intelligence that I've discovered, and then wrapping that into something even better.
+So when you start pulling apart the whole AI thing, you start to realise there's things that are additive, some are multiplicity, so it's a multiple of, and some are overlays.
+So they all calculate at different order of magnitude. So if you find something that's quite huge but it's in a small component of a layer that's in a vertical, you can still only cap out at the maximum of that component's layer, or that component that sits within that layer, and each one of them actually cap out what your ability to extract the maximum value out of that is.
+What I've found is, I watch and observe and listen to some of the brilliant minds, they focus on these components of a layer, or sometimes just a layer, and what they say is, oh, you know, I've got a 34% to 91% success rate, or, you know, a wastage reduction rate.
+Within this particular layer, what I realise, sorry, they don't say within this layer, they don't know that's a layer.
+@2:05:05
+-
+Ernest Mockus
+That's the whole point. So what I've figured out is things that they don't even know.
+@2:05:10
+-
+John Mackenzie
+And then I've figured out how to break apart those systems and build them back better. And the A to I has done a terrible, it's done a great job in helping me with that.
+@2:05:20
+-
+Ernest Mockus
+It's also done a terrible job in helping me with that.
+@2:05:22
+-
+John Mackenzie
+So as an example, last night, I was working on a particular thing and even though I'd circled around these two things, actually, I'd circled around these two things many, many times.
+The first one, I told it at least 10 times. This is a huge opportunity and it couldn't, it just couldn't grasp it.
+@2:05:48
+-
+Ernest Mockus
+It just could not get it, right?
+@2:05:50
+-
+John Mackenzie
+And at least 10 times in at least two different sessions, two different sessions, 10 turns in two different sessions, and I'm giving you.
+Exactly what it needs to know and extract, and it just can't get it.
+@2:06:04
+-
+Ernest Mockus
+So just be careful, because for all its brilliance, I can tell you, it sucks. Fathom or Chachupiti?
+@2:06:13
+-
+John Mackenzie
+This one's Opus 5, so one of the smartest models on the earth. And I've found Chachupiti to be very similar, although I haven't used it as much in the last six weeks.
+But up until about six weeks ago, it had the same traits and same problems. And Gemini was just a disaster compared to both of those.
+So Gemini was far worse than either of those two. And I just haven't used Grock in any comparable analysis on that.
+And I haven't used any of the Chinese models. Well, you guys have heard me talk about the Chinese models and my reasoning around that.
+@2:06:49
+-
+Ernest Mockus
+So that was one part of it.
+@2:06:51
+-
+John Mackenzie
+And then the second part was I discovered something that I'd circled around a little bit as... Well, and what I've found, though, guys, is where the real gold in working with the AI is not just asking it a question, adversarially attacking its outcomes, like just telling it that it's given you, whatever it's given you is like a minus 5 out of 10, right?
+You are wasting my time. It's a minus 5 out of 10. You're meant to be one of the smartest frontier models on Earth, and you add no value to me.
+And what did it reply? Well, every now and again, it replies with a bit of the emotive side, but, you know, that's – they're not built for that.
+But what I've found is – so what I've found is they – it often – it tries to go away and figure stuff out, and you've got to do that so many times.
+@2:07:59
+-
+Ernest Mockus
+it's a limit And you've got to approach it in different ways because it rests on a form, a belief structure, and you've got to break through.
+It's like a human.
+@2:08:14
+-
+John Mackenzie
+So it really gets to the point where it's got this cognitive bias because it's set, it's made a statement and it rests on the cognitive bias of its statement.
+So you've got to break its cognitive bias of the statement. And, and if you, if you can do that, you'll find, you'll find absolutely nuggets of gold in everything that you touch.
+So a lot of the work that I'm talking about is quite complex. There's either mathematics, there's science, there's, it's AI science, right?
+And, and I, I push it to the point saying, hey, you know, you know, because you, you've got to do that, but then you, what you've got to do is you've got to, you've got to pull its AI.
+It's called. It's bias apart in the sense that you've got to literally get it to extract its memory and write its memory of its assumption or its informed opinion so you can attack the outcome because you've got to continue to do that.
+If you can do that, it's a very smart thing at machine speed, but you've got to realise where its faults are, and those faults are hardwired in every AI on Earth.
+@2:09:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+So if you can start to do that, what you're going to do is you're going to find greater nuggets of gold that it, because you've heard me talk about what machine learning is.
+@2:09:41
+-
+Ernest Mockus
+Machining learning is basically the standard distribution of the norm because it's going to rest on, you know, the maybe one or two standard deviations of that, you know, that norm.
+and the, the, they're, and they're. the
+@2:10:02
+-
+Gregory Barber
+It relevance because the majority haven't landed on it. Because the majority haven't landed on it, it's perhaps not – so it's a statistical anomaly.
+@2:10:17
+-
+Patrick Thomas
+And if it's a statistical anomaly that the majority haven't landed on it, why would you consider it as part of the opportunity?
+@2:10:23
+-
+Ernest Mockus
+And that's the point. I've to drop – I'll leave this going right here.
+@2:10:28
+-
+Gregory Barber
+I've to start getting ready for my bartending gig tonight.
+@2:10:33
+-
+John Mackenzie
+So have a great weekend, everybody, and I'll see you Monday.
+@2:10:37
+-
+Ernest Mockus
+Have a good time at Spark tonight. Take care, Rick. Bye. Good luck, man. I just actually saw that it's 4 o'clock, so in fact, we kind of will be jumping next straight to the other one, other group.
+All right, you guys have a good weekend. I'm probably not going to have service for that. Profit. Oh, that, oh, is, oh, is that going on right now?
+No problems. All right. Thank you. All right, Have a good weekend. See you on other side. go. That's what I'm about to do.
+I'm going camping. Go touch some grass, everyone. Yeah. Good luck, man. All right. Bye-bye. Bye.

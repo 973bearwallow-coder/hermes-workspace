@@ -1,0 +1,75 @@
+Guild Spark: Build a Routing and Trust System, Not a Model Fan Club
+
+Source and evidence note
+
+This is a notes-grounded mini-class based only on the AI Builders Guild member-notes document dated September fourth. It is not a full-meeting recap. I did not review a recording or transcript, so I cannot tell which threads were actually discussed, demonstrated, challenged, or resolved during the session. Every model name, feature, benchmark, date, retention rule, and price mentioned here is an archive-note claim and was not independently verified.
+
+What this teaches
+
+The strongest lesson in these notes is not that one new model or coding tool has won. It is that serious AI automation needs a routing policy, a trust boundary, and an evaluation loop. The notes list ten threads, but four ideas carry most of the practical value for Atlas and Hermes: route work by risk and difficulty, test models on our own jobs, keep execution inside controlled boundaries, and separate instructions from live access.
+
+Idea one: route the job, not the conversation
+
+The notes describe an alleged GPT-5.6 family with Sol, Terra, and Luna tiers, plus multiple effort settings. They also list different prices for those tiers. Again, those names and prices are unverified archive claims. The durable idea is the two-axis routing card: choose both the capability tier and the amount of reasoning effort.
+
+That matters because “use the smartest model” is usually a bad operating rule. A Paw Prints appointment reminder, a TNDC invitation draft, a community-post classification, and a change to Hermes authentication do not deserve the same budget or scrutiny. Routine extraction and formatting can go to a fast, inexpensive model. Ambiguous planning can go to a stronger tier. Security-sensitive code can use the strongest available model, followed by tests and human review.
+
+Atlas already wants multi-model routing and local-model use. The opportunity is to make that routing explicit instead of letting every agent improvise. Each task class should carry a default model tier, effort level, privacy rule, test requirement, and escalation trigger. Local models become especially useful for repetitive or privacy-sensitive work, but only after they pass the same acceptance test as hosted models.
+
+Atlas assessment: use this now. Do not encode the archive’s product names or prices until they are verified. Encode capability classes such as local-fast, hosted-standard, and hosted-deep. That makes the policy survive vendor churn.
+
+Idea two: benchmarks are leads; our repo is the exam
+
+The notes compare an alleged Grok 4.6 with other named models using vendor benchmarks and price claims. Their sharper recommendation is a fifteen-minute bake-off on a real repository: same prompt, same files, and keep the change that actually compiles.
+
+That is better than selecting a model from a leaderboard. Public evals may not represent Hermes tool use, Atlas orchestration, dashboard work, or the odd constraints in Tom’s live systems. A model can score well and still mishandle a file, ignore an existing skill, invent a command, or leave a service in an unverifiable state.
+
+A useful bake-off needs more than “which answer looks best.” Give two candidates the same bounded task. Record completion time, token or compute cost, tests passed, unnecessary edits, human corrections, and whether the model followed the evidence rules. For local models, also record latency and GPU memory. A cheaper model wins only if its rework cost stays low.
+
+This can become a credible service-business advantage. Instead of telling a client that Atlas uses the latest model, Tom can say the workflow was tested against a defined job and has a documented fallback. For Paw Prints, start with low-risk back-office work such as classifying inquiries or drafting unsent replies. Do not begin with autonomous customer promises, schedule changes, payments, or anything affecting animal care.
+
+Atlas assessment: pilot first. One small benchmark harness is valuable. A sprawling model tournament is not.
+
+Idea three: owning the worker does not mean owning the whole loop
+
+The notes claim Cursor can run planning and inference in its cloud while a self-hosted worker runs tools on the user’s machine. They also claim computer use can click, type, capture screens, and drive browsers on Linux or Mac workers. These feature details were not independently checked.
+
+The conceptual warning is important: “self-hosted” can describe only the execution surface. Prompts, selected context, plans, or outputs may still leave the network. Before adopting any such system, draw the trust boundary. Mark where inference happens, where source code lives, which secrets are reachable, what telemetry is retained, and who can take control.
+
+For Atlas and Hermes, the right pattern is least privilege. Put browser or desktop automation in a disposable worker or restricted profile. Give it only the folders, accounts, and network destinations needed for one job. Require visible logs and approval before irreversible actions. Keep credentials out of repositories and out of prompts.
+
+This is directly relevant to content and community workflows. An agent may safely draft a post from approved notes. It should not publish, message members, or alter a community calendar without an approval gate. A TNDC art workflow can generate and organize assets in a sandbox, but access to personal messaging accounts should remain separate. Paw Prints deserves an even harder boundary around customer data, payments, and schedules.
+
+Atlas assessment: use the boundary-mapping practice now. Treat the claimed Cursor features as research candidates, not as approved infrastructure.
+
+Idea four: skills teach behavior; connectors supply context
+
+The notes draw a useful distinction between a skill and MCP, the Model Context Protocol. A skill is a written operating procedure that teaches an agent how to perform or review a task. An MCP server is a connector that can provide live context or tools from another system. The notes claim GitHub review can attribute both and that review-time MCP access is read-only. Those product details remain unverified.
+
+The design principle is sound. If the problem is inconsistent judgment, write or improve a skill. If the problem is missing current data, consider a connector. Do not add live access to compensate for weak instructions. Every connector increases permission, maintenance, and failure surface.
+
+This also clarifies automated approval. The notes say Copilot can now approve pull requests. Even if verified, a stronger reviewer does not eliminate governance. Machine approval may be reasonable for documentation, generated assets, or low-risk tests when protected checks pass. Authentication, secrets, billing, deployment, retention logic, and destructive migrations should still require a human. Approval policy should follow the consequence of a mistake, not confidence in a model name.
+
+For Atlas, one reviewed skill plus one narrowly scoped connector is a better experiment than wiring the same MCP server into every editor and agent. The skill should define evidence requirements, forbidden actions, and fallback behavior. The connector should expose the minimum data needed, preferably read-only.
+
+Atlas assessment: use skills first; add MCP only for a proven live-context gap. Ignore hardware-agent standards for now except as a watch item. Physical control could eventually help with printers, cameras, or other devices, but Paw Prints operations and TNDC events do not need an experimental hardware abstraction layer today.
+
+Credible opportunities
+
+The immediate opportunity is an Atlas routing card backed by a tiny evaluation harness. That improves cost control, local-model selection, and reliability across existing workflows without creating a new product.
+
+The next opportunity is a reusable trust-boundary worksheet for client automation. It could strengthen service proposals by showing what stays local, what reaches a provider, what requires approval, and how failures are contained. That is more credible than promising “private AI” without a data-flow map.
+
+A third, smaller opportunity is a repository policy pack: one review skill, protected paths, test gates, and a rule for human approval. It can serve Hermes projects first and later become a repeatable setup for small-business clients.
+
+What to do next
+
+Priority one, in forty-five minutes: write a one-page routing card for five recurring Atlas jobs. Assign each a capability class, effort level, privacy boundary, tests, and escalation trigger. Use generic tiers until current model availability and pricing are verified.
+
+Priority two, in ninety minutes: run one controlled bake-off on a real, low-risk Hermes task using one local model and one hosted model. Save the prompt, diff, test results, latency, cost, and human corrections. Promote a model only on measured results.
+
+Priority three, in sixty minutes: map one desktop or browser workflow end to end. Mark cloud inference, local execution, credentials, retained data, approval points, and forbidden actions. Use Paw Prints scheduling or messaging only as a paper exercise; do not grant live access during the mapping.
+
+Priority four, in sixty to ninety minutes: add or refine one repository review skill and define protected paths that always need human approval. Consider an MCP connector only if the exercise reveals a specific, recurring live-context gap.
+
+The takeaway is simple: the durable advantage is not early access to a model. It is a system that knows which model to use, proves performance on real work, limits what agents can touch, and keeps human responsibility where mistakes matter.

@@ -1,0 +1,1327 @@
+Source: https://fathom.video/share/zRqxGBQjGdZWJzqqxFDke1zb7NsfV66S
+Started: 2026-09-02T12:52:58.000000Z
+Duration seconds: 7588.623333
+Title: Impromptu Google Meet Meeting
+
+Impromptu Google Meet Meeting - September 02
+VIEW RECORDING - 126 mins (No highlights)
+@6:42
+-
+Rick Rodriguez (rickr1@gmail.com)
+Good morning. How's everyone doing this morning? Doing well.
+@7:02
+-
+Forrest Greenwood
+Hey, Forrest. Hi there. Hi there. How is the world on your side?
+@7:15
+-
+Rick Rodriguez (rickr1@gmail.com)
+Well, it has its challenges in this world.
+@7:19
+-
+Forrest Greenwood
+Oh, thank you.
+@7:23
+-
+Rick Rodriguez (rickr1@gmail.com)
+All right. Hey, Patrick. Aaron.
+@7:28
+-
+Forrest Greenwood
+I feel like a builder now, Rick. I finally got something built. Oh, yeah? What's that? Bitcoin prompts. Good morning.
+@7:42
+-
+Rick Rodriguez (rickr1@gmail.com)
+It's not quite up. build, Forrest?
+@7:45
+-
+Forrest Greenwood
+Bitcoinprompts.com. Coin prompts? Bitcoin prompts. Bitcoin prompts. All right.
+@7:57
+-
+Rick Rodriguez (rickr1@gmail.com)
+Would you like to show that? Before you do, let me just run the kickstart here. Forrest, you should throw the link in the chat for everybody.
+@8:12
+-
+Patrick Thomas
+You should throw the link in the chat so everybody can check it out.
+@8:16
+-
+Forrest Greenwood
+Yeah, it's not really ready. I ran into some issue with a secure server with Bluehost. Twice now they tell me to set up the secure server and it's not set up.
+ACTION ITEM:
+Switch Bitcoinprompts.com DNS to Cloudflare for free SSL -
+WATCH
+So it's going to come up as a not secure website, but that couldn't be farther from the truth. If you move the DNS to Cloudflare, they'll give you an SSL for nothing.
+@8:39
+-
+Patrick Thomas
+What's that? Just point the DNS at Cloudflare. It's free and they'll give you an SSL. And they'll install it.
+It takes five minutes. I already have a Bluehost account I've had for a while. Long time. Yeah, it doesn't take your account away.
+@8:57
+-
+Forrest Greenwood
+It's just doing the DNS. The naming server, the DNS.
+@9:01
+-
+Patrick Thomas
+You just put the DNS servers over at Cloudflow. They're high-end and they have a free tier. All right. I'll look at that.
+All right. So we'll start the kickstart and then get on with this here. Good morning, builders.
+@9:21
+-
+Rick Rodriguez (rickr1@gmail.com)
+Coffee is hot and so is the week in AI. Welcome to AI Builders Guild Morning Coffee Hour. Here's the flow.
+We are here to talk about what we are building, sharing, share wins and fails, and dig into what is actually moving right now.
+A few threads to get the juices flowing. Check slash usage before September 14th because the help article and the dashboard may not agree.
+Sonnet 5 stayed at $2.10, so the September 1st price cliff did not happen. OpenClaw 2.0 wants you to reuse a login you already have.
+A repo cannot turn remote control on for everyone who clones. Type slash mcp and save the every server your last session actually loaded.
+1Password's official MCP never returns the secret.
+@10:07
+-
+Forrest Greenwood
+Anthropix alignment post is the unattended agent question. Export this computer before you move, and pick whether guild code runs on your Mac or on the web.
+We will move with the energy of the room. Jump in, react, disagree, show something on screen. If we do not get through everything today, no stress.
+We pick it back up at the 730 Spark session and keep the conversation going. there. Never quit. Every hand you lift lifts your own.
+Let's build. Nice. Hey, Rick, where does it get that info? Where does your AI get that information for the morning?
+@10:45
+-
+Patrick Thomas
+Reddit and X. Reddit and X. just have it, like, look for, like, top 10 tech stuff or AI stuff?
+Yep. That's a cool little newsletter with the, uh, today's, um, or the.
+@11:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+It's actually the previous day, so she does it the day before the meeting. I like that.
+@11:05
+-
+Patrick Thomas
+That's cool. Yeah. All right.
+@11:08
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then, so has anybody downloaded the Dragon from J-Max? No, I've been meaning to do that. A little pet.
+Have you?
+@11:18
+-
+Patrick Thomas
+I did. I just actually did it this morning, and I'm just testing it out. Okay. I haven't done it yet.
+Yeah. Welcome, everybody.
+@11:32
+-
+Rick Rodriguez (rickr1@gmail.com)
+Does anybody have anything that they would like to share, have any questions, any wins? Go ahead, Forrest. Yeah, I'll share that I finally got an iteration of my little project going on, and it's in the message block.
+@11:52
+-
+Forrest Greenwood
+It's called Bitcoin.
+@11:53
+-
+Ernest Mockus
+Oh, okay. And I've learned a lot from this, and I'm not a programmer. I've been around.
+@12:00
+-
+Forrest Greenwood
+I've the internet for many years, but I am not a programmer, and I could not be doing what I just did if I wasn't working with Claude and ChatGPT and Gemini.
+And this is a very rudimentary rough version. Actually, we finished another version last night with just a couple more things to do to it.
+This just gives you the concept. It's pretty straightforward. The idea is that people don't know what questions, none of us, oftentimes, we don't know what questions to ask, let alone how to evaluate the answers.
+And so the idea behind this is to help people ask better questions, get better answers, and make better decisions without being attacked by a salesperson or a sales assistant.
+that's awesome. This is not at all about sales. I've got some ideas on how to monetize it. I'm not selling Bitcoin, and I've had some wonderful experiences with, and lengthy chats with both Claude and ChatGPT, and I'm here to report that I'm disappointed with Claude, and the reason why I'm disappointed with Claude is because, although, you know, that's a smart cookie, Claude knows a lot, but when I'm having a conversation, if I enter a gutter I say, okay, or yeah, it'll stop the conversation, and he'll, it'll go silent, and Claude will come back in a moment, but he will start, be starting a different, slightly different place, and it throws me, the cadence of the conversation is thrown way off, and so finally I said, enough of that, Claude's great for brainstorming as far as I can handle that, that problem, and I talked to Claude about that, I said, I got the real issue with this is what's happening, this is my experience, believe that it's emotion
+They said, well, that shifts the way it is. They might fix it in the future. However, ChatGPT is a much, much different experience because it's a more natural conversation, and I can agree or say a word or even clear my throat.
+If I was on with Claude and I cleared my throat, that would stop the conversation. It would be silent for a moment, and then you'd come back in, continue the conversation from a slightly different place.
+It was really disconcerting. Which Claude are you using? Are you using Claude Desktop, Claude AI, Claude CLI? What do you use?
+I guess you're commenting about the live voice mode, yeah? Yeah, because I'm not a real fast typer. I mean, I can hold my own, but it's just more natural for me to speak.
+I've been doing more typing. I've bit, question. We'll I But it's still more natural for me to speak, but it's not natural for me to have a conversation and hear the other party just stop, go silent, and then come back on a moment later, starting at a different place.
+And I brought that to the attention of Claude, and he said, Yes, we know about that. It's just the way it is right now.
+Well, you know what, Claude? Your competitor down the street, ChatGPT, offers a much different experience. A very natural conversation, so my thinking doesn't get jerked around by these interruptions that I experienced on Claude.
+Long story short, I've been hitting it pretty hard with ChatGPT, and we've been pretty close to issuing another upgrade on what you see here.
+So I thought I would just stick this out there and let you know what I'm up to. I'm very confident it's going to.
+It into something really useful for a lot of people, and you'll see when I bring out the last iteration with ChatGTB that it's just a much better product.
+Right now I've got that issue with Bluehost and the SSL, and I've got a number of web assets over at Bluehost, so I've had an account with them for probably 20 years or longer.
+I've got something like 500 names over there, I think, at Bluehost, so I'm not interested in splitting my attention any more than I already have.
+I'll wait to fix their SSL, and right now it's not that big of a problem because we still have other things to do.
+You'll see on the website as it exists, I'm not sure if it's working or not, but if you hit the word copy, that should copy that prompt.
+... ... Thank you. Yes, it is working. It looks like it's working over here. It changes to the word copied.
+I installed JavaScript, of course. It posts the prompt into the buffer so you can then just pop it into a chat of your choice.
+So we're trying to figure out how to remove any friction that might be there.
+@17:24
+-
+Ernest Mockus
+In other words, is there a way to hit copy, the button change, and then have it just posted right into a chat, AI chat, with a free service.
+So there shouldn't be any logging on or any paywall wanting you to sign up for an account.
+@17:46
+-
+Forrest Greenwood
+I forget which one of the AIs offer that I think there's two of them that allow you to go right in and type in.
+think it's chat GTP, and you can begin prompting right away. Yeah, that's pretty would be cool, man. I like that.
+ACTION ITEM:
+Add voice chatbot to Bitcoinprompts.com using X Voice API -
+WATCH
+Oh, thank you. Forrest, I just have to congratulate you on this. This is just awesome. It's really great. It's going to help a lot of people.
+And the one thing I think you can also do here is the same thing that Patrick did.
+@18:18
+-
+Rick Rodriguez (rickr1@gmail.com)
+Put a little chat bot in there, and you can actually talk with people back and forth and answer all those questions that you have in there.
+So you can do it doubly. they want to paste it into their own agent, that's great. But also, if a little chat bot on there would also answer their questions in real time.
+Okay. I'll converse with my chat.
+@18:49
+-
+Forrest Greenwood
+Yeah, it's, I use the voice API from X. It's not expensive. And if you just tell your, you just tell your.
+@19:00
+-
+Patrick Thomas
+Whatever model you're using, just say, want to say, I want to set up a digital assistant on Bitcoin prompts and I want to use the X API and yeah, I think you like 10 bucks and then it tops off and it's, it's like 5 cents a minute, but yeah, I got it.
+I got it to work on my really well on my food pantry website. And I've recently also looked, seen exactly the same bot for the websites from open source.
+@19:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+So again, of course it will be more basic AI model, but that's available, but I, I haven't saved the link like a couple of days ago.
+I've seen on one of the, uh, meetings, which I've joined as well.
+@19:44
+-
+Ernest Mockus
+And as it progresses, of course, I'll post updates, which I'll be posting on later on today. All right. But that's, that's what I don't you have, John?
+I'm sorry. It's okay.
+@19:57
+-
+John Mackenzie
+Uh, sorry, I just swapped computers. So, um, because- I'll computers. I'll drop the, you know how the messages get dropped?
+Oh, yeah. Okay, let me just pop that in there. There you go. And I'll pin it, too. So there you go.
+Thank you. Yeah.
+@20:16
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then Pierpaolo, I hope that's the right way to pronounce it. You had your hand up. Did you want to ask something?
+No, sorry, just wrong button. Okay, thank you. If you have anything, please chime in. All right. So this is awesome.
+And Forrest, you have come such a long way. And you have stuck in there and from being just starting out.
+And I know a lot of times these are very high level, so I just want to congratulate you for sticking in there, learning what you've learned, and you're going in the right direction.
+This is awesome. Oh, you're muted. Forrest, you're muted.
+@21:13
+-
+Forrest Greenwood
+I spent hours on chat with both Claude and ChatTTP, and there's a lot of thought that's going on behind the scenes here.
+It looks simpler than it really is. I wonder, what's surprising somebody from just coming along and swiping it? Stealing it.
+What do you mean swiping your...
+@21:37
+-
+Ernest Mockus
+It's a flat file. Oh, you mean your content? Yeah, it's one flat file. You know, there's nothing really stopping anybody from doing that, like just anybody's website, you know, to scrape a website that I know of.
+@21:55
+-
+Rick Rodriguez (rickr1@gmail.com)
+John might know how to put some stuff into the code that will... Yeah, so kind of obfuscated or something, I don't know.
+Yeah, you can go in your setup files on your browser.
+ACTION ITEM:
+Add scraping/blocking controls to Bitcoinprompts.com (robots.txt, Security.md) -
+WATCH
+@22:09
+-
+John Mackenzie
+You can tell your – so did you build this in Claude Code, Forrest? This one, yes, was written with yes, was written with – Perfect.
+You can tell Claude Code. You can tell it you want scraping and blocking to be stopped, so zero scraping and blocking capacity at all.
+You do want it to be found, so you want follow from an SEO point of view, but no scraping and blocking from any like AI or machine scraper.
+So work with it to do that, and you'll have to try and thread the needle a little bit and try to make sure that you're still able to be found from a Google search or an SERP.
+Search Engine Search Perspective, so you need that, but you want absolutely no scraping, no capacity there. Yeah, I would prefer that somebody just wouldn't come along and blatantly copy it, you know?
+Well, see, the problem is if you said that it's just in a flat file as well, that still makes it quite easy for a human to do as well.
+@23:22
+-
+Ernest Mockus
+So what I'd do is then once you've got your scraping blocked, because, guys, I'm scraping, literally I've scraped about 150,000 sites globally in the last, like, four or five days.
+@23:38
+-
+John Mackenzie
+So there are some sites, there are some methods you can just stop completely, right? And that's what we want.
+So you want to ask lots of questions with your AI to put in those roadblocks. And you want it to do it at various levels, you know?
+Security.md file, other.text.md files, whole range of different things, but you want to make sure your search is followed.
+@24:08
+-
+Ernest Mockus
+So you can be found from a search, but you have complete blocking that any site, any AI or any machine coming along will see that and then it stops it.
+Okay. And they actually follow it. They don't do it.
+@24:25
+-
+John Mackenzie
+Yeah. It's weird. So also, John, I downloaded the dragon and I installed that.
+@24:36
+-
+Rick Rodriguez (rickr1@gmail.com)
+And interestingly enough, when it popped up on this page, it says, could not read Bitcoin prompt.
+@24:45
+-
+Ernest Mockus
+Could not read. There's screwed up. Could not be fetched over HTTPS. Yeah. Yeah.
+@24:54
+-
+Rick Rodriguez (rickr1@gmail.com)
+Cause it doesn't have the SSL on it. That's why the hosts seem to be incapable of setting up an SSL.
+Well, twice now, they told me that they had done it, but it's not done right, so I've got to get on the phone with them again this morning.
+@25:07
+-
+Forrest Greenwood
+Oh, you can ask Claude also to set up the SSL. Okay, and I'm working with both Claude and Chad and Gemini, all three of them.
+I'm using the Gemini notebook, and that's working on fine for me. I probably wouldn't have migrated over to Chad if I had him back to that voice issue with Claude.
+That really was disruptive. Every time I'd say, yeah, that's, oh, and then he would stop talking. A few seconds later, he'd come back.
+@25:42
+-
+Ernest Mockus
+Yeah, where'd you go? And then he started talking about something slightly different. And so it's much better now with, for me, working in voice and in good typing both on Chad.
+One way, one way around that, what you could also do if you still want.
+@26:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+What to use, Claude, that is, is you could get something like Super Whisper, and you could talk to Claude, but then turn off the listening part.
+So what it does is it just, it just asks like a verbal keyboard instead of turning on the chat function, the back and forth function within it.
+That's called Super Whisper? Super Whisper, yeah. And that's, there's, there's a, there's a, I think there's a free tier for a while, and then yeah, it's like eight bucks a month.
+But I love Super Whisper because it also implements AI, so that it weeds out the ums and the does and the uhs and stuff like that.
+So it'll weed that out when it, when it posts the prompt. Every darn time I did one of those, you would stop talking.
+I did put this lifetime license and now recent, the last update, they also released the, I think, all local models or some kind of more basic tier included for.
+@27:00
+-
+Ernest Mockus
+the free version as well. I think I saw that post too on that too. That's great. That's pretty, pretty cool.
+But in general, like, of course, at the moment, the live voice mode through ChatGPT is the best level at the moment as experience.
+But at least when I've tried, it seems to be utilizing too much of the usage if you want to converse for long enough.
+So later on, I'm still hoping to find whichever open source model, which would be duplex because that's what you need.
+It's not enough text to speech and then speech to text and like both ways, which is close, but it's not the same.
+And it requires the ASR, but duplex where it's listening and speaking and able to do reason or pass the reasoning to the other next AI agent at the same time.
+I'm going to be going back to Claude for a second opinion on what I get from ChatGPT. And vice versa will hammer this out together.
+@28:05
+-
+Forrest Greenwood
+Already we've reformatted it or reframed it. So it's going to have a past.
+@28:10
+-
+Ernest Mockus
+It's going to be oriented towards the past, which is up until 2009, the Bitcoin era, which is from 09 today and the future of Bitcoin.
+So the orientation of the questions will have to do with those areas. So we'll have some focus on, on history and just getting people acquainted with Bitcoin.
+@28:30
+-
+Forrest Greenwood
+Bitcoin, more familiarity is probably going to make them more comfortable to actually move forward and get involved before they miss out.
+I think it's a prime time to be doing this because Bitcoin is about ready to explode. I watch very carefully.
+I have for years and with all that's going on, pay attention. It just had the biggest candle last week.
+The biggest candle in the history of Bitcoin. I think it was $15,000 up week went from about, uh, So I'm going to ride the wave when Bitcoin becomes more of top of mind topic and AI becomes more top of mind.
+I'm living at the intersection of Bitcoin and AI using Bitcoin to teach people about AI or as a motivation to learn about AI.
+Do you have like, because there's so many different kinds of Bitcoin. I mean, I'm sure it matters which one you buy.
+you have Bitcoin? There's only one Bitcoin. There's only one. You're talking cryptocurrency, Patrick. Oh, cryptocurrency. There's many cryptos, yeah.
+@29:46
+-
+Patrick Thomas
+I'm going near crypto. Bitcoin is way, way different. It's different in one really important way.
+@29:54
+-
+Forrest Greenwood
+Unlike any other form of money or any other security, it cannot be. It's not like a stock where the company can issue more stock or money where the government can print more of it, or even a gold mine, when the price goes up, all of a sudden the gold mine is profitable and they reopen it and start digging gold out.
+But that's not the case for Bitcoin. There is only one Bitcoin. I don't think a lot of people are really clear about this.
+It's a tremendously powerful distinction. And one thing, if you want to get kind of up to speed, just go to Google and set yourself up a Google alert and just look for Bitcoin adoption and walk and see what kinds of entities are picking up Bitcoin for their accounts.
+We're talking about major financial institutions, big corporations, nation states, and on and on and on. We're only at the beginning, given that there's about 900 $300,000,000,000,000 in assets in
+On planet Earth, including real estate, stocks, bonds, gold, silver, collectibles, there's only about $1.5 trillion in Bitcoin. So the opportunity for growth with Bitcoin is just absolutely enormous.
+And we're kind of standing on stress right now.
+@31:20
+-
+Ernest Mockus
+I got one other question. I don't know much about Bitcoin, but when I think it was the Super Bowl like five years ago, if you scanned your screen, they gave you like $5 and it's a company called Coinbase.
+Yeah, my $5 is $27 now.
+@31:39
+-
+Forrest Greenwood
+But if you were to invest in Bitcoin, is Coinbase a good place to be? Or is there some place that you, with your experience, you would go to instead?
+Well, do you know what a shot in the ear experience is? Shot in the ear? I've been punched in the ear.
+No, shot in the ear. That's When you're the president, and somebody takes a shot, and they just catch your ear, they catch your ear, I just had a shot in the interview, I had a shot in the interview with Bitcoin, a ago, when I was listening to the influencer about how to manage Bitcoin, they said, okay, put it on a hard card or a wallet, and here's the ones you want to use, and they mentioned Trezor and Ledger and ColdCard, and thank God I didn't pick ColdCard, I could just as easily have picked ColdCard, and that's the one that just got hacked.
+About 5,000 ColdCards were invaded, and about $100 million went missing. Fortunately, I had my money on a Trezor. How do you spell that?
+T-R-E-Z-O-R? Yeah, well, let me give you some more information. Maybe you're enough of a tech person to be okay with managing this yourself.
+I like I was concerned about the keywords, the phrase, the 12-word phrase that you've got to remember, then somehow you've got to protect it.
+If anybody gets that phrase, they know it's a Bitcoin account. They just need to log on, use those keywords, and they can go invade your account.
+So that was always a concern to me. So I learned that there's custody of Bitcoin, where if you are hacked through no fault of your own, they'll make good.
+@33:28
+-
+Ernest Mockus
+If you lose 100 Bitcoin, they'll put it back in your account. And Fidelity is a massive manager. They've got 17 trillion dollars.
+@33:36
+-
+Forrest Greenwood
+So I've just decided at the point where I'm at, it's much easier for me. I'll be 75 in December, do a little state planning and put my Bitcoin over it at Fidelity with my son as a trustee.
+You can't really do that with a coal card or a treasure. know, this the answer? you. So they have their pluses and minuses.
+It depends on what makes sense to you. But what I know, I feel relieved, first of all, that I didn't pick a cold card, and I refer to that as a shot-in-the-air experience because if had been an inch over, it would have killed them.
+And if it had been over on a cold card, it would have killed me. You I just missed out on that one.
+So... Fidelity, is that a credit union? What's that?
+@34:28
+-
+Ernest Mockus
+Fidelity, is that a credit union? Fidelity.com. It's a big money manager back east. Money manager. So, like, is Edward, like, they do stocks and stuff too?
+@34:38
+-
+Forrest Greenwood
+Because I have stuff in Edward Jones. I wonder if they do Bitcoin after that. They might. Well, they do, if they do, well, Fidelity will actually custody the real thing, real Bitcoin, other than that.
+Are we? Are we in a Bitcoin group or an AI group?
+@34:57
+-
+Ed Grimshaw
+I've put something into... Claude just as a cheque to critique Bitcoin as an asset and are holding its value, and it's not come back with anything that positive.
+@35:08
+-
+Ernest Mockus
+mean, it was a positive of $126,000. I told it's down at $77,000.
+@35:14
+-
+Ed Grimshaw
+So it is kind of speculative. I don't understand the connection between AI and this, to be honest. Do you want to wait for those back up to make sure?
+Yeah, but it's just speculative.
+@35:28
+-
+Forrest Greenwood
+It's got no asset backing as such, you know, it's... Unless you take it over, well, for the value. No, there's no, there's nothing backing the dollar either.
+@35:39
+-
+Ed Grimshaw
+No, I'd agree. Investments in general are speculative, and we're in turbulent times, but I just want know we get back on the AI agenda rather than Bitcoin.
+I'm fine. with that. And you want to talk to me about Bitcoin, Patrick? Contact me. I'll be happy to share what I know.
+Okay, first. Thanks. Can I ask a question that's popped up this morning on Claude? There's an update on Claude Fable 5.1.
+And then, okay, yeah, go ahead, Ed, and then right after you, Rashad has his hand. Yeah, sorry. No, no, go ahead.
+Yeah, I've got a thing, update above the prompt line, and I press it, and it just sticks there, update.
+Has anybody managed to update and got rid of that? Yeah, sometimes when Claude, are you on desktop first, Ed?
+Yeah, desktop, yeah, yeah. Yeah, just log out and log back in.
+@36:41
+-
+John Mackenzie
+That tends to fix most things. Yeah, well, I took it down and brought it back, and it's still there, so I just wondered.
+But did you, so it's not closing Claude down? No, it's not. It's logging out of Claude and then logging back in.
+Okay, yeah. So. If you try that, because with mine, I've had a couple of things where it's got stuck like that, and like on one day, I lost a couple of hours because I just couldn't figure it out.
+@37:09
+-
+Ed Grimshaw
+Then what I did is I actually logged out and come back in and everything fixed straight away.
+@37:16
+-
+John Mackenzie
+So I've had a couple of things do that since different, slightly different bugs or things getting hung, and then all I did is do exactly the same thing and that fixed it.
+Okay. Let me know if that works for you. Yeah, the other thing that's changed with Claude is now you have, well, for me, have to go back into my email.
+don't know everybody, does everybody have to do that?
+@37:38
+-
+Ed Grimshaw
+So you have to verify back through your email. Yeah, yeah, yeah, I thought I might be doing something wrong.
+Okay, thanks. I'm on the nose. So as soon as you log back in, it authenticates back via email. That's part of its two-factor, you know, multiple-factor.
+It looks like that method of verification is becoming more popular generally, I think, around the possibility of scamming with...
+Yeah, well, it means that a password can't be used as an entry point, you know, they've got actually, you know, break to your computer or break into your mail provider or both or either.
+ACTION ITEM:
+Email Claude support re: stuck 'Update' banner -
+WATCH
+yeah, that's... No, it's still come back with updates. I've logged out and back in, it's still there. Okay, well, on the bottom left-hand side, you'll see a little bug near your profile.
+I'll just jump in there and drop a message to them, tell them what your problem is, and then I'll get to it.
+Okay, thanks a lot. Thank you. All right, Rashad. Yes, my question was related to the Bitcoin thing.
+@38:42
+-
+Rick Rodriguez (rickr1@gmail.com)
+I think I probably misunderstood.
+@38:45
+-
+Rashad Khan
+So, Bitcoin portfolio, if you have, and the keys that you have, who keeps them in custody? Is that Bitcoin themselves or is that a, you know, who is it?
+Is that... Are of the custodians, or who are they? Well, with deference and respect to those in here who are here for AI, I'll refer you to Bitcoin prompts.
+@39:12
+-
+John Mackenzie
+Just go on over there and ask whatever questions you've got. You'll get the answers you're looking for. All right.
+Thank you.
+@39:21
+-
+Ernest Mockus
+I could speak to that a little bit. Yeah, go ahead, Russell. Well, Bitcoin should be understood as what's called a distributed ledger.
+@39:33
+-
+Russell Walsh
+This distributed ledger is owned by nobody except a framework of computers where everybody has an encryption on their computer.
+Very difficult to understand it. But very simply, if you were to post something like a YouTube video, once it's posted on the internet, it's almost impossible to get rid of it.
+That's because... because... It exists in so many different places. But this is different because it has an encryption code.
+And the way that it was originally crafted was for the purposes of a decentralized nature. Therefore, it can't be tampered.
+It can't be, well, I'm going to leave this concept of manipulated out because in my opinion, it is manipulated, but just in a market, in context of market, different story.
+But for the purposes of understanding what it is, the framework of it is called a distributed ledger. So that's how you would be doing your searching and education.
+Yeah, understood. You know, if you're referring to my question, that wasn't, you know, I understand very well.
+@41:00
+-
+Rashad Khan
+As the distributed networks and distributed encrypted nature of Bitcoin and similar cryptocurrencies, my question was, you know, the keys that you, the 16 word keys that was mentioned, where are they put as a custody, so if somebody breaks into them, you don't lose the actual Bitcoin.
+So that was the question, you know, related to the custody rather than the mechanism itself. You know, I understand the mechanism very well, but I, I wasn't aware who is able to keep your keys in a custody, so if somebody breaks into them and lose your, take out your crypto, then, you know, you, they would put it back.
+That was the, that was the thing that was of interest to me. Two sets of keys, there's public and private.
+@41:57
+-
+Russell Walsh
+Understood. So yeah, yeah, if it is the standard.
+@42:00
+-
+Ernest Mockus
+If of, you know, the key pair, private, public, then I understand that already. So that's great. Thank you. And then really quick, I started playing with GrokBot, and I noticed how a lot of people have built out, like, not just one agent, but they just said, build out all the agents.
+@42:20
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I asked Grok, I said, I see a lot of people building out all these agents on GrokBot. And I, when I went in there, it's like, they want you to build them one at a time.
+I'm like, so, so how do you do that? And it explained to me that you can just pick basically the first bot and then tell them that you want to build out all the agents.
+And it will actually go through and put together what it knows about you and then start building out agents with the different expertise of what it knows about you.
+So I thought, okay, so GrokBot really doesn't know that much about me, I don't think, because I'm just starting to use it.
+you. So what I'm going to go do, and who knows the most about me? Does anybody know who knows the most about me?
+@43:07
+-
+Ernest Mockus
+Claude, Nova.
+@43:10
+-
+John Mackenzie
+Nova knows the best about me. So I'm going to go to Nova and I'm going to say, hey Nova, I want you to create for me a prompt because I'm testing out GrokBot.
+@43:20
+-
+Ed Grimshaw
+It wants to know everything about me.
+@43:22
+-
+Rick Rodriguez (rickr1@gmail.com)
+Please make me a prompt that I can give to GrokBot so it knows everything about me to see what it's going to build out.
+So I haven't done that yet, but that's my next move. Rick, I'd suggest you let GrokBot try and build it out first because I did that and it built it out for me.
+@43:41
+-
+Ed Grimshaw
+I didn't have to do anything with Hermes.
+@43:43
+-
+Keith Obrosky
+I built the agents first in Hermes and used them and then with GrokBot it just built those for me, I think.
+So try it first and then have Nova do it. Just it's an experiment to see how well GrokBot will do.
+Okay. Just to add to that.
+@44:00
+-
+Ernest Mockus
+There's a video out named Herc.
+@44:07
+-
+Ed Grimshaw
+He has a markdown skill that's fairly popular called Grill Me, and I think it's similar to what Keith's saying, that he sets that up as an agent, and then it feeds into itself, and that learns about you then as you go.
+So it's a Grill Me when you're trying to teach it something that he knows nothing about, and it asks the questions in a systematic way, so it's building it with that as a skill, and you can import skills into GropBot.
+So GropBot has GrillMe? No, you can import that as a skill that then builds an agent.
+@44:47
+-
+Rick Rodriguez (rickr1@gmail.com)
+And where do you get GrillMe? I will just post you a equivalent out there, which is GrillMe, but with Blocks...
+@44:55
+-
+Ed Grimshaw
+Oh, sorry, this is wrong. I didn't copy the...
+@44:59
+-
+Ernest Mockus
+on. And we'll just post quickly. Just if that's useful, that's all, Rick. Thank you. Thank you, Ernest. Yeah, definitely.
+@45:10
+-
+Rick Rodriguez (rickr1@gmail.com)
+That's a great idea. Your files. So if you've got kind of files around you, whatever you've been working with, it will use a bit more information, so you won't have to manually re-verbalize everything from your head.
+@45:27
+-
+Ernest Mockus
+Great. Grill with docs. Okay. And this is free? Yes, yeah.
+@45:36
+-
+Rick Rodriguez (rickr1@gmail.com)
+Great. Thank you, Ernest. Awesome. So who else? Oh, John, I downloaded the dragon, the animal guy. What else can we test out?
+@46:00
+-
+Ernest Mockus
+So far on the BlackSnow Intel. So you can use that pet.
+@46:04
+-
+Rick Rodriguez (rickr1@gmail.com)
+So any site that you go to that, any site that isn't a banned site, which is 10 categories of banned sites, which is on the website that you can find them.
+@46:15
+-
+John Mackenzie
+But any site that you go to, you can actually, that should populate in the bottom left-hand side of your browser experience.
+@46:24
+-
+Ernest Mockus
+If you're using Chrome, then from inside that, you can actually open up a couple of assessments, which I think you've probably been able to see a lot, see more.
+So the evidence chain, and then the calculator, and then the five layers.
+@46:41
+-
+John Mackenzie
+can do that all from the widget. So from the pet. At the moment, that's the consumer experience. But if you actually open up the five layers, you can drill into what's happening on each one of those websites.
+@46:56
+-
+Ernest Mockus
+We actually are building out quite a bit of, um, uh,
+@47:05
+-
+John Mackenzie
+I'm also developing the free and the paid user experience. So anyone in the group here, I'll be offering a paid beta, a free paid beta to test out all that experience.
+@47:26
+-
+Ernest Mockus
+Firstly, the free, so you can see what the free is, and then you When you've done that for a little bit, you can sort of understand it then, you know, migrating to the free paid beta, so you can see that as well.
+So, and then, you know, with the feedback loops.
+@47:40
+-
+John Mackenzie
+So initially, probably a short answer, Rick, is just seeing from page to page, probably the main pages that you might have a lot of significant interest in might be bank, like financial pages, insurance pages, anything crypto related, any AI experiences.
+You know, because what you'll start to see is the significant privacy data and AI and security gaps that these companies that we all rely on, that they have gaps in their terms of service and their personal and commercial contractual agreements.
+You'll start to see that, that it's everywhere. Is this work on Firefox also?
+@48:27
+-
+Rick Rodriguez (rickr1@gmail.com)
+Not on Firefox, because that's a different, so I've got to build a different pet for that, same with Safari.
+My understanding is that the Chrome widget does work on Edge, but I haven't tested it.
+@48:42
+-
+John Mackenzie
+All right. And then any updates on the TokenSaver app? I'm doing a lot. I've worked on that all morning.
+@48:55
+-
+Rick Rodriguez (rickr1@gmail.com)
+There was a drop in from Anthropic in July 20.
+@49:00
+-
+John Mackenzie
+I just went, they did a bit of work that I'm trying to re-coordinate, understand, but essentially what they did is, from my data, it was showing that the upgrade that they did on their system, I'm trying to map their order of operations to engineer what they did, I'm in flight and doing that at the moment, but what they did in my modelling showed a 29% savings in that layer.
+So for most users, they would have experienced, don't get me wrong, that's not a 29% overall savings, that is 29% savings in that layer of potential, and that, so every layer has 100% of potential in a, you know, in a structure.
+Sorry. But in that layer, they did an upgrade that had a 29% improvement for my data set that I've got.
+Now, that could be a little bit different for other people's use case, just because of a volume use case.
+But that was interesting. So because I'm modelling that at the moment, I'm trying to get a handle on lots of stuff in that space.
+Because I'm doing a major, I'm doing a major upgrade at the moment as part of the, the, the system, the go to market system structure.
+So I've been working on that all day. So sweet. Ready to beta when you're ready, man.
+@50:45
+-
+Patrick Thomas
+So fast. While I've been doing that, um, has anyone ever learned a second language?
+@50:55
+-
+John Mackenzie
+I'm still learning English. I'm still learning English. I'm So, Ernest, have you got a second language or beyond? My native language is Lithuanian.
+@51:07
+-
+Ernest Mockus
+I did speak a little bit Russian, so I understand Russian, but it's not, well, when you don't use it a lot, it's a bit hard.
+Basic, basic conversational, I still could speak, but it's English. Where do you live, Ernest? Are you in the States?
+Are you in Lithuania? No, I live in Cardiff, Wales, UK. Somewhere else again. So, are you learning Welsh or not?
+Joke. Not really, not that, like a couple of words, but I don't really speak Welsh. Not many locals, they don't speak, some of them, a bit more in the valleys, outside from the capital, a bit more people, but yeah, English is enough.
+Yeah, it's quite interesting.
+@51:57
+-
+Patrick Thomas
+So, tell me when you can see my screen, guys.
+@52:06
+-
+John Mackenzie
+So I'm developing something, I sort of mentioned this yesterday, I don't know what to call it yet, but it's come up with its own name called RingReader, and essentially came up with something called RingReader, because I had this concept, when I teach people, I see people, they're either, they've got these inner words, right, these inner words are words that people know really well, so they're fluent in them, understand the definition, understand the context, you understand the pronunciation structure, you can recall it, like, in light in time, it's fluency.
+Then you've got the second ring, and I see that people either struggle with a bit of definition, they might, they might understand the word, they might struggle with the definition, might struggle with the pronunciation, and might even struggle with, um, not a dialect, a, um, uh, like Australian versus, English versus.
+Welsh versus USA, the pronunciation, and then you've got your outer layer, the third ring, and this is why I called it ringlayer, and in this third ring, it's like these are the words you're trying to migrate into your second ring and then move from your second ring into your first ring of fluency.
+Now, part of what this does, if you like, it looks a little bit like if you come into the reading structure.
+You can come in here and you've got, like, the international standards of fluency or, you know, I don't know, like mastery, if you like, of that particular language.
+Anyway, so what I've developed here is something that, can you hear my ring? No. Sorry, the sound wasn't shared.
+I don't know how to do that. Can you do that? Oh, there's a little, when you share it, there's a little toggle on the screen there that says system sound.
+Is it? It should. It Oh, there. I've never seen that. Oh, interesting. Okay. Yeah, there you go. Learn something new every day.
+Thank you. So, we'll go again. Can you hear this? Can see the screen? It didn't come up yet. Cooked a delicious lunch for her brother.
+They ate everything. Yeah? Did you hear that or not? Sorry. Yeah, we heard it before we saw it. Oh, okay.
+Do it one more time. Yesterday was a special day. She quickly cooked a delicious lunch. Yeah? Yeah. Okay, yeah.
+@54:44
+-
+Ernest Mockus
+So, what I've got here is someone that, my use case at the moment, because I'm in Ukraine, I'm going to teach Ukrainian how to learn English en masse.
+@54:53
+-
+John Mackenzie
+So, what I'm learning, what I'm building here at the moment is a system that, which I'm on. I'm still obviously building out, but what you're able to do here is you're able to go to something I call, I think it's called your, no, no, no, I don't know where it is, oh, your languages.
+So what you can do in here, so you've got your English language, you've got your Ukrainian language, but say, you know, someone wanted to learn German, you can drop in German and say you're French and you can drop in, oh, oh, I got the wrong one, and say you got French.
+And you can actually put them all side by side. quickly cooked to deliver. Oh, oh, the French one wasn't working, that's right, I remember, but you can put up to five languages side by side.
+And you can start to learn it. Now, the interesting thing from here is, like, it's, it's, it's, it's basically working on sentence structure.
+And And I'll. I'll. I'll. And And I'll. I'm building more out in terms of what the sentence structure is and doing that for layers, for schools, for groups, like business groups or for individuals.
+But the real gold comes into something like this where you've got your sentence tense, right, so past, present, future.
+So you can actually start to change this completely and it changes everything around this particular sentence structure. So what you can do is you can learn, like, massively on the fly just by coming in and changing these things within this structure here.
+So you can focus on the word, quickly, quickly, or you can, you work on the tense, you can work on the sentence.
+So this is the sentence as part of the, this is the first sentence as part of this paragraph. Then you can change the sentence, which that just changed there, jumped there.
+And I noticed that it's a little bit glitchy at the moment where it's dropping some of these lights, see the lights just, these lights just disappeared.
+So it's only got, so. Those layers aren't loading up on that at the moment. I'm actually doing some coding behind the scenes, so I might have dropped it.
+But you've got these five layers of learning. You've got the tense, you've got the sound, you've got the part of the speech, then you've got pictures, and then you've got word alternatives.
+So basically what you can do is you can start to learn much faster, more dynamically, rather than in the current field of learning, so language learning.
+And yeah, well, this is where I'm at at the moment. So then what you do is you can have a look at where this sentence, where these words that is part of this sentence, part of this paragraph, you can start to map them into what I call a vocabulary ring.
+So then you're looking at the rings that you're working on. The whole point on working through the rings is you're starting to understand, firstly, you're starting to understand the tense, how they sit.
+So you can see, you know, graphical representation on what happens with with the past simple, with the past perfect, future simple.
+So you can start to position them completely differently. And what I've found is a lot of people, a lot of new learners, when we learn a new language, we don't understand the context of the tense.
+So by seeing the context of the tense, you can learn that. Now, what I've just built in here is, at the moment, I've got this across the three languages.
+So I'll go to Russian because, Ernest, you know Russian. And then what that does is it just changes the, you know, the wording across the whole thing.
+So yeah, your primary learning is English. So you're going from Russian to English, but you're learning in Russian, learning the new language in the, you know, the new language you're trying to learn.
+So what you can do is you can actually learn in your language to the focus on the language that you're trying to learn on.
+So this is the, this is what I just called. Don't So you're learning the sentence and the paragraph, and at the moment what I'm trying to do is get, when you change the board, you know, the paragraph on the board, you can actually change the sentence here, and then what should happen is, this is anchored at the moment, it's not dynamic here, but it's anchored to the cooking sentence, but what this needs to do is this needs to change to the sentence that you move along, therefore all these tenses will actually automatically update dynamically, and then you can actually see what's It's happening from sentence to sentence in the paragraph structure, so you can lose, you can understand the tense, then you can understand the pronunciation, you can understand the meaning of words, and then of course the other things that I was working on.
+So then I've got something, I don't know if anyone's done anything about memory retention beyond language, but just general memory retention, you've got something called the Ebbinghaus Forgetting Curve, which was a body of research done many,
+And essentially, this is the graph on what happens with anyone's general memory retention. So what I've done is I've mapped in the forgetting curve into the learning of the language, learning of the new words, learning of sentences, learning of the things you need to do.
+So what this does is it then maps your words into the forgetting curve and looking at how you basically review the words on a regular basis until you get to the point of mastery and you move those words from, say, a third order, third ring to your second ring, then from a second ring to your first ring.
+As you start to understand them, recognise them, the pronunciation, the definitional grasping of it in your mind, you actually start to say that and you move it from essentially bucket to bucket to bucket so you no longer have to review that word to the point when you've got complete mastery, complete memory of it, complete understanding of it.
+don't even review it. Well, might review it, you know, once per annum or something. That's what happens with the repetitive learning and the Ebbinghaus retention curve.
+Anyway, the science around this, I've just mapped science into a platform. Setting. You know, that's got, you know, how you go about doing it.
+And then I'm upgrading the rings at the moment because this is a little bit, oh, yeah. So, oh, yeah, so that's already upgraded it.
+So, and then you can, yeah, you can just learn differently. And then you've got, you know, you can learn multiple languages.
+Because some people, particularly in Eastern Europe, like you were talking, Ernest, where you've got English, you've got Lithuanian, and you've got partial Russian, probably from a listening or hearing, maybe partially from a reading, maybe not spoken, which is quite, quite usual in the Eastern European Bloc countries that I see where you might have
+Some complete mastery and some partial mastery, hence the rings. But, guys, what do you think? How much time do you have in that?
+I've never heard you even mention this. Unbelievable. Amazing. How long have you been working on this, John? A day and a half, two days.
+Maybe three tops. No, definitely not more than three. So, like, you got an idea and it's just like, yeah, let's just do this in quad, and you've built all that in three days?
+Yeah, well, partial, because I've been doing a lot of work and other stuff. Wow. That's amazing. I have created, like, a speech-to-text or voice or that sort of folder, and I was trying to explain to Claude, like, please collect the data, whatever my spoken, transcribed, or whatever data, please collect.
+@1:02:51
+-
+Ernest Mockus
+In the future, I will need something like that, but I wouldn't have a clue how to build that. This is, like, it's silly for me.
+Yeah, like, amazing. Yeah. Yeah, that's pretty awesome.
+@1:03:05
+-
+John Mackenzie
+John is making full use of the VPS. No, this has got nothing to do with VPS, this one. This is just your AI compute, this one.
+Yeah, compute. Yeah, so basically you have a lot of compute power. Well, you know, a few days ago, I was three days into my second computer, this is my second computer, and my AI was sitting at 29% or 25%.
+So I had like 75% of my 200 max account that's running at three times the multiple. And it's like, man, I've got to figure something out.
+What am I going to do? Okay, I'm going to start teaching some kids in a few days, like in about seven days' time, which is tomorrow afternoon.
+And then like, well, okay, I've been teaching other people. These are the things I'm seeing. This is what I've learned.
+You know, my girlfriend's Ukrainian. This is the things I hear her struggling with and her family. so Bye. This is what I see kids, you know, the breakpoints in terms of their learning.
+How can I visualise it? How can I build it? I want to bring in tenses. want to bring in like, so I wanted to bring in more of this if I come back to, because as I said, this isn't quite nailed yet in terms of the sentence structure here.
+So if come back into the, it's still a little bit buggy, but that's okay because it's getting there. John, where are you finding the rules for these languages and the past sentences and structure of sentences and all of that?
+Well, as I said, no, well, because I do English teaching, like to Ukrainian people, I've already seen... No, but I don't think you are actually feeding in the rules about language structure and sentence structure and past and present and future and all of that, right?
+@1:04:56
+-
+Rashad Khan
+Or are you? so. No. I'm No. Why would I do it? Exactly.
+@1:05:03
+-
+John Mackenzie
+So have you looked at any of the, you know, like Far Eastern languages, like different scripts other than the English scripts?
+So in my, oh, so I think it's in one of my settings somewhere. I've got, oh, here we go.
+So I've got 41 countries mapped in from a listening and a language point of view at the minute. Um, I didn't do a lot of, um, like, uh, Eastern, um, but there is like a bunch of the, you know, the top 40, top 41.
+I actually added Russia. I wasn't going to add Russia, but yeah, because of the war, but because so many people in Ukraine, no Russia as well.
+When I was actually developing the, um, the, um, the languages model here, and you can like put five on the, on the, on the board.
+I figured that I'd, I'd drop, um, you know, Russia in as. John, think instead of a country, what you need to do is to select a language because sometimes some countries speak like 30 languages.
+Yeah, yeah, yeah. That's right.
+@1:06:14
+-
+Ernest Mockus
+Yeah, like India's got like 350 languages. So look, I haven't got to that point.
+@1:06:21
+-
+John Mackenzie
+I was looking at keeping it as narrow as I possibly could initially because I want to launch it then put it to market.
+Like I've already got people I can show this literally from, you know, tomorrow and like every week I can show people this and then move towards buying.
+But see, what I see is when people and or students they're learning, they've got to learn the tenses or otherwise they don't understand the composition of sentence structure.
+So the, what I figured is, For me, I'm a visual learner. And if I can see it like this, it makes it a lot easier for me.
+So I can have a sentence that, you know, that's sitting on this board up here. And then I can change, you know, what part of the sentence I'm working on.
+And then I can drill through that and just learn that there, you know, every part of it, the tense, a picture to make it easier, alternative words, the sound, because I can open up this word and just listen to it, although that's pretty poorly pronounced.
+And then, of course, the part of speech, you know, so someone can learn more dynamically. And at the moment, I haven't seen anything like this.
+I don't know if anyone else has played a little bit in the language learning space, but most of it focuses on, like, voice to voice or some type of app, nothing like this.
+Do you have Spanish in there? That would be real helpful in California. Yeah, I was just going to actually mention that I use
+Duolingo every day to learn Spanish, something so, word, like registering words and being familiar with words is, is fine for me.
+@1:08:11
+-
+Jobi Armstrong
+Like I can be in a room since being in Denver, we have a lot of Spanish speaking people here, a lot of people from Southern Mexico and the dialect is completely different than proper Spanish.
+So I've only found one app that's actually really helped me translate good with the, with the words that, that the Southern Mexican culture speaks rather than actual proper Spanish.
+So differentiating between the two, the only real way for, for me to do it is to be surrounded by people that speak the, speak the dialect.
+Um, so understanding the words is, is not an issue for me where I have a problem with it is putting the sentences together, properly structuring them and speaking them in a, in a legible way.
+Like I, so I could be in a room. I of guys and understand what they're saying. I can speak back to them in broken Spanish.
+But really understanding that the I guess the region is pinpointing the region's dialect is also something to think dialect and region.
+@1:09:15
+-
+John Mackenzie
+Yeah, absolutely. You'll find that you'll start to see it within this one from Ukrainian.
+@1:09:20
+-
+Jobi Armstrong
+And I've seen it when speaking with Ukrainian people quite a lot. You'll see in here it actually talks about some challenges that's here.
+@1:09:29
+-
+John Mackenzie
+And it's Ukrainian has no word for a or the. So these are often dropped when they're converting into English because there's no anchor word in their own language context.
+So what happens is when they're learning that new language, they don't even think to add those words in as part of the English sentence structure.
+So I'm already starting to work on. You can see that here, like where I've got that here, the same type of thing would like that's already been mapped across.
+You can actually see the same. You Here from Spanish coming over to English, I haven't done that back the other way, but that's pretty, probably pretty easy to do.
+The second thing is you're right to region and dialect. So, and then like with what Rashad was talking about there, I was trying to keep it fairly narrow because, you know, as soon as you drop in like even more, even more languages, and then you've got, you know, the language and the dialect that makes it unbelievable complex.
+So I've used like dozens of translation apps since I've been in Ukraine for the last like 16, 17 months, and nearly universally they're terrible.
+I'm talking the verbal translation apps. I actually bought something called Time Kettle, fairly expensive ear conversion. So it's got e-hardware built with a, you know, software app doing part of the heavy work.
+AI conversion. Terrible. And that's the best in the marketplace. I started developing an app doing that a while ago.
+I got it to a reasonable outcome. at the back end of that, I plugged into 11 lamps. I think that's what it was called.
+And that was okay. But that still was having a lot of issues hanging. So it'd get lost in this loop.
+You know, if you've used some of these apps, you understand what I'm talking about. So sometimes if you're doing the listening, it's still in this automated listening in terms of the language translation conversion.
+And then if you then push it to an audio so it speeches it so you don't have to read it the whole time, sometimes it just gets, you know, stuck in this loop of craziness and it repeats it like forever.
+So, and that's the best of the best because that provider, 11 Labs, is the best in the world at that.
+Having said that, what I've seen with things like, what you've done, what With some of the Nova stuff, and then I've seen, you know, ChatGPT's AI that you can talk to is unbelievable in terms of what it does, so it's just fantastic in terms of its speed, its latency, its accuracy, its understanding, and even the last couple of drops, when you interrupt it, and it's ums and ahs and everything, it's just through the roof.
+It's insane how good it is. So I decided to move away from a part of that and just doing a pure learning, a little bit more like Duolingo.
+I've used Duolingo quite a bit initially to learn something Ukrainian, but again, you know, it's nothing like this. This is, this is completely different, but I'm very interested to see what your thoughts are, you know, generally as a, I think I can improve the UX UI quite a lot still.
+Um, but this is sort of where it's at. It's only like two and a half days of work or two days of work.
+Yeah, I'd like to play with that. it. . When you get it to where you can post it, you know, publicly, that's cool.
+@1:13:07
+-
+Patrick Thomas
+You know, it would be interesting just to see what you prompted your AI to build this. See, Ernest, you know what I mean?
+I mean, the conversations that you had with it. Can we get any of the AIYX yet?
+@1:13:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+No, I was speaking about that earlier.
+@1:13:33
+-
+John Mackenzie
+Okay. So what I prompted was this. I spoke to it, right? I dropped in past tense, I dropped in parts of speech, I dropped in this here, which I actually liked, how it was mapping some of the word to the parts of speech context.
+Okay. So... And then I spoke to it what I wanted there, and well, that was the, there you go, started this two days ago.
+And that was it? You posted like, you gave it like eight screenshots and talked to it for a minute or two?
+Yeah, there you go, that's my first. That's amazing. And you can actually see when I started this. Two days and six hours ago.
+Does it have any like lessons as far as like, like, like kind of like Duolingo where it's kind of like gamified, any lessons like that?
+@1:14:39
+-
+Rick Rodriguez (rickr1@gmail.com)
+Not yet, because I'm building the structure. So what I'm, what I'm, so if you, if you have a look at, say, my, I think, I don't know, maybe my settings here.
+@1:14:50
+-
+John Mackenzie
+No, wrong one. In here, you can start to see I'm going down a pathway of the kind of account.
+So you can be a one person user, you can be a. A group user, so you buy seats or a school, and then in the school structure you say where the school is, what the grade level is, what the class is, so that puts structure around the school development, and then from there, my next step is I was going to be building over the, in the readings, so in here, I've just got some test readings in here, I will build out the whole management system of this, you know, say for a curriculum, but you can see here, I've actually started to build in a, you drop a PDF document, that PDF document then, yeah, starts to build out passages and so on, but that needs a whole structure around it, what I'm getting more working is this part here working okay, so it sort of makes sense, then what I'll do is I'll basically put another maybe menu, submenu across the top here, in between the main menu and this menu here, this will be a tabbed menu in here, this tabbed menu in here, It will be
+Allow the user, so the student, to work across their progress of the curriculum they need to make progress on.
+So that will get built into that. the moment, I'm just building out the, you know, how does this make sense for a student in their learning journey?
+Very nice. Nice. Very cool.
+@1:16:29
+-
+Rick Rodriguez (rickr1@gmail.com)
+Right.
+@1:16:34
+-
+John Mackenzie
+Surplus, um, AI, and I, you know, it was like, what am I going to do? Um, and two days ago, I typically happens on a Saturday or Sunday, somewhere around that time on this computer, because it's cut off is like nine o'clock or 10 o'clock on a, on a, um, on a Tuesday.
+So it's like, oh man, I've got a lot of surplus AI need to burn through. What am I going to do?
+we've of, What am I going to research? What am I going to build? Because I've got so much AI, that's what I do.
+It's just a thing. That's cool, man. I like that. Wow. Amazing.
+@1:17:25
+-
+Rick Rodriguez (rickr1@gmail.com)
+All right. Anybody else have anything that they would like to show and tell? Not yet.
+@1:17:36
+-
+John Mackenzie
+Still working with, you know, coming up with ideas for GrokBots, but I need a little more time.
+@1:17:46
+-
+Patrick Thomas
+Yeah, I'm just getting started with my GrokBot.
+@1:17:54
+-
+Rick Rodriguez (rickr1@gmail.com)
+So, yeah, they just gave, you got a free reset.
+@1:17:58
+-
+Patrick Thomas
+I was telling Keith, you got a free reset. I think we got it yesterday, I think. Was that on Grok or was that on Club Toad?
+GrokBot.
+@1:18:07
+-
+John Mackenzie
+GrokBot got a token reset. It's a pity if you didn't use many tokens.
+@1:18:14
+-
+Patrick Thomas
+You know, if you've only used like 20%, which I am, because I'm serving them, and then you get reset.
+@1:18:20
+-
+Ed Grimshaw
+I could have used 80, yeah? The thing is, Codex dropped one the other day on my other computer.
+@1:18:28
+-
+John Mackenzie
+And I saw that Codex has got a, because Codex allows you to, well, they store it for a period of time.
+And then they take it away from you as well. So be careful, use it or lose it, so to speak.
+Because if I go to my usage, I can see one available reset here at the moment, right? That was up at two or three like a month ago.
+So be careful because you'll lose it. So then what I found last night, I was trying to burn. So on this computer, oh, was actually this computer here, and about two hours before my reset, they dropped a code reset, right?
+So I don't know if anyone else saw this, tell me if you saw it, because I saw it on this computer because I was trying to burn through my last 10% of my week.
+I got to 90, 91, had about an hour to go, it was like, man, build, build, build on Fable 5, oh, Fable 5.1 dropped as well, by the way.
+So then when I came onto my other computer, I'm looking at my tokens on Claude Code, and it's like, wait on a minute, I've got my, because I was at about 50 or 60%, and I was tracking along okay.
+And then it's like, my weekly all models is on.
+@1:20:00
+-
+Ed Grimshaw
+0%. What happened?
+@1:20:02
+-
+John Mackenzie
+What happened? It can't be on 0% because I'm two days away from this reset on this computer, right?
+@1:20:09
+-
+Ed Grimshaw
+And I was moving into the zone of pain.
+@1:20:13
+-
+John Mackenzie
+The zone of pain is when you've got like 50% or 60% of your weak use that's running at three times the multiple.
+So that's running like a 400, a Claude Code max $400 account. that I need to use in three and a half days.
+That's very difficult. Anyway, it reset.
+@1:20:36
+-
+Ed Grimshaw
+And it's like, what happened? So it took me a bit of time to figure that out. So now I've got, I've got a reset tomorrow night and I'm sitting at 20, 19% at the moment.
+@1:20:46
+-
+John Mackenzie
+So now I'm trying to burn tokens on this because I had a hundred percent in two days now. I feel you.
+Oh, I feel so sorry for you, John. Oh man.
+@1:21:00
+-
+Patrick Thomas
+It's terrible. Well, hey, thank you for that heads up on me, John, the cursor because the cursor account that I used for GrokBot, I didn't realize about the LLM.
+even posted on it. I put a post in there on the Profit.ai boardroom because when I downloaded the desktop, I started using the, I had to put a button in there for the CLI for cursor.
+And then, cause I think my GrokBuild reset this morning, but I was still able to work on, you know, like have it like check source code and stuff.
+I was, and I, I, I beat on it for a while and I hardly used it. I used, I'm, I went from zero to 4%, but I mean, they give you a lot of, a lot of tokens in there as well.
+Oh, in GrokBot or Cursor? Because I'm on the Cursor ProPlus plan. Yeah, got three times the amount of usage for bot, but I also get the cursor model as well, because the bots using build are using the, it's not using the cursor model, I don't think.
+Because I actually, you know, and I even put a, I created a links, you know, how I did the tech links, I did one just for my own to like check stuff, I put a link out there just for, so I can just click on something and see where I'm at on spending, because a little bit of a test I'm finding it, but yeah, so I check it every once in a while, and right now I'm at 14%, and there's three categories, there's cursor, oh here, I'll just show you, since we're talking, talking about it, let's just do our screen.
+and it would be this one. Can you guys see that? Can you see the cursor thing? Yep. So the pro plan you get, this is what's included.
+@1:23:15
+-
+John Mackenzie
+get cursor models, including cursor, grok, and composer.
+@1:23:22
+-
+Patrick Thomas
+So I got 2% of that. So I noticed when I was using the desktop and connecting the cursor model that it started jumping here.
+How are you using so much of your weekly usage, GrokBot?
+@1:23:44
+-
+John Mackenzie
+Because I'm still at 0%. Because all you're using is the VPS. I'm using the AI. I'm in it all the time.
+@1:23:53
+-
+Patrick Thomas
+Yeah, but I'm using the model. So I'm using the cursor model.
+@1:24:00
+-
+John Mackenzie
+Can you see that? I just dragged it over. Yeah. Can you see the Grok stuff or the bot stuff?
+@1:24:08
+-
+Patrick Thomas
+Or do I have to reshare? Yeah, we can see it. Yeah, you see how much I've been talking to this thing?
+@1:24:14
+-
+John Mackenzie
+This is why it's burning tokens. mean, and it's creating routines. And these are ones that I downloaded from. I haven't really used it.
+I downloaded it and say, hey, can we use this?
+@1:24:24
+-
+Patrick Thomas
+Can we use this? I'll probably just get rid of them. But these are templates that I downloaded. No, Webby, Tradie, and Shorty.
+This does YouTube Shorts.
+@1:24:35
+-
+Ed Grimshaw
+This has something to do with trading. But I didn't use them. But I downloaded the templates that I found.
+@1:24:41
+-
+Patrick Thomas
+So, Patrick, are you using Grok and Cursor?
+@1:24:47
+-
+John Mackenzie
+Yeah, because I bought through Cursor.
+@1:24:54
+-
+Patrick Thomas
+I didn't buy it through X. You got it through X. So you're the one that showed me this. No, I've got mine through Cursor.
+I didn't get it through Grok or through X. So if you bring up your usage page, so you bought a $20 account through Cursor?
+@1:25:14
+-
+John Mackenzie
+Correct. Okay, so I bought the $60. Maybe that's the difference.
+@1:25:18
+-
+Patrick Thomas
+Do you get these other models? Do you have this stuff in here that you can use as well? Yes.
+@1:25:25
+-
+John Mackenzie
+Okay, so I just probably just get more usage. I just noticed when I was using Bot, it wasn't using any of this stuff.
+So I'm like, well, how do I use this?
+@1:25:33
+-
+Patrick Thomas
+I just asked it, and it said, well, you can, you know, download the desktop version and just add in the command line, which is what I did.
+Here, I'll show it to you. I'll bring it. And where do you get the templates? This is what I downloaded.
+You can just, I got them off of X, and I just, you know, I have some people that do Grok, but this is the cursor thing, and I just had to put a button in there on the right-hand side.
+And then it just brings in the, and I just, it's just, you I'm just like Glock build. So I've had, I've had it going through my code.
+And matter of fact, I dropped that thing in there from, did you guys see that thing that Julian put in there about going in and checking all your code, checking for slop and all that.
+I just did a, I posted an MD file. I brought it into cursor. I said, adjust this. I had to put an access button in for a terminal and it's on the right hand side.
+And, um, let's see, what did I tell it here? I don't know where that other chat was. Or anyway, I told, I gave it the, uh, the MD file from, I think I did it in here.
+I did it. And here, I told her, I said, I had an MD file from my class, and I want you to, you know, adjust this for your code base, and then I wanted to run it against, I wanted to run it against the source code for the, for this program, I have another program that we did for a company, you guys can't, I haven't shown you this yet, I'll tell you, this is, this is kind of cool, see, this is my cursor spending, and this is the, this is just for the boardroom, but there's another site out here called, where did you find it, this is called Fieldmuster, and Fieldmuster, let me just hide, can I hide this, this, this is a program that, that's for dispatch for like large companies, and I built this,
+With GrokBuild, but it goes into all this stuff, and it's got graphs, pictures, but anyway, product page tickets, and I haven't worked on your, I haven't done anything with that, John, for, so it passes your test.
+But I just added, I had GrokBak add, because I was out of tokens, this is like a typical superintendent tasks, and there's like 14 points, and the guy that paid us to do this program is doing videos, and so he did the videos, I went and grabbed them, and I just told, I said, hey, I've been working with GrokBuild on this, can you go out there and post these, and kind of put them next to, you know, what they're talking about, and click on it, and make it like a thumbnail next to it, and just click on it, and then the video plays.
+you know stuff like that i had some fun with this i even put a i i i put an easter egg in this thing you guys remember if you go to the footer on any of this he has a book let me just show you he's got a book on this he based his program off this book that he wrote called waging work and this is like i posted chapter five but uh because he's going to try i think he might be selling the book off of here and eventually but see this any of the footer if you double click on this and i created this with gemini uh gemini i think nice it's just an easter egg i thought it was fun because this guy's all into his dragon that is cool anyway i'm gonna add one of those into the dragon right you guys like that but uh anyway so that's what i've been using uh you know the the cursor i've been so i've been using cursor
+@1:30:00
+-
+John Mackenzie
+with this interface when i ran out of tokens because you know if i'm not using it i might as well use it so very cool i want to cut over to rick and keith building on what you just uh spoke about there patrick so keith you're using grok as well aren't you so you're um and and rick you were talking about the same thing your um agents how is that using the is that using it through grok so the grok uh desktop is that how you're setting up your agents what is happening there yeah well i'm setting the the grok bot desktop uh and i went through uh x for mine for using my my oauth but i i think i also i'm on the seven day free with um the cursor because i heard from patrick first about the cursor and
+@1:31:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then I saw something that you could put, you could use your super grok in XAI, but then as you notice, yes, the other day, I think it was yesterday, or the day before we were talking about which is better, and Claude actually said you get more bang for your buck using the one through cursor.
+If you're talking, John, you're on mute. How did you set up your agents?
+@1:31:38
+-
+John Mackenzie
+Because, like, I was watching the other day somewhere else, someone was setting up, like, a chief and then a captain or something, I saw that on Facebook, not Facebook, on LinkedIn, YouTube last night, but I know that, Keith, you're doing that, I think, already in grok.
+What platform, what harness, what do you, what did you do to set that up? Well, I first did it in...
+@1:32:00
+-
+Keith Obrosky
+In Hermes, I downloaded, TrainingSites.io is giving away an AI operating system for his business models, so I actually didn't download it, I went to his site, and I looked at the descriptions, and then I had actually Claude build it, and then I put it into Hermes, and what it does is every time you, the first one, I created the orchestrator agent, and then I asked it to create an agent that creates agents.
+which it did, called Foundry. So every time it created an agent, I'd just tell it what I wanted the agent to do, and it would build it, and it puts that into the orchestrator's description as a roster.
+So when I got to GrokBot, I just said, can you, I built the, I had the orchestrator agent, and I think that comes with it, and I said, do you, can you see a roster?
+And they said, yes. And I said, just build out what's on the roster. And it built all the agents.
+Yep. And that's, you guys, pretty good demo the other day. You have what? Like 15, 20 agents?
+@1:33:14
+-
+Patrick Thomas
+By default, John, when you go through the wizard, it's going to set up a chief of staff and three other agents.
+ACTION ITEM:
+Download Grok desktop app; link Cursor account -
+WATCH
+You got to download the desktop app.
+@1:33:25
+-
+John Mackenzie
+You got to download the Grok desktop app. Yes. Can you use Grok desktop if you bought Cursor? Yes. Yeah.
+Because they're owned by X.
+@1:33:41
+-
+Patrick Thomas
+Yeah. It just asks you to link which account you're using. Right. When you download the desktop version. Awesome. I'm going to go do that.
+@1:33:49
+-
+John Mackenzie
+Can I ask a quick question, guys? Yeah, go for it.
+@1:33:53
+-
+Russell Walsh
+So, I know I signed up for the Grok bot through Grok. A few days ago, I haven't even dug into it, I've been kind of buried with stuff, but my question is, is between using the GrokBots within Cursor and then just plain GrokBots from, I guess it was XAI that I got it from originally, is one, is there a difference except for using the Cursor interface that is obvious, that I would want to go back and buy it to your Cursor?
+Are you paying for a Cursor plan now? I am not.
+@1:34:40
+-
+Patrick Thomas
+And if you, I don't know, if you were going to go for the higher plan, probably, but I don't know if the $20 plan is probably, I would imagine close.
+If you get a Super Grok, if you get a Super Grok account, which is like, I think it's $30 or $40, I don't know what it is, you get...
+Like you get the $20.
+@1:35:02
+-
+Rick Rodriguez (rickr1@gmail.com)
+I think you get this. Is that what it was, Keith? Because you got yours through X, right?
+@1:35:09
+-
+John Mackenzie
+Yeah, you're muted, Keith. You're muted. Can't hear you, buddy. Yeah, I saw a link on X and just followed that link and bought it from there.
+@1:35:19
+-
+Keith Obrosky
+And if I go back to that link, you can get the $20 one and you can upgrade from there.
+So you can go get the $60 plan from there and get the same amount of tokens. Yeah.
+@1:35:30
+-
+John Mackenzie
+That's probably the way to go.
+@1:35:31
+-
+Patrick Thomas
+And the reason, the only reason, Russell, that I went to the cursor is because I did it before they were offering it and I wanted to use it.
+And my only upgrade path was from $30 a month to $300 a month because I was already a member.
+Now they had some other deal you could do, but if you were already signed up, you couldn't get it.
+So I just went the cursor route. And so I'm paying like 90 for both, but I get three times.
+Bye There's three times the amount of usage, and I think they, I don't know how that works, because I think once they gave it to the Premium Plus users, I don't know if I should get an additional $20, I don't know, man, I mean, , but because I bought it through Cursor, I probably won't, but I am using, well, I think the only difference is I get to use the Cursor LLM too, so I'm, when I, if I run out of Grok build, which I, if I'm heavy on, if I'm heavy on doing that during the week, like, if I'm building stuff and, and checking code, I'll run out, I'll run out before my week's up, and I can switch over to Cursor, and, and they're connected to the same Githubs, and as long as you start Cursor, the same deal, if you started in the same local work tree, it knows, it can go in there and go, yeah, I see what, matter of fact, I got them checking against each other, because that's how you rock build.
+I'd on some stuff, and I'd go, hey, man, can you figure this out? Because GrokBild's failed on this three times.
+So I'm kind of going back. You would actually, if you ran out of GrokBot tokens within...
+@1:37:13
+-
+Russell Walsh
+GrokBuild, GrokBuild. GrokBuild is part of SuperGrok, GrokBot is something separate. Ah, okay. GrokBuild is part of SuperGrok, GrokBot is its own entity, and Cursor is its own entity.
+So... Yeah, yeah. And it gets confusing. Yeah. I was just wondering, I'm trying to determine if I made a mistake by signing up directly through X, or if I need, and I should go.
+Maybe... I don't think so. What LLM...
+@1:37:42
+-
+Patrick Thomas
+You use Claude, right? I use Claude. I use everything, I think. I use everything. Yeah, the only benefit I think would be you'd be getting the Cursor LLM as well.
+@1:37:55
+-
+Russell Walsh
+But you're getting GrokBuild if you're getting a SuperGrok account. Yeah. Yeah. From
+@1:38:00
+-
+Patrick Thomas
+You can use Grok Builds with that. Yeah, I'm not sure which one I have at the $20 level.
+@1:38:06
+-
+Russell Walsh
+I haven't even broke into it, to be honest with you. It'll tell you. Were they offering Super Grok for $20 a month?
+@1:38:17
+-
+Patrick Thomas
+I don't know if you can just buy Grok through there.
+@1:38:25
+-
+Russell Walsh
+Let me look at my account, because it'll tell you.
+@1:38:31
+-
+Keith Obrosky
+I'll open it up. Because I was only paying $30 a month for my Super Grok account, and I think maybe he was doing a promotion.
+@1:38:38
+-
+Patrick Thomas
+So if you're getting Super Grok, you just click on your username, and I think you go to Settings, and then mine says, yeah, go Settings.
+@1:38:52
+-
+Russell Walsh
+Mine says Super Grok. So just click on Settings. It shows your account right below it. It'll tell you. What account you have?
+@1:39:03
+-
+Patrick Thomas
+I'm on, oh, I'm sorry, right below it, it's their X account. Mine's a Premium Plus account. Okay, open the app.
+Now, just go to it from the website. Go to, like, grok.com. Yeah, grok.com, huh?
+@1:39:25
+-
+Russell Walsh
+Right, and then your users on the bottom left, you click on that, go to settings. I can, here, I'll show you on my screen.
+@1:39:39
+-
+Patrick Thomas
+Can you, you guys see that? Yeah, You guys see that? In settings, I have, yeah, it says get super grok.
+@1:39:47
+-
+Russell Walsh
+Yeah, it's, and and it's got it in a lot, it's got, Yeah, it's a lot.. it's a lot. it's a lot I don't
+What account you have? I'm on, oh, I'm sorry, right below it, it's their X account. Mine's a Premium Plus account.
+Okay, open the app. Now, just go to it from the website. Go to, like, grok.com.
+@1:40:22
+-
+Patrick Thomas
+Yeah, grok.com, huh? Right, and then your users on the bottom left, you click on that, go to settings. I can, here, I'll show you on my screen.
+@1:40:39
+-
+Rick Rodriguez (rickr1@gmail.com)
+Can you, you guys see that? Yeah, You guys see that? In settings, I have, yeah, it says get super grok.
+Yeah, it's, and and it's got it in a lot, it's got, Yeah, it's a lot..
+@1:40:55
+-
+Patrick Thomas
+it's a lot. it's a lot I don't Manage your Grok subscription, enable, you know, password X connect and all this, but it does give me a clear indication to get Super Grok.
+@1:41:13
+-
+Russell Walsh
+I would need to upgrade. Right.
+@1:41:16
+-
+Patrick Thomas
+And I don't, I think that might only be another $20, $20 or $30. So now it's $40. Because I'm only paying, yeah, if it's $40 a month and you're getting GrokBot, that's a good deal because you get the, you get the, you can use the GrokBot.
+@1:41:32
+-
+Russell Walsh
+Yeah, I mean, I'm paying $29.90 something myself. So both, Rick? Yeah, for Super Grok. I'm on Grok AI. I'm paying $29.99 a month.
+Yeah, and you guys could probably just, if you have, if you have that account, you could go into GrokBuild and say, go look at my Claude environment and replicate it into, into.
+@1:42:00
+-
+Patrick Thomas
+Yeah, they even have a Supergrock Lite for $10 a month, then they have Supergrock, then they have Supergrock Plus, and then they have Supergrock Abbey at $300.
+Yeah, Supergrock Plus is the one I have.
+@1:42:11
+-
+Russell Walsh
+Yeah, and that was my only path to get bought at that time, to go to the $300 account, and I was just like, I just don't want to do that right now.
+@1:42:20
+-
+Patrick Thomas
+Well, it's been everybody's plain, you know, common, unique value prop with using Supergrock to create, like, an orchestrator of agents, as it were, or whatever.
+Is there any real difference between having Hermes spin up its own swarm of agents versus using Supergrock? Any experience out there?
+Yeah, I think so, because you can have it directly manage, I don't know, manage your accounts, because each one of your bots has...
+@1:43:00
+-
+Russell Walsh
+If you haven't seen this, I'll show you. Each one of your bots has its own virtual machine, basically. Wow.
+Yeah, Steve, I can show you. Can you see that we have the meetings up here? If I can come up here and open this screen, right?
+And each one of these guys has their own screen. So it has their own screen. But here's my question.
+Do they share data? Yes. They share data. And not only that, and we've talked about this a lot. This is one VPS.
+It's a virtual private server with heavy specs, which is what John is using.
+@1:43:48
+-
+Keith Obrosky
+He's using the power of the VPS. The VPS has eight CPUs, 16 gigs of RAM, and they're sharing like 126 gigs.
+Yeah, but absolutely. And- And they're sharing across just like they're all networked together. So that's on the VPS one, is that just what's required for that?
+What's subscription required? Just RockBot. Just regular RockBot, okay. Yeah. Cool. And effectively or in operations-wise context, does anybody notice any really big difference between like using a swarm of agents with Hermes versus the RockBot?
+@1:44:33
+-
+Russell Walsh
+I mean, I get that it has its own VPS. Yeah.
+@1:44:38
+-
+Patrick Thomas
+I have no idea. I've never used Hermes. Yeah. I guess what I'd say, Russell, is when I use Hermes, I will talk to my orchestrator agent and it will assign the work to an agent to accomplish that work.
+When I do it with RockBot, I talk to the orchestrator agent and it will assign it to multiple agents.
+@1:45:00
+-
+Russell Walsh
+Then they will talk back and forth. You can see the chats going back and forth. So I think the grok rod appears to be, how to say it, I don't know.
+connected, you're saying, like, right, between them, communicatively. Yeah, got it. Okay. Thanks. Yeah. Okay, I'll dive in a little deeper than I've got a project.
+Maybe I'll just try to throw at it and see what happens. Yeah. And it does stuff, like, I was using, like, on the TechLinks page, I was using GrokBuild to update it, because I had the script, I would just, you know, update TechLinks or whatever.
+And when it was at 100%, I just asked GrokBild, I said, you know, my GrokBuild's at 100%. I go, I have it update this thing.
+@1:45:51
+-
+Ed Grimshaw
+Is there a way you can do it? And it totally did it.
+@1:45:55
+-
+Keith Obrosky
+So it has more capability than just...
+@1:46:00
+-
+Patrick Thomas
+So let me ask this question, and I appreciate everybody's feedback here, when connecting to, let's say, either client facing or let's say social media, when connecting to like social media, does it operate in the same like either via connectors like Claude or via connectors like chat?
+@1:46:27
+-
+Ed Grimshaw
+Or can it go direct with an API a lot easier? It goes in as you. It logs in as you.
+That's right. You log in. So you get a login and it does it. Yeah, it's doing it like it's you.
+Yeah. It logs in on the virtual machine. So the first time you log in, and then it remembers that.
+So from then on, it just does it. Yeah. Right. And it'll prompt you if you get like a 2FA, like you have to give it the code from.
+Your phone or whatever. Cause I've got it logging into my bank. I've got it logging into all my social media accounts.
+Cause I, you know, and it's going to be creating stuff and putting it out there. You know, that's all part of those routines that, you know, when you're talking and when you're talking to it, it actually, when you give it a job, it actually will create a routine and it, I've managed to do the same thing with Claude.
+have to say the one thing I'm just running the, on the 20 quick plan. It does seem to burn tokens quite quickly.
+You know, I, I don't think it's as efficient as Claude.
+@1:47:39
+-
+Russell Walsh
+I wondered whether it's possible to, um, clone it as a kind of process in, in Claude or in Codex, you know, as a, as a environment.
+I'm not technical, but you might be able to clone it, but it's the hardware. It's, it's the VPS. That's the thing.
+You've got to have a VPS with those. Where are going to get a VPS for $20 that's got those specs?
+Yeah. Well, I guess it's the balance between how much AI and how much processing power you want and how you balance the task you're doing between the AI loading.
+@1:48:22
+-
+Keith Obrosky
+Because I think Claude is better value for AI than GrokBot.
+@1:48:27
+-
+Russell Walsh
+But as you say, you haven't got the processing power at the back of it. So, you know. That's true.
+That's probably true. Yeah. Let me speak to that a little bit. It's something I've been working on. It seems to have a really efficient use of tokens.
+@1:48:49
+-
+Ed Grimshaw
+I've been using, like, and I've been switching all my processes where I'll use Notion as my single source of truth.
+So, if I were to organize my... My tasks, let's just say I put them into like a skill, okay, we'll just use that and it's outlined if I can get either Claude or Chet to go pull that skill first or reference or pull in that skill from there, pull in another skill or pull in another skill or just look at it as a document and a document and a document, it seems like there's almost no usage on tokens when it doesn't have to think or go through a process.
+or go to a file folder on my desktop, but I ran this thing early on with using Hermes and OpenClaw within the VPS and Postinger, and man, I was getting chewed up at Nexos or whatever that thing is, yeah, and that was a broker, but, you know, for Postinger, so anytime, you know, you can organize the data I'm, know if, you Thank
+The other thing that went on yesterday, which is interesting, was Elon Musk made an announcement that he got more processing power.
+And then he announced the reset on the back of it. And you wonder, with these providers, you know, without the extension thing going on with Claude, when they think they've got enough power in place, they up the budget kind of thing.
+@1:50:34
+-
+Russell Walsh
+And I wonder whether, you know, this is going on in the background, because as John was saying, you know, this thing of having resets, taking them away, and managing all of that is probably dependent on demand.
+And encouraging people, you know, to take, GrokBot's been pushed, it seems quite hard in the last week. Yeah, for sure.
+You think, well, he's got more processing power, and now's the time to get people on, but it's quite difficult, isn't it?
+@1:51:07
+-
+Ed Grimshaw
+It's around John's project. How do you budget tokens and processing power? know, it's quite easy to run up a big bell with this thing, isn't it?
+And have a best use of this sufficiently between all the different platforms.
+@1:51:29
+-
+John Mackenzie
+It's a balancing act. John made a great case on the CPU loading issue, and then maxing out. then there's GPU, then there's DRAM, you know, if you're local, you know, but I don't know.
+I understand the issues, not at technical level, but if I start diving down, I'll nothing done. Maybe I need a token bot.
+Do I use... Yeah, John needs to make a token scraper. Exactly. That'll do it. A shortcut would just be cloning Bitcoin.
+So yesterday, interesting, when we were talking about the Mesh LLMs. Yes. So I've done a bunch of research on that.
+So the idea I had was I'd be able to do some chaining across either like a group of people, either using machine CPU speed or a central decentralized GPU.
+And both of those have significant problems. You can actually encrypt the data in transit and have no problems going from point to point.
+But as soon as you get... To the point of processing, whether it be inference or machine processing, the data becomes unencrypted, and when it hits that point of unencryption, that's where you've got the risk because it gets saved both in a contextually in the memory of the computer, but it also in the processing, so not the processing part, but you've got two parts where you've got risk.
+@1:53:29
+-
+Russell Walsh
+So that mesh LLM is highly unsecured for anyone using it for anything that is of commercial IP or consumer use.
+If you wanted to use it for marketing or a video creation, you know, because you're going to put it in the public space anyway, that's no problems with any of that type of processing.
+@1:53:54
+-
+John Mackenzie
+But as soon as you touch anything that's commercial private. in like how OH are the With IP, sensitive data, regulated data, all those sort of things, you've got no pathway to using something around a decentralised CPU or a decentralised AI GPU inference processing.
+So what about a whole brand new encryption device, John? Why don't you make that? It so happens I'm now looking at something because I found that out.
+I knew it. Of course. I started not a device, but a process around that. Leave it with me. I'm on it.
+Better than that, a philosophy. Well, you're developing the methodology, the process that can be incorporated at scale. That's what...
+So the low-hanging fruit's not there. Yeah. There was some extra insight and knowledge, which I'm wrapping into some intellectual property, which I'm not sharing.
+But all the other stuff is. I'm telling you that looks fantastic, looks brilliant, but... It's like with a lot of the people where they're doing stuff and sharing stuff, they've only got partial truths and partial knowledge, lots of stuff is happening on GitHub all over the place where people are saying, hey, you know, you can get 35% to 91% of your tokens.
+Yeah, you can get 35% to 91% of your tokens of that layer and that vertical, which ends up being about 3% to 5% of your overall.
+They're not wrong with what you're saying. They just don't have the full picture, right? And they're not doing it intentionally.
+It's just the Dunning-Kruger effect.
+@1:55:33
+-
+Russell Walsh
+So that's the challenge, that half the things that's been said online, right, is so Dunning-Kruger that it's like most people believe it because it looks fantastic, including Mesh LLM.
+It looks fantastic. But when you actually strip into it, it's got very – it does have a use case, don't get me wrong, but it's narrow.
+And as soon as you move – as soon as you move into, say – Selling it, or that forms part of your infrastructure on non-public marketing type of work, and I'm not saying marketing lists, because that's PII, I'm talking about creating a video or creating an image that you're going to put on, because there's no PII context in that from a data perspective, but as soon as you go down all those other pathways, man, you are in so much trouble it's not funny, because you don't even know that you you have breached data, and you've breached AI use, and that is the problem that we face today.
+It's the biggest one, man, and it's the biggest problem they're hurtling, and they don't even know it's shaping as we speak, and it's in the same way that XRP for, you know, financial, you know, let's just call it a replacement for the SWIFT money, you know, exchanging, say Bye.
+So pathways across border, you know, it's just as bad with data. And then we went through all this thing with A2P compliance that's changed three times this year.
+And it throws marketers out the window every time, you know, in certain ways. And most not like for regular home services.
+But if you're in the financial or real estate or anything fiduciary, you're going to be up against something that you don't even know.
+And the platforms that you're on can incriminate you. So, you know, we are told as California realtors, I don't want to hijack this, but as a California realtor, we are told certain things that we need to display, you know, about us, our licensing and so on.
+And what we're allowed to publish print-wise is very limited and you have to get permission.
+@1:57:59
+-
+John Mackenzie
+. And then the internet, the DRE, the Department of Real Estate in California, will tell you, well, we don't manage the internet, so you can't get in trouble for that.
+Well, that's not the case. Even the DRE that will tell you that it's not the case because there's court cases going on republishing other listings and all this other stuff.
+So, you know, they don't have it figured out. And what they need is someone like John to come along and figure that out for them because there's, well, unless they want to spin the court systems out of control, and that's what California does best, in my opinion.
+We're the most litigious state in the union, but it'll be a bigger problem for FINRA, FINCEN, and cross-border SEC, all this, going across border with financial language.
+We're as much as transactions, so. Well, you know, like, you've got to be careful. For instance, there's lots of regulatory changes going on all the time.
+Australia's going through a privacy regulatory reform at the moment, and most of it's pretty good, and it hasn't gone through this type of reform for 25 years, so it's quite a solid upgrade, and they're doing a pretty good job from protecting the consumer, relatively speaking, but what they haven't solved is long-term deficiencies in cross-border data transactions, particularly for commercial.
+I posted something on LinkedIn the other day about it, and 99.999% of people don't understand that, what I've just mentioned.
+The regulator, I don't know if they understand it, right, and I don't know as And it's not on their reform, so it's not getting fixed.
+So if they don't fix it, there is a litigation risk that I've just built a tool that's just about to show everyone where their risk is, right, which means that my best consumers would be lawyers, to be quite frank, because it's not just the regulator conducting a regulatory assessment or litigation or corporation.
+Forceding. Prosecution. It's actually, it'll only happen at a trigger event, really. A trigger event's a breach event, or maybe linked to a class action and or linked to a loss of financial loss from a large supplier.
+Because that's the only time when there's willpower, so the financial willpower to prosecute. And there's no political willpower at the moment from Australia to fix it.
+There's no political willpower from the EU to enforce it because Australia and the EU are quite friendly. So they're quite friendly.
+Secondly, what I've discovered, which is very clear, right, it's not, there's a very little ambiguity in regards to the non-lawfulness.
+No one's prosecuted it. No one's tested it. Twice in its history, I think once in 2011 or 2016, 19, and once in 2001 when the laws were tested, they both found it to be deficient, therefore not lawful, both times.
+Right? No one's prosecuted it yet. And that's the thing, just because it's not prosecuted doesn't mean it's not lawful, just means there's never been a precedent to demonstrate such.
+@2:02:10
+-
+Russell Walsh
+So that means you're exposed. And when you're a big business, it just so happened to be like with Facebook, they just got pinged with their underage thing.
+@2:02:20
+-
+John Mackenzie
+$18 billion is a big number. Well, it's a small number for a big company, but it's still a very big number.
+And that's where some of these big companies' exposure they've got.
+@2:02:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+You've just got to create the political will from someone inside the organisation. For me, it's someone inside, say, the EU regulator.
+They want to make a name for themselves. I show them the pathway. Show them how easy it is and say, hey, the top 50 US companies are all in regulatory breach.
+Here's how. You know, each one of those companies is worth half a billion dollars or more in penalties. Go make a name for yourself.
+It's pretty easy.
+@2:02:58
+-
+John Mackenzie
+Thank you. Yeah, got to get my son off to school, guys, and it's been a pleasure missing you guys.
+I'll see you in five minutes. Oh, no, the other one's not on. Yeah, there's no class today at 8 o'clock.
+Have a blessed day, See Russell. you, Russell. So, John, I had a question for you. I know how we all talk about not to trust the Chinese models and everything, but I read something the other day that, and correct me if the article is wrong, but if you download a Chinese model and run it locally, you're safe to do that and your information won't be sent to China.
+Is that correct? It would appear so. I'm sorry? It would appear so. Okay. And what I would be doing is...
+... ... I would be putting a scanner on the model and seeing the destination of packets. That's what I'd be doing.
+But at face value, that's correct. I don't know if it's fully correct. I suspect there'd be something happening in the back end.
+Therefore, it may not be as secure as what people are saying. And that's quite normal in a lot of...
+Because when you get to, like, a large package, a large development, you've got something that's very complex called a software bill of materials.
+So you've got all these modules of code, right? You've got to know every module of code to determine whether or not there's, A, a security deficiency in it, and B...
+What is its boundary of both incoming and outgoing? So the way you monitor that is on a perimeter or data packet.
+@2:05:11
+-
+Ed Grimshaw
+Wireshark. Yeah, wireshark or something. That's how you're going to get your eyes across the top of it. But you don't know until...
+A lot of the time you don't know until you actually know, and that's the problem. Now, that's what happened with the big cyber breach with SolarWinds going back about three or four years ago, maybe five years ago.
+@2:05:32
+-
+Rick Rodriguez (rickr1@gmail.com)
+And the other one was the software bill materials breach that came out of a GitHub repository that had deficiency built into this common code module that was in thousands of platforms, essentially.
+So that was being exploited by hackers because they knew that there was a vulnerability in it. So you've got to figure that stuff out.
+@2:05:59
+-
+John Mackenzie
+Yeah. Yeah. Right.
+@2:06:01
+-
+Rick Rodriguez (rickr1@gmail.com)
+Chances are there's a security vulnerability somewhere in it, but that's my gut feel. That's and that's opinion. Sorry. I should have had my own silent.
+I'm off anyway. Thank you very much. Thank you. All right. So anybody else have any questions or anything they would like to share?
+Got to go. See you guys. All right, Jobi. Take care. See you tonight. All right. So I guess we'll end this and see you guys tonight.
+See you later. See you guys. All right.

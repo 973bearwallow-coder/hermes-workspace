@@ -1,0 +1,65 @@
+[
+  {
+    "name": "coffee-2026-09-02",
+    "exists": true,
+    "bytes": 99240,
+    "words": 18469,
+    "speaker_markers": 355,
+    "time_markers": 228,
+    "source_metadata_matches": true
+  },
+  {
+    "name": "coffee-2026-09-04",
+    "exists": true,
+    "bytes": 96528,
+    "words": 18132,
+    "speaker_markers": 435,
+    "time_markers": 272,
+    "source_metadata_matches": true
+  },
+  {
+    "name": "coffee-2026-09-07",
+    "exists": true,
+    "bytes": 83535,
+    "words": 16003,
+    "speaker_markers": 418,
+    "time_markers": 287,
+    "source_metadata_matches": true
+  },
+  {
+    "name": "coffee-2026-09-09",
+    "exists": true,
+    "bytes": 107061,
+    "words": 20343,
+    "speaker_markers": 394,
+    "time_markers": 258,
+    "source_metadata_matches": true
+  },
+  {
+    "name": "spark-2026-09-02",
+    "exists": true,
+    "bytes": 95729,
+    "words": 18081,
+    "speaker_markers": 410,
+    "time_markers": 264,
+    "source_metadata_matches": true
+  },
+  {
+    "name": "spark-2026-09-07",
+    "exists": true,
+    "bytes": 83980,
+    "words": 15496,
+    "speaker_markers": 324,
+    "time_markers": 234,
+    "source_metadata_matches": true
+  },
+  {
+    "name": "spark-2026-09-09",
+    "exists": true,
+    "bytes": 113046,
+    "words": 21436,
+    "speaker_markers": 394,
+    "time_markers": 257,
+    "source_metadata_matches": true
+  }
+]

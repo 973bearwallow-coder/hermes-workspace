@@ -1,0 +1,172 @@
+From: Fathom <no-reply@fathom.video>
+To: Tom Torok <973bearwallow@gmail.com>
+Subject: Recap for "Coaching Calls"
+
+<#part type=text/html>
+    Meeting Purpose Discuss AI development strategies and share project updates. Key Takeaways - GrokBot VPS for Cost Savings: GrokBot's free VPS (8 CPUs, 16GB RAM) enables massive cost savings by offloading compute from expensive AI models. John Mackenzie's "Black Snow Intelligence" project uses it to run data enrichment scripts, achieving the equivalent of a week's Claude Max plan in one day for a $20/mo Cursor subscription. - AI for Strategic Planning: Use Claude.ai for high-level strategy before coding. This multi-step process, where Claude Chat generates prompts for Claude Code, is more effective than single-step prompting for complex tasks like project migrations. - AI-Powered Development: Patrick Thomas, with no prior coding experience, built five websites and a mobile companion app using GrokBuild and Cursor. This demonstrates AI's power to democratize development for non-developers. - Kickoff Event Update: The event audience is capped at 4,000, combining CKO and SKO to reduce travel time. The keynote moves to a ballroom, and hands-on training becomes an elective to improve internet stability. Topics AI Development Strategies - Problem: AI Agent Memory & Context - Ernest Mockus's challenge: Losing context when switching Claude Code chats, requiring frequent re-alignment. - Jeff Wurfel's solution: Use Claude Chat to generate prompts for Claude Code. - Jeff is also developing a system to audit AI-generated code for quality and remove unused sections. - Solution: AI for Strategic Planning - Jeff's advice: Use AI to define goals and strategy before coding. - This multi-step process is more effective than single-step prompting for complex tasks like migrating a project to AgenticOS. Project Showcase: Patrick Thomas - Project: A mobile companion app for construction estimating software. - Features: Job creation, photo/voice notes, GPS, and export to XML for the desktop app. - Development Process: - Built with GrokBuild and Cursor, demonstrating AI's ability to empower non-developers. - Used Cursor's GrokBot to continue development after exhausting GrokBuild tokens. - Note: GrokBuild's pay-as-you-go tokens are expensive (~$7/build) compared to subscription tokens. Project Showcase: John Mackenzie - Project: "Black Snow Intelligence" (BSI), a platform assessing company privacy and data compliance. - Methodology: - Scrapes public websites for 42 data points (ToS, privacy notices, tech stack). - Generates deep-dive reports (200–300 pages) and a "Security Pet" browser extension for real-time scans. - Scale: 91,706 company assessments completed, growing by 30–40k/day. - Key Insight: GrokBot VPS for Cost Savings - The core value of GrokBot is its free, powerful VPS (8 CPUs, 16GB RAM), not the AI model itself. - Strategy: Use Claude.ai for high-level strategy → Use GrokBot's VPS for CPU-intensive tasks (e.g., scraping, data enrichment). - Result: Achieved the equivalent of a week's Claude Max plan in one day for a $20/mo Cursor subscription. Kickoff Event Planning - Audience & Schedule: - Capped at 4,000 attendees, combining CKO and SKO to reduce travel time. - Proposed Agenda: Mon (Arrivals) → Tue/Wed (CKO/SKO Keynotes & Breakouts) → Thu (OU-specific sessions). - Venue & Logistics: - Keynote moves from the arena to a ballroom for better internet stability. - Idea: Use the Shoreline ballroom for meals to reduce attendee walking and directional staff. - Content & Recording: - Hands-on training will be merged into elective sessions. - All OUs will have recording options, with a budget shift from high-cost entertainment to production. Next Steps - John Mackenzie: Create a template or class on leveraging the GrokBot VPS for cost-effective compute. - Ernest Mockus: Use Claude.ai to strategize the migration of existing code to AgenticOS. - Jeff Wurfel: Present the AI code auditing solution later this week. - Kickoff Team: Await Julie's update on the combined CKO/SKO schedule.               (https://fathom.video/?utm_campaign=postmeetingsummary&utm_content=header&utm_medium=email)                            Coaching Calls     August 31, 2026  •  182 mins  •  view meeting (https://fathom.video/calls/802852562?tab=summary)              Action Items ✨     upgrade to premium (https://fathom.video/manage_subscription) to unlock AI generated action items                                                  Meeting Summary ✨         Enhanced Template         upgrade to premium (https://fathom.video/manage_subscription) to revert to advanced summary templates         
+
+Meeting Purpose
+
+ 
+
+ Discuss AI development strategies and share project updates.  
+
+Key Takeaways
+
+  
+ 
+
+ grokbot vps for cost savings: grokbot's free vps (8 cpus, 16gb ram) enables massive cost savings by offloading compute from expensive ai models. john mackenzie's "black snow intelligence" project uses it to run data enrichment scripts, achieving the equivalent of a week's claude max plan in one day for a $20/mo cursor subscription. (https://fathom.video/calls/802852562?tab=summary&timestamp=2960.0)   
+ 
+
+ ai for strategic planning: use claude.ai for high-level strategy before coding. this multi-step process, where claude chat generates prompts for claude code, is more effective than single-step prompting for complex tasks like project migrations. (https://fathom.video/calls/802852562?tab=summary&timestamp=1294.0)   
+ 
+
+ ai-powered development: patrick thomas, with no prior coding experience, built five websites and a mobile companion app using grokbuild and cursor. this demonstrates ai's power to democratize development for non-developers. (https://fathom.video/calls/802852562?tab=summary&timestamp=2181.0)   
+ 
+
+ kickoff event update: the event audience is capped at 4,000, combining cko and sko to reduce travel time. the keynote moves to a ballroom, and hands-on training becomes an elective to improve internet stability. (https://fathom.video/calls/802852562?tab=summary&timestamp=9832.0)   
+ 
+
+Topics
+
+ 
+
+AI Development Strategies
+
+  
+ 
+
+ problem: ai agent memory & context (https://fathom.video/calls/802852562?tab=summary&timestamp=510.0)   
+ 
+
+ ernest mockus's challenge: losing context when switching claude code chats, requiring frequent re-alignment. (https://fathom.video/calls/802852562?tab=summary&timestamp=510.0)   
+ 
+
+ jeff wurfel's solution: use claude chat to generate prompts for claude code. (https://fathom.video/calls/802852562?tab=summary&timestamp=1470.0)   
+ 
+
+ jeff is also developing a system to audit ai-generated code for quality and remove unused sections. (https://fathom.video/calls/802852562?tab=summary&timestamp=926.0)   
+  
+ 
+
+ solution: ai for strategic planning (https://fathom.video/calls/802852562?tab=summary&timestamp=1294.0)   
+ 
+
+ jeff's advice: use ai to define goals and strategy before coding. (https://fathom.video/calls/802852562?tab=summary&timestamp=1294.0)   
+ 
+
+ this multi-step process is more effective than single-step prompting for complex tasks like migrating a project to agenticos. (https://fathom.video/calls/802852562?tab=summary&timestamp=1294.0)   
+  
+ 
+
+Project Showcase: Patrick Thomas
+
+  
+ 
+
+ project: a mobile companion app for construction estimating software. (https://fathom.video/calls/802852562?tab=summary&timestamp=1980.0)   
+ 
+
+ features: job creation, photo/voice notes, gps, and export to xml for the desktop app. (https://fathom.video/calls/802852562?tab=summary&timestamp=1980.0)   
+ 
+
+ development process: (https://fathom.video/calls/802852562?tab=summary&timestamp=1736.0)   
+ 
+
+ built with grokbuild and cursor, demonstrating ai's ability to empower non-developers. (https://fathom.video/calls/802852562?tab=summary&timestamp=2181.0)   
+ 
+
+ used cursor's grokbot to continue development after exhausting grokbuild tokens. (https://fathom.video/calls/802852562?tab=summary&timestamp=1949.0)   
+ 
+
+ note: grokbuild's pay-as-you-go tokens are expensive (~$7/build) compared to subscription tokens. (https://fathom.video/calls/802852562?tab=summary&timestamp=1860.0)   
+  
+ 
+
+Project Showcase: John Mackenzie
+
+  
+ 
+
+ project: "black snow intelligence" (bsi), a platform assessing company privacy and data compliance. (https://fathom.video/calls/802852562?tab=summary&timestamp=2552.0)   
+ 
+
+ methodology: (https://fathom.video/calls/802852562?tab=summary&timestamp=2552.0)   
+ 
+
+ scrapes public websites for 42 data points (tos, privacy notices, tech stack). (https://fathom.video/calls/802852562?tab=summary&timestamp=4996.0)   
+ 
+
+ generates deep-dive reports (200–300 pages) and a "security pet" browser extension for real-time scans. (https://fathom.video/calls/802852562?tab=summary&timestamp=2610.0)   
+ 
+
+ scale: 91,706 company assessments completed, growing by 30–40k/day. (https://fathom.video/calls/802852562?tab=summary&timestamp=5774.0)   
+  
+ 
+
+ key insight: grokbot vps for cost savings (https://fathom.video/calls/802852562?tab=summary&timestamp=3257.0)   
+ 
+
+ the core value of grokbot is its free, powerful vps (8 cpus, 16gb ram), not the ai model itself. (https://fathom.video/calls/802852562?tab=summary&timestamp=3257.0)   
+ 
+
+ strategy: use claude.ai for high-level strategy → use grokbot's vps for cpu-intensive tasks (e.g., scraping, data enrichment). (https://fathom.video/calls/802852562?tab=summary&timestamp=3960.0)   
+ 
+
+ result: achieved the equivalent of a week's claude max plan in one day for a $20/mo cursor subscription. (https://fathom.video/calls/802852562?tab=summary&timestamp=2965.0)   
+  
+ 
+
+Kickoff Event Planning
+
+  
+ 
+
+ audience & schedule: (https://fathom.video/calls/802852562?tab=summary&timestamp=9832.0)   
+ 
+
+ capped at 4,000 attendees, combining cko and sko to reduce travel time. (https://fathom.video/calls/802852562?tab=summary&timestamp=9840.0)   
+ 
+
+ proposed agenda: mon (arrivals) → tue/wed (cko/sko keynotes & breakouts) → thu (ou-specific sessions). (https://fathom.video/calls/802852562?tab=summary&timestamp=10787.0)   
+  
+ 
+
+ venue & logistics: (https://fathom.video/calls/802852562?tab=summary&timestamp=10215.0)   
+ 
+
+ keynote moves from the arena to a ballroom for better internet stability. (https://fathom.video/calls/802852562?tab=summary&timestamp=10285.0)   
+ 
+
+ idea: use the shoreline ballroom for meals to reduce attendee walking and directional staff. (https://fathom.video/calls/802852562?tab=summary&timestamp=10401.0)   
+  
+ 
+
+ content & recording: (https://fathom.video/calls/802852562?tab=summary&timestamp=10321.0)   
+ 
+
+ hands-on training will be merged into elective sessions. (https://fathom.video/calls/802852562?tab=summary&timestamp=10355.0)   
+ 
+
+ all ous will have recording options, with a budget shift from high-cost entertainment to production. (https://fathom.video/calls/802852562?tab=summary&timestamp=10500.0)   
+  
+ 
+
+Next Steps
+
+  
+ 
+
+ john mackenzie: create a template or class on leveraging the grokbot vps for cost-effective compute. (https://fathom.video/calls/802852562?tab=summary&timestamp=3612.0)   
+ 
+
+ ernest mockus: use claude.ai to strategize the migration of existing code to agenticos. (https://fathom.video/calls/802852562?tab=summary&timestamp=1230.0)   
+ 
+
+ jeff wurfel: present the ai code auditing solution later this week. (https://fathom.video/calls/802852562?tab=summary&timestamp=926.0)   
+ 
+
+ kickoff team: await julie's update on the combined cko/sko schedule. (https://fathom.video/calls/802852562?tab=summary&timestamp=9832.0)   
+         view meeting → (https://fathom.video/calls/802852562?tab=summary)                 © Fathom 2026. All Rights Reserved. unsubscribe (https://fathom.video/user/unsubscribe/eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYXRob20udmlkZW8iLCJzdWIiOiJ1bnN1YnNjcmliZS12aWEtZW1haWwiLCJleHAiOjE3ODg4MDQxMzAsInVzZXJfaWQiOjI5Mjc2MTYsImNhbGxfaWQiOjgwMjg1MjU2Miwic3Vic2NyaXB0aW9uIjoicmVjb3JkaW5nLXJlYWR5In0.QP0WD2wiQUZ6BLWi9KvmKTjob6HdXPXRiQEL6Rjf6ow)                  (https://www.g2.com/products/fathom-2021-09-22/reviews)              <#/part>
+

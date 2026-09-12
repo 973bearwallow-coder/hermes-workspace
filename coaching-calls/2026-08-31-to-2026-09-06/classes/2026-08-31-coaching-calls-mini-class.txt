@@ -1,0 +1,71 @@
+Strategy First, Cheap Compute Second: Lessons from the August 31 Coaching Calls
+
+The central lesson from this call is not that one AI tool beats another. It is that effective AI development separates three kinds of work: deciding what to build, producing the code, and running the repetitive computation around it. Each kind of work needs a different tool and a different standard of review.
+
+This mini-class is derived from a Fathom recap, not the full transcript. The recap supports the themes and examples below, but it does not let us inspect every qualification, demonstration, or disagreement from the call.
+
+The first important idea is to use AI for strategy before asking it to code.
+
+The recap describes a participant struggling with lost context when moving between Claude Code chats. Each new session required re-explaining the project. The proposed answer was to use Claude Chat for high-level planning, then give the resulting prompt or plan to Claude Code for execution. A project migration to AgenticOS was the example.
+
+The deeper principle is tool-role separation. A coding agent is good at acting on a bounded objective. It is much less reliable when it must infer the objective, reconstruct old decisions, choose an architecture, and edit the implementation all at once. The planning conversation should settle the goal, constraints, migration sequence, acceptance tests, and things that must not change. The coding session should receive that compact decision package.
+
+This does not magically solve memory. It replaces accidental conversational memory with explicit project state. That state can live in a short brief: current architecture, decisions already made, open risks, relevant files, and the next verified milestone. When a chat resets, the project does not.
+
+The second idea is that AI-generated code needs an audit and cleanup pass.
+
+The recap says Jeff Wurfel was building a system to audit generated code and remove unused sections. No results from that system were included, so its quality is unverified. But the problem is real within the logic of the call. When agents iterate quickly, they can leave duplicate paths, dead helpers, stale configuration, or code that passes one test while violating the larger design.
+
+The answer is not a vague request to “clean everything up.” Auditing should be bounded. First verify behavior with tests or a reproducible smoke test. Then identify unreachable code, duplicate implementations, unused dependencies, and mismatches between documentation and the live path. Finally rerun the same behavior checks. Cleanup without a baseline can turn apparent simplicity into a regression.
+
+The third idea is to route expensive intelligence and cheap computation separately.
+
+The recap describes John Mackenzie’s Black Snow Intelligence project, which reportedly scrapes public websites for forty-two data points and generates large compliance reports. John’s claimed cost advantage came from using Claude for strategy while sending scraping and data-enrichment work to a GrokBot virtual private server.
+
+Several numbers in that story are source claims, not independently verified facts. The recap says the VPS provided eight CPUs and sixteen gigabytes of memory for free. It says the project completed ninety-one thousand, seven hundred six company assessments and was growing by thirty to forty thousand per day. It also says one day of this workflow produced the equivalent of a week of Claude Max usage for a twenty-dollar monthly Cursor subscription. Those figures may be directionally interesting, but they are not strong enough to base purchasing or architecture decisions on. Even the exact GrokBot offering and its continuing limits need verification.
+
+The transferable lesson is stronger than the product claim. Do not pay premium-model rates for deterministic work. Scraping, file conversion, indexing, deduplication, test execution, and simple enrichment often belong on ordinary CPU infrastructure or local hardware. Use the stronger model where judgment matters: defining a schema, designing the pipeline, reviewing failures, or interpreting ambiguous evidence.
+
+The fourth idea is that non-developers can now build useful vertical software, but examples are not the same as proof of maintainability.
+
+According to the recap, Patrick Thomas built five websites and a mobile companion app despite having no prior coding experience. The companion app supported job creation, photo and voice notes, GPS, and export to XML for existing construction-estimating software. He reportedly used GrokBuild and Cursor, moving to Cursor after exhausting GrokBuild tokens. The recap also attributes an approximate seven-dollar cost per pay-as-you-go GrokBuild build. That price and the broader success claim were not independently checked.
+
+What matters is the shape of the product. The app did not try to replace the established desktop system. It captured information where the work happened, then exported it into the system people already used. That is a useful service-business pattern: build a narrow field companion rather than a giant replacement platform.
+
+The final relevant lesson comes from the event-planning discussion. The team reportedly combined two large events, capped attendance at four thousand, moved the keynote to a ballroom for more stable internet, shifted hands-on training into electives, and moved budget from expensive entertainment toward recording and production. The details belong to their event, but the decision pattern is portable: protect the infrastructure that delivers the core experience before spending on spectacle.
+
+Atlas and Hermes already operate in a world of multiple models, subagents, local compute, and durable files. The planning-versus-execution distinction should therefore become an explicit handoff contract. Before a coding agent starts, Atlas should produce a compact brief containing the objective, known state, constraints, acceptance checks, and rollback boundary. The agent should return evidence: changed files, test output, remaining risks, and any assumptions it had to make.
+
+That same contract reduces context loss across model switches. Local models can handle classification, formatting, extraction, and routine checks when they are demonstrably accurate enough. Stronger hosted models should be reserved for architecture, difficult diagnosis, or independent review. The call’s VPS story does not prove which host to choose. It supports testing work by workload instead of routing everything through the most expensive model.
+
+For service businesses, the construction companion app suggests a useful design lens. Paw Prints may eventually benefit from a narrow field workflow for visit check-in, photos, voice notes, location confirmation, and a client-ready visit summary. But this is a pilot idea, not a mandate to build another app. The smallest validation is to map the present visit workflow and identify one repeated handoff that causes delay or errors. If the existing tools already solve it, do not build.
+
+The same principle applies to other service-business offers Tom may develop. A strong first product may be an operational sidecar that captures messy real-world inputs and feeds the customer’s current system. That is easier to sell and deploy than a complete replacement.
+
+For TNDC, the event-planning section reinforces production reliability over novelty. If an event uses generated visuals, video, live interaction, or connectivity, test the delivery path first. Good invitation art cannot rescue a broken check-in, unreadable venue directions, unstable playback, or missing audio. Spend effort in the order guests experience failure.
+
+Here is my assessment.
+
+Use now: formalize the strategy-to-execution handoff. This directly addresses context drift and fits Hermes’s existing agent workflow.
+
+Pilot first: route one repetitive workload across local compute, a low-cost remote environment, and a premium coding agent. Measure total time, intervention, error rate, and actual cost. Do not assume “free compute” is cheaper after setup and maintenance.
+
+Use now: add evidence-based cleanup to agent-built projects. Test first, remove only what is proven unused, then test again.
+
+Investigate, but do not chase: the exact GrokBot VPS offer and the performance claims around Black Snow Intelligence. The recap provides leads, not verification.
+
+Watch: no-code and AI-assisted vertical app builders. The construction example shows possibility, but it does not establish security, support burden, data ownership, or long-term maintainability.
+
+Ignore for now: building a broad Paw Prints platform or a new event system merely because AI makes it possible. Validate one painful workflow before creating another product to maintain.
+
+Here are the recommended next steps.
+
+First, create a one-page Atlas handoff template for coding work. Include objective, current state, constraints, acceptance tests, rollback boundary, and required evidence. Time estimate: forty-five to sixty minutes.
+
+Second, apply that template to one live Hermes or Atlas task and compare the result with a normal conversational handoff. Record context resets, corrections, test failures, and total intervention. Time estimate: sixty to ninety minutes beyond the task itself.
+
+Third, choose one repetitive workload—such as scraping, transcript cleanup, or indexing—and benchmark local execution against the current paid route. Use real measurements rather than provider claims. Time estimate: ninety minutes to two hours.
+
+Fourth, map the Paw Prints visit workflow before discussing an app. Identify one repeated capture or handoff problem and test a no-code or lightweight prototype only if the pain is real. Time estimate: forty-five minutes for the workflow map; a prototype is a separate decision.
+
+The priority is simple: make project state explicit, match each workload to the cheapest reliable tool, and require evidence before trusting either generated code or dramatic savings claims.

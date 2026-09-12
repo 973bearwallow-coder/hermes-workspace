@@ -1,0 +1,1456 @@
+Source: https://fathom.video/share/s9k59QEvQhvHZCNNKUZh5gAK_E-n-fs9
+Started: 2026-09-09T12:42:57.000000Z
+Duration seconds: 8979.246666000001
+Title: Impromptu Google Meet Meeting
+
+Impromptu Google Meet Meeting - September 09
+VIEW RECORDING - 150 mins (No highlights)
+@0:30
+-
+Patrick Thomas
+Good morning, Rick.
+@0:41
+-
+Forrest Greenwood
+Good morning, Forrest. Hey, I got an issue I need to talk with you about with mine. right. Let me go ahead.
+Yeah, it's important we don't talk about Bitcoin prompts because the email feedback form is not working properly. So I don't want to.
+I'm the site out there and have people give feedback and not receive it. So I've got to get that resolved.
+Everything else appears to be fine. Okay. So maybe I'm going to try to get that fixed before the meeting ends or maybe this evening.
+But the main site is up. It's all good. I sent it over to you. And pay attention to the very bottom of the page.
+I gave you a hotlink credit over to the AI Builders Guild, and I hope it helps. Oh, nice. Thank you.
+Thank you. I appreciate it. How do you like our new intro music?
+@1:37
+-
+Rick Rodriguez (rickr1@gmail.com)
+I haven't listened to it.
+@1:38
+-
+Forrest Greenwood
+I've got to hop off right now and get on with my AI guy and see if we can get this fixed.
+Oh, you don't hear the music right now in the background? I do not. No music at all. Oh, no.
+Okay. Okay. Thanks for telling me. Bye.
+@7:54
+-
+Patrick Thomas
+Good morning, Builders. Coffee is hot and so is the week in AI. Welcome to AI Builders Guild Morning Coffee Hour.
+Here is the flow. We are here to talk about what we are building, share wins and fails, and dig into what is actually moving right now.
+A few threads to get the juices flowing. Olama just put local models inside ChatGPT Desktop as a release candidate.
+VS Code Agent Merge is in public preview.
+@8:20
+-
+Forrest Greenwood
+The agent finishes the review comments, the failed checks, and the merge. conflicts. Cursor Origin wants you to claim a namespace you cannot rename later.
+Clawd Code agents can now speak first with an initial prompt in the front matter. Four days until Clawd Code weekly limits go back to standard on September 13th.
+OWASP has an MCP Top 10. Treat a new server like a stranger's USB stick. Grok 4.6 is on Microsoft Foundry, but the context number is not the same as the exit.
+And since Monday, who actually switched to Astra, Flash, or Fable? We will move with the energy of the room, jump in, react, disagree, show something on screen.
+If we do not get through everything today, no stress. We pick it back up at the 7.30 Spark session and keep the conversation going there.
+Never give up. Every hand you lift lifts your own. Let's build.
+@9:18
+-
+Rick Rodriguez (rickr1@gmail.com)
+Good morning, everybody. So could everybody hear the music and Nova speaking? Yes! Awesome. Awesome. So I was working this past day.
+I've been working on a presenter that allows me to preload everything and then present it out to a meet.
+So I'm glad that worked because Forrest came in earlier and said he couldn't hear the music. I'm like, oh, no, what's wrong?
+And I had it on excuse me. I had it on cue up instead of live. So then I saw the live button.
+I'm like, I'll put it to live, redo it, everything. And finally it came through. So awesome. So welcome, everybody.
+I can't hear you, Yasmine. Can you hear me now? Maybe? Yeah, can hear you. Cool. I was just saying good morning.
+Oh, good morning.
+@10:49
+-
+Yasmine Johnston-Ison
+All right. So a lot on the table this morning.
+@10:54
+-
+Rick Rodriguez (rickr1@gmail.com)
+Astra is really hitting it hard and big. So I'm going to be trying it out. As soon as I heard about that, I went over and subscribed to the $20, and it gave me the option to pull in all of my projects.
+I haven't checked back on it yet because it took a little while to download and pull in all the projects.
+So I'm going to be doing that, and I think the first testing I'm going to be doing on that is to give it some projects that I haven't completed or I wanted to add extra options to and see what it does with the stuff I started in anthropic and see what it can do after I can do with it continuing on.
+Yeah, that's what it does. So it might be quite expensive that rate because I think it's five times the cost of stomach or possibly opus.
+@11:50
+-
+Yasmine Johnston-Ison
+reports. Look 19 healthy. Don't
+@11:51
+-
+Ed Grimshaw
+So I don't think you'll get a lot for your money, I've got GPT and I'm trying to avoid that.
+think John's thing, getting the tokens down would be very useful.
+@12:06
+-
+Patrick Thomas
+We really need that.
+@12:10
+-
+Ed Grimshaw
+There's also, I've seen a video, I haven't installed it myself, there's a utility or a skill called Graph, and that seems to be trying to get the...
+Graft, I think it's called. Graft. you look on YouTube, yeah. That, I don't think it's as good as John's, just having a quick glance over it, but it probably gets it down by a third at least, maybe two thirds.
+@12:39
+-
+Patrick Thomas
+Mm-hmm. Is that a, is it a paid service, or is it free? It's a scale, no, it's just a scale, I think it's free.
+Okay. Okay. Mm-hmm. you.
+@12:51
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then I've had a few people mention that they haven't had time to get in there and speak on some of the meetings and stuff.
+So I'm going to start utilizing two things here.
+@13:04
+-
+Patrick Thomas
+The Google Meet breakout rooms.
+@13:07
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I think any suggestions or tweaks to this, I'm welcoming that, too. I'm thinking if a presentation not not including like we do live YouTube streams or anything like that, that will just keep in the main room and do the live YouTube streams.
+But if anything goes beyond like if you're presenting something or just something like that or you want to go more than like, say, I'm just out there.
+Maybe if you want maybe longer, but 10 minutes, I put a timer on because we can put a timer on in Google Meet.
+And then if it's going to go longer than 10 minutes, I can have people like maybe raise their hand and go to the breakout room and I can put people in breakout rooms and they can continue the conversation over there.
+So some of the other people can present and ask questions and do something throughout the Google Meet. What do you think?
+Yeah.
+@14:02
+-
+Patrick Thomas
+You think 10 minutes is good? 15 minutes? do you think? 10 minutes as far as what, like, somebody's talking, you're, like, on a timer or something?
+Yeah, if they're, like, just showing something or something like that. And it takes longer than 10 minutes.
+@14:20
+-
+Rick Rodriguez (rickr1@gmail.com)
+That gives people enough time to say, do I want to follow them into the breakout room? And if so, they can raise their hand, and then I can move people into the breakout room to continue with that conversation.
+@14:30
+-
+Patrick Thomas
+And then second thing I wanted to implement is that at the end of the Google, at the end of the hour of the Google Meet, maybe throw something up there saying that if people would like to continue onto the Discord server and then give a link to the Discord so people can go over to Discord and start using that.
+@14:49
+-
+Rick Rodriguez (rickr1@gmail.com)
+And that's going to do a couple of things. First of all, was going to teach people how to use Discord, and we'll put a little course up and teach people how to use Discord because they're not wanting to use that going forward with their development because even though Discord came up as, quote, the gaming platform, developers have really taken it over and really started to utilize all the stuff.
+And I think Discord even has more options and more benefits than even Google Meet, and correct me if I'm wrong, but so far I'm still really new to Discord, but it looks like it has a lot of stuff.
+Yeah. I haven't used it. I mean, I can get in and use it, but, yeah, it seems like it's got a lot of bells and whistles and you can do stuff with it.
+@15:35
+-
+Patrick Thomas
+Yeah, it's pretty cool. It's pretty cool. So does anybody have any questions, wins? Oh, I also want to thank you, Patrick, for putting those things in the library on the Nexus.
+@15:51
+-
+Rick Rodriguez (rickr1@gmail.com)
+That was really cool. You put two library entries and I think a project too didn't you? Yeah, I think so, yeah.
+We've got 16 members in the Nexus now, so that's good. And then I'm pinning everything to the top of chat before the meeting starts as far as our notes for the Spark, notes for the coffee, and Nexus invites.
+Any other suggestions? Maybe that I should pin up there too before the meeting starts.
+@16:27
+-
+Patrick Thomas
+me know. Okay. Oh, Aaron says he saw another token optimizer. Cool. I'll to check that one out.
+@16:42
+-
+Rick Rodriguez (rickr1@gmail.com)
+Token optimizer. Are those LLM specific? Like Aaron, that for don't Yeah. Yeah. Yeah. Yeah. For Claude, or what is that for?
+@16:53
+-
+Patrick Thomas
+For what? I think he's talking about the headroom. I haven't looked at it too much yet. It looks like it's some sort of scripts or something.
+It does a few different things.
+@17:05
+-
+Aaron (WeDigCode)
+I haven't looked into it too much. But what was nice, at least in these instances, is it shows you like a baseline.
+So you kind of know how much you're actually reducing it. So at least they show stuff. Some of the things JMAC, I mean, he doesn't show what his baseline is versus what the token reduction actually is.
+So that would be something nice for him to show, especially since he's got two accounts. So he can run normal on one account and then run his stuff on another to show how much reduction there actually is.
+@17:38
+-
+Patrick Thomas
+That's a good idea.
+@17:40
+-
+Aaron (WeDigCode)
+That's a really good idea. I hope he's okay, man. It was pretty crazy bombing going on the last time we had him on.
+@17:50
+-
+Patrick Thomas
+Yeah. was like... Yeah. It was nuts. I haven't seen it in any of the meetings this week. John?
+@17:59
+-
+Yasmine Johnston-Ison
+Yeah. He was at, yeah, he was at the, which is the one that was the last, it was Monday.
+@18:08
+-
+Patrick Thomas
+Yeah. Okay. It was Monday. Yeah, I think it was Monday at the, was it the early one, Rick, or was it the late one?
+Um, you know, I'm not sure. Yeah, one of those, like, right in the middle, like, he jumped up, because it was like, they were, there was like missiles.
+that's right. Yeah. They were bombing. They were bombing. Yeah. Right. The nighttime one. Yeah. Yeah. Yeah. Yeah. Right. Yeah.
+Cause I didn't see him in the, uh, Monday morning.
+@18:36
+-
+Yasmine Johnston-Ison
+I didn't see him. And then Tuesday at the school, uh, the coaching call, I didn't see him. So, okay.
+I think it was, he was there in the last call yesterday in the coaching call. He was there. I saw him.
+I was there yesterday up until the Italian guy started speaking. He was there. I don't know.
+@19:03
+-
+Faizan Ashraf
+I might have just missed it. Yeah, he came in after and was speaking with him for a while. Okay.
+And he's alive and okay. Yeah.
+@19:12
+-
+Gregory Barber
+Well, I couldn't imagine living in this kind of conditions.
+@19:15
+-
+Yasmine Johnston-Ison
+There's no way. It's scary.
+@19:17
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, scary stuff.
+@19:18
+-
+Patrick Thomas
+All right. Another thing, as I'm getting ready in the morning, I kind of put on a few YouTubes and I'm listening to him.
+@19:28
+-
+Rick Rodriguez (rickr1@gmail.com)
+And this one guy had, I'll have to dig up his name. I forgot. I did never, I subscribed to him this morning.
+I never heard of him before. But with all this free compute that they're giving him, by the way, Anthropix is going back in a few days to its normal metering of tokens, that a lot of these companies right now are giving us a lot of free compute.
+And they're... It's like crack. So they're getting us hooked. They're getting us into their platforms. And there's going to be, according to this person, a day of reckoning when everything has to kind of like shake out and level out.
+And if you're only working in one platform, which thankfully many of us are working on multiple platforms and we're looking into our agent flows that each agent and sub-agent can use different platforms and different LLMs and stuff, which is a great thing.
+But just to throw that there, just don't put all your eggs in one basket. Yeah, good things in there.
+@20:35
+-
+Patrick Thomas
+Yeah, I've got to, I'm trying to work more, because I signed up for that stuff, I'm trying to work more in Claude and GPT and kind of work, you know, having the two compare each other.
+I'll do something and build and give it to Claude, you know. Go back and forth and see if can figure out, especially with, like, coding problems.
+So it's helpful. All right. So, Yasmine, are we going to have 102 Friday?
+@21:07
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yay! All right, Yasmine! Yeah! I've been a little bit worried because the first – I made the PowerPoint.
+@21:18
+-
+Yasmine Johnston-Ison
+Then, you know, I talked through it with myself. And I was like, is this too technical? So I added more slides to try to make it not technical.
+So now I don't know if I've just extended the tech or if I've actually managed to, like, make it make sense.
+So, you know, it could be fun or it could be death by PowerPoint. We'll find out. Death by PowerPoint.
+I like that. Nice. This is one way to find out, right?
+@21:57
+-
+Rashad Khan
+Hey, Rashad. Hiya. Did you already do the opening thing?
+@22:09
+-
+Yasmine Johnston-Ison
+Did you already do your intro, Rick? You know, I played it before. That was another thing.
+@22:18
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'm thinking maybe I should also keep the intro video and maybe Nova speaking her intro, the first five minutes of the meeting to wait for more people to get in.
+What do you think? You know, it shouldn't be that long, but here is another idea I could tell you.
+@22:42
+-
+Rashad Khan
+In her intro, you know, you should probably provide a summary since the last time of things that have changed in I'm This evening
+This group or news, basically, I don't know if you can do that.
+@22:58
+-
+Patrick Thomas
+Yeah, like what we've covered in the previous. Yeah.
+@23:02
+-
+Yasmine Johnston-Ison
+Okay, let's see here. Let me go ahead and. Good morning, builders. Coffee is hot. Can you hear that? Not really.
+Okay. me stop that.
+@23:12
+-
+Rick Rodriguez (rickr1@gmail.com)
+Here is the flow. So we really want to find out if NOVA is that intelligent. Share that.
+@23:54
+-
+Yasmine Johnston-Ison
+Start with audio. Doing it this way. takes a little bit longer and here we go. Good morning, builders. Coffee is hot and so is the week in AI.
+Welcome to AI Builders Guild morning coffee hour. Here is the flow. We are here to talk about what we are building, share wins and fails, and dig into what is actually moving right now.
+A few threads to get the juices flowing. Olama just put local models inside ChatGPT Desktop as a release candidate.
+VS Code Agent Merge is in public preview. The agent finishes the review comments, the failed checks, and the merge conflicts.
+Cursor Origin wants you to claim a namespace you cannot rename later. Claude Code agents can now speak first with an initial prompt in the front matter.
+Four days until Claude Code Weekly Linux go back to standard on September 13th.
+@24:52
+-
+Rick Rodriguez (rickr1@gmail.com)
+OWASP has an MCP Top 10. Treat a new server like a stranger's USB stick. Grok 4.6 is on Microsoft Foundry, but the context number is not the same as the XAI page.
+Gemma 4 on Apple Silicon now takes images and audio. And since Monday, who actually switched to Astra, Flash, or Fable?
+We will move with the energy of the room. Jump in, react, disagree, show something on screen. If we do not get through everything today, no stress.
+We pick it back up at the 7.30 Spark session and keep the conversation going there. Never give up. Every hand you lift, lifts your own.
+Let's build. Alright, so my mistake there was that I didn't use the presenter that I made this weekend. I went and did it the long way.
+See, that's how long it takes me to set that up, two different things, the video and then the audio and stuff like that.
+So with the presenter, I preload everything. And I just hit live, and it shoots right over to the Google Meet when I present, which is what I'm going for.
+Still a few more little tweaks on that and everything, getting used to it, but yeah, here we go. Okay.
+All right.
+@26:11
+-
+Rashad Khan
+Good morning, J-Mac. You're still alive, thankfully.
+@26:16
+-
+Rick Rodriguez (rickr1@gmail.com)
+It's been a bit crazy here the last 48 hours.
+@26:22
+-
+John Mackenzie
+I bet. So what's going on? Oh, it's boom-boom time. It's not good for the local people. It's crazy. Anyway, we'll talk about better things.
+Okay. All right.
+@26:39
+-
+Rick Rodriguez (rickr1@gmail.com)
+So quickly, you just joined, earlier I was talking about, so going forward, we're going to start using breakout rooms.
+So when people start presenting anything, if it's going I'm go longer than 10 minutes. I'm going to put up some timers.
+And then if people want to follow that particular topic into a breakout room, they can raise their hand, and then I'll start moving people into the breakout room.
+This will give other people that want to share and stuff more time to share their presentations and ask questions and stuff there, too.
+So it's there, and I think we should probably utilize it. And then at the end of Google Meets, we'll start.
+Is that a Google Meet functionality already?
+@27:23
+-
+John Mackenzie
+Yes. I've never seen it or used it. Yeah. Nice. It's a Google Meet functionality. So we can start using that.
+@27:31
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then after the Google Meet, in order to get more people familiar with Discord, what I was thinking is, and because the functionality of Discord is more than Google Meet, we'll start at the end of the hour for Google Meet, people transferring over to the Discord server and continuing with the meetings on that think So Yeah.
+All right. And is a a More functionality, more options, bells and whistles, and cool stuff over there. You know what I'd do if I was you?
+I would build into a browser, potentially.
+@28:04
+-
+John Mackenzie
+I'm thinking out there. Someone opens up the Google Meet into a browser, right, and there's like an extension of a Discord on the right-hand side of the browser that they can shape the size of it so they can make it small.
+Maybe a pop-up, maybe develop an extension, and the extension can either be embedded in the browser or a pop-up on top of the browser.
+So you've got Discord sitting across the top of the browser with Google Meet embedded into a browser or a dual screen inside the browser, something like that.
+I'd build a harness around something like that for greater functionality. Then what I'd do is I would migrate anyone using the meeting.
+browser easyzos. that's some Vochtip Dun başnam Thank you. So the Google Meet chat, I'd say, hey, join Discord over here because this is more dynamic and it persists, so it doesn't get dropped, so it persists, and that is a pathway to get people from Google Meet over to Discord, number one, and then if you pin on the top of Discord, you've also got, say, Nexus or your web, your app, the Guild, where it's pinned at the top there, so then I'd have that pinned at the top here and pinned at the top there.
+Can you pin more than one thing at the top of the chat in meetings? I'm not sure. Oh, no, well, if you look at mine up here, I have three things pinned.
+@29:32
+-
+Rick Rodriguez (rickr1@gmail.com)
+I got the notes, spark notes, coffee notes, and then the Nexus invites. Are they pinned? Yeah, those are pinned up there.
+Can you see them at the top? Oh, there. Right. Put a header.
+@29:51
+-
+John Mackenzie
+Yeah, Don't just drop the link, say what it is, say notes, say Discord, and then pin that one thing in there, if that makes it odd.
+So I can see the three pin there. Sorry, I'm just catching up. So rather than just dropping the URL, and maybe do a URL shortener, right?
+So I did use a URL shortener. If you see the Netlify, it says link doctor, link doctor.
+@30:26
+-
+Rick Rodriguez (rickr1@gmail.com)
+That's my shrink link that I created, because otherwise, the link would have been like super long for the Google, because it's coming from Google Drive, and they have incredibly long links.
+@30:42
+-
+Rashad Khan
+So I'll have to figure out. I know if I drop these same things in email, it'll look like just the words, like coffee notes or spark notes, but for some reason.
+It's not only the general. So what
+@30:51
+-
+Rick Rodriguez (rickr1@gmail.com)
+The chat here will not allow me to use just those words. It puts out the whole URL. Yeah, but, for instance, you could have a – I'm sorry, I wasn't meaning to derail this, by the way.
+@31:05
+-
+John Mackenzie
+But you could put that link there with your Netlify or whatever, and you could stream that even more. So don't have it at coffee notes, da-da-da-da-da.
+Don't even do that because I just put there in AI Builders Guild or do something different because what I would do is I'd have it – I'd have two sets, one when people's already here, but then when we go back on the Monday, Tuesday, Thursday, Friday to AI Profit Boardroom, I would have a different link there and then share the link with some of us here that are promoting you on the other side there, and then all we're doing is I'll copy that in my notes, and I'll just – grab it out of my notes, that link, right?
+And I – And, you know, the header with that, and then I'll drop it because you see that we're often saying, you know, join CyberRick's school chat, right?
+Thank you.
+@32:02
+-
+Pierpaolo Villano
+Thank you, too. Yeah, so you do that, but just have a link for that and then your website.
+@32:11
+-
+John Mackenzie
+And we could say join CyberRick's school community, and then that's got a school community link, and then it's got your website link, both of them.
+So they've got both, so they can, because some people might want to just drop onto the website, for instance, and have a look at that before they join the school community.
+@32:28
+-
+Rashad Khan
+Anyway, just some thoughts. Great idea. Thank you. Yes.
+@32:31
+-
+John Mackenzie
+Yes. All right.
+@32:35
+-
+Rick Rodriguez (rickr1@gmail.com)
+So what is, what is everybody working on? What, any wins? Just my particular one, my investor is not returning my phone calls right now.
+@32:51
+-
+Pierpaolo Villano
+I'm like, I'm like, so I'm looking, I'm looking in other areas right now for that. So not a win, but I keep working at it.
+So who has something? I host my laptop.
+@33:19
+-
+Patrick Thomas
+Is that? Oh, what'd you do? I did. I was trying to get, I was trying to get all my drivers and everything up to date.
+@33:29
+-
+Rashad Khan
+And there was a BIOS update. And I, I let the HP assistant do it.
+@33:34
+-
+Patrick Thomas
+And I don't know if it was because it was an originally a Windows 10 laptop running Windows 11. I don't know, but it put the latest, it's the latest BIOS out there.
+@33:44
+-
+Rashad Khan
+And then I just got the blank screen, faculty screen.
+@33:48
+-
+Patrick Thomas
+I spent an hour going through, you know, I like, thing And I'm going to do it with the USB stick, but I still have one more pathway, I have to take it apart and pull the battery and then try it with that.
+Other than that, man, I'll just pull the drive-in memory out, it's not worth fixing. Oh, you think you bricked it?
+Possibly. It's okay, I got a mini PC right here. Did you lose power or reboot it before the BIOS update was done?
+No. No, not at all. So, I, and it must be an issue with it because, I mean, they have, they had, like, quite a few pathways, like, and I haven't even seen this before with, like, a Windows key with, like, Windows key B, Windows key B, to recover the BIOS.
+@34:40
+-
+Rashad Khan
+So, it's, it's, like, it must be an issue with these things because I've, I've never hosed one with a BIOS before, I know better, you know, but doing this a long time.
+@34:51
+-
+Patrick Thomas
+Hey, you know what? It happened. So I'm going to try the battery wrap because it's only about 15 screws.
+@34:57
+-
+Rick Rodriguez (rickr1@gmail.com)
+I just didn't want to deal with it yesterday. And sometimes there's a button, too. I know on desktop, sometimes there's a BIOS clear on desktop motherboards.
+Really? A clear or a reset to default or something?
+@35:19
+-
+Patrick Thomas
+Yeah. Am I muted? Can you hear me? Yeah, I can hear you. Okay. There is an option to, I think, go into BIOS when you're logged in.
+@35:35
+-
+Yasmine Johnston-Ison
+And it's basically on the next reset, it'll just take you in so that way you can reset whatever settings that you need to go into.
+And I think there's one other setting that you can do while you're logged in. Before turning it off, as long as you have full admin rights, like full, full root, not the pretend root that everyone thinks they have on a Windows machine, but you know, after you've edited the reg keys and you actually have root, then there's some extra advanced like modifications you can do before you reset to get into BIOS a lot cleaner.
+I don't know if that's helpful. Yeah, no, well, I mean, it'd be helpful, yeah, I don't know about now, but before I rebooted it, probably would have been.
+Well, I, yeah. So what comes up on your screen when you power up right now? Nothing, it's just a backlit screen.
+@36:42
+-
+Patrick Thomas
+Have you tried hooking it to an external monitor? No, I have not tried that.
+@36:48
+-
+Yasmine Johnston-Ison
+That's a good idea. Maybe it's, like. The cord to your monitor is messed up or something. That's possible. Yeah, I didn't even think about that.
+I'll try that. Does it make sense? I'll do that before I split the case.
+@37:03
+-
+Patrick Thomas
+I'll do that before I split the case and unplug the battery. But I had one of these little AMD, brand new AMD mini PCs, setting up my garage.
+So, I mean, it's like a year old, so I got it hooked up, you know, right next to me, because I can fit it all, like, on one of those little rolly tables with that and a monitor and keyboard.
+@37:24
+-
+Yasmine Johnston-Ison
+So it's close enough, so I can, you know, work with Claude and Chad on this machine over here.
+@37:32
+-
+Patrick Thomas
+If it works, it works. If it works, yeah. Hey, Rick, I was trying to look up that. What was that when we first caught on?
+What was the name of that token? Was it a token saver? You and Ed were telling me what it was.
+@37:50
+-
+Yasmine Johnston-Ison
+was something that was new. Hedrum, Hedrum, Hedrum, thank you, see if I can find that. Thank you, Aaron.
+@38:07
+-
+Aaron (WeDigCode)
+Yeah, no, not that one, there was another one, it was like a one word, like, I want to say hedger, it was just short.
+@38:14
+-
+Patrick Thomas
+Graft, was it graft? Graft, thank you.
+@38:20
+-
+Ed Grimshaw
+Awesome, thank you. There was another article I saw this morning, the new Mac Mini.
+@38:35
+-
+Patrick Thomas
+There's a big controversy over which one people should buy.
+@38:39
+-
+Rick Rodriguez (rickr1@gmail.com)
+And people are thinking, oh, no, the new M6, you know, get the M6, max it out, blah, blah, blah.
+But there was, let's see if I can find the person who was talking about it real quick here. Did on doing some research, the M5, just got another message here, see if I can find that, this was by NextNUC, Apple just killed the subscriptions, they did a comparison with the M5, the M6, the M5 Pro, and how much they're charging for each tier, and the bandwidth that you're getting, and the models that you can can load locally, because the different chips use different things for inference, and they kind of split the CPU up on there.
+@39:46
+-
+John Mackenzie
+So let me find it and see if I can get this over here, get you the link for this.
+@39:51
+-
+Rick Rodriguez (rickr1@gmail.com)
+So people can see it, and I'll put that in there, and I'm not going to shorten it. I'm just going to throw it in there.
+I'll do it. It's a sectional analysis, sectional analysis.
+@40:46
+-
+Ed Grimshaw
+I'll just have to bring it up in the browser. Okay, we'll do it this way.
+@40:51
+-
+Rick Rodriguez (rickr1@gmail.com)
+Why can't I paste this? My paste is not working. Why isn't it working? There we go.
+@41:31
+-
+Ed Grimshaw
+What is that a link to, Rick?
+@41:33
+-
+Patrick Thomas
+This is a YouTube video for Apple just killed AI subscriptions forever. Oh, that a Julian link?
+@41:46
+-
+Rick Rodriguez (rickr1@gmail.com)
+No, this is from AI Master and Arthur. Okay.
+@42:08
+-
+Patrick Thomas
+Well, if you guys get me to switch to Mac, that would be a heck of an accomplishment. You know, I was hardcore I've been doing PCs for 30 years, man.
+I was, hey, same here.
+@42:19
+-
+Rick Rodriguez (rickr1@gmail.com)
+Before, what, November of last year, I was hardcore Windows. I didn't want Mac. I didn't have an iPhone. But, yeah.
+You know, it would be good for me to do only because, like, because I do a lot of support.
+@42:37
+-
+Patrick Thomas
+I mean, I can bumble my way through it, but I'm not, like, anywhere near, like, where I should be, like, on a Mac.
+If somebody has a Mac problem, I'm just like, yeah. And it's got good learning curve, too. It's not that hard.
+Yeah, it's not like learning Linux or anything like that. So I think learning Linux is a lot harder than going over to Mac.
+@43:06
+-
+Rick Rodriguez (rickr1@gmail.com)
+But yeah, that was a good little YouTube that I was watching there. So it's going to make me rethink going to the M6.
+@43:13
+-
+Pierpaolo Villano
+I think I'm thinking maybe more to the M5 Pro, but I still haven't finished the rest of the video there for the conclusion.
+@43:23
+-
+Rick Rodriguez (rickr1@gmail.com)
+They're pretty priced. The M6 is what? Four or five grand? Yeah. If you max it out and get like the top of everything, it's hitting right around seven.
+@43:33
+-
+Yasmine Johnston-Ison
+Seven, yeah. It's on my wish list right now because I am frying my M1. It is slowly deteriorating, so...
+You know, I cannot wait till you get a really good machine because if you're doing this... On an M1.
+On an M1.
+@43:54
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, that would be like some scary production increase.
+@43:58
+-
+Patrick Thomas
+Yeah. I can't wait. One day, one day, I'm going to be unstoppable.
+@44:08
+-
+Yasmine Johnston-Ison
+Nice.
+@44:13
+-
+Patrick Thomas
+So, who has something they would like to share? I've been creating something to solve a problem that I've got, which I think we all do.
+@44:26
+-
+John Mackenzie
+So, two laptops, two Claude Code accounts. I've only built a Claude Code at the moment, but I've just built a portfolio view of what I'm working on because it's like, man, what do I need to do?
+What do I do next? Which project? What am I failing at? Right? So, this here is about my portfolio view of work.
+Click. Click. Like you. It's all the different projects I'm working on. We lost your screen, John.
+@44:54
+-
+Patrick Thomas
+Man, get old Google Meet.
+@45:02
+-
+John Mackenzie
+So you can see this here, and it's just brand new, just dropped, still trying to work through it. But all I'm trying to do is get everything on one pane of glass.
+So I've got my major projects, my AI engineering operating system, my AI watch, you know, token saver work, memory operating system, my cybersecurity platform.
+Those are the four critical lenses that I'm trying to work out what I'm working on. So in my console, I've got all my projects.
+This is just doing an upgrade at the moment. So if it drops or something, it's because I've just told it to fix some more things.
+Then I've got my alerts down the left-hand side. So these are the things that I need my attention to go do right now.
+And then I've got my watch list. These are the things that I'm watching that need to run on a sh**.
+So what I need to do over here, I need to add some buttons, you know, there's lots of projects down here that have been parked, I'm not interested in at the moment, so I can take that off the list here, take that off the list here, but essentially what I want to be able to do is I've got now one page here, and close down a whole bunch of tabs, and then I can go to this, say, item here.
+I know that it's in Git, I can see if it's, I've got five on pre-prod ahead of the main, so I know I need to do some merge, I need to do some work around the Git management, I need to do some, I need to push to main, so I need to check it, so I need quality assurance, I need to merge to main, make sure that's operating, then do another QA check.
+So I need, so I need to do some sort of work here, and then what I want is I've just asked to add these buttons, so the buttons on the console here, so.
+Firstly, I want to know what's in that tech stack. So I want to know when I look at these, so this here, I want to know if it's in GitHub, if I'm using Vercel, if I'm using Resend, what's in that tech stack so I can just see it.
+And I want buttons. I want, like, open up the local host so I can do a QA or local up the website or the SaaS.
+Sometimes I do those three different. So I want it all on one page. And then I want to be able to set my priority list and focus points, right?
+And that's what part of this is. And then do something where I can run functionality. I can run, essentially, I'm going to then add my chief or my captain that I can say, go to my portfolio, my unified intelligence hub, have a look at the projects, the top 10 projects need to be managed.
+So, yeah. Each one of those I then build a project brief for, so instructions and guardrails, then I hand that back over to… Yes, I'm sorry, it's a trouble you.
+I'm not sure I've got full sectional access because when I press the sectional button as per menu, I could only see this.
+@48:15
+-
+Pierpaolo Villano
+Yeah, John, your screen is not today, yeah. Yeah, so I'm just coming back.
+@48:19
+-
+Patrick Thomas
+So, I'm building this out, this has just dropped, it's brand new, but it's to manage all my projects. It went out again.
+Oh my goodness, that took like three seconds.
+@48:32
+-
+John Mackenzie
+Is it, do you need to shut some tabs down? Is it, do you need to reboot? I'd have to do a reboot.
+We'll see how long this one holds for before I… So anyway, I just thought I'd show you where this is at at the moment because I've got so many projects, 59 projects in flight.
+So… So… So each one of those projects need to be managed, and some of them can be backlogged, some of them can be archived, and a whole bunch.
+So if I go to a certain project like my LLM Vault, I saw that that had 177 pre-prod ahead of main.
+That is a major problem, right? So I need to, now that I can see it, I can now build a process to look at how I'm going to merge, because that's got like maybe five or eight different branches, and each one of those branches have got like journeys of gits that need to be managed into a coherent merge to main process, right?
+So it's very complex. So now that I've done that, I'm going to build, so I personally needed to see everything on one pane of glass.
+I want to have easy access so I can open anything up. I want to be able to push this git over.
+So rid I'll put it to my laptop, too, although in two days I'm going to stop paying for my second Claude Code Max 200, so I think that's ran its course, I'm just going to continue to max out my codexes, my GROC and my one Claude Code Max 200 because I'm starting to get enormous value out of those now.
+Anyway, so that's what I'm working across project level, right, because I just need to be able to do it better, right?
+Yeah. Hey, John, somebody had an idea, we were talking earlier, but before you cancel that second Claude account, like take your token saver off it and see what you're spending on tokens like for a day or however much time you have left and compare it to the one that you have the token saver on.
+@50:46
+-
+Patrick Thomas
+Well, I can spin up a $20 account and just run that as a comparison.ionenlenlenlen
+@50:53
+-
+John Mackenzie
+And what I can do is I can spin up a $20 account, strip the account, run a $20 account, and then just push the same for same project, like set up a new project, and then set them across two different computers, one just a periodic test.
+So they're doing exactly the same work with, you know, with the two different methods. So that's a good idea.
+So I've done that. You'll see this pill here, right? This is showing all my savings now on one pill, laptop one, although these savings aren't this full month.
+I think that's the whole journey. So you can see how much money I've spent, like my subscriptions. You can actually see my, um, the equivalent, um, uh, uh,
+That number's wrong because it's using the wrong multiple, but what I need to do is update this here because this is pulling the wrong data, but structurally it's sound enough, but I'm getting this pill to the point where it's ready for launch, where you can have multiple, and then you can see everything that's going on inside this laptop, so this laptop's saying that, you know, I was paying reread per call for 399 rereads to the one out put token, now I've got it down to 122 to the one, and I think I've got visibility of seeing that down to about somewhere between 60 tokens to 40 tokens, and that means that when I do that, it'll be 80% to like 87% token savings, but some of these dollar reductions is pulling the wrong multiples, so I show what I mean, and you look at this token saver here, my across the top, if
+My savings is sitting at 77.3%. That's for the last two months. My current month is sitting at 72.3% token savings.
+And my current cost per call for this month is 64.8%. So my flawed code is running 64.8% cheaper than my baseline.
+What I've done is I've pulled all that into an upgraded version.
+@53:25
+-
+Pierpaolo Villano
+If I do a refresh of, I'll move this out of the way. If do a refresh of this here, this should do an updated version.
+There you go.
+@53:31
+-
+John Mackenzie
+Just pulled my updated version down. And if I go to my console here, I can see that my laptop one on, this doesn't have my method 17, 18, or 19 data methods coming through, which I asked it to pull through, but it hasn't yet.
+I need to go check that.
+@53:50
+-
+Pierpaolo Villano
+But you can see that this one here, This was saying that, again, wrong information.
+@53:57
+-
+John Mackenzie
+You can see that that information's wrong from here because this is only method 3.16. My 3.16 method was sitting at 56.3% cost reduction.
+My method 3.19 is sitting at 64.8% cost reduction. So because I've got generational tracking, that's laptop 1, laptop 2, same thing.
+Then I've done the same thing with codecs.
+@54:28
+-
+Pierpaolo Villano
+So you can see on codecs here that if I look at method 3.17, which is adopted and in use, my codecs at the moment is sitting at, I can't see the percentage stat there.
+@54:46
+-
+John Mackenzie
+Yeah. This is my real codex numbers here. My codex is sitting at a token savings of 53.4%, my codex.
+My codex cost is saving 28.7% now. That's where this is at. My cursor, so my GROC. John, it's crushed the meat.
+Oh, sorry. Sorry, I understand. Okay. So my codex is sitting at a 53.4% token savings. These two numbers are accurate.
+These two numbers are confused, partially accurate, depending on what you're trying to ask the question. For this generation, so for the 3.19 codex method upgrade, codex, it saves 53.4% tokens and
+It's.7% of the dollars. My cursor 3.19 method upgrade is saving 67.4% of tokens and 78.7% of the cost. So those two are correct.
+They're showing early signals at the moment because they don't have sufficient data to stabilize the, you know, the statement where Claude Code has got like 93 days of data.
+Codex and cursor, you know, have only got maybe seven days to 10 days. So there's not enough projects, not enough data to validate.
+I just saw it drop, to validate at the moment. But that, I'm now in, in a position where, as an example, with my codex and with my cursor, like I'm getting great.
+Savings better in cursor than Codex. Codex, I still need a bunch of work to do. And I haven't opened up my laptop to Codex yet.
+So I've got a lot of incentive now to go, because now that I'm starting to see savings on Codex, because I've got two business Codex accounts, two $25 business Codex accounts, that's like a business $50 account.
+I've never used the second account ever. I've sparsely used the first account. So I've been wasting $50 of Codex.
+And I'm now getting savings across the top of that, nearly at 30%. So it's operating at like a $65 account at the moment.
+But I can see that I'll get that fast up to a 50% savings, and it'll be operating like $100 of Codex for $50.
+And that's where I'm at at the moment. So I'm fast getting to the point where I can drop my second Claude code, I can pick up my combined Codex, I can pick Codex accounts.
+And get great outcomes with just changing the blend of my use and cutting the cost of my AI compute whilst maintaining nearly the same amount of AI access.
+So I've nearly got the same amount of AI access, but I can cut the cost of that. Does that make sense?
+Yeah, I'm ready to test it, John. Let's do it. Look, I'm building the system. I'm building the system to building to at the moment.
+@58:28
+-
+Patrick Thomas
+So while I'm building the system, I'm also building the method improvements.
+@58:32
+-
+John Mackenzie
+So when it lands, the people that trial it will actually trial it cross-platform. So you'll trial it across ClaudeCode, depending on what you've got access to, Codex, ClaudeCode, and Grok.
+So that— So is that my Grok you mean the cursor? cursor? No, Glock, but you can use it through the terminal of Cursor or Glock.
+Because I noticed that my tokens, because I bought through Cursor, I think it's using, I don't know if it's, that's where it's showing the usage, but I don't know if it's pulling it through, I don't know, would that be an API or MCP to XAI?
+@59:17
+-
+Patrick Thomas
+I have no idea.
+@59:19
+-
+John Mackenzie
+So what you've got is, you've got a CLI, and then you've got the model, and then you've got, so you've got the CLI, you've got the model, and then you've got the harness, and each one of those can influence the type of return, the type of token return savings, and the type of top savings that you can get.
+So they all have a different, a different space, a different play. I've specifically trialled the Cursor harness in its CLI.
+LI the Cursor, to get Right. And that CLI will be identical to the Grok desktop. So that means it's going to play identical the same way across.
+So the harness becomes irrelevant. Okay. So it'll work on bot too then.
+@1:00:06
+-
+Patrick Thomas
+It'll help. I don't know. I haven't trialled the, how, because bot sits on top of, so I don't know.
+I've got to, what I've got to do is I haven't got to that point yet, but it's on my radar.
+@1:00:19
+-
+John Mackenzie
+So watching what you've done with bot, watching what Keith's done with it, and also with Papello, I need to get to the point where I can run an experiment across bot to see if I can get, extract token and dollar savings out of that view, because that's on the harness.
+And bot only works on the, from what I can see, and I don't know, correct me if I'm wrong, please.
+But from what I understand, GrokBot only works on the harness in Grok. How Okay. Okay. Yeah. It doesn't work inside the harness of cursor.
+Am I right in saying that? I'm not sure, but I do know one of the things I found out, I mean, somebody mentioned it runs in a sandbox to make sense because if you reboot your VPS, you lose any apps that you've installed.
+@1:01:12
+-
+Patrick Thomas
+Like I installed Edge and a couple of other things. They can install it, you know, running a script. But, but if you, if that VPS gets reboot for any reason, you lose whatever you've installed.
+Yeah. Yeah. So, so, well, that stands to reason because if you, if you reboot, sorry, is that if you reboot the harness or if you reboot the VPS?
+If if you tell Grokbot to reboot the VPS. Well, of course.
+@1:01:38
+-
+John Mackenzie
+Or if it reboots it itself for any reason, anything that you've installed is not going to do that. Oh, well, so what you want to do is you want to make sure that you set up, you want to, you want to, write a, get your.
+@1:01:51
+-
+Patrick Thomas
+You Your agent to write a setup script for the VPS, right?
+@1:01:56
+-
+John Mackenzie
+And any time the VPS gets upgraded, changed, that that is getting mapped over to GitHub for your memory. So you want to make sure that that's done.
+And then that means if the VPS gets reset for whatever reason, you can rebuild it very quickly. Oh, that's a good idea.
+@1:02:11
+-
+Patrick Thomas
+Okay. Yeah. So that stands to reason. So what you'll see is I've got my AI watch bearing down on getting ready to launch.
+@1:02:22
+-
+John Mackenzie
+I've got my AI engineering operating system bearing down on getting to launch. This will be my harness. So I will only do work soon inside my engineering operating system.
+I will then use my chief that will act like a GROC bot to my projects. My projects will be individual and then I will run.
+I've projects being fed by the intelligence of my unified intelligence hub. So they work in tandem. Then my AI workforce, it's not really workforce, it's really like AI connectors.
+It's really like AI, I don't know, my AI universe at the moment has got ClaudeCode Laptop 1, ClaudeCode Laptop 2, Codex Laptop 1, Codex Laptop 2.
+I installed that yet, but I've got it. Cursor Grock, my Gemini, my ChatGPT because they, so Codex and ChatGPT, although they are unified in some ways, they're still not.
+Notebook Lm and then my GrockBot BPS as a separate thing.
+@1:03:40
+-
+Pierpaolo Villano
+So that there will then be my management, my connective and management plane. That all gets then driven into the projects and driven into mine.
+that's mind? See you later. you. My Chief, right?
+@1:03:54
+-
+John Mackenzie
+The Chief will then have a workforce that will work under that, which I will never see. I will have – sorry, it's never intended to see, but there will be transparency, there will be all the other things.
+So then I'll have usage and cost. My AI and usage cost all gets pulled into one pane of glass so I can see what's happened in the last seven days across all platforms, my annual, my all, everything, both at actual token use and effective or equivalent use because you need both.
+You need to be seeing what you would have paid before, say, any of the engagements of my – so you see here, I'm connecting my governance plane, which has got my AI watch, that's all my methods of savings, my cyber security platform runtime guard, so all of my AI.
+I've got a runtime guard monitoring them, and then I've got my memory operating system, both the prefrontal lobe, which is basically the session, the project specific, and then my full memory operating system being the cortex.
+They will operate in unison at my chief level and at project level with the correct permissions. So that then gets mapped into how the system works, and then I can monitor and maintain my memory operating system.
+Lost your screen again. And then at 10, I have to go.
+@1:05:36
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'll leave the meeting open, and I'll see everybody at this work session tonight. Perfect. So that then gets mapped into my operating system.
+and I'm, and I'm.
+@1:05:51
+-
+John Mackenzie
+Thank And then I'm setting up loops and schedules, so this now can run autonomously. So that is how all of this is working.
+That needs to be, let's put another break, because I'm running updates on this at the moment, getting it ready for launch.
+Then what happens is, so I've got all my systems of operation, right, which I've sort of mentioned a couple of times, which is the AI engineering operating system.
+I've got my governance plane that sits over the top of it, right, so I can try and figure out what the hell is going on, what needs my attention.
+I can drill into my AI statistics. So that's the statistics. Then I've got my cybersecurity runtime, I've got my memory operating system.
+Then what sits below this is this system that I'm working on right now, which I have had one... One Claude Code Opus 5 run for 36 hours to build.
+It's basically ran for 36 hours continuously to build what I'm about to show you. And what I'm essentially focusing on now is the interconnection between all of them, right?
+So the savings is connected across the top. Lost your screen again.
+@1:07:38
+-
+Rick Rodriguez (rickr1@gmail.com)
+I think we've lost John that time. So I just jumped across computers. Oh. And.
+@1:07:51
+-
+John Mackenzie
+This is why you saw me build that unified intelligence hub, so I don't have to do this, I just pull it down on a different computer, it automatically knows what GIP, what project, what the version control is, but this is what I've just built in the last, this has operated for 36 hours to build this, one Opus 5 account, and this is now going to be all my agents.
+So basically the agents get connected to a mission and they get connected to a project, and then all of these agents can run underneath the chief, the chief comes to this plane here, which is my hive cockpit, and then it looks at the agents, it looks at the missions, looks at the work that needs to be done, it sets up approvals, gates, mergers, it's also tracking things like cost and chains, and all of this gets done with drill-throughs.
+Right? So then I can come in and see this. So it's got all traceability. It's got all the telemetry data that I need, all the logs, everything.
+So this will sit below my AI engineering operating system as a plane that allows someone to then go from one chief and a simple system to a whole, I don't know, a whole thing, a whole workforce.
+And they're both, they're all fed from the cybersecurity AI guard. They're fed from the, you know, the memory operating system, both the prefrontal lobe and the full cortex.
+They're fed from my AI watch. The methods that reduce the cost of everything, and that is basically where I'm at.
+I reckon I'm probably a month from them all being integrated because it's still so much coding to do the full integration, but each one of them are getting to the point where they can land individually, but they won't have full integration.
+But what I'm getting to the point is trying to not only land them individually as modules, but then have full modular integration.
+Thoughts? Can't hear anyone. Is this on mute? No, I was muted. No, that's pretty awesome. So you basically created your own, like, kind of version of GrokBot, but, you know, you're managing it from a web page.
+How do you afford you? Huh? No. Oh, you can't hear me all. You can't hear me? So you guys might have been talking.
+I can't hear you at the moment, so I'm trying to figure it out. Yes, Patrick, I'm hearing you. It might be that it's trying to send...
+Could you hear me when I was talking? Yes, we could hear you. Yeah. I might jump over to my other computer that's just having a lot of trouble.
+See Yasmine, I can see that you want it to be over. Okay. When John was doing this stuff, I tried to personalize my website and...
+@1:11:39
+-
+Pierpaolo Villano
+Okay. Can you tell me if you... If you click on me on my website, can you tell me if...
+If the translator is okay in the, in your browser language, Patrick, sorry, so, yeah, I mean, I, I, I don't understand the question.
+@1:12:06
+-
+John Mackenzie
+I can understand you in English. Yeah. Okay. Okay. If you click on my website, which you have a, let me click on the website.
+@1:12:15
+-
+Pierpaolo Villano
+Hang on. Yes. On my, on my comment. Can you tell me if you're reading in English? I will tell you right now.
+Okay. Yeah. Yeah. It's in English.
+@1:12:30
+-
+Patrick Thomas
+Okay. I did this tonight. So, uh, with the, with the AI, I tell them to, um, uh, uh, uh, uh, um, in native language, uh, it did well.
+@1:12:50
+-
+Pierpaolo Villano
+Russian, you can see.
+@1:12:52
+-
+Patrick Thomas
+If you want to say that, you know what, if you might want to check into this too, because like the first couple of sites that I did, I did with Netlify, but I was working with my AI, and then the AI suggested, hey, why don't you, and I can't remember the reason why, but it's like, I think it was DNS related, but it's like, go check out Cloudflare, and then I've got my AI hooked into Cloudflare.
+It'll go out there, create the site, create tunnels, I mean, and it's all free, man, unless you get over to a certain thing, or like, yeah, yeah, I don't know if you checked out Cloudflare, I'll put it out there.
+I have to try, yes, I have to try Cloudflare, Yeah, Cloudflare, try it out with one of your AIs, because, I mean, it's almost instantaneous, other than DNS interaction, I can just tell it, go create the site, and it goes right up.
+Post creates it, posts a site, puts an SSL on it. I mean, it's great. mean, I got multiple stuff out there, so it's just something to look at.
+Okay, okay, we'll try. Thank you so much for doing the translation. Really appreciate it. And I am wearing a t-shirt, okay?
+@1:14:12
+-
+Rashad Khan
+Now I am his last man in the Russian.
+@1:14:14
+-
+Pierpaolo Villano
+Thank you. I'm gonna be checking that out. That's cool. Okay, good.
+@1:14:30
+-
+John Mackenzie
+So the other thing I've been working on, guys, is that I've just connected something up to my website that I haven't been doing much with at the moment, but I'm just about to push out to the marketplace.
+It's already in the marketplace, but I'll just... So my JMAC learning website, which you can see here, right, so I'm a certified trainer in a bunch of different stuff in Australia, but also globally.
+So I'm a certified ISO trainer for artificial intelligence, for risk, and also for information technology. So ISO 27000, ISO 31000, ISO 42000.
+I'm not only trained in it, but I'm a certified trainer. So what I've worked with is developed a partnership program with a training company that's developed all the methodologies, the one that I actually did my training with, and now I'm using 44 of their certifications.
+I'm certified that's the ISO 3, I that I'm selling, including all the ISO, including all the artificial intelligence, so I just saw that that's dropped, so I'm able to then take on board students who want to become information, like ISO 27001 accredited or qualified, anyone who wants to become cyber, because that ISO 27001 is all the cyber stuff, ISO 31000 is the risk, and then ISO 42000 is AI, so I can train people to become certified in those domains, so I've just built this onto my website, where I'm now showing that I can train anyone globally across these 44 certificates, and there might be like 15 different ISO certificates.
+These ISO certificates are globally recognised. This company that I'm partnering with delivers through 1,500 academies and universities globally. They've delivered over 2 million professional certificates.
+I personally hold 88 qualifications and certificates, and I have taught over 2,000 students.
+@1:17:20
+-
+Pierpaolo Villano
+I've coached over 750 university interns, and I'm an Australian government-certified trainer and an ISO globally-certified trainer.
+@1:17:30
+-
+John Mackenzie
+So I've now got all this built into my website, and I'm now pushing that out into the marketplace because I've had it for ages, but I just never put it into the point where I built it out, but now I've just built it out.
+That's pretty cool.
+@1:17:50
+-
+Pierpaolo Villano
+Yeah, man. Wow. That's another... What of product you can sell for your digital nomad business?
+@1:17:55
+-
+Patrick Thomas
+Well, yeah, like everyone, everyone in the AI world, all the AI vibe coders, they're all saying, hey, you know, I'm doing AI vibe code, but why wouldn't you get certified as an ISO 42,000 qualification?
+@1:18:07
+-
+John Mackenzie
+So when, if you ever enter the corporate world, you've got your AI vibe code experience, but you've also got the ISO 42,000 experience, you know, with the four certificates there that take you a pathway to being, you have the, you have the qualification that is recognized if you're going to do that work.
+I'm just going to get any cybersecurity stuff coming through my company.
+@1:18:32
+-
+Patrick Thomas
+I'm just going to phone it out to you.
+@1:18:36
+-
+John Mackenzie
+Yeah, so like, there's a reason why I'm able to do so much work so fast, because, you know, like, my, my qualification list is a stupid number of qualifications.
+And, well. And of that, I'm able to – I just saw it drop again, but that's okay because it doesn't matter.
+It's already shown. All I'm doing is sharing or building stuff, the things I've already done, right? So I've already studied all these ISO qualifications.
+So when I'm building something, it's like so easy for me because I've already studied it. I've already applied it in the professional world.
+And all I'm doing is now building like an AI – using AI inference to build something fast. I check it through my knowledge base, my study base, and then I ship.
+And now because I've got huge volumes of AI because I've built the systems for it, you know, I can now do those things fast.
+The reason I can do those things fast is because I've studied for a decade or two that's got me to the point of a skill and knowledge base that allows me to leverage it at AI and machine speed.
+Yeah. Yeah.
+@1:19:52
+-
+Patrick Thomas
+You know, what I've done, you know, because I had, you know, before I got pulled into this, you know, where I'm working as a, you know, with my, with the family on the software company, and I was doing all my IT stuff.
+I knew what I did well, and what I did well, I did well, but this, like, if I had other needs, like, I'll give you a, for instance, like, like cabling, dude, I mean, I just, I could do it, but I just, not my thing.
+So I would just, I would just partner with somebody that was a good cabler, and just, and I would sell his services and just mark it up a little bit, and then I could provide that service as well.
+You know what I mean? So that way you don't have to be a master of everything. No, so, like, to give an example, and that's exactly right.
+@1:20:42
+-
+Pierpaolo Villano
+So, like, I'm, I'm developing systems, right, that I can partner with people.
+@1:20:50
+-
+John Mackenzie
+So, you know, someone. comes in and says, hey, you know, I've got a school, and the school wants to learn language, and they want to learn language at a faster level, and I've developed a platform that I can partner with people.
+They go sell it. They get a forever commission across the top as a, you know, that continued commission. I can do the same with, like, learning, like ISO accreditation.
+Someone wants to learn ISO in AI ISO or information technology ISO or RISC ISO. So they pay it, they get qualified, I get paid, and the introducer gets paid.
+So I'm able to scale systems. Yeah. Pierpaolo has a question.
+@1:21:34
+-
+Patrick Thomas
+Yes, yes. I have one question about your token server.
+@1:21:42
+-
+Pierpaolo Villano
+Okay. I saw this project in comments. Another user has linked it today. I want to know, John, what is the main difference about your product and this typology of token saver?
+So this I searched with my AI, let me refund 15, 20 token in percentuale. But what is the main difference?
+One sec, let me have a look. Here's the other one that we were talking about right before you got on.
+@1:22:38
+-
+Patrick Thomas
+Somebody mentioned Grafted. Yeah. There's a YouTube link for that.
+@1:22:42
+-
+John Mackenzie
+I don't know. I'll just put it in there for you. So I'll just show you something, guys.
+@1:22:46
+-
+Patrick Thomas
+You're asking me a question. You've just asked me the question. So I haven't had any time to process except...
+@1:22:51
+-
+John Mackenzie
+If to my ClaudeCode, guess what, ClaudeCode, I've already asked, what do these two GitHubs do to my current methods versus my current methods, all generations up to 3.17 for ClaudeCode, Codex, and Grok.
+I've already asked 42 minutes ago what you've just asked because I'm… That's good. I like that. Any time someone comes up with something and anything in these things, the first thing that I do is like, how does that compare?
+How does that stack? Is that additive? Is it a multiplicity? Is it a layer on what every single time someone mentions one thing about a token saving, whether it be a method, whether it be a process, whether it be a GitHub, whether it be a YouTuber, whether it be a brilliant mind, I've…
+been doing this for three months. Every single person for three months that has said anything about any of those things, I did exactly what I just showed you.
+Yeah. I need to go back and read that. Now, what I'll find is there'll be gaps, there'll be similarities.
+I'll strip the similarities out. I'll look for the white space, find out what they know that I don't know.
+The question I then ask is, tell me what this GitHub and that GitHub does that I don't do. Tell me what I know that they don't do.
+Give me the diff. Give me the comparison. Tell me where the white space is. Where's the opportunity? And then I build out version 3.2 and 3.21.
+And I've been running that same process like that with whatever else I've found for months. And that is why my pure savings is better than everyone else's.
+Because I had found like a bunch of stuff that others haven't found. same Thank But more importantly, I have scraped and continue to scrape every other method, every other process that I hear, I see, I then do that same process to make mine better.
+So, Pierpaolo, give me 24 hours, by the time we catch up later on tonight, I'll know the answer to what you just asked, I've already got the answer, I need to read it, right, so I understand the difference in that.
+But I have done the same with every method that's been discussed for the last three months. Some of that stuff that they've done, that they're doing, they're saying is working, doesn't work.
+I have found stuff that some people say, it's like a 70% savings over 5% cap. Don't get me wrong.
+That's good. You want it, but it's not the whole story, right? And then they sell, oh, get up to 70% of the savings.
+No, it's not the story. It's one component of a complex universe of things you need to consider. That's like saying Earth is the only planet in the universe.
+We know 90% about Earth. That means we know 90% of the universe. That's what they're saying. It's not true, right?
+A lot of people, a lot of the experts out there, that's their whole claim to fame. And I look at it and go, true, true.
+Hey, John, you know what you said to me about, we were talking about bot, I'll just show you real quick, because I do the same thing.
+And when I hear something, I'm like, oh, yeah, let's check that out.
+@1:26:54
+-
+Patrick Thomas
+So I did this in the new chat. I said, I want you to write verbiage for my grandpa, chief of staff who can understand, create a script, and restore my VPS apps and settings just in case my VPS gets rebooted for any reason because the VPS is running a sandbox.
+It makes sense. This is the easiest way to recover, have the chief of staff create a private github, save it or whatever it needs to save in order to easily recreate my environment.
+Use your own reasoning and better understanding of the scenario to write the handoff. And look what it did, dude.
+Look at this handoff. And I just copied and pasted that.
+@1:27:33
+-
+Rashad Khan
+I copied and pasted that right into my, into bot.
+@1:27:39
+-
+Patrick Thomas
+And it's going to do it. How easy was that, right? Now you know the next time it happens, right, your best.
+@1:27:51
+-
+John Mackenzie
+That of your VPS can be spun up in the time it needs to spin it up. You don't need to do anything to help it get back to where it was.
+It's just easy. Yeah, and I just tell it, hey, just restore my environment. I should put that in there.
+I think I just tell and put in there, restore my environment, and it'll know what to do. Guys, I'm building something which I'm not going to tell on top of the AI engineering operating system that is going to blow your mind away.
+I'm ready, man. I'm ready to test that Cloud Code token.
+@1:28:32
+-
+Patrick Thomas
+So I'm not just going to give you, I'm not just going to give you the capacity to save tokens.
+@1:28:41
+-
+John Mackenzie
+I'm going to give you the capacity, potentially, as the system grows, to convert that into money. Oh, that's interesting.
+That's good. I like money.
+@1:28:59
+-
+Pierpaolo Villano
+And because we're all at the early stage of what I'm building right, it means that it's in song.
+@1:29:08
+-
+John Mackenzie
+I've got to clear out my project decks before I can build that evolution. I've got to get it in working because that's the step two or step three of AI engineering system, right?
+But what it does is it uses two or three or four other of my systems to then say, you've now got these three systems put together, right?
+How do we make money with this? And it then allows you to make money, right? I'm trying to figure out what the multiples of that money is going to be.
+I'm trying to figure out what my engine will, what share my engine will take as a... You know, as a participant layer, I'm still figuring that out, but it's very, very interesting.
+Yeah. I had my AI go and look at my website, you know, and it knows what our product is.
+And I said, go and look at this and evaluate it, compare it to my competitors, and what else can I do here to make more money?
+You know, what other products? And it gave me like five or six suggestions, which, you know, I had a couple of them, but I mean, just stuff you could write, you know, as like helpers to the original program, you know, like the estimated program came up with like four or five things you could sell as like add ons.
+@1:30:41
+-
+Patrick Thomas
+I'm like, yeah, that's great. So there's a lot of power in this, in this platform. So. Absolutely. Thank you.
+@1:31:00
+-
+Pierpaolo Villano
+Today I used Astralight to play a video game.
+@1:31:12
+-
+Patrick Thomas
+To play or to actually go in there and play it as an actual player?
+@1:31:21
+-
+Pierpaolo Villano
+Yes, I played, I tell to John, I like to play the mad, the textual mad, with character creation, statistics, skills, in the medieval world, okay?
+Right, right. So, this game has a browser, it's a browser game, you can play with a browser game in a Chrome.
+So I opened the codex and I put the link of the website, so I joined the world with my credential, whose name and password, and I told Astra, okay, I am a warrior in this world, so go in the city, buy stuff, talk to people, buy merchant, that's awesome, that's awesome, go get me, go get me resources, yeah, yeah, yes, yes, and I tell it to my friend, I look at, I registered a video, I sent to my friend, and they tell me, wow, what is it, and this bot stay in the city, and one,
+One Windows Play, and another Windows Codex describe the world, okay, that's a fountain, now I want to think about this fountain, I want to buy some food because my stamina is very low, and the interaction with the world is very rarely, he thinks about what I have to do in this world, and tell me some questions about the background, what, or something, it's very interesting, you can watch, you can watch the AI's reasoning when it's in the world, yes, exactly, and you can stop, I tell, I tell Astra, just five, you can play just five minutes, because I don't want to waste the token, yeah, right, I bet it did pretty amazing within five minutes, yeah, that's it.
+And as I still playing and try to improve all commands, all background, all ambient, and did well the first five minutes, but I want to think how to use for learning how an agent think in a world, in a fantasy world, because now I put in a fantasy world, but from now to five years, it's not the fantasy world, it's the real world.
+We're putting an agent in the real world. If we know how the agent, how the harness think, we can improve with the AI.
+Yeah, I agree. They got a bunch of AIs like doing stock market stuff, you know.
+@1:34:51
+-
+Patrick Thomas
+Like learning how to trade stocks, I don't know if I trust that, but yeah, you could have it monitor, yeah, maybe just have it monitoring and learn this, yeah, just send it out there, learn the stock market, you know.
+@1:35:10
+-
+Pierpaolo Villano
+Yes, but I think, I play video game, okay, YouTube, Patrick, I know, but we know video game, okay, so I want to tell you, we know about the world of the video game, I think we need a trader who will know the world of the trading, putting Astra in the trading and helping Astra to improve.
+@1:35:43
+-
+Patrick Thomas
+So like get like the bios like on the top five stock traders of all time, stick that in the AI.
+and tell it to go monitor it and face your decisions I mean and do like mock mock trades so you're not spending your money that'd be interesting to do yes to see how it does you know yeah that that would be very interesting yes all right john you got you got lots of tokens man i'm putting you were putting you on that job yeah you don't think about this john with your system um so a very large token a very amount of token for learning trading a very every day very hour very minutes for improve this AI to improving the world of trading
+@1:36:51
+-
+John Mackenzie
+No, you have to repeat it. I'm writing something because I'm just capturing the thought and I'm going to I'm going to one shot a build.
+So, uh, but go again. Oh, okay. Sorry.
+@1:37:06
+-
+Pierpaolo Villano
+Um, you haven't think about, uh, use your tokens for improving an AI to trading. To trading. Um, look, I've seen a few people do it and not, I think they're smarter people than me in that, in that space.
+@1:37:27
+-
+John Mackenzie
+So, um, I would have been more, there's some people that's done some amazing stuff and I would have done some things slightly different to what they've done.
+But, um, well, the, the thing is knowing what I now know, with the tools that I've now got, with the systems that I've now built, could I do something like that?
+And I think, I haven't thought about it, but, um, I'm going to put that – it's absolutely going to be a backburner project.
+So what I'm going to do – what I'm going to do – Yeah, that might be interesting. I'm definitely going to – I'm going to commit that I'm going to build a trading platform.
+I'm going to build a trading platform.
+@1:38:19
+-
+Patrick Thomas
+And then I'm going to – I know others have done it, right? Yeah. And because some of them have done an amazing job of it.
+@1:38:28
+-
+John Mackenzie
+And I'm saying that they're far better than what I would be in doing that, I imagine. But I guess you don't have to be the best.
+You've just got to be making enough. So I – Yeah. Can you get script – get the top 20 or top 100 websites of the people that do that and have your thing scrape it for all its information?
+Yeah, because I've got a bunch of processes that I talk about and others that I don't. And if I map that into a trading platform and then run a mock trading system across the top of it to prove it out, and then once that's done, once I've got that to a point I'm happy with, because I could be doing this for it, once I've got that, then I drop $100 into it and then get it to trade that out autonomously.
+I should have already been doing this, but look, I probably never had the skills at least until, what, 45 days ago, but I've probably had the skills I could have done at any time in the last 30, but it just hasn't been high enough on my radar.
+But right now, could I build that as a side project and then test it out? There's some interesting things that I know I've got to go away and do, never done before, but that's okay because it can be done, right?
+And then it's an interesting project for me, so I'm ready and I want to build that, so I'm going to build that.
+And if I map that into a trading platform and then run a mock trading system across the top of it to prove it out, and then once that's done, once I've got that to a point I'm happy with, because I could be doing this for it, once I've got that, then I drop $100 into it and then get it to trade that out autonomously.
+I should have already been doing this, but look, I probably never had the skills at least until, what, 45 days ago, but I've probably had the skills I could have done at any time in the last 30, but it just hasn't been high enough on my radar.
+But right now, could I build that as a side project and then test it out? There's some interesting things that I know I've got to go away and do, never done before, but that's okay because it can be done, right?
+And then it's an interesting project for me, so I'm ready and I want to build that, so I'm going to build that.
+Sometime in the next 30 days, a trading platform that is going to firstly prove itself, and then once it's done that, I'm going to drop $100 into it, and then once I've got that sort of proving its way, I will get some other people to beta test the same thing, right?
+And then once it's done that, yeah, it's going to be an interesting project.
+@1:41:27
+-
+Pierpaolo Villano
+You've definitely got my interest on that. And I've seen a few things hit my radar. I saw a few people like going back a couple of months ago.
+There was a guy that came in a couple of months ago. He had an awesome system, right? And if I, for instance, if I worked with him to make his project even better, I know what I'd do to build it even better than what he's got at the moment.
+@1:41:48
+-
+Patrick Thomas
+And I also know what I'd do to scale the... So what I'm going to do, he knows something I don't know because he's built it.
+Oh, no, no, no, no, no. I've got some ideas. I've got some ideas. I think that's the right moment because now there's more people doing this, but later a lot of people are doing stuff like this.
+@1:42:27
+-
+John Mackenzie
+and the AI start to compete with the AI, other AI, but now it's very early and the market is not faked by AI.
+Not, I think about, not in this moment. But later... That'd be fun, that'd be fun to do. I've got a like a Schwab account with like $1,000 in it and it's like got like two things that it's not doing anything so if I can get my AI to I don't know if I would do that with bot or because it'd have to be able to log in and do the purchasing so I'd probably have to use I mean I'm sure you can figure out a way of not using bot but I couldn't so I would have to have like bot log in as me and do the actual trading.
+But that's the thing those trades got to happen fast too. Oh, yeah, yeah. So I don't know if you can do trading from a command line or you know.
+I don't know. All that stuff's easy to solve. So there's nothing in the general thought process around that that I go that it's hard.
+It's just the stuff I don't know, right? And I reckon that I can figure that out. So. You've given me something that I'm smiling because I know it's whatever, I know what that pathway is going to look like.
+It's going to be hard because things in it I know is incredibly difficult, right? And I'm smiling because that makes me happy because I want to go do them, right?
+@1:44:15
+-
+Pierpaolo Villano
+You're making me smile, not because it's easy, right? Because it's hard.
+@1:44:20
+-
+Patrick Thomas
+Not even because it's going to make money, but you're making me smile because I know that some of the stuff in there, it's so difficult, so hard, but I'm already figuring, my mind's processing like on five different rails, chains of thought at the moment on how I'm going to solve each one of them.
+@1:44:37
+-
+Pierpaolo Villano
+And I've basically thought about how the resolution on each one of them already, I've figured that out already just in the conversation that we've had so far.
+And that is is it. Super-sonically interesting to me. So I'm, I'm going to go away and have a crack at that.
+@1:45:02
+-
+John Mackenzie
+We're never getting our token saver, man. We were never getting it.
+@1:45:08
+-
+Patrick Thomas
+Patrick, tomorrow John dropped the website. Yeah, he's gonna, he's gonna show us the website tomorrow. Hey, I got, I got my $20 quad account, man.
+I'm going to try. I could probably do more if I had my token saver, but I'm going to, I'm going to give it a crack.
+mean, just why not, right? I'll just, I won't run it on Astro because I'll be out of tokens in two seconds.
+20 dollar account and, um, a login in the trade, um, in the trade website for tomorrow. Yeah. Right. Yeah.
+We'll just give it a shot. So, you know, give it a limit. You got a hundred bucks or 200 bucks, you know, go buy.
+@1:45:52
+-
+John Mackenzie
+very very good yeah yeah it'll be fun to do we could compare notes yes very very keen on on this yeah i mean you could do it with the stock market you could do it with bitcoin yeah yeah although i don't know i don't know i've stayed away from bitcoin i just got my free five dollars it wasn't bitcoin it was crypto i got my free five dollars at the football game and it made like 20 bucks over 25 bucks so i mean with a five dollar free investment it went to 25 dollars in like five years but there's a lot of people that lost a ton of money with bitcoin too yeah yeah well see bitcoin's like in reality
+Bitcoin is the – like, it's a Ponzi scheme in the sense that it has no value, right? So there's no material value that sits with a Bitcoin except what one person sees versus another person.
+Now, that being said, that is many things in society. So – but the reality is nothing supports the value of its underpinning value, right, except for the – and someone will say, oh, but, you know, the beauty of Bitcoin or whatever is that there's only so many of them.
+Yeah, but you can split that so many things – like, you can split one Bitcoin a billion times. So because you can split it to – you know, because some people have 0.00001 of a Bitcoin, right?
+Does that mean that there's a finite amount of Bitcoins now? No, there's an infinite amount of bitcoins because as soon as it's divisible by itself, that's like stock splitting, you know, to the nth degree.
+Even though there's only so many stock shares of a stock, if they keep splitting it and splitting it and splitting it and splitting it, it ends up becoming an infinite amount of shares.
+It's only how many is there at that given time. So if you only can buy, say, bitcoins to the fourth decimal place today, but they change that to the seventh decimal place tomorrow, there's now more bitcoins, right?
+So for me, that's just like diluting stocks. Yeah, it's diluting, right? So it has to dilute because the top line value of one bitcoin goes higher.
+And that's all what a stock split does. Now, when you look at it on the sense that, okay, what's the benefit of, you know, it's a distributed ledger.
+Yes, fair enough. But... But...
+@1:48:51
+-
+Patrick Thomas
+What I see is it's going to have infinitely more benefit because there's going to be more corruption, there's going to be more sanctions, there's going to be more mechanisms that people want to do, trades that's not seen from the traditional mechanisms, right?
+So the value is not in the limited bitcoins. The value is in that there's always going to be people that want to move money, both good and bad reasons, that no one can ever see.
+So, of course, the value is going to keep going up because it's, but it's not for the reasons what everyone says, it's the reasons because there's going to be more hackers, there's going to be more gambling houses and prostitution and child  and all the bad stuff as well.
+They're all going to have more infinite needs in the future. That means that there's going to be more demand on a distributed ledger that no one can see.
+That's my view. John, I've got to show you something. I'll show you. I think I've I've this before, but this was one of my first projects, and I'll show this to you, and it's not complicated or anything, but it's, can you see that, it's called, it's called the Congress Tracker, so what it does is they, because it's public, you know, you can say the House or the Senate are all of Congress, these, and you can do a fetch and a refresh and run all, but these are what the people, you know, the, the politicians are buying, what they're buying and selling.
+@1:50:25
+-
+John Mackenzie
+So, you know, and they have, like, insider track, you know, and then it just, this shows, I have SpaceX, so I put SpaceX up there, but see, these are, these are my other two accounts, I just, it's ET and Verizon, there's like a thousand dollars in there, so I was thinking about, you know, letting it run with that, you know, this I'm just going to sit on, but, yeah.
+So that's like one of the very first things I did, and it kind of does a deep dive on different stuff, but, you know, SpaceX, you can see, so Microsoft, NVIDIA, Meta, and SpaceX are the top four, but anyways, I just wanted to show you that, just throw another idea out there for you.
+@1:51:09
+-
+Patrick Thomas
+Yeah, no, I've got something around that, because I saw it like a long time ago, that there's a reasonable degree of predictability based on people that know something where they, it's inside of trading.
+Yeah, right, yeah, they know it's going to go up and down, so if they're buying it, you buy it.
+Yeah, and like they know enough people are watching them as well, so if enough people watch them, that in itself is market manipulation.
+Because if everyone watches Elon Musk and Warren Buffett, and Warren Buffett buys, and if Warren Buffett buys something and then he makes a statement or it becomes public view because of his shareholding being the size in a public company.
+@1:51:51
+-
+John Mackenzie
+And then everyone sees that, then everyone else buys it because Warren Buffett knows something. Yeah, exactly. So, you know, there's a lot of interesting views on how you might slice that.
+@1:52:07
+-
+Pierpaolo Villano
+Yeah, see, if you kind of have an AI reviewing all of that and basing its decision or recommendation based on, you know, what people are, you know, especially the insider people or politicians, whatever they're buying or the people that, you know, own a lot of stock in public companies, you can put all that into your algorithm, you know, then, then the, uh, throw in the bios from the top, whatever, the top 10 people that have done fantastic in the stock market, you throw all that in there, you know, why not?
+And you can. Test it, like you say, test it on a small account. If it works, if you can make, you can make 5%, 10% on your money every time and you're not losing money, better than the banking system, right?
+That's the part of interesting me.
+@1:53:21
+-
+Patrick Thomas
+It's know how AI will do some stuff in trading and learning about what he do. And I think with a good mind, you can check and correct some stuff.
+Fathom, what? He is doing bad.
+@1:54:14
+-
+Pierpaolo Villano
+Well, we've got lots of stuff to think about, man. You're killing me. I don't need more ideas. Well, I'm going to be checking out your website that you posted.
+Which one's that one? I just don't want to mention it. It's Pierpaolo.
+@1:54:37
+-
+John Mackenzie
+Am I saying that right? Repeat, please. Yeah.
+@1:54:46
+-
+Pierpaolo Villano
+How do you pronounce your name? What do you like to be called? Pierpaolo. It's more simple. Paolo. Okay. So yeah, I got your website I'm going to look at that's all in English now.
+Okay. I'm going to have my Grokbot create my DPS recovery plan and I'm going to just throw a couple ideas into Claude.
+Yeah. My $20 account.
+@1:55:14
+-
+Patrick Thomas
+Yeah. In the second place, in the blog, I started YouTube videos.
+@1:55:21
+-
+Pierpaolo Villano
+Yes. But for now, it's in Italy.
+@1:55:25
+-
+John Mackenzie
+And I will try to do like Goldie, Avatar. Yeah. Oh, that's cool, man. That's cool.
+@1:55:34
+-
+Pierpaolo Villano
+So every minute, I stay with you and Goldie to push your notification. Yeah. I see they joined the community.
+Did you create your own community? Yes. Yes. I'm, I'm, I'm, I'm, I'm. I'm creating a community. Yesterday we talked with Kevin and he thinking about this system with the VPS, so much hardness.
+And I think it's interesting to help people to do some stuff like this. I think about a caesar, okay, in my telephone.
+My telephone. So I tell to Caesar, okay, move my bot.
+@1:56:29
+-
+Patrick Thomas
+My bot is my official, my lieutenant. Okay, move this lieutenant to create more content. So I need another general.
+So Caesar took another general to write this blog.
+@1:56:51
+-
+Pierpaolo Villano
+So I have five harness with one command and they tell me some stuff to do in every moment of the day.
+Is just something you created or are you using Grokbot to create that? Some and some, some and some. Okay.
+Grokbot helped me to do some stuff and other stuff I'm doing myself with Hermes. With Hermes. With Hermes? Okay.
+Hermes Agent. with Hermes. Yeah. Because I think John, John the one that showed us that even the, even the bots in Hermes Agent kind of looked the same as Grokbot.
+They're very similar. Yes, very similar. Yes. But, but I'm trying to using Grokbot for specific automation.
+@1:57:50
+-
+John Mackenzie
+Okay. Bye. Bye. back.
+@1:57:51
+-
+Patrick Thomas
+So, like, if I need automation, a bot automation, Grokbot is very, very helpful, he's doing stuff very, very quickly, but if I need some content, or if I need some medias, Hermes, it's really good on this, because, I think, I think, because Hermes is synced with my obsidian, and Hermes knows better me than Grokbot, so I can tell Hermes I need an automation, tell me an automation, and with this prompting, I tell Grok, create this automation, and Grok, in one click, doing the stuff.
+@1:58:42
+-
+Pierpaolo Villano
+Okay, so you're, you're having, you're, you're having, like, you're taking the conversations from Hermes and throwing over to Grokbot and back.
+Yes! Yes! Yes! So Hermes is what, is that like, is that just a connection or like, what do you call that?
+Is that like a hook or a, it's a thing that sits on top of an LLM? Yes, Hermes is on my VPS and used with Telegram or I'm doing with my mission control, I'm putting Hermes in my mission control.
+Okay, that's the thing you created, but like the Julian, yeah, yeah, Julian thing, yeah. Okay, I didn't know if Hermes is, is Hermes something you got paid for too?
+No, I didn't pay the Hermes. Hermes is free? Yes. Okay. And the, the particularly of Hermes, he, he doing a good stuff to rematch.
+To remember what I'm doing. So I have to tell Hermes one time what I want. The next time Hermes is doing the thing I tell the first time.
+So I don't have to tell something two times.
+@2:00:11
+-
+Patrick Thomas
+He knows what I want. And if Hermes is doing bad stuff, I tell Hermes, no, I don't want this type of stuff.
+Correct this prompting. And the next time he will do the job of my world. The website, the 3D website, it's created by the Gemini.
+Not a very good model for creating a website. Okay. But I think, I think the quality was doing by Hermes because Hermes knows my world.
+No, I want a solution. For body, mind, and system.
+@2:00:55
+-
+Pierpaolo Villano
+Irma is doing some research on me, tell to Gemini what I think is better for me, and Gemini is doing the stuff.
+Okay. Yeah, I see that it's in there, because I didn't go that far with the agent OS, I actually used his zip file and had my, I had GrokBuild create it.
+And then I, and I took out, and I can probably put that back because he had Claude in there.
+I switched mine out with like GrokBuild and Muse, but I see Hermes, but I don't know, mine, it seems to run slow, the whole agent OS on my system, but I'm not sure.
+It's probably just the way it's configured. So you're actually using the agent OS? No, no. Oh, you're not, you created your own.
+Yes, I created a screen of AgentOS, I zipped the AgentOS in IRMES, and they tell to IRMES, I want some stuff like this, but not the copy, because I don't like add some stuff goldy, putting, put it in.
+Doing the stuff similar, but it's similar for me, and they want, you know, you know me, IRMES, doing the stuff what I want, and IRMES doing the mission control.
+So I want to show you the upgrade of my mission control, wait a moment. Let me see that. Okay, on DVD.
+Okay, now, do you see? Do you see the screen? Yeah, I see it. Okay, that's now in English, but that's my mission control.
+I have DeepSec harness on it, the VPS cursor synced with my Obsidian and PC, blog, the 3D website, the memory on the VPS, because the harnesses to remember what they are doing.
+And when an harnesses write on my VPS, tell other harnesses what they are doing. The Gemini notebook, and I have all the quota of my harness.
+OpenCodeGo, it's okay, done. GLM, I have 5 hours. have... problem very much. And I have 48 tokens to use.
+Codex 42, Climepass 29, 65, Supergrok is reset one hour ago, Gemini, and here I can talk to Grok with my local host.
+@2:04:25
+-
+John Mackenzie
+And I sent to Grok, I sent to Grok, okay, I want to know what they are doing in my Gmail.
+@2:04:36
+-
+Patrick Thomas
+So Zeus review myself in my Airbnb, Riccardo give me five stars. Okay, I've had five people, 25 dollars. Okay, and that's the telemetry of the VPS, if it's okay, some other stuff, but I need to clean, my scale, I have VPS, the laptop with HOMACHI, now it's offline, then Samsung, all the Klee installed, the memory, and...
+Is that the cursor, is that the Grokbot VPS you're talking about? Yes, yes. Yeah, you should write that script, I don't know if you've got anything installed out there, but anything that you told it to do, if it reboots, you should probably do that script like we were talking about.
+@2:05:35
+-
+Pierpaolo Villano
+That's what I was showing you, because if your VPS gets rebooted, you'll lose anything you've installed. Okay, repeat, please.
+Okay, your VPS is a sandbox environment.
+@2:05:50
+-
+John Mackenzie
+Okay. I'll you. Okay.
+@2:05:51
+-
+Patrick Thomas
+So if you have, like, a sandbox environment, you could, like, do test installation, you could do all kinds of installs and everything, and then if you, the benefit of a sandbox is when you reboot it, you get a fresh machine back to whatever its default is.
+@2:06:07
+-
+John Mackenzie
+So that's what John and I were talking about earlier, because, like, for instance, on mine, I had it installed a browser, the Edge browser, you know, rather than Chrome.
+@2:06:18
+-
+Patrick Thomas
+Because when I was giving it automation to do, I had all, like, my, all my passwords and stuff that were saved were saved in Edge, but not Chrome.
+So I told it to use the Edge browser, but if for any reason it gets rebooted, the Edge won't be there anymore.
+So even if they do an update where they have to do an install, so that's, I don't know, what's the, yeah, so you would just give your, you know, tell your
+If to create something like what I was showing, I'll show it to you again so you can see it.
+That was in chat, wasn't it? Let me close this. Okay.
+@2:07:24
+-
+John Mackenzie
+I can't figure out how to get back to where it was. Oh, creating a VPS. Okay, here we go.
+@2:07:29
+-
+Patrick Thomas
+So you want to do this however you want to do it on yours. See, I came up here and I said, write verbiage that I can send off to Grokbot to chief of staff.
+So I want to be able to... ...是基本的地方. So, you know, I don't bundle it up in my own words to create a script that can restore my VPS apps and settings just in case the VPS gets rebooted because it's running in a sandbox, you know, have it use a private git or whatever it needs to to restore itself and look at this handoff and it just gives me, it just gives me the billing and I just copied and pasted into my bot.
+Okay. Yeah, pasted it right in there and it says, got it, base run, ready to go, geek, GitHub repo, all this stuff.
+And then it asked me because I have a couple of VPSs, I said, your machine in particular, scoping it out and then handing it off to this guy over here, Dustin, who's Dustin right here, and playing language, it's going to do, because it's a Debian Docker sandbox, I guess, that's what Brockbite is, in a normal group.
+The platform brings it back, run BoxDoctor, don't reinstall stuff. So when it reboots, I just run BoxDoctor, and it's going to fix it.
+Uh-huh. So since I noticed you have a bunch of things connected to your custom agent OS that's connected to the VPS, I don't know if you had to put anything out there on the VPS to monitor, you know, so to hand it back to your agent.
+But if it is, then it gets rebooted, it'll be gone.
+@2:09:27
+-
+Pierpaolo Villano
+Okay, okay. Does that make sense? Yes. Okay.
+@2:09:32
+-
+Patrick Thomas
+But why the VPS can be rebooted?
+@2:09:38
+-
+Pierpaolo Villano
+Even if they do like a major upgrade or something like that, they're gonna take the VPS down and just restart it.
+Ah, okay. Yeah, and you could tell...
+@2:09:51
+-
+Patrick Thomas
+you could actually tell your body to reboot my VPS, if you reboot it, you lose everything, so you have to have that recovery, so anything that you've done in like, because I've been working in this thing for what, a month probably, close to a month, so anything that's been written to that sandbox VPS is going to be lost unless I have a way to recover it.
+@2:10:20
+-
+Pierpaolo Villano
+Okay, just for, for understanding, I just have to put this prompt in my grokbot? Yeah.
+@2:10:28
+-
+John Mackenzie
+Okay. Yeah, just, I mean, I can. Can you write in the chat, please? Yeah, can put what, yeah, let me just, I can put what I told it, I mean, and it's, it's not that great, but I can put what I told it, and I put this, I put this in the chat GP.
+Yes, Astra, yeah, here you go. That's what I put in there. John, I can see the gears turning in your head right now.
+What are you doing? When John's quiet, it's like, oh, no, he's up to something. I'm looking at solving a very easy problem that we've spoken about previously.
+No one's done anything about it. So I've circled back to it because I've got a problem. Because I've got a problem, I want to solve it.
+@2:11:37
+-
+Patrick Thomas
+And I think I can fix it. I can do it. I can fix it. I can spin it up and have it operationally very quickly, solve my problem, put it in flight.
+That makes one of my things a lot easier in my life. And tonight I'm going to show you what it is.
+It's going to be – I'm going to try – I've got like six – I've got eight and a half hours to put this thing into flight and get it working, right, to solve my problem, and then with this one, I'm going to open source it.
+I'm not even going to try and make any money on it. I'm just going to open source it. I rarely talk about open sourcing.
+Yeah. By the way, I've got my – I've got Codex working on the trading app. So that's already in flight.
+It's already underway, the research anyway. Yeah. I'm thinking about – I wonder if I should put this handoff that I got from chat into the, like, AI Profit boardroom for anybody that's running graph bots.
+I bet they have – I bet they have I bet they have no idea. No, that's gone. That that's running in a VPS.
+Okay, I'm just going to tell it. I'll just tell it. I want you to create a Profit Boardroom post based on what we just talked about as based on recovering your VPS, recovering your VPS.
+I'm just going to put sandbox VPS. We're in the right place.
+@2:15:13
+-
+Tom Torok
+Okay, so we're going to just regroup for the evening session and come up with, see what we come up with, or do we have anything else to talk about?
+@2:15:22
+-
+Keith Obrosky
+No, I think I might drop so I can do some work. All right, well, we'll see you guys at 4.30, 4.30 California time, I don't know, how many hours is that?
+Six hours. You've got six hours. All right, we'll see you guys. Okay, ciao, bye. All right, ciao. We'll see you.
+@2:15:46
+-
+Patrick Thomas
+I'm in California, so it's, yeah, it's six hours. Oh, no, it's longer than that. It's 8 o'clock here, and it's at 4.30, so that's eight hours, actually.
+@2:16:03
+-
+Keith Obrosky
+Keith, you're kind of blinking in and out. Okay, bye-bye, bye-bye. Bye-bye. Oops, I was muted. I don't know why things are blinking in and out.
+I guess I'll see you at the, what is it, this evening spark session.
+@2:16:40
+-
+Patrick Thomas
+Keith, you still there? Yeah, I'm here. Oh, okay. I didn't know. I don't know why it's blinking. I've seen things blinking, but I don't know why.
+Yeah, you're okay now. I see, like, a note too. because I think it's been more than two hours. yeah, I'm seeing Tom's blinking now.
+I've got things blinking in and out on my screen, but I'm not blinking in and out. And you're not blinking in and out.
+It's only, it looks like it's, yeah, I don't know. Did you catch a lot of that stuff we were talking about?
+I didn't see you. I did. I did. And I'm going to look for, you know, when Rick posts it, I want to review this one.
+@2:17:21
+-
+Keith Obrosky
+This, but there's a lot of good information. Well, always is, but.
+@2:17:24
+-
+Patrick Thomas
+Yeah. Some things to think about. I don't know if John's still here. Someday I'd just like to sit with him and get his thinking process.
+Yeah. Yeah. No, he dropped. He said he's going to be back. We got him going on another project. Yeah.
+can see it. Will he ever commercial on. Yeah, that's what I told them, I go, man, you got to get what you have to get it, get it going.
+I put that patent, that patent quote in there. I'm like, come on, dude, let's go. A good plan executed violently today is better than a perfect plan in two weeks.
+Because there's a lot of terms we do. Yeah, we call them minimum, minimum viable products for a reason. You can put out the minimum and then you always can embellish it later on.
+Yeah, right. That's they do with software. Yeah, if you're coming out with something that's already at 90% token savings, I mean, you ain't got much room to go.
+But if you get it out there when it's saving people 50% and then you, and then you give them that for free and you go, hey, I got an upgraded version that'll save you 75%.
+You for 10 bucks or whatever. I mean, you know what I mean? Just that kind of thing. That kind of
+That's just kind of my thought process, something like that, but yeah, I think if you've made any changes in your VPS, Keith, you should definitely do that, if you heard what we were talking about.
+I don't go on VPS, I'm pretty much, even with the GrokBot. But the GrokBot VPS, if you've had it install any of your stuff, if you've had it so that it could interact, because like for me, I'll give you a for instance, I had GrokBot install Microsoft Edge, because that's my primary browser.
+Now, in the meantime, I'm just going to move it over to Chrome, just so, just so that it has it, because by default, it has Chrome.
+But I think, I think even, yeah, I think even, even if, I'm not sure that it would save you.
+Settings in Chrome, I think all you'd have to do is probably log in, though, but like for me, I installed Edge, I installed some other things in the VPS to where if it got rebooted, I would lose it all.
+Yeah, I just don't anything. I don't even know how to do it. haven't talked about it, and you've talked it.
+Just tell it, just tell it, hey, like if it's something that you use all the time, or you want it to use, like for an automation or something, just say, yeah, I need you to install this, and if it has the ability, and it'll install it with a script, rather, because it doesn't have like control panel ad programming or whatever, but it'll download it with a script and install it, and yeah, so, yeah, it's pretty cool.
+So, I've done a lot with it. I've even, I've automated, I've automated a lot of things.
+@2:20:51
+-
+Keith Obrosky
+It does a lot of things well there's some things that like the SEO stuff it took a long time and it kept opening tabs you know with 2FA authentication and this and that so until I can get my system downwards better because I have a thing where I have like I created a marketing HQ like website where it'll put what the text is for the post it'll put the image and then when I say yeah say open open this like for instance like LinkedIn it'll say open and copy so it'll open LinkedIn on the on the next tab and then I can just copy and paste the post and it'll give me the path to the image and I mean I could do do it in less than 20 seconds so I only have like five or six you know so within a few minutes I could do it myself
+@2:21:51
+-
+Patrick Thomas
+And if I'm posting once a week, but I mean, if you're automating and posting a lot, but I think that's probably a good idea anyway, because that way you can kind of look and see before you hit post rather than having the agent just post whatever, you know, because you have a lot of slop out there.
+@2:22:11
+-
+Keith Obrosky
+I do my posting through Claude. Well, I've been having actually ChessGPT draft a lot of my posts, but then I hand it to Claude because I've already had that automated.
+So it will run it through a fact check, a compliance, and then it gives me a draft that I can approve for publication or not.
+@2:22:34
+-
+Patrick Thomas
+Once I approve it, it then goes and posts it where I want it to post. So I've got that set up.
+Yeah, that's cool. How are you doing? Are you using like a Hermes agent or just clotting to do it?
+@2:22:46
+-
+Keith Obrosky
+Mostly it's going through the clotting chrome extension. It does most of that. Oh, that's interesting.
+@2:22:52
+-
+Patrick Thomas
+I want to see if, that's interesting. I wonder if I could have Grok Build kind of review, I wonder if it has the ability to do that, review what I've done in GrokBot.
+Yeah, it does, because I have it, my GrokBot, I have it draft the, I have it doing other things different than what I'm doing, but I have it looking at social posts, I have it draft, content, and then it presents it to me, and then I approve it for publication.
+So it, it does give me the, the draft, and then I have the final say.
+@2:23:35
+-
+Keith Obrosky
+That's interesting. So that's why I just tell it, I told my, my orchestrator, you know, this is what I want published, but I want to approve it, I want the draft to approve first.
+@2:23:46
+-
+Patrick Thomas
+And it does, and it gives me the draft, and then I wait for my approval. Okay.
+@2:23:51
+-
+Keith Obrosky
+Okay, I wonder, because I use build in the CLI, I wonder if it would still be able to do that, or if I would have to use the SuperDog web interface to do that, because I downloaded there, I did buy Claude, so I do have, and Claude's got its own desktop, and you know, which is kind of cool, yeah, so I use that a little bit, and I really like, it's got like that split screen, so, because if I have it looking at source, code, it'll create a handoff, that I can hand off to my programmer, and like a Word doc, and it'll show me the Word doc, in the right pane, and show me what it's doing on the left, so, I'm going to be playing with that more, but yeah, I'm having, yeah, I'm learning a lot, I'm learning a lot, there's some stuff I, I need that on neural, that I automate, that I kind of understand, but not, you know, like,
+Really, how GitHub actually, I mean, I get the concept, but I don't have a deep understanding of what GitHub, you know, what the power of GitHub is, and I know there's a lot you can do in there.
+Yeah, I've still got to learn a lot, but on ChatGPT, I'm working on a project developing a lot of documents, and it does push them to GitHub.
+GitHub, it goes through a whole process, though, of establishing whether or not I want it as a foundational document or not, so it goes through a whole lot of stuff, but then it pushes it to GitHub.
+Yeah, you've got checks and balances in there, and so that's your rule set or your workflow, right? Yeah, yeah.
+Now, does it create the workflow based on just what you're telling it?
+@2:25:41
+-
+Patrick Thomas
+You just talk to it? It actually, yeah, when it planned it, it actually planned a really deep, detailed workflow as well as.
+@2:25:51
+-
+Keith Obrosky
+How things are established it's uh really cool and it did that and i'm running usually let's see uh i'm running the uh i'm running 5.6 terra light so that's like their mid model in the yeah up until astra uh so that was the mid model from you had soul and terra and luna and i'm running terra and it's i'm gonna try it in asterix since i have uh let's see i think i still have uh three um move out over here remove my thing out with usage remaining i think i still have yeah i still have three available resets so i'm gonna try try a little bit with astra um okay yeah astra eats a lot of tokens but but i mean you might as well do it while it's like it's like 50 yeah i might as well do it yeah anything yeah well i got
+@2:26:53
+-
+Patrick Thomas
+So we'll try it, but I'm doing mostly knowledge work, very little, little to no coding, so I don't know that Astra might be overkill, but I've heard that it's really good for planning, though, and so what some guys have talked about is that they'll give it to Astra to do the planning, and then they'll hand it down to a lesser model to actually do the execution.
+Yeah. All right.
+@2:27:26
+-
+Keith Obrosky
+Well, so yeah, if you haven't installed anything in the RockBot VPS, but all you have to do is tell it.
+I mean, I think I posted that in the chat. I think I posted that in the chat. I got back out, but I can post what I put in there.
+You can just copy and paste it. This is what, and I did this in chat GPT. I just put this in there, and then it created the routine, and I just copied and pasted that right into my bot.
+Okay.
+@2:28:04
+-
+Patrick Thomas
+Chief of Staff.
+@2:28:06
+-
+Keith Obrosky
+And that way, if you have anything out there that it might have done, anything like that, all you have to do is, I think I can't remember what it is.
+@2:28:17
+-
+Patrick Thomas
+It told me what the install would be. I just tell it.
+@2:28:27
+-
+Keith Obrosky
+Chief of Staff. Have you ever used the Comet browser? Chief I have not.
+@2:28:35
+-
+Patrick Thomas
+Chief I'll tell you, I've been using it since it first came out, but what it does, like what you just put in the chat.
+I just highlighted it, and then it gives me a little Comet icon, and I can click on that. and Chief of
+And, well, I can copy it, first of all. It can do a fact check, it can define, it can summarize, and I can ask anything about what I've just highlighted, and it will give me information about it.
+Oh, that's cool.
+@2:29:04
+-
+Keith Obrosky
+It is a very powerful browser, and, yeah, I've been using it for years, and there's, you can do commands in it and everything.
+Comet. Okay, cool, man. I like that. All right, well, I'm going to jump off, and we're going to be back, I'll be back at the 430, and see, see what kind of progress I mean.
+Yeah, got to, I'm going to install a clock, because my laptop crashed, so I got to install over here, and it's mini.
+But yeah, I'm looking forward to seeing you guys at, you know, about, what, eight hours? No, six hours. right.
+Eight hours. All right. All right. See you later then.

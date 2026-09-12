@@ -1,0 +1,92 @@
+From: tl;dv Team <no-reply@tldv.io>
+To: 973bearwallow@gmail.com
+Subject: "Coaching Calls" meeting notes and AI answers are ready ✅
+
+Action Items: Ernest att organisera filmappar och filstruktur för bättre hantering .  
+
+( https://tldv.io/ )
+
+--------------------------------------------
+Björn Hedlund Länta's Recording & AI Notes
+--------------------------------------------
+
+**************
+Coaching Calls
+**************
+
+-------------------
+1. Åtgärdspunkter
+-------------------
+
+* Ernest att ladda ner agent-paket och börja med migrationen 16:26 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=986 )
+* Jeff att visa formuläret för migrationen och guida processen 19:06 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=1146 )
+* Ernest att organisera filmappar och filstruktur för bättre hantering 06:08 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=368 )
+
+----------------------------------
+2. Kodmigrering och systemstruktur
+----------------------------------
+
+* Ernest är en erfaren ingenjör med 25+ års erfarenhet men inte utvecklare eller programmerare 03:22 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=202 )
+* Ernest vill hålla 95% av befintlig kod och inte börja från början 18:38 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=1118 )
+* Migrationen innebär att ändra var koden körs, inte att flytta filerna själva 17:21 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=1041 )
+* Ernest planerar att använda Cloud Code som ett mellansteg, inte Pro-versionen 25:09 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=1509 )
+* Filstrukturen bör vara universell mellan olika plattformar som macOS och Windows 06:08 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=368 )
+
+------------------------
+3. VPS och infrastruktur
+------------------------
+
+* John använder en VPS med 8 CPU-kärnor, 16 GB RAM och 128 GB lagring 52:06 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=3126 )
+* John kör Claude 4.5 på VPS:en med Python-skript för automatisering 01:14:24 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=4464 )
+* Lee betalar 500 dollar per månad för Digital Ocean-tjänster 01:43:45 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=6225 )
+* VPS-lösningen ger exponentiell värde jämfört med kostnaden 01:17:53 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=4673 )
+
+----------------------------------
+4. AI-modeller och prenumerationer
+----------------------------------
+
+* Patrick använder Claude 4.6 med 24% tokenanvändning 01:52:31 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=6751 )
+* Patrick har både 30 dollar Supergirl-plan och 16 dollar Cursor Pro-plan 01:52:13 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=6733 )
+* John kan växla mellan olika prenumerationer för att optimera kostnad och prestanda 01:52:13 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=6733 )
+
+--------------------------------
+5. Webbplatsbyggande och verktyg
+--------------------------------
+
+* Moderna webbplatsbyggare erbjuder enkla drag-och-släpp-funktioner 38:44 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=2324 )
+* Att bygga webbplatser från grunden tar längre tid än att använda befintliga ramverk 35:10 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=2110 )
+* Patrick hade problem med WordPress-webbplatser liknande de Jeff hade tidigare 37:01 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=2221 )
+
+---------------------------------
+6. Säkerhet och regelefterlevnad
+---------------------------------
+
+* John kör en 42-punkts säkerhetskontroll på webbplatser 01:28:30 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=5310 )
+* Cookie-samtycke är viktigt för GDPR-efterlevnad men inte för USA-webbplatser 01:29:46 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=5386 )
+* Datalagringsregler skiljer sig mellan olika länder och kan vara kriminella om de bryts 01:33:26 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=5606 )
+
+--------------------------
+7. Agentarkitektur och MCP
+--------------------------
+
+* Lee byggde en marknadsföringsagent med MCP-arkitektur 01:38:44 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=5924 )
+* Agenten kan användas för att bygga systemarkitektur automatiskt 01:38:44 ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?t=5924 )
+
+ 
+
+View recording and AI Notes ( https://tldv.io/app/meetings/6a9596c650b9e1001322f0a6?origin=meeting-delivery-email )
+
+FEATURE HIGHLIGHT
+
+Automate AI Meeting Notes Templates
+
+Customize how each meeting type is summarized.
+
+Try it now ( https://tldv.io/app/ai-meeting-templates )
+
+LinkedIn ( https://www.linkedin.com/company/tl-dv/ )
+Instagram ( https://www.instagram.com/tldv.io/ )
+TikTok ( https://www.tiktok.com/@tldv.io )
+G2 ( https://www.g2.com/products/tl-dv/reviews )
+
+tl;dv is committed to protecting the confidentiality, integrity, and availability of your data at all times. Our services are designed with a privacy-first approach and are encrypted & GDPR compliant. You can review our Terms of Service, ( https://tldv.io/terms/ ) and our Privacy policy. ( https://tldv.io/privacy/ )  You are receiving this email because someone in this meeting is using tl;dv to record a meeting you were part of. You can stop receiving these meeting summaries by unsubscribing here ( https://track.customer.io/unsubscribe/dgSDuwcBAOj_tQ3n_7UNAaBY_bn0vLpW8468SkmS7w== ).

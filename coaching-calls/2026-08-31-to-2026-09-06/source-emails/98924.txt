@@ -1,0 +1,210 @@
+From: Fathom <no-reply@fathom.video>
+To: Tom Torok <973bearwallow@gmail.com>
+Subject: Recap for "Coaching Calls"
+
+<#part type=text/html>
+    Meeting Purpose Discuss AI projects, token efficiency, and potential collaborations. Key Takeaways - AI Watch: John Mackenzie's tool now achieves 80% token and 64% cost reduction on Claude Code, effectively turning a $200 account into a ~$558 account. He sees a pathway to 98.8% savings. - Social Media Automation: Jeff Wurfel and CyberRick are expanding their LinkedIn commenter to X (Twitter) and Instagram, adding image generation and scheduling to create a full social media management platform. - Strategic Partnerships: John Mackenzie and Rashad Khan are exploring a white-label partnership, integrating John's language-learning app into Rashad's "One-to-One Skills" LMS to target the education market. - Data Privacy Risk: John Mackenzie warned against using Chinese AI models for sensitive data due to CCP access, citing his "Black Snow Intelligence" research that quantifies their high risk profile. Topics AI Token Efficiency & Strategy - John Mackenzie's "AI Watch" tool now achieves 80% token reduction and 64% cost reduction on Claude Code. - This effectively turns a $200/month account into a ~$558/month account. - He sees a pathway to 98.8% savings by stacking multiple optimization methods. - Claude Code "Effort" Setting: - Higher effort (e.g., "UltraCode") multiplies token cost (up to 1.6x) by spinning up more sub-agents. - Use "Plan" mode for initial brainstorming to save tokens. - Avoid the "Interrupt" button to prevent a full context re-read and wasted tokens. - AI Limitations: - AI is an efficiency tool, not a magic wand. - It gravitates to the "norm," so users must push it to find outlier insights. - The "last mile" of a project often requires 10x the effort of the first 95%. Data Privacy & Model Selection - John Mackenzie's "Black Snow Intelligence" research quantifies data privacy risks of AI models. - It has analyzed 147,272 entities across 42 countries. - Finding: Chinese models (e.g., DeepSeek) are high-risk due to CCP access to unencrypted inference data. - Recommendation: Use compliant models for PII; use Chinese models only for public content (e.g., marketing videos) to protect IP. Project Deep Dive: John Mackenzie's Stack - John Mackenzie is building an integrated AI stack: 1. Black Snow Intelligence: Regulatory guardrails for AI/data privacy. 2. AI Watch: Token/cost efficiency engine. 3. LLM Vault: Model router that uses Black Snow Intelligence to select the cheapest, compliant model. 4. AOS (AI Engineering Operating System): A custom coding console (67% complete). Project Deep Dive: Rashad Khan's "One-to-One" Ecosystem - Rashad Khan presented a suite of platforms built on the "One-to-One XQ" standard for representing any object. - One-to-One Skills: A scalable Learning Management System (LMS) with features for student/staff management, curriculum, and finance. - One-to-One Ride: An Uber-like ride-sharing and logistics platform. - Launch Ready Business in a Box: An AI-powered service to set up a complete business infrastructure. Collaboration Opportunity: Language Learning App - John Mackenzie's "Ringleader English" app teaches languages via a 5-layer learning system. - He is building a school management system around it for a B2B model ($10-20/student/month). - Rashad Khan proposed a white-label partnership to integrate the app into his "One-to-One Skills" LMS. - This would give the app a scalable distribution channel to schools and institutions. - They will discuss a 10-15% perpetual commission for partners. Project Update: Social Media Automation Tool - Jeff Wurfel and CyberRick are expanding their LinkedIn commenter tool. - New Features: - Integration with X (Twitter) and Instagram. - Scheduled posts with AI-generated images. - Workflow: Use a Claude chat to generate post text and hashtags, then import via CSV for automated scheduling and commenting. Next Steps - John Mackenzie: - Finalize "AI Watch" for a free beta launch (7-14 days). - Connect with Rashad Khan to discuss the white-label partnership for the language app. - CyberRick: - Demo the expanded social media automation tool next week. - Rashad Khan: - Connect with John Mackenzie to discuss the white-label partnership. - Patrick Thomas: - Research school board contacts and language curriculum requirements in California for the language app.               (https://fathom.video/?utm_campaign=postmeetingsummary&utm_content=header&utm_medium=email)                            Coaching Calls     September 03, 2026  •  710 mins  •  view meeting (https://fathom.video/calls/807598429?tab=summary) or ask fathom (https://fathom.video/calls/807598429?tab=ask_fathom)              Action Items ✨               set github notifications for main branch updates on linkedin/x repo (https://fathom.video/calls/807598429?tab=summary&timestamp=410.9999)     jeff wurfel               ask rick to build iframe widget to ingest my offerings into his platform (https://fathom.video/calls/807598429?tab=summary&timestamp=6620.9999)     Patrick Thomas               watch ai builders guild recordings from sep 2 (https://fathom.video/calls/807598429?tab=summary&timestamp=7223.9999)     Gregory Barber               add entity/session field to memory records in llm vault (https://fathom.video/calls/807598429?tab=summary&timestamp=11908.9999)     John Mackenzie               test 11labs for persian/arabic/urdu voice; report to john (https://fathom.video/calls/807598429?tab=summary&timestamp=17419.9999)     Rashad Khan               whatsapp john to schedule offline demo re: one-to-one skills + language app (https://fathom.video/calls/807598429?tab=summary&timestamp=18349.9999)     Rashad Khan              Meeting Summary ✨         Enhanced Template   customize (https://fathom.video/calls/807598429?initial_open_modal=modify_template&tab=summary)   •  change template (https://fathom.video/calls/807598429?initial_open_modal=select_template&tab=summary)             
+
+Meeting Purpose
+
+ 
+
+ Discuss AI projects, token efficiency, and potential collaborations.  
+
+Key Takeaways
+
+  
+ 
+
+ ai watch: john mackenzie's tool now achieves 80% token and 64% cost reduction on claude code, effectively turning a $200 account into a ~$558 account. he sees a pathway to 98.8% savings. (https://fathom.video/calls/807598429?tab=summary&timestamp=14101.0)   
+ 
+
+ social media automation: jeff wurfel and cyberrick are expanding their linkedin commenter to x (twitter) and instagram, adding image generation and scheduling to create a full social media management platform. (https://fathom.video/calls/807598429?tab=summary&timestamp=206.0)   
+ 
+
+ strategic partnerships: john mackenzie and rashad khan are exploring a white-label partnership, integrating john's language-learning app into rashad's "one-to-one skills" lms to target the education market. (https://fathom.video/calls/807598429?tab=summary&timestamp=17651.0)   
+ 
+
+ data privacy risk: john mackenzie warned against using chinese ai models for sensitive data due to ccp access, citing his "black snow intelligence" research that quantifies their high risk profile. (https://fathom.video/calls/807598429?tab=summary&timestamp=9731.0)   
+ 
+
+Topics
+
+ 
+
+AI Token Efficiency & Strategy
+
+  
+ 
+
+ john mackenzie's "ai watch" tool now achieves 80% token reduction and 64% cost reduction on claude code. (https://fathom.video/calls/807598429?tab=summary&timestamp=14101.0)   
+ 
+
+ this effectively turns a $200/month account into a ~$558/month account. (https://fathom.video/calls/807598429?tab=summary&timestamp=14270.0)   
+ 
+
+ he sees a pathway to 98.8% savings by stacking multiple optimization methods. (https://fathom.video/calls/807598429?tab=summary&timestamp=4080.0)   
+  
+ 
+
+ claude code "effort" setting: (https://fathom.video/calls/807598429?tab=summary&timestamp=780.0)   
+ 
+
+ higher effort (e.g., "ultracode") multiplies token cost (up to 1.6x) by spinning up more sub-agents. (https://fathom.video/calls/807598429?tab=summary&timestamp=1310.0)   
+ 
+
+ use "plan" mode for initial brainstorming to save tokens. (https://fathom.video/calls/807598429?tab=summary&timestamp=823.0)   
+ 
+
+ avoid the "interrupt" button to prevent a full context re-read and wasted tokens. (https://fathom.video/calls/807598429?tab=summary&timestamp=987.0)   
+  
+ 
+
+ ai limitations: (https://fathom.video/calls/807598429?tab=summary&timestamp=2040.0)   
+ 
+
+ ai is an efficiency tool, not a magic wand. (https://fathom.video/calls/807598429?tab=summary&timestamp=2488.0)   
+ 
+
+ it gravitates to the "norm," so users must push it to find outlier insights. (https://fathom.video/calls/807598429?tab=summary&timestamp=2310.0)   
+ 
+
+ the "last mile" of a project often requires 10x the effort of the first 95%. (https://fathom.video/calls/807598429?tab=summary&timestamp=2139.0)   
+  
+ 
+
+Data Privacy & Model Selection
+
+  
+ 
+
+ john mackenzie's "black snow intelligence" research quantifies data privacy risks of ai models. (https://fathom.video/calls/807598429?tab=summary&timestamp=12360.0)   
+ 
+
+ it has analyzed 147,272 entities across 42 countries. (https://fathom.video/calls/807598429?tab=summary&timestamp=9340.0)   
+ 
+
+ finding: chinese models (e.g., deepseek) are high-risk due to ccp access to unencrypted inference data. (https://fathom.video/calls/807598429?tab=summary&timestamp=9731.0)   
+ 
+
+ recommendation: use compliant models for pii; use chinese models only for public content (e.g., marketing videos) to protect ip. (https://fathom.video/calls/807598429?tab=summary&timestamp=10325.0)   
+  
+ 
+
+Project Deep Dive: John Mackenzie's Stack
+
+  
+ 
+
+ john mackenzie is building an integrated ai stack: (https://fathom.video/calls/807598429?tab=summary&timestamp=13770.0)   
+ 
+
+ black snow intelligence: regulatory guardrails for ai/data privacy. (https://fathom.video/calls/807598429?tab=summary&timestamp=13770.0)   
+ 
+
+ ai watch: token/cost efficiency engine. (https://fathom.video/calls/807598429?tab=summary&timestamp=13782.0)   
+ 
+
+ llm vault: model router that uses black snow intelligence to select the cheapest, compliant model. (https://fathom.video/calls/807598429?tab=summary&timestamp=10677.0)   
+ 
+
+ aos (ai engineering operating system): a custom coding console (67% complete). (https://fathom.video/calls/807598429?tab=summary&timestamp=13697.0)   
+  
+ 
+
+Project Deep Dive: Rashad Khan's "One-to-One" Ecosystem
+
+  
+ 
+
+ rashad khan presented a suite of platforms built on the "one-to-one xq" standard for representing any object. (https://fathom.video/calls/807598429?tab=summary&timestamp=17820.0)   
+ 
+
+ one-to-one skills: a scalable learning management system (lms) with features for student/staff management, curriculum, and finance. (https://fathom.video/calls/807598429?tab=summary&timestamp=17525.0)   
+ 
+
+ one-to-one ride: an uber-like ride-sharing and logistics platform. (https://fathom.video/calls/807598429?tab=summary&timestamp=17964.0)   
+ 
+
+ launch ready business in a box: an ai-powered service to set up a complete business infrastructure. (https://fathom.video/calls/807598429?tab=summary&timestamp=18100.0)   
+ 
+
+Collaboration Opportunity: Language Learning App
+
+  
+ 
+
+ john mackenzie's "ringleader english" app teaches languages via a 5-layer learning system. (https://fathom.video/calls/807598429?tab=summary&timestamp=17280.0)   
+ 
+
+ he is building a school management system around it for a b2b model ($10-20/student/month). (https://fathom.video/calls/807598429?tab=summary&timestamp=16940.0)   
+  
+ 
+
+ rashad khan proposed a white-label partnership to integrate the app into his "one-to-one skills" lms. (https://fathom.video/calls/807598429?tab=summary&timestamp=17651.0)   
+ 
+
+ this would give the app a scalable distribution channel to schools and institutions. (https://fathom.video/calls/807598429?tab=summary&timestamp=17651.0)   
+ 
+
+ they will discuss a 10-15% perpetual commission for partners. (https://fathom.video/calls/807598429?tab=summary&timestamp=17046.0)   
+  
+ 
+
+Project Update: Social Media Automation Tool
+
+  
+ 
+
+ jeff wurfel and cyberrick are expanding their linkedin commenter tool. (https://fathom.video/calls/807598429?tab=summary&timestamp=206.0)   
+ 
+
+ new features: (https://fathom.video/calls/807598429?tab=summary&timestamp=217.0)   
+ 
+
+ integration with x (twitter) and instagram. (https://fathom.video/calls/807598429?tab=summary&timestamp=217.0)   
+ 
+
+ scheduled posts with ai-generated images. (https://fathom.video/calls/807598429?tab=summary&timestamp=252.0)   
+  
+ 
+
+ workflow: use a claude chat to generate post text and hashtags, then import via csv for automated scheduling and commenting. (https://fathom.video/calls/807598429?tab=summary&timestamp=540.0)   
+ 
+
+Next Steps
+
+  
+ 
+
+ john mackenzie: (https://fathom.video/calls/807598429?tab=summary&timestamp=2780.0)   
+ 
+
+ finalize "ai watch" for a free beta launch (7-14 days). (https://fathom.video/calls/807598429?tab=summary&timestamp=2900.0)   
+ 
+
+ connect with rashad khan to discuss the white-label partnership for the language app. (https://fathom.video/calls/807598429?tab=summary&timestamp=17651.0)   
+  
+ 
+
+ cyberrick: (https://fathom.video/calls/807598429?tab=summary&timestamp=206.0)   
+ 
+
+ demo the expanded social media automation tool next week. (https://fathom.video/calls/807598429?tab=summary&timestamp=348.0)   
+  
+ 
+
+ rashad khan: (https://fathom.video/calls/807598429?tab=summary&timestamp=17510.0)   
+ 
+
+ connect with john mackenzie to discuss the white-label partnership. (https://fathom.video/calls/807598429?tab=summary&timestamp=17651.0)   
+  
+ 
+
+ patrick thomas: (https://fathom.video/calls/807598429?tab=summary&timestamp=17046.0)   
+ 
+
+ research school board contacts and language curriculum requirements in california for the language app. (https://fathom.video/calls/807598429?tab=summary&timestamp=17323.0)   
+  
+         view meeting → (https://fathom.video/calls/807598429?tab=summary)                     Ask Fathom!     Ask our AI Assistant for answers and insights. It's ChatGPT for your meetings!      try ask fathom → (https://fathom.video/calls/807598429?tab=ask_fathom)                       © Fathom 2026. All Rights Reserved. unsubscribe (https://fathom.video/user/unsubscribe/eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYXRob20udmlkZW8iLCJzdWIiOiJ1bnN1YnNjcmliZS12aWEtZW1haWwiLCJleHAiOjE3ODkxMzg4MzcsInVzZXJfaWQiOjI5Mjc2MTYsImNhbGxfaWQiOjgwNzU5ODQyOSwic3Vic2NyaXB0aW9uIjoicmVjb3JkaW5nLXJlYWR5In0.NBMGxe5MPEK8iIW0DqLu8hNRnTVhZaT7vXSpLueesDY)                  (https://www.g2.com/products/fathom-2021-09-22/reviews)              <#/part>
+

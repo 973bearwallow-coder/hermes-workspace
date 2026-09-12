@@ -1,0 +1,397 @@
+AI BUILDERS GUILD
+
+
+7:30 Spark Session
+Member Notes
+10 Deep-Dive Threads for Builders
+September 4, 2026 · Member notes with source links
+
+
+
+
+     AT A GLANCE
+
+     • Deeper cuts on the coffee threads
+     • Starter + keep-going + clickable sources
+     • Drop source URLs in chat as we go
+     • Leftover heat returns to morning coffee hour
+     • Bootcamp stays L1 GitHub → L2 Netlify → L3 VS Code
+     • Oath: Never quit. Every hand you lift lifts your own.
+
+
+
+
+For members · Topics + clickable sources                       Guild navy · gold
+AI Builders Guild · 7:30 Spark                                                    September 4, 2026 · Member Notes
+
+
+
+
+      1. Fable 5.1 vs Mythos 5.1 — Same Model, Different Gates
+
+
+ STARTER
+ Anthropic is explicit: Fable 5.1 is the generally available Mythos-class model; Mythos 5.1 is the same
+ capability with cyber and biology safeguards lifted, offered only to approved Project Glasswing customers.
+ Pricing listed for Mythos starts at $10/$50, matching Fable. Both are Covered Models with 30-day retention.
+ Platform docs warn agent loops may see one tool call per turn where Fable 5 batched several. Spark is a
+ policy lab. If you cannot get Mythos, what do you actually change in Fable — model, tools, or the jobs you
+ refuse to run.
+
+
+
+ KEEP GOING
+    • Screen-share your model picker — Fable 5.1, Opus 5, or something else?
+
+    • What task would you not run on Fable because the fallback might fire?
+
+    • Would you accept 30-day retention on a Guild repo, or switch providers?
+
+
+
+ SOURCES (clickable)
+   • https://www.anthropic.com/claude-fable-and-mythos-5-1
+   • https://www.anthropic.com/claude/mythos
+   • https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1
+   • https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                            Page 2
+AI Builders Guild · 7:30 Spark                                                      September 4, 2026 · Member Notes
+
+
+
+
+      2. Route GPT-5.6 Like a Team, Not a Chatbot
+
+
+ STARTER
+ OpenAI's GPT-5.6 page splits work across Sol, Terra, and Luna, then adds effort controls. Max gives more
+ time than xhigh. Ultra is called out for Pro and Enterprise in ChatGPT Work. Sol is $5/$30. Terra is $2.50/$15.
+ Luna is $1/$6. The quote pile is coding agents, decks, and frontend. Spark wants a two-axis card you can
+ steal: model tier on one axis, effort on the other. Draw it for one real Guild job — a PR, a landing page, or a
+ research brief — and say where you would spend.
+
+
+
+ KEEP GOING
+    • Pick one live task. Sol, Terra, or Luna — and which effort?
+
+    • Where has high effort wasted money for you this month?
+
+    • Would you let an agent pick the tier, or lock it in the harness?
+
+
+
+ SOURCES (clickable)
+   • https://openai.com/index/gpt-5-6/
+   • https://openai.com/index/gpt-5-6/
+   • https://cursor.com/changelog
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                              Page 3
+AI Builders Guild · 7:30 Spark                                                    September 4, 2026 · Member Notes
+
+
+
+
+      3. Grok 4.6 Evals vs Your Repo
+
+
+ STARTER
+ xAI published Grok 4.6 High next to Grok 4.5, GPT-5.6 Sol Max, and Fable 5 Max. On their table, 4.6 ties Sol
+ at 61 on AA Intelligence, sits near Fable on GDPVal-AA, and trails Sol and Fable on Terminal-Bench. Price is
+ the wedge: $2/$6 versus Fable's $10/$50 and Sol's $5/$30. Spark is not a screenshot of a chart. It is a
+ 15-minute bake-off on one of your repos. Same prompt, two models, ship the diff that actually compiles.
+
+
+
+ KEEP GOING
+    • Which one eval on that chart matches work you actually do?
+
+    • Run the same prompt on 4.6 and Fable or Sol — who wins on your files?
+
+    • If 4.6 is close enough, what do you do with the money you save?
+
+
+
+ SOURCES (clickable)
+   • https://x.ai/news/grok-4-6
+   • https://x.ai/build
+   • https://www.anthropic.com/claude-fable-and-mythos-5-1
+   • https://openai.com/index/gpt-5-6/
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                            Page 4
+AI Builders Guild · 7:30 Spark                                                       September 4, 2026 · Member Notes
+
+
+
+
+      4. Self-Hosted Cursor — What Leaves the Network
+
+
+ STARTER
+ Cursor's self-hosted docs split the loop. Cursor still runs inference, planning, and the agent loop. Your worker
+ runs the tools. Personal machines use a user login or API key. Team pools need Enterprise plus a service
+ account key. Admins can allow or require self-hosted. You can connect up to 200 workers per user.
+ Cursor-managed Cloud Agents remain the default for most teams. Spark is a whiteboard: draw what stays on
+ the worker, what goes to Cursor, and what a client would not sign.
+
+
+
+ KEEP GOING
+    • Draw the trust boundary — model in Cursor's cloud, shell on your box. Acceptable?
+
+    • Personal My Machines, or only a team pool on a VM?
+
+    • Require self-hosted for client work, or keep Cursor-managed for speed?
+
+
+
+ SOURCES (clickable)
+   • https://cursor.com/docs/cloud-agent/self-hosted
+   • https://cursor.com/changelog
+   • https://cursor.com/docs/cloud-agent/self-hosted/my-machines
+   • https://cursor.com/docs/cloud-agent/self-hosted/choose-runtime
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                               Page 5
+AI Builders Guild · 7:30 Spark                                                   September 4, 2026 · Member Notes
+
+
+
+
+      5. Computer Use on a Worker You Own
+
+
+ STARTER
+ The same September 2 Cursor drop adds computer use on Linux and Mac self-hosted workers. On a Mac,
+ the CLI installs a Cursor Computer Use helper and needs Accessibility plus Screen Recording. On Linux, the
+ worker wants a desktop stack so the agent can click, type, screenshot, and drive a browser. You can watch
+ the desktop or take control from Cursor. Spark is a demo-or-refuse. Who would grant those permissions on a
+ Guild Mac mini, and who would only allow it inside a disposable VM.
+
+
+
+ KEEP GOING
+    • Mac mini on the desk, or a throwaway Linux VM — which gets computer use?
+
+    • What app would you refuse to let an agent click through?
+
+    • Watch the desktop live, or only read the log after?
+
+
+
+ SOURCES (clickable)
+   • https://cursor.com/changelog
+   • https://cursor.com/docs/cloud-agent/self-hosted
+   • https://cursor.com/docs/cloud-agent/self-hosted/computer-use
+   • https://cursor.com/docs/cloud-agent/self-hosted/integrations
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                           Page 6
+AI Builders Guild · 7:30 Spark                                                               September 4, 2026 · Member Notes
+
+
+
+
+      6. Should Copilot Be Allowed to Approve
+
+
+ STARTER
+ GitHub now lets Copilot code review approve a pull request. Skills and MCP already feed that review. MCP
+ calls stay read-only. Comments can show when a skill or MCP server wrote them. That is a new merge
+ policy, not a party trick. Spark wants a written rule you could paste into a Guild repo tonight: which paths
+ Copilot may approve, which paths always need a human, and whether Fable 5.1 in Copilot changes that rule.
+
+
+
+ KEEP GOING
+    • Write the rule in one sentence — Copilot may approve X, never Y.
+
+    • Would you turn on Copilot approve for Bootcamp student repos?
+
+    • Does Fable 5.1 in Copilot make approval safer, or just more confident?
+
+
+
+ SOURCES (clickable)
+   • https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests
+   • https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available
+   • https://docs.github.com/copilot/concepts/agents/about-agent-skills
+   • https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                                       Page 7
+AI Builders Guild · 7:30 Spark                                                             September 4, 2026 · Member Notes
+
+
+
+
+      7. Skills vs MCP — Pick a Lane for Review
+
+
+ STARTER
+ GitHub's agent-skills docs and the July 29 changelog draw a clean split. A SKILL.md under .github/skills
+ teaches Copilot how your team reviews. An MCP server pulls live context from issue trackers and docs. Both
+ now show up as attribution on review comments. MCP in review is read-only. Cursor and VS Code have their
+ own MCP clients, so the same server can appear in three places with three permission models. Spark is a
+ packing list. One skill, one MCP, one repo — ship it this week or say why not.
+
+
+
+ KEEP GOING
+    • Would you write a SKILL.md for Guild PRs before you add another MCP server?
+
+    • Which third-party MCP is worth read-only review context?
+
+    • Same MCP in Cursor, VS Code, and Copilot review — or keep them separate?
+
+
+
+ SOURCES (clickable)
+   • https://docs.github.com/copilot/concepts/agents/about-agent-skills
+   • https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available
+   • https://modelcontextprotocol.io/
+   • https://cursor.com/docs/context/mcp
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                                     Page 8
+AI Builders Guild · 7:30 Spark                                                     September 4, 2026 · Member Notes
+
+
+
+
+      8. Model Hardware Standard — Agents Touch the Physical World
+
+
+ STARTER
+ August 27: Anthropic opened a research preview of the Model Hardware Standard, a shared spec for AI
+ agents to operate physical devices with a first group of labs and manufacturers. The Fable 5.1 post points at
+ it. This is not a Guild lab protocol and not a how-to. It is a product-shape question. Software agents are
+ growing a hardware USB-C. Spark stays high-level: where would you even allow an agent near a device you
+ own, and where is that a hard no.
+
+
+
+ KEEP GOING
+    • Printer, 3D printer, or never — where does an agent get physical reach?
+
+    • Would you want a standard like MCP for hardware, or one vendor's stack?
+
+    • What has to be true before you would let an agent touch a machine at work?
+
+
+
+ SOURCES (clickable)
+   • https://www.anthropic.com/news/model-hardware-standard-research-preview
+   • https://www.anthropic.com/claude-fable-and-mythos-5-1
+   • https://www.anthropic.com/news
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                             Page 9
+AI Builders Guild · 7:30 Spark                                                             September 4, 2026 · Member Notes
+
+
+
+
+      9. Origin, GitHub, or a Worker — Where Does the Code Live
+
+
+ STARTER
+ Cursor Origin can host the repo. GitHub can stay source of truth with Origin as a mirror. Self-hosted workers
+ can run the tools without giving Cursor the shell. VS Code can open Agents without a GitHub login if you
+ bring a Claude API key. That is four different homes for the same project. Spark is a map for one Guild app:
+ Bootcamp still teaches GitHub as L1. Say out loud whether this week's stack still starts there, or whether
+ Origin and self-hosted workers changed the first click.
+
+
+
+ KEEP GOING
+    • For a new Guild app tonight: GitHub first, Origin first, or local only?
+
+    • What never goes on Origin — client code, secrets, or everything until a human clones?
+
+    • Does Bootcamp L1 still start on github.com, or do we show Origin too?
+
+
+
+ SOURCES (clickable)
+   • https://cursor.com/docs/origin
+   • https://cursor.com/changelog
+   • https://cursor.com/docs/cloud-agent/self-hosted
+   • https://github.blog/changelog/2026-09-04-github-copilot-in-vs-code-august-2026-releases
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                                    Page 10
+AI Builders Guild · 7:30 Spark                                                   September 4, 2026 · Member Notes
+
+
+
+
+      10. Guild Rhythm — Calendar, Bootcamp, Oath
+
+
+ STARTER
+ Spark is the overflow lane, not a second keynote. Confirm times on the SKOOL Calendar tab. Unfinished
+ coffee threads live here; leftover Spark heat goes back to morning coffee hour. Bootcamp remains L1 GitHub,
+ L2 Netlify, L3 VS Code until the pack is extended. Close on the oath and send people out building.
+
+
+
+ KEEP GOING
+    • Which coffee thread deserves the next twenty minutes on a screen-share?
+
+    • Newcomers: Calendar tab — which meeting is realistic this week?
+
+    • One hand you will lift before the next coffee hour.
+
+
+
+ SOURCES (clickable)
+   • https://www.skool.com/ai-builders-guild-9932
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                          Page 11
+AI Builders Guild · 7:30 Spark                                                September 4, 2026 · Member Notes
+
+
+
+
+      Guild Reminder
+
+
+ Six weekly meetings live in the Calendar tab on SKOOL. Coffee Hour seeds threads; 7:30 Spark goes
+ deeper. Bootcamp path: L1 GitHub → L2 Netlify → L3 VS Code.
+
+
+   “Never quit. Every hand you lift lifts your own.”
+
+ — AI Builders Guild
+
+
+
+
+Never quit. Every hand you lift lifts your own.                                                       Page 12
+

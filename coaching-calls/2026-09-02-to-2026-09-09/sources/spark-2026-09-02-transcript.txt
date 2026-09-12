@@ -1,0 +1,1475 @@
+Source: https://fathom.video/share/vLkduZ3FxmirkLDpMki9VzTzFfsBSC1m
+Started: 2026-09-02T23:16:03.000000Z
+Duration seconds: 6349.989333
+Title: Impromptu Google Meet Meeting
+
+Impromptu Google Meet Meeting - September 02
+VIEW RECORDING - 106 mins (No highlights)
+@1:00
+-
+Patrick Thomas
+Hey, Patrick's bot.
+@1:04
+-
+Rick Rodriguez (rickr1@gmail.com)
+So am I going to be talking to bots tonight? Interesting. So it looks like I'm the only live person in here so far.
+Just note takers and a bot. All right. Hmm. Well, this is a first. All right. I guess I'll give it a few more minutes.
+Let's see. One thing I did get a notice from Nova. It's in the notes. Prove a repo true cannot enable remote control.
+So what I'm thinking is things that you get from GitHub and stuff when you download repos. Oh, hey, there you are, Jobi.
+Hey. I thought I was going to be talking to nothing but bots tonight because I see Patrick's bot in here and just the note taker so far.
+@4:47
+-
+Jobi Armstrong
+Oh, that's funny. Yeah.
+@4:53
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I just started talking. One of the things that Nova brought up in the notes. So what I'm taking from it is, and I can put a link in here from where she got the information, is if you download a Git and it has some type of remote control enablement in it, if you run that repo or try to do something with that repo, enables some type of remote control and people can come in and attack your machine.
+Let me go ahead and put that in the notes here. Definitely. We're in the chat. Backdoor and remote access Trojan into your machine.
+@5:43
+-
+Jobi Armstrong
+Yeah.
+@5:53
+-
+Rick Rodriguez (rickr1@gmail.com)
+There are some, I was looking for like de-bloat, like to de-bloat windows, you know, and they have...
+@6:00
+-
+Jobi Armstrong
+We repos out there that de-bloat windows, and some of them I found had that issue in them. They're up for a few days and they get pulled down, get taken down by the admins or whoever's in charge of GitHub.
+Well, that's good. I didn't know if they run any type of service that looks for that stuff.
+@6:24
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, think, well, I don't know. I think people just have to report it.
+@6:27
+-
+Jobi Armstrong
+I don't know. Maybe they have bots out in there looking for that type of stuff. It's a big enough company.
+@6:45
+-
+Rick Rodriguez (rickr1@gmail.com)
+So how was your day? Exhausting.
+@6:51
+-
+Jobi Armstrong
+It was a tough day. Anything that could go wrong, did go wrong. One of those jobs. One of those days.
+Oh, I hate that. Yeah. It's all good. We're getting it figured out. How about you? I started playing around with GrokBot.
+@7:08
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah. And what I did was, first of all, I asked Claude, should I, did I ask Claude or should I ask Nova?
+Maybe I asked Nova. I said, I told her I wanted to test out the GrokBot and I would like to know if I let the GrokBot grill me and find out everything about me.
+And I said, well, what it's going to do is it's going to go out on the web. It's going to look for you on the web.
+It's going to look for your websites and stuff like that and put together and your name and put together what it thinks should happen.
+And it said it would have found because there's a lot of Rick Rodriguez's out there and stuff that it would have found some other extraneous stuff that wasn't really pertinent to me.
+So I went ahead and let Nova create a bio on me through. that into GrokBot. It created some interesting agents on there.
+And then one of the things I wanted to use GrokBot for was if I want to do updates or changes to repos.
+So I told it to go out to GitHub and get my repo for the Cyber Event Manager software that I was working on, and I wanted to change some UI on it.
+I wanted to add some stuff to it, but I wanted to fork it first and then work off of the fork.
+And it said, no, no, no, no, you don't want to work off of a fork because you already own it.
+So you need to work off of a branch. So it created a branch and then went to out to render and created all the Postgres for render, did the UI changes for me, did it all.
+The only thing I had to do was log into render via the GitHub login process, and it did everything for me.
+Now, Patrick, I got a question for you. Does your RockBot computer disconnect and reconnect all the time? Because it's constantly disconnecting and reconnecting, as I can see when it's doing things.
+@9:12
+-
+Patrick Thomas
+Yeah, I mean, it just depends what it's doing. I have to keep an eye on it, because sometimes it'll get stuck on a 2FA.
+You have to watch for it. Most of the time, it'll pop up and say, you know, take over. I need you to do this.
+And then you go in there and do it. What I noticed, and I think I read this yesterday or saw it yesterday, if you have, like, if you're talking with the chief of staff, and you're just in that, because that's who I usually communicate with.
+But I mean, I've been chatting all day, every day for like, two days, you know, it works. It gets really, really long.
+I noticed that years getting like a person. You know, it's, it starts to get, I forget what they call it, what he called it degradation.
+Yeah, but he called it a fat something, you know, this thing's getting too fat. But after, so I've got it scheduled, like, you know, that it's drops the chat and creates a new one.
+But I asked it, it doesn't lose anything. You know, because I was like, yeah, I just wanted to make sure that it, you know, it wasn't going to, you know, lose any of the conversation that we've had all that time.
+But that was something that I think Elon Musk or somebody like that put that out yesterday or the day before, that if your chat gets, you know, starts getting kind of clunky, not clunky, but, you know, just not responding as fast.
+Because when I first noticed, it's kind of slow to compared to Claude. I noticed it's kind of slow in just processing and doing things.
+Yeah, it's, it's not, it's not as fast, like a compared to Yeah, it's like a workhorse or something. just kind of like trudges along.
+it just trudges. And like, you can give it a task and say, know, work on this till you're done or whatever, and it'll just keep going.
+And, but yeah, I've been, yeah, I've watched it, you know, and I noticed like the other thing was, because it uses the Google Chrome browser, like mine had, I'm like, I'm like, dude, your, your desktop's looking messy.
+You have, you know, it's my, I go, how many tabs do you have open?
+@11:38
+-
+Rick Rodriguez (rickr1@gmail.com)
+Cause it would, it would like ask me something. And I'm like, I need you to do this.
+@11:43
+-
+Patrick Thomas
+And I'm like, well, I looked at your screen and you have so many tabs open. I have no idea your chat.
+It's not like up in the front or anything like that. So you can just talk to it like anybody else.
+go, yeah, bring the tab. want me to work on to the front. But I just know I start. I noticing it getting kind of a little bit slower than it normally is, and I asked it to create a new chat, and that's supposed to be the fix, but they're going to be doing, you know, it's not really that old, they're saying they're going to be doing updates to improve on that, but I'm just constantly using it, and I got my Grok build reset today, so I've been using that, and I've been using, I'm about to, I see what you guys do now, because I'm bouncing around between this and Grok build, and the other one is the cursor LLM, and then Jobi, I was using the meta, was it Muse, for just asking, you know, because I was like asking Grok build just like questions that didn't really need, you know, that Grok build's really what I need to be doing for digging source code, or giving it a big task, and Muse is super fast, man, for like answering, like just regular questions.
+Questions, you know, just something that you would ask like co-pilot or something and, and super fast. And so I downloaded the desktop app for that.
+Yeah. That's what impresses me about Muse as well, about how, how fast the inference is.
+@13:16
+-
+Jobi Armstrong
+Yeah.
+@13:19
+-
+Patrick Thomas
+Yeah, man, all this stuff is just, it's just harnesses to capture an LLM.
+@13:23
+-
+Jobi Armstrong
+I mean, I'm pretty sure GrockBot is using Grock, right? That's it's, that's it's LLM harness. Correct. So when I downloaded it, cause I got it on the desktop, which is cool that it's a desktop app because it hooks up into your computer, right?
+That's the whole point behind it. So when I was connecting notion and GitHub and some other stuff, Gmail, Slack, I was getting a, I was getting a note or well, it opened up, it opened up a browser, right?
+An OAuth browser for me to do it. And then for some reason I was getting this login that said Hermes.
+And I was like, what, why is my, why is my Hermes agent interfering? So I told it, I told Grockbot, I was like, yo, my Hermes agent's interfering.
+They're like, oh, it's because it's operating on port 877 right now. So I just told it, okay, then move it, then move it over to an open port.
+You know, so now my Grockbot is actually talking to my Hermes so they can talk to each other. Oh, that's cool.
+Yeah. Because I was like, all right, well then move Hermes over to an open port and keep it running.
+And so, and it did. Nice. Yeah. So that's interesting, actually. Nice.
+@14:30
+-
+Patrick Thomas
+Yeah.
+@14:31
+-
+Rick Rodriguez (rickr1@gmail.com)
+So another thing I noticed, and one thing I really like is when it asks you, you know, if you want to give it permission to always do something or something like that, and it says, it says, do you want me to use my computer and it won't touch your Mac mini?
+I'm like, that's right. You're using a VPS. So if I give it like full rights, it can do what it wants.
+@14:52
+-
+Patrick Thomas
+It's not going to hurt anything unless it deletes my Gmail because I gave it access to my Gmail. not going to It's It's It's Thank you.
+@15:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+But that's just, you know, whatever. Yeah, it'll write mail for you, too. It'll just stick it in your drafts, and you can just send from there.
+@15:07
+-
+Patrick Thomas
+You can even talk to auto-send if you wanted to. Yeah, but it can delete.
+@15:10
+-
+Rick Rodriguez (rickr1@gmail.com)
+It can do anything and mess up, and it's only going to mess up that instance, not your working computer.
+So that's what I really like about it. Oh, yeah.
+@15:20
+-
+Patrick Thomas
+I mean, it's funny because I've been using it a while now, and it's like I'll start thinking. Like, you'll come up with an idea that, oh, my God, I could use it for that.
+Like, today, and I haven't even, I'm getting ready to look at this report. I have a couple of companies that have our estimating software that I do all their IT work for remotely.
+Anything that I can do remotely is not hands-on. I'll have somebody else go out there and do that. But, like, today I thought, because I had a call this morning saying somebody needed an install, and I was thinking, oh, my, they're going
+They needed me to add a user, and they used the Azure platform. I'm like, I wonder if Garfield could actually talk to the Azure platform and help me with managing the Azure platform for this company.
+Because I spent time in there, and I figured out what to do. But if you had an AI that knows exactly where to go or can write a script or whatever, it can be fast.
+And it did something to that. So I asked it to do that. I'm looking for the report. Is it a web portal access?
+Yeah, you have to authenticate. What was interesting was I told it, I said, you know, I do this company's IT, and I gave it the information.
+I go, I'd like to be able to, you know, when I bill them at the first of the month, to send them some kind of summary report, you know, of their network and all their stuff.
+And, and it did, it went out to. I didn't know that this thing that had like a device login.
+There's like a Microsoft device login for like reporting. I had no idea. Outlook and 365, yeah. Yeah, but this is like for the Azure portal.
+And I'm just, so I'm logged in as admin. It goes, okay, we'll go to this URL. And it was like the Azure portal slash devices or whatever.
+And then it gave me a code, like a one-time code. I'm like, oh, that's cool. So I went in, I put the code in.
+Dude, and it was in there. And it never actually logged in through the web, but it used something that's like built into that, that it knew what to do.
+And I'm looking for the report because it created the report. I'm looking for it so I can share it with you guys.
+I haven't seen it yet because it's done now. I'm just looking to see what it did with it. Let me ask it.
+It's created the report. Where is the? What is the path to the report you created? I'll see if I can share it, if I can.
+Yeah, I wish I could ask like something. hate to use GrokBuild for that, but it's not that big a deal.
+Let me scroll up. I'll show you what it did. What else have you been, you guys, using it for?
+I mean, what's the coolest thing you've been doing with it? Well, the only thing that I don't know.
+@18:47
+-
+Rick Rodriguez (rickr1@gmail.com)
+Did you hear earlier when I was talking to Jobi that I used it to revamp a repo that I had?
+Yeah, I was in the middle of that.
+@18:58
+-
+Patrick Thomas
+I was like, yeah, that sounds pretty cool. And it did it all on its own. Yeah. So, yeah, I have this event manager because I work for a staffing agency that sends me out on bartending gigs.
+@19:09
+-
+Rick Rodriguez (rickr1@gmail.com)
+And they have to they constantly use the just regular text and they send out all these text messages. And you've got to find which one is for which party.
+And you're digging through this. And then the confirmations are going back and forth. And it's just it's just really nuts.
+So it's an app that each each staffer can put on their phone. And it stays within the app. So I wanted a new UI on it.
+I want to add some stuff to it that it didn't have that I realized it needed. And, yeah, it just took off and started doing it, create a new Postgres.
+Oh, that's one other thing I want to tell you about. When it was creating the Postgres and creating the databases on Render, it needed it didn't want to use the free version.
+So it has like a $6, a $20.
+@19:59
+-
+Patrick Thomas
+And then. And So I'm watching it as it's working in its VPS, and all of a sudden it's at the $6 level, which is the starter plan, $6 a month, and then I saw it drop to the $85, I'm like, stop, stop, I only want the $7 max or $6 max starter plan, so it stops everything, and it started asking me, okay, so it started pinging me, so it wanted me to approve everything from that point on, which was good, so it backed off, it didn't charge the $85, it charged the $6, but it went through and charged everything, clicked buy and everything, I had my credit card already in there, so it, Oh, I haven't tried that, I haven't given it a credit card yet, but I noticed that if it needs a resource, even if I don't know what the resource is, or even if it exists, it'll go and look, it'll know what to look for and go and get it and install it.
+I mean, just anything. But anyway, this is where I started out on the Azure thing. I said, hey, IT admin, da-da-da-da-da.
+I want to be able to give them a report once a month. GrokBot said it could do it. I said if that's easier.
+And I said I'll review it. And I gave it the screenshot of the intro once I was in there with the users and stuff.
+And then it just started running. And then it just started running. Run, run, run, run, run. Let's see if I just page down here.
+It went through and it did all this without my. And then it got down here. And it said I've created the report.
+Here it is. So let me see where this is. Azure do Starcom reports. Okay. Reports. Let's see what this looks like.
+There it is. Oh, wow. It's the first time I'm looking at it. That's pretty good. Cool, man. That's kind of interesting.
+That looks almost like a clod report, but GrockBot built that.
+@22:06
+-
+Jobi Armstrong
+GrockBuild did it. Interesting. Interesting color palette. I mean, that's very similar to what a stock clod report looks like.
+Wow. Just the way it's structured and the color and the highlighted bars, like the solid blue bars and all that stuff.
+It looks great. Don't get me wrong. I think it looks good.
+@22:29
+-
+Patrick Thomas
+Yeah, it's the first time I'm looking at it. I mean, this is just kind of an overview. like, you know, somebody who's paying the bill can go, okay, we have 17 accounts.
+We have 11 licenses. There's 10 people signed in. This is kind of cool. tells when the last sign in is.
+And then it tells them, hey, you're using a full staff license for the conference room. That was one of the things that mentioned and said, you know, you can recover that and use that for an actual user.
+But yeah, man, I. I'm just, you know, I think of stuff, you know, I'll be, you know, doing something else and all of a sudden, yeah, I got, you know, you have an idea of what you can use, you know, in your case, Claude or one of the LLMs or a bot and it's like, yeah, that's, that's great.
+Let's do that. Try that. So, I mean, I have routines. I have GrokBot reminded me to do stuff, read me on my calendar.
+You know, if you have to, you know, instead of calendar, because you know, these bots always open it on your phone.
+And you go, yeah, you know, check, check my calendar, remind me that I got to do this today. And yeah, any of that stuff.
+And it creates, you know, it creates the routines on the right, which I like, it creates routines based on your interactions.
+And you can tell it to save it. Any of the routines, you can go, yeah, let's do this once a week or however, however often.
+Oh, yeah. Dude, your terminal is so badass. That's warp, right? It's the Warp Desktop. Wes Terminal. Oh, it's Wes Terminal?
+Yeah, WDZ.
+@24:09
+-
+Jobi Armstrong
+Okay. So I'm just spinning up my project right now. What J-Mac told me to do the other night, or yesterday, I can't even remember, we have so many of these.
+I basically just typed what he was telling me to do into Claude. So this project here is what's on my left-hand side of my screen.
+Right now it's called Cover Sheet, but we're going to change that. It's called Contractor Compliance. And then on this page, I'm loading up, it is called, hold on a second.
+@24:47
+-
+Patrick Thomas
+I think I might have loaded the wrong project here.
+@24:51
+-
+Jobi Armstrong
+It's Contractor Compliance, and this is Jurisdiction Atlas. So I'm going through and trying to create a database like John told me.
+We all of the jurisdictions, codes, rules, regulations, and whatnot. So that's what this chat is doing. Okay. This chat over here is called contractor compliance, which I had this idea, kind of gave me an idea after watching John's Black Snow.
+Black Snow, yeah. Intel project. So if you come over here, there's a, there's a website called BuildZoom and you can go to BuildZoom and you can search for contractors in your area or all over the country and see where they're licensed.
+So I wanted to do similar to that, but I wanted to make it to where, say, I want to move and I want to go to a different state.
+I want to be able to type in, in this contractor compliance, what the requirements are for a contractor in that state.
+So I could start working on them before I move and get licensed in a different state. Oh, that's a good idea.
+@26:06
+-
+Patrick Thomas
+Yeah.
+@26:07
+-
+Jobi Armstrong
+So here, the landing page right here, you can put in a company name or a license number, and it'll tell you where they're registered, what their records are.
+And I took it a little bit further. It'll also process a report. For some reason, these buttons are sticking, being weird.
+Obviously, the report hasn't been generated yet. I just started. This is maybe two or three weeks old. And then there's records over here.
+So this is just a fake builder, but whatever, Cobalt Creek, you can come down here, you can see where he's licensed, where it's going to be expiring soon.
+He has no license in Aurora. Like it goes through all these jurisdictions. It doesn't just tell you, it doesn't just tell you yes or no.
+It tells you if it's, if there's issues, if it's on hold, if it's expiring, then you can come over to here and each one of them has a claim.
+You can also see for the, for the builder. It's there. There is. If there's any safety violations that they might have or any kind of safety records, certificates, documents that they might hold, and then education.
+So this is something I really wanted to build into this is an education tab. You can put your license in and it'll tell you what is going to better your ability to get jobs in that area.
+Maybe by getting an OSHA 30 training or maybe by having being CPR first aid certified or maybe be competent, competent, climbing, rigging certified or crane operator rigging and signal certified.
+So you can go here and then you can go to licensing, safety, trade skills, businesses. This is all being built out.
+So it's supposed to be agnostic. Like none of my DHC information is in here, so it should be able to, when it's all said and done, type in anybody, any contractor or look for a contractor in your, in your area and there's going.
+It to be a rating system. I don't want it to be a pay-per-play rating system like some of these websites are.
+I just want it to be a rating system where how many credentials somebody might hold or how many licenses they might hold in your area.
+You know what I mean? Right. So then obviously when you get in here and you sign up to this, you have your own profile and it'll tell you exactly where your license and whatnot.
+And then it has each portal's landing page here. And this kind of ties into my polled web project. I don't know if I showed you this, Patrick, my polled project.
+It's for permit.
+@28:33
+-
+Patrick Thomas
+It's for basically for managing permits. I haven't seen that. That's like Angie's list. It's Jobi's list on steroids, man.
+Yeah. I like that. Yeah. And you could actually, you don't have to charge the NGs. could charge the contractor.
+Right. They wanted to be on there, you know? Exactly. And then you can dispute stuff if you wanted to.
+@28:56
+-
+Jobi Armstrong
+If you think something's not right with your records, you could dispute it with. I actually talked to one of my contractor friends, well, he works for us, he's an electrician, and he's like, oh, I would absolutely use something like this, because I have no idea where my license are expiring, if they're active, all I ever get is a frickin' email when they're six months overdue, and then I have to scramble to get my license up to date, like, if I had some system that would email me or ping me when my license is about to be expired, that would be super helpful.
+Yeah, like that. I like that a lot.
+@29:31
+-
+Patrick Thomas
+Yeah. Yeah, so that's kind of what I'm going on, and then, like I said- Show me that other one you were talking about.
+Pold? Yeah, no problem. So this is actually active and live.
+@29:46
+-
+Jobi Armstrong
+We're actually using this every day. And this might tie into it. I don't know if it will tie into it or not, but this is where we manage permits.
+Is that public? public? Is Or is that something just for your company?
+@30:01
+-
+Patrick Thomas
+This is just private right now. I can make it public eventually, but as of now, this is private. That's clean, man.
+I like the interface on that. Thank you. Yeah, so each one of these has a card. Each one of these is a project.
+You can change the table view.
+@30:14
+-
+Jobi Armstrong
+And table view actually has a better, it's kind of like a spreadsheet. So you can change your action items right here.
+And whether it's been submitted, under review, revisions, approved, whatnot. But you can also click into it and get into a more detailed view.
+And it has the permit number up here. It has the division, which these are clickable tabs right here. So if you click Centennial, it'll actually pull us up into the actual Centennial portal where we manage permits with them.
+Okay. Eventually, what I'm trying to make happen with this is have a bot be able to reach out to those websites.
+It's for itself. And this be the single source of truth. So when you come over here into the dashboard, you can open a project up.
+Let's see, this one's already been issued. So you go to 9747 Crosspoint, you go down here. Indiciamo year? today.
+What You This is where you schedule inspections. And what I want to do is be able to schedule an inspection in here.
+And once you hit add, then the bot goes out to the proper website and then sets the inspection up in there and it's just automated.
+But the problem with these permit jurisdiction websites is they're, they're sometimes they're like, they act like they're government websites.
+They're kind of, it's not, they're not user friendly. They're not very bot friendly. And a lot of them are on old systems.
+But as of now, the way that this works, like if you, if you hit mid roof inspection and, or, and then put the time of date, the time window, who sits it, all that stuff, who has been requested by, and you hit add that automatically posts into my Slack channel.
+And it also puts a account, an event calendar, calendar, I'm sorry, an event on our shared calendar. Right. And then, so let come over here to my calendar.
+Let me just pull up my calendar. Let me see. see. Uh, here we are. So if we go into here, these red ones, red means inspections.
+And on the, on the phone, if we click into here, if it's been passed, it'll actually change inside the calendar to reflect what has been happened with that inspection.
+If it fails, it'll show failed. If it passes, it'll show past inside the actual calendar. Okay. Um, this is a shared calendar between everybody in DHC.
+@32:31
+-
+Patrick Thomas
+So, so like my, my events are yellow.
+@32:34
+-
+Jobi Armstrong
+My brother's events are purple inspections events are red, right? So that's kind of how we have that set up.
+Also, what it does is it come over here into Slack and it, uh, whoops in our inspections channel, this right here, this permit portal, this is all automated.
+So when Angie, she's our permit technician. Michelle. Our admin, when she goes over into the polled website that I built and schedules something, it literally comes in here and the permit portal is a bot that posts inside of our Slack channel and let everybody know what's been scheduled, who has been scheduled, who requested it, the time of day, what job it is, the time frame.
+And then I also have every morning at 7 a.m. and every evening at 7 p.m. I have an update.
+So here's the morning inspections. These are all the ones that were scheduled for this morning.
+@33:30
+-
+Patrick Thomas
+Well, yesterday morning, rather. And it's just a quick layout.
+@33:33
+-
+Jobi Armstrong
+And then it's less work for Angie to have to type all that in, right? So a lot of this has just been automated by coming over into here, into my polled website and working for this.
+So this is my dashboard view. I also have a board view where you can take and drag and drop the jobs into there.
+Because some people like, Oh, that's cool. Yeah. They like to work in that Kanban. That's super clean.
+@34:08
+-
+Patrick Thomas
+How long have you been having the guys use that? We've been active for about a month and a half now.
+Nice.
+@34:16
+-
+Jobi Armstrong
+And then I have a timeline view, which it's not quite there yet, just because some of this stuff isn't actually up to date.
+Me and Angie need to go through and actually get everything up to date to show this. I think it's actually kind of broken a little bit.
+But anyway, it shows all our active job down here and then kind of a timeline view of how long we've been on the project.
+I got to fix it. It doesn't, I don't, I'm not happy with how it looks. It needs to look a little bit better than what it is.
+Yeah.
+@34:44
+-
+Patrick Thomas
+We have something like that kind of in that field muster program with the dispatch and all that. Nice. And then we have closed permits over here.
+@34:57
+-
+Jobi Armstrong
+We have our activity. This is just an activity. This I would like to have all of the guys that are in the field work inside of here as well because then they could schedule their own inspections.
+would be less work on Angie, but this is her job. We have hired her strictly to deal with permitting and inspections.
+I also have our jurisdictions page with our jurisdictions. These are all the jurisdictions that were licensed. And our credentials are saved in here.
+Not all the links are in here yet. We haven't worked in here for a while, so I don't have them.
+@35:37
+-
+Patrick Thomas
+But anyway, you can come over here and this is a link to open up directly to the jurisdiction's website.
+@35:44
+-
+Jobi Armstrong
+And so there's that. And then our assistant is over here. You can talk to a chat bot. It's broken right now.
+I got to get it fixed. But it was working to where you could ask it about what inspections were passed during the day.
+And then, yeah. Yeah, you can actually export, you can put seed data in, you can import and export the data into a spreadsheet if you need to, send it over to somebody.
+And then this is the home view. Our home view has the assistance and then just these little buttons right here that you can get into quickly where we're at.
+Just to kind of a quick look, we have 69 active permits, these five need attention. Check, we have 65 that need to be checked.
+Like I said, we need to go through and get this thing up to date, but all of our jobs are in here.
+Just not all of them have been updated, but yeah, that's kind of where we're at. I like this table view because it shows, this table bar, like it shows you, if you go to submitted and then go to approved, it actually moves that bar and see how it did that.
+@36:44
+-
+Patrick Thomas
+Yeah, I like that, man. That is super clean, man. Yeah, and then the card view, these pop each time you hover over it.
+The card view has less automations, but you can click into it and then you can show it.
+@36:56
+-
+Jobi Armstrong
+So you can edit all the details in here and yeah. So this. This is kind of, like I said, this is what I've been actually actively operating on for my permits, and then I did all this from importing from a Google spreadsheet.
+Wow. Yeah.
+@37:14
+-
+Patrick Thomas
+Yeah. That's amazing. So it made the program from a spreadsheet? Yeah, I made this program from a spreadsheet.
+@37:23
+-
+Jobi Armstrong
+Nice.
+@37:24
+-
+Patrick Thomas
+You know, we had a request in today from somebody that they have like an avocado farm out here, and they have a bunch of workers in the field, and they reached out to one of the programmers and showed them a spreadsheet, and they wanted us, when I started looking at the request, it's like, yeah, they want to do like a shared Google sheet that the workers have access to.
+They can put their hours in each day. It's almost like they want to track their time through it. It's actually, that's what it does.
+They have so many workers out in the field, and they're sharing this Google worksheet. I'm wondering if you took that, because they want us to get that working and operating correctly, and they want to know how much we're going to charge.
+But I'm almost wondering if you did something like this. Is it using a Google worksheet in the back end, or is it just actually a web app?
+No, this is no longer using the Google worksheet. Nope, not anymore.
+@38:30
+-
+Jobi Armstrong
+Okay, were you using a shared one with the guys out in the field?
+@38:33
+-
+Patrick Thomas
+Is that how you were doing it?
+@38:35
+-
+Jobi Armstrong
+All of our Google worksheets are shared because we're an organization. So as long as you add the individual to the organization and pay for a seat with Google, then everybody has access to anything in Drive.
+All that's shared between DHC's organization. Okay. So if that's the route they want to go, and they just want to operate off of it, there's already there's no really need to make a program if they didn't.
+They want a shared Google spreadsheet. They just need to get on Google, Google one or Google workspace one or whatever it is.
+know what I mean? When you do that, then that's how we're able, that's how you're able to have your own domain is your email address.
+Like Jobi at DHCs because we're Google one subscribers, right? Or Google workspace subscribers. It used to be called Google one.
+It's just Google workspace. Now, right. Um, that's what I have.
+@39:25
+-
+Patrick Thomas
+I use Google workspace. That's how I've done a lot of my stuff. Yep. Okay. Yeah. And, and that's like, uh, that's a Google equivalent of office 365 for business.
+@39:35
+-
+Jobi Armstrong
+What, what do they charge for that?
+@39:37
+-
+Patrick Thomas
+Uh, it's not honestly, it's really not that much.
+@39:41
+-
+Jobi Armstrong
+I was thinking it was like five or six bucks or something. It's not much. Uh, maybe they raised the price a little bit, but I don't think it's over 10 or 12 a month.
+Yeah.
+@39:50
+-
+Patrick Thomas
+Cause we're paying like $23 a month per user to have office 365 business with the downloads. You know, that's what the desktop.
+I'll tell you right now. And then also it's good because, you know, we have 20, uh, we have 24 terabytes of shared.
+@40:14
+-
+Jobi Armstrong
+Like, like we have hardly scratched the surface. We have seven, we have almost 600 gigabytes of data right now, but we have 24 terabytes of available data of storage.
+So that's great. Yeah.
+@40:26
+-
+Patrick Thomas
+Cause yeah, that's absolutely insane. I'm a huge fan of Google workspace.
+@40:32
+-
+Jobi Armstrong
+I love their platform. I think it's great. You can like, I, I don't operate. Sometimes I operate in the browser.
+Like this is the browser view. Um, I don't know why it's bright. It's normally dark, but anyway, I moved it to, yeah, you could change, you could change that view, right?
+@40:47
+-
+Patrick Thomas
+Yeah, I can. It's just whatever.
+@40:49
+-
+Jobi Armstrong
+I moved to comment browser and my other browser wasn't like this, but anyway, let me, let me show you something.
+you something really quick. Uh, uh, what was I getting mad? Yeah. Oh, you can, because you can, so with Google, you can actually mirror it on your desktop.
+So right here, my, my Google drive is inside. So everything that's on the browser is also in my file system on my local computer.
+Right. It's just mirrored.
+@41:14
+-
+Patrick Thomas
+So I really liked that as well.
+@41:17
+-
+Jobi Armstrong
+Anyway, so here's the, yeah, let me go. They don't have like a desktop thing for a desktop app for, for mail.
+@41:27
+-
+Patrick Thomas
+You use their, you use their.
+@41:31
+-
+Jobi Armstrong
+I, I do not use, I, sometimes I use their web browser mail, but most of, I actually ported it into Outlook, so I'm an Outlook.
+Yeah. Cause yeah, we're an Outlook, we're Outlook users too.
+@41:41
+-
+Patrick Thomas
+So. Yup. So you pay for a desktop, uh, Outlook app. So how are you getting that? Are you just buying that or are paying for that subscription wise?
+Well, I also pay for a family subscription of, of, of Microsoft family or whatever.
+@41:57
+-
+Jobi Armstrong
+So I get Excel, I get Word, I get all that stuff. I forget what that's. That's not too bad if you buy it annually.
+@42:03
+-
+Patrick Thomas
+You're using the personal Outlook for family, and then you're bringing in your workspace to it. Correct. Okay. All right.
+The reason I like Outlook is because you can bring multiple different mailboxes into it.
+@42:18
+-
+Jobi Armstrong
+So I have my personal, I have my Gmail personal, my Gmail work, and I had another Proton address hooked up into it as well.
+@42:27
+-
+Patrick Thomas
+Right. I have all my emails coming into Outlook as well.
+@42:31
+-
+Jobi Armstrong
+So let me go to billing, I'll go to subscriptions, and let's see, let's view the invoice here.
+@42:38
+-
+Patrick Thomas
+I'm the admin.
+@42:40
+-
+Jobi Armstrong
+So yeah, 181 bucks a month is what we pay right now. It's really cheap. Great. But how many people are using, how many emails addresses do you have for that?
+We have one, two, three, four. Yeah, so you'd be paying, it's like 18 bucks, right?
+@43:09
+-
+Patrick Thomas
+If it's $189, $180? Yeah, yeah, something like that. So it's a little cheaper than, it's a little bit cheaper than Outlook for business.
+It's $5 cheaper. Yeah. Man, I like the 24 terabyte. Is it quick? Well, mirrors it, so that would be quick.
+You know, that would take care of the other issue that I'm concerned about, because we're running on like for, you know, just storing stuff for the, like storing files.
+We're still doing like shared, like eight terabyte, I've got like two or three of them, eight terabyte, seven, eight terabyte external drives.
+External drives. External drives, yeah. I like Microsoft.
+@44:02
+-
+Jobi Armstrong
+Don't get me wrong. I still use Excel. I still use Word documents. I prefer Google just because it's literally in the cloud and it's automatically shared.
+You can do cloud with Microsoft now, but remember how you used to have to save a freaking spreadsheet and send it over, then they'd have to save it, and then send it over, and then you just have to work back and forth.
+@44:24
+-
+Patrick Thomas
+Yeah. There's none of that in Google. It's just, it's live.
+@44:27
+-
+Jobi Armstrong
+It's live, and if I edit it, you see it immediately. You can literally see me, and they're working. Now, obviously, Microsoft is caught up, but I use Excel because cloud is built directly into Excel, a little bit better integration than it is into Google Sheets.
+It still works in Google Sheets, but building a complicated spreadsheet, I will use Excel all day, every day, and then transfer it to a Google Sheet.
+Okay.
+@44:55
+-
+Patrick Thomas
+That's interesting. That's interesting. Let me pull up a . Yeah, got a five terabyte Google Drive just from doing that, that YouTube deal where they had for $19.99.
+I got, I got ad for YouTube, five terabyte Google Drive, and then I got the Gemini. That's, that's awesome.
+@45:25
+-
+Jobi Armstrong
+So Claude, Claude's over here, and it's literally just built into Excel. Obviously I'll log in because I haven't logged in for a while.
+Oh, that's clean.
+@45:37
+-
+Patrick Thomas
+So it's just a tab. Yeah, it's literally just a tab and, and I create a skill.
+@45:43
+-
+Jobi Armstrong
+So continue. I created a skill and you can actually see your skills in here. If you, if you slash command, I created a DHC skill project hacker update.
+If this is a blank spreadsheet, I create that skill. I drop in, um, uh, frontิmer..athactor? No, don't know the, in Thank
+What I do is I drop in my estimate, I drop in the plan set, and I drop in any other relevant documentation per the job site.
+But the plan set and the estimate are definitely required for this skill to work. And then you just forward slash DHCProjectTracker, and then this is what it builds for me.
+So you have a read me up here, and it'll build it just like this every single time. It's structured to build it like this every time.
+So you come over here, and it gives you what's going on for the project, the project overview. So it's the read me page.
+And you got the phase summary, right? So you have the schedule, and you can come down here. Everything's drop tab, and it has the Gantt view, the Gantt chart over here.
+Right. And then you have your detailed schedule over here.
+@46:52
+-
+Patrick Thomas
+It just gets more detailed. You have your inspection schedule.
+@46:54
+-
+Jobi Armstrong
+You have your payments draw. You have action items that might be pending. Whether they're critical, low, and then you have your project info back here with your subcontractors and everybody that's in charge of the job.
+There's also CSI tabs and CSI division tabs and subcodes right here, because this is how our estimates work off of the CSI codes.
+So that's kind of what I work off of, and obviously I know that your software probably puts this into an easier way to operate from.
+I haven't logged into your software yet, but I need to. Yeah, that'll just be running locally on your system.
+@47:33
+-
+Patrick Thomas
+I just want to see if can get some ideas from it. Like I said, that software has been built over like 30 years, and it's behind right now as far as interface and things like that.
+But, you know, I got a couple of programmers, and I got some friends that are good vibe coders to figure out how to get it to the next level.
+Yeah. You know what I mean? Absolutely. And we actually have an inspection. You We haven't done much with it.
+We have, I don't know, not a whole lot of users, but we have an inspection report program that's a desktop program that these guys call in and buy reports every so often.
+We'll sell them like 50 or 100 at a time. We sell them the reports. But that's still a desktop program.
+I'm just wondering if I could, you know, point the LLM at the source code file and go, hey, you know, re-engineer this and let's, you know, make it like a web app.
+You know, I don't know if it has the ability to do that or not. I would like to try because I don't think there's a lot, a ton of code in that program, but there's, there's, there's some.
+Awesome.
+@48:46
+-
+Rick Rodriguez (rickr1@gmail.com)
+So it looks like we have a new member here, Johannes Lombard.
+@48:51
+-
+Patrick Thomas
+Hey, Johannes, welcome. Hey, guys, how's it going? Tell us a little bit about what you do and what you're working on.
+@49:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, so I've been vibe coding for quite a bit now.
+@49:05
+-
+Johannes Lombard
+I'm currently building some solutions for the marine canvas industry. I'm specializing in building solutions for the CAD side of it, and connecting to others, you know, CAD softwares and so on and so forth.
+And yeah, that's basically it. And then I have a marketing company as well. But yeah. Are you using agents for CAD, like to like help with designing elements inside of CAD using agents?
+@49:33
+-
+Jobi Armstrong
+I'm basically replacing and building systems to replace employees for full workflow.
+@49:42
+-
+Johannes Lombard
+So basically, like boat cover, being able to do everything through the dashboard interface that I've built. Nice, nice. It's pretty cool.
+It's fun. What's your stack?
+@49:55
+-
+Patrick Thomas
+are you using? I'm doing Claude and Codex. Let's go. Let's
+@50:00
+-
+Johannes Lombard
+Both with a GitHub handoff, because one does certain things better than the other one, especially when it comes to complex mathematical equations.
+And then I have that tying in directly to the CAD software as well for basically checking everything that I'm doing.
+Nice. MCE connected?
+@50:22
+-
+Patrick Thomas
+Or does it have a connector? Connector. I've manipulated a little bit to make it work.
+@50:31
+-
+Johannes Lombard
+Fusion 360, or what do you want for CAD? Rhino. Okay.
+@50:40
+-
+Jobi Armstrong
+Yeah.
+@50:40
+-
+Johannes Lombard
+Rhino, Grasshopper, and SolidWorks. Nice. Yeah, I'm going for all of them, but it's fun. Because the cool thing is I have access to CAD people that I can reference for making sure the logic is sound.
+And then they're also testing basically every kind of The application that I'm building and making sure it can be utilized for, you know, the day to day tasks, but I'm, I'm taking four to six hour tasks and I've gotten them down to like 30 seconds.
+Um, it's, it's very cool.
+@51:15
+-
+Patrick Thomas
+I love it. Yes.
+@51:16
+-
+Johannes Lombard
+Well, being able to have a niche and then just dial in the niches is where it's at.
+@51:21
+-
+Jobi Armstrong
+so cool. Yeah. It's, and I mean, my biggest problem is I'm obsessed with it.
+@51:26
+-
+Johannes Lombard
+Like everybody on this call, I'm, I'm just having a whole bunch. of fun. Um, the problem on that side is I'm building too much value that I am, you know, I'm, I'm employed by them to sort of touch base on a whole different other software.
+And then I started doing this for fun and, or just to see what, what I am capable of doing.
+And now this has turned into its own business and own thing. And, um, the company is basically one of the biggest.
+Shops in the world, and they now want to take what I'm building and sell it to all the other canvas shops that exist.
+How are you going to get around that?
+@52:09
+-
+Jobi Armstrong
+You know, license it yourself or what? Well, at the moment, at the moment, I'm the only one with access.
+@52:16
+-
+Johannes Lombard
+And at the moment, I'm the only one that has any file of any sort in any way or form.
+They've only seen what I've built. Is it on your computer or their computers? Yep, mine. Okay. But that's, I mean, I don't know you guys from Adam, but I've actually been on a call before with Patrick, and Patrick seems like a really good guy.
+And John, you know, everybody's just very open with each other, and everybody gives really good advice. So me just, you know, me just being straight off that, I'm sitting with a bit of a catch-22 with the owner right now, because I'm building this whole crazy solution that is, it is going
+He's to eventually replace his employees that he's got currently, but then now he's seen the value in that, and now he wants to go worldwide with what I'm building, and he has the reputation to be able to, you know, be like, hey, here's this thing that we built where he's always been technology forward in the industry.
+Yeah. So, you know, he's bringing that value to the table, but I'm bringing what I'm building to the table.
+And now I don't know how to make the split. Get a good lawyer. Yeah, lawyer, partner up, create a bigger company.
+Yeah, it's just difficult because he's, he is a good human that, you know, he gave me a job when, when I needed a job.
+If I have to be like, before I became an American, he gave me a job. And now I'm African American, because I'm from South Africa, and now I'm American, even though I'm white.
+@53:56
+-
+Patrick Thomas
+But, but it's my running joke. Yeah. Yeah. Yeah. But long story short, now I can do whatever the heck I want.
+@54:05
+-
+Johannes Lombard
+I still have my marketing company where I specialize in SEO and all of that kind of side of things.
+But this stuff is just way more fun because it's like you're literally building solutions that is something that would take somebody four to six hours and it would take them doing such mundane tasks of labeling.
+But then the other element of it, the math is just absolutely 100% accurate every single time. If you can instruct it properly, it will build it.
+And that's the part, you know, I'm a really good architect, if you want to call it that. And I'm really good at understanding their problems and how to fix them.
+And yeah, that's just the, that's my favorite thing in the world. It's the same reason why I have a marketing company, because I can walk into any business, doesn't matter what it is.
+And I specialize. So.
+@55:00
+-
+Patrick Thomas
+Like marine businesses, and I can see the problems, I can design the solution, I can fix it, and off we go.
+That's great. You know, I think it's, I don't know, I don't know about license, there's a way you can license or copyright what you've done.
+So I mean, somebody can always reverse engineer, but you only have it on your computer. But at least that way, if you're going into an agreement with your guy that was fair with you, and if he's a businessman, he'll understand that, you know, it's like, and he'll probably want paperwork too.
+@55:35
+-
+Dr. Todd Fisher
+And, you know, when you reach some kind of agreement, so just partner up.
+@55:40
+-
+Patrick Thomas
+That's what I'm busy working on today.
+@55:42
+-
+Johannes Lombard
+Ask your, ask your AI too. I did.
+@55:45
+-
+Patrick Thomas
+And it's, it's protecting me a whole bunch, maybe way too much, because it likes me.
+@55:53
+-
+Jobi Armstrong
+They tend to do that. Yeah.
+@55:56
+-
+Johannes Lombard
+And, and, and that is my other problem because.
+@55:59
+-
+Patrick Thomas
+Yeah.
+@56:00
+-
+Johannes Lombard
+Again, he's like 75, but he's one of the most hardworking people I know. I mean, for the other software that we're building that is going to run his full production side in the sense of, you know, he was making all these really custom products and it runs full production for that.
+And I've helped and advised on that software. He's working seven days a week from six to six every day.
+I mean, this guy is a machine at his age. Which is, you know, that in itself is just like, he's amazing, but in five, 10 years, he is going to retire.
+@56:39
+-
+Patrick Thomas
+So, you know, it's those elements as well. And what I'm building is future proof and it is employee proof, which is the other caveat to it.
+@56:50
+-
+Dr. Todd Fisher
+Right. I got a question. How many employees would you be replacing?
+@56:54
+-
+Jobi Armstrong
+And from a morality standpoint, does that affect you at all? No.
+@57:00
+-
+Johannes Lombard
+Because I've thought about that because I'm a good person, the CAD people that I will be replacing, or not replacing, the CAD people that I would make it so that instead of them manually doing a whole bunch of stuff in CAD and Rhino and whatever else, I would make it so that they can give the inputs in my dashboards because there's a lot of specifics because it's a custom manufacturing business.
+So there's so many different elements to it, I fixed that the input file in the beginning is coming out perfect and I've, like there's a software called Photo Modeler, which is like a software that takes a photo from, you know, 20 feet in the air, and you lay a Canvix plastic patent on the floor, and it takes a photo and it can do exact CAD drawing of that software with that, you know, photo, where you configure whatever camera that you use, so that it's, so 1 16th.
+Is that, is the error on it for taking that photo and getting accurate measurements. So that software is like a thousand bucks a month, a year.
+I've replaced that software. Mine works better than that one can ever dream of doing. Then there's Rhino where now I'm building all these elements that they don't have to go into Rhino and measure anything or do anything.
+Everything is getting done in my dashboard. The only thing that these CAD guys are doing now is they're sort of double checking the output in Rhino, but that is eventually going to fade out as well where Rhino is extremely expensive.
+So the point that I'm making towards being ethical is at the moment they're processing their own company files. I'm going to give them a capability to process everybody's files and they will just check it at the end.
+Okay, so you're elevating people rather.
+@58:58
+-
+Jobi Armstrong
+Exactly. Giving them crazy new amazing tools.
+@59:03
+-
+Johannes Lombard
+I'm cutting out all the mundane, you know, manual tasks that you had to do. I'm inserting 100% accurate math in everything that gets done and the math gets double check and like, even simple things on like, you know, they use different kind of foams in different kind of applications, but they'll do like hybrids.
+And based on the thickness, it gets a certain amount of compression, where, you know, this company's installing products on multimillion dollar yachts on sports fishing boats on every single boat that you can imagine, is what they do.
+So my math is better than what they can ever do manually. But the dashboards is actually showcasing that math.
+And then on the back end side of it, every single thing that gets produced by my software, I log, and then it can learn from all those different variants that gets done, so that when the the
+So new project comes in, it has better logic and it can give better suggestions towards what they should apply.
+Nice.
+@1:00:08
+-
+Jobi Armstrong
+So that is not employee dependent.
+@1:00:11
+-
+Johannes Lombard
+That is not, you know, employee comes in hungover or sick or whatever it is. That doesn't matter. The tool is always 100 percent accurate.
+The tool is always forward thinking in how can we adopt what we've learned? How can we can apply it to be so we can produce a better product?
+Yeah. So there'd be like cat inspectors.
+@1:00:34
+-
+Patrick Thomas
+They're just going to elevate to that inspection and Q&A and all that just. Exactly. And the funny part to me is, you know, I'm South African.
+@1:00:44
+-
+Johannes Lombard
+I come I literally grew up in the bush in South Africa in the Kruger National Park, which is like the biggest game reserve in the world.
+But I've, you know, I I've been in tech since I was like a kid. built computers when I was like 12 years old, fun for businesses.
+Yeah. And the funny part to me is I'm seeing people try and touch what, you know, on this CAD side, and I'm seeing what they're like trying to show as solutions.
+And it's horrible. I mean, they're scratching the surface, they're doing like, how much fabric that I use on this, you know, thing that I'm busy creating.
+There's no like, mathematical logic, there's no input logic, there's no export logic, there's no nothing. It's, it's, I don't know.
+That's cool, man. And you can tell you're super excited about what you're doing.
+@1:01:36
+-
+Patrick Thomas
+So that makes it even better, because it's really that it's not working at that point. Yeah, I'm not sleeping.
+@1:01:42
+-
+Johannes Lombard
+And, you know, I'm just like down this, just like everybody here, because Patrick, I've I know you never sleep as well.
+@1:01:50
+-
+Patrick Thomas
+And who was it john that was on the call the other day? Oh, john, john never sleeps. Oh, I love john.
+John is amazing. And And
+@1:02:00
+-
+Johannes Lombard
+In the sense of, I think like John, where he's a peer architect as well in the sense of the way his brain works.
+And, you know, I know that guy is never sleeping. He sleeps like five hours like me. Were you on call today?
+Did you see his?
+@1:02:16
+-
+Patrick Thomas
+No, I missed it. Oh, my God. He brought this project up. None of us had seen it. Which one was that?
+We were waiting for him to bring up the token thing or the other one. No, he brought up this whole thing with language.
+mean, that's it. Yeah, he's the greatest scientific language. Oh, it was crazy. Did you all record that today? Yeah.
+Yeah, it was recorded in Fathom. just, oh, my God. Okay, nice. Where can I get that video? Because I love what he's doing, and he's inspiring me to do way more on my side.
+@1:02:51
+-
+Johannes Lombard
+He inspired me about this contractor compliance program.
+@1:02:54
+-
+Jobi Armstrong
+I got the idea from him. I mean, yeah, he's very, very awesome. Yeah. So in class.
+@1:03:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+You can go to the Guild Archive and have it split out into Coffee Hour and Spark Sessions and every date, every month, and then the date that the meet goes on.
+So you can download it right there. I'm downloading all of it because that thing that he showed in the last call where it hunts the data and enriches.
+@1:03:24
+-
+Johannes Lombard
+So that sparked like a whole nother business in my mind because we have all these yacht brokers and all these things, but I have all the boat data.
+And I have, you know, basically what I'm seeing in my mind is like the journey of these boats. And as they go through their life cycle and as they switch from one owner to the other owner to the other owner, and I have so much of that information already.
+So then I can just go in and enrich that data and just create this insane profile of value.
+@1:03:55
+-
+Patrick Thomas
+It's, it's, yeah. So I'm busy with that as well on the side that nobody really knows about. But whatever
+I said, you guys, because everybody here is fun. Yeah, yeah. That's what we say here, man. You got to have fun doing this kind of stuff.
+And we try to make it as fun as possible.
+@1:04:10
+-
+Rick Rodriguez (rickr1@gmail.com)
+And everyone is so great with brainstorming and giving each other ideas and helping each other. It's a true community.
+Yeah. It's not just like follow this path and you'll become rich. Like 99% of everything else out there. Yeah.
+@1:04:26
+-
+Johannes Lombard
+And the other thing that I will say that I'm taking away from like seeing what everybody is sort of building and what they're into and so on and so forth is just, you know, nobody is sleeping because everybody knows you got to go as fast as humanly possible.
+So nobody can catch you. Yeah. Because when people figure out how powerful this stuff is.
+@1:04:46
+-
+Patrick Thomas
+Yeah. Yeah. Because they have more money than we do. Yeah. You want to be way ahead of the game because at some point, I mean, this stuff is growing exponentially.
+And I just have no idea where it's going to end up. So can you guys just sort of introduce yourselves and what you're up to?
+@1:05:05
+-
+Johannes Lombard
+Because, you know, Jobi, I don't know you. I don't know. The only one I've seen before is Patrick, and you've been doing some cool things, but I don't know much about everybody.
+@1:05:15
+-
+Jobi Armstrong
+Yeah, man, I live in Denver, Colorado, and I'm a contractor builder by heart. I've been doing building houses and telecommunications.
+I did telecommunications in Denver for 11 years, but I'm an operations manager at my brother's company called DHC Dream Home Creations for the last, since Vibe Coding came out, since the inception of ChatGP, I have been using it to stream.
+Streamline workflows for the company and do automations to further, you know, just make everybody's life a lot easier. And now I'm building platforms.
+I don't know if you were on here when I was showing the poll, the permit platform. It's called Pold.
+She's building platforms to help contractors streamline productivity for their everyday tasks, mainly in the construction industry. I would love to see the platform that you're building.
+And then I have another question because I can't help it.
+@1:06:16
+-
+Johannes Lombard
+I love helping people. Do you know of a product called CompanyCam? No, I don't. What is that? So, again, I have a marketing company, but I love helping every single company there is.
+There is a product called CompanyCam for your accountability aspect of what you're doing, for training any new staff member, for, you know, when you get to the job site, here is your task list of, even before they leave for the job site, here is your task list of all the tools that I needed back because you're going to go do this kind of job, you know, you, it will implement all of that.
+But the biggest thing that It does, and this is the simple but, you know, beautiful part about it, is it does it so that what is one of your biggest issues?
+Your employees take photos of the jobs that they've done and, you know, whatever that they're doing on the job site, and you struggle to get those videos and photos of their phones.
+Yeah, that's it.
+@1:07:22
+-
+Dr. Todd Fisher
+Yeah, I'm looking at it. Wow.
+@1:07:25
+-
+Patrick Thomas
+So this thing will transcribe your phone calls.
+@1:07:29
+-
+Johannes Lombard
+It will make it so that if your employees are using it to take photos on the job site, you can send the customer the before and after photos, depending on what you're doing, or you can go like, okay, well, we're having an issue with this site, you know, a plumbing issue or whatever else.
+You can share only the selected photos with the customer. The storage is unlimited. The video storage is unlimited. It geotags when they get to the job site, when they take.
+The photo, so you can use that for like logistics purposes as well. And you can even take payments of whatever things through that, the platform.
+It's, it's the most simplest, easiest, and I've got what, like 15 clients using this. It is, they all love it, especially because it makes it so that you don't have anything on the employee's phones.
+@1:08:24
+-
+Jobi Armstrong
+You know, I have heard some, there's some influencers, some contractor influencers, they have referred this product. I will definitely look back into it.
+It will change your business.
+@1:08:39
+-
+Johannes Lombard
+I've got one client is a, a yacht painting company. So they do like million dollar paint jobs on yachts.
+Um, I mean, they're obsessed with it because everything on a yacht is so, you know, there's a scratch, there's a ding, there's a, you know, this, the paint didn't settle properly in this.
+know, there was a hair in it or whatever it is. So it's so detailed oriented on that side. And this thing just eats all of that up.
+And again, also for the other aspect of your business on the accountability standpoint, like I've got another client that they do tinting, window tinting.
+So they can take before pictures and they can prove that there wasn't a scratch on the glass when they started.
+So the customer can't blame that they scratched it while they did the installation. But then they can also send the after installation photos so that that customer can easily see the work that they've done and approve the quality right then and there.
+Now, scrolling down on the pricing page and they have an add on for it's called Marketing Suite.
+@1:09:47
+-
+Patrick Thomas
+They charge $79 a month. They do social posts for you, Google Review Management and two-way Google Business profile sync.
+Yeah. It ties into your GM, so I do SEO, so it ties into your GM.
+@1:10:00
+-
+Jobi Armstrong
+All the photos are geotagged for SEO, and especially if that's then posting on your Google Business profile, it's just giving you so much authority.
+@1:10:10
+-
+Johannes Lombard
+It's absolutely amazing. Nice.
+@1:10:13
+-
+Patrick Thomas
+I might be picking your brain on that because I'm just scratching the surface trying to do SEO for our company and the Google Business page.
+ACTION ITEM:
+Email Johannes: company email + 3 competitors for SEO audit -
+WATCH
+So let me just do this.
+@1:10:26
+-
+Dr. Todd Fisher
+Send me your company email, send me your three biggest competitors, and let me just have my guys run a full audit for you and I'll send it back.
+@1:10:34
+-
+Johannes Lombard
+That's for everybody. Anybody that wants it, just send it. I love this stuff.
+@1:10:39
+-
+Patrick Thomas
+It won't cost you a cent. And I'll help you with a strategy as well of how to beat them.
+ACTION ITEM:
+Send Nexus invite to Johannes -
+WATCH
+Like, that's my favorite thing in the world. I like chess. Nice. Have you joined the Nexus and the Builders Guild?
+I joined the Builders Guild? I think, let me get you an invite for the Nexus here. Okay.
+@1:11:06
+-
+Rick Rodriguez (rickr1@gmail.com)
+You can, you can put all of your social media in there. You can all, your, your applications, your repos, your contact, wins and stuff like that.
+It's really cool. Okay.
+@1:11:19
+-
+Johannes Lombard
+Can you? Yeah. I don't do a lot of like social, like, this is what I've done. I'm, I'm too busy in the rabbit hole.
+@1:11:29
+-
+Patrick Thomas
+Like I think most people, I'm busy building. This is my email in the chat. If you are out, if you want me to just email you through Profit Boardroom, I'm going to email you directly.
+Uh, I'll, I'll give you mine. It's just Joe at all react.
+@1:11:44
+-
+Johannes Lombard
+Um, I, I keep things low key on that side. Cause I'm like selective with the clients that I take on.
+So it's that way I can choose where I want to put my focus. And I've got like this moral thing of not doing more than one type of.
+Business in whatever niche, but it makes it kind of cool because then I, I can basically, you know, learn about every kind of business, which is the coolest part.
+@1:12:13
+-
+Rick Rodriguez (rickr1@gmail.com)
+So in the Nexus also, if you want to, if you like helping and you want to help people in any particular app or tool or anything like that, you'll list your, your expertise in different things and your snack and stuff like that.
+So when people want to come in and learn about rag systems, or if they want to learn about GitHub or something like that, they can ask, there's a, a concierge in there that's AI driven and you can ask the concierge, Hey, who knows how to do this?
+And it'll bring up every person in the directory that knows how to do this and you can directly email them from the app and ask them for help on stuff and collaborate and go back and forth.
+So it's, it's really nice. That's very cool. Yeah. Like I said, that's my problem. I like helping people too much.
+@1:12:58
+-
+Johannes Lombard
+Thank you. That's a good quality.
+@1:13:01
+-
+Patrick Thomas
+That's great. That's a good trait. Like our saying, you know, never quit.
+@1:13:05
+-
+Johannes Lombard
+And every hand you lift, lifts your own. Yeah. And the last person I worked for, his favorite saying was, if you know where the bottom is, you know which way is up.
+And his name is Terry Pegula. He owns the Buffalo Bulls and he owns the Buffalo Sabres.
+@1:13:29
+-
+Patrick Thomas
+Yeah. But self-made. His parents never owned a house. He had to hitchhike to get to public school in Buffalo, New York.
+@1:13:39
+-
+Johannes Lombard
+Wow.
+@1:13:40
+-
+Patrick Thomas
+And yeah, he basically came from absolutely nothing.
+@1:13:44
+-
+Johannes Lombard
+And then he's in the oil and gas industry. And then he started working for a guy in the oil and gas industry.
+And they started making a lot of money because he was really good at, you know, analysis and all that kind of stuff for exploration.
+Right. And so on and so forth. And the owner of the company just kept buying fancy cars and whatever else.
+And he's like, you can't do this. You're taking money away that we need to build this company. And then he borrowed money from his friend, his friend's mom, dad, whatever, started his own company, brought his friend.
+And 10 years later, he sold a piece of it to BP for $1.3 billion. And he owns the Buffalo Bills.
+@1:14:26
+-
+Patrick Thomas
+I got Josh Allen on my fantasy football team, man.
+@1:14:30
+-
+Johannes Lombard
+So I had the quarterback for the Buffalo Bills on my fantasy football team. Yeah. So I used to work on his yacht.
+@1:14:35
+-
+Patrick Thomas
+I'm like, I'm probably the biggest jack of all trades that you'll ever meet because I like learning.
+@1:14:42
+-
+Dr. Todd Fisher
+So I can like paint, I can varnish.
+@1:14:45
+-
+Patrick Thomas
+I have a 500 ton captain's license. I used to captain 160 foot yacht.
+@1:14:50
+-
+Johannes Lombard
+But, uh, uh, had a kid and I was like, I want to be home. I don't want to be gone for three months at a time.
+And so I just pivoted. Um, but yeah. Wow.
+@1:14:59
+-
+Patrick Thomas
+I, I, I actually worked, I went to school to be a mechanic before I got into computers. went back to school for computers when I was 30, but I went to Arizona Automotive Institute in Phoenix in the early 80s, and I got a job at the San Diego, I got a job for a company, and they maintained all the yachts, a lot of the yachts in San Diego.
+Okay, yeah, yeah. I know people in San Diego. San Diego Yacht Club, and man, we were doing like oil changes on those little atomic Ford to diesels in the sailboats and stuff.
+We'd have to drag our toolboxes down. I was doing that, was like 22, 23 doing that stuff. So they had people that washed and cleaned the boats, people that installed stuff, and then the mechanics that go and do oil changes and maintenance and stuff like that.
+So I did that for a while. That's quite a niche industry, man. It's interesting. Yeah, I got an education.
+I an And everything's so expensive on the boats, man, because it's got to be all stainless and heat, and you can't, you know, you're not using screws from Home Depot on a boat, you know?
+You're definitely not. Yeah.
+@1:16:15
+-
+Johannes Lombard
+This was the last boat I was on. I'll send it. This is Mr. Peguelo's boat. But anyways, my cousin still captains it.
+But yeah, it's, I think it's a $190 million boat. So I went to Holland, I did, this is just before I left Yarding, but it was, basically, I did the last six months of building this boat, and then I left Yarding.
+Wow.
+@1:16:46
+-
+Patrick Thomas
+But yeah, it's, it's, it's fun.
+@1:16:49
+-
+Johannes Lombard
+It's, it's having, it's nice having money with no limits.
+@1:16:53
+-
+Dr. Todd Fisher
+Yeah, no kidding.
+@1:16:55
+-
+Patrick Thomas
+That's nice. Yeah. Wow. And And it's.
+@1:17:00
+-
+Johannes Lombard
+The people are also absolutely incredible. Like I said, Mr. Petula Terry, he's the most down to earth billionaire that I've ever met.
+And I've met quite a few of them. Like even when he bought the boat, they never knew that he had the money that he did because he didn't have the fancy Rolex.
+He didn't have the fancy anything. He just showed up and he's like, hey, can I tour this boat? And they barely let him on the boat to not this one, the previous boat.
+They barely let him on the boat to like even view it. And then in a week, you're on the boat.
+Yeah. Wow.
+@1:17:43
+-
+Dr. Todd Fisher
+Yeah. Are you living in New York?
+@1:17:46
+-
+Patrick Thomas
+No, West Palm, West Palm Beach, West Palm Beach.
+@1:17:50
+-
+Johannes Lombard
+I'm in the new New York.
+@1:17:51
+-
+Dr. Todd Fisher
+New New York.
+@1:17:54
+-
+Patrick Thomas
+That's the natural migration. Yeah. New York to Florida. I lived in Fort Lauderdale. I've Lauderdale for three years. Yeah, Lauderdale's okay.
+Yeah, it was nicer in 1979.
+@1:18:07
+-
+Johannes Lombard
+Yeah, yeah, that's five years after I was born. Yeah, well, I'm old man, you know.
+@1:18:18
+-
+Patrick Thomas
+Lauderdale is good. It's a lot of fun. Yeah. So what is everybody else doing? Sorry, was spending a lot of time up with yachts and boats and crazy rich people.
+@1:18:32
+-
+Dr. Todd Fisher
+So am I saying it right? Johannes? Yeah, Johannes. Well, my friends call me Hinty, but nobody can say that.
+@1:18:39
+-
+Johannes Lombard
+So I do business by Johannes. Johannes.
+@1:18:42
+-
+Dr. Todd Fisher
+Okay, well, I'll try that one, see if I can handle that one.
+@1:18:45
+-
+Johannes Lombard
+So anyway, my name is Will Fisher.
+@1:18:48
+-
+Dr. Todd Fisher
+And I started out insurance, but that wasn't my thing. But then I sold hardware and software for, it's an older company.
+now we did mainframes and stuff. Check processing for Unisys. And so I like hunting. That was kind of my first love of finding big clients to go hunt and get them to do technology stuff.
+But then I got out of that and then went back and got a doctorate in psychology. And so it's this AI thing is just amazing.
+Like I was never a programmer, but man, I'm programming all kinds of stuff now. And so it's just amazing.
+And so I've, I've done some stuff for music in terms of like song creation and rhyming and I'm just kind of playing around with some of that.
+And then I've done, um, my dog's going to freak out. There's another dog around here. Um, now I'm getting into more marketing stuff like you're talking about and trying to, you know, do posts and, you know, to get more, uh, likes and stuff.
+So, because basically, uh, I've got some friends. Friends that are into AI and stuff. hopefully within the health, specifically in mental health, those organizations are, you know, working on technology and formats that are just older and that AI can really help them.
+So with my little bit of technology project management slash sales, hopefully find some gigs that we can help some businesses out.
+That's what I'm working on now. Well, if you want to chat, I have a psychologist as a client. Well, psychology, like I said, I'm a jack of all trades.
+I've got basically every kind of company under the sun.
+@1:20:36
+-
+Johannes Lombard
+Not everybody, but I got a lot of companies in every field. I think there's some neat stuff in psychology and AI that can be explored and doing it safely.
+@1:20:46
+-
+Dr. Todd Fisher
+And that just not exactly, you know, it'd be cool to have another guy that's thinks like me that we can maybe come up with some ideas that would be, you know, good to market.
+ACTION ITEM:
+Email Johannes re: mental health AI collaboration -
+WATCH
+So I'd love to talk to him. Thank you.
+@1:21:00
+-
+Johannes Lombard
+Yeah, just shoot me an email, and let's touch base. Sounds good. Thank you. I love this stuff. It doesn't matter in what form it comes.
+Yeah, I'm just kind of – I'm not even sure what it's going to look like yet, but I just am positive that it's going to look like something pretty neat that I didn't even maybe think of before.
+@1:21:17
+-
+Dr. Todd Fisher
+I can help on the marketing, but also the psychology side.
+@1:21:22
+-
+Johannes Lombard
+So I think not to, like, toot my own horn or anything like that. We have some very smart people on this call, but the one thing that I think that I'm very good at is basically stepping into any business, analyzing the problems that they've got, and then figuring out systematic solutions on how to fix those that they can – you know, what's the first one that you should prioritize, and then so on and so forth, getting all the way there.
+And then, obviously, money and all those kind of things are always, you know, an aspect of it, but as long as you can find all those solutions or all those problems, you can figure out
+What is the first one that they should prioritize and so on and so forth and get to the end goal, if you want to call it that.
+Same thing as what we're doing with AI with all the things that we're building, right? We're finding problems, figuring out the architecture of how to, you know, fix it, and then what is possible today, what is hopefully possible in six months from now, because this is evolving like crazy, and then just going from there.
+Exactly. I mean, I'm seeing that on the CAD stuff that I'm doing more than anything else, because it's, it's extremely complicated math to do certain elements of it, or even for them to explain certain elements of it, but certain things I can already do 75% of it, and I need that human at that 25% last bit of it to get the final output.
+And so it's just where you do those handoffs, and I guess that's towards every problem that we're trying to solve.
+Absolutely. Absolutely. Absolutely. Nice. I agree. I'm just, my brain's, uh, just thinking about all this stuff.
+@1:23:10
+-
+Dr. Todd Fisher
+Yeah. Yeah. It's, it's amazing. Totally amazing. literally, which I've said that if you can think about it, you can probably, you know, with AI now you can come up with what, what that's going to look like and it'll give you ideas on how to do like, it's just frigging amazing that, uh, and with groups like this, you know, comes up with ideas that I didn't even think about.
+So that's, what's great about this one. So, so thank you. Tom, what are you up to?
+@1:23:36
+-
+Johannes Lombard
+Cause I, I know you have a big brain. I saw a little glimpse of what you did last time that inspired John, but I never saw what you were actually doing.
+Oh, Patrick. Sorry.
+@1:23:51
+-
+Patrick Thomas
+Uh, was that showing? Oh, uh, I was showing him. Let me pull it. That was in Grokbot. He got inspired on the VPS, yeah, the VPS, I'll show it to you because VPSs are pricey if you're going to just Yeah, so I caught the back end of that conversation where he's using the $20 a month GrokBot, but how is he actually using it to like cut down token usage?
+@1:24:21
+-
+Johannes Lombard
+He is, he is using, let me pull over my, he's using Claude, let's see.
+@1:24:32
+-
+Patrick Thomas
+Oh, you know what, I can grab it from here. I created, this is this tech links. I have my own internal webs.
+These are these links I created. have my own web server that I keep all my projects on. Yeah. And so this is, I have the, the, this is the boardroom tech links, and then I created my own because I'm always wondering where I'm at.
+Yeah, I think I need to build what you're building. Yeah, so this is cursor. Sure. Sure. And, like, he was working, like, he was having his cloud agent somehow because this is, it's connected into GrokBot here.
+Yeah. He wasn't actually using the desktop interface, which is what I use, but what he was using. So, like, this bot's busy.
+can see it's in the meeting. But, like, let me pick a different one. It's just, like, this one here.
+So it's just a Windows desktop. You know, it's got a browser. It's got a terminal. And it's got a file explorer.
+Okay. So each bot has its own machine. So, John, as I say, what are the CPU? Yeah, you said it was a four-core, 120.
+No, it's eight-core. Oh, eight-core. Eight-core was 16. Yeah, but if you ask it, just memory, CPU memory and disk space.
+Peace. For the, for your VPS. And it's not super fast. Like if you, if you, if you put that in a grok or, you know, grok build or Claude, it would, it would have already came back and answered, but it's new as well.
+It's new and it's sharing and it's sharing one VPS between, between all the bots. And I've actually only got four that are active.
+These, and this is another thing. like these, I downloaded off of somebody shared them. as templates. Okay. So you, any, any bot that you create that has rules and things like that, you can create a template.
+And then I think it'll strip out like all your personal stuff. And it'll like, if you have, like, you could probably even create a template out of your, of your chief of staff and share it with whoever you want.
+So see, it's eight cores on a Xeon processor, 15 gigs of RAM, what is it, using one for no swab, what is it, about 1.2 GIV is free, so it's using 14, that's why, and 128 gigabytes of disk, but I'm using it for AI compute, where he's actually sending, he had his cloud code right, stuff right to the VP, right to the CPU, right to the VP.
+VPS, the CPU and memory code, rather than using AI compute, that's how he explained it to me. But how are you doing the handle from that to, toward code or codex?
+@1:27:42
+-
+Johannes Lombard
+That's the part that I didn't get. You, for, to, to use the VPS, I'm not doing that, John's doing that.
+@1:27:49
+-
+Patrick Thomas
+Okay. So we'd have to ask John, I mean, but I think he just, he just told, he just asked his cloud code to do that for him, I don't think he wrote the code.
+Hey, can you go back over there, what it said, told you? Right here?
+@1:28:08
+-
+Jobi Armstrong
+I just did the same thing.
+@1:28:12
+-
+Patrick Thomas
+Yeah, you should have the exact same thing. It's just weird. I just came up with different information. What did it say on yours?
+What did you get? I'm going to check mine, too. I said, what is your VBS capabilities, and what are you running on?
+@1:28:26
+-
+Jobi Armstrong
+And it said, this is a Linux VM, KVM, not a physical box, Debian, 13, 8 Intel, non-CPU, 16 RAM, 128 gigabytes disc, with 115 gigabytes free.
+No GPU, swap. Is that the same thing I said for you?
+@1:28:39
+-
+Johannes Lombard
+says the same thing, but I didn't ask it.
+@1:28:41
+-
+Patrick Thomas
+I just asked it, what's your CPU memory and disk? I was more specific. So it gave you all the information.
+see it down there now. Yeah, yeah, yeah. 128. Okay, yeah, it's down there. Yeah, it's the same information.
+@1:28:53
+-
+Jobi Armstrong
+But yeah, you get the same VBS on a $20 as you do on a $60.
+@1:29:01
+-
+Patrick Thomas
+So, but yeah, that's, you know, and when I ran out of space on this, I was actually using this to do stuff I was using GrokBuild to do, like posting stuff to the website, and it wasn't using the, it wasn't using like the built-in Chrome thing, the built-in VPS, and doing it that way.
+It was just, I would tell it, you know, go write my tech links, I'd have to go back and see, but see, and it does like, see the difference with GrokBot, see how this, and this one here, it was waiting for authorization, so it's, it's just like, it logs into stuff as you.
+That's cool. Yes. All right. I'm going to have to utilize that for my data enriching.
+@1:29:49
+-
+Johannes Lombard
+Yeah. So, yeah, there's just so much stuff, and you'll come up with that.
+@1:29:55
+-
+Patrick Thomas
+And then, like I was showing earlier, like, I just had that idea. This morning about wanting to leverage, you know, the, either the CLI or Grapa and I asked it, it'll tell you, I go, Hey, I want to do this for my IT clients.
+You know, what would be a better interface? Should I use bot or should I use build? And it says, well, you can use bot for your reporting.
+And then I got into build and it says, yeah, I got the skill where I can just do it and use this connector and go right in.
+And it just did it and created. So, so what kind of IT clients do you have? We have a route.
+We have this, we have this software called rapidestimator.net and we have active clients that have subscriptions with us and they're all over the country.
+And they're all, they're all over the country. And so I do support for them during the day. If they'll call in, if they can get to it through their program, or I can send them over here to my sports page and go click on this.
+And, and then I just start a remote session on their computer and then I'm on their computer and I can help them out.
+So if I have somebody that's a contractor that needed a site, a website, or needs help with IT work, you know, I'll say, you know, they're saying, yeah, well, we have this one company I was, they were charging them like $1,600 a month or something like that.
+was a bunch to just make, you know, for tech support and maintaining their network. And I go, yeah, I go, yeah, you know what, I go, I go, I know if you were spending a lot, but if you just want me to do like tech support for your guys, if they call me just like this, I can handle that.
+And I said, I'll do it up to four hours, four hours a month. And if you don't use it, I'll roll that over for three months and then you go back to.
+So I said, I'll charge you, I said, I'll charge you $400 a month to do that.
+@1:31:49
+-
+Johannes Lombard
+And they're like, yeah, well, I'll totally, yeah, we'll totally do that. Let's why not?
+@1:31:54
+-
+Patrick Thomas
+Yeah. So I, I asked the AI, I don't know if you saw it earlier. This is what RockBuild created.
+It connected to their Azure platform, created a summary report for whoever's paying the bill. They don't need to be technical, but they can say, hey, I have 17 enabled accounts, and I'm using all my licensing, and they can see who's plugged in.
+And I could probably ask it, too. You know, can you go in depth a little more and go to each machine and tell me which one, you know, date them, which one's the oldest?
+Is there one that's a archive that's full, something like that? So this is just the first thing you came up with on the first prompt.
+That's cool. Yeah, so if you ever really want to go down that rabbit hole, my brother is into all of that like crazy, crazy.
+@1:32:48
+-
+Johannes Lombard
+Oh, okay. Yeah, he works for a company in Canada. They do big like data storage, and then the tech support side of it.
+Like massive. Yeah, I don't know.
+@1:33:02
+-
+Patrick Thomas
+Yeah, I'm just, yeah, I'm just doing whatever I can. You know, I've been working out, I've been working from homes, you know, working for myself since like 2000.
+And so not making a ton of money, but I think with A, I'd like to like with these projects, like with these, like with the software projects, and, you know, it's like, you know, those companies that are like overnight successes, but you don't see the 30 or 40 years behind them.
+Yeah. So I want to be one of those companies, you know, I'm hoping that AI can push us up to that next level, you know, and so well, it's giving that time element that everybody's looking for, right, and automating the mundane, like we were what we were saying before.
+@1:33:48
+-
+Johannes Lombard
+And if you can do those two things, that equates to money.
+@1:33:52
+-
+Patrick Thomas
+Right. Which is the cool part. Right. Yeah, it's good value for you. Exactly. And then Rick, what about you?
+I don't know anything about you. Yeah, I'm an old timer.
+@1:34:06
+-
+Johannes Lombard
+It doesn't matter.
+@1:34:09
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I started out being a tape monkey for Avco Financial, and I got a job working 10-hour shifts, four days a week, where we had, like, I think we had, like, 15 or 16 of the big reel-to-reels, like you see in the old space movies.
+Yeah, see the things going in. Nice. Were they backup tapes?
+@1:34:33
+-
+Patrick Thomas
+Yeah, they were actually backup tapes for Avco Financial, their loans that they were processing every night. They'd process them.
+@1:34:40
+-
+Rick Rodriguez (rickr1@gmail.com)
+So at the beginning of a shift, I'd go and set up my rack with all of the tapes, and I'd just run around.
+I'd put my ghetto blaster on the top of the terminals, and I'd just run around all night just slapping tapes on there.
+And then at one point, they got a PC, the old Amber PC. we're just going there here. don't Yeah, I Yeah.
+are all It was just brand new, and they were showing me how to start it up and do polling with it and everything, and one of the guys goes, he goes, go reboot that over there.
+I I'm like, reboot it, and he's like, he's like, yeah, turn it off and turn it back on. So I went, flick, flick, like that, bad idea, it blew it, it blew, I blew their first computer up their first, you know, IBM PC, because they were running on mainframes initially, the IBM Jazz 2 and stuff, and blew that, and I'm like, oh, no.
+@1:35:37
+-
+Patrick Thomas
+Oh, so it had the amber terminal, the amber terminal rather than the green one, I know what you're talking about.
+@1:35:42
+-
+Rick Rodriguez (rickr1@gmail.com)
+blew the power supply when I did that, I'm turn it on and turn it off, you know, and I think, so at that point, I'm like, I got to find out more about this, so I went and bought all the parts for a luggable.
+It was the RST. It had the keyboard that dropped down. had a monitor that was like this big, just built it, broke it, built it, started working for mom and pop shops, finally got a job at Avco Financial being a consultant on their IT desk.
+And then after that, went through the dot com bomb, married, had a kid, divorced. This was this is actually in Colorado that I did this and then moved to Colorado to New York here and then continued doing MSP work for small businesses and residential just networking through people.
+And then when this stuff started, I was like, this is it. This is the golden ticket. So I just started studying and I've only been maybe eight months.
+That's eight months on this. And I and when I first started. I started, came in here on the AI Profit boardroom, and I was asking Jeff, you know, which course do I take?
+What do I do? Because there's just like all this massive information in Julian Goldie's classrooms there. And he's like, what is his always answer?
+Ask Claude.
+@1:37:19
+-
+Jobi Armstrong
+Use Claude. Based on what you're doing, yeah.
+@1:37:23
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I just started doing that and then learning and then started making connections to all these great people and then decided, you know, I'm going to build a community that is a community of people that help each other, that build apps that can be that we can utilize their skills, like bring them in from a pool of developers, build a project, put the deliverable out, split the money and everyone goes back into the pool.
+And this thing just started evolving and evolving. And I started and then I created my own AI assistant.
+@1:37:54
+-
+Johannes Lombard
+It's called Nova.
+@1:37:55
+-
+Jobi Armstrong
+I got tired of using Telegram on my phone because of the messiness.
+@1:38:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'm like, don't want to use Telegram anymore. I want this on my phone. And so I built out Nova and she does my marketing.
+She does my brainstorming. And we started just building this out. Is Nova hosted locally? She's hosted on Hermes on my Mac mini and then ported to my phone so I can take her anywhere without having to do the Telegram thing.
+And and now everything now, since I've done that, a lot of the, you know, Claude and Rock and Hermes and everything, they're starting to do it themselves.
+So she's going to need some upgrades here pretty soon. So I'm actually looking for investors to right now. I have one investor that may want to invest twenty thousand with a twenty five percent return on that.
+And then if he says if he sees that goes good, he's made some money in real estate. He's like it's like maybe I want a piece.
+And I go, well, if you want a piece, then we're talking one hundred thousand if you want a piece of the company as it builds.
+So then. I started looking at some of the other platforms or the other schools on school.com and some people, they're making like Nate Hurt, they're making like $250,000 a month is their RMN, which is like, I just want to make a portion of that.
+@1:39:20
+-
+Johannes Lombard
+And so I started just building this out. And so everything's going really good right now.
+@1:39:24
+-
+Rick Rodriguez (rickr1@gmail.com)
+The first 250 people are free. That's the founders. They're going to be free for life. And then it's going to go to a subscription service.
+And so that's kind of my journey. And it's to help other people. My job is to help other people succeed, help other people make money.
+And at the same time, I can make money myself. All right. So I'm going to give you a slogan.
+@1:39:48
+-
+Patrick Thomas
+That's one of my slogans. But if you steal it and use it, I want a percentage. Deal? Okay.
+@1:39:53
+-
+Jobi Armstrong
+What is it?
+@1:39:54
+-
+Johannes Lombard
+Help me help you. Help me help you.
+@1:39:59
+-
+Patrick Thomas
+That's it. I started looking at some of the other platforms or the other schools on school.com and some people, they're making like Nate Hurt, they're making like $250,000 a month is their RMN, which is like, I just want to make a portion of that.
+And so I started just building this out. And so everything's going really good right now. The first 250 people are free.
+That's the founders. They're going to be free for life. And then it's going to go to a subscription service.
+And so that's kind of my journey. And it's to help other people. My job is to help other people succeed, help other people make money.
+And at the same time, I can make money myself. All right. So I'm going to give you a slogan.
+That's one of my slogans. But if you steal it and use it, I want a percentage. Deal?
+@1:40:52
+-
+Rick Rodriguez (rickr1@gmail.com)
+Okay. What is it? Help me help you.
+@1:40:57
+-
+Patrick Thomas
+Help me help you. That's it. I just want to tell you guys a little bit of heads.
+@1:41:04
+-
+Johannes Lombard
+I'm going have to jump off of here at about 615 because I got a meeting, a physical meeting I got to go to.
+@1:41:11
+-
+Patrick Thomas
+I just saw something. You gave me an idea, Rick, when you threw that in there, your live computer stuff, because it gave uptime and it showed uptime on that.
+I'm like, oh, cool.
+@1:41:23
+-
+Rick Rodriguez (rickr1@gmail.com)
+I go, can I ask uptime? And then it gave me the uptime and I go, can I ask you to reboot?
+@1:41:27
+-
+Patrick Thomas
+Can I reboot the VPS from here if I wanted to? And it says you can. So I wonder how much actual control you actually can have.
+@1:41:38
+-
+Jobi Armstrong
+Maybe you could kill process, tell it to kill, whatever. I was looking at to see if I could put extensions in there and everything else.
+I haven't figured out how to do that or even add an app or something like that. It didn't look like it was going to give you, there's no app store in there or anything like that.
+@1:41:53
+-
+Johannes Lombard
+So, no, you might be able to tell it to install because it has a terminal.
+@1:41:56
+-
+Dr. Todd Fisher
+It might be able to install from the script. right. send to script. yeah
+@1:42:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+It's very much like ClawBot without it being ClawBot. Yeah. So, yeah. I mean, I'm going start asking some questions, but I've really enjoyed this meeting, guys.
+@1:42:11
+-
+Jobi Armstrong
+It's been great. So I will see you.
+@1:42:16
+-
+Rick Rodriguez (rickr1@gmail.com)
+I don't know if you go to the AI Profit Boardroom, but that's what, at 8 o'clock here, so it's 11 o'clock there.
+But if not, I will see you the following day for the other two sessions, man. And thanks for all your input.
+But, Johannes, I really enjoyed everything you had to say and appreciate you sharing, and you guys take care. See ya.
+All right, Patrick. Take care. Thank you.
+@1:42:41
+-
+Jobi Armstrong
+Yep. I'm going to take off, too. Yeah, we should probably land this one. We're at 135 members, though, by the way.
+That's so awesome. We're 135. I'll maybe be able to tack on a few more. That's great. So the 250 ends on September 30th.
+So and then whatever, whatever we have. So I really want to push for 250 by September 30th. And then from there, we're going to do subscription and start filling up the classrooms and stuff to get some more admins in here.
+@1:43:11
+-
+Rick Rodriguez (rickr1@gmail.com)
+Eventually, I definitely want to do that. If I can what I what I'm trying to get this this guy that wants to invest the 20K is he's he's like he's like, I want a piece.
+@1:43:21
+-
+Johannes Lombard
+I want a piece. I'm like, just do this. Let's do 20K right now.
+@1:43:26
+-
+Jobi Armstrong
+In six months, just come back and see how we're doing here. And then if you want to invest 100K, then invest 100K.
+And at that time, we'll talk a piece or something, you know, a piece of a percentage of the company, you know, as a as a founding member, dude, I love like we need if this thing starts taking off like these other school channels, like the other ones that have a big following, you're going to need you're going to need the team behind you so we can start having admin, you know, founding member, not just these spark sessions.
+You're actually going to have to have.
+@1:44:00
+-
+Johannes Lombard
+Conversations between us on how to run this community smoothly so it doesn't fall apart. Oh, definitely. I want to be able to pay people to do classes like Yasmeen.
+@1:44:09
+-
+Rick Rodriguez (rickr1@gmail.com)
+I would love Yasmeen and J-Mac to be able to give classes and people to help each other and Keith to do teaching, stuff like that.
+keeping up on news and just posting that when it comes out. Like today, I put, as it is today, yeah, when I bought the five foot one table drop.
+@1:44:25
+-
+Johannes Lombard
+I guess that was one day ago, actually. Was that yesterday? Bad time flies.
+@1:44:30
+-
+Jobi Armstrong
+So crazy.
+@1:44:33
+-
+Johannes Lombard
+Yes. I'm like, sometimes at night, I'm something like, my eyes are blurry. I'm like, Oh, I just got to finish this, but I can't make out what that is.
+I can't read it. So, cause my eyes are so blurry from my seat reclined. So I find myself falling asleep quite a bit over here.
+I have done this. I've done that too. I'm horrible. I will wake up to go do a prompt because I'm waiting for it to process.
+I love it. And that's all ones that is. If so much, it's, it's stupid. I keep this by my bed.
+Have it. Then I applaud. So when I have a dream, cause sometimes you have a dream about something and an idea or something like that.
+I'm like, I'm like, and then you forget it, you know, five minutes later and everything. So I do, I, I wake up and I press this and I put my ideas on this and that way I don't lose my.
+Oh no. I wake up and I remote in and I'm like, while I'm laying a bed, let's go.
+@1:45:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+Oh, all right. Johannes. nice to meet everybody. Johannes, it's been a pleasure. Thank you for joining. Thank you for joining us tonight.
+And, you know, I, I want to, I want to contribute and definitely learn from, you know, everybody on board because it's, it's such a fantastic thing.
+And, you know, it evolves so fast so I can see how everybody. The smallest thing can help everybody else do something better, and it's very, very cool.
+Yeah. Yeah. All right. Just shoot me an email. Like I said, your site, three competitors. You'll see what you get back, and then we can just do like a meeting, and yeah.
+You'll see what we do. It's very cool. Awesome. That's so awesome. All right. Take care, guys. Have a great day.
+Bye.

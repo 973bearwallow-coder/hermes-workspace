@@ -1,0 +1,1498 @@
+Source: https://fathom.video/share/YdBE32R1AFRps8ns9fpoDSTgKovQ_2BQ
+Started: 2026-09-07T12:45:21.000000Z
+Duration seconds: 6472.782
+Title: Impromptu Google Meet Meeting
+
+Impromptu Google Meet Meeting - September 07
+VIEW RECORDING - 108 mins (No highlights)
+@0:00
+-
+Keith Obrosky
+Seeing. Oh, there it is. There's Fathom. No. But is it working?
+@0:20
+-
+Rick Rodriguez (rickr1@gmail.com)
+Is it working or is it?
+@0:23
+-
+Keith Obrosky
+Yeah, I'll go ahead and quickly. What's that? I don't know if it's working. I am going to go out.
+@0:33
+-
+Rick Rodriguez (rickr1@gmail.com)
+Can you hear me? Test, test. Oh, hello.
+@0:44
+-
+Keith Obrosky
+There you go. Can you hear me? Yep.
+@0:47
+-
+Rick Rodriguez (rickr1@gmail.com)
+I quit because I quit. I was just sure Fathom was working and I don't see my Fathom thing on the sign there.
+@0:58
+-
+Keith Obrosky
+I do. I see your Keith's face. Fathom note-taker? Usually it has the chat on the side, but it says it is.
+I don't know.
+@1:19
+-
+Rick Rodriguez (rickr1@gmail.com)
+It says others may see you differently. Your self-view may show less of your background than you see others. To view your entire video, click the icon button on the bottom right of your tile.
+Okay.
+@1:38
+-
+Keith Obrosky
+Let's see what this does. Go ahead. I asked GronkBot to monitor my activity monitor and let me know when it goes into yellow, so it lets me, it notifies me.
+Hi, Jane. How are you doing? I'm good. It's awfully hot, but I'm doing okay. You guys are going into spring and summer.
+We're going into fall and winter. Oh, no, we're not going into spring or summer at all, Keith.
+@2:19
+-
+Jane Ward
+We're going into the wet, so we're in a build-up now. Oh. So we don't have four seasons where I live.
+We only have two. It's either wet or dry. Oh. Yeah, so once the dry season, which is technically our winter, once it ends, it starts building towards the wet season.
+@2:42
+-
+Keith Obrosky
+So we get temperatures start to rise up into the 40s, and our humidity rises up to, oh, about 90%, 95%, and then eventually it rains.
+Oh.
+@2:56
+-
+Jane Ward
+Yeah, it's not nice at all.
+@2:59
+-
+Keith Obrosky
+Thank Now, move. Thank
+@3:01
+-
+Jane Ward
+So how is everybody? Very tired.
+@3:09
+-
+Keith Obrosky
+Very, very tired.
+@3:11
+-
+Rick Rodriguez (rickr1@gmail.com)
+I do bartending for an event staffing company.
+@3:15
+-
+Jane Ward
+And I had three events this weekend, Friday, Saturday and Sunday.
+@3:20
+-
+Rick Rodriguez (rickr1@gmail.com)
+Each event was 10 hours long, and I didn't get home till about midnight and one o'clock. So I'm on my second cup of coffee right now.
+I might have to have a third. Well, we're coming up 10.30pm here.
+@3:35
+-
+Jane Ward
+So anyway, I hear you. I know what it's like. I'm not a coffee drinker. I only drink tea, herbal tea at that.
+So I guess I just have to rely on, I don't know what, just try and stay awake. a nice chamomile before bed is good.
+Yeah, yeah, I'll be good. So, has anyone done anything interesting this week? Oh, we got lots of interesting here.
+Yeah.
+@4:08
+-
+Rick Rodriguez (rickr1@gmail.com)
+So, one of the cool things that I think is cool is we created a Discord server for the AI Builders Guild.
+@4:21
+-
+Jane Ward
+Have you ever used Discord? Yeah, I'm not a fan.
+@4:27
+-
+Keith Obrosky
+Okay.
+@4:27
+-
+Jane Ward
+I know it started out as a gaming platform, you know, for people to share games and stuff, but it actually has evolved into a developer platform also for developers.
+Oh, okay. Because, I mean, my previous experience was pretty, like, you know, not my country at all. And what was the, what did you not like about it?
+I think it, I think the thing that I didn't like about it was the, the program that I was with, they used it for all of their communication.
+But it was the constant bombardment and notifications and things like that. And every time I tried to get in anywhere, Discord would move itself across onto whatever I was doing.
+like, oh, for God's sake, I can't stand it. And I disconnected it because it was very intrusive, I felt.
+Yeah.
+@5:20
+-
+Rick Rodriguez (rickr1@gmail.com)
+So I'm pretty new to Discord myself because from my standpoint, it was, you know, a gaming thing and stuff like that.
+I started seeing a lot of YouTube and on Twitter or X, people using that and a lot of AI developers using it.
+So I took the dive into that. And then I know Yasmine, she had a Discord server. I don't know if she stopped it.
+Keith, is Yasmine's Discord still up? Yes. Yeah.
+@5:55
+-
+Keith Obrosky
+Okay.
+@5:56
+-
+Jane Ward
+So I thought I would try it out. And I'm learning a lot. I'm really impressed.
+@6:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'm with the things that it can do now.
+@6:02
+-
+Jane Ward
+I created a Nova bot in there for people that need help. It's called Ask, there's a channel in there called Ask Nova, and you can go in there and ask Nova all kinds of questions.
+@6:13
+-
+Rick Rodriguez (rickr1@gmail.com)
+She'll make spreadsheets, docx files for you, PowerPoint presentations, and a lot of other stuff I haven't even found out yet.
+There's so much stuff. She's only a day old. Well, I got her configured.
+@6:29
+-
+Jane Ward
+Stop pressuring the poor thing.
+@6:33
+-
+Rick Rodriguez (rickr1@gmail.com)
+You know, you'll come to find out I only have two speeds. It's either off or full tilt. Well, I built another app this week.
+Oh, nice. What is it? What app did you build?
+@6:50
+-
+Jane Ward
+I built a, oh, God, I don't even know what to call it. I built, you know... Oh, God, love you, God.
+Thank you. J-Mac was building something, building out something, and we were working together on it, but it never came to pass for whatever reason.
+So I listened to some of the stuff he said, and I thought, I can actually probably do something like that, but not as elaborate as what J-Mac can do, because, I mean, I don't have his brainwaves.
+I don't think anybody has J-Mac's brainwaves. I love him to death, but oh boy. So I sat down and I, I designed an app that will search for my avatar, my perfect customer answer.
+So what it does is it, I put in the information about my product or my, my offer or whatever it is, fill out the form, you know, the onboarding form to say, you know, this is what I want.
+This is how I want you to do it. This is where I want you to go. This is, you know, blah, blah, blah, blah.
+And then I choose which platform I wanted to go searching on. I've got some attached, but not all, because, I mean, obviously there's some, there are restrictions.
+And this is my baseline. It only took me a little over, I think, probably 10 days all up to build and launch.
+And sorry, excuse me, guys. So I launched it on at 1am on Saturday. So, you know, it hasn't been out there very long, Saturday or Sunday, Sunday, 1am Sunday.
+And we've tested it. It's actually gone out. It's actually found someone who's asking questions about what I do without me having to find them.
+It found them for me. And then it says to me, well, do you want to have a conversation? you.
+What do you want me to start the conversation for you? Excuse me. And it will start the conversation if I want it to.
+And it'll move it down the pipeline until it gets to a point where it'll hand it over to me and then I handle from there on.
+So, yeah, that's what I built.
+@9:19
+-
+Keith Obrosky
+Wow. Nice. As soon as everybody gets in here, would you like to share it?
+@9:24
+-
+Rick Rodriguez (rickr1@gmail.com)
+Sure. I'm just going to get some water while you guys talk amongst yourselves so I don't crack up.
+@9:29
+-
+Jane Ward
+Okay. Okay, that's not what I want. Oh, those are all codes.
+@9:40
+-
+Keith Obrosky
+Yeah, those are.
+@9:41
+-
+Jane Ward
+Yeah, those.
+@9:42
+-
+Rick Rodriguez (rickr1@gmail.com)
+I don't think she's in the nexus. So I posted some codes for nexus there. And then the discord invite and then the coffee notes and spark notes.
+So in between the packing and all the rest of it, I've been burning the midnight oil.
+@10:25
+-
+Keith Obrosky
+Go ahead, I was going to ask the same question. Yeah, same question. Probably Christmas.
+@10:33
+-
+Jane Ward
+We've got some things to sort out and settle here before we can move. So probably Christmas. So in the meantime, we're packing because everything has to go, everything that we're taking has to go from here, has to travel three and a half thousand kilometres to another seaport.
+And once it gets to that seaport, it then has to be packaged and put onto a container ship. And then it sails to Surabaya.
+From Surabaya, it gets put onto a truck and gets trucked across to Bali. And then once it's been trucked to Bali, once it gets into the depot in Bali, it then gets taken all off and put onto another truck to get to our house.
+So we think it's going to take about three, four months to get to us. Wow.
+@11:28
+-
+Keith Obrosky
+Oh, because it has to go through all the customs and stuff?
+@11:32
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then they're going to charge you for it too, aren't they?
+@11:38
+-
+Jane Ward
+We have reduced our tax. If we just tried to import it just as it is, then we would have to have an importer's license and it would be 60% tax on the value of the goods, even though they're our personal possessions.
+If we say that. If we send it this way and through the agent that we're using, the person at the other end receiving it is technically not us, even though it is us.
+So we have to find someone who has a particular work permit and license and what have you. And if they agree to take the goods as if it were theirs, then it's not tax.
+Oh, okay.
+@12:26
+-
+Rick Rodriguez (rickr1@gmail.com)
+So someone that's already a nationalized citizen, so, okay. No, they just have to have a particular type of permit.
+@12:34
+-
+Jane Ward
+Oh, okay. And we don't have that kind of permit. Had I known that that was a permit I would have needed, I would have applied that upfront, but I'm not going through the process again, because the permit that I got cost $5,000, so I'm not buying another one.
+@12:48
+-
+Keith Obrosky
+Oh, right.
+@12:58
+-
+Rick Rodriguez (rickr1@gmail.com)
+Let's see here. So we might be the only people in here for this Labor Day. Oh, it's a long weekend, guys.
+Yeah, yeah.
+@13:09
+-
+Jane Ward
+All right, well, let me see if I can load up. Okay, before you share that, let me go ahead.
+I'm not going to share, I'm just going to get a tab open because I haven't got a tab open.
+Oh, okay, okay. Go for it.
+@13:38
+-
+Rick Rodriguez (rickr1@gmail.com)
+I'll go ahead and run the kickoff. Good morning, Builders. Coffee is hot and so is the week in AI.
+Welcome to AI Builders Guild Morning Coffee Hour. Here is the flow. We are here to talk about what we are building, share wins and fails, and dig into what is actually
+A few threads to get the juices flowing, GPT-6 Astra landed Wednesday and showed up in co-pilot on Friday. Gemini 3.8 Flash is the cheap co-pilot lane.
+GitHub is sunsetting four co-pilot models on October 2nd. Anthropic shipped AntApply, so agents live as files with a lock file.
+Claude Codes 50% weekly limit promo ends September 13th. Run slash usage. Content exclusions finally hit the co-pilot app in CLI.
+Claude Desktop can attach your home folder and whole drives. Skill Doctor landed in Claude Code. Codecs can keep notes across Astra context windows.
+We will move with the energy of the room. Jump in, react, disagree, show something on screen. If we do not get through everything today, no stress.
+We pick it back up at the 7.30 Spark session and keep the conversation going there. Never quit. Every hand you lift, lifts your own.
+Let's build. Good morning. Good Labor Day, everybody. Welcome. People are starting to come in now, it looks like.
+@15:14
+-
+Keith Obrosky
+Yeah, Patrick's here.
+@15:19
+-
+Jane Ward
+Love note takers.
+@15:23
+-
+Keith Obrosky
+Good morning. Good morning.
+@15:26
+-
+Patrick Thomas
+Good morning, Patrick. I wasn't sure if everybody was going to be here, but I knew all the hardcore people would be here.
+I knew somebody would show up. Yeah, I was wondering the same thing this morning when I woke up, I was like, it's Labor Day.
+@15:41
+-
+Rick Rodriguez (rickr1@gmail.com)
+I wonder how many people here. I have to confess, I was tossing up between having a chat with you guys or just going to bed.
+@15:50
+-
+Jane Ward
+Oh, well, thank you for joining us. Yes, that's fantastic. All right. All right. All So the This morning, Jane has a new app that she created.
+@16:04
+-
+Patrick Thomas
+All right. Jane's been at it again. I like this app creation stuff.
+@16:10
+-
+Jane Ward
+It's a lot of fun. Did you notice how when you get started, you're just like, oh, I can add this.
+@16:15
+-
+Rick Rodriguez (rickr1@gmail.com)
+Oh, I can add this. I can add this. I can add this. Oh, yeah.
+@16:19
+-
+Jane Ward
+I have idea. It's so bad.
+@16:22
+-
+Patrick Thomas
+Yeah. So bad. Oh, yes. I know exactly what you mean.
+@16:28
+-
+Jane Ward
+And then somebody, you know, if you're sharing your idea with anybody, all of a sudden you start getting messages.
+Have you thought about this? Oh, no, no. Yeah. You're like, oh, I've to bake that in now. Oh.
+@16:45
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah. Anyway, I gave it my best shot.
+@16:48
+-
+Jane Ward
+It's out there. It's launched. People know about it. So it goes nothing. All right. Okay. Now, where do I share my screen, boys?
+I'll to camera, go Thank So at the bottom, you'll see a little computer with an arrow point on it, and if it has any audio, make sure to flip the little switch in the screen there.
+Yeah, there's no audio. Okay.
+@17:12
+-
+Rick Rodriguez (rickr1@gmail.com)
+Okay. The only audio will be me.
+@17:23
+-
+Jane Ward
+Okay, can you see that? Yes. Okay. So I've called it Scout because what it does is it goes out and it scouts for your best avatar or your best avatar based on the information you put in, because we all know garbage in, garbage out, right?
+So this front bit here just explains what it does. So it watches the approved public sources that you choose.
+It finds conversations where your offer is chosen. It's relevant and decides whether one short useful qualification question is worth asking.
+It will never post for you unless, you know, it won't post for you.
+@18:11
+-
+Patrick Thomas
+You read the post, you choose the wording and you reply yourself. So there's human in the middle.
+@18:15
+-
+Jane Ward
+So there's no, excuse me, there's no chance of it just running wild. So I haven't run it tonight. So this will be a good test to see if there's anything else out there.
+So I've got, I've got a login, so I will go to sign in. Oops. Where are we? Can you still see my screen, guys?
+Yeah. Okay.
+@18:40
+-
+Patrick Thomas
+Yeah. So if you, oh, there we go. Okay. Yeah. So I'll go to sign in.
+@18:44
+-
+Jane Ward
+I'll just pop in my credentials and it will, we don't do that. So on the.
+@19:00
+-
+Patrick Thomas
+So can everybody see that?
+@19:03
+-
+Jane Ward
+I'm just going to lower you guys down a little bit, but you can see that. So my dashboard is telling me, because I've already run things before, that it's found two qualifying.
+It's got one definitely warm lead and one that it's handed off to me now to handle. So what it found for me yesterday was this particular lead here.
+Someone saying they wanted to learn how to make money online, which is my area of expertise. And what I can do is I can say, open the conversation in Scout or open the original.
+Now, it's up to you which way you want to go, or you can copy the link, paste the link, and it will then open the actual link to where it found this.
+Now, it's found this on Facebook. Now, Facebook isn't connected. It's just on the public area of Facebook. So if someone makes a public post.
+which makes it public, then obviously you can see it. So it actually went in and said it's a 75% chance of it being a warm lead for me based on the conversation that the person was having.
+So I went in, I opened it. So if I open the conversation, it'll tell me this is just inside Scout.
+So it'll say, do I want to prepare a response? So I can prepare the response. But before I would get to that, I'd want to open the original to see what the person actually said or if there's any further context in what they said.
+So if I click on open the original, I know where this is going to take me because I have before.
+But here it is in Facebook. Now, I haven't gone looking for this woman. And obviously other women are asking the same questions.
+We can't see the Facebook one. Oh, you can't? Okay. No, if you share the entire screen, then you can put windows, instead of just sharing the window, share the entire screen.
+@21:08
+-
+Patrick Thomas
+Can you see that now? Yes. Yes. Okay. All right. I'll see if I can try and get the entire screen for you.
+@21:16
+-
+Jane Ward
+So it opened in Facebook, and this woman back on the 16th of August said, I really need to learn how to make money online.
+So these other women commented as well. So I jumped into the conversation. Now, I would never know about Heather.
+I've got no idea who she is. I don't know where she posted. You know, I know nothing about her.
+I would never have found this lead if it wasn't for Scout. So, let see if I can... That's cool.
+Yes. So I get that. Okay. Then it will tell, then I can say, can you prepare a response for me?
+And Scout will come in and say, can you see that screen now? I ask it to prepare a response.
+It automatically gives me two choices of a response. I can copy those without having to think about anything. can copy those, or I can ask it to try again to give me something else because I don't like it, or I can write my own response.
+From there, it'll tell me why Scout picked this particular person as a good lead for me. And it goes through and it tells me the product is relevant, the problems are evident, it's still unresolved.
+You know, all of this stuff is giving me the stats on whether or not that should have happened or whether I should talk to this woman or not.
+It'll give me more details about why it captured it and what it, you know, what it felt it It relevant to me, I can see why it scored it the way it did, you know, to whether, again, the public relevance, sorry, the product relevance, et cetera.
+So all of these stats are here, and then it'll have my notes and history. So, you know, it goes through everything and tells me why this is a good lead and whether or not I should actually be responding to it.
+I'm just going to go back to my dashboard. I can review the queue of jobs that I've got. So this one here is a previous one.
+And I went through the process and then it's now been handed over. It's cleared off my tray. I've waited for a response, didn't get a response from them.
+So it went cold and it's handed over. So that's now dealt with. This is the one that we were just looking at over here.
+It's ready for response. That's what's Scouts telling me how they qualified it, how Scouts got in and qualified it, you know, getting through the different gates so that it actually, you know, has it gone to the human yet?
+The sources that I can get it to search for. This is the product. This is a bogus product, by the way, guys.
+just, this is just a test product. Still, it's still my area of expertise, but it's a test product. Oh, I like the idea.
+That's, that's, I like it. Yeah, so the, it can, people, so this is, you know, a web search, and I can also add another product, which would be a Reddit search.
+I find Reddit is still a bit of a problem. Reddit tends to get a bit cranky with you when you do the searches, but this is a full web search, which, um, and it goes into all the, all the different.
+It goes into all of the back doors, if you like. So if I come back to the dashboard, I haven't run a check on this tonight.
+@25:16
+-
+Patrick Thomas
+So I'm going to run one so you guys can see what happens when I run one. And let's hope it finds something.
+@25:21
+-
+Jane Ward
+So you check your resources and let it run and see what it will come from. Jane, what did you build this with?
+@25:32
+-
+Patrick Thomas
+I built this with Chat and Lovable. Chat and Lovable, okay.
+@25:37
+-
+Jane Ward
+Yeah, hello. Yeah, go on. It's still searching. There's nothing to know. Yeah, there's nothing to know. So that's it guys.
+I'm learning it as much as I know. But that's what I did. Very cool. That's cool. Good job. Good job, Jane.
+@26:06
+-
+Patrick Thomas
+Thank you. Sorry, lost that.
+@26:13
+-
+Jane Ward
+Sorry, can ask a question? Yeah. There's lots of people offering kind of advice around making money, etc. Sorry, you're breaking up really badly.
+@26:24
+-
+Ed Grimshaw
+Yeah, you your dark data voice on, man.
+@26:30
+-
+Patrick Thomas
+Yeah, it's really, it's really, really hard to, I'm sorry.
+@26:38
+-
+Jane Ward
+Try again.
+@26:40
+-
+Ed Grimshaw
+think I did better off shut voice thing down, you know. It just, yeah, it just sounds like you're, you're going, yeah, just sounds.
+It sounds like you're going to expire any second.
+@26:55
+-
+Patrick Thomas
+Yeah, yeah. Darth Vader, man. Darth Vader. Thanks. No? No. Yeah, it's good. Is it something to do with your microphone, maybe?
+@27:11
+-
+Jane Ward
+No, he's going to go out and come back in. Yeah, sometimes that works.
+@27:15
+-
+Patrick Thomas
+Yeah. Last week, that was happening to Russell. Oh. So, yeah, that's pretty cool. I like that. I finally broke down, man.
+I got Claude and Chet. But I put him on my, I put him on my laptops. Well, honestly, honestly, I mean, Chet, I've got Chet so well-trained to me now.
+@27:50
+-
+Jane Ward
+So I can basically just give it garbage in the sense of I'm not sure how this works. This is the kind of thing I'm trying to do.
+I'm not sure. I'm. You know, and because it understands me, but I'm about to start Scout 2.0 where there'll be a lot less friction, a lot less of stuff that you have to do yourself, where it will automatically send the very first response just to get them past the, you know, get me past that initial me having to go in and vet it.
+So I'm going to put a few more gates in there so that it doesn't look at stuff that is really garbage that I would not respond to anyway.
+So I'm going to start 2.0 probably end of the week and just start building up 2.0, yeah. Yeah, we were in the meeting, like the Friday night meeting, I think that's when the job, and Joby was, and we were waiting for Astra so he could get Astra.
+@28:56
+-
+Patrick Thomas
+And he got the Astra, and he started doing some
+@29:00
+-
+Jane Ward
+I'm like, that's pretty cool. Between him and J-Mac with the token thing, I'm like, you know what, I'm just going to do it.
+@29:09
+-
+Patrick Thomas
+I went and canceled another subscription that I had that I wasn't using, and I'm like, okay, I'm going to go do this.
+I'm glad we were talking about it because I almost signed up for the one that, you know, there was some deal for like $5.99 a month if you paid for the year, but it wasn't right from Anthropic.
+And it was like, they throttle your usage and all this kind of stuff. So I just did the $20 a month, one for each.
+I'm glad I did it that way. Well, I don't have Anthropic at all. I only use chat. Right. I mean, I've got Claude probably somewhere in the background is probably there, but I use chat for everything.
+@29:51
+-
+Jane Ward
+And I've opened a school group because I'm going to start giving people the information that they want. So I opened a school group yesterday.
+So I've got that and, yeah. What's the name of the name? A.I. Skills Lab. A.I. Skills Lab. A.I. Skills.
+@30:18
+-
+Patrick Thomas
+Skills Lab. Are you doing that within the Profit boardroom? Are you doing it within this?
+@30:25
+-
+Jane Ward
+No, because it was something from outside. I've got a Facebook group and we've moved it across.
+@30:30
+-
+Patrick Thomas
+We're moving it across. okay. Cool. Ed, let's hear you. Is my mic any better? I've shot a few things down.
+Yes, yes. little better, a little better, yeah. So what was your question?
+@30:42
+-
+Ed Grimshaw
+So around your app, my background is finance and looked at things around making money for quite a while. I missed a tiny bit of it, but I guess my question is how do you know around the validity of a recommendation?
+And you can see, were racing it, but like people can make all sorts of planes around making money, for example.
+I wasn't sure whether this was broader than money-making, but it was new. okay. I'm not looking for people so that I can buy from them.
+@31:16
+-
+Jane Ward
+I'm looking for people to buy from me. So I actually have various products that I sell through affiliate marketing and make money online, various other products.
+So I'm looking for people that are looking for that and trying to... There are gazillions of people out there that sell a thing called solo ads.
+Are you guys familiar with that? Solo ads? I'm not. Okay, so solo ads are... Somebody goes out and buys an email list.
+Everybody's on all these lists and, you know, people sell your data to some other company, and then that company starts settling in, in.
+@32:00
+-
+Ed Grimshaw
+You get these really random emails.
+@32:04
+-
+Jane Ward
+So with solo ads, when people buy solo ads, you pay money to someone who's got apparently a whole stack of lists, and then they'll send your offer out to all these people, and you keep your fingers crossed that one or two of them are going to buy your product.
+@32:27
+-
+Ed Grimshaw
+It's a really  way to do business. So what I wanted to do was reverse it.
+@32:33
+-
+Jane Ward
+I wanted to find the people who are asking the question that I don't actually see them asking it because, you know, you might not be aware of someone who's asking a question on Reddit or Facebook or X or wherever, or just generally asking questions in various other platforms.
+as long as they're asking them in a public platform, or in a public platform. And they say, oh, well, I'm interested in, you know, does anyone know how do you make money online?
+Does anyone know anything about affiliate marketing or does it, know, do know what I mean? There's different questions that people ask.
+So this tool will go out, find the person, and based on the language they've used, it'll come back to me and say, this one's worth you having a look at, rather than me scrolling through, doom scrolling through something to try and find someone who's asked a question.
+But this actually goes out and finds the person that's asked the person and rips that person to me. So could this tool be used for scouting for anything, whether you're scouting for somebody?
+Anything. Oh, right, because that is broader than just a money-making or a marketing tool. Whatever you're on board with, and when you buy the tool, you get three, initially, you can put in, I think it's three products.
+That's I've got it set at. So three or four. You can actually put in. So you can have different products and have those different products.
+You could use this, for example, if you're a group that you're setting up to find out who might be interested in your group.
+Is that right? Yes, yes. As long as you put in the right, as long as the onboarding has to be done properly.
+And I was concerned that people wouldn't get how to do that. So I don't know if you can see, but down the bottom there's this quick start guide.
+I did a PDF that is really, you know, grade one stuff. You know, this is, go to this box, do this.
+And I just did it as a quick PDF and let everybody, you know, sort of take it from there.
+@34:47
+-
+Ed Grimshaw
+But that's, yeah, you can use a bricks and mortar business. You could do a hairdressing business.
+@34:54
+-
+Jane Ward
+You could be a florist. You could be someone selling money online. You could be someone selling. know think to a
+I am. It doesn't really matter what you do, as long as you put your information in correctly, you can use this tool to find your people.
+Hey, Jane, do you have discounts for your subscription for Guild members?
+@35:15
+-
+Rick Rodriguez (rickr1@gmail.com)
+What I've got at the moment is, until the end of October, it's normally $49, I've got it at $29, so $29 is what I'm selling it for at the moment.
+@35:27
+-
+Jane Ward
+And as long as you stay subscribed, it will never change. So you can upgrade to version 2, when version 2 comes out, and you will keep your $29 a month subscription.
+You won't have to change. As of the 1st of October, it's going to $49, and that's it. That's what I've offered, because the only people that truly know about it are the people I'm talking to, so they're my friends and family.
+You know, you guys will fall under that, so that's what we're doing at the moment is doing it at $29 a month because, you know, you can run this as many times a day as you like.
+I recommend only once or twice a day so that you can actually process and see what you're doing. Yeah, and that's that.
+It's there while you go through it all. Yeah, Ed, what's the question? How much did it cost to produce this on Lovable?
+You're a big fan of Lovable, I know. fan of Lovable. It cost me, that's a hard question because I had some leftover stuff and some, probably cost me about $300, $400, something like that.
+Yeah. Okay.
+@36:46
+-
+Ed Grimshaw
+It's interesting because cost seems to be much in videos around Astra and around Fable 5.1 and Merck, what's his name, Nate Herc has done a video.
+Comparing the two, and when you look at some of the costs, it begins to question that, you know, none of this is cheap when you start using an API, yeah?
+@37:11
+-
+Jane Ward
+You're right, but I could see that once I've got the bones of this, for me to now to go to 2.0, which is going to be much more, much less friction, I'm just going to clone this, and then what I need to upgrade.
+That will not cost me, it won't be that bad, so yeah, that's the plan. mean, the upfront, getting it right, because honestly, I'd get to a point and go, no, that's not, no, bang the head against the desk, and I'd shot a whole load of credits, you know?
+And we all know what it's like, you shoot a load of credits upfront while you're trying to figure it out, and then, you know, but I mean, I rely a lot on chat and Loveable together.
+Could you post a link to
+@38:18
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then also I have some invites. I don't think you've subscribed to the Nexus, but if you go in there and fill out your bio, all of your stack, your wins, your apps, you can put that in there for other guild members.
+To go in there and see it and use that. Okay. That's a really dumb question, Rick. What's somebody's stack?
+@38:56
+-
+Ed Grimshaw
+Oh, it's the hardware and software that people are using. All right, okay.
+@39:03
+-
+Rick Rodriguez (rickr1@gmail.com)
+Okay, there you go.
+@39:05
+-
+Jane Ward
+Okay, cool. So it didn't come out as a link, it just came out as text. Scout4me.app.
+@39:16
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah. That's it. It's not coming out as a link. Let's try this. Sometimes you have to copy as link and not just copy.
+There you go. Anyway, if you just copy and paste, it takes right to it.
+@39:32
+-
+Keith Obrosky
+Okay. Oh, okay. It does. Yeah, that's, yeah. It's, yeah. Thank you, Aaron. Thank you, Aaron.
+@39:42
+-
+Jane Ward
+Like I said, I can do the app stuff. Don't ask me to do this stuff. We all have our strengths and weaknesses, fellas.
+That's pretty cool. It's pretty cool. It's funny because I was working away and Chat said to me, I'll open an income.
+Fognito window and I just went blank, utterly blank, you know, I sit down and I can design and say this is how I want it to work and this is what I want it to do.
+Can I take this? No, you can't take that, love. Sorry, I won't have my own music. It's fine.
+@40:25
+-
+Yasmine Johnston-Ison
+Yeah, so I don't know. But I will say I'm feeling pretty pleased with myself.
+@40:33
+-
+Jane Ward
+It is, it's very nice, very nice. Yeah. You can see the potential.
+@40:40
+-
+Ed Grimshaw
+The thing I'm getting from this Jane is that you're very competent with something like Lullaby, which shows you can reduce product quite quickly.
+I won't say it, might seem but like, you are very good at one particular area, which is how to get product out quickly.
+so I mean that's I've always been
+@41:00
+-
+Jane Ward
+I've Ed that you launch him perfectly. I know that there's going to be bugs. Someone's going to find a bug.
+They're going to have to find a bug. And it doesn't matter how clever you are, someone's going to find a bug.
+And, you know, and that's fine. And if I tried to keep going until there was no bugs, I'd have a look.
+@41:18
+-
+Ed Grimshaw
+It just wouldn't happen. Well, that's why there's beta testers.
+@41:23
+-
+Jane Ward
+That's there's beta testers.
+@41:26
+-
+Rick Rodriguez (rickr1@gmail.com)
+But, yeah, so that's it, guys. So have a look.
+@41:32
+-
+Jane Ward
+Yeah. How long is it free for? It's, you can look at the free stuff, but it will ask you.
+Hang on a second. Let's go back to bed. Where are we? I think there's a free part at the very front of it.
+think that's how we set it up. There's a free part at the very front, but it won't do a lot of what you saw.
+In order to get the full benefits, you're going to have to pay your 29. The amount of work that we're in, as we all know, the free part.
+@42:40
+-
+Ed Grimshaw
+Yeah, well, I mean, we've got a little thing down the bottom here that tells you what's, you know, like before you even get inside, tells you what Scout will do.
+@42:48
+-
+Jane Ward
+You can see at the very bottom. Yeah. And it will give you. You can start for free, but once you get to a certain part in there, it will cut you off.
+I won't let you go any further. So the free is pretty basic. How long did you take it, Jane, from start to finish?
+@43:15
+-
+Rick Rodriguez (rickr1@gmail.com)
+How long? Yeah, how long?
+@43:17
+-
+Jane Ward
+From start to finish, about 10 days. Yeah, I'd say about 10 days. That's great. I've been trying to use Google to sign in and it won't let me do that.
+@43:35
+-
+Keith Obrosky
+It keeps taking me right back to... Yeah, because you haven't already created an account. Once you've created an account, you've got to create an account first.
+Okay. then it'll verify your email address. Oh, great.
+@43:48
+-
+Jane Ward
+Okay. Yeah. I put a block in there to stop people from giving me false email addresses. All right. I don't want to...
+I I don't... want hackers getting in there. Sorry, Bob. So I have an idea. Just throwing it out there.
+So maybe if you could make a demo account that has, like, full privileges with dummy information in there so that people can actually go in there and see all of the different things that it's going to give them?
+@44:22
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah. I think that's the thing that, like I just did with you guys to show and tell, I just need to do a loom of that.
+@44:31
+-
+Jane Ward
+I think is probably what I need to do. Yeah. So you can actually see it. So I think I will probably make a loom and put that and then do a funnel.
+So I'll do a lead magnet and the loom and that. And then also what we can do is if you would like, we could do one day we could pick and do a live stream to YouTube.
+@44:57
+-
+Rick Rodriguez (rickr1@gmail.com)
+Mm-hmm . And then we'll, we'll put that. And then we'll give you the links.
+@45:04
+-
+Jane Ward
+can put your bio, the links, backlinks, and everything. So that'll backlink to your site. That'll prop it up in SEO.
+And you can put them on your website and everything like that. then, yeah, that's great. And then, yeah, Yasmine has done one live stream off.
+We only have one live stream in there. Yasmine's done a live stream. And then she, if she still can, on this Friday for Vibe Coding 102.
+@45:33
+-
+Rick Rodriguez (rickr1@gmail.com)
+She'll be doing this Friday. Okay. Is that, is that good, Yasmine? Is that, we're still on for Friday? She's away from the stream.
+So I'll stop sharing and you guys can talk. Does anybody else wish to share something that they created over the weekend, or any wins?
+I don't know about the guys that used in Bot.
+@46:19
+-
+Patrick Thomas
+I spent all day in Bot yesterday, in GrokBot, and just using it to interface. Just because the chief of staff is so powerful, because you can just talk to one app, and the things that I use all the time are the things that I have to...
+I've been integrating it with all the other stuff that I use. Like, let me just get in here. I was like...
+Down a rabbit hole. I was over-stimulated doing this stuff so much. I know what you mean. It was bad, man.
+@47:10
+-
+Rick Rodriguez (rickr1@gmail.com)
+I was just like, oh, my God. And if you guys don't know, there's a marketplace now for GrokBot.
+@47:19
+-
+Patrick Thomas
+And if you go to marketplace, they have all kinds. I just grabbed a couple that were put out by the GrokBot team.
+But there's all kinds of bot templates out there that are configured, like, for certain things. And then you can tell your chief of staff how to set them all up.
+But let's see here. And the other thing was, between that and because I bought chat and Claude, I was just messing with that, too.
+I actually... Go ahead. Einna-Patrick. did
+@48:00
+-
+Jane Ward
+Chat, you know you don't have to type anything into chat. You can do it all in VibeCode, all of it, with your voice.
+You don't actually have to type anything in. It's all voice command now.
+@48:14
+-
+Keith Obrosky
+Yeah, I haven't tried that. I use that with GrokBuild, and I actually used it with Claude yesterday.
+@48:22
+-
+Patrick Thomas
+And the Claude voice to text is really good, too. Yeah, it's what I use for probably 70% of what I do.
+do type in a bit and drop images, screenshots, and everything else in there.
+@48:41
+-
+Jane Ward
+I mean, I can take screenshots of things that I like and drop them in, put a bit of voice behind it, and say, I need, this is the look I'm going for.
+I want you to build this inside Lovable. And Lovable and Chat are connected. So I don't actually build in Lovable.
+Chat builds in Lovable. Okay. Yeah. Right. You know, when did it go ahead.
+@49:06
+-
+Patrick Thomas
+Yeah. So I've got lovable and notion and chat are all connected.
+@49:12
+-
+Jane Ward
+So I tell, I tell chat what I want and to store the information all in notion and get it to put it together in notion for me.
+Then I tell it to pick up the information from notion and put it into lovable. So it's now in a proper format.
+Okay. Yeah. That, that, yeah.
+@49:37
+-
+Patrick Thomas
+And I, I actually use, I use chat to, I noticed that I liked the way that, um, like when I'm doing posts, like I took a couple of things out of here that, that bots, you know, wrote for me and I'm like, eh, I kind of don't like the way that sounds.
+And I stuck it over in chat and, and it cleaned it up and it made me sense. So I've, I've used it that way.
+I've been using it for a couple of days, but I really like it. The first night that I got, Chad, I used up all my tokens within like an hour.
+I've got those. Mine's unlimited. is it? Yeah. It has to be. I had the $20 account and I had it on Astra, like on like half-throttle.
+And because I, you know, I want to just, I was just playing around with it. But, but anyway, just, I'll just share a couple.
+But you can, you can see like, I mean, this is my, this is my chat with my, you know, I could scroll here forever.
+I mean, because I was on this thing all day, but it keeps it, it keeps kind of a tab.
+Like on all the stuff on the right, on the stuff you're talking about. If if you connect Notion to that, right, to chat and say, take my thread and.
+@51:00
+-
+Jane Ward
+If it for me and put it into a spreadsheet or put it into an organized format on the topics that we've discussed, it will take the entire thread that you've got there and put it into a worksheet so that you can follow what you've been doing and what you've been discussing.
+Oh, that's a good idea. That's a good idea. try that. I don't use, I haven't used Notion.
+@51:22
+-
+Patrick Thomas
+I mean, I'm just trying to keep my, I'm spending so much I'm not sure what, I don't, I don't know.
+think. I've been preaching Notion for so long.
+@51:32
+-
+Jane Ward
+Yeah. For as long as I know everyone here.
+@51:35
+-
+Yasmine Johnston-Ison
+Yeah. I just love using Notion with AI. makes things so much easier. Oh, look. Yeah.
+@51:41
+-
+Jane Ward
+And I mean, I can start a thread on one subject and by the time I get to the bottom of the page, God knows what I've talked about.
+And I just say, okay, harvest everything that I've given you and put it into Notion into a format.
+@51:56
+-
+Yasmine Johnston-Ison
+And, and then later on you can go back and you can actually follow. Hello? What? All What you've been discussing and it means you can delete things out of the chat if you wanted to.
+@52:07
+-
+Jane Ward
+Not that I do, but yeah. Mine's like a full agent command center. They have to do sprints out of there.
+@52:15
+-
+Yasmine Johnston-Ison
+They have to track their work out of there. If it's not tracked in Notion, then it doesn't exist. I built three content calendars in there today in probably, oh, I don't know, five minutes.
+I mess a little bit with this.
+@52:32
+-
+Patrick Thomas
+Do you guys use, because I got this with one of my accounts. Is this any good? It is, but you don't need It's not as good as Notion?
+It's not as good as Notion? Okay. LM Notebooks is great if you just want to do designing stuff. It's great for designing pretty things.
+It's very clever at that.
+@52:54
+-
+Jane Ward
+But I honestly, Notion, I use... Notion, but I've got an open art connected as well. So if I want graphics, I just simply tell chat to go create an open art.
+Okay.
+@53:10
+-
+Patrick Thomas
+Well, anyways, this is what I did over the weekend, and I've been working on this stuff, but I've been integrating, like I said, I've been doing all this within GrokBot mostly.
+Like, one of the things I did with it, because some of the stuff it has is, they have like, what do you call those, integrations, you know, like there's like a MailChimp integration, but like some of the things it doesn't.
+@53:51
+-
+Jane Ward
+And one of the things I, I did it with it, because, because it has the terminal, right?
+@53:56
+-
+Patrick Thomas
+You can kind of create your own integrations. Like one of the things. Like, you know, I've had it integrated into, so it integrates and does the chat script, you know, for this, just for the links, like, and you guys have seen this, that's down, this is my personal web server, but like the boardroom links, right, so then it does it by year, and this is August, and it does this automatically, and it's really cool.
+I actually use this because when I, I remember Yasmine telling me about Ponytail, and when I picked up Claude, because I've got, I've got some source code that, that I've just, there's a couple of bugs in it that I was just having trouble with, you know, I mean, I'm not a programmer, but I was like having the AI go through it, then handing it off to one of my programmers to compile, so I've almost got it, I've almost got it through, but one of the cool things it did, it's I've do,
+And there's a web interface for it. This is messaging. I created this called Messaging Headquarters, and it does, because I use a voice over IP phone system.
+It's through GoTo, which used to be LogMeIn. originally, the phone system, and it was bought by LogMeIn. It was Jive.
+I bought it years ago. And it's really, it's reasonable. And so I had, and I did all this with chat, and I said, or with Grok, GrokBot, I said, hey, go out to, I want you to integrate with my SMS messaging.
+Let me get back to where it was so I could show that to you, Model HQ. Let me just scroll back and so I can find some of this stuff.
+And the other thing was, because it could get in there, because we have, we have actually have some stuff.
+Disco phones. Phones are always a pain to program. One of the last things I was working on last night, I was telling it, because I have two different businesses, I was telling, hey, go in and fix this, change these extensions and put names on it.
+I want to assign this to that. It went in there and it did all this stuff. I didn't have to manually go into the, because it's hard to navigate phone system settings.
+So I had to do all that and it worked. It's a powerful little tool if you use it properly.
+Oh, yeah. And I just become, you know, you're sitting there thinking, oh, I can use it for this and I can use it for that.
+@56:45
+-
+Jane Ward
+You know, I can just tell it now that I've got things set up. If I see a link that I like, oh, go throw this into my links, you know, and it does like for all my usage stuff.
+@56:54
+-
+Patrick Thomas
+That's stuff that I look at a lot. Let me get back. Let's see. What's this here? That's still a phone system.
+You can see this is just this weekend, all of this stuff I've been doing. This is the finish. This is the finish on it.
+But what I had that SMS messaging do, and I did it working right through here. But because I have that messaging site, I can share that with the other people that work here so they can go in and see what's been going on with this.
+And the other thing is you can skip around. It'll keep track of what you're doing. Mm-hmm. So... Well, even if you open a new chat, when you're in chat, if you open a new chat or branch out, it will remember everything from your previous chats as well.
+@57:44
+-
+Jane Ward
+Yeah. you gone in and programmed in the settings and given it a proper bio about who you are, what your tastes are, what your style is, and all the rest of it?
+@57:54
+-
+Patrick Thomas
+Have you done all that?
+@57:55
+-
+Jane Ward
+No, not with, no, because you're talking, are you talking about chat or are talking about...
+@58:00
+-
+Patrick Thomas
+This is Grok Vot is what I'm showing you. This is Vot. It's a little bit different. But yeah, I know what you're talking about.
+It's kind of like giving it, you know, your own skills, your skills, but yeah, I haven't gone in there and done that, but it's one of the things that, what's his name, the guy from the morning, the eight o'clock meeting, somebody helped me out.
+Who's who's does that class? Yeah. Jeff. Thank you. Yeah. Jeff. Jeff talked about that. Matter of fact, he shared some of the stuff that he was using in that.
+Mm hmm. Let me just see. Anyway, so so let me share what I'm talking about. So I have. So if I were to open, this is our back end site.
+It's basically our CRM that keeps track of people. And, you know, if you go in here, it has, you know, where they are, and then it has a notes field, basically, you know, transaction history, all this kind of stuff.
+And this is a SQL database. So I had, I had bought Connect to that live, to the live data.
+And I said, go out there and look at everybody that, you know, that's expired. That's an annual subscription that's not paying monthly all the way back to January.
+And I want to do an SMS messaging campaign. And it had me, and I did the campaign with it.
+And because I had it hooked in, So my phone system. It went out there, and I started out. The first one, I just told it, go to 90 days.
+And it says, okay, there's 13 people. This is what the message is going to be. And if you guys were talking, you remember me talking before, I had such a hard time setting up SMS messaging because you have to go through this whole process of getting approved to do that.
+And I used the AI tool to help me do that as well. But it was fantastic. And I went through and then changed my mind.
+said, well, here's, you know, this is what the savings is going to be. And it tells me, well, here are the serial numbers, because we have single seats and multi seats.
+So I went through, it says, well, you have 13, however many it was. And there's the one seats are this price, three seats are this price, five seats are this price.
+And it, and it figured out what the, you know, what the difference. And it automatically changed the text, so I didn't have to go in there and change any of that stuff.
+It went and connected to that database, and it saw, well, if there's five, I'm going to change the text in the text message that it was sending.
+So I didn't have to do any of that manually. And when I got all done with it, and I kind of said, okay, can you add this?
+Can you, you know, can you do this? And when I got all the way down, and you can see it connecting to my SM2.
+This is connecting to the GoTo account. And it says, okay, the annual just purchased. There's a total of 57.
+You have 46 single seats, 10 three seats, and five one seats, okay? And it says SMS only, no drafts, and it's locked in.
+And then at some point, I told it, go ahead and do it, and it was doing like batches of 10, and it sent out 56, the final thing was, it was a total, I'm still in drafts here, 46, it gave me a report at the end, let's see if I can find it here, complete, attempted 57, sent 55, two not delivered, it told me which ones weren't delivered, I found a cell phone number for one of them, it went back through, connected, then it was able to, so it was 57 attempted, 56 delivered, so, and I did that, and it was all automated, and I controlled everything from bot, I didn't have to go out, and, and, yeah, so it was fantastic, that's just one of the things I did, but, like I said, I mean, I was like overstimulated all weekend, it's like, oh my god, I could do this, and I could do that, and this, oh my god, I mean, it was just ridiculous.
+Ridiculous, man. I mean, I have, like, two cameras. I have, like, a camera in my driveway and then, like, a ring doorbell, so I created a camera one, and so I had it do, and it did all this.
+Oh, nice. So, I mean, you know, and I just, you know, set up to the ring camera, and I think it was, I thought I already signed all this in.
+Anyway, but I'm going to, it's going to be setting up, blink for himself, but when I'm finished, because it says you can use the home assistant you're on for a single ring, always-on ring-and-blink dashboard, not required, say the word, say the word when you want to build it.
+So, I can come out here and say, let me go to the bottom so you can see, and it'll build it while we're working on the meeting, you know, while we're in the, yeah, it will.
+So, it works, I mean, I'll say, go ahead, go ahead, and, and. And build out the camera, the camera HQ.
+And the two bots that I got, if you go, and you can grab it right here. I guess I have a link in here, Marketplace.
+The ones I picked up were a prospecting bot. It went out and it searched and it said, these are customers in your area based on what you do.
+So these are leads. It created leads for me. And then there's the Hagglebot. The Hagglebot went out to, I had it, you know, go out to, I have a Monarch account.
+It says, hey, you can go out. This is what you're paying. It can go out here. And, you know, so these are the two that I added.
+I haven't worked with them too much, but if you met, yeah. So it told you, hey, I already built this out.
+Yeah, go ahead and do the next layer. So anyway, I could stay on that forever, but thank you for listening.
+Thank you for listening to me babble. Oh, and I did create a game for you guys out on the, did you see that?
+No, post I wanted to ask you because I've been posting, I thought if you posted on AI Profit Boardroom, like in the community, it would automatically be over in yours, but it's not, it's not.
+They're separate, yeah. So let me, let me just show you one more thing because, uh, I did, I don't know if you saw this, but, um, can you see this?
+So if I go, let me go back out here. So if I go to my links and here's all my usage stuff, it'll take me right.
+Tell me what my cookies are or how many tokens I got left. But I can go right here to the Nexus, and what I told it, and Bot did this for me, and some of the stuff I don't like, but I go, hey, I want you to go out in the Nexus and take what I did in AI Profit Boardroom and go out there and post it.
+So it has access to my profile. It did my profile for me, some of it. I did some of it, but I don't like what it did here.
+Um, but I like on your showcase. So it put all my stuff out here. Um, okay. I see the Tecmo Bowl.
+Yeah, the Tecmo Bowl, and I'm kind of aging myself, was like a Nintendo game for football. played with my kids.
+It was real popular, but I posted, I shared, I shared the code, but if you click on this, you can actually go and play it and it's multiple.
+Yeah. Yeah. This, this is what I did with, this is what I made with my Astra tokens. And it's multiplayer.
+You can host it and, and play somebody else. And, you know, you can change all the different teams and it's got like it tells you how to do it and there's like a how to play and all this kind of stuff.
+But anyway, so that's the other thing I did. But so should I, if I post stuff on AI Profit Boardroom, should I be posting it on just take that and copy the same post and put it over there?
+I was kind of looking to see if there was a way to do that, like, because I like share with another community, but there isn't.
+You have to just, because I posted like two or three things out there over the weekend. Like I I didn't really get up from my computer too much.
+I know the feeling. Yeah. I wasn't in front of my computer hardly at all except for to create a bot in Discord.
+But we'll talk about that in a minute. Once again, I just lost train of thought here.
+@1:07:53
+-
+Rick Rodriguez (rickr1@gmail.com)
+Oh, yeah, this weekend I was bartending all weekend, three 10 hour shifts. But. I was able to, in between coming home at 12 midnight and in the morning before I left, I created a bot in Discord, a NovaBot, that people can use called AskNova.
+The first iteration of it was very complicated, very trying, because I tried to do it on the VPS in GrokBot.
+And so I asked Claude, Claude was helping me with it, I created the bot, got through it, and then when you would talk to the bot, it wouldn't answer.
+And I went just round and round and round, and it just wouldn't answer, but it said it was there.
+And then, so I said, okay, I'm going to take it off of the VPS, and maybe that's the problem, it's on the VPS, I'm going to take it local.
+And, and I gave it to Nova. And she said, she said, yes, the VPS, because I downloaded and installed Hermes on the VPS and then created the bot.
+And I didn't know this, but it's in a sandbox. So it heard, but it couldn't reply out of the sandbox.
+@1:09:21
+-
+Jane Ward
+Oh, that's good. Yes.
+@1:09:23
+-
+Patrick Thomas
+So I went through and created the bot locally and got it to work.
+@1:09:29
+-
+Rick Rodriguez (rickr1@gmail.com)
+And we go ahead and share that a little bit. And I also posted a link to discord. you're not in the discord, the AI builders guild discord.
+It's, it's pinned in there. So you can take a look at that. Let me bring it this up here.
+So everybody can use it except for JMAC because it's tied to my Grok OAuth. And I know he'll blast through it.
+He will blast through it. JMAC. He's not allowed to use it because he'll blast through all my, my OAuth on there.
+Just joking, but yeah, he'll, he'll, let's see, hear me find it. Oh, it's a machine. Oh, oh, I know, right?
+@1:10:09
+-
+Patrick Thomas
+Yeah. Have you seen this thing that he's did with voice chat or teaching people a different language? He did it in like two days or something.
+Mm-hmm. Discord, it's not showing my Discord right now. Where's your link for Discord? I'm looking for that. If you go in the chat at the top, it's pinned at the top, yeah.
+Oh, okay. Make sure of that. So I'll just have to do, it's not showing in my window. Sometimes it does that.
+don't why. I hate that. Okay. So I'll just do entire screen. All right. Hopefully I don't get the tunnel effect here.
+All right.
+@1:10:55
+-
+Rick Rodriguez (rickr1@gmail.com)
+Can anybody see the, see my screen there? Oh, there it is. Okay. So let me go over here. This guy right here.
+Okay. So I'm learning myself how to use Discord. I haven't used it much except for I knew it was for gaming, but I know a lot of developers and stuff have kind of taken it over and used it.
+So if you go into the AI Builders Guild server and you scroll down to can everybody see this? Yeah.
+Yeah. Yeah. Go down to the Help Center right here.
+@1:11:31
+-
+Jane Ward
+There's an Ask Nova. And interestingly enough, was it it was it wasn't working. Keith tried using it. wasn't working for him.
+@1:11:40
+-
+Rick Rodriguez (rickr1@gmail.com)
+There was two doors, I guess, that needed to be unlocked. The first one was I was able to use.
+It was unlocked. But then Keith said he couldn't use it. So I came home when I came home last night.
+My son gave me a call at midnight. I'm like, what are you doing calling me at midnight? And he was on his Mac playing games.
+I said, oh, could you do me a favor? Could you? He troubleshoot something with me, I need to figure out how to make the bot available to everybody in the guild.
+So I sent him an invite, and he came in, and he actually asked Nova a question. And you can see it up here.
+Let's see here where he goes. He asked it, what was the weather in China for the past seven days, and please make me a spreadsheet on it.
+So let's see, get down to that here. Here's like a little intro coming through here, what the capabilities are of the Nova app.
+And she's a coach. She has, she's using the Grok 4.6 model right now on OAuth. She has memory across sessions and server channels.
+Let's see here. What else is her, let's see, so she goes, where's her, what she can do here, identity, what she can make.
+Oh, she'll make, like, DocXs, PowerPoint presentations. She can do images. That's cool. That's super cool.
+@1:13:08
+-
+Patrick Thomas
+Are you – so you're hooked to an API. Are you paying for that when people are asking? So it's using my Nova profile, not my original – originally I had my original Nova in there, and Nova said, no, no, no, no.
+You don't want to do that.
+@1:13:27
+-
+Rick Rodriguez (rickr1@gmail.com)
+It has all your personal stuff in there. So she made a separate Nova profile for just the guild to be able to do this.
+And Keith checked it out this morning. This is what he did here. So when you use Nova here, you go to the Ask Nova, and you come down here, and you'll do at sign, and then you'll select Nova right here.
+And let's see. What's a good question to ask? Can someone throw something out there? I tried asking it how it was.
+I did it in the other room, and it didn't answer.
+@1:14:02
+-
+Yasmine Johnston-Ison
+Yeah, it was in general originally, and then Nerva said, no, you don't want it in general because it'll just be noise.
+So she actually suggested doing this help channel here.
+@1:14:13
+-
+Rick Rodriguez (rickr1@gmail.com)
+It says in here you have to be a member for 10 minutes before you can send messages.
+@1:14:19
+-
+Yasmine Johnston-Ison
+Ah, okay. That's interesting. I didn't know that.
+@1:14:24
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, I have six minutes left. There's like a timer at the bottom. Interesting.
+@1:14:29
+-
+Patrick Thomas
+What is the third in? Warm and sunny in Antarctica. So this, my question again is, so is Nova like a local AI that's, so you're not like spending money for this?
+No, I'm actually spending money for this. Right now, it's not local. I'm still tweaking it and working with it.
+@1:15:07
+-
+Rick Rodriguez (rickr1@gmail.com)
+Once we start growing and everything, if everybody starts hitting this, then it can do some damage.
+@1:15:15
+-
+Patrick Thomas
+Yeah, it depends on how you ask it. You had a question, Yasmine? Mine's not AI-related. How did you get the little widgets to stay on your desktop, like the calendar and the weather that's on your Mac?
+@1:15:35
+-
+Yasmine Johnston-Ison
+Oh, here. Yeah. Mine only shows up if I push the time. I can't get it to stay on my desktop.
+I'm not sure. It just kind of... It just does, isn't Yeah.
+@1:15:58
+-
+Jane Ward
+I'll have to find out how I did that. Why don't you ask Nova?
+@1:16:03
+-
+Yasmine Johnston-Ison
+There you go. That's your question.
+@1:16:08
+-
+Patrick Thomas
+Yeah, let's see here.
+@1:16:10
+-
+Jane Ward
+I tried to drag and drop it, but that just deleted it.
+@1:16:16
+-
+Rick Rodriguez (rickr1@gmail.com)
+Let's do this. I don't have a Mac, but is there like a desktop setting, like a right-click pin, or any right-click things you can do on that?
+@1:16:27
+-
+Patrick Thomas
+Oh, let me see.
+@1:16:31
+-
+Yasmine Johnston-Ison
+It just says edit widgets, but when I do that, I don't have, it doesn't put it on my desktop.
+Okay. It just puts it up in my little calendar area, like where the clock is. Let's see what Nova says here.
+Maybe you go to the actual app and say show on home screen like a phone or something. Maybe. Interesting here.
+@1:17:00
+-
+Patrick Thomas
+Oh, she's pulling the current steps.
+@1:17:09
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then also something popped up. I don't know if this has been known for a while or if they just started or not with Discord, but you can subscribe and do monetize your servers on Discord.
+So when you bring people in, you can do subscriptions just like, I guess, like school and stuff like that.
+Let's see here. System settings. Oh, desktop dock widgets.
+@1:17:36
+-
+Yasmine Johnston-Ison
+So, Yasmine, if you click on the right button, click on your desktop and it comes up to edit widgets, drag the widget you want on your desktop up into the top part where it says add widgets to your desktop.
+Once you do that, it will stay on your desktop. Let me try. Edit widget. And then drag and drop.
+Drag it up to the top of that window where it says keep windows widget on your desktop. Okay. Drag it right up into that portion.
+Oh, look at that.
+@1:18:19
+-
+Keith Obrosky
+Nice. Okay. Now I can get rid of it underneath my clock.
+@1:18:25
+-
+Yasmine Johnston-Ison
+Nice. Good deal. Get a little more taskbar room.
+@1:18:31
+-
+Patrick Thomas
+And then she actually gave a spreadsheet to download for the question for weather.
+@1:18:38
+-
+Rick Rodriguez (rickr1@gmail.com)
+So that was kind of cool. like that. Like a million widgets up on my.
+@1:18:42
+-
+Yasmine Johnston-Ison
+Oh, this is not going to be good. Widget central.
+@1:18:53
+-
+Keith Obrosky
+It's the last thing I need.
+@1:18:59
+-
+Yasmine Johnston-Ison
+Oh, what happened? So what was the weather in Antarctica? Let me go back here to bring this up.
+@1:19:05
+-
+Rick Rodriguez (rickr1@gmail.com)
+Let's see what she says here. Oh, that's okay. So let me go back up here. Oh, here we go.
+@1:19:17
+-
+Patrick Thomas
+Oh, there it is. Minus 76 degrees Fahrenheit.
+@1:19:22
+-
+Rick Rodriguez (rickr1@gmail.com)
+Well, you go to the 70s, right?
+@1:19:25
+-
+Yasmine Johnston-Ison
+Yeah, minus 70, minus 85. Oh, that's a jerk.
+@1:19:32
+-
+Patrick Thomas
+So we can have a lot of fun with that. Yeah. And then what I can also do is because I just thought of this, because this bot is using a different profile, I can assign a free LLM to it under that particular profile, and that way it would be free.
+@1:20:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+Okay. It's like NemoTron or one of the free ones that are there that's listed.
+@1:20:06
+-
+Yasmine Johnston-Ison
+That's how I can do it for free.
+@1:20:11
+-
+Rick Rodriguez (rickr1@gmail.com)
+Strongest wins listed at 157 miles an hour.
+@1:20:17
+-
+Patrick Thomas
+I want to go live there. You've got to last about two minutes outside. Not even. Not even, right. Unless you're a penguin.
+Yeah.
+@1:20:36
+-
+Jane Ward
+I don't even think any self-respecting penguin would want that.
+@1:20:46
+-
+Yasmine Johnston-Ison
+But yeah. So, so one really thing I thought I thought was kind of cool was like, people don't have to wait anymore to, if they have a question with their app or anything like that, they, I mean, they can always go to Claude.
+@1:21:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+And do it like that, but guild members, if they have questions with things within the guild or anything like that, they don't have to wait for a meeting.
+They can just pop right in here and ask some questions. And then I can always be checking it throughout the day and everything if people need help with something else.
+Someone's typing something. Who's typing something? Steve at the bottom here.
+@1:21:24
+-
+Jane Ward
+One thing you might want to do is talk about a couple of voice channels.
+@1:21:29
+-
+Aaron (WeDigCode)
+me in Somnium forever. That's my Discord handle. I'm asking how to use Discord, basically.
+@1:21:37
+-
+Rick Rodriguez (rickr1@gmail.com)
+Oh, yeah. You've never, Ernest, you've never used Discord before? I've used a little bit, but, like, in comparison to the MIT guy, Discord is like a novice, really.
+I've only, like, looked through a bit, but not as a normal user, really. Yeah, so it's good that now I've got a group or a few groups and over the time I will...
+Catch up slowly.
+@1:22:02
+-
+Ernest Mockus
+Yeah, same here. I just, I mean, just over this past, you know, week, I just started, you know, looking into this.
+@1:22:09
+-
+Rick Rodriguez (rickr1@gmail.com)
+But yeah. Oh, look at that. Talking about Spark meeting. Yeah. Okay. Let's see what she says here. The Guild Knowledge Pack.
+Okay. I'm still typing. And then there's also a voice function that I'll be activating when I figure out how to do it.
+And I can, so Nova will be able to talk to you. I'm not sure with which, what voice. Then she'll be able to moderate, kick people.
+What else was it? There's a bunch. I was very impressed with the things that you can, I'm sorry, go ahead.
+Oh, was going to say you might want to add a couple voice channels so that sometimes someone's either presenting something and then other people want to talk about other stuff.
+@1:23:09
+-
+Aaron (WeDigCode)
+Yeah, I added this right here, but I don't know how to use it yet. I just kind of put it in there.
+haven't configured it or anything. You might be able to, I think there's a plus sign just to the right, and then you might be able to create a couple channels.
+Oh, there we go. Yeah, a couple voice channels, yeah. What should we call it? Any suggestions?
+@1:23:39
+-
+Jane Ward
+For the voice channel? Yeah, should we name the voice channel? I mean, it could be something boring like voice one, and then you can have another one that's called voice two and another one called voice three.
+@1:23:53
+-
+Aaron (WeDigCode)
+Yeah, let's do that. Okay.
+@1:24:05
+-
+Rick Rodriguez (rickr1@gmail.com)
+Invite to voice. Oh, look at this. Oh, so let's see here, guy. Add, add, add, add. That one is going to be weird to see if Nova does anything there.
+Let's see here. Anyone else in here? Yeah, I should be in there. Yeah. I think I'm in there. Yeah.
+Oh, is this you right here? No, but I'm logged in.
+@1:24:39
+-
+Patrick Thomas
+I don't think so. I don't think so. Mine is not listed. Mine is in something forever. Yeah, mine's not listed either.
+Just search. Search for Pete Thomas at the top. Nope, it's not there. But I'm in. Maybe because I haven't asked a question yet.
+I'll try doing that. Let's see. I saw you there. I did a little wave hand at you.
+@1:25:12
+-
+Yasmine Johnston-Ison
+Oh, you did? I didn't see it. Sorry. the general. Go to the general room. Okay. General. And it says P.
+Thomas right there. Yeah. And you wave to me? Yeah.
+@1:25:29
+-
+Patrick Thomas
+The little waving guy right there. Yeah. Well, I'm not.
+@1:25:34
+-
+Yasmine Johnston-Ison
+Well, I'm looking for the wave. Hold on, P. Thomas. It's on the screen. On the. Yeah, I just hop up, up and down to the top here.
+Oh.
+@1:25:43
+-
+Patrick Thomas
+Yeah, it's not showing up on mine. Are you waved to Rick? No, I waved. The little pigeon that's waving.
+pigeon. Yeah, I don't see it. That's weird. Wait a minute. Oh, wait a second. No.
+@1:26:01
+-
+Rick Rodriguez (rickr1@gmail.com)
+Oh, you're in this one. Oh, I see you now. Here. Yeah, that's me. Oh, so you're in general. Move down to this one right here.
+Yeah, but I'm still looking for my little guy waving at me.
+@1:26:19
+-
+Patrick Thomas
+I can't see him. Oh, that's up in the chat room. Oh, if I go to general, there you go.
+@1:26:25
+-
+Yasmine Johnston-Ison
+Thank you. That's cool. I like my guy. Thank you. That's cool. I still don't see you in this one here.
+That's interesting. So I'm in general but not in voice.
+@1:26:39
+-
+Patrick Thomas
+But if I click voice, looks like you're in another voice channel. you sure you want to switch? No? Okay.
+I'm under general. Oh, because AskNova is one. How do I get rid of this guy? This is really annoying me.
+Oh. Hide this, okay. It's a promoted robot, yeah. I asked you the question, has to answer me. Did you get it to answer a question for you, Yasmine?
+Oh. I was in the wrong channel trying to do it. So I didn't try again.
+@1:27:12
+-
+Yasmine Johnston-Ison
+I'm in Ask Nova. Is that the right channel to be in? Yeah. Okay.
+@1:27:18
+-
+Patrick Thomas
+So I see that you put in here, can you tell me? So what you need to do is you need to do the app sign.
+the app sign. this. And then you got to select Nova here. See, there's the bot, right? Oh, okay. see it.
+@1:27:32
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then you select that, and then space, and then whatever question you want to ask. Oh, you can't have it.
+Oh, so like if you click on Ask Nova, can you just have it put that in there automatically?
+@1:27:44
+-
+Patrick Thomas
+Because people aren't going to remember to do that. Oh, you know, I'm not sure. I mean, just a suggestion.
+I mean, I'm sure you could probably, as soon as you click it, it'll say at Nova. Looking pretty gloomy out there, man.
+I think it's going to rain today. Let's see. Unlikely, 90 degrees.
+@1:28:36
+-
+Rick Rodriguez (rickr1@gmail.com)
+Oh, well. Thank God for air conditioning.
+@1:28:44
+-
+Ernest Mockus
+What's this here? Pin calendar to Mac desktop. OK. And then get Antarctica. OK. It'll be fun to play with and learn.
+Oh, and then, yeah.
+@1:28:53
+-
+Rick Rodriguez (rickr1@gmail.com)
+And then I'm going to create an SOP and some training materials for people that want to create.
+@1:29:01
+-
+Patrick Thomas
+Yeah. Now, can your GrokBot connect as you to your Discord?
+@1:29:06
+-
+Rick Rodriguez (rickr1@gmail.com)
+And you could probably tell it, hey, you could probably tell it to do things, create this, create that, and it probably knows how to do it.
+@1:29:14
+-
+Patrick Thomas
+Oh, I'm sure. Yeah, I'm sure it'll be able to do that, too. Yeah, it's pretty powerful there.
+@1:29:21
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, just an idea. You could probably do that with any of the AIs. Yes.
+@1:29:26
+-
+Patrick Thomas
+Mm-hmm. So how do you use this voice-connected one here, this voice connection? Let's see here, it says voice details.
+@1:29:33
+-
+Rick Rodriguez (rickr1@gmail.com)
+I wonder if I click on this, oh, it's just, it'll disconnect me. It's telling you that you're connected to voice.
+@1:29:40
+-
+Aaron (WeDigCode)
+Okay. Through Discord. So since you're in voice channel one. And how do you use it? Like, start an activity, or?
+Uh, no.
+@1:29:53
+-
+Rick Rodriguez (rickr1@gmail.com)
+I mean, like, if someone joins in. Yeah. Yeah. Yeah. Yeah.
+@1:30:05
+-
+Yasmine Johnston-Ison
+I can have some fun with this.
+@1:30:09
+-
+Aaron (WeDigCode)
+Yep, I'm here too. Oh, okay, cool. How do I close this?
+@1:30:18
+-
+Rick Rodriguez (rickr1@gmail.com)
+There we go. There we go. So if you see next to my...
+@1:30:30
+-
+Aaron (WeDigCode)
+Uh-oh. A little feedback there. Yeah, yeah. All right, we'll disconnect that.
+@1:30:46
+-
+Rick Rodriguez (rickr1@gmail.com)
+Wow, that was crazy.
+@1:30:48
+-
+Patrick Thomas
+I like that. We'll have to work on that and see how that configure that. Yeah, you can put a link to that like in the Nexus and get to it from there.
+Yeah, yeah. And then over here...
+@1:31:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+Here on chat, I have it pinned, I have the notes up here, the Discord invite, and then some Nexus invites right here.
+have a pin to the top. Cool. Do you guys want me to put a link to the tech, the links that the bot's scraping?
+@1:31:21
+-
+Patrick Thomas
+I can put a link to that on your Nexus. Definitely. That's awesome. Yep. Okay. Because one of the things it put in there is, I've got a link within for your coffee notes, and those are awesome.
+@1:31:38
+-
+Ernest Mockus
+Because you put it in the chat one day.
+@1:31:41
+-
+Patrick Thomas
+And it picked it up. Oh, that's great. Yeah. So it's in there.
+@1:31:52
+-
+Rick Rodriguez (rickr1@gmail.com)
+So, Aaron, you said something about a version difference. I think I was wrong. That was with...
+@1:31:59
+-
+Aaron (WeDigCode)
+I was wrong. The macOS thing you guys were talking about. Okay. don't know whether this is useful.
+@1:32:09
+-
+Ed Grimshaw
+A of people noticed there's a marketplace on GrokBot with people promoting different apps on there. Yeah, I grabbed a couple of them over the weekend.
+@1:32:21
+-
+Patrick Thomas
+Yeah. The other thing, I don't know whether this is behind the curve, but I've created something called Handover where you can hand over to another platform from GrokBot so you're not, you're not the new using all your credits in GrokBot.
+@1:32:38
+-
+Ed Grimshaw
+You can spread them around.
+@1:32:40
+-
+Patrick Thomas
+Oh. Hando, hand over to like Claude or something like yeah. Codex or any of those. Is it a prompt or what is it?
+I take it over as a prompt because I want control of it.
+@1:32:53
+-
+Ed Grimshaw
+I don't want the thing bouncing around. So yeah, it creates a markdown file to pull You could probably turn that into a skill thing.
+just ask for GropBot to create your handover prompt for all the different things you might want to use. You might also be able to turn that into a skill.
+So you can just call at any time.
+@1:33:20
+-
+Jane Ward
+Yeah.
+@1:33:23
+-
+Ed Grimshaw
+It's like when you're subscribing to a few platforms, how do you optimize and also use the strengths of each one?
+You know, so Gemini is better at the output visually, but for me, Claude is far better at writing than Codex or Codex seems better with data.
+But that's just maybe what I'm working with.
+@1:33:51
+-
+Jane Ward
+But that's my experience. Nice. I would agree with you. think everything has strong points and weak points.
+@1:34:05
+-
+Keith Obrosky
+so if you use them, you'll find which one's better. I know years ago, I mostly used perplexity to start, but then I tried Claude.
+I was teaching earth science, and I found that Claude was much better at scientific questions than anything else. So everything has its strengths and weaknesses.
+@1:34:29
+-
+Ed Grimshaw
+Once his name was, he did about 20 things, Nate, yesterday, between Fable 1 and the Codex 6 or whatever, the 6, Astra 6, and he rated them.
+But the difference in cost was massive. You could be talking four or five times the cost between one and the other, and differences in quality of output.
+And it wasn't like one was better right through. They were all of various suburb. We at both, but the cost was different.
+So that was going to become a bigger variable with the quality of output, but also what's the cost. I'll take the cheapest one.
+@1:35:23
+-
+Rick Rodriguez (rickr1@gmail.com)
+I started doing the – oops, sorry.
+@1:35:28
+-
+Patrick Thomas
+I started doing – and I haven't – I got it created, and it's doing some of it, but I got something called Model HQ, so because – I still – and I've got to add, but these are the models that I have.
+So – and Hopper is the – the Grok chief of staff. So this one front door, if you've got some project you're going to work on, you basically – you ask it, hey, this is – this is what –
+This is what I'm going to be doing. Which one should I use? Really? Yeah. So it hoppers the front door, and then it asks, and it'll say, okay, use this one.
+And then you can, like, it's not automated, but I'll probably do a copy of this. But it set all this up, you know, what the gates are.
+And then I have to add the other stuff. And I got the links in here, so you want to see what you're spending, you know, where you're at on your usage.
+But it's a model picker. And how did you get the dashboard? Yes. seem to get a dashboard, Patrick, with all your, do you ask just for, give me a dashboard, interactive dashboard?
+What do you ask? What do you prompt for? I just, you know, because I've done, because it's LinkedIn, it has access to my work tree.
+So I tell, you know, I want to put this out on my, you know, main server. I want to put this out on my main server.
+Sure. know. I want to be able to, you know, from a web interface, I want to be, you know, I just tell it to use basically the same kind of framework we used on the other ones, just to give it a template, and it builds it in a matter of, you know, I don't know, 10 minutes, 15 minutes, and then you just go in there and then just tell it what you want it to change, and it's all automated.
+You just tell it, and then it goes out there and does it. That's what I really like about, because I use, I use CloudFlare, and then I, the web server's actually running on my own system, some of the stuff is out on CloudFlare, but it, and all the CloudFlare stuff is free until you get to a certain point, and I haven't gotten to that yet, but like, the tunnel, I mean, there's a, there's a tunnel that's, that it, it, an encrypted tunnel, let me just show you, so if I go out to my, this is all this, this is all the projects I work on, that I've been working on since I started.
+Like, there's websites, there's apps, there's all kinds of stuff, but it tells you there's 21 sites, there's a caddy, and then there's a tunnel, and this is all through Cloudflare.
+It even has something from my voice agent, and then this is our VP. Did put this on the nexus?
+No, not all this stuff, because some of this stuff is, like, my financials, but I put some of it.
+@1:38:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+But, like, I'm going to put, like, here's the boardroom tech links I'll put out there. I'll link it right to that.
+Nice. Um, but anyway, so, uh, but I like having that because I can keep all my stuff in one place, you know?
+@1:38:48
+-
+Patrick Thomas
+So I started doing that kind of, like, right from the gate, and, you know, it's, and then, like, when you're out somewhere, you could, like, show, you know, show people what you're working on.
+It's pretty cool.
+@1:39:01
+-
+Ed Grimshaw
+It seems like we've got experts, you know, you'd probably be the expert in GrokBot, you know, and then Keith was on his educational, I forgot the name of the product now, but it was, it looks a good product.
+You know, everybody's kind of, Yasmine Johnston-Ison, you know, everybody's kind of going to their own specialty. And what's interesting here is we've got experts in different pockets, haven't we, of AI?
+And how do we get the most out of that, really? Yeah. Yeah, that's, that's something that's so awesome.
+@1:39:37
+-
+Rick Rodriguez (rickr1@gmail.com)
+It's like everybody is helping each other develop their own niche even because they're always running into some block or question and it's in the expertise of someone else so that they chime in like, oh, you can do this.
+Yeah. to say, Rick, this is better than the profit boardroom where it seems to default to generalities.
+@1:39:59
+-
+Patrick Thomas
+externalities. going I there's but I lot of I
+@1:40:01
+-
+Ed Grimshaw
+It seems like we've got experts, you know, you'd probably be the expert in GrokBot, you know, and then Keith was on his educational, I forgot the name of the product now, but it was, it looks a good product.
+You know, everybody's kind of, Yasmine Johnston-Ison, you know, everybody's kind of going to their own specialty. And what's interesting here is we've got experts in different pockets, haven't we, of AI?
+@1:40:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+And how do we get the most out of that, really? Yeah. Yeah, that's, that's something that's so awesome. It's like everybody is helping each other develop their own niche even because they're always running into some block or question and it's in the expertise of someone else so that they chime in like, oh, you can do this.
+Yeah.
+@1:40:51
+-
+Ed Grimshaw
+to say, Rick, this is better than the profit boardroom where it seems to default to generalities. externalities. going I there's but I lot of I
+Not enough specific skills, you know, whereas we've seen things here where people have, you know, their own developments and, you know, how can I, you know, how can I use that?
+can I work with that, you know? Thank you. That's right. That's, I, these kinds of things is, I just, I know, I get goosebumps when things like this, it's like so nice.
+@1:41:26
+-
+Rick Rodriguez (rickr1@gmail.com)
+Yeah, I can't say I'm developing apps very well, but I got feedback from the UK's most successful racehorse training, wanted to know how I got as much productivity out as I did.
+And he says, you know, I'm the best guy for writing about the subject, but I'm using Claude. I've got, I've kind of methodology, I reiterate, reiterate to a point, and it's kind of understanding the limits of Claude and then the gaps in Claude.
+And just an ongoing revision. So although I'm out putting more than most people, there's work going into it, but using the technology to get the most out of it kind of thing.
+But it's interesting. I don't know whether I should tell him I'm using AI or not. No, yeah, don't tell him.
+Blood, sweat, and tears. Just tell him you're using technology. What was that, guys? Just tell him you're using technology.
+@1:42:29
+-
+Patrick Thomas
+But if you tell people they're using AI, they think you've just pressed a button and it's not there.
+@1:42:36
+-
+Ernest Mockus
+They don't know.
+@1:42:37
+-
+Patrick Thomas
+They don't know.
+@1:42:41
+-
+Rick Rodriguez (rickr1@gmail.com)
+That's great. Oh, I did. I'm going to integrate this. Also, I'm not sure how I can integrate with the graphic to bring it in and out.
+@1:42:50
+-
+Patrick Thomas
+A lot of times when I bring up the meat, I'm in there a little bit earlier and I see people kind of like
+@1:43:00
+-
+Rick Rodriguez (rickr1@gmail.com)
+They're there a little bit earlier, and they're sitting there, so I thought, you know what, I need an intro, a music intro, so what I did was I went out to Suno, and I said, I want an intro for my meetings that as a cross between The Lord of the Rings, Star Wars, and The Avengers.
+@1:43:26
+-
+Ed Grimshaw
+Nice. So, let me play it for you.
+@1:43:30
+-
+Rick Rodriguez (rickr1@gmail.com)
+It's a little lengthy, but I thought it did really well in what it did. Let's hear it.
+@1:43:48
+-
+Patrick Thomas
+I can't hear it, Rick. Are you playing it? Yeah. you can't hear it? No. No, no. Just a minute.
+Yeah, one second. Let me stop it. Maybe you've got to share your screen in order for it to hear.
+@1:44:02
+-
+Ernest Mockus
+Yeah, yeah, yeah, let's do that. I did a skit of the sunscreen thing a long time ago, but it was a modern version.
+I could do one for AI. There we go. Okay, here we go. Is that better? Yeah. It gets better.
+@1:47:08
+-
+Patrick Thomas
+I had fun with it. Yeah. Tsuno is awesome. I love it. So, and then I'm just going to change it up every so often.
+Hopefully just get, get people to come back just to hear the new song. Just kind of like they did.
+in the Simpsons, how they always change the intro or things were going on differently. And then I'm like, ah, people will just come back just to hear the music.
+@1:47:43
+-
+Rick Rodriguez (rickr1@gmail.com)
+Anyhow, any other goodies? Any questions? Our Labor Day barbecues. Labor Day barbecue. Thank you guys for showing us up, man.
+That was great. Awesome. See you. See you next day. All right. Spark session tonight. Yeah. All right. See you at 4.
+I might be in the barbecue, though. Maybe it's 4.30. Oh, yeah. But maybe. I'll see. Yeah. If not, yeah, you can always go on your phone, right?
+Yeah, I haven't tried that. But that'd be cool. All right. Well, thanks, guys. All right. Have a great day.
+Have a great Labor Day. Take care. Bye bye. Cheers.
