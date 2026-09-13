@@ -1,13 +1,185 @@
 {
- "generated": "2026-09-11T08:06:36",
+ "generated": "2026-09-12T08:06:46",
  "source": "OpenRouter + NIM + GitHub + Groq + OpenAI + Cloudflare + Nous + Replicate + HF + curated free-LLM lists + local Ollama",
- "total": 743,
+ "total": 751,
  "by_tier": {
-  "cheap": 422,
-  "free": 246,
+  "cheap": 428,
+  "free": 248,
   "paid": 75
  },
  "models": [
+  {
+   "id": "inference-net/schematron-v2-turbo",
+   "name": "Inference.net: Schematron V2 Turbo",
+   "provider": "inference-net",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 3e-08,
+   "cost_out": 1.5e-07,
+   "context_length": 128000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "inference-net/schematron-v2-small",
+   "name": "Inference.net: Schematron V2 Small",
+   "provider": "inference-net",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 5e-08,
+   "cost_out": 2.3e-07,
+   "context_length": 128000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "longctx"
+   ],
+   "quality": 5.5,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema...",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "~openai/gpt-astra-latest",
+   "name": "OpenAI: GPT Astra Latest",
+   "provider": "~openai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 1e-05,
+   "cost_out": 5e-05,
+   "context_length": 1050000,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 7.0,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "This model always redirects to the latest model in the GPT Astra family.",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "~openai/gpt-sol-latest",
+   "name": "OpenAI: GPT Sol Latest",
+   "provider": "~openai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 2e-06,
+   "cost_out": 1e-05,
+   "context_length": 1050000,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 7.0,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "This model always redirects to the latest model in the GPT Sol family.",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "~openai/gpt-terra-latest",
+   "name": "OpenAI: GPT Terra Latest",
+   "provider": "~openai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 2e-06,
+   "cost_out": 1.2e-05,
+   "context_length": 1050000,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 7.0,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "This model always redirects to the latest model in the GPT Terra family.",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "~openai/gpt-luna-latest",
+   "name": "OpenAI: GPT Luna Latest",
+   "provider": "~openai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 2e-07,
+   "cost_out": 1.2e-06,
+   "context_length": 1050000,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": true
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 7.0,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "This model always redirects to the latest model in the GPT Luna family.",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
   {
    "id": "sakana/fugu-ultra-v2",
    "name": "Sakana: Fugu Ultra v2",
@@ -67,6 +239,39 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "inclusionai/ling-3.0-flash-vl",
+   "name": "inclusionAI: Ling 3.0 Flash VL",
+   "provider": "inclusionai",
+   "home_provider": "openrouter",
+   "tier": "cheap",
+   "cost_in": 6e-08,
+   "cost_out": 1.8e-07,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": true,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "vision",
+    "longctx"
+   ],
+   "quality": 25.0,
+   "rate_limit": null,
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+   "usable": true,
+   "aa_intelligence_index": 25.0,
+   "aa_blended_usd_1m": null,
+   "aa_median_tok_s": 144.0,
+   "aa_latency": 2.23,
+   "quality_source": "aa"
+  },
+  {
    "id": "inclusionai/ling-3.0-flash-vl:free",
    "name": "inclusionAI: Ling 3.0 Flash VL (free)",
    "provider": "inclusionai",
@@ -97,7 +302,7 @@
    "aa_intelligence_index": 25.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 144.0,
-   "aa_latency": 2.12,
+   "aa_latency": 2.23,
    "quality_source": "aa"
   },
   {
@@ -735,7 +940,7 @@
    "usable": true,
    "aa_intelligence_index": 40.0,
    "aa_blended_usd_1m": 0.37,
-   "aa_median_tok_s": 54.0,
+   "aa_median_tok_s": 53.0,
    "aa_latency": 2.81,
    "quality_source": "aa"
   },
@@ -745,8 +950,8 @@
    "provider": "z-ai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 1.5e-07,
-   "cost_out": 5e-07,
+   "cost_in": 7.5e-08,
+   "cost_out": 2.5e-07,
    "context_length": 1310720,
    "modalities": {
     "text": true,
@@ -760,16 +965,16 @@
    ],
    "quality": 42.0,
    "rate_limit": null,
-   "expiration": "2098-12-31",
+   "expiration": null,
    "expiring_soon": false,
-   "expires_in_days": 26409,
+   "expires_in_days": null,
    "direct_key": false,
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.25,
-   "aa_median_tok_s": 90.0,
-   "aa_latency": 2.51,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
    "quality_source": "aa"
   },
   {
@@ -946,8 +1151,8 @@
    "provider": "~z-ai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 9.7e-07,
-   "cost_out": 3.3077e-06,
+   "cost_in": 8.727e-07,
+   "cost_out": 3.36e-06,
    "context_length": 1310720,
    "modalities": {
     "text": true,
@@ -1022,8 +1227,8 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.25,
-   "aa_median_tok_s": 90.0,
-   "aa_latency": 2.51,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
    "quality_source": "aa"
   },
   {
@@ -1060,8 +1265,8 @@
    "provider": "qwen",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 4.2e-07,
-   "cost_out": 3e-06,
+   "cost_in": 2.14e-07,
+   "cost_out": 2.55e-06,
    "context_length": 1000000,
    "modalities": {
     "text": true,
@@ -1106,7 +1311,7 @@
    "rate_limit": null,
    "expiration": "2026-09-30",
    "expiring_soon": true,
-   "expires_in_days": 19,
+   "expires_in_days": 18,
    "direct_key": false,
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
    "usable": true,
@@ -1291,8 +1496,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 6.6e-07,
-   "cost_out": 1.98e-06,
+   "cost_in": 5.7816e-07,
+   "cost_out": 1.73448e-06,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -1600,12 +1805,12 @@
   },
   {
    "id": "~deepseek/deepseek-v4-flash-latest",
-   "name": "DeepSeek V4 Flash Latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "provider": "~deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 5e-08,
-   "cost_out": 1.6e-07,
+   "cost_in": 3e-08,
+   "cost_out": 7e-08,
    "context_length": 1310720,
    "modalities": {
     "text": true,
@@ -1632,8 +1837,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 6.5e-08,
-   "cost_out": 1.8e-07,
+   "cost_in": 4e-08,
+   "cost_out": 8e-08,
    "context_length": 1310720,
    "modalities": {
     "text": true,
@@ -1889,7 +2094,7 @@
    "aa_intelligence_index": 25.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 144.0,
-   "aa_latency": 2.12,
+   "aa_latency": 2.23,
    "quality_source": "aa"
   },
   {
@@ -2123,7 +2328,7 @@
    "aa_intelligence_index": 26.0,
    "aa_blended_usd_1m": 0.61,
    "aa_median_tok_s": 76.0,
-   "aa_latency": 2.69,
+   "aa_latency": 2.7,
    "quality_source": "aa"
   },
   {
@@ -2187,7 +2392,7 @@
    "aa_intelligence_index": 26.0,
    "aa_blended_usd_1m": 0.61,
    "aa_median_tok_s": 76.0,
-   "aa_latency": 2.69,
+   "aa_latency": 2.7,
    "quality_source": "aa"
   },
   {
@@ -2225,8 +2430,8 @@
    "provider": "moonshotai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.34e-06,
-   "cost_out": 1.17e-05,
+   "cost_in": 2.30272875e-06,
+   "cost_out": 1.1550195e-05,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -2826,8 +3031,8 @@
    "usable": true,
    "aa_intelligence_index": 26.0,
    "aa_blended_usd_1m": 0.07,
-   "aa_median_tok_s": 84.0,
-   "aa_latency": 2.65,
+   "aa_median_tok_s": 82.0,
+   "aa_latency": 2.66,
    "quality_source": "aa"
   },
   {
@@ -3095,8 +3300,8 @@
    "provider": "z-ai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 9.66e-07,
-   "cost_out": 3.036e-06,
+   "cost_in": 6e-07,
+   "cost_out": 2e-06,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -3466,8 +3671,8 @@
    "usable": true,
    "aa_intelligence_index": 30.0,
    "aa_blended_usd_1m": 0.51,
-   "aa_median_tok_s": 92.0,
-   "aa_latency": 1.94,
+   "aa_median_tok_s": 88.0,
+   "aa_latency": 1.9,
    "quality_source": "aa"
   },
   {
@@ -3965,7 +4170,7 @@
   },
   {
    "id": "~anthropic/claude-haiku-latest",
-   "name": "Anthropic Claude Haiku Latest",
+   "name": "Anthropic: Claude Haiku Latest",
    "provider": "~anthropic",
    "home_provider": "openrouter",
    "tier": "cheap",
@@ -3988,13 +4193,13 @@
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": false,
-   "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+   "description": "This model always redirects to the latest model in the Claude Haiku family.",
    "usable": true,
    "quality_source": "heuristic"
   },
   {
    "id": "~openai/gpt-mini-latest",
-   "name": "OpenAI GPT Mini Latest",
+   "name": "OpenAI: GPT Mini Latest",
    "provider": "~openai",
    "home_provider": "openrouter",
    "tier": "cheap",
@@ -4017,13 +4222,13 @@
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": false,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+   "description": "This model always redirects to the latest model in the GPT Mini family.",
    "usable": true,
    "quality_source": "heuristic"
   },
   {
    "id": "~google/gemini-pro-latest",
-   "name": "Google Gemini Pro Latest",
+   "name": "Google: Gemini Pro Latest",
    "provider": "~google",
    "home_provider": "openrouter",
    "tier": "cheap",
@@ -4046,18 +4251,18 @@
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": false,
-   "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+   "description": "This model always redirects to the latest model in the Gemini Pro family.",
    "usable": true,
    "quality_source": "heuristic"
   },
   {
    "id": "~moonshotai/kimi-latest",
-   "name": "MoonshotAI Kimi Latest",
+   "name": "MoonshotAI: Kimi Latest",
    "provider": "~moonshotai",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.34e-06,
-   "cost_out": 1.17e-05,
+   "cost_in": 2.125e-06,
+   "cost_out": 1.19e-05,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -4075,13 +4280,13 @@
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": false,
-   "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+   "description": "This model always redirects to the latest model in the Kimi family.",
    "usable": true,
    "quality_source": "heuristic"
   },
   {
    "id": "~google/gemini-flash-latest",
-   "name": "Google Gemini Flash Latest",
+   "name": "Google: Gemini Flash Latest",
    "provider": "~google",
    "home_provider": "openrouter",
    "tier": "cheap",
@@ -4104,13 +4309,13 @@
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": false,
-   "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+   "description": "This model always redirects to the latest model in the Gemini Flash family.",
    "usable": true,
    "quality_source": "heuristic"
   },
   {
    "id": "~anthropic/claude-sonnet-latest",
-   "name": "Anthropic Claude Sonnet Latest",
+   "name": "Anthropic: Claude Sonnet Latest",
    "provider": "~anthropic",
    "home_provider": "openrouter",
    "tier": "cheap",
@@ -4133,36 +4338,7 @@
    "expiring_soon": false,
    "expires_in_days": null,
    "direct_key": false,
-   "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "~openai/gpt-latest",
-   "name": "OpenAI GPT Latest",
-   "provider": "~openai",
-   "home_provider": "openrouter",
-   "tier": "cheap",
-   "cost_in": 2e-06,
-   "cost_out": 1e-05,
-   "context_length": 1050000,
-   "modalities": {
-    "text": true,
-    "vision": true,
-    "audio": false,
-    "file": true
-   },
-   "tags": [
-    "vision",
-    "longctx"
-   ],
-   "quality": 7.0,
-   "rate_limit": null,
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+   "description": "This model always redirects to the latest model in the Claude Sonnet family.",
    "usable": true,
    "quality_source": "heuristic"
   },
@@ -4432,8 +4608,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 9.5526e-07,
-   "cost_out": 1.91052e-06,
+   "cost_in": 7.78824e-07,
+   "cost_out": 1.557648e-06,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -4460,8 +4636,8 @@
    "provider": "deepseek",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 8.8606e-08,
-   "cost_out": 1.77212e-07,
+   "cost_in": 6.678e-08,
+   "cost_out": 1.3356e-07,
    "context_length": 1048576,
    "modalities": {
     "text": true,
@@ -4539,8 +4715,8 @@
    "usable": true,
    "aa_intelligence_index": 26.0,
    "aa_blended_usd_1m": 0.05,
-   "aa_median_tok_s": 41.0,
-   "aa_latency": 5.49,
+   "aa_median_tok_s": 42.0,
+   "aa_latency": 6.71,
    "quality_source": "aa"
   },
   {
@@ -4572,8 +4748,8 @@
    "usable": true,
    "aa_intelligence_index": 22.0,
    "aa_blended_usd_1m": 0.02,
-   "aa_median_tok_s": 52.0,
-   "aa_latency": 6.78,
+   "aa_median_tok_s": 49.0,
+   "aa_latency": 7.85,
    "quality_source": "aa"
   },
   {
@@ -4977,7 +5153,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26409,
+   "expires_in_days": 26408,
    "direct_key": false,
    "description": "GLM-5V-Turbo is Z.ai\u2019s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
    "usable": true,
@@ -5409,7 +5585,7 @@
    "rate_limit": null,
    "expiration": "2098-12-31",
    "expiring_soon": false,
-   "expires_in_days": 26409,
+   "expires_in_days": 26408,
    "direct_key": false,
    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
    "usable": true,
@@ -6173,8 +6349,8 @@
    "provider": "minimax",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 3e-07,
-   "cost_out": 1.2e-06,
+   "cost_in": 2.7e-07,
+   "cost_out": 1.08e-06,
    "context_length": 204800,
    "modalities": {
     "text": true,
@@ -6223,8 +6399,8 @@
    "usable": true,
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.25,
-   "aa_median_tok_s": 90.0,
-   "aa_latency": 2.51,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
    "quality_source": "aa"
   },
   {
@@ -9202,7 +9378,7 @@
    "rate_limit": null,
    "expiration": "2026-12-31",
    "expiring_soon": false,
-   "expires_in_days": 111,
+   "expires_in_days": 110,
    "direct_key": false,
    "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
    "usable": true,
@@ -9387,8 +9563,8 @@
    "provider": "qwen",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 2.2e-07,
-   "cost_out": 8.8e-07,
+   "cost_in": 8.75e-08,
+   "cost_out": 3.5e-07,
    "context_length": 262144,
    "modalities": {
     "text": true,
@@ -9583,7 +9759,7 @@
    "tier": "cheap",
    "cost_in": 7.5e-08,
    "cost_out": 2e-07,
-   "context_length": 131072,
+   "context_length": 256000,
    "modalities": {
     "text": true,
     "vision": true,
@@ -10178,8 +10354,8 @@
    "usable": true,
    "aa_intelligence_index": 20.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 105.0,
-   "aa_latency": 7.41,
+   "aa_median_tok_s": 107.0,
+   "aa_latency": 6.34,
    "quality_source": "aa"
   },
   {
@@ -11204,7 +11380,7 @@
    "aa_intelligence_index": 6.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 41.0,
-   "aa_latency": 2.5,
+   "aa_latency": 2.54,
    "quality_source": "aa"
   },
   {
@@ -11880,8 +12056,8 @@
    "provider": "meta-llama",
    "home_provider": "openrouter",
    "tier": "cheap",
-   "cost_in": 4e-07,
-   "cost_out": 4e-07,
+   "cost_in": 7.2e-07,
+   "cost_out": 7.2e-07,
    "context_length": 131072,
    "modalities": {
     "text": true,
@@ -14543,6 +14719,35 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "nvidia/nvidia/nemotron-parse-2.0",
+   "name": "nvidia/nemotron-parse-2.0",
+   "provider": "nvidia",
+   "home_provider": "nvidia",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 65536,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "nim",
+    "cloud"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via nvidia.",
+   "quality_source": "heuristic"
+  },
+  {
    "id": "nvidia/nvidia/neva-22b",
    "name": "nvidia/neva-22b",
    "provider": "nvidia",
@@ -14953,6 +15158,40 @@
    "quality_source": "heuristic"
   },
   {
+   "id": "nvidia/z-ai/glm-5.3-flash",
+   "name": "z-ai/glm-5.3-flash",
+   "provider": "nvidia",
+   "home_provider": "nvidia",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 65536,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "nim",
+    "cloud",
+    "fast"
+   ],
+   "quality": 42.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via nvidia.",
+   "aa_intelligence_index": 42.0,
+   "aa_blended_usd_1m": 0.25,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
+   "quality_source": "aa"
+  },
+  {
    "id": "nvidia/zyphra/zamba2-7b-instruct",
    "name": "zyphra/zamba2-7b-instruct",
    "provider": "nvidia",
@@ -15136,7 +15375,7 @@
    "aa_intelligence_index": 6.0,
    "aa_blended_usd_1m": null,
    "aa_median_tok_s": 41.0,
-   "aa_latency": 2.5,
+   "aa_latency": 2.54,
    "quality_source": "aa"
   },
   {
@@ -15171,98 +15410,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/openai/gpt-oss-safeguard-20b",
-   "name": "openai/gpt-oss-safeguard-20b",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free"
-   ],
-   "quality": 8.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/whisper-large-v3-turbo",
-   "name": "whisper-large-v3-turbo",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 448,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/whisper-large-v3",
-   "name": "whisper-large-v3",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 448,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
    "id": "groq/meta-llama/llama-prompt-guard-2-86m",
    "name": "meta-llama/llama-prompt-guard-2-86m",
    "provider": "groq",
@@ -15284,68 +15431,6 @@
     "fast"
    ],
    "quality": 5.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/qwen/qwen3.6-27b",
-   "name": "qwen/qwen3.6-27b",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131072,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 8.0,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via groq.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "groq/qwen/qwen3.8-27b",
-   "name": "qwen/qwen3.8-27b",
-   "provider": "groq",
-   "home_provider": "groq",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 131042,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "groq",
-    "cloud",
-    "free",
-    "fast"
-   ],
-   "quality": 8.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -15387,8 +15472,101 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/groq/compound",
-   "name": "groq/compound",
+   "id": "groq/meta-llama/llama-prompt-guard-2-22m",
+   "name": "meta-llama/llama-prompt-guard-2-22m",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 512,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/whisper-large-v3-turbo",
+   "name": "whisper-large-v3-turbo",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 448,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 5.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/qwen/qwen3.8-27b",
+   "name": "qwen/qwen3.8-27b",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 131042,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free",
+    "fast"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/qwen/qwen3.6-27b",
+   "name": "qwen/qwen3.6-27b",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
@@ -15404,9 +15582,10 @@
    "tags": [
     "groq",
     "cloud",
-    "free"
+    "free",
+    "fast"
    ],
-   "quality": 5.0,
+   "quality": 8.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -15448,14 +15627,44 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/canopylabs/orpheus-arabic-saudi",
-   "name": "canopylabs/orpheus-arabic-saudi",
+   "id": "groq/openai/gpt-oss-safeguard-20b",
+   "name": "openai/gpt-oss-safeguard-20b",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
    "cost_in": 0.0,
    "cost_out": 0.0,
-   "context_length": 4000,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/whisper-large-v3",
+   "name": "whisper-large-v3",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 448,
    "modalities": {
     "text": true,
     "vision": false,
@@ -15510,8 +15719,8 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/openai/gpt-oss-120b",
-   "name": "openai/gpt-oss-120b",
+   "id": "groq/groq/compound",
+   "name": "groq/compound",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
@@ -15529,7 +15738,7 @@
     "cloud",
     "free"
    ],
-   "quality": 8.0,
+   "quality": 5.0,
    "rate_limit": "see provider",
    "expiration": null,
    "expiring_soon": false,
@@ -15570,14 +15779,44 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "groq/meta-llama/llama-prompt-guard-2-22m",
-   "name": "meta-llama/llama-prompt-guard-2-22m",
+   "id": "groq/openai/gpt-oss-120b",
+   "name": "openai/gpt-oss-120b",
    "provider": "groq",
    "home_provider": "groq",
    "tier": "free",
    "cost_in": 0.0,
    "cost_out": 0.0,
-   "context_length": 512,
+   "context_length": 131072,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "groq",
+    "cloud",
+    "free"
+   ],
+   "quality": 8.0,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via groq.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "groq/canopylabs/orpheus-arabic-saudi",
+   "name": "canopylabs/orpheus-arabic-saudi",
+   "provider": "groq",
+   "home_provider": "groq",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 4000,
    "modalities": {
     "text": true,
     "vision": false,
@@ -16149,8 +16388,8 @@
    "notes": "Routed via openai.",
    "aa_intelligence_index": 20.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 105.0,
-   "aa_latency": 7.41,
+   "aa_median_tok_s": 107.0,
+   "aa_latency": 6.34,
    "quality_source": "aa"
   },
   {
@@ -18098,8 +18337,8 @@
    "notes": "Routed via cloudflare.",
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.25,
-   "aa_median_tok_s": 90.0,
-   "aa_latency": 2.51,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
    "quality_source": "aa"
   },
   {
@@ -18195,8 +18434,8 @@
    "notes": "Routed via cloudflare.",
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.25,
-   "aa_median_tok_s": 90.0,
-   "aa_latency": 2.51,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
    "quality_source": "aa"
   },
   {
@@ -19739,8 +19978,8 @@
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.25,
-   "aa_median_tok_s": 90.0,
-   "aa_latency": 2.51,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
    "quality_source": "aa"
   },
   {
@@ -19805,8 +20044,8 @@
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 30.0,
    "aa_blended_usd_1m": 0.51,
-   "aa_median_tok_s": 92.0,
-   "aa_latency": 1.94,
+   "aa_median_tok_s": 88.0,
+   "aa_latency": 1.9,
    "quality_source": "aa"
   },
   {
@@ -20080,8 +20319,8 @@
    "notes": "Routed via nebius.",
    "aa_intelligence_index": 42.0,
    "aa_blended_usd_1m": 0.25,
-   "aa_median_tok_s": 90.0,
-   "aa_latency": 2.51,
+   "aa_median_tok_s": 98.0,
+   "aa_latency": 2.49,
    "quality_source": "aa"
   },
   {
@@ -20112,36 +20351,6 @@
    "direct_key": true,
    "usable": true,
    "notes": "Routed via nebius.",
-   "quality_source": "heuristic"
-  },
-  {
-   "id": "agnes/agnes-2.5-pro-beta",
-   "name": "agnes-2.5-pro-beta",
-   "provider": "agnes",
-   "home_provider": "agnes",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 128000,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "agnes",
-    "cloud",
-    "free"
-   ],
-   "quality": 6.5,
-   "rate_limit": "see provider",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": true,
-   "usable": true,
-   "notes": "Routed via agnes.",
    "quality_source": "heuristic"
   },
   {
@@ -20270,6 +20479,36 @@
   {
    "id": "agnes/agnes-2.5-pro",
    "name": "agnes-2.5-pro",
+   "provider": "agnes",
+   "home_provider": "agnes",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 128000,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "agnes",
+    "cloud",
+    "free"
+   ],
+   "quality": 6.5,
+   "rate_limit": "see provider",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": true,
+   "usable": true,
+   "notes": "Routed via agnes.",
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "agnes/agnes-2.5-pro-beta",
+   "name": "agnes-2.5-pro-beta",
    "provider": "agnes",
    "home_provider": "agnes",
    "tier": "free",
@@ -20694,37 +20933,6 @@
    "quality_source": "heuristic"
   },
   {
-   "id": "local_ollama/qwen3:30b-a3b",
-   "name": "qwen3:30b-a3b",
-   "provider": "local_ollama",
-   "home_provider": "local_ollama",
-   "tier": "free",
-   "cost_in": 0.0,
-   "cost_out": 0.0,
-   "context_length": 32768,
-   "modalities": {
-    "text": true,
-    "vision": false,
-    "audio": false,
-    "file": false
-   },
-   "tags": [
-    "local",
-    "unlimited",
-    "fast",
-    "reasoning"
-   ],
-   "quality": 6.5,
-   "rate_limit": "unlimited (local GPU)",
-   "expiration": null,
-   "expiring_soon": false,
-   "expires_in_days": null,
-   "direct_key": false,
-   "notes": "Runs on Charles RTX 3090 \u2014 $0, no rate limit. PREFERRED.",
-   "usable": true,
-   "quality_source": "heuristic"
-  },
-  {
    "id": "local_ollama/qwen3-64k:latest",
    "name": "qwen3-64k:latest",
    "provider": "local_ollama",
@@ -20745,6 +20953,37 @@
     "fast",
     "reasoning",
     "longctx"
+   ],
+   "quality": 6.5,
+   "rate_limit": "unlimited (local GPU)",
+   "expiration": null,
+   "expiring_soon": false,
+   "expires_in_days": null,
+   "direct_key": false,
+   "notes": "Runs on Charles RTX 3090 \u2014 $0, no rate limit. PREFERRED.",
+   "usable": true,
+   "quality_source": "heuristic"
+  },
+  {
+   "id": "local_ollama/qwen3:30b-a3b",
+   "name": "qwen3:30b-a3b",
+   "provider": "local_ollama",
+   "home_provider": "local_ollama",
+   "tier": "free",
+   "cost_in": 0.0,
+   "cost_out": 0.0,
+   "context_length": 32768,
+   "modalities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "file": false
+   },
+   "tags": [
+    "local",
+    "unlimited",
+    "fast",
+    "reasoning"
    ],
    "quality": 6.5,
    "rate_limit": "unlimited (local GPU)",
@@ -20939,8 +21178,8 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 30.0,
    "aa_blended_usd_1m": 0.51,
-   "aa_median_tok_s": 92.0,
-   "aa_latency": 1.94,
+   "aa_median_tok_s": 88.0,
+   "aa_latency": 1.9,
    "quality_source": "aa"
   },
   {
@@ -21167,8 +21406,8 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 18.0,
    "aa_blended_usd_1m": 0.21,
-   "aa_median_tok_s": 82.0,
-   "aa_latency": 18.1,
+   "aa_median_tok_s": 85.0,
+   "aa_latency": 20.31,
    "quality_source": "aa"
   },
   {
@@ -21203,8 +21442,8 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 33.0,
    "aa_blended_usd_1m": null,
-   "aa_median_tok_s": 127.0,
-   "aa_latency": 54.44,
+   "aa_median_tok_s": 121.0,
+   "aa_latency": 51.63,
    "quality_source": "aa"
   },
   {
@@ -21527,8 +21766,8 @@
    "notes": "Routed via freellm.",
    "aa_intelligence_index": 18.0,
    "aa_blended_usd_1m": 0.21,
-   "aa_median_tok_s": 82.0,
-   "aa_latency": 18.1,
+   "aa_median_tok_s": 85.0,
+   "aa_latency": 20.31,
    "quality_source": "aa"
   },
   {
