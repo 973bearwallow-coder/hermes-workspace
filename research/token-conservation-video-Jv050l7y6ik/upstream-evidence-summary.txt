@@ -1,0 +1,878 @@
+## tashfeenahmed/freellmapi
+url: https://github.com/tashfeenahmed/freellmapi
+description: 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
+created: 2026-04-21T13:38:59Z pushed: 2026-09-13T09:49:37Z updated: 2026-09-13T19:22:20Z archived: False stars: 25956 forks: 3532 issues: 47 default: main license: MIT
+root: .claude, .dockerignore, .env.example, .gitattributes, .github, .gitignore, .nvmrc, CODE_OF_CONDUCT.md, CONTRIBUTING.md, Dockerfile, LICENSE, README.md, README.zh-cn.md, SECURITY.md, cli, client, desktop, docker-compose.yml, docker-entrypoint.sh, docker, docs, examples, opencode.json, package-lock.json, package.json, repo-assets, scripts, server, shared
+README matching evidence:
+5: **7.4 billion tokens per month.  34 free LLM providers. 635 free model endpoints. One OpenAI-compatible endpoint.**
+7: Aggregate free tiers from dozens of providers, plus custom OpenAI-compatible chat, embedding, image, and audio endpoints, behind a single `/v1` API. Keys are stored encrypted. A router picks the best available model for each request, falls over to the next provider when one is rate-limited, and tracks per-key usage so you stay under every free-tier cap.
+13: [![Docker image](https://img.shields.io/badge/ghcr.io-freellmapi-2496ED?logo=docker&logoColor=white)](https://github.com/tashfeenahmed/freellmapi/pkgs/container/freellmapi)
+23: <a href="docs/en/install/01-install.md#docker-compose"><img src="repo-assets/badges/docker.svg" height="48" alt="Self-host with Docker"></a>
+28: ![FreeLLMAPI dashboard — Models page with the monthly token budget](repo-assets/github-hero.png)
+31: Your router updates its own model catalog from a signed feed: new free models, quota changes, and compatibility fixes land without a `git pull`. Free installs get the monthly snapshot, so a model reaches them 30 days after it joins the live feed; premium routers get it the same day.
+41: - [Supported providers](#supported-providers)
+47: - [Works with OpenAI-compatible clients](#works-with-openai-compatible-clients)
+58: **Guides:** [Install & deploy](docs/en/install/01-install.md) · [API reference](docs/en/api/01-rest-api.md) · [Clients & coding agents](docs/en/clients/01-agent-clients.md) · [Prompt compression](docs/en/compression/01-compression-pipeline.md) · [Architecture & internals](docs/en/architecture/00-high-level-index.md) · [Documentation index](docs/en/README.md) · [Contributor guide](CONTRIBUTING.md)
+62: Every serious AI lab now offers a free tier, a few million tokens a month, a few thousand requests a day. On its own each tier is a toy. Stacked together, they add up to roughly **7.4 billion tokens per month** of working inference capacity, across **474 model families / 635 provider endpoints** from small-and-fast to reasonably capable.
+64: The problem is that stacking them by hand is painful: thirty-four different SDKs, thirty-four different rate limits, thirty-four places a request can fail. FreeLLMAPI collapses that into one OpenAI-compatible endpoint. Point any OpenAI client library at your local server, and it routes transparently across whichever providers you've added keys for.
+66: And the free-tier landscape shifts weekly: providers launch models, retire them, and change quotas without notice. FreeLLMAPI tracks all of that for you. The router pulls a signed model catalog from [freellmapi.co](https://freellmapi.co) on its own, so your install keeps up without a `git pull`. See [Premium (live catalog)](#premium-live-catalog) for how fast it keeps up.
+68: ![The free tier, stacked — ~7.4B tokens of free inference per month across 34 providers](repo-assets/free-tier.png)
+70: ## Supported providers
+75: <td align="center" width="150"><img src="repo-assets/providers/google.png" width="44" alt="Google"><br/><b>Google</b></td>
+76: <td align="center" width="150"><picture><source media="(prefers-color-scheme: dark)" srcset="repo-assets/providers/groq-dark.png"><img src="repo-assets/providers/groq.png" width="44" alt="Groq"></picture><br/><b>Groq</b></td>
+77: <td align="center" width="150"><img src="repo-assets/providers/cerebras.png" width="44" alt="Cerebras"><br/><b>Cerebras</b></td>
+78: <td align="center" width="150"><picture><source media="(prefers-color-scheme: dark)" srcset="repo-assets/providers/opencode-dark.png"><img src="repo-assets/providers/opencode.png" width="44" alt="OpenCode Zen"></picture><br/><b>OpenCode Zen</b></td>
+81: <td align="center"><img src="repo-assets/providers/mistral.png" width="44" alt="Mistral"><br/><b>Mistral</b></td>
+82: <td align="center"><img src="repo-assets/providers/openrouter.png" width="44" alt="OpenRouter"><br/><b>OpenRouter</b></td>
+83: <td align="center"><img src="repo-assets/providers/cloudflare.png" width="44" alt="Cloudflare"><br/><b>Cloudflare</b></td>
+84: <td align="center"><img src="repo-assets/providers/cohere.png" width="44" alt="Cohere"><br/><b>Cohere</b></td>
+87: <td align="center"><img src="repo-assets/providers/zhipu.png" width="44" alt="Z.ai (Zhipu)"><br/><b>Z.ai (Zhipu)</b></td>
+88: <td align="center"><img src="repo-assets/providers/nvidia.png" width="44" alt="NVIDIA"><br/><b>NVIDIA</b></td>
+89: <td align="center"><img src="repo-assets/providers/huggingface.png" width="44" alt="HuggingFace"><br/><b>HuggingFace</b></td>
+96: <i>… and 22 more free providers</i>
+100: Plus a **custom** provider — point chat, embedding, image, or audio models at any OpenAI-compatible endpoint (llama.cpp, LM Studio, vLLM, a local Ollama, or a remote gateway) from the Keys page.
+102: The full, always-current list lives at **[freellmapi.co/models](https://freellmapi.co/models.html)** with per-model rate limits, context windows, and free-token budgets.
+109: <td align="center" width="150"><img src="repo-assets/agents/claude-code.png" width="44" alt="Claude Code"><br/><b>Claude Code</b></td>
+110: <td align="center" width="150"><img src="repo-assets/agents/codex.png" width="44" alt="Codex CLI"><br/><b>Codex CLI</b></td>
+137: <i>… plus any OpenAI-compatible client, Anthropic SDK, Gemini SDK, or Ollama-capable app</i>
+141: Most of these configure themselves with one command — `npx freellmapi setup-claude`, `setup-codex`, `setup-aider`, `setup-dsh` (DeepSeek Harness), and eleven more generators that fetch your live catalog, back up existing config, and never clobber what's already there. Claude Code and Codex also get zero-persistence launchers (`freellmapi launch`, `freellmapi launch-codex`) that inject credentials into the child process only. Zed and JetBrains AI connect through the opt-in [Ollama emulation](docs/en/clients/01-agent-clients.md#ollama-clients); Gemini CLI speaks its native wire on `/v1beta`.
+143: Per-tool recipes, the setup CLI reference, revocable URL tokens for headerless clients, and the MCP server all live in **[Clients & coding agents →](docs/en/clients/01-agent-clients.md)**
+147: ![Feature comparison against OpenRouter, LiteLLM, and Portkey](repo-assets/comparison.png)
+155: - **Every OpenAI-style surface** — `/v1/chat/completions`, `/v1/responses` (what Codex CLI needs), `/v1/completions` (editor ghost-text autocomplete), `/v1/images/generations`, `/v1/videos/generations`, `/v1/audio/speech`, `/v1/audio/transcriptions`, `/v1/embeddings`, and `/v1/models` — streaming and non-streaming, from the official SDKs or any OpenAI-compatible client. [API reference →](docs/en/api/01-rest-api.md)
+156: - **Anthropic Messages API** — `/v1/messages` speaks Anthropic's wire format over the same router, so **Claude Code** and the official Anthropic SDKs run against your free pool. [Details →](docs/en/api/01-rest-api.md#anthropic--claude-clients)
+157: - **Native Gemini + Ollama surfaces** — Gemini CLI can use `/v1beta` (`generateContent`, streaming, token counting, models), while opt-in Ollama emulation serves NDJSON chat/generate, tags, metadata, and embeddings for Zed, JetBrains, and other local-model clients.
+159: - **Image, video & speech generation** — `/v1/images/generations`, `/v1/videos/generations`, and `/v1/audio/speech` route across the providers that serve media models; images and speech also accept custom OpenAI-compatible media endpoints. Video jobs are normalized across synchronous and queued providers and return a completed MP4.
+160: - **Tool calling & structured outputs** — OpenAI-style `tools` round-trip across providers (plain-text tool calls are rescued into real `tool_calls`), plus `response_format`, `seed`, `logprobs`, penalties, and the rest of the sampling params passed through per provider.
+161: - **Smart routing, six strategies** — live per-model speed/capability/reliability scores rank your chain; automatic fallover retries the next model on 429/5xx with cooldowns and key rotation. [Routing in detail →](docs/en/architecture/00-high-level-index.md#how-it-works)
+162: - **Unified models & profiles** — the same model on several providers collapses into one entry with strict in-group failover; named fallback-chain profiles (a coding chain, a vision chain) switch from the dashboard or per request via `auto:<profile>`.
+163: - **Per-key rate tracking** — RPM/RPD/TPM/TPD counters per `(platform, model, key)` that learn providers' reported ceilings, so routing always stays under every cap.
+164: - **Self-updating model catalog** — the router syncs a signed catalog from freellmapi.co twice a day: new models, quota changes, and provider quirk fixes land automatically. Free installs track the monthly snapshot, which each model joins 30 days after it lands in the live feed; premium routers get it same-day. [Premium →](#premium-live-catalog)
+167: - **Encrypted keys, one token out** — provider keys are AES-256-GCM encrypted in SQLite and decrypted in-memory per request; your apps only ever see a single unified `freellmapi-…` bearer token.
+169: - **MCP server & interactive docs** — agents can introspect usable models, provider health, and routing strategy over `/mcp`; a dependency-free OpenAPI viewer lives at `/v1/docs`. [Coding agents →](docs/en/clients/01-agent-clients.md)
+170: - **Ops niceties** — opt-in response cache, encrypted DB backups, periodic key health checks, bulk key import/export, declarative startup config. [Install & deploy →](docs/en/install/01-install.md)
+173: The scope is deliberately narrow — see [what's not supported yet](docs/en/architecture/00-high-level-index.md#not-yet-supported).
+177: **One-liner** (Docker required — sets up `~/freellmapi`, generates an encryption key, pulls the image, and starts the container):
+180: curl -fsSL https://freellmapi.co/install.sh | bash
+183: Prefer to read before you pipe to bash? [The script is here](https://freellmapi.co/install.sh). Re-running it is safe: your `.env` (and encryption key) is preserved and the container updates to `:latest`.
+185: Open http://localhost:3001, add your provider keys on the **Keys** page, reorder the **Fallback Chain** to taste, and grab your unified API key from the **Keys** page header. That unified key is what you point your OpenAI SDK at.
+187: On Windows, the easiest path is the desktop **[`.exe` installer from Releases](https://github.com/tashfeenahmed/freellmapi/releases/latest)** (below). On Android, see the experimental [Termux guide](docs/en/install/02-android-termux.md).
+189: Everything else — Docker Compose, local development, declarative startup config, production builds, LAN access, and backups — is in **[docs/en/install/01-install.md](docs/en/install/01-install.md)**.
+193: A native menu-bar app lives in [`desktop/`](./desktop): the entire router + dashboard running locally from your tray, with a glass popover showing live request stats.
+197: **[Download from Releases](https://github.com/tashfeenahmed/freellmapi/releases/latest)** — the macOS `.dmg` and the Windows `.exe` installer are attached to every release. No account or password to set up: the only credential you need is the unified API key from the tray popover. Build-from-source steps and where your data lives: [docs/en/install/01-install.md#desktop-app](docs/en/install/01-install.md#desktop-app).
+199: ## Works with OpenAI-compatible clients
+201: Anything that can target an OpenAI-compatible base URL works: set it to `http://localhost:3001/v1` with the unified key from the dashboard. **Claude Code**, **Codex CLI**, **Cline / Roo Code**, **Continue** (including inline autocomplete), **Aider**, **opencode**, and **Cursor** each have a short recipe in **[docs/en/clients/01-agent-clients.md](docs/en/clients/01-agent-clients.md)** — and the router doubles as an MCP server your agents can introspect mid-session.
+206: npx freellmapi setup-claude --url http://localhost:3001 --api-key <unified-key>
+209: Every generator supports `--dry-run`, creates a timestamped backup before changing an existing file, and merges into the user's configuration. Launchers keep credentials out of config files entirely: `npx freellmapi launch` for Claude Code and `npx freellmapi launch-codex` for Codex.
+213: | Claude Code | `setup-claude` | root |
+214: | Codex CLI | `setup-codex` | `/v1` |
+227: FreeLLMAPI is local-first and single-user by design. Your provider keys stay in your SQLite database, encrypted at rest, and requests go from your machine to the upstream providers you enabled.
+239: The full list of locales lives in
+240: [`client/src/i18n/locale-config.ts`](./client/src/i18n/locale-config.ts).
+242: The original six locales are human-reviewed; the newer ones are machine-
+246: Translations live in [`client/src/i18n/locales/`](./client/src/i18n/locales) as
+247: flat JSON files. To fix a string, edit the value in the locale's JSON file. To
+248: add a language, copy `en.json`, translate the values, and register the locale in
+249: `client/src/i18n/locale-config.ts` (and `desktop/src/i18n.ts` for the tray
+250: strings); `npm test` checks every locale for key/placeholder parity — PRs
+257: quota changes, and provider quirk fixes to your local DB. Your own
+258: enable/disable choices and custom providers are never touched, and every
+261: The catalog currently tracks **34 providers**, **474 model families**, **635
+262: free provider/model endpoints** (584 chat, 41 embeddings, 7 transcription, 3
+263: video), and roughly **7.4 billion tokens per month** of listed free-tier
+267: Free installs pull the same signed catalog, but from the monthly snapshot: a
+272: Premium keeps that signed catalog live on every router you run. When a provider
+286: The catalog server never sees your prompts, completions, or provider keys — the
+292: from openai import OpenAI
+294: client = OpenAI(
+
+## aerovato/magic-compact
+url: https://github.com/aerovato/magic-compact
+description: Lossless context compression plugin for Claude Code & OpenCode.
+created: 2026-07-04T01:11:19Z pushed: 2026-08-24T05:27:51Z updated: 2026-09-13T17:41:43Z archived: False stars: 168 forks: 14 issues: 2 default: main license: BSD-3-Clause
+root: .claude-plugin, .githooks, .github, .gitignore, .operator-shared, .prettierignore, .prettierrc, AGENTS.md, LICENSE.md, README.md, README.zh-CN.md, bun.lock, eslint.config.js, package.json, packages, scripts, tsconfig.json
+README matching evidence:
+6: > Magic Compact development has been paused in favor of [Operator Memory](https://github.com/aerovato/operator-memory), its successor. Magic Compact focuses on context compression; Operator already provides durable memory and documentation, and will gain context-management features over time. Install and follow Operator for future development; a Claude Code plugin will be added soon. Magic Compact remains fully functional.
+8: Lossless context compression for OpenCode and Claude Code.
+18: OpenCode and Claude Code's built-in compaction replaces an entire conversation with one summary blob. The user messages, the assistant's reasoning, tool calls, design decisions, and workflow are all flattened into a generic template (Goal, Progress, Key Decisions...). The agent wakes up with amnesia, forced to reconstruct its working state from an abstraction that captured a fraction of what mattered.
+34: - Lossless context compression — Fully preserve working memory instead of flattening history into one recap.
+35: - Zero compaction overhead — Compaction happens once on your command rather than during the agentic loop. Maximum token savings, minimal cache invalidations.
+41: ## Installation
+43: Magic Compact works flawlessly on Claude Code, but OpenCode will have more features + first class support as OpenCode exposes more functionality to plugins.
+45: ### Claude Code
+47: Install from this repository's first-party plugin marketplace:
+51: /plugin install claude-magic-compact@magic-compact
+54: After installation, run `/reload-plugins` if Claude Code is already open.
+58: Install from the CLI:
+69: This installs the package and adds it to your global OpenCode config.
+92: - Token reductions are included in `/magic-stats`.
+101: Run `/magic-stats` to show cumulative token savings for the current conversation: tokens pruned, cached tokens saved, estimated money saved, among other statistics.
+109: ### Claude Code
+111: Claude Code does not expose as much capability to plugins vs OpenCode. Therefore, certain differences are present when using Magic Compact for Claude Code:
+114: - Claude Code does not allow us to modify the current session's message transcript
+115: - After compaction, Claude Code will tell you to run `/resume <new-session-id>` to enter the compacted session
+117: - `/magic-stats` is not implemented for Claude Code
+149: #### Claude Code
+151: - `Read` / `NotebookEdit` — output always omitted (file text, notebook JSON, images, PDFs are reloadable)
+168: - Lossless quality — Turn-by-turn flow stays intact. All user commands are preserved. All past tool calls are preserved.
+169: - Maximum token savings — The entire conversation is summarized with one request. Long tool calls are aggressively pruned.
+173: If you want model-driven compaction with increased cache invalidations and token burn, consider using DCP instead.
+177: Magic Context is a much broader runtime context-management system: it runs background historian and dreamer processes, maintains project memory, and injects recalled memories and history back into the prompt on an ongoing basis. That makes it powerful, but also much heavier in tokens and cache churn.
+182: - Lower token burn — Context reduction happens once on demand instead of continuously consuming tokens across every turn.
+184: - Lossless conversation shape — User messages stay verbatim, tool structure is preserved, and summarized assistant turns remain retrievable.
+
+## headroomlabs-ai/headroom
+url: https://github.com/headroomlabs-ai/headroom
+description: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+created: 2026-01-07T19:58:51Z pushed: 2026-09-13T17:09:20Z updated: 2026-09-13T19:06:48Z archived: False stars: 71880 forks: 5504 issues: 632 default: main license: Apache-2.0
+root: .actrc, .actrc.local.example, .cargo, .changelog.md, .claude-plugin, .claude, .codegraph, .commitlintrc.json, .devcontainer, .dockerignore, .env.act.example, .env.example, .git-blame-ignore-revs, .gitattributes, .gitguardian.yaml, .github, .gitignore, .gitleaks.toml, .pre-commit-config.yaml, .release-please-config.json, .release-please-manifest.json, .releasemetadata, .serena, CHANGELOG.md, CODE_OF_CONDUCT.md, CONTRIBUTING.md, Cargo.lock, Cargo.toml, Dockerfile, Headroom-2.gif, HeadroomDemo-Fast.gif, LICENSE, Makefile, NOTICE, README.md, REALIGNMENT, RUST_DEV.md, SECURITY.md, TESTING-copilot-subscription.md, benchmarks, claude_analysis_ttl.py, codecov.yml, crates, dashboard-cache-ttl-main.png, deny.toml, deploy, docker-bake.hcl, docker-compose.yml, docker, docs, e2e, examples, headroom-savings.png, headroom, headroom_learn.gif, llms.txt, plugins, pyproject.toml, run-all-plugins.sh, rust-toolchain.toml, sbom, scripts, sdk, server.json, sql, tests, uv.lock, wiki
+README matching evidence:
+3: <img src=".github/assets/hero.svg" alt="Headroom — the context compression layer for AI agents. A 55,957 token agent prompt compresses to the 24,340 tokens actually sent to the model, and the FATAL line at item 67 survives byte for byte." width="880">
+19: <a href="#get-started-60-seconds">Install</a> ·
+28: <a href="https://docs.headroomlabs.ai/llms.txt">the live index</a> ·
+33: <!-- mcp-name: io.github.headroomlabs-ai/headroom -->
+37: answers, fraction of the tokens. Compression runs on your machine; no prompt or
+41: <img src="HeadroomDemo-Fast.gif" alt="Headroom compressing a 10,144 token log dump to 1,260 tokens while preserving the FATAL line" width="820">
+42: <br><sub>10,144 → 1,260 tokens. The same <code>FATAL</code> found.</sub>
+48: - **Proxy** — `headroom proxy --port 8787`, zero code changes, any language.
+49: - **Agent wrap** — `headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode` in one command; undo with `headroom unwrap <tool>`.
+50: - **MCP server** — `headroom_compress`, `headroom_retrieve`, `headroom_stats` for any MCP client.
+51: - **Cross-agent memory** — one shared store across Claude, Codex, Gemini and Grok, with automatic dedup.
+52: - **`headroom learn`** — mines failed sessions and writes corrections to `CLAUDE.local.md` (default, gitignored), `CLAUDE.md`, `AGENTS.md`, `GEMINI.md` or `GROK.md`.
+53: - **Output token reduction** — trims what the model *writes back*, not only what you send. See [below](#output-token-reduction).
+54: - **Reversible (CCR)** — originals are cached locally and retrieved on demand.
+60: (Claude Code, Cursor, Codex, LangChain, Agno, Strands, your own code…)
+64: │  Headroom   (runs locally — your data stays here)  │
+71: │  Cross-agent memory  ·  headroom learn  ·  MCP     │
+75: LLM provider  (Anthropic · OpenAI · Bedrock · …)
+80: - **CacheAligner** flags volatile content that would bust a provider KV-cache prefix. It never rewrites prompts.
+81: - **CCR** stores originals locally so the model can call `headroom_retrieve` when it needs the full text.
+90: # 1 — Install
+91: uv tool install --python 3.13 "headroom-ai[all]"  # CLI in a self-contained env
+92: pip install "headroom-ai[all]"                    # Python — ships the `headroom` CLI
+93: npm install headroom-ai                           # TypeScript SDK only — no CLI
+96: headroom deploy                         # turnkey local deployment + agent config
+97: headroom wrap claude                    # wrap a coding agent
+98: headroom proxy --port 8787              # drop-in proxy, zero code changes
+101: # 3 — Check it and watch the savings
+104: headroom dashboard                      # live savings (proxy must be running)
+111: from openai import OpenAI
+116: client = OpenAI()
+118: print(f"Saved {result.tokens_saved} tokens ({result.compression_ratio:.0%})")
+122: starts a local proxy, installs **[Serena](https://github.com/oraios/serena)** for
+124: Headroom. Serena is registered at user scope (for Claude Code, in
+125: `~/.claude.json`), so it stays available in your other projects until you run
+134: Four scenarios built from real MCP server output formats, measured with the
+135: provider tokenizer and the shipped `compress()`. Seeded and offline, so you get
+139: uv run python benchmarks/index_proof_table.py --seed 20260902
+149: Savings scale with how repetitive the payload is. Repeated JSON arrays and log
+150: lines clear 90% in `benchmarks/bench_latency.py`; prose and already-dense output
+151: compress very little. Run `headroom savings` against your own traffic for the
+154: Compression costs **well under a millisecond** — 0.21 ms p50 on a 10K-token JSON
+155: search result, 1.4 ms at 100K tokens — so it does not show up in agent latency.
+159: | Benchmark | Category | N | Baseline | Headroom | Delta |
+168: [Methodology →](https://docs.headroomlabs.ai/docs/benchmarks)
+170: ## Output token reduction
+172: Everything above shrinks the prompt you **send**. You also pay for every token
+177: Headroom trims it from the proxy, with no change to your code:
+182: Both apply to Anthropic `/v1/messages` and to OpenAI-compatible
+184: `reasoning_effort` on OpenAI and `thinking.budget_tokens` / `output_config.effort`
+190: headroom proxy --port 8787
+193: > **Already running a proxy?** These switches are read live on every request, so
+194: > a proxy that `headroom wrap` *reused* rather than started would not see a value
+196: > wrap` hot-syncs your current settings to the running proxy over a loopback
+198: > requests. On a shared proxy these overrides are global; the last explicit
+208: headroom learn --verbosity --apply    # save it; the proxy picks it up
+211: **Measuring it.** Output savings are counterfactual — we never see what the model
+216: headroom output-savings
+217: # Reduction: 31.7%  (95% CI 27.7% … 35.7%)   [estimated]
+221: control: `export HEADROOM_OUTPUT_HOLDOUT=0.1`. The dashboard's **Output Tokens
+224: → [Output token reduction](https://docs.headroomlabs.ai/docs/savings)
+230: | Claude Code | ✅ | `--memory` · `--code-graph` · `--1m` · `--tool-search` |
+231: | Codex | ✅ | shares memory with Claude |
+233: | Cursor | Manual setup | starts the proxy and prints base URLs for Cursor settings |
+234: | Aider | ✅ | starts proxy + launches |
+235: | Copilot CLI | ✅ | starts proxy + launches |
+236: | VS Code Copilot | ✅ | transparent proxy; keeps the selected model |
+237: | OpenClaw | ✅ | installs as a ContextEngine plugin |
+238: | OpenCode | ✅ | injects config · starts proxy + launches |
+239: | Cline | ✅ | starts proxy + injects config |
+240: | Continue | ✅ | starts proxy + injects config |
+241: | Goose | ✅ | starts proxy + launches |
+242: | OpenHands | ✅ | starts proxy + launches |
+243: | Mistral Vibe | ✅ | starts proxy + launches |
+244: | Oh My Pi | ✅ | injects config · starts proxy + launches |
+245: | Cortex Code | Library only | 60–65% savings in library mode; no `wrap` |
+247: | ZCode | ✅ | starts the proxy and prints base URLs for ZCode settings |
+249: Any OpenAI-compatible client works through `headroom proxy`. MCP-native clients:
+250: `headroom mcp install`. Undo durable wrapping with `headroom unwrap <tool>`
+251: (`claude`, `copilot`, `codex`, `grok`, `kimi`, `omp`, `opencode`, `openclaw`,
+
+## teamchong/pxpipe
+url: https://github.com/teamchong/pxpipe
+description: cut Claude Code token usage by rendering text context as images
+created: 2026-05-20T12:39:42Z pushed: 2026-09-11T01:37:52Z updated: 2026-09-13T17:41:58Z archived: False stars: 7388 forks: 645 issues: 61 default: main license: MIT
+root: .dockerignore, .gitattributes, .github, .gitignore, .npmrc, CHANGELOG.md, CONTRIBUTING.md, Dockerfile, FINDINGS.md, LICENSE, README.md, SECURITY.md, assets, bench, bin, compose.yml, demo, docs, eval, package.json, pnpm-lock.yaml, pnpm-workspace.yaml, scripts, src, tests, tsconfig.json, vitest.config.ts, wrangler.toml
+README matching evidence:
+3: **Cut Claude Code's input tokens by rendering bulky context as images — the same system prompt, tool docs, and history, in a fraction of the tokens.**
+5: An image's token cost is fixed by its pixel dimensions, not by how much text
+7: image-token vs ~1 char per text-token on real Claude Code traffic. The
+8: reader is the same vision channel that Anthropic's computer use already
+9: relies on for screenshots. pxpipe is a local proxy that uses that channel
+13: move and workloads differ, so the durable number is the token cut itself,
+14: measured per-request against a free `count_tokens` counterfactual in
+21: *~48k chars of system prompt + tool docs: ≈25k tokens as text, ≈2.7k image
+22: tokens as this page. Real pipeline output; the model reads renders like this
+23: at 100/100 (see benchmarks).*
+28: ~4M chars (a 1M-token window at ~4 chars/token); **Grok 4.5** is shown as a
+30: windows** read through pxpipe images — ~19.0M chars for Fable 5 (**4.8×**) and ~21.3M chars for Gemini 3.6 Flash (**5.3×** text capacity). Density is measured from a live render at
+41: pxpipe counts an exact token **10/10** across 39 imaged filler files
+50: npx pxpipe-proxy                                  # proxy on 127.0.0.1:47821
+51: ANTHROPIC_BASE_URL=http://127.0.0.1:47821 claude  # point Claude Code at it
+54: Dashboard at <http://127.0.0.1:47821/>: tokens saved, every text→image
+58: are imaged.
+63: pxpipe warp -- claude          # also: cursor-agent, codex, or a shell alias
+66: Same thing without `ANTHROPIC_BASE_URL`, so `/remote-control`, claude.ai
+71: provider over some other base URL need a rule for it, and a rule that names a
+75: pxpipe warp --route '127.0.0.1:9090/v1/*=http://127.0.0.1:47821' -- codex
+78: ## Offline export (no proxy)
+80: You can render text, files, or diffs to PNG pages without running the proxy or
+81: connecting Claude Code:
+84: npx pxpipe-proxy export src/
+85: cat prompt.txt | npx pxpipe-proxy export --stdin
+86: npx pxpipe-proxy export --git
+89: If the package is installed, use `pxpipe export` instead of
+90: `npx pxpipe-proxy export`.
+95: into image-upload clients such as Cursor when you want dense visual context
+96: without running the proxy.
+100: - **It is lossy.** Exact 12-char hex strings in dense imaged content:
+104: 96 recognized precision-critical tokens, not every identifier. A dedicated
+108: (`CLAUDE_CODE_SUBAGENT_MODEL=claude-sonnet-4-6`, or `model: sonnet` in
+114: - **Workload-dependent.** Wins on token-dense content (~1 char/token),
+115: loses money on sparse prose (~3.5 chars/token); a profitability gate
+116: (calibrated on N=391 production rows) images only where the math wins.
+117: - **Client-dependent.** Savings track uncached bulk the client still
+118: re-sends as text. Claude Code re-sends system + tools + history on
+120: splits: [docs/CACHING_AND_SAVINGS.md](docs/CACHING_AND_SAVINGS.md).
+125: - **`claude-opus-5`:** weaker recall than Fable 5 (verbatim **2/15 vs 13/15**), good
+128: - **Model scope:** default `PXPIPE_MODELS=claude-fable-5,gemini`. The `gemini`
+139: calls-then-outputs rounds: only old closed rounds are imaged atomically;
+141: keeps the newest six completed pairs and allows 32 images; Sol keeps one pair
+142: and allows 64 images, while Grok allows 24 images. Opt-in long-session
+144: `PXPIPE_GPT_HISTORY_MAX_IMAGES=48` after validating the provider's request cap.
+147: strip; Claude keeps its 312-column, 1568×728 5×8 Spleen profile. These
+154: Off by default (dense hex still 0/15). History uses mixed collapse so Codex
+155: assistant messages between tool rounds still image. Enable with
+156: `PXPIPE_MODELS=claude-fable-5,grok-4.6` or the dashboard chip.
+161: ## Benchmark results and receipts
+175: | `claude-fable-5` | Spleen 5×8, 312 cols (shipped) | **100/100** | **98/98** | **18/18** | **0/16** | 13/15 | June 2026 production profiles: [arithmetic + hex](FINDINGS.md), [gist/state/guards](eval/gist-recall/) |
+176: | `claude-fable-5-1` | Spleen 5×8, 312 cols (Fable 5 profile) | **100/100** | 95/98 | **18/18** | **0/16** | 6/15 | Fable 5 profile, no geometry of its own; 3 gist misses are image-arm negation flags answered UNKNOWN (0 confabs). Same-day Fable 5 control on the identical harness/PNGs reproduced 100/100 arithmetic and 30/30 tier-2 gist, so the gist/hex gap is the model, not the harness (hex control not rerun): [arithmetic](eval/sol-profile/), [dense hex](eval/verbatim-15/), [gist/state/guards](eval/gist-recall/) |
+178: | `claude-opus-5` | Spleen 5×8, 312 cols (shipped) | **100/100** | 94/98 | 17/18 | **0/16** | 2/15 | current profile: [arithmetic](eval/gsm8k/), [gist/state/guards](eval/gist-recall/), [dense hex](eval/verbatim-15/) |
+180: | `claude-opus-4-8` | Spleen 5×8, 312 cols (historical) | 93/100 | 77/98 | **18/18** | **0/16** | 0/15 | historical profile: [arithmetic](eval/gsm8k/), [gist/state/guards](eval/gist-recall/), [dense hex](eval/needle-haystack/) |
+192: | model profile | pages | text estimate | image tokens | savings |
+194: | Claude, Spleen 5×8 | 17 | 122,715 | 23,856 | 80.6% |
+197: The text estimate uses 3.7 characters/token; image tokens use each model's
+198: provider formula and actual rendered page dimensions. These figures establish
+199: profile cost on this corpus, not a universal workload savings rate. Sol's paid
+203: image geometry. Fable and Opus use Claude; Gemini uses Google AI Studio; Sol
+204: and Grok use Codex Responses; Kimi K3 uses Cloudflare's OpenAI-compatible
+206: historical or pure-image exceptions are identified in the linked evaluation.
+214: | SWE-bench Lite | `claude-fable-5` | pxpipe 10/10; text 10/10; −65% request size | [paired pilot](eval/swe-bench/) |
+215: | SWE-bench Pro | `claude-fable-5` | pxpipe 14/19; text 15/19; −60% request size | [paired pilot](eval/swe-bench-pro/) |
+216: | production-history row localization | `google/gemini-3.6-flash` | text 17/30; pxpipe 18/30 | [positional retrieval](eval/gemini-profile/QUALITY_RESULTS.md#production-history-positional-retrieval) |
+219: The SWE-bench runner is Claude Code/Fable-specific; no other model has an ON/OFF
+223: ### Capacity / density (how many chars per vision-token?)
+226: pricing pixels at each family’s vision rate. Multiplier = measured
+227: chars/vision-token ÷ 4 (prose text baseline). Not a model-quality score.
+229: | family | window | as text (@4 c/tok) | as pxpipe images | density | multiplier |
+231: | **`claude-fable-5[1m]`** (default) | 1M | ~4.0M | **~18.9M** | ~18.9 c/vt (exact 28px patches) | **~4.7×** |
+233: | **`claude-opus-5`** | 1M | ~4.0M | **~18.9M** | ~18.9 c/vt (resolves to Fable 5’s geometry) | **~4.7×** |
+239: hide image misreads; the linked arithmetic evaluations use novel numbers.
+247: The proxy handles Anthropic Messages, OpenAI Responses and Chat Completions,
+248: and Google `generateContent` requests. It rewrites eligible bulk into image
+249: blocks and forwards the provider-native request, or bridges Anthropic Messages
+250: to a configured OpenAI-compatible provider. On Anthropic, the static prefix and
+255: ## Library use (no proxy)
+258: import { renderTextToImages, transformAnthropicMessages } from "pxpipe-proxy";
+
+## jia-gao/leanctx
+url: https://github.com/jia-gao/leanctx
+description: Drop-in prompt compression for production LLM apps. Cut your token bill 40-60% without changing your code. Python SDK, LLMLingua-2, MIT.
+created: 2026-04-18T22:19:35Z pushed: 2026-08-22T20:29:11Z updated: 2026-09-13T17:42:09Z archived: False stars: 328 forks: 5 issues: 1 default: main license: MIT
+root: .dockerignore, .env.example, .github, .gitignore, .python-version, Dockerfile, LICENSE, README.md, benchmarks, docs, integrations, leanctx, pyproject.toml, sample-data, scripts, tests, ts
+README matching evidence:
+8: Cut your input-token bill by 10–40%，without sacrificing accuracy.
+12: from openai import OpenAI
+15: from leanctx import OpenAI  # same interface, compressed requests
+18: On the full **[LongBench v2](https://longbench2.github.io/)** set (N=503), layered on top of a compressor that is already running, leanctx removes **an extra 18.7 % of tokens** — rising to **36.7 % on prose-heavy traffic** — at a cost of 1.8 pp of accuracy. Every figure regenerates from [per-item records committed to this repo](#every-figure-here-regenerates-from-committed-data). Open-source models, runs locally, MIT-licensed. Your prompts and user data never leave your infrastructure by default.
+20: [Quickstart](#quickstart-60-seconds) · [What makes it different](#what-makes-it-different) · [Benchmarks](#real-numbers) · [Integrations](#integrations) · [How it works](#how-it-works)
+38: F -->|hold| G["Compressed → provider"]
+39: F -->|fail or timeout| H["Original → provider"]
+64: pip install 'leanctx[openai,lingua]'    # or [anthropic], [gemini]
+68: from leanctx import OpenAI
+70: client = OpenAI(
+73: "trigger": {"threshold_tokens": 2000},
+80: max_tokens=512,
+84: print(response.usage.leanctx_tokens_saved)  # e.g. 1841
+88: > **First Lingua call loads ~1.2 GB of model weights** to `~/.cache/huggingface/`. Subsequent calls reuse the cache. Add `pip install 'leanctx[lingua]'` to opt in; without it, leanctx falls back to passthrough.
+90: Verify the install with no API key needed:
+99: You're building a production LLM app and your token bill is a line item:
+104: - Coding agents — Cursor-like / Claude-Code-like, with growing tool-call histories
+108: - **Provider prompt caching** (Anthropic / OpenAI / Gemini) wins on stable prefixes — system prompts, tool definitions, retrieved-document pools. **It doesn't help with dynamic per-query content** (chat history, freshly retrieved docs, tool outputs). Compose with leanctx, don't choose between them.
+110: - **Hosted compression APIs** (Compresr, Token Company) require sending your context to their servers. Closed-source models. leanctx is MIT-licensed, runs the model locally, and never makes outbound calls except to your existing provider.
+116: The headline result. leanctx runs as a semantic pass **on top of** [ClawRouter](https://github.com/BlockRunAI/ClawRouter)'s seven structural compression layers, so the measured delta is what leanctx adds to a system that is *already* compressing. All 503 LongBench v2 questions (Tsinghua KEG, 8K–2M words), Claude Haiku 4.5 eval, temperature 0.1.
+118: | | Avg tokens / request | vs raw | vs Leg A |
+130: **Compression costs accuracy, it does not add it.** The claim is that the cost is small and bounded — 1.8 pp overall, against the −2 pp go/no-go gate set for the integration. Because 54.2 % of Layer-8 input tokens route to verbatim, the compression actually applied to eligible content is **40.8 %**; the verbatim half contributes exactly 0 to both the savings and the accuracy delta by construction.
+132: Sub-buckets are not uniform, and the report gives all of them: `short`/`lingua` is −17.6 pp (N=68) and Single-Document QA −11.5 pp (N=78), while Long Structured Data Understanding is +9.4 pp (N=32). Sidecar latency 47 ms p50 on GPU. At Sonnet input pricing the savings are ~$78 per 1,000 requests.
+134: Full report — per-bucket breakdowns by route × difficulty × length × domain, layer-by-layer contributions, cost model: [`benchmarks/clawrouter/full_long_bench_evaluation_result.md`](benchmarks/clawrouter/full_long_bench_evaluation_result.md).
+138: This result was not produced by the maintainer. The benchmark was executed and audited by outside contributors ([@YingjingLu](https://github.com/YingjingLu), [@QianXiaoMoRan9](https://github.com/QianXiaoMoRan9)). An audit of an earlier draft showed that a headline "+7.4 % on long context" was **eval noise rather than a compression effect** — 7 of the 8 net improved items came from the verbatim subset, where the input was byte-identical (McNemar p = 0.143). Two methodology fixes followed ([#7](https://github.com/jia-gao/leanctx/pull/7)): Leg B now reuses Leg A's answer whenever the compressed context is byte-identical, so verbatim items contribute Δ = 0 by construction instead of decoder noise, and eval temperature dropped to 0.1. A separate correction forced a letter choice in the closed-book control, which had been scoring 6 % — below the 25 % random floor for 4-way multiple choice — and inflating apparent context lift.
+144: The 503 per-item records are in the repo, so nothing above has to be taken on trust. The sweep was re-run from a clean checkout on separate hardware, at the documented defaults (`llmlingua-2-xlm-roberta-large-meetingbank`, ratio 0.5, threshold 1500), and the corpus-level accounting lands on the same values:
+150: | Verbatim token share | 54.2 % | 54.2 % |
+153: Savings are hardware- and configuration-sensitive: the CPU re-run measures **18.7 %** blended / **40.8 %** on eligible content, against **24.1 % / 52.8 %** on the original GPU run. Two effects are visible in the records — 7 long items exceed the connector's 60 s timeout and fail open under CPU inference (a GPU run stays well inside it), and per-item compression declines as input grows, from 50.0 % on the smallest quartile to 37.7 % on the largest. The figures quoted throughout this README are the conservative ones.
+155: Records, per-figure breakdown, and the script that produces them: [`results/full503_phase1_results.jsonl`](benchmarks/clawrouter/results/full503_phase1_results.jsonl) · [`short_route_counterfactual.md`](benchmarks/clawrouter/results/short_route_counterfactual.md) · `benchmarks/clawrouter/short_route_counterfactual.py`.
+157: #### Savings as a function of traffic mix
+159: The 503-item corpus is 45.8 % prose by token share, and blended savings scale linearly with that share — LLMLingua-2 is deterministic and extractive, so reweighting the per-item records to any target mix is exact arithmetic rather than resampling:
+162: blended_savings(p) = p × r        p = prose token-share,  r = 40.8 % (95 % CI 37.8–43.7)
+165: | Traffic mix | Prose share | Blended savings |
+172: So "what will leanctx save me?" has one honest answer: it depends on how much of your traffic is prose, and the curve above tells you. Full curve and CSV: [`prose_code_savings_curve.md`](benchmarks/clawrouter/results/prose_code_savings_curve.md).
+178: | Method | Accuracy | Tokens kept | Reproduce |
+184: The mechanism is real — truncation drops the middle of the document, while Lingua's extractive classifier keeps answer-bearing tokens distributed across it. **But n=15 is directional only: Fisher's exact two-sided p ≈ 0.18, so this table does not establish the effect.** Treat the N=503 sweep above as the load-bearing result. Per-question records: [`docs/blog/data/lbv2-2026-05-03/`](docs/blog/data/lbv2-2026-05-03/).
+186: ### Internal benchmark — coding-agent transcript
+188: A realistic 9-message agent transcript — user question, file reads, grep, log dumps, failed edit, error trace — totaling ~2.1K tokens. Run through `leanctx.Anthropic` with content-aware routing (code → verbatim, errors → verbatim, prose → Lingua):
+190: | Metric | Before | After | Reduction |
+192: | Tokens | 2148 | 1384 | **35.6 %** |
+193: | Tokens saved per request | | | **768** |
+202: - A 3.4 KB log dump shrank to 1.9 KB (45 % reduction) — the legitimate compression target
+205: Reproduce: `leanctx bench run agent-structural --workload agent` — runs the real LLMLingua-2 model, ~30 s on Apple Silicon, no API key required. Status flips to `failure` with named invariants if any regress; CI-gateable.
+207: ### SelfLLM cross-provider comparison
+209: Same 1.7 KB SRE-incident document through `SelfLLM` against each provider's cheapest tier:
+211: | Provider  | Model              | Compression | Latency   | Cost per call |
+213: | Anthropic | `claude-haiku-4-5` | **41.6 %**  | 3.05 s    | ~$0.0016      |
+214: | OpenAI    | `gpt-4o-mini`      | **49.1 %**  | 6.42 s    | ~$0.0003      |
+217: All three preserved every timestamp, metric value, and action item with no hallucination. Combined with `Lingua` (LLMLingua-2 local) hitting **44.7 %** char reduction on the same document at zero marginal cost, leanctx covers the full speed/cost/quality trade-off space.
+219: Full methodology, per-provider output samples, cost analysis, bugs found in flight: [`docs/benchmarks/`](docs/benchmarks/).
+227: | **[ClawRouter](https://github.com/BlockRunAI/ClawRouter)** (BlockRunAI) | "Layer 8" sidecar + TypeScript connector — [`integrations/clawrouter/`](integrations/clawrouter/) | Full N=503 sweep, PASS on both gates ([report](benchmarks/clawrouter/full_long_bench_evaluation_result.md)) |
+229: Integrations are opt-in and fail-open by construction: if the sidecar is unreachable, slow, or returns anything that fails the invariant check, the original uncompressed request goes upstream. A compression outage costs savings, never availability.
+245: outage costs savings, never availability.
+255: leanctx.Anthropic / OpenAI / Gemini    ← drop-in wrapper
+264: Lingua    — LLMLingua-2 local, free marginal cost
+265: SelfLLM   — your configured LLM (Anthropic/OpenAI/Gemini), highest quality
+267: real Anthropic / OpenAI / Gemini SDK → API
+278: from leanctx import OpenAI
+280: client = OpenAI(leanctx_config={
+282: "trigger": {"threshold_tokens": 2000},  # don't bother below this
+286: "prose":          "lingua",     # local LLMLingua-2
+291: "observability": {"otel": True},     # opt-in OpenTelemetry
+295: ## Compose with provider caching
+297: leanctx is **complementary** to Anthropic / OpenAI / Gemini prompt caching, not competitive:
+299: - **Provider caching wins** on stable prefixes: system prompts, tool definitions, retrieved-document pools that don't change across requests. Up to 90 % discount on cached reads.
+301: - **They compose.** Mark your stable prefix with `cache_control` (provider-specific) and let leanctx compress the variable suffix. Both savings stack.
+303: The OTel telemetry leanctx emits includes a `provider` label that you can correlate with provider-side cache-hit metrics in the same dashboard.
+307: leanctx emits OpenTelemetry spans + metrics for every compression call, opt-in via `leanctx_config["observability"]["otel"]`. The library is **API-only**: it never owns the OTel SDK or registers providers. The application configures OTel; leanctx emits.
+318: Each wrapper-routed call produces one root `leanctx.compress` span (provider, method, input_tokens, output_tokens, cost_usd, duration_ms) plus per-compressor child spans. Five metrics — 4 counters + 1 histogram — labeled by `provider`/`method`/`status`. Closed `leanctx.method` taxonomy: `passthrough` | `below-threshold` | `empty` | `opaque-bailout` | `verbatim` | `lingua` | `selfllm` | `hybrid`.
+322: ## Reproducible benchmarks (v0.3)
+328: leanctx bench run lingua-local --workload rag       # offline, no API key
+335: Versioned schema, multi-run isolation (`--runs N` constructs fresh client/middleware each run), clean diagnostics for missing extras / API keys (exit 3, no traceback). Built so downstream tooling can consume the JSON without breaking on schema changes.
+337: ## Install
+340: pip install leanctx                              # core (passthrough only — useful for testing the wrapper)
+341: pip install 'leanctx[anthropic,openai,gemini]'   # provider SDKs
+342: pip install 'leanctx[lingua]'                    # + LLMLingua-2 local compression (~1.2 GB on first call)
+343: pip install 'leanctx[otel]'                      # + OpenTelemetry API/SDK
+344: pip install 'leanctx[bench]'                     # + respx for offline scenarios
+345: pip install 'leanctx[longbench]'                 # + HuggingFace datasets for LongBench v2
+346: pip install 'leanctx[server]'                    # + FastAPI/uvicorn HTTP compression sidecar
+
+## ooples/token-optimizer-mcp
+url: https://github.com/ooples/token-optimizer-mcp
+description: Measure token savings per AI coding agent, optimize context, and share a live local knowledge graph across 16 CLI clients.
+created: 2025-10-11T14:53:02Z pushed: 2026-09-13T00:35:36Z updated: 2026-09-13T17:42:22Z archived: False stars: 524 forks: 63 issues: 2 default: master license: MIT
+root: .agents, .ambiance-mcp-27728.lock, .ambiance-mcp-35804.lock, .claude-plugin, .commitlintrc.json, .eslintrc.json, .gitattributes, .github, .gitignore, .npmignore, .npmrc, .prettierrc, .release-please-manifest.json, CHANGELOG.md, GEMINI.md, LICENSE, README.md, SECURITY.md, bench, cli-wrapper.mjs, docs, eslint-rules, eslint-suppressions.json, eslint.config.js, eval, evals, examples, gemini-extension.json, hooks-core, hooks, install-hooks.ps1, install-hooks.sh, integrations, jest.config.js, jest.mutation.config.js, logs, mcp.json, package-lock.json, package.json, plugin, registry, release-please-config.json, schemas, scripts, server.json, src, stryker.config.json, test-bom-fix.ps1, tests, tsconfig.dashboard.json, tsconfig.json, ucr
+README matching evidence:
+1: [![MCP Toplist](https://mcptoplist.com/badge/io.github.ooples%2Ftoken-optimizer-mcp.svg)](https://mcptoplist.com/server/io.github.ooples%2Ftoken-optimizer-mcp)
+3: <h1 align="center">Token Optimizer MCP</h1>
+10: <a href="https://www.npmjs.com/package/@ooples/token-optimizer-mcp"><img src="https://img.shields.io/npm/v/%40ooples%2Ftoken-optimizer-mcp?logo=npm" alt="npm version"></a>
+11: <a href="https://github.com/ooples/token-optimizer-mcp/actions/workflows/ci.yml"><img src="https://github.com/ooples/token-optimizer-mcp/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI"></a>
+19: <img src="https://img.shields.io/badge/direct%20savings-before%20%2F%20actual%20return-3b82f6" alt="Direct savings measured before and after">
+20: <img src="https://img.shields.io/badge/telemetry-none-2ea043" alt="No telemetry">
+25: <img alt="Live Token Optimizer dashboard separating verified net MCP transport savings, excluded reports, per-agent attribution, and graph evidence" src="./docs/media/live/overview-live.png" width="1000">
+28: <p align="center"><em>One local ledger for optimizer tools, live-graph substitutions, every agent, and the graph's own cost.</em></p>
+39: Token Optimizer attacks that on four fronts.
+41: **1. It makes the expensive call impossible.** Install the plugin and a built-in
+51: ~150 tokens to carry. Re-deriving it costs 5k–50k.
+54: materialized before/actual-return measurement for MCP progressive disclosure,
+60: and net transport avoided are grouped by operation and MCP handshake identity. Codex, Claude Code,
+65: No account, no telemetry, no hosted service. MIT, so it is usable at work.
+70: local data, not a design mockup. In the capture above it reports:
+72: - **43,491 net verified MCP transport tokens avoided** in the current live
+73: proof: 54,037 gross reduction minus a deliberate 10,546-token expansion;
+74: - **486,074,740 historical/tool-reported tokens quarantined**, dominated by
+76: - a live Codex / Claude Code / Gemini stdio smoke against AiDotNet, with each
+78: - **2,648 graph nodes, 6,527 edges, and 58 findings** across 11 local projects;
+79: - **more than 1,000 hook runs with zero failures and zero timeouts** across six
+81: - **6,332 tokens of modeled graph-substitution potential**, excluded from the
+85: cache reads, cache writes, and output with the exact captured provider, model,
+88: are kept separate from provider-reported charges and are never labeled as a
+89: subscription invoice. See the [token accounting contract](./docs/TOKEN_ACCOUNTING.md).
+93: **Claude Code** — install the plugin, not the bare MCP server. The plugin is
+97: /plugin marketplace add ooples/token-optimizer-mcp
+98: /plugin install token-optimizer@token-optimizer
+102: That is the entire installation. [All sixteen clients →](#installation)
+107: token_audit
+129: ├─ verify() compares exp against the LOCAL clock          (finding, 0.9)
+132: └─ [git] 47 changes in 90d, last three: "fix token expiry",
+133: "revert skew fix", "fix token expiry again"
+137: tokens finding it out — and every other tool throws it away at the end of the
+140: **What a default install actually produces.** The structural graph — files,
+150: `TOKEN_OPTIMIZER_HARVEST=0` turns it _off_ — but its real gate is a credential:
+152: and subscription-only logins. Point `TOKEN_OPTIMIZER_HARVEST_ENDPOINT` at a
+153: local model and it runs **free and private, with nothing leaving the machine**.
+154: `npx token-optimizer-doctor` states which of these is live.
+161: | Index built by a **batch ingestion job**                       | Accretes from **real agent traffic** — coverage follows attention             |
+185: npm install
+187: npm run dashboard      # http://localhost:3100
+191: <img alt="Per-agent token accounting with historical rows left unattributed and live Codex, Claude Code, and Gemini rows measured separately" src="./docs/media/live/agent-accounting-live.png" width="1000">
+194: The overview answers the questions a token optimizer should answer first:
+196: 1. **How much MCP context did it avoid?** The headline is gross materialized
+197: payload reduction minus every later linked expansion. Graph estimates are
+199: 2. **How much context still reached the agents?** Every successful current MCP
+201: exists. That row is context-accounted but savings-unmeasured.
+203: operations, returned context, optional cost equivalent, and net tokens
+206: tokens are charged to the graph. A causal benefit is added only after the
+211: 1. Install the MCP server and the native adapter for your CLI. The MCP handshake
+212: provides per-client accounting; native lifecycle hooks provide automatic
+214: 2. Use `smart_read`, `smart_grep`, `smart_glob`, `smart_edit`, or any other MCP
+216: with a comparable materialized before-state also record a gross reduction;
+217: later `expand` calls debit that reduction.
+226: 4. Open `http://localhost:3100`. Use **Overview** for combined accounting and
+229: 5. To register existing local repositories without reading their source, run
+238: npm run dashboard:verify-live -- http://localhost:3100
+242: <img alt="Structured cross-client hook and MCP health cards from live local data" src="./docs/media/live/capture-health-live.png" width="1000">
+250: <img alt="Direct graph savings, remembering cost, holdouts, and an honest collecting causal study" src="./docs/media/live/graph-balance-live.png" width="1000">
+255: MCP headline. The second asks whether delivered knowledge prevented later reads;
+260: <img alt="Interactive 3D knowledge graph spanning eleven local projects" src="./docs/media/live/graph-explorer-live.png" width="1000">
+264: bounded one-hop focus view. The default **All known projects** scope pools local
+283: opaque machine-local project registry; filesystem paths never reach the
+284: browser. Lifecycle hooks register repositories as they are used. To backfill
+285: existing local checkouts without reading their source files, run the bounded
+296: remembering** combines delivered-context tokens with measured semantic-write
+299: dashboard does not manufacture a savings estimate from missing data.
+307: Every native hook writes the same bounded JSONL lifecycle record, including
+308: Claude Code's custom router and compaction paths. Records carry the client and
+312: fields include OpenTelemetry log severity and resource semantics so the local
+317: npm run diagnostics -- --hours 72 --output hook-summary.json
+318: npm run diagnostics -- --include-events --limit 100 --output hook-report.json
+327: days, and live under `.token-optimizer/logs` when a state directory is set (or
+328: `~/.token-optimizer/logs` otherwise). `TOKEN_OPTIMIZER_LOG_DIR`,
+329: `TOKEN_OPTIMIZER_LOG_MAX_BYTES`, `TOKEN_OPTIMIZER_LOG_MAX_FILES`, and
+330: `TOKEN_OPTIMIZER_LOG_RETENTION_DAYS` override those operational defaults.
+338: An optional local proxy compresses tool results, search output, logs and
+339: conversation history on the way to the model. A hook cannot do this: the
+340: `PostToolUse` output schema is `{hookEventName, additionalContext?,
+
+## mksglu/context-mode
+url: https://github.com/mksglu/context-mode
+description: Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.
+created: 2026-02-23T05:56:28Z pushed: 2026-09-13T12:06:08Z updated: 2026-09-13T18:48:22Z archived: False stars: 22588 forks: 1626 issues: 241 default: main license: NOASSERTION
+root: .agents, .claude-plugin, .claude, .codex-plugin, .cursor-plugin, .gitattributes, .github, .gitignore, .mcp.json.codex.example, .mcp.json.example, .npmignore, .openclaw-plugin, .pi, BENCHMARK.md, CLAUDE.md, CONTRIBUTING.md, LICENSE, README.md, bin, bun.lock, cli.bundle.mjs, configs, docs, hooks, openclaw.plugin.json, package.json, scripts, server.bundle.mjs, skills, src, start.mjs, stats.json, tests, tsconfig.json, vitest.config.ts, web
+README matching evidence:
+34: Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides.
+38: Context Mode is an MCP server that solves all four sides of this problem:
+40: 1. **Context Saving** — Sandbox tools keep raw data out of the context window. 315 KB becomes 5.4 KB. 98% reduction.
+41: 2. **Session Continuity** — Every file edit, git operation, task, error, and user decision is tracked in SQLite. When the conversation compacts, context-mode doesn't dump this data back into context — it indexes events into FTS5 and retrieves only what's relevant via BM25 search. The model picks up exactly where you left off. If you don't `--continue`, previous session data is deleted immediately — a fresh session means a clean slate.
+51: 4. **No prose-style enforcement** — context-mode keeps raw data out of context but never dictates how the model writes its final answer. Brevity, completeness, formatting — your model's call (or yours via your own `CLAUDE.md` / `AGENTS.md`). Aggressive brevity prompts have been shown to degrade coding/reasoning benchmarks ([Moonshot AI on `kimi-k2.5`](https://github.com/anomalyco/opencode/issues/20258)) — the routing block stays focused on *where data goes*, not on *how the model talks*.
+60: ## Install
+62: Platforms are grouped by install complexity. Hook-capable platforms get automatic routing enforcement. Non-hook platforms need a one-time routing file copy.
+65: <summary><strong>Claude Code</strong> — plugin marketplace, fully automatic</summary>
+67: **Prerequisites:** Claude Code v1.0.33+ (`claude --version`). If `/plugin` is not recognized, update first: `brew upgrade claude-code` or `npm update -g @anthropic-ai/claude-code`.
+69: **Install:**
+73: /plugin install context-mode@context-mode
+76: Restart Claude Code (or run `/reload-plugins`).
+84: All checks should show `[x]`. The doctor validates runtimes, hooks, FTS5, and plugin registration.
+86: **Routing:** Automatic. The SessionStart hook injects routing instructions at runtime — no file is written to your project. The plugin registers all hooks (PreToolUse, PostToolUse, UserPromptSubmit, PreCompact, SessionStart, Stop) and 11 MCP tools — six sandbox tools (`ctx_batch_execute`, `ctx_execute`, `ctx_execute_file`, `ctx_index`, `ctx_search`, `ctx_fetch_and_index`) plus five meta-tools (`ctx_stats`, `ctx_doctor`, `ctx_upgrade`, `ctx_purge`, `ctx_insight`).
+90: | `/context-mode:ctx-stats` | Context savings — per-tool breakdown, tokens consumed, savings ratio. |
+91: | `/context-mode:ctx-doctor` | Diagnostics — runtimes, hooks, FTS5, plugin registration, versions. |
+92: | `/context-mode:ctx-index` | Index a local file or directory into the persistent FTS5 knowledge base. |
+93: | `/context-mode:ctx-search` | Search previously indexed content. |
+94: | `/context-mode:ctx-upgrade` | Pull latest, rebuild, migrate cache, fix hooks. |
+95: | `/context-mode:ctx-purge` | Permanently delete all indexed content from the knowledge base. |
+98: > **Note:** Slash commands are a Claude Code plugin feature. On other platforms, type `ctx stats`, `ctx doctor`, `ctx index`, `ctx search`, `ctx upgrade`, or `ctx insight` in the chat — the model calls the MCP tool automatically. See [Utility Commands](#utility-commands).
+100: **Status line (optional):** Claude Code's plugin manifest cannot declare a status line, so this is a one-time manual edit to `~/.claude/settings.json`:
+111: After saving, restart Claude Code. The bar shows `$ saved this session · $ saved across sessions · % efficient` so you can see savings accumulate in real time. The wiring is path-free — `context-mode statusline` resolves through the bundled CLI regardless of where the plugin cache lives.
+114: <summary>Alternative — MCP-only install (no hooks or slash commands)</summary>
+117: claude mcp add context-mode -- npx -y context-mode
+120: This gives you all 11 MCP tools without automatic routing. The model can still use them — it just won't be nudged to prefer them over raw Bash/Read/WebFetch. Good for trying it out before committing to the full plugin.
+127: <summary><strong>Gemini CLI</strong> — one config file, hooks included</summary>
+129: **Prerequisites:** Node.js >= 22.5 (or Bun), Gemini CLI installed.
+131: **Install:**
+133: 1. Install context-mode globally:
+136: npm install -g context-mode
+139: 2. Add the following to `~/.gemini/settings.json`. This single file registers the MCP server and all four hooks:
+143: "mcpServers": {
+148: "hooks": {
+151: "matcher": "run_shell_command|read_file|read_many_files|grep_search|search_file_content|web_fetch|activate_skill|mcp__plugin_context-mode|mcp__context-mode|mcp__(?!.*context-mode)",
+152: "hooks": [{ "type": "command", "command": "context-mode hook gemini-cli beforetool" }]
+158: "hooks": [{ "type": "command", "command": "context-mode hook gemini-cli aftertool" }]
+164: "hooks": [{ "type": "command", "command": "context-mode hook gemini-cli precompress" }]
+170: "hooks": [{ "type": "command", "command": "context-mode hook gemini-cli sessionstart" }]
+182: /mcp list
+187: **Routing:** Automatic via SessionStart hook. Optionally copy routing instructions for full model awareness:
+193: > **Why the BeforeTool matcher?** It targets only tools that produce large output (`run_shell_command`, `read_file`, `read_many_files`, `grep_search`, `search_file_content`, `web_fetch`, `activate_skill`) plus context-mode's own tools (`mcp__plugin_context-mode`). This avoids unnecessary hook overhead on lightweight tools while intercepting every tool that could flood your context window.
+200: <summary><strong>VS Code Copilot</strong> — hooks with SessionStart</summary>
+204: **Install:**
+206: 1. Install context-mode globally:
+209: npm install -g context-mode
+212: 2. Create `.vscode/mcp.json` in your project root:
+224: 3. Create `.github/hooks/context-mode.json`:
+228: "hooks": {
+230: { "type": "command", "command": "context-mode hook vscode-copilot pretooluse" }
+233: { "type": "command", "command": "context-mode hook vscode-copilot posttooluse" }
+236: { "type": "command", "command": "context-mode hook vscode-copilot sessionstart" }
+246: **Routing:** Automatic via SessionStart hook. Optionally copy routing instructions for full model awareness:
+252: Full hook config including PreCompact: [`configs/vscode-copilot/hooks.json`](configs/vscode-copilot/hooks.json)
+257: <summary><strong>JetBrains Copilot</strong> — hooks with SessionStart</summary>
+261: **Install:**
+263: 1. Install context-mode globally:
+266: npm install -g context-mode
+269: 2. Add MCP server via Settings UI: **Settings > Tools > AI Assistant > Model Context Protocol (MCP) > Add Server**:
+273: 3. Create `.github/hooks/context-mode.json`:
+277: "hooks": {
+279: { "type": "command", "command": "context-mode hook jetbrains-copilot pretooluse" }
+282: { "type": "command", "command": "context-mode hook jetbrains-copilot posttooluse" }
+285: { "type": "command", "command": "context-mode hook jetbrains-copilot sessionstart" }
+295: **Routing:** Automatic via SessionStart hook. Optionally copy routing instructions for full model awareness:
+301: Full hook config including PreCompact: [`configs/jetbrains-copilot/hooks.json`](configs/jetbrains-copilot/hooks.json)
+308: <summary><strong>GitHub Copilot CLI</strong> — MCP + hooks</summary>
+310: **Prerequisites:** Node.js >= 22.5 (or Bun), GitHub Copilot CLI (`copilot`) installed. Set `COPILOT_HOME` first if you use an isolated Copilot home.
+312: **Install — Option A (plugin, one command — recommended):**
+315: npm install -g context-mode                                     # the plugin's MCP server runs the global binary
+316: copilot plugin install mksglu/context-mode:configs/copilot-cli  # registers MCP + hooks + routing skill
+319: The bundle's `.mcp.json` pins `CONTEXT_MODE_PLATFORM=copilot-cli`, so context-mode self-identifies as Copilot — `ctx_upgrade` and platform detection resolve `copilot-cli` even when Claude Code is co-installed (whose `~/.claude/` would otherwise win). No `context-mode upgrade` / agent call needed. To try it from a local clone before it lands on the default branch, point Copilot at the bundle directory: `copilot --plugin-dir /path/to/context-mode/configs/copilot-cli`.
+321: **Install — Option B (manual, no plugin):**
+323: 1. Install context-mode globally:
+326: npm install -g context-mode
+329: 2. Register the MCP server with Copilot CLI's built-in command (writes `~/.copilot/mcp-config.json` for you):
+332: copilot mcp add context-mode -- context-mode
+335: 3. Configure hooks in `~/.copilot/hooks/context-mode.json` (or `$COPILOT_HOME/hooks/context-mode.json`). The config uses flat `{ "type": "command", "command": "..." }` entries; context-mode also writes a top-level `"version": 1`, but that field is **optional** — the Copilot CLI accepts hook configs that omit it (it is pinned only for self-documentation). Copilot CLI fires six events context-mode uses:
+340: "hooks": {
+341: "preToolUse":          [{ "type": "command", "command": "context-mode hook copilot-cli pretooluse" }],
+
+## DietrichGebert/ponytail
+url: https://github.com/DietrichGebert/ponytail
+description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+created: 2026-06-12T00:52:37Z pushed: 2026-09-07T16:27:01Z updated: 2026-09-13T19:27:26Z archived: False stars: 137196 forks: 7367 issues: 263 default: main license: MIT
+root: .agents, .claude-plugin, .clinerules, .codex-plugin, .cursor, .devin-plugin, .env.example, .github, .gitignore, .grok-plugin, .kiro, .openclaw, .opencode, .qoder-plugin, .qoder, .windsurf, AGENTS.md, LICENSE, README.es.md, README.ko.md, README.md, __init__.py, after-install.md, assets, benchmarks, commands, docs, examples, gemini-extension.json, hooks, opencode.json, package.json, pi-extension, plugin.json, plugin.yaml, ponytail-mcp, scripts, skills, tests
+README matching evidence:
+34: <sub>Measured on real Claude Code sessions editing a real open-source repo (FastAPI + React), against the same agent with no skill. ~54% is the mean across 12 feature tasks (Haiku 4.5, n=4); it reaches 94% where an agent over-builds (a date picker) and is near zero where the code is already minimal. ponytail keeps every safety guard while a bare "write one-liners" prompt drops one. (The earlier single-shot benchmark reported 80-94% as a flat figure; against a fair agentic baseline that is the per-task ceiling, not the average.) <a href="benchmarks/results/2026-06-18-agentic.md">Full writeup</a> &middot; <a href="benchmarks/">reproduce it</a>.</sub>
+64: You ask for a date picker. Your agent installs flatpickr, writes a wrapper component, adds a stylesheet, and starts a discussion about timezones.
+77: The honest measurement is a real agent doing real work: a headless Claude Code session editing [tiangolo's full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) (a real FastAPI + React repo), scored on the `git diff` it leaves behind. Twelve feature tickets, the same agent with and without the skill, n=4, Haiku 4.5.
+80: <img src="assets/benchmark-agentic.svg" width="860" alt="Each arm as a percent of the no-skill baseline across LOC, tokens, cost and time (Haiku 4.5). ponytail is lowest on every metric (LOC 46%, tokens 78%, cost 80%, time 73%); caveman rises above 100% on tokens, cost and time; yagni-oneliner LOC 67%. Safety, separate adversarial tier: baseline, caveman and ponytail 100%, yagni-oneliner 95%.">
+83: | vs no-skill baseline | LOC | tokens | cost | time | safe |
+89: ponytail is the only arm that cuts every metric, and the only one that stays fully safe while doing it. The cut is biggest where there is a real over-build trap (date picker 404 to 23 lines, color picker 287 to 23, because it reaches for a native `<input>` instead of a component) and near zero on code that is already minimal. Full method, per-task tables, and limitations: [benchmarks/results/2026-06-18-agentic.md](benchmarks/results/2026-06-18-agentic.md).
+97: <img src="assets/benchmark-3model.svg" width="860" alt="Median lines of code per arm across Haiku, Sonnet and Opus">
+100: This showed **80-94% less code**. [#126](https://github.com/DietrichGebert/ponytail/issues/126) fairly pointed out that the bare-model baseline pads its answer with prose and options, so that gap is partly a conversational-baseline artifact. The agentic numbers above are the corrected, defensible version. Reproduce the single-shot run with `npx promptfoo eval -c benchmarks/promptfooconfig.yaml`.
+104: **The rule was never "fewest tokens."** It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect on the models that follow the ladder; a terse reasoning model that spends thinking tokens deliberating the rungs can go the other way (on GPT-5.5 it does).
+115: 5. Installed dependency?      → use it
+122: Lazy, not negligent: trust-boundary validation, data-loss handling, security, and accessibility are never on the chopping block.
+124: ## Install
+128: The Claude Code and Codex plugins run two tiny Node.js lifecycle hooks, so `node` needs to be on your PATH (note for Nix/nvm users: it must be on the non-interactive shell's PATH). If it isn't, the skills still work, the always-on activation just stays quiet instead of erroring on every prompt.
+130: ### Claude Code
+136: /plugin install ponytail@ponytail
+138: (You have to send two separate prompts for the install to work)
+140: Same steps in the Claude Code Desktop app's Code tab: type the two `/plugin` commands above into the prompt box, or click the **+** button next to it, choose **Plugins** → **Add plugin** to browse your configured marketplaces, and manage marketplaces from **Customize** in the sidebar.
+142: ### Codex
+145: codex plugin marketplace add DietrichGebert/ponytail
+146: codex plugin add ponytail@ponytail
+149: Run `codex` and open `/hooks`, review and trust its two lifecycle hooks, and start a new thread.
+151: This same install also covers the Codex desktop app: restart the app after installing and it picks up the plugin.
+157: copilot plugin install ponytail@ponytail
+164: /plugin install ponytail@ponytail
+177: pi install git:github.com/DietrichGebert/ponytail
+188: Run from a checkout instead (the plugin reuses `hooks/` and `skills/`):
+196: The `./` path resolves against your project's `opencode.json`; to share one checkout across projects, point it at the absolute path of the `.mjs` instead (it finds its `hooks/` and `skills/` relative to its own file).
+201: gemini extensions install https://github.com/DietrichGebert/ponytail
+205: The Gemini adapter intentionally does not ship a root `hooks/hooks.json`: Gemini auto-loads that path, while Ponytail's lifecycle hooks use Claude/Codex event names.
+211: For full plugin-tier support (automatic mode activation + ruleset injection on every prompt), add the hooks from [`hooks/qoder-hooks.json`](hooks/qoder-hooks.json) to your `.qoder/settings.json`. Replace `PONYTAIL_DIR` with the path to your ponytail checkout. Qoder's `UserPromptSubmit` hook activates the default mode on first prompt and injects the ruleset every turn; `PreToolUse` with `task|Task` matcher injects the ruleset into subagents. Level switches (`/ponytail lite|full|ultra|off`) work automatically.
+215: Google is renaming Gemini CLI to Antigravity CLI (the `agy` binary); the same extension installs there:
+218: agy plugin install https://github.com/DietrichGebert/ponytail
+221: It reuses this repo's `gemini-extension.json`. One difference: Antigravity converts the `/ponytail` commands into skills, so you type them into the chat (e.g. `/ponytail-review` as a message) instead of picking them from a slash menu. Until the migration completes (around June 18, 2026), `gemini extensions install` still works too. To run it as an always-on rule instead, drop the ruleset into `.agents/rules/`.
+226: hermes plugins install DietrichGebert/ponytail --enable
+229: Restart Hermes after installing. The plugin injects the active Ponytail mode before each LLM turn, registers the bundled skills as `ponytail:<skill>`, and adds `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/ponytail-debt`, `/ponytail-gain`, and `/ponytail-help`. In shared gateways, restrict `/ponytail` to trusted users with Hermes slash-command access controls; runtime mode is process-local.
+241: swival skills add ponytail                                             # install the collection into this project
+252: devin plugins install DietrichGebert/ponytail
+255: Installs ponytail as a Devin plugin; skills are available as `/ponytail:ponytail`, `/ponytail:ponytail-review`, and so on.
+260: clawhub install ponytail
+263: Installs ponytail as an OpenClaw skill from ClawHub; the review, audit, debt, gain, and help skills install the same way (`clawhub install ponytail-review`, and so on). OpenClaw applies it on coding tasks and also exposes it as a `/ponytail` command. Without ClawHub, copy [`.openclaw/skills/ponytail`](.openclaw/skills/) into `~/.openclaw/skills/`.
+268: grok plugin install DietrichGebert/ponytail --trust
+278: Start a new session (or reload plugins). Skills show as `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/ponytail-debt`, `/ponytail-gain`, `/ponytail-help`. Verify with `grok inspect`. Grok can auto-invoke ponytail for coding tasks from its skill description; use `/ponytail` (or `/ponytail lite`, `/ponytail full`, `/ponytail ultra`) when activation needs to be explicit. Grok lifecycle hooks are not used because their SessionStart output cannot inject instructions.
+290: Cursor, Windsurf, Cline, GitHub Copilot Chat (the VS Code, JetBrains, and Visual Studio editor extension, not the standalone Copilot CLI covered under [Install](#install)), Aider, Kiro, Zed, CodeWhale, Swival, Qoder: copy the matching rules file from this repo ([`.cursor/rules/`](.cursor/rules/), [`.windsurf/rules/`](.windsurf/rules/), [`.clinerules/`](.clinerules/), [`.github/copilot-instructions.md`](.github/copilot-instructions.md), [`AGENTS.md`](AGENTS.md), [`.kiro/steering/`](.kiro/steering/), [`.qoder/rules/`](.qoder/rules/)).
+294: GitHub Copilot CLI fallback (instruction-only mode): it reads `AGENTS.md` and `.github/copilot-instructions.md` in a project, or copy the rules into `~/.copilot/copilot-instructions.md` to run ponytail in every project. This path keeps always-on guidance, but does not add plugin mode switches or hooks.
+296: VS Code with the Codex extension reads `AGENTS.md`, which this repo ships, so it works from the repo root with no setup (`~/.codex/AGENTS.md` makes Codex global).
+306: ### Uninstall
+310: | Claude Code | `/plugin remove ponytail` |
+311: | Codex | `codex plugin remove ponytail` |
+313: | Grok Build | `grok plugin uninstall ponytail` |
+314: | Pi agent | `pi uninstall ponytail` |
+317: These remove the plugin's own files. They leave behind a small amount of state ponytail writes outside the plugin folder: the mode flag, `~/.config/ponytail/config.json`, and (if you accepted the setup nudge) a `statusLine` entry in `~/.claude/settings.json`. Run `node scripts/uninstall.js` to clean those up too. **Run it before the host remove command above** — the script is itself a plugin file, so removing the plugin first deletes it (or run it from a separate clone of this repo). It only removes the statusLine entry if it points at ponytail's own script, so a statusline you set up yourself is left untouched.
+327: | `/ponytail-gain` | Show the measured impact scoreboard (less code, less cost, more speed) from the benchmark. |
+330: Commands need a skill-capable host (Claude Code, Codex, Devin CLI, OpenCode, Gemini, pi, Swival, Hermes Agent, Qoder, Grok Build). In Codex they're skills, invoke with `@` (`@ponytail-review`). The instruction-only adapters (Cursor, Windsurf, Cline, Copilot, Kiro, Antigravity) load the always-on ruleset without the commands.
+343: The correctness benchmark spawns Python for email and CSV checks; `python3` is tried before `python`. CSV checks need `pandas` installed locally.
+
+## Graphify-Labs/graphify
+url: https://github.com/Graphify-Labs/graphify
+description: Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
+created: 2026-04-03T15:49:07Z pushed: 2026-09-12T21:24:20Z updated: 2026-09-13T19:25:13Z archived: False stars: 116375 forks: 11368 issues: 1324 default: v8 license: Apache-2.0
+root: .dockerignore, .gitattributes, .github, .gitignore, .pre-commit-config.yaml, AGENTS.md, ARCHITECTURE.md, BENCHMARKS.md, CHANGELOG.md, Dockerfile, LICENSE, LICENSE-MIT, NOTICE, README.md, SECURITY.md, docs, graphify, pyproject.toml, scripts, tests, tools, uv.lock, worked
+README matching evidence:
+30: Type `/graphify` in your AI coding assistant and it maps your entire project (code, docs, PDFs, images, videos) into a **knowledge graph** you can **query instead of grepping** through files.
+32: - **Code maps for free, fully local.** Code is parsed with tree-sitter AST: deterministic, no LLM, nothing leaves your machine. (Docs, PDFs, images and video use your assistant's model, or a configured API key, for a semantic pass.)
+34: - **Not a vector index.** No embeddings, no vector store: a real graph you traverse. Ask a question, trace the path between two things, or explain one concept.
+48: uv tool install graphifyy      # install the CLI (or: pipx install graphifyy)
+49: graphify install               # register the skill with your AI assistant
+67: **Works in** Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, and 15+ more — [pick your platform](#install).
+113: | **Beyond code** | Docs, PDFs, images, and video/audio all map into the same graph |
+114: | **Local-first** | Code is parsed locally with tree-sitter (no LLM, nothing leaves your machine); only the semantic pass over docs/media calls a backend, and only if you configure one |
+118: ## Benchmarks
+120: | Benchmark | Metric | graphify | Field |
+125: | Graph build | LLM credits | **0** | per-token for most systems |
+127: Every system ran on the same harness with the same model and budgets, scored by a judge blind-validated against a second judge (90.6% agreement, Cohen's kappa 0.81). Full per-system tables, the code-intelligence result, and reproduction commands: **[BENCHMARKS.md](./BENCHMARKS.md)**.
+133: | Requirement | Minimum | Check | Install |
+136: | uv *(recommended)* | any | `uv --version` | `curl -LsSf https://astral.sh/uv/install.sh \| sh` |
+137: | pipx *(alternative)* | any | `pipx --version` | `pip install pipx` |
+139: **macOS quick install (Homebrew):**
+141: brew install python@3.12 uv
+144: **Windows quick install:**
+146: winget install astral-sh.uv
+151: sudo apt install python3.12 python3-pip pipx
+152: # or install uv:
+153: curl -LsSf https://astral.sh/uv/install.sh | sh
+158: ## Install
+162: **Step 1 — install the package:**
+166: uv tool install graphifyy
+169: pipx install graphifyy
+170: pip install graphifyy  # may need PATH setup — see note below
+176: graphify install
+181: To install the assistant skill into the current repository instead of your user
+185: graphify install --project
+186: graphify install --project --platform codex
+189: Project-scoped installs write under the current directory, for example
+190: `.claude/skills/graphify/SKILL.md` or `.agents/skills/graphify/SKILL.md` (plus a
+193: Per-platform commands that support project-scoped installs accept the same flag,
+194: for example `graphify claude install --project` or `graphify codex install --project`.
+198: > **`graphify: command not found`?** `uv tool install` / `pipx install` put the `graphify` command in their tool bin dir (`~/.local/bin`). If your shell can't find it right after install — common on a fresh macOS + zsh setup — that dir isn't on your `PATH` yet: run `uv tool update-shell` (or `pipx ensurepath`), then open a new terminal. With plain `pip`, add `~/.local/bin` (Linux) or `~/Library/Python/3.x/bin` (Mac) to your PATH, or run `python -m graphify`.
+200: > **Running with `uvx` / `uv tool run` instead of installing?** Name the package, not the command: `uvx --from graphifyy graphify install`. Plain `uvx graphify …` fails (`No solution found … no versions of graphify`) because `uv tool run` reads the first word as a *package*, and the package is `graphifyy` — the `graphify` command lives inside it.
+202: > **Avoid `pip install` on Mac/Windows** if possible. The skill resolves Python at runtime from `graphify-out/.graphify_python`; if that points to a different environment than where `pip` installed the package, you'll get `ModuleNotFoundError: No module named 'graphify'`. `uv tool install` and `pipx install` isolate the package in their own env and avoid this entirely.
+204: > **Git hooks and uv tool / pipx:** `graphify hook install` embeds the current interpreter path directly into the hook scripts at install time, so the post-commit hook fires correctly even in GUI git clients and CI runners where `~/.local/bin` is not on PATH. If you reinstall or upgrade graphify, re-run `graphify hook install` to refresh the embedded path.
+206: > **Strict mode (Claude Code):** `graphify install --project --strict` makes the assistant actually use the graph. The default install *nudges* it to run `graphify query` before reading files; strict mode *blocks* the first raw source read of a session and redirects it to the graph, then reverts to the nudge (so it fires at most once per session and never gets stuck). Toggle at runtime with `GRAPHIFY_HOOK_STRICT=1`/`0`; the default install is unchanged (soft nudge).
+211: | Platform | Install command |
+213: | Claude Code (Linux/Mac) | `graphify install` |
+214: | Claude Code (Windows) | `graphify install` (auto-detected) or `graphify install --platform windows` |
+215: | CodeBuddy | `graphify install --platform codebuddy` |
+216: | Codex | `graphify install --platform codex` |
+217: | OpenCode | `graphify install --platform opencode` |
+218: | Kilo Code | `graphify install --platform kilo` |
+219: | GitHub Copilot CLI | `graphify install --platform copilot` |
+220: | VS Code Copilot Chat | `graphify vscode install` |
+221: | Aider | `graphify install --platform aider` |
+222: | OpenClaw | `graphify install --platform claw` |
+223: | Factory Droid | `graphify install --platform droid` |
+224: | Trae | `graphify install --platform trae` |
+225: | Trae CN | `graphify install --platform trae-cn` |
+226: | Gemini CLI | `graphify install --platform gemini` |
+227: | Hermes | `graphify install --platform hermes` |
+228: | Kimi Code | `graphify install --platform kimi` |
+229: | Amp | `graphify amp install` |
+230: | Agent Skills (cross-framework) | `graphify install --platform agents` (alias `--platform skills`) |
+231: | Kiro IDE/CLI | `graphify kiro install` |
+232: | Pi coding agent | `graphify install --platform pi` |
+233: | Cursor | `graphify cursor install` |
+234: | Devin CLI | `graphify devin install` |
+235: | Google Antigravity | `graphify antigravity install` |
+237: Codex users also need `multi_agent = true` under `[features]` in `~/.codex/config.toml` for parallel extraction. CodeBuddy uses the same Agent tool and PreToolUse hook mechanism as Claude Code. Factory Droid uses the `Task` tool for parallel subagent dispatch. OpenClaw and Aider use sequential extraction (parallel agent support is still early on those platforms). Trae uses the Agent tool for parallel subagent dispatch and does **not** support `PreToolUse` hooks, so AGENTS.md is the always-on mechanism.
+239: `--platform agents` (alias `--platform skills`) targets the generic cross-framework [Agent-Skills](https://github.com/anthropics/skills) locations: the spec's user-global `~/.agents/skills/` (read by `npx skills` and spec-compliant frameworks) for a global install, and `./.agents/skills/` for a project (`--project`) install. The bare `graphify install` stays single-platform (Claude Code) by design — use the named `agents` platform when you want the skill discoverable by any framework that reads `.agents/skills`.
+241: > Codex uses `$graphify` instead of `/graphify`.
+246: <summary><b>Optional extras</b> (install only what you need)</summary>
+248: | Extra | What it adds | Install |
+250: | `pdf` | PDF extraction | `uv tool install "graphifyy[pdf]"` |
+251: | `office` | `.docx` and `.xlsx` support | `uv tool install "graphifyy[office]"` |
+252: | `google` | Google Sheets rendering | `uv tool install "graphifyy[google]"` |
+253: | `video` | Video/audio transcription (faster-whisper + yt-dlp) | `uv tool install "graphifyy[video]"` |
+254: | `mcp` | MCP stdio server | `uv tool install "graphifyy[mcp]"` |
+255: | `neo4j` | Neo4j push support | `uv tool install "graphifyy[neo4j]"` |
+256: | `falkordb` | FalkorDB push support | `uv tool install "graphifyy[falkordb]"` |
+257: | `svg` | SVG graph export | `uv tool install "graphifyy[svg]"` |
+258: | `leiden` | Leiden community detection (graspologic on Python < 3.13; native backend on 3.13+) | `uv tool install "graphifyy[leiden]"` |
+259: | `ollama` | Ollama local inference | `uv tool install "graphifyy[ollama]"` |
+260: | `openai` | OpenAI / OpenAI-compatible APIs | `uv tool install "graphifyy[openai]"` |
+
+## diegosouzapw/OmniRoute
+url: https://github.com/diegosouzapw/OmniRoute
+description: Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors
+created: 2026-02-13T12:38:31Z pushed: 2026-09-12T01:29:30Z updated: 2026-09-13T19:27:05Z archived: False stars: 65657 forks: 9183 issues: 694 default: release/v3.8.51 license: MIT
+root: .cbmignore, .dockerignore, .editorconfig, .env.devin-bridge.example, .env.example, .env.homolog.example, .gitattributes, .github, .gitignore, .gitleaks.toml, .husky, .i18n-state.json, .mailmap, .markdownlint.json, .mergify.yml, .node-version, .npmignore, .npmrc, .nvmrc, .prettierignore, .size-limit.json, .trivyignore, .vale.ini, .vale, .vscode, .zizmor.yml, @omniroute, AGENTS.md, CHANGELOG.md, CLAUDE.md, CODE_OF_CONDUCT.md, CONTRIBUTING.md, Dockerfile, Dockerfile.bun, GEMINI.md, LICENSE, Makefile, README.md, ROADMAP.md, SECURITY.md, THIRD_PARTY_NOTICES.md, bin, changelog.d, codecov.yml, config, contrib, docker-compose.prod.yml, docker-compose.yml, docker, docs, electron, eslint.complexity-ratchets.config.mjs, eslint.complexity.config.mjs, eslint.config.mjs, eslint.sonarjs.config.mjs, examples, flake.lock, flake.nix, fly.toml, images, knip.json, llm.txt, news.json, next.config.mjs, open-sse, package-lock.json, package.json, packages, playwright.config.ts, pnpm-workspace.yaml, pnpm.json, postcss.config.mjs, prettier.config.mjs, promptfooconfig.yaml, public, scripts, skills, socket.yml, sonar-project.properties, source.config.ts, src, stryker.conf.json, stryker.disablebail.json, task-c1-report.md, task-c2-report.md, task-c3-report.md, tests, tsconfig.json, tsconfig.typecheck-api.json, tsconfig.typecheck-core.json, tsconfig.typecheck-dashboard.json, tsconfig.typecheck-noimplicit-core.json, vitest.config.ts, vitest.e2e-live.config.ts, vitest.mcp.config.ts
+README matching evidence:
+10: <img src="./docs/diagrams/readme-hero.svg" width="100%" alt="OmniRoute — Never stop coding. Every AI tool → 356 providers — 150+ free — through one endpoint. Claude Code, Codex, Cursor, Cline, Copilot & Antigravity into FREE Claude / GPT / Gemini with auto-fallback. RTK + Caveman stacked compression saves 15–95% tokens (~89% avg) — never hit limits. 356 AI providers · 150+ free tiers · ~1.47B free tokens/mo · 19 routing strategies · $0 to start."/>
+16: ## 💰 ~1.47B Free Tokens / Month
+20: > Stacking free tiers by hand is painful — dozens of SDKs, dozens of rate limits, and no idea how much you actually have. OmniRoute catalogs **444 free-tier entries across 34 recurring pool keys** and computes the token headline from the **16 pools with a published positive monthly budget plus five per-model Groq caps**, deduplicated by shared pool. Quotas that only open after a regional identity check (today: ModelScope) are shown apart, +~6M behind regional identity verification, and never summed into the headline. The result stays visible on the dashboard (`/dashboard/free-tiers`).
+22: <img src="./docs/diagrams/free-tier-budget.svg" width="100%" alt="OmniRoute free-tier budget card: ~1.47B free tokens per month steady, up to ~2.10B in the first month with signup credits, from 34 documented recurring pool keys covering 444 cataloged free-tier entries behind one endpoint. Honest pool-deduped math — each shared pool counted once, including 16 recurring pools with a published positive monthly token budget plus five per-model Groq caps; 13 providers are marked avoid in the terms-risk catalog so you decide. Budget bar includes Mistral 1B, Nara 210M, LLM7 150M, Groq 30M (five per-model caps) and smaller pools, plus first-month signup credits and permanently-free no-token-cap providers surfaced separately so they never inflate the headline. Live used/remaining on /dashboard/free-tiers."/>
+24: > Animated summary of the live `/dashboard/free-tiers` page. Full methodology (pool dedupe, credit tiers, provider terms): **[docs/reference/FREE_TIERS.md](docs/reference/FREE_TIERS.md)**.
+26: > <sub>These figures are re-audited every two weeks against the live catalog and **move both ways** — a provider ends a free tier and the number drops; a new one lands and it climbs. We publish what the catalog actually computes, never a rounded-up best case.</sub>
+45: **👋 Follow the maintainer — get new providers, releases & tips first:**
+56: **Questions, provider tips, roadmap & support → [Discord](https://discord.gg/U47eFqAXCn) · [Telegram](https://t.me/omnirouteOficial) · WhatsApp [🌍 Global](https://chat.whatsapp.com/FvuCbrpZmQ6I85n2vW5QIC?s=cl&p=a&mlu=4) / [🇧🇷 Brasil](https://chat.whatsapp.com/KWgatljAjmbELQory59Oti?s=cl&p=a&mlu=4) / [Portal](https://portal.sthub.com.br/communities/groups/st-hub/channels/Omniroute-World-8kRjmK)**
+66: | 🌐 Providers              |   290   |          **352**          | more queued |
+68: | 🖼️ Modality Bridge        |    —    | 🆕 vision + audio + video |      —      |
+71: | 📊 Quota telemetry        |    —    |          🆕 live          |      —      |
+92: <td align="center"><a href="#-more-install-methods--docker-source-pnpm-arch">📦 Install</a></td>
+93: <td align="center"><a href="#-works-the-second-you-install-it--no-keys-no-config">🆓 Zero-config</a></td>
+104: <td align="center"><a href="#-352-ai-providers--154-catalog-marked-free">🌐 Providers</a></td>
+105: <td align="center"><a href="#-full-cli--a2a--mcp">🔌 CLI &amp; MCP</a></td>
+109: <td align="center"><a href="#%EF%B8%8F-save-1595-tokens--automatically">🗜️ Compression</a></td>
+111: <td align="center"><a href="#-private--local-first">🔒 Private</a></td>
+196: ## 🆓 Works the second you install it — no keys, no config
+200: <img src="./docs/diagrams/works-zero-config.svg" width="100%" alt="Works the second you install it — zero config. Three steps: 1. Install — npm i -g omniroute, server boots on localhost:20128. 2. Point your tool at http://localhost:20128/v1 — any OpenAI-compatible tool (Claude Code, Cursor, Cline). 3. It answers — call model auto for an instant reply, with no API key, no signup, no configuration. Keyless provider OpenCode Free is pre-wired into the auto combo, so a fresh install responds out of the box."/>
+203: # Fresh install, zero credentials — `auto` already works:
+204: curl http://localhost:20128/v1/chat/completions \
+221: <img src="./docs/diagrams/promise-pillars.svg" width="100%" alt="The Promise — One endpoint and 356 providers. Automatic fallback keeps routing while another healthy target is available. Six pillars: resilient fallback across 356 providers · up to 95% token savings on eligible workloads · $0 to start with 150+ free tiers and 52 recurring/keyless free-forever providers · 36 CLI/agent integrations through one config · OpenAI, Claude, Gemini and Responses API compatibility at /v1 · production controls including circuit breakers, TLS stealth, MCP 110 tools, A2A, memory, guardrails, evals and 39,000+ static test declarations across 5,100+ tracked test files."/>
+232: <img src="./docs/diagrams/why-pain-fix.svg" width="100%" alt="Why OmniRoute — stop juggling 10 dashboards, dead API keys and surprise bills. Ten daily pains vs fixes: quota expiring unused → maximize subscriptions; rate limits mid-coding → 4-tier auto-fallback (Subscription → API → Cheap → Free); tool outputs burning tokens → RTK + Caveman compression (15–95%); expensive APIs → cost-optimized routing; every tool its own setup → one endpoint, one dashboard; AI blocked → 3-level proxy + TLS stealth; dead keys → 3-layer resilience (circuit breakers, key cooldown, model lockout); team sharing one subscription → key pools with fair-share quotas; prompts through someone's cloud → local-first with AES-256-GCM encrypted keys; no spend visibility → live analytics (usage, quota, savings, p95 latency)."/>
+236: <img src="./docs/diagrams/tier-cascade.svg" width="100%" alt="OmniRoute request flow: your IDE or CLI (Claude Code, Cursor, Cline…) calls one local endpoint (http://localhost:20128/v1); the OmniRoute Smart Router (RTK + Caveman compression, 19 routing strategies, circuit breakers, TLS stealth, MCP, A2A, guardrails) can fall back across 4 provider tiers while an eligible healthy target remains — Tier 1 Subscription, Tier 2 API Key, Tier 3 Cheap and Tier 4 Free."/>
+250: <img src="public/sponsors/kimi-k3-banner.png" width="100%" alt="Kimi K3 — Open Frontier Intelligence · 2.8T parameters · 1M-token context"/>
+254: > **Want to join as an Open Source Friend?** These are the companies that back open source and help keep OmniRoute moving — and we say publicly where every token they give us goes. Reach out: [diegosouza.pw@outlook.com](mailto:diegosouza.pw@outlook.com)
+261: <source media="(prefers-color-scheme: dark)" srcset="public/providers/kimi-logomark-dark.svg">
+262: <img src="public/providers/kimi-logomark-light.svg" width="64" alt="Kimi (Moonshot AI)"/>
+269: Thanks to <b>Kimi (Moonshot AI)</b>, our founding Open Source Friend, for backing this project! Kimi is the AI lab behind the open-weight K2 and K3 model families — <b>Kimi K3</b> delivers a 1M-token context window, native vision and frontier-level coding at a fraction of closed-model prices, and works out of the box with Claude Code, Codex and every coding tool OmniRoute serves.
+271: <b>What Kimi's support powers:</b> Kimi's API credits power OmniRoute's AI-validated release pipeline — the <i>merge validation powered by Kimi K3</i> stage that reviews every pull request before it ships — plus day-to-day feature development. First-class Kimi support ships on both rails: the direct <a href="https://platform.kimi.ai?track_id=track-8197581fdd7d4139a0f562e4a03c3798&aff=omniroute">Kimi API</a> (<code>kimi-k3</code>) and the <a href="https://www.kimi.com/code?aff=omniroute">Kimi Code coding plan</a> (OAuth and API key). OmniRoute is also the first Brazilian open-source project in Kimi's support program. <a href="https://platform.kimi.ai?track_id=track-8197581fdd7d4139a0f562e4a03c3798&aff=omniroute"><b>Get a Kimi API key with 15% extra credits →</b></a>
+277: <img src="./public/providers/cli-generic.svg" width="64" alt="Cheaper Inference"/>
+283: Thanks to <b>Cheaper Inference</b>, an OmniRoute Open Source Friend, for backing this project! Cheaper Inference is a cost-ranked gateway that resells 42 frontier models — Claude, GPT-5.x, Gemini, Kimi K3, GLM, DeepSeek, Grok and MiniMax — behind one OpenAI-compatible endpoint, routing each request to the cheapest eligible provider without ever charging above the model maker's list price.
+285: <b>First-class support in OmniRoute:</b> Chat Completions, the native <code>/v1/responses</code> endpoint, vision, tool calling and 3 image models (<code>grok-imagine</code>, <code>nano-banana-pro</code>, <code>nano-banana-2</code>, reachable as <code>cheaperinference/&lt;model&gt;</code>). <a href="https://cheaperinference.com/?utm_source=omniroute"><b>Get an API key →</b></a>
+295: <summary><sub><b>🎟️ Affiliates Promo</b> — free signup coupons from providers we don't sponsor (click to expand)</sub></summary>
+297: <sub><i>This section is for referral/coupon codes only. Sponsored partnerships live in <b>🤝 Supported by our Open Source Friends</b> above. OmniRoute has no sponsorship or partnership with the providers listed here — these are public coupons anyone can use.</i></sub>
+303: <img src="./public/providers/cli-generic.svg" width="32" alt="AgentRouter"/>
+308: <sub><b><a href="https://agentrouter.org/register?aff=70LM">AgentRouter</a></b> — affiliate signup · <b>$100 free credits</b> on signup (free server, expect higher latency — best for testing, not production). First-class support in OmniRoute since <b>v3.8.50</b>: Chat Completions, the Anthropic-compatible wire format and the OpenAI-compatible path. Available models include <code>claude-opus-4-8</code>, <code>claude-opus-5</code>, <code>gpt-5.6-sol</code> and more. <b><a href="https://agentrouter.org/register?aff=70LM">Grab your $100 →</a></b></sub>
+310: <sub>⚠️ <i>Affiliate link — OmniRoute has no sponsorship or partnership with this provider.</i></sub>
+315: <sub>Know another provider with a generous free signup coupon that benefits OmniRoute users? Open an issue and we'll add it here.</sub>
+329: > A **combo** is a chain of models OmniRoute routes across **automatically**. If quota runs out, a provider fails, or costs spike, the combo can move to the next eligible healthy model. 🛡️
+333: No combo to create. Set your model to `auto` (or a variant) and OmniRoute builds a virtual combo from your connected providers, scored live:
+337: <tr><td align="left" nowrap><code>auto</code></td><td align="left">🎯 Balanced default (LKGP — sticks to your last good provider)</td></tr>
+340: <tr><td align="left" nowrap><code>auto/cheap</code></td><td align="left">💰 Cheapest per token first</td></tr>
+343: <tr><td align="left" nowrap><code>auto/lkgp</code></td><td align="left">📌 Explicit last-known-good-provider stickiness</td></tr>
+437: <td>Last-Known-Good Path — pins to the last successful provider, then falls back to rules</td>
+462: <img src="./docs/diagrams/resilience-layers.svg" width="100%" alt="OmniRoute resilience — 3 independent self-healing layers, the right layer for the right failure. Layer 1 provider circuit breaker (whole provider): trips only on 408/5xx, thresholds OAuth 8× / API-key 12× / local 2×, resets 60s/30s/15s into a HALF-OPEN probe, lazy recovery; while OPEN the combo reroutes to the next provider. Layer 2 connection cooldown (one key/account): base 5s OAuth / 3s API-key, exponential ×2 backoff with anti-thundering-herd guard, 429 honors Retry-After, success clears all error state; one cooling key is skipped while sibling keys keep serving. Layer 3 model lockout (one model): per-model 429, local 404 or mode denials lock just that model — never the whole connection. Terminal states (banned, expired, credits exhausted) are for the operator, not cooldowns."/>
+474: <img src="./docs/diagrams/comparison-table.svg" width="100%" alt="What sets OmniRoute apart — a dated feature snapshot vs 9router, OpenRouter, CLIProxyAPI and LiteLLM across 13 capabilities. OmniRoute: 356 providers, 150+ free tiers built in, 19 routing strategies, 12-engine token compression, built-in MCP server with 110 tools, A2A agent protocol, persistent memory, guardrails, cloud agents, TLS fingerprint stealth, Desktop/Termux/PWA and 42 i18n UI locales. OmniRoute is MIT-licensed and self-hostable. Competitor capabilities and counts may change; see the linked methodology."/>
+476: <sub>📊 Full methodology &amp; per-feature detail vs 9router, OpenRouter, CLIProxyAPI &amp; LiteLLM → [`docs/comparison/OMNIROUTE_VS_ALTERNATIVES.md`](docs/comparison/OMNIROUTE_VS_ALTERNATIVES.md)</sub>
+526: <p><strong>Developer notes:</strong> The project may generate a local <code>.env</code> file during npm install/postinstall for developer convenience. This file is intentionally ignored via <code>.gitignore</code> (see <code>.gitignore</code>) and must never be committed — if accidentally committed, rotate any exposed secrets and remove the file from history. See <a href="docs/DEVELOPER-ENVIRONMENT.md">docs/DEVELOPER-ENVIRONMENT.md</a> for guidance on managing local environment files and secrets.</p>
+530: The main free-tier headline remains **~1.47B tokens/month** from the documented,
+531: pool-deduplicated catalog above. Temporary provider signup credits can separately lift the first
+536: Supporters can receive the live catalog and additional provider opportunities. Its separate,
+537: mutable ceiling is **approximately 3B tokens/month at most**, depending on provider availability.
+538: That ceiling is not a guarantee: providers can change quotas, eligibility, models, or regions at
+541: Radar is opt-in and GET-only. The OmniRoute client does not upload prompts, traffic, provider
+542: configuration, usage telemetry, or local announcement-dismiss state. Learn about eligibility and
+557: - **🗂️ Canonical `/v1/models` ordering** — one contiguous provider-grouped block per provider (combos pinned first), stable across every catalog source. → [API Reference](docs/reference/API_REFERENCE.md)
+558: - **🗜️ Compression hardening** — default-on inflation guard, Caveman packs for DE / FR / JA + Chinese (wényán), RTK filters for Gradle & .NET. → [Compression](docs/compression/COMPRESSION_ENGINES.md)
+559: - **💸 Honest flat-rate cost** — subscription / coding-plan providers read **$0** in cost analytics; budget, quota & routing keep estimating. → [API Reference](docs/reference/API_REFERENCE.md)
+561: - **🤖 One-command CLI/agent setup** — 13 registered `setup-*` commands; `omniroute run` launches 7 CLIs (Claude Code, Codex, Aider, Goose, OpenCode, Qwen Code, Gemini CLI); `omniroute configure` supports 10 targets with an interactive provider+model picker and per-context favorites. → [CLI Integrations](docs/guides/CLI-INTEGRATIONS.md)
+562: - **🛰️ Remote mode** — drive a remote OmniRoute with scoped tokens (`connect` / `contexts` / `tokens`) + an `antigravity` OAuth helper for VPS installs. → [Remote Mode](docs/guides/REMOTE-MODE.md)
+565: - **🕵️ Transparent MITM decrypt (TPROXY)** — capture CLIs that ignore proxy env vars, with a per-SNI CA + trust-store installer. → [MITM/TPROXY](docs/security/MITM-TPROXY-DECRYPT.md)
+566: - **💸 Cost telemetry everywhere** — `X-OmniRoute-*` cost/usage headers on every endpoint, cache-HIT savings header, per-key USD spend quotas. → [API Reference](docs/reference/API_REFERENCE.md)
+568: - **🛡️ Security** — prompt-injection guard on every LLM route (red-team suite), opt-in credential-masking guardrail (redacts leaked API keys/secrets in both directions), free DuckDuckGo last-resort web search, and an optional OIDC login gate for the dashboard (password login always stays available). → [Guardrails](docs/security/GUARDRAILS.md)
+570: - **🎨 Image / video / audio generation** — one API for media: xAI Grok Imagine & Novita AI video, ComfyUI, Magnific, Adobe Firefly, Segmind, and speech providers such as ElevenLabs. → [API Reference](docs/reference/API_REFERENCE.md)
+571: - **🌍 Deployment & ops** — reverse-proxy `basePath`, browser-language auto-detect, per-key device tracking, root-less MITM trust, zh-TW localization. → [Environment](docs/reference/ENVIRONMENT.md)
+572: - **🤝 More providers & agents** — cloud agents (Codex Cloud, Cursor, Devin, Jules), Grok Build (xAI) with browser + OAuth login, Ollama first-class card, Claude Opus 5 & Sonnet 5, Kimi official partnership (Code/Web/Moonshot), Zed, Requesty, SenseNova, Yuanbao, Agnes AI… and a refreshed **352-provider catalog**. → [Providers](docs/reference/PROVIDER_REFERENCE.md)
+573: - **📡 Routing transparency** — every response carries an `X-OmniRoute-Decision` header naming the strategy/provider/latency that served it, a new `cache-optimized` combo strategy + Auto-Combo `cacheAffinity` factor route repeat requests back to the connection holding the cached prefix, and a read-only `/v1/auto-combo/{channel}/candidates` endpoint exposes an `auto/*` channel's live candidate pool. → [Auto-Combo](docs/routing/AUTO-COMBO.md)
+574: - **⚡ Local performance & infra** — one-click local Redis, Cloudflare Workers / Deno Deploy relay deployers, Bifrost & Mux as supervised embedded services. → [Embedded Services](docs/frameworks/EMBEDDED-SERVICES.md)
+575: - **🧩 Also in the box** — plugin framework + marketplace, Omni/Agent/GitHub skills frameworks, Obsidian vault integration (22 MCP tools), OpenAI-compatible Batch & Files APIs, semantic response cache, gamification with leaderboards, ACP agent discovery (15 built-in agents), scheduled log export to BigQuery, `auto/chaos` fault injection, a Telegram bot bridge, an in-app version manager and LMArena-ELO free-provider rankings. → [Docs](docs/README.md)
+583: > One config — `http://localhost:20128/v1` — and **every** AI IDE or CLI runs on free & low-cost models.
+588: <td align="center" width="76"><a href="https://github.com/anthropics/claude-code"><img src="./public/providers/claude.svg" width="40" alt="Claude Code"/><br/><sub><b>Claude Code</b></sub><br/><sub>                           </sub></a></td>
+589: <td align="center" width="76"><a href="https://github.com/openai/codex"><img src="./public/providers/codex.svg" width="40" alt="Codex CLI"/><br/><sub><b>Codex CLI</b></sub><br/><sub>                           </sub></a></td>
+591: <td align="center" width="76"><a href="https://github.com/Kilo-Org/kilocode"><img src="./public/providers/cli-generic.svg" width="40" alt="Kilo Code"/><br/><sub><b>Kilo Code</b></sub><br/><sub>                           </sub></a></td>
+592: <td align="center" width="76"><a href="https://github.com/Zoo-Code-Org/Zoo-Code"><img src="./public/providers/cli-generic.svg" width="40" alt="Zoo Code"/><br/><sub><b>Zoo Code</b></sub><br/><sub>                           </sub></a></td>
+593: <td align="center" width="76"><img src="./public/providers/continue.svg" width="40" alt="Continue"/><br/><sub><b>Continue</b></sub><br/><sub>                           </sub></td>
+596: <td align="center" width="76"><img src="./public/providers/cli-generic.svg" width="40" alt="Aider"/><br/><sub><b>Aider</b></sub><br/><sub>                           </sub></td>
+597: <td align="center" width="76"><img src="./public/providers/cli-generic.svg" width="40" alt="ForgeCode"/><br/><sub><b>ForgeCode</b></sub><br/><sub>                           </sub></td>
+598: <td align="center" width="76"><img src="./public/providers/cli-generic.svg" width="40" alt="jcode"/><br/><sub><b>jcode</b></sub><br/><sub>                           </sub></td>
+599: <td align="center" width="76"><img src="./public/providers/deepseek.svg" width="40" alt="DeepSeek TUI"/><br/><sub><b>DeepSeek TUI</b></sub><br/><sub>                           </sub></td>
+
+## DeusData/codebase-memory-mcp
+url: https://github.com/DeusData/codebase-memory-mcp
+description: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+created: 2026-02-24T22:01:00Z pushed: 2026-09-13T15:03:24Z updated: 2026-09-13T19:19:00Z archived: False stars: 43108 forks: 3507 issues: 580 default: main license: MIT
+root: .clang-format, .clang-tidy, .cppcheck, .gitattributes, .github, .gitignore, .gitleaksignore, CODE_OF_CONDUCT.md, CONTRIBUTING.md, DCO, Formula, LICENSE, MAINTAINERS.md, Makefile.cbm, README.md, SECURITY.md, THIRD_PARTY.md, docs, flake.lock, flake.nix, glama.json, graph-ui, install.ps1, install.sh, internal, pkg, scripts, server.json, src, test-infrastructure, tests, tools, vendored
+README matching evidence:
+1: # codebase-memory-mcp
+3: [![GitHub Release](https://img.shields.io/github/v/release/DeusData/codebase-memory-mcp?style=flat&color=blue)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)
+5: [![CI](https://img.shields.io/github/actions/workflow/status/DeusData/codebase-memory-mcp/dry-run.yml?label=CI)](https://github.com/DeusData/codebase-memory-mcp/actions/workflows/dry-run.yml)
+6: [![Tests](https://img.shields.io/badge/tests-6768_passing-brightgreen)](https://github.com/DeusData/codebase-memory-mcp)
+7: [![Languages](https://img.shields.io/badge/languages-162-orange)](https://github.com/DeusData/codebase-memory-mcp)
+9: [![Agents](https://img.shields.io/badge/agent_surfaces-45-purple)](https://github.com/DeusData/codebase-memory-mcp)
+10: [![Pure C](https://img.shields.io/badge/pure_C-no_language_runtime-blue)](https://github.com/DeusData/codebase-memory-mcp)
+11: [![Platform](https://img.shields.io/badge/macOS_%7C_Linux_%7C_Windows-supported-lightgrey)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)
+12: [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/DeusData/codebase-memory-mcp/badge)](https://scorecard.dev/viewer/?uri=github.com/DeusData/codebase-memory-mcp)
+13: [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
+14: [![VirusTotal](https://img.shields.io/badge/VirusTotal-scanned_every_release-brightgreen?logo=virustotal)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)
+17: **The fastest and most efficient code intelligence engine for AI coding agents.** Full-indexes an average repository in milliseconds, the Linux kernel (28M LOC, 75K files) in 3 minutes. Answers structural queries in under 1ms. Ships as a native executable with a small verified runtime-asset set for macOS, Linux, and Windows — download, run `install`, done.
+19: High-quality parsing through [tree-sitter](https://tree-sitter.github.io/tree-sitter/) AST analysis across all 162 languages, enhanced with [**Hybrid LSP** semantic type resolution](#hybrid-lsp) for Python, TypeScript / JavaScript / JSX / TSX, PHP, C#, Go, C, C++, Java, Kotlin, Rust, and Perl — producing a persistent knowledge graph of functions, classes, call chains, HTTP routes, and cross-service links. 15 MCP tools. No language runtime, hosted service, or API key. Plug and play across 45 supported automatic/conditional client surfaces.
+21: > **Research** — The design and benchmarks behind this project are described in the preprint [*Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP*](https://arxiv.org/abs/2603.27277) (arXiv:2603.27277). Evaluated across 31 real-world repositories: 83% answer quality, 10× fewer tokens, 2.1× fewer tool calls vs. file-by-file exploration.
+23: > **Security & Trust** — This tool reads your codebase and writes to your agent configuration files. That is what it is designed to do. If you prefer to audit before running, the [full source is here](https://github.com/DeusData/codebase-memory-mcp). For each release product, three behaviourally identical executable candidates (unstripped, debug-stripped, stripped) are submitted to VirusTotal before testing; the selected candidate is then packaged with its SHA-256 unchanged. Release notes link every measured candidate result. Publication permits only the narrowly documented single-Microsoft `!ml` tolerance in [SECURITY.md](SECURITY.md#our-release-policy). All processing happens 100% locally; your code never leaves your machine. Found a security issue? We want to know — see [SECURITY.md](SECURITY.md). Security is Priority #1 for us.
+26: <img src="docs/graph-ui-screenshot.png" alt="Graph visualization UI showing the codebase-memory-mcp knowledge graph" width="800">
+28: <em>Built-in 3D graph visualization — explore your knowledge graph at localhost:9749</em>
+31: ## Why codebase-memory-mcp
+33: - **Extreme indexing speed** — Linux kernel (28M LOC, 75K files) in 3 minutes. RAM-first pipeline: LZ4 compression, in-memory SQLite, fused Aho-Corasick pattern matching. Memory released after indexing.
+34: - **Plug and play** — native executable plus authenticated release-owned assets for macOS (arm64/amd64), Linux (arm64/amd64), and Windows (amd64). The native install needs no Docker, language runtime, or API keys. Download → `install` → restart agent → done.
+35: - **162 languages** — vendored tree-sitter grammars compiled into the binary. Nothing to install, nothing that breaks.
+36: - **120x fewer tokens** — 5 structural queries: ~3,400 tokens vs ~412,000 via file-by-file search. One graph query replaces dozens of grep/read cycles.
+37: - **45 supported automatic/conditional client surfaces** — `install` configures detected clients and safely activates conditional clients only when their documented platform, marker, or explicit existing config path is present. See [Multi-Agent Support](#multi-agent-support) for the complete matrix and manual/UI-only boundaries.
+38: - **Built-in graph visualization** — 3D interactive UI at `localhost:9749`, served from the binary itself.
+39: - **Infrastructure-as-code indexing** — Dockerfiles, Kubernetes manifests, and Kustomize overlays indexed as graph nodes with cross-references. `Resource` nodes for K8s kinds, `Module` nodes for Kustomize overlays with `IMPORTS` edges to referenced resources.
+40: - **15 MCP tools** — search, trace, architecture, impact analysis, targeted index-coverage checks, Cypher queries, dead code detection, cross-service HTTP linking, ADR management, and more.
+44: **One-line install** (macOS / Linux):
+46: curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash
+51: curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash
+56: # 1. Download the installer
+57: Invoke-WebRequest -Uri https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.ps1 -OutFile install.ps1
+60: notepad install.ps1
+63: Unblock-File .\install.ps1
+66: .\install.ps1
+70: > **Note:** If you see a script execution policy error, run `Set-ExecutionPolicy -Scope Process Bypass` first, or invoke with `PowerShell -ExecutionPolicy Bypass -File .\install.ps1`.
+78: > [Antivirus False Positives](SECURITY.md#antivirus-false-positives) for the
+82: Restart your coding agent. Say **"Index this project"** — done.
+85: <summary>Manual install</summary>
+87: 1. **Download** the archive for your platform from the [latest release](https://github.com/DeusData/codebase-memory-mcp/releases/latest):
+88: - `codebase-memory-mcp-<os>-<arch>.tar.gz` (macOS/Linux) or `.zip` (Windows)
+90: 2. **Extract and install** (each archive includes `install.sh` or `install.ps1`):
+94: tar xzf codebase-memory-mcp-*.tar.gz
+95: ./install.sh
+100: Expand-Archive codebase-memory-mcp-windows-amd64.zip -DestinationPath .
+101: Unblock-File .\install.ps1
+102: .\install.ps1
+107: The `install` command automatically strips macOS quarantine attributes and ad-hoc signs the binary — no manual `xattr`/`codesign` needed.
+110: The `install` command auto-detects installed coding agents and configures their documented MCP entries plus durable instructions, skills, and lifecycle hooks where supported.
+114: CBM automatically shares one per-account coordination daemon across Claude Code, Codex, OpenCode, and every other configured client. There is no opt-in setting for MCP servers or hook clients: the first daemon-backed CBM session starts it, each session registers its own work, and the final session shuts it down. The daemon owns long-lived background services such as watchers, shared indexing jobs, and the optional UI. Closing one session cancels work owned only by that session, while work still needed by another session continues.
+116: The detached daemon does not depend on an MCP frontend's stderr. It keeps owner-only durable records under the canonical `${CBM_CACHE_DIR}/logs` directory (default `~/.cache/codebase-memory-mcp/logs`):
+120: | `cbm-daemon.log` | Daemon lifecycle, watcher/indexing, UI, resource, and error events. |
+122: | `activation-events.ndjson` | Install/update/uninstall activation progress and outcomes. |
+124: Thin frontends still write immediate startup and session-specific errors to their own stderr; MCP JSON-RPC stdout remains clean.
+126: All active CBM processes must run the exact same version, executable build, coordination ABI, and canonical cache root. Equivalent `CBM_CACHE_DIR` aliases resolve to the same root; a genuinely different root is rejected while any CBM process is active. MCP servers, hooks, one-shot CLI commands, temporary index workers, and the daemon share a crash-safe OS admission barrier; starting an ordinary conflicting process fails before doing work and records an explicit conflict in `${CBM_CACHE_DIR}/logs/daemon-conflicts.ndjson`.
+128: The native `install`, `update`, and `uninstall` commands are the deliberate exception to that conflict rule. Download, verification, and private same-filesystem staging happen first so a bad candidate never disrupts active work. Activation then publishes account-wide maintenance intent, asks the daemon and every temporary local operation to cancel, and waits to a finite deadline for all coordinated CBM processes to exit. It holds the admission and lifetime barriers exclusively while changing the active binary, configuration, PATH, or indexes. New CBM work cannot enter during this window. Activation progress and results are recorded in `${CBM_CACHE_DIR}/logs/activation-events.ndjson`, and a successful command tells you to restart open coding-agent sessions so they launch the activated build.
+130: Package-manager setup (npm, PyPI, or Go) verifies and publishes a coherent private cached runtime set. Sidecars are replaced before the executable with per-file atomic renames; an interrupted multi-file publication is detected and repaired on the next launch rather than being described as one crash-atomic filesystem transaction. It does not replace the active native installation and therefore does not stop running CBM sessions. When that cached binary is executed, it still enters the same exact-build admission barrier. The shell and PowerShell installers invoke the verified candidate's native `install` command, so they do receive the full account-wide activation guarantee.
+132: The ordinary `cli` mode is intentionally separate: it runs one command locally and never starts or connects to the coordination daemon, registers a daemon session, or starts watchers/UI. Its only shared state is the OS admission barrier plus per-project locks for graph mutations. While the command is running, a temporary monitor lets activation cancel that operation and its supervised worker safely; the monitor exits with the command and never becomes a standing daemon. See [CLI Mode](#cli-mode) for details.
+136: The graph UI is built into the binary — every install on every channel has it. Then run it:
+139: codebase-memory-mcp --ui=true --port=9749
+142: Open `http://localhost:9749` in your browser. The UI is owned by the shared coordination daemon, so concurrent agent sessions do not start duplicate HTTP servers.
+144: ### Auto-Index
+146: Enable automatic indexing on MCP session start:
+149: codebase-memory-mcp config set auto_index true
+152: When enabled, new projects are indexed automatically on first connection. Previously-indexed projects are registered with the background watcher for ongoing git-based change detection. Configurable file limit: `config set auto_index_limit 50000`.
+154: Watcher registration is controlled separately by `auto_watch` (default `true`). Set `config set auto_watch false` to keep a session from registering its project with the background watcher — useful when working across many projects and you want each session contained to explicit indexing.
+156: To turn the watcher off entirely, set `config set watcher_enabled false` (default `true`): the background poll thread never starts and no project is registered, while `auto_index` and manual `index_repository` keep working. Unlike `auto_watch` — which is consulted per session — `watcher_enabled` is read once when the background daemon starts, so run `codebase-memory-mcp daemon stop` after changing it; reconnecting your MCP client alone will not restart the daemon. See [docs/CONFIGURATION.md](docs/CONFIGURATION.md#2-cli-managed-runtime-settings).
+160: **Updates run from the install script on every platform, not from inside the running binary.** `codebase-memory-mcp update` validates your flags and then prints the exact command to run:
+164: bash "<install-dir>/install.sh"
+169: powershell -ExecutionPolicy Bypass -File "<install-dir>\install.ps1"
+172: The install script is placed next to the binary at install time, so the printed path resolves beside the executable. It is idempotent, so re-running it *is* the update: it stops the daemon, retires the running binary, installs the new one, and cleans up.
+174: Why it works this way. On Windows it is a hard requirement — a running executable cannot replace its own image, so the swap has to happen from a process that is not the binary being replaced. On macOS and Linux it is a deliberate choice: an in-process updater is structurally a downloader (fetch an archive, verify it, unpack it, mark a file executable, run it), and shipping that composite in every binary to serve a command most people run a handful of times is a poor trade. The release archives now carry no download URLs at all, and **cbm makes no network request of its own accord** — it does not check for new versions in the background, and nothing phones home. You find out about releases from the install script, your package manager, or GitHub.
+178: Installed through **npm or pip**? Update with your package manager on every platform (`npm install -g codebase-memory-mcp@latest` / `pip install -U codebase-memory-mcp`).
+180: ### Uninstall
+183: codebase-memory-mcp uninstall
+186: Removes owned agent config entries, skills, hooks, instructions, and the installed binary. Existing graph indexes are listed and deleted only after confirmation.
+188: The install script placed beside the binary is **reported, not deleted** — uninstall prints its path and the `rm` command for it. It is left alone on purpose: it may be your own copy, a symlink into a checkout, or managed by a package manager, and an uninstaller should not delete a file it cannot prove it owns.
+202: - **Semantic search** (`semantic_query`): vector search across the entire graph, powered by bundled Nomic `nomic-embed-code` embeddings (40K tokens, 768d int8) compiled into the binary — no API key, no Ollama, no Docker. 11-signal combined scoring (TF-IDF, RRI, API/Type/Decorator signatures, AST profiles, data flow, Halstead-lite, MinHash, module proximity, graph diffusion).
+203: - **BM25 full-text search** via SQLite FTS5 with `cbm_camel_split` tokenizer (camelCase / snake_case aware)
+205: - **Code search** (`search_code`): graph-augmented grep over indexed files only
+213: - **`CROSS_*` edges** link nodes across multiple repos indexed under the same store

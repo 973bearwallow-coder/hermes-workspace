@@ -1,0 +1,386 @@
+0:00 You're about to get tools that will let
+0:01 you and your agent build more for less
+0:04 with these repos. In fact, one of them
+0:05 is going to let you build for free.
+0:07 Let's get into it. [music] Presented by
+0:09 Zapier, the AI automation company. Okay,
+0:12 the first one is free LLM API. I'm
+0:14 actually going to be interviewing the
+0:15 founder Tosh about this because what he
+0:17 did was he created a way to take all
+0:19 those free tiers at multiple providers
+0:22 and make them accessible. And when you
+0:24 run out of access on one free tier, he
+0:26 automatically will switch you to the
+0:27 next and the next and the next. And I
+0:29 asked him if uh these providers are
+0:31 angry at him. He said, "Actually,
+0:33 they're pitching me on being included
+0:34 because they want this to be the entry
+0:36 point for users to come and experiment
+0:39 with them and try them out." So, super
+0:41 easy. I think this one is just a clear
+0:44 easy one for saving tokens. What do you
+0:46 think?
+0:47 >> [snorts]
+0:48 >> I think it's it's awesome that you can
+0:49 kind of if you stack enough of the free
+0:51 tiers, you're not paying anything and it
+0:53 gives you a chance to kind of play
+0:55 around with you know, maybe there's you
+0:57 know, some projects or something that
+0:58 you want to try or do that you don't
+0:59 want to eat your tokens up and you can
+1:01 just get it on play and go.
+1:04 >> Yeah, and he's got a Mac app and Android
+1:06 app, Windows, super easy to use and
+1:09 we'll have a link to that and everything
+1:10 else below. Let's go on to the next one.
+1:12 Magic Compact.
+1:15 You've used this. Tell me about it.
+1:18 >> Yeah, so this one is a a lossless uh
+1:21 context compressor. So, what it does is
+1:23 it swaps the big tool output for kind of
+1:26 like a one-line note and then it goes uh
+1:29 directly to your disk. So, you know, the
+1:31 concept is is context is expensive, disk
+1:34 is cheap. So, move it, don't delete it
+1:36 is I think was their tagline on there.
+1:38 So, I tested it about eight times and
+1:40 eight times it came back identical. So,
+1:43 you um basically, you're not compressing
+1:45 anything. You're really just moving it
+1:47 off disk. It's it's it's it's looking at
+1:50 the cache there. It's looking at the
+1:52 information there and bringing it back
+1:53 in and going back and forth.
+1:55 >> And you know what? It has very few
+1:57 stars. So, nice finding you found Uh uh
+1:59 147 stars. And, what do you think about
+2:01 this? That the developer paused
+2:02 development on this to switch over to
+2:05 operator memory. Were you still able to
+2:07 get value out of it?
+2:10 >> Uh yeah, I think I think as he worked
+2:12 this project, he realized that he could
+2:15 tweak a few things. So, I think he
+2:17 pushed it to the direction of the
+2:18 operator memory. This one still works.
+2:21 It's just he's not, you know, putting
+2:22 any updates to it. He's not He's not
+2:24 putting anything thing into it. But, I I
+2:26 think he just stumbled upon other ideas
+2:29 and architecture to work with. So, I
+2:30 think he went that route.
+2:32 >> All right. Next, Headroom. Super
+2:35 popular. I've seen a lot of YouTube
+2:36 videos on this. What is Headroom and
+2:38 what did you find when you used it?
+2:41 >> So, for Headroom, that's uh pretty much
+2:43 the compression layer for the coding
+2:45 agents. It's how they have it tagged. It
+2:47 So, it sits between your agent and the
+2:48 API. And, what it does is it squeezes uh
+2:51 the tool output all the way through. So,
+2:54 if um So, the concept is is your prompt
+2:57 is small, what comes back from the tool
+2:59 isn't. So, it basically it shortens what
+3:01 you read, not what you write. So, what
+3:04 uh it's
+3:05 Basically, if you look at the
+3:06 compression algorithm there, it
+3:08 compressed my file to like 37%
+3:12 going back and forth to take kind of
+3:14 that context uh window down.
+3:18 >> I see. I'm writing something to the
+3:20 agent. The agent spits out a lot of text
+3:22 and a lot of information. It compresses
+3:24 just what it sends back to me to make it
+3:27 less so when it looks at it again. Do I
+3:29 have that right?
+3:30 >> Yes.
+3:30 >> Okay. And, it works. You got good
+3:31 results with it.
+3:33 >> I had great results from it. I had no
+3:35 complaints. I mean, it I feel like it it
+3:37 at times it even performed a little bit
+3:40 better than what they claimed like in
+3:42 the read me or any other information
+3:43 that they had. So, yeah. It worked
+3:45 really really flawless.
+3:47 >> It's incredibly popular. Incredibly
+3:49 popular. All right. Let's go on to Oh,
+3:51 Zapier. Listen, you all, if you're
+3:52 building anything, you should know that
+3:54 Zapier SDK will allow you to bring over
+3:57 8,000 tools that your users already want
+4:01 access to and connect it into the apps
+4:03 that you're building. If you want to try
+4:04 it out right now, go to zapier.com/sdk.
+4:08 Get your users the apps they need in the
+4:11 software you write. Next.
+4:13 I can't believe you used this one. PX
+4:16 Pipe. This is the one. I kind of like it
+4:19 cuz it's just adds some lightheartedness
+4:20 to this conversation. This is the one
+4:23 that went super
+4:24 >> try it just cuz I wanted to see if it
+4:25 would even work. Cuz I just couldn't
+4:28 believe it worked. So, this one is
+4:29 supposed to take your context, put it
+4:31 into pictures, send it off, render it,
+4:34 go back and forth. And so, instead of
+4:36 using that context window back and
+4:38 forth, it's like, I'm going to use this
+4:40 picture and read this picture.
+4:41 >> Yeah, like if I look at this, this is a
+4:43 picture that takes the big prompt. Okay,
+4:46 all right. So, this is This one really
+4:48 viral on X a while back, and you can see
+4:50 how many stars it got from that. People
+4:52 were talking about it. Did it actually
+4:54 work?
+4:56 >> It worked. Uh and the accuracy was not
+5:00 quite there.
+5:02 one of the biggest problems I saw right
+5:04 off the bat is if you're not using the
+5:06 you know, the most up-to-date model,
+5:08 some of the older models, if you're
+5:09 trying to work, maybe you're, you know,
+5:11 trying to use like your local models
+5:13 instead, some of those just are not
+5:15 great at reading those images, and they
+5:17 get a lot of that information wrong,
+5:19 which then could cause possible
+5:20 hallucination or get the information
+5:22 wrong. So, it was more of a project just
+5:25 to see if I could get it to work.
+5:26 >> That was fun. I'm glad that you tried
+5:28 it. It does actually have a lot of
+5:30 action over 7,000 stars on GitHub. Let's
+5:32 go on to the next.
+5:34 Lean CTX. Change one import line and cut
+5:38 the token bill. How does this work, and
+5:40 what did you find when you used it?
+5:41 >> It's a a prompt compressor, so it just
+5:43 starts swapping text lines, you know,
+5:45 drops all the low-value words out of
+5:48 there.
+5:49 Um you know, a lot of those fillers. I
+5:51 think there's like uh caveman ADHD. I
+5:54 think those are kind of on the along the
+5:56 same lines where they're just stripping
+5:58 out some of the stuff that's not useful
+6:00 that the the LLM does not need to see or
+6:02 hear to to get from point A to point B.
+6:05 So, it works pretty good. I mean, the it
+6:09 the claim held. It uh it says that they
+6:11 it'll do anywhere from 40 to 60 uh
+6:14 tokens per saving, and mine did 52. So,
+6:17 I mean, it it was on par. It's just I
+6:21 guess it would be dependent upon what
+6:22 you're working on. I the value of of
+6:25 actually, you know, pulling out some of
+6:26 that information or the fear of maybe it
+6:28 pulling out something it shouldn't cuz
+6:30 you don't really get to see, you know,
+6:32 the exact
+6:34 words or the the the yeah, the words or
+6:36 the what they're swapping out.
+6:38 >> Okay. It doesn't look like you're super
+6:39 high on this one, but it did it did
+6:41 deliver what it promised.
+6:43 >> It did deliver what it promised.
+6:45 >> All right. Next,
+6:47 token optimizer MCP. Explain to me what
+6:50 this does and why you actually
+6:53 didn't want to install it.
+6:55 >> So, this one is an MCP server, so that's
+6:57 a little bit different than just the um
+7:02 just downloading the repos. So, with
+7:03 this MCP server, it's supposed to block
+7:06 the expensive calls, and then it's
+7:07 supposed to help remember what the agent
+7:09 worked out. So, it's almost like uh it's
+7:11 basically almost like creating its own
+7:13 memory is what the MCP server's doing.
+7:15 So, um you know, if when it reaches for
+7:18 a file it's already read, it'll refuse
+7:20 and go, "Nope, you've already got that."
+7:22 And and it just tries to say to point it
+7:24 in the right direction to say, "Hey,
+7:25 this this is what we already did. Don't
+7:27 keep keep asking for it. Don't keep
+7:29 looking for it. You literally have it
+7:30 right here." So, it's
+7:33 it's
+7:34 it works. It's just one of those where
+7:37 you have to decide if you want to go the
+7:40 whole MCP route.
+7:42 >> And you also had like a big no-no or a
+7:44 big watch out
+7:46 a a cautionary note on this. What's
+7:47 that?
+7:48 >> Yeah, unfortunately this one when you
+7:50 install the MCP, it actually turns off
+7:53 your cloud codes trust prompt when you
+7:55 install it and you know, that's usually
+7:58 a big no-no in your production you know
+8:00 side you
+8:01 you need to know what you're doing. If
+8:03 you're going to turn that off and you
+8:04 need to know the consequences of that.
+8:07 >> All right. And by the way, we're going
+8:08 to have a link to Matt if you want to
+8:09 connect with him and find out more about
+8:10 him right below in the description.
+8:12 Let's go on to context mode. Keep raw
+8:14 tool output out of the window entirely.
+8:16 How does this work and what do you think
+8:17 of it?
+8:21 >> So this one here this one that keeps
+8:23 that tool output out of your context. So
+8:24 the output goes into a local index
+8:27 um outside of the window. So basically a
+8:30 I guess you could say in in layman's
+8:32 term a database. So the output goes into
+8:34 that local index or database instead of
+8:36 the window and then anytime you do the
+8:39 call the model will then query and go
+8:41 back and forth to that. So that way it
+8:43 doesn't have to read the whole file to
+8:45 answer your question. It can go straight
+8:47 to that index or that database that it's
+8:49 looking at.
+8:51 >> What do you think of it?
+8:53 >> Um I'm trying to remember about this
+8:55 one. I want to say
+8:58 this one did good. I'm I'm trying to I'm
+9:01 trying to remember that. The only one I
+9:02 ran
+9:05 I want to say this one hit the number
+9:06 cuz they claim that you can get like 98
+9:09 >> Mhm.
+9:10 >> 98 and I think I got 98 on that one.
+9:13 >> Yeah, here the readme claims 98%
+9:15 reduction and you you look at this. In
+9:17 fact, as soon as you click in they're
+9:18 basically big with
+9:19 >> Yeah, and I want I want to say I got
+9:21 like 95%.
+9:22 So you're even mid 90s is really good.
+9:25 >> Okay.
+9:27 All right.
+9:28 Next ponytail. This one is incredibly
+9:30 popular with developers. Um
+9:33 think of this I like this line. Think of
+9:34 this as is senior developer sitting
+9:36 inside your agent. You ask for a date
+9:38 picker and where a junior developer
+9:40 might give you the library and wrap uh
+9:44 it what might start installing library
+9:45 and wrapping it, it reaches for the one
+9:47 browsers already have. It basically is
+9:48 looking for the easy answer instead of
+9:50 like the more complicated one that's
+9:52 over eager. I think of this is like a
+9:54 way I need to live my life like
+9:56 ponytail. What do you think of ponytail?
+9:59 >> This one is nice. It basically it makes
+10:00 your agent just write less code in
+10:02 general, which is I mean ideal. So, it
+10:05 basically pushes it to use what already
+10:07 exists instead of installing it or going
+10:10 out and looking for it.
+10:13 Um and I want to say this one had like
+10:15 the the the the cheapest amount of
+10:17 tokens to use no matter what you write.
+10:20 When you use the ponytail, it does seem
+10:22 to stay, you know, on par with exactly
+10:24 what it's claiming it does.
+10:27 >> Okay.
+10:28 Um and we'll have this I know I've been
+10:30 flipping through these pages pretty
+10:31 quickly. We'll have a link to this
+10:32 website that I that I've been going
+10:34 through in the description.
+10:37 Graphify maybe the most popular tool for
+10:41 something like this. How would you
+10:42 explain uh Graphify?
+10:45 >> So, this one is kind of like one of the
+10:46 other ones. It's basically it's a a
+10:48 knowledge graph for your code base. So,
+10:50 basically it parses all your information
+10:53 into a graph map and then the agent asks
+10:56 the map instead of opening files or
+10:59 calling to it. So, it's kind of it
+11:00 queries your code base into the the the
+11:02 graph map versus just straight context
+11:05 text is what it does. Um it's pretty
+11:09 neat. It basically it builds that map
+11:10 though and it costs you zero tokens. It
+11:13 doesn't require any models when it when
+11:15 it builds out that map. So,
+11:17 you can really try it out without using
+11:20 anything just to see if you can actually
+11:23 get the savings from it or if you like
+11:24 the way the speed that it communicates
+11:26 back and forth.
+11:29 >> And uh over 100,000 stars keeps showing
+11:31 up. It is actually from a Y Combinator
+11:34 startup from a recent batch. So, I
+11:37 actually don't think this is a warning.
+11:39 I think this is exciting that they're
+11:41 getting into this. Y Combinator now is
+11:43 noticing and and participating. By the
+11:45 way, if you all like this, I'd love it
+11:47 if you leave a like and subscribe. Or if
+11:49 you don't, comment. One thing that I'm
+11:51 looking for is what other collections do
+11:53 you want us to find? And if you tell me
+11:55 in the comments, you'll see I'll engage
+11:56 and we'll see if we can find another
+11:58 collection like this. This was a request
+12:00 from from viewers from a past show.
+12:03 Finally, OmniRoute. One endpoint,
+12:05 hundreds of providers, free tier. First,
+12:09 here's essentially what this is. You and
+12:10 I went through this and spent a lot of
+12:12 time on it. This is very similar to the
+12:13 first one in the sense that you can get
+12:15 a bunch of free providers in here and it
+12:17 will route the requests to the free
+12:19 providers. But unlike the first one,
+12:21 this will also have um your paid
+12:26 providers in this and it will route them
+12:28 based on what you tell it to. And if you
+12:30 run out of uh usage on Anthropic's
+12:32 models, you can go to um to Open AI's
+12:35 and so on.
+12:37 Right? And and that's even just the
+12:38 beginning of what it does to help save
+12:40 tokens.
+12:44 What do you think, Matt?
+12:46 >> So, this one kind of threw me off. And
+12:47 I'd say we talked about a little bit
+12:48 because I was confused. It does like you
+12:50 said, it does a few things. One, it's
+12:52 doing some compression. It's using the
+12:54 RTK engine. So, that alone is is is a
+12:58 great tool to have that is doing some
+13:00 sort of compression with your context
+13:01 window. But then, it goes to like you
+13:03 said, it's a it's a gateway where you
+13:05 can go to all these different providers.
+13:07 So, you're now using other tokens
+13:09 besides your paid ones.
+13:12 >> All right. Yeah, it's it's the one that
+13:14 does the most of everything that we've
+13:16 had here, which is why we saved it for
+13:17 the end. And if you like this
+13:20 collection, you should know that every
+13:21 week I do a roundup of the top GitHub
+13:24 repos, the ones that are trending. And
+13:26 I've got the most recent one for you
+13:28 right here to click to and I'll see you
+13:30 in that one next.

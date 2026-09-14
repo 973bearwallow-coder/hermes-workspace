@@ -1,0 +1,26 @@
+{
+  "executables": {
+    "rtk": null,
+    "headroom": null,
+    "magic-compact": null,
+    "magiccompact": null,
+    "px": null,
+    "pxpipe": null,
+    "px-pipe": null,
+    "lean-ctx": null,
+    "leanctx": null,
+    "context-mode": null,
+    "ponytail": null,
+    "graphify": null,
+    "omniroute": "/home/tom/.npm-global/bin/omniroute",
+    "free-llm-api": null,
+    "codebase-memory-mcp": null
+  },
+  "python_modules": {
+    "headroom": false,
+    "leanctx": false,
+    "graphify": false
+  },
+  "omniroute_realpath": "/home/tom/.npm-global/lib/node_modules/omniroute/bin/omniroute.mjs",
+  "omniroute_package": "3.8.46"
+}

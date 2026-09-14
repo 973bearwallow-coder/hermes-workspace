@@ -1,0 +1,83 @@
+## install-hooks.sh
+12: SKIP_MCP_CHECK=false
+22:         --skip-mcp-check)
+23:             SKIP_MCP_CHECK=true
+35:             echo "  --skip-mcp-check  Skip MCP server installation check"
+50: CLAUDE_SETTINGS="$HOME/.claude/settings.json"
+124:     if [[ "$SKIP_MCP_CHECK" == "false" ]]; then
+223: configure_workspace_trust() {
+224:     write_status "Configuring workspace trust..." "INFO"
+229:         write_status "No .claude.json found - trust will be prompted on first run" "WARN"
+239:         local updated=$(jq ".projects[\"$current_dir\"].hasTrustDialogAccepted = true" "$CLAUDE_STATE")
+242:         write_status "jq not found - workspace trust must be accepted manually on first run" "WARN"
+247:         write_status "[DRY RUN] Would accept workspace trust for: $current_dir" "INFO"
+251:     write_status "✓ Accepted workspace trust for: $current_dir" "SUCCESS"
+316:         cline_config="$HOME/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/cline_mcp_settings.json"
+318:         cline_config="$HOME/.config/Code/User/globalStorage/saoudrizwan.claude-dev/cline_mcp_settings.json"
+352:     # failed verification skipped the install manifest. Same bug, same cause, as
+371:     # Check settings.json has hooks
+374:             issues+=("Hooks not configured in settings.json")
+377:         issues+=("Settings.json not found")
+404:         cline_config="$HOME/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/cline_mcp_settings.json"
+406:         cline_config="$HOME/.config/Code/User/globalStorage/saoudrizwan.claude-dev/cline_mcp_settings.json"
+483: # Step 4: Configure workspace trust
+484: configure_workspace_trust
+## install-hooks.ps1
+6:     [switch]$SkipMCPCheck,    # Skip MCP server installation check
+17: $CLAUDE_SETTINGS = "$env:USERPROFILE\.claude\settings.json"
+69:     if (-not $SkipMCPCheck) {
+158: function Configure-WorkspaceTrust {
+159:     Write-Status "Configuring workspace trust..." "INFO"
+164:         Write-Status "No .claude.json found - trust will be prompted on first run" "WARN"
+180:     # Add/update current directory trust
+185:     $state.projects.$currentDir | Add-Member -NotePropertyName "hasTrustDialogAccepted" -NotePropertyValue $true -Force
+188:         Write-Status "[DRY RUN] Would accept workspace trust for: $currentDir" "INFO"
+195:     Write-Status " Accepted workspace trust for: $currentDir" "SUCCESS"
+260:         $clineConfig = "$vscodeConfigDir\cline_mcp_settings.json"
+351:     # a failed verification skipped record-install.mjs. That is why the doctor
+374:     # Check settings.json has hooks
+378:             $issues += "Hooks not configured in settings.json"
+381:         $issues += "Settings.json not found"
+409:     $clineConfig = "$env:APPDATA\Code\User\globalStorage\saoudrizwan.claude-dev\cline_mcp_settings.json"
+489:     # Step 4: Configure workspace trust
+490:     Configure-WorkspaceTrust
+507:         # machine, and files were written before verification ran. Skipping it on
+## .claude-plugin/plugin.json ERROR <HTTPError 404: 'Not Found'>
+## plugin/hooks/hooks.json
+## hooks/hooks.json
+## README.md
+579: measured, reversible fix** — a skip rule, a composite touch — plus a ~50-token
+604: ## Trust: we ship hooks that refuse your tool calls
+610: trusting us. `CHECKSUMS.sha256` ships alongside for offline checking.
+635: **Every refusal carries its own off switch.** Enforcement that hides its disable
+640: (Not what you wanted? TOKEN_OPTIMIZER_MODE=off disables enforcement.)
+646: `settings.json` — we merge into it.
+708: | `test`           | 2,437  | Enforcement, staleness, injection, consolidation, disclosure, cache, routing, trust — driving the real hooks over stdin |
+760: `off` to disable the hooks entirely.
+800: Review and trust the bundled hooks with `/hooks`, then start a new conversation. If you prefer an MCP-only installation, use:
+829: The Codex hook injects guidance at `SessionStart`. Under `TOKEN_OPTIMIZER_MODE=enforce` it blocks expensive native operations when the bundled MCP has an exact replacement, including a single unambiguous code-mode shell call such as `cat` or `Get-Content`; multi-operation orchestration remains advisory so unrelated work is not discarded, and a second attempt at the same target passes through if the MCP is unavailable. The default is `assist`, which keeps retrieval and capture but never vetoes; `TOKEN_OPTIMIZER_MODE=advise` adds the routing advisory without vetoes, and `off` disables the hooks. The `AGENTS.md`/skill guidance remains important.
+846: See the current [Codex hooks documentation](https://learn.chatgpt.com/docs/hooks.md) for hook trust, matching, and tool-coverage details.
+914: TOKEN_OPTIMIZER_MODE=off      # disable the hooks entirely
+945: Interactive global installs run the hook installer; CI and local dependency installs skip it. If automatic setup is skipped, use `install-hooks.ps1` on Windows or `install-hooks.sh` on macOS/Linux. See the [Claude Code MCP guide](https://code.claude.com/docs/en/mcp) and this project's [hook installation guide](./docs/HOOKS-INSTALLATION.md).
+1228: That verifies without trusting us. A `CHECKSUMS.sha256` is attached to each
+1230: for mirrors, but weaker: it shares a trust root with the thing it hashes.
+1263: you to remove — we do not rewrite your `settings.json`.
+1464: - **smart_user** - User and permission management across platforms (86% reduction)
+1531: The default is `assist`: routing, retrieval, capture and harvest are on and nothing is ever refused. That is the posture two independent harnesses measured as our best -- on THOL, assist scored 0.971 in 14.4 turns against control's 0.969 in 16.2, while enforce scored 0.960 in 20.3 turns and cost 1.471x control per task (median across 17 tasks; cheaper on only 2 of them). Set `TOKEN_OPTIMIZER_MODE=enforce` for the refusals described above, which use a 25,600-byte threshold; override it with `TOKEN_OPTIMIZER_LARGE_READ_BYTES`, use `TOKEN_OPTIMIZER_MODE=advise` for the routing advisory without vetoes, or `TOKEN_OPTIMIZER_MODE=off` to disable the lifecycle integration. Partial reads always pass through because they may already be more efficient than a full cached read, and under `enforce` one repeated attempt is allowed so a failed MCP server cannot permanently block work.
+1778:   - Set to `true` to disable batched log writes
+1784:   - Set to `false` to disable DEBUG-level logging
+1874: - If the MCP call fails, the update is skipped gracefully without blocking operations
+1942: **Cause**: UTF-8 BOM (Byte Order Mark) was added to settings.json files
+1953: # Windows: Remove BOM from settings.json
+1954: $content = Get-Content "~/.claude/settings.json" -Raw
+1956: $content | Set-Content "~/.claude/settings.json" -Encoding utf8NoBOM
+1960: # Linux: Remove BOM from settings.json
+1961: sed -i '1s/^\xEF\xBB\xBF//' ~/.claude/settings.json
+1963: # macOS: Remove BOM from settings.json (BSD sed requires empty string after -i)
+1964: sed -i '' '1s/^\xef\xbb\xbf//' ~/.claude/settings.json
+1977:    Get-Content ~/.claude/settings.json | ConvertFrom-Json | Select-Object -ExpandProperty hooks
+1982:    cat ~/.claude/settings.json | jq .hooks
+1999: powershell -ExecutionPolicy Bypass -File install-hooks.ps1
+2087: #### Issue: "Permission denied" Errors on Windows
+2091: **Cause**: PowerShell execution policy or file permissions
+2101: 2. **Check file permissions**:

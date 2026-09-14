@@ -1,4 +1,9 @@
 # Operational Learnings — 2026
+
+## 2026-09-13 — Evidence retrieval evaluation
+- Funes is a promising local-first Hermes history index, but its published benchmark is too small for adoption.
+- Retrieval tests must include irrelevant queries and superseded facts, not just known-positive queries; measure false positives and obsolete-fact ranking as well as Hit@1.
+- External binaries remain quarantined and sanitized before execution; optional publishing/synchronization stays disabled during local evaluation.
 _Consolidated from MEMORY.md during weekly memory consolidation, June 21 2026._
 
 ## Fathom Download

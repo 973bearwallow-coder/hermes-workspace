@@ -35,3 +35,13 @@ _Consolidated from MEMORY.md during weekly memory consolidation, June 21 2026._
 - **Gap**: No automated pickup of Boardroom Fathom links on call days
 - **Fix needed**: Update cron to check for Fathom/Skool coaching calls on Mon/Thu, or create a separate Boardroom-specific cron
 - June 16 call was missed — user had to look for it manually
+
+## September 2–9 — AI Builders Guild Spark mini-classes
+**Sources:** Verified mini-class artifacts in `~/hermes-workspace/coaching-calls/2026-09-02-to-2026-09-09/classes/` for Sep. 2, 4, 7, and 9.
+
+- Build workflow state machines and evidence trails, not disconnected chatbots.
+- Route by consequence and task difficulty; benchmark complete workflows on real jobs rather than trusting vendor leaderboards.
+- Move stable repetition into deterministic code or tested local models; reserve frontier reasoning for ambiguity and review.
+- Treat hosted agent environments as disposable until persistence, access, quotas, recovery, and billing boundaries are verified.
+- Preserve least privilege and human gates for sends, spending, deletion, deployment, customer data, and other consequential actions.
+- Prefer narrow, measurable utilities tied to active Paw Prints or Atlas workflows over broad new platforms.
