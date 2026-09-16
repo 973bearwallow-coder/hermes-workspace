@@ -1,0 +1,45 @@
+{
+  "page": {
+    "width_mm": 215.9,
+    "height_mm": 279.4,
+    "margins_mm": {"top": 14, "bottom": 14, "left": 17, "right": 17}
+  },
+  "styles": [
+    {"name": "BrandTitle", "base": "Normal", "font": "Aptos Display", "size_pt": 18, "bold": true, "color": "315C3B"},
+    {"name": "BrandHeading", "base": "Heading 1", "font": "Aptos Display", "size_pt": 12, "bold": true, "color": "4F7D3A"},
+    {"name": "BrandBody", "base": "Normal", "font": "Aptos", "size_pt": 9, "color": "3D2E25"}
+  ],
+  "blocks": [
+    {"type": "paragraph", "text": "Paw Prints Welcome Packet", "style": "BrandTitle"},
+    {"type": "paragraph", "style": "BrandBody", "runs": [{"text": "Review notes and optional copy suggestions", "bold": true}, {"text": "\nPrepared for Jane and Tom Torok • September 15, 2026"}]},
+    {"type": "paragraph", "style": "BrandBody", "text": "The refreshed packet files preserve all supplied wording. No contractual language, rates, or policies were changed. The items below need Jane’s confirmation before any content is revised."},
+    {"type": "paragraph", "text": "Items requiring confirmation", "style": "BrandHeading"},
+    {"type": "bullet_list", "items": [
+      "Standard packet page 4 is headed “Service Agreement,” but its body contains Veterinary Release language that is duplicated again on page 5. The standard packet therefore does not appear to contain the intended Service Agreement.",
+      "The standard packet’s contents list mentions a Service Agreement and an optional Pet Lodging Addendum, but those documents are not present as described. Please confirm which agreement pages belong in this version.",
+      "The Rates & Services pages differ materially between the packets. The standard version lists $40 for a 45-minute visit, $50 for one hour, $20 transportation, and three-hour preferred windows; the lodging version lists $34, $42, $15, and two-hour preferred windows. Please confirm whether the lodging packet should retain its older rates or use the newer sheet."
+    ]},
+    {"type": "paragraph", "text": "Recommended quick corrections", "style": "BrandHeading"},
+    {"type": "bullet_list", "items": [
+      "In the Pet Lodging packet’s key reminder, change “we will not be ale to access your home” to “we will not be able to access your home.”",
+      "Use “completed and signed” rather than capitalizing “Signed” in the leave-out checklist.",
+      "Use “voicemails” as one word instead of “voice mails.”",
+      "Standardize “Meet & Greet” capitalization wherever the introductory pages refer to the initial interview."
+    ]},
+    {"type": "paragraph", "text": "Optional clarity and tone improvements", "style": "BrandHeading"},
+    {"type": "bullet_list", "items": [
+      "Rename “The New Client Packet Includes” to “What’s Included in Your Welcome Packet” for a warmer, easier-to-scan heading.",
+      "Break the Meet & Greet instructions into three short labeled steps: Meet Your Pet, Review Care Instructions, and Confirm Keys & Paperwork.",
+      "Shorten the key paragraph so the emergency consequence is prominent: leaving the key ends Paw Prints’ access for delays or unexpected care needs.",
+      "Tighten the Contact Us paragraph by leading with the 8 AM–8 PM business hours and the same-day response goal.",
+      "Keep the current warm closing; it fits the Paw Prints promise and balances the formal agreements that follow."
+    ]},
+    {"type": "paragraph", "text": "Visual direction used in the refreshed files", "style": "BrandHeading"},
+    {"type": "bullet_list", "items": [
+      "One consistent deep-green title treatment across agreements and forms.",
+      "Soft green and warm-gold field accents instead of neon highlighting.",
+      "Paw Prints logo and existing page structure retained.",
+      "Original portrait format, page counts, signatures, rates, and contractual wording preserved."
+    ]}
+  ]
+}
