@@ -5,8 +5,8 @@ NOT the MoA task-execution stack.
 
 CONTEXT:
   - Atlas's default brain is set in ~/.hermes/config.yaml (profile: default)
-  - Currently: tencent/hy3:free (expires 2026-07-21)
-  - Plan: on Jul 21, switch default -> deepseek/deepseek-v4-flash (free, stable)
+  - Former default: tencent/hy3:free (retired after its 2026-07-21 expiry)
+  - Current fallback: deepseek/deepseek-v4-flash (free, stable)
   - For HIGH-REASONING tasks, Atlas can escalate its OWN brain to the ChatGPT
     Plus OAuth route (gpt-5.6-sol via openai-codex) — $0 marginal, already paid.
 
@@ -28,7 +28,7 @@ STATE_FILE = "/home/tom/hermes-workspace/memory/atlas_brain_state.json"
 FLASH_MODEL = "deepseek/deepseek-v4-flash"
 CODEX_MODEL = "openai-codex/gpt-5.6-sol"
 HY3_MODEL = "tencent/hy3:free"
-HY3_EXPIRY = datetime.date(2026, 7, 21)
+HY3_EXPIRY = datetime.date(2026, 7, 21)  # historical migration metadata
 
 # Reasoning-escalation keywords: when Atlas's OWN thinking needs more horsepower
 REASONING_KEYWORDS = [
@@ -100,8 +100,13 @@ def status():
     calls_today = sum(1 for t in s["codex_brain_calls"] if t > today)
     return {
         "current_brain": current_model(),
-        "hy3_expiry": HY3_EXPIRY.isoformat(),
-        "days_until_hy3_expiry": (HY3_EXPIRY - datetime.date.today()).days,
+        # HY3 is no longer an active routing option. Keep its retirement date
+        # for provenance, but do not present a stale negative countdown as a
+        # live status or alert condition.
+        "legacy_hy3": {
+            "status": "retired",
+            "retired_on": HY3_EXPIRY.isoformat(),
+        },
         "codex_brain_calls_today": calls_today,
         "codex_brain_soft_cap": 15,
         "last_switch": s.get("last_switch"),
