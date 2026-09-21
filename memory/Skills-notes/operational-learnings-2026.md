@@ -4,6 +4,12 @@
 - Funes is a promising local-first Hermes history index, but its published benchmark is too small for adoption.
 - Retrieval tests must include irrelevant queries and superseded facts, not just known-positive queries; measure false positives and obsolete-fact ranking as well as Hit@1.
 - External binaries remain quarantined and sanitized before execution; optional publishing/synchronization stays disabled during local evaluation.
+
+## 2026-09-20 — Voice bridge acceptance discipline
+- Completion-first microphone rearm must wait for matching terminal completion, drained playback, and an echo-tail guard; Stop/New Question must invalidate pending rearm.
+- Browser/unit acceptance is not physical acceptance. Keep production unchanged until the Samsung proves one audible answer per turn and automatic listening after playback.
+- For the real-time bridge, prove gateway-to-outbound-media delivery with grounded, non-silent audio before asking for another phone/OpenRun test.
+- Prefer one general memory-aware Atlas reasoning bridge with deterministic read-only tools over brittle domain-specific patches.
 _Consolidated from MEMORY.md during weekly memory consolidation, June 21 2026._
 
 ## Fathom Download
@@ -23,8 +29,9 @@ _Consolidated from MEMORY.md during weekly memory consolidation, June 21 2026._
 ## Sub-agents
 - Don't use for CPU-bound batch work (Whisper). Use background processes in main session instead.
 
-## Model
-- Stay on openrouter/owl-alpha. Do NOT switch without asking Tom.
+## Model routing
+- Use GPT-6 Astra for consequential reasoning; use Sol, Terra, Luna, or local models for routine/high-volume work.
+- Do not buy credits or use separately API-billed capacity without Tom's explicit approval.
 
 ## GitHub API
 - Always use `gh api` for GitHub calls on charles — never raw curl
@@ -42,24 +49,23 @@ _Consolidated from MEMORY.md during weekly memory consolidation, June 21 2026._
 - Filter changed from 1-day → 12-hour
 - When LLM cron reports counts, ALWAYS verify with filesystem
 
-|## skill_manage write_file Blocked
-|- 'email-organization' exists in both productivity/ and email/himalaya/references/
-|- Use action='edit' with name='email-organization' instead
-|
-|## Voicebox Whisper STT Fix (2026-06-27)
-|- Bug: WhisperForConditionalGeneration.from_pretrained() had weight-loading issue for output projection layer
-|- Fix: Use whisper.load_model() instead, store as self._whisper_model (separate from self.model for TTS)
-|- Verified: End-to-end TTS ✅ STT ✅ Health ✅
-|- Always check `curl http://127.0.0.1:17493/health` if STT errors
-|
-|## Coaching Call Summarizer (2026-07-01 update)
-|- 29 txt files >10KB in ~/Desktop/coaching_call/, 33 mp3 files
-|- Key insight from June 4 call: Skills = Recipes (repeat), Workflows = Meal Plans (progression)
-|- Claude.ai → Claude Code pipeline: roadmap in web → execute in terminal (mirrors Atlas/Charles split)
-|
-|## Model Notes (verified 2026-07-05)
-|- Atlas primary: openrouter/owl-alpha (1M ctx). Do NOT switch without asking Tom.
-|- Heavy reasoning: deepseek/deepseek-v4-pro. Backup: nemotron-3-nano (free)
-|- Vision: Use local Ollama API directly (vision_analyze tool has 401 auth error)
-|- Charles local: ollama qwen3:30b-a3b on RTX 3090
-|- Always verify free model availability before recommending — OpenRouter free tier changes frequently
+## skill_manage write_file Blocked
+- `email-organization` exists in both productivity/ and email/himalaya/references/.
+- Use `action='edit'` with `name='email-organization'` instead.
+
+## Voicebox Whisper STT Fix (2026-06-27)
+- Bug: WhisperForConditionalGeneration.from_pretrained() had a weight-loading issue for the output projection layer.
+- Fix: Use `whisper.load_model()` instead, stored as `self._whisper_model` (separate from `self.model` for TTS).
+- Verified: end-to-end TTS, STT, and health passed.
+- Check `curl http://127.0.0.1:17493/health` if STT errors recur.
+
+## Coaching Call Summarizer (2026-07-01 update)
+- 29 txt files >10KB in `~/Desktop/coaching_call/`, 33 mp3 files.
+- Key insight from June 4 call: Skills = Recipes (repeat), Workflows = Meal Plans (progression).
+- Claude.ai → Claude Code pipeline: roadmap in web → execute in terminal (mirrors Atlas/Charles split).
+
+## Model Notes
+- Current routing policy is recorded above; older fixed Owl/DeepSeek routing was retired.
+- Vision uses the local Ollama API directly.
+- Charles local model note: Ollama qwen3:30b-a3b on RTX 3090.
+- Verify free-model availability before recommending; OpenRouter free tiers change frequently.

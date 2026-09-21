@@ -1,6 +1,6 @@
 # Atlas Quick Memory Reference
 
-Updated: 2026-09-13
+Updated: 2026-09-20
 
 ## Sources of truth
 - Injected profile memory: `~/.hermes/workspace/MEMORY.md`
@@ -17,7 +17,7 @@ Updated: 2026-09-13
 - `Captures/` — raw screen/audio/chat captures; old dated captures move to `archived/Captures/`.
 - `Hermes_Logs/` — exported daily Hermes chat logs.
 - `Archive/` and `archived/` — retained historical material.
-- No current vault-level `Meeting-Notes/` or `people/` directory.
+- No current vault-level `Meeting-Notes/` or `people/` directory; consolidated notes remain in the extended working mirror.
 
 ## Extended working mirror highlights
 - `Meeting-Notes/coaching-calls-2026.md`
